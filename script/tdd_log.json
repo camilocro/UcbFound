@@ -1,8 +1,14 @@
 [
   {
-    "commitId": "HEAD",
+    "commitId": "219631cacea5af8f93e0ed4eb97d19e69657467b",
     "commitName": "chore: agregar proyecto base de UCBFound",
     "commitTimestamp": 1791900476947,
     "testId": 0
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "chore: configurar React para la interfaz",
+    "commitTimestamp": 1791901032559,
+    "testId": 1
   }
 ]

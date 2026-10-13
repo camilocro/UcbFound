@@ -1,0 +1,170 @@
+:root {
+  --azul: #0b2a5b;
+  --amarillo: #f5b800;
+  --fondo: #f5f7fa;
+  --texto: #1f2937;
+  --gris: #6b7280;
+  --borde: #d1d5db;
+  --verde: #15803d;
+  --verde-fondo: #dcfce7;
+  --rojo: #b91c1c;
+  --rojo-fondo: #fee2e2;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+  background: var(--fondo);
+  color: var(--texto);
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.encabezado {
+  background: var(--azul);
+  border-bottom: 4px solid var(--amarillo);
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.logo span {
+  color: var(--amarillo);
+}
+
+.encabezado__texto {
+  color: #dbe4f3;
+  font-size: 0.95rem;
+}
+
+.contenido {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 16px;
+}
+
+.pie {
+  text-align: center;
+  padding: 16px;
+  color: var(--gris);
+  font-size: 0.85rem;
+}
+
+.tarjeta {
+  width: 100%;
+  max-width: 440px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px 28px;
+  box-shadow: 0 10px 30px rgba(11, 42, 91, 0.1);
+}
+
+.tarjeta__titulo {
+  color: var(--azul);
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+
+.tarjeta__subtitulo {
+  color: var(--gris);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.campo label {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.campo input {
+  padding: 12px 14px;
+  font-size: 1rem;
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+}
+
+.campo input:focus {
+  outline: none;
+  border-color: var(--azul);
+  box-shadow: 0 0 0 3px rgba(245, 184, 0, 0.35);
+}
+
+.campo__ayuda {
+  color: var(--gris);
+  font-size: 0.85rem;
+}
+
+.mensaje {
+  padding: 12px 14px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.mensaje--exito {
+  color: var(--verde);
+  background: var(--verde-fondo);
+}
+
+.mensaje--error {
+  color: var(--rojo);
+  background: var(--rojo-fondo);
+}
+
+.boton {
+  padding: 13px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--azul);
+  background: var(--amarillo);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  filter: brightness(1.05);
+}
+
+@media (max-width: 480px) {
+  .tarjeta {
+    padding: 24px 18px;
+  }
+
+  .encabezado__texto {
+    display: none;
+  }
+}
