@@ -6,9 +6,47 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e6b89008680efa6714e5bfde194db93be2600347",
     "commitName": "chore: configurar React para la interfaz",
     "commitTimestamp": 1791901032559,
     "testId": 1
+  },
+  {
+    "numPassedTests": 0,
+    "failedTests": 0,
+    "numTotalTests": 0,
+    "timestamp": 1791901064007,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 0,
+    "failedTests": 0,
+    "numTotalTests": 0,
+    "timestamp": 1791901248897,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 0,
+    "failedTests": 0,
+    "numTotalTests": 0,
+    "timestamp": 1791901377737,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1791901393318,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: crear cuenta con nombre, correo UCB y contraseña válidos",
+    "commitTimestamp": 1791901484837,
+    "testId": 2
   }
 ]

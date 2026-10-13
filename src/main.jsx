@@ -1,4 +1,5 @@
 import { createRoot } from 'react-dom/client';
+import FormularioRegistro from './components/FormularioRegistro.jsx';
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
         <span className="encabezado__texto">Objetos perdidos y encontrados</span>
       </header>
       <main className="contenido">
-        <p>Próximamente: registro de usuarios.</p>
+        <FormularioRegistro />
       </main>
       <footer className="pie">UCBFound · Universidad Católica Boliviana</footer>
     </div>

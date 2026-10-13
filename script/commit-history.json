@@ -19,12 +19,12 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "e6b89008680efa6714e5bfde194db93be2600347",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-13T14:17:08.000Z",
       "message": "chore: configurar React para la interfaz",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/e6b89008680efa6714e5bfde194db93be2600347"
     },
     "stats": {
       "total": 280,
@@ -36,5 +36,24 @@
     "test_count": 0,
     "failed_tests": 0,
     "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-13T14:24:41.000Z",
+      "message": "feat: crear cuenta con nombre, correo UCB y contraseña válidos",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 1068,
+      "additions": 598,
+      "deletions": 470,
+      "date": "2026-10-13"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]
