@@ -118,9 +118,31 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2bb1bd0b010260c7d3bc450bde34646fe39aa251",
     "commitName": "feat: validar que la contraseña no esté vacía",
     "commitTimestamp": 1791984538093,
     "testId": 5
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1791984676126,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1791984706058,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: tratar como vacíos los campos que solo tienen espacios",
+    "commitTimestamp": 1791984731004,
+    "testId": 6
   }
 ]

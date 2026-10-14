@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2bb1bd0b010260c7d3bc450bde34646fe39aa251",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-14T13:28:55.000Z",
       "message": "feat: validar que la contraseña no esté vacía",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/2bb1bd0b010260c7d3bc450bde34646fe39aa251"
     },
     "stats": {
       "total": 11,
@@ -110,6 +110,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-14T13:32:07.000Z",
+      "message": "feat: tratar como vacíos los campos que solo tienen espacios",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-10-14"
+    },
+    "coverage": 100,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }

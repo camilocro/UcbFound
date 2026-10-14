@@ -34,3 +34,10 @@ describe('HU-01 Criterio 4: campos vacíos', () => {
     expect(resultado).toEqual({ exito: false, mensaje: 'Por favor, complete todos los campos' });
   });
 });
+
+describe('HU-01 Criterio 4: campos vacíos', () => {
+  it('debería pedir completar los campos cuando el nombre solo tiene espacios', () => {
+    const resultado = registrarUsuario({ ...datosValidos, nombre: '   ' });
+    expect(resultado).toEqual({ exito: false, mensaje: 'Por favor, complete todos los campos' });
+  });
+});

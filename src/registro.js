@@ -4,7 +4,7 @@ export const MENSAJES = {
 };
 
 export function hayCamposVacios({ nombre, correo, contrasena }) {
-  return [nombre, correo, contrasena].some((campo) => campo === '');
+  return [nombre, correo, contrasena].some((campo) => campo.trim() === '');
 }
 
 function crearError(mensaje) {
