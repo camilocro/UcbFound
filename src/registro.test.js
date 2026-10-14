@@ -48,3 +48,10 @@ describe('HU-01 Criterio 2: solo correos @ucb.edu.bo', () => {
     expect(resultado).toEqual({ exito: false, mensaje: 'Solo se permiten correos @ucb.edu.bo' });
   });
 });
+
+describe('HU-01 Criterio 2: solo correos @ucb.edu.bo', () => {
+  it('debería rechazar un correo sin nombre antes de @ucb.edu.bo', () => {
+    const resultado = registrarUsuario({ ...datosValidos, correo: '@ucb.edu.bo' });
+    expect(resultado).toEqual({ exito: false, mensaje: 'Solo se permiten correos @ucb.edu.bo' });
+  });
+});

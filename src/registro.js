@@ -11,7 +11,8 @@ export function hayCamposVacios({ nombre, correo, contrasena }) {
 }
 
 export function esCorreoUcb(correo) {
-  return correo.endsWith(DOMINIO_UCB);
+  const usuario = correo.slice(0, -DOMINIO_UCB.length);
+  return correo.endsWith(DOMINIO_UCB) && usuario.length > 0 && !/[\s@]/.test(usuario);
 }
 
 function crearError(mensaje) {

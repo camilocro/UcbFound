@@ -162,9 +162,31 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2871dd364d2646c29a99743ffc0ada0f388af76f",
     "commitName": "feat: rechazar correos que no terminen en @ucb.edu.bo",
     "commitTimestamp": 1791984815368,
     "testId": 7
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1791984848315,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1791984867735,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: rechazar correos sin nombre de usuario antes de @ucb.edu.bo",
+    "commitTimestamp": 1791984884002,
+    "testId": 8
   }
 ]
