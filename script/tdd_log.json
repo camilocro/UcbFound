@@ -294,9 +294,31 @@
     "testId": 13
   },
   {
-    "commitId": "HEAD",
+    "commitId": "557cd3e7bfdec356241249a644941e73289ee03f",
     "commitName": "feat: detectar correo repetido sin importar mayúsculas ni espacios",
     "commitTimestamp": 1791986028304,
     "testId": 13
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1791986239770,
+    "success": false,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1791986264488,
+    "success": true,
+    "testId": 14
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: guardar el usuario con el correo en minúsculas",
+    "commitTimestamp": 1791986304095,
+    "testId": 14
   }
 ]

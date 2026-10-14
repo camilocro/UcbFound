@@ -44,5 +44,9 @@ export function registrarUsuario(datos, correosRegistrados = []) {
   if (correosRegistrados.includes(correo)) {
     return crearError(MENSAJES.CORREO_REPETIDO);
   }
-  return { exito: true, mensaje: MENSAJES.CUENTA_CREADA };
+  return {
+    exito: true,
+    mensaje: MENSAJES.CUENTA_CREADA,
+    usuario: { nombre: datos.nombre.trim(), correo, contrasena: datos.contrasena },
+  };
 }

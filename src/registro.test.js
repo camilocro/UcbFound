@@ -76,3 +76,10 @@ describe('HU-01 Criterio 3: correo ya registrado', () => {
     expect(resultado).toEqual({ exito: false, mensaje: 'Este correo ya está registrado' });
   });
 });
+
+describe('HU-01 Criterio 1: crear cuenta con datos válidos', () => {
+  it('debería devolver el usuario con el correo en minúsculas y sin espacios', () => {
+    const resultado = registrarUsuario({ nombre: ' Juan Pérez ', correo: ' Juan.Perez@UCB.edu.bo ', contrasena: 'clave1234' });
+    expect(resultado.usuario).toEqual({ nombre: 'Juan Pérez', correo: 'juan.perez@ucb.edu.bo', contrasena: 'clave1234' });
+  });
+});

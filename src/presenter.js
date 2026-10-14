@@ -6,11 +6,7 @@ const repositorio = new RepositorioUsuarios(window.localStorage);
 export function procesarRegistro(datos) {
   const resultado = registrarUsuario(datos, repositorio.obtenerCorreos());
   if (resultado.exito) {
-    repositorio.guardar({
-      nombre: datos.nombre,
-      correo: datos.correo,
-      contrasena: datos.contrasena,
-    });
+    repositorio.guardar(resultado.usuario);
   }
   return resultado;
 }
