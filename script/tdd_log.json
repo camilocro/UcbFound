@@ -96,9 +96,31 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c008a643bfd644489877fba4e111e140fff5e2d2",
     "commitName": "feat: validar que el correo no esté vacío",
     "commitTimestamp": 1791984364469,
     "testId": 4
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1791984444457,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1791984505306,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar que la contraseña no esté vacía",
+    "commitTimestamp": 1791984538093,
+    "testId": 5
   }
 ]

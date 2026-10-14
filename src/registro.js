@@ -3,8 +3,8 @@ export const MENSAJES = {
   CAMPOS_VACIOS: 'Por favor, complete todos los campos',
 };
 
-export function hayCamposVacios(datos) {
-  return datos.nombre === '' || datos.correo === '';
+export function hayCamposVacios({ nombre, correo, contrasena }) {
+  return [nombre, correo, contrasena].some((campo) => campo === '');
 }
 
 function crearError(mensaje) {
