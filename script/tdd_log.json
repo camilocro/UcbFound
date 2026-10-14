@@ -140,9 +140,31 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "435cb3a3cac3dfc9f1e57b874b902bd292067307",
     "commitName": "feat: tratar como vacíos los campos que solo tienen espacios",
     "commitTimestamp": 1791984731004,
     "testId": 6
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1791984775868,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1791984790194,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: rechazar correos que no terminen en @ucb.edu.bo",
+    "commitTimestamp": 1791984815368,
+    "testId": 7
   }
 ]

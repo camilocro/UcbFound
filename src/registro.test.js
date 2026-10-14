@@ -41,3 +41,10 @@ describe('HU-01 Criterio 4: campos vacíos', () => {
     expect(resultado).toEqual({ exito: false, mensaje: 'Por favor, complete todos los campos' });
   });
 });
+
+describe('HU-01 Criterio 2: solo correos @ucb.edu.bo', () => {
+  it('debería rechazar un correo que no termina en @ucb.edu.bo', () => {
+    const resultado = registrarUsuario({ ...datosValidos, correo: 'juan.perez@gmail.com' });
+    expect(resultado).toEqual({ exito: false, mensaje: 'Solo se permiten correos @ucb.edu.bo' });
+  });
+});
