@@ -206,9 +206,31 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f59b17857b0edfeb916b395f7d633948a6dd1125",
     "commitName": "feat: exigir contraseña de mínimo 8 caracteres",
     "commitTimestamp": 1791985604836,
     "testId": 9
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1791985663962,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1791985692465,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: avisar cuando el correo ya está registrado",
+    "commitTimestamp": 1791985723280,
+    "testId": 10
   }
 ]

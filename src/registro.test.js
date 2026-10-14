@@ -62,3 +62,10 @@ describe('HU-01 Criterio 1: contraseña de mínimo 8 caracteres', () => {
     expect(resultado).toEqual({ exito: false, mensaje: 'La contraseña debe tener al menos 8 caracteres' });
   });
 });
+
+describe('HU-01 Criterio 3: correo ya registrado', () => {
+  it('debería avisar que el correo ya está registrado', () => {
+    const resultado = registrarUsuario(datosValidos, ['juan.perez@ucb.edu.bo']);
+    expect(resultado).toEqual({ exito: false, mensaje: 'Este correo ya está registrado' });
+  });
+});

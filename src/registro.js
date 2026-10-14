@@ -3,6 +3,7 @@ export const MENSAJES = {
   CAMPOS_VACIOS: 'Por favor, complete todos los campos',
   CORREO_NO_UCB: 'Solo se permiten correos @ucb.edu.bo',
   CONTRASENA_CORTA: 'La contraseña debe tener al menos 8 caracteres',
+  CORREO_REPETIDO: 'Este correo ya está registrado',
 };
 
 const DOMINIO_UCB = '@ucb.edu.bo';
@@ -25,7 +26,7 @@ function crearError(mensaje) {
   return { exito: false, mensaje };
 }
 
-export function registrarUsuario(datos) {
+export function registrarUsuario(datos, correosRegistrados = []) {
   if (hayCamposVacios(datos)) {
     return crearError(MENSAJES.CAMPOS_VACIOS);
   }
@@ -34,6 +35,9 @@ export function registrarUsuario(datos) {
   }
   if (!esContrasenaValida(datos.contrasena)) {
     return crearError(MENSAJES.CONTRASENA_CORTA);
+  }
+  if (correosRegistrados.includes(datos.correo)) {
+    return crearError(MENSAJES.CORREO_REPETIDO);
   }
   return { exito: true, mensaje: MENSAJES.CUENTA_CREADA };
 }
