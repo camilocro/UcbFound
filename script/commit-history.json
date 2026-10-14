@@ -38,12 +38,12 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "a4fe23b5c04ed4e5712f1941a633f20a66fcda06",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-13T14:24:41.000Z",
       "message": "feat: crear cuenta con nombre, correo UCB y contraseña válidos",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/a4fe23b5c04ed4e5712f1941a633f20a66fcda06"
     },
     "stats": {
       "total": 1068,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-14T13:24:23.000Z",
+      "message": "feat: validar que el nombre no esté vacío",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 20,
+      "deletions": 1,
+      "date": "2026-10-14"
+    },
+    "coverage": 100,
+    "test_count": 2,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -13,3 +13,10 @@ describe('HU-01 Criterio 1: crear cuenta con datos válidos', () => {
     expect(resultado.mensaje).toEqual('Cuenta creada correctamente');
   });
 });
+
+describe('HU-01 Criterio 4: campos vacíos', () => {
+  it('debería pedir completar los campos cuando el nombre está vacío', () => {
+    const resultado = registrarUsuario({ ...datosValidos, nombre: '' });
+    expect(resultado).toEqual({ exito: false, mensaje: 'Por favor, complete todos los campos' });
+  });
+});

@@ -44,9 +44,39 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a4fe23b5c04ed4e5712f1941a633f20a66fcda06",
     "commitName": "feat: crear cuenta con nombre, correo UCB y contraseña válidos",
     "commitTimestamp": 1791901484837,
     "testId": 2
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1791984061236,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 1,
+    "numTotalTests": 2,
+    "timestamp": 1791984208212,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1791984239266,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar que el nombre no esté vacío",
+    "commitTimestamp": 1791984266167,
+    "testId": 3
   }
 ]
