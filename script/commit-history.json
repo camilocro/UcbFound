@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a149b32795c143a5221f29927919216e67fecda9",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-14T13:24:23.000Z",
       "message": "feat: validar que el nombre no esté vacío",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/a149b32795c143a5221f29927919216e67fecda9"
     },
     "stats": {
       "total": 21,
@@ -72,6 +72,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-14T13:26:01.000Z",
+      "message": "feat: validar que el correo no esté vacío",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-10-14"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }

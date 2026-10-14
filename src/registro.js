@@ -4,7 +4,7 @@ export const MENSAJES = {
 };
 
 export function hayCamposVacios(datos) {
-  return datos.nombre === '';
+  return datos.nombre === '' || datos.correo === '';
 }
 
 function crearError(mensaje) {
