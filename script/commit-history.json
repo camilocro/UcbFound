@@ -266,17 +266,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "62cf2b3d258382f4448945c5de35132396ad0444",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-14T13:58:21.000Z",
       "message": "feat: guardar el usuario con el correo en minúsculas",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/62cf2b3d258382f4448945c5de35132396ad0444"
     },
     "stats": {
       "total": 19,
       "additions": 13,
       "deletions": 6,
+      "date": "2026-10-14"
+    },
+    "coverage": 100,
+    "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-14T14:01:10.000Z",
+      "message": "refactor: organizar el código en carpetas model, presenter y view",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 4,
+      "deletions": 4,
       "date": "2026-10-14"
     },
     "coverage": 100,

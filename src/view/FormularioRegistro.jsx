@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { procesarRegistro } from '../presenter.js';
+import { procesarRegistro } from '../presenter/registroPresenter.js';
 
 const DATOS_INICIALES = { nombre: '', correo: '', contrasena: '' };
 

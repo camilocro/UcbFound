@@ -316,9 +316,23 @@
     "testId": 14
   },
   {
-    "commitId": "HEAD",
+    "commitId": "62cf2b3d258382f4448945c5de35132396ad0444",
     "commitName": "feat: guardar el usuario con el correo en minúsculas",
     "commitTimestamp": 1791986304095,
     "testId": 14
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1791986460101,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: organizar el código en carpetas model, presenter y view",
+    "commitTimestamp": 1791986472893,
+    "testId": 15
   }
 ]

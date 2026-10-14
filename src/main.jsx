@@ -1,5 +1,5 @@
 import { createRoot } from 'react-dom/client';
-import FormularioRegistro from './components/FormularioRegistro.jsx';
+import FormularioRegistro from './view/FormularioRegistro.jsx';
 
 function App() {
   return (

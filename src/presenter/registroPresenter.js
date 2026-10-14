@@ -1,5 +1,5 @@
-import { registrarUsuario } from './registro.js';
-import { RepositorioUsuarios } from './repositorioUsuarios.js';
+import { registrarUsuario } from '../model/registro.js';
+import { RepositorioUsuarios } from '../model/repositorioUsuarios.js';
 
 const repositorio = new RepositorioUsuarios(window.localStorage);
 
