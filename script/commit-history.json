@@ -228,12 +228,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4ceb8dc5778aaf1e0c317ee450e1ada5573955ec",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-14T13:52:17.000Z",
       "message": "feat: guardar los usuarios registrados en el navegador",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/4ceb8dc5778aaf1e0c317ee450e1ada5573955ec"
     },
     "stats": {
       "total": 29,
@@ -243,6 +243,25 @@
     },
     "coverage": 100,
     "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-14T13:53:45.000Z",
+      "message": "feat: detectar correo repetido sin importar mayúsculas ni espacios",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 14,
+      "deletions": 2,
+      "date": "2026-10-14"
+    },
+    "coverage": 100,
+    "test_count": 12,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -272,9 +272,31 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4ceb8dc5778aaf1e0c317ee450e1ada5573955ec",
     "commitName": "feat: guardar los usuarios registrados en el navegador",
     "commitTimestamp": 1791985941059,
     "testId": 12
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1791985971660,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1791986008225,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: detectar correo repetido sin importar mayúsculas ni espacios",
+    "commitTimestamp": 1791986028304,
+    "testId": 13
   }
 ]

@@ -22,6 +22,10 @@ export function esContrasenaValida(contrasena) {
   return contrasena.length >= LONGITUD_MINIMA_CONTRASENA;
 }
 
+export function normalizarCorreo(correo) {
+  return correo.trim().toLowerCase();
+}
+
 function crearError(mensaje) {
   return { exito: false, mensaje };
 }
@@ -30,13 +34,14 @@ export function registrarUsuario(datos, correosRegistrados = []) {
   if (hayCamposVacios(datos)) {
     return crearError(MENSAJES.CAMPOS_VACIOS);
   }
-  if (!esCorreoUcb(datos.correo)) {
+  const correo = normalizarCorreo(datos.correo);
+  if (!esCorreoUcb(correo)) {
     return crearError(MENSAJES.CORREO_NO_UCB);
   }
   if (!esContrasenaValida(datos.contrasena)) {
     return crearError(MENSAJES.CONTRASENA_CORTA);
   }
-  if (correosRegistrados.includes(datos.correo)) {
+  if (correosRegistrados.includes(correo)) {
     return crearError(MENSAJES.CORREO_REPETIDO);
   }
   return { exito: true, mensaje: MENSAJES.CUENTA_CREADA };
