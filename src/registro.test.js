@@ -55,3 +55,10 @@ describe('HU-01 Criterio 2: solo correos @ucb.edu.bo', () => {
     expect(resultado).toEqual({ exito: false, mensaje: 'Solo se permiten correos @ucb.edu.bo' });
   });
 });
+
+describe('HU-01 Criterio 1: contraseña de mínimo 8 caracteres', () => {
+  it('debería rechazar una contraseña de menos de 8 caracteres', () => {
+    const resultado = registrarUsuario({ ...datosValidos, contrasena: '1234567' });
+    expect(resultado).toEqual({ exito: false, mensaje: 'La contraseña debe tener al menos 8 caracteres' });
+  });
+});

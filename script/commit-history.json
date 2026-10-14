@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "70625108fd1bd37235bedcb8a06094e4c38fe26a",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-14T13:34:41.000Z",
       "message": "feat: rechazar correos sin nombre de usuario antes de @ucb.edu.bo",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/70625108fd1bd37235bedcb8a06094e4c38fe26a"
     },
     "stats": {
       "total": 10,
@@ -167,6 +167,25 @@
     },
     "coverage": 100,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-14T13:46:41.000Z",
+      "message": "feat: exigir contraseña de mínimo 8 caracteres",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 16,
+      "deletions": 0,
+      "date": "2026-10-14"
+    },
+    "coverage": 100,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }

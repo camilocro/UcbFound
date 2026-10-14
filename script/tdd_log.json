@@ -184,9 +184,31 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "70625108fd1bd37235bedcb8a06094e4c38fe26a",
     "commitName": "feat: rechazar correos sin nombre de usuario antes de @ucb.edu.bo",
     "commitTimestamp": 1791984884002,
     "testId": 8
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1791985559517,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1791985591970,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: exigir contraseña de mínimo 8 caracteres",
+    "commitTimestamp": 1791985604836,
+    "testId": 9
   }
 ]
