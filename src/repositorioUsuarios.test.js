@@ -17,3 +17,11 @@ describe('Repositorio de usuarios', () => {
     expect(repositorio.obtenerUsuarios()).toEqual([]);
   });
 });
+
+describe('Repositorio de usuarios: guardar', () => {
+  it('debería guardar un usuario y devolver su correo', () => {
+    const repositorio = new RepositorioUsuarios(crearAlmacenamientoFalso());
+    repositorio.guardar({ nombre: 'Ana López', correo: 'ana.lopez@ucb.edu.bo', contrasena: 'clave1234' });
+    expect(repositorio.obtenerCorreos()).toEqual(['ana.lopez@ucb.edu.bo']);
+  });
+});

@@ -1,11 +1,16 @@
 import { registrarUsuario } from './registro.js';
+import { RepositorioUsuarios } from './repositorioUsuarios.js';
 
-const correosRegistrados = [];
+const repositorio = new RepositorioUsuarios(window.localStorage);
 
 export function procesarRegistro(datos) {
-  const resultado = registrarUsuario(datos, correosRegistrados);
+  const resultado = registrarUsuario(datos, repositorio.obtenerCorreos());
   if (resultado.exito) {
-    correosRegistrados.push(datos.correo);
+    repositorio.guardar({
+      nombre: datos.nombre,
+      correo: datos.correo,
+      contrasena: datos.contrasena,
+    });
   }
   return resultado;
 }

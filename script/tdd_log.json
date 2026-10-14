@@ -250,9 +250,31 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bdc4623b6123af15ad9c8c5d7dca5e9f1a02bc4b",
     "commitName": "feat: crear repositorio de usuarios",
     "commitTimestamp": 1791985824635,
     "testId": 11
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1791985898079,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1791985915798,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: guardar los usuarios registrados en el navegador",
+    "commitTimestamp": 1791985941059,
+    "testId": 12
   }
 ]

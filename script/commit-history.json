@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bdc4623b6123af15ad9c8c5d7dca5e9f1a02bc4b",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-14T13:50:21.000Z",
       "message": "feat: crear repositorio de usuarios",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/bdc4623b6123af15ad9c8c5d7dca5e9f1a02bc4b"
     },
     "stats": {
       "total": 32,
@@ -224,6 +224,25 @@
     },
     "coverage": 100,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-14T13:52:17.000Z",
+      "message": "feat: guardar los usuarios registrados en el navegador",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 29,
+      "additions": 26,
+      "deletions": 3,
+      "date": "2026-10-14"
+    },
+    "coverage": 100,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }
