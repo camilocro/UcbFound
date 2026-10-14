@@ -228,9 +228,31 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8c5e3a7a90326c6688eebfdea4a53c8b5ba4dba6",
     "commitName": "feat: avisar cuando el correo ya está registrado",
     "commitTimestamp": 1791985723280,
     "testId": 10
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1791985757000,
+    "success": false,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1791985780302,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: crear repositorio de usuarios",
+    "commitTimestamp": 1791985824635,
+    "testId": 11
   }
 ]

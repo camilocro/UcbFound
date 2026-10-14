@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8c5e3a7a90326c6688eebfdea4a53c8b5ba4dba6",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-14T13:48:39.000Z",
       "message": "feat: avisar cuando el correo ya está registrado",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/8c5e3a7a90326c6688eebfdea4a53c8b5ba4dba6"
     },
     "stats": {
       "total": 21,
@@ -205,6 +205,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-14T13:50:21.000Z",
+      "message": "feat: crear repositorio de usuarios",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 32,
+      "additions": 32,
+      "deletions": 0,
+      "date": "2026-10-14"
+    },
+    "coverage": 100,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }
