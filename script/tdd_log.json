@@ -462,9 +462,31 @@
     "testId": 21
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6dc379e8c3a121f4f98b33d0ba5b9a2ee6f4dbff",
     "commitName": "feat: ignorar mayúsculas y espacios en el correo al iniciar sesión",
     "commitTimestamp": 1792073296614,
     "testId": 21
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1792073341336,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1792073373105,
+    "success": true,
+    "testId": 22
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: crear presenter de inicio de sesión",
+    "commitTimestamp": 1792073384548,
+    "testId": 22
   }
 ]

@@ -399,12 +399,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6dc379e8c3a121f4f98b33d0ba5b9a2ee6f4dbff",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-15T14:08:15.000Z",
       "message": "feat: ignorar mayúsculas y espacios en el correo al iniciar sesión",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/6dc379e8c3a121f4f98b33d0ba5b9a2ee6f4dbff"
     },
     "stats": {
       "total": 12,
@@ -414,6 +414,25 @@
     },
     "coverage": 100,
     "test_count": 18,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-15T14:09:43.000Z",
+      "message": "feat: crear presenter de inicio de sesión",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 34,
+      "additions": 34,
+      "deletions": 0,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 19,
     "failed_tests": 0,
     "conclusion": "success"
   }
