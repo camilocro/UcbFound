@@ -498,9 +498,23 @@
     "testId": 23
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6edaacfddcbcec9fff63cc54ec38d06117aef2a1",
     "commitName": "feat: crear formulario de inicio de sesión en la vista",
     "commitTimestamp": 1792073437984,
     "testId": 23
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1792073483166,
+    "success": true,
+    "testId": 24
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: conectar el inicio de sesión en la pantalla principal",
+    "commitTimestamp": 1792073813217,
+    "testId": 24
   }
 ]

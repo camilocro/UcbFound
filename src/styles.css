@@ -168,3 +168,13 @@ body {
     display: none;
   }
 }
+.enlace {
+  display: block;
+  margin: 12px auto 0;
+  background: none;
+  border: none;
+  color: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+  font: inherit;
+}

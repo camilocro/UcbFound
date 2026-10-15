@@ -437,17 +437,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6edaacfddcbcec9fff63cc54ec38d06117aef2a1",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-15T14:10:36.000Z",
       "message": "feat: crear formulario de inicio de sesión en la vista",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/6edaacfddcbcec9fff63cc54ec38d06117aef2a1"
     },
     "stats": {
       "total": 72,
       "additions": 72,
       "deletions": 0,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-15T14:16:51.000Z",
+      "message": "feat: conectar el inicio de sesión en la pantalla principal",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 36,
+      "additions": 35,
+      "deletions": 1,
       "date": "2026-10-15"
     },
     "coverage": 100,
