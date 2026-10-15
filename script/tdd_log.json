@@ -344,9 +344,39 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "600fa2dd3058224d287809b54eca9da3ddd7a6a8",
     "commitName": "refactor: crear clase Usuario y usar clases en el registro y el presenter",
     "commitTimestamp": 1792072194451,
     "testId": 16
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1792072434783,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1792072723871,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1792072779418,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: pedir correo y contraseña cuando el correo está vacío",
+    "commitTimestamp": 1792072829001,
+    "testId": 17
   }
 ]

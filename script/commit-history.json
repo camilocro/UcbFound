@@ -304,12 +304,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "600fa2dd3058224d287809b54eca9da3ddd7a6a8",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-15T13:49:51.000Z",
       "message": "refactor: crear clase Usuario y usar clases en el registro y el presenter",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/600fa2dd3058224d287809b54eca9da3ddd7a6a8"
     },
     "stats": {
       "total": 119,
@@ -319,6 +319,25 @@
     },
     "coverage": 100,
     "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-15T14:00:27.000Z",
+      "message": "feat: pedir correo y contraseña cuando el correo está vacío",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 25,
+      "deletions": 0,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"
   }
