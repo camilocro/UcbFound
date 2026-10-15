@@ -361,12 +361,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3011eb4d3a478fc1155bc6b5087e12374c407ea1",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-15T14:05:13.000Z",
       "message": "feat: avisar cuando el correo o la contraseña son incorrectos",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/3011eb4d3a478fc1155bc6b5087e12374c407ea1"
     },
     "stats": {
       "total": 19,
@@ -376,6 +376,25 @@
     },
     "coverage": 100,
     "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-15T14:06:41.000Z",
+      "message": "feat: iniciar sesión cuando el correo y la contraseña son correctos",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 28,
+      "additions": 20,
+      "deletions": 8,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 17,
     "failed_tests": 0,
     "conclusion": "success"
   }

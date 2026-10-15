@@ -418,9 +418,31 @@
     "testId": 19
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3011eb4d3a478fc1155bc6b5087e12374c407ea1",
     "commitName": "feat: avisar cuando el correo o la contraseña son incorrectos",
     "commitTimestamp": 1792073114537,
     "testId": 19
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 1,
+    "numTotalTests": 17,
+    "timestamp": 1792073155015,
+    "success": false,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1792073193016,
+    "success": true,
+    "testId": 20
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: iniciar sesión cuando el correo y la contraseña son correctos",
+    "commitTimestamp": 1792073203468,
+    "testId": 20
   }
 ]

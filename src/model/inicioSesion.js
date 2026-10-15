@@ -19,5 +19,6 @@ export class InicioSesion {
     if (!usuario) {
       return { exito: false, mensaje: MENSAJES_LOGIN.CREDENCIALES_INVALIDAS };
     }
+    return { exito: true, usuario: { nombre: usuario.nombre, correo: usuario.correo } };
   }
 }
