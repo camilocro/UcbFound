@@ -330,9 +330,23 @@
     "testId": 15
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ede0d10760afedb171d93f491cc4e0b1a444b1fb",
     "commitName": "refactor: organizar el código en carpetas model, presenter y view",
     "commitTimestamp": 1791986472893,
     "testId": 15
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1792071890794,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: crear clase Usuario y usar clases en el registro y el presenter",
+    "commitTimestamp": 1792072194451,
+    "testId": 16
   }
 ]

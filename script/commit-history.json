@@ -285,18 +285,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ede0d10760afedb171d93f491cc4e0b1a444b1fb",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-14T14:01:10.000Z",
       "message": "refactor: organizar el código en carpetas model, presenter y view",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/ede0d10760afedb171d93f491cc4e0b1a444b1fb"
     },
     "stats": {
       "total": 8,
       "additions": 4,
       "deletions": 4,
       "date": "2026-10-14"
+    },
+    "coverage": 100,
+    "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-15T13:49:51.000Z",
+      "message": "refactor: crear clase Usuario y usar clases en el registro y el presenter",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 119,
+      "additions": 72,
+      "deletions": 47,
+      "date": "2026-10-15"
     },
     "coverage": 100,
     "test_count": 13,
