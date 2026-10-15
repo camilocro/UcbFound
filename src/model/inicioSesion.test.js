@@ -13,6 +13,15 @@ describe('HU-02 Criterio 1: inicio de sesión correcto', () => {
       usuario: { nombre: 'Juan Pérez', correo: 'juan.perez@ucb.edu.bo' },
     });
   });
+
+  it('debería iniciar sesión aunque el correo tenga mayúsculas y espacios', () => {
+    const inicioSesion = new InicioSesion(usuarios);
+    const resultado = inicioSesion.iniciar({ correo: '  Juan.Perez@UCB.edu.bo ', contrasena: 'clave1234' });
+    expect(resultado).toEqual({
+      exito: true,
+      usuario: { nombre: 'Juan Pérez', correo: 'juan.perez@ucb.edu.bo' },
+    });
+  });
 });
 
 describe('HU-02 Criterio 2: credenciales incorrectas', () => {

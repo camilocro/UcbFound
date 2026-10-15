@@ -380,12 +380,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "93e430e6ff3d2baa1d3b466bc96cf966430815eb",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-15T14:06:41.000Z",
       "message": "feat: iniciar sesión cuando el correo y la contraseña son correctos",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/93e430e6ff3d2baa1d3b466bc96cf966430815eb"
     },
     "stats": {
       "total": 28,
@@ -395,6 +395,25 @@
     },
     "coverage": 100,
     "test_count": 17,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-15T14:08:15.000Z",
+      "message": "feat: ignorar mayúsculas y espacios en el correo al iniciar sesión",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 18,
     "failed_tests": 0,
     "conclusion": "success"
   }

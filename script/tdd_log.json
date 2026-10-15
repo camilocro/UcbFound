@@ -440,9 +440,31 @@
     "testId": 20
   },
   {
-    "commitId": "HEAD",
+    "commitId": "93e430e6ff3d2baa1d3b466bc96cf966430815eb",
     "commitName": "feat: iniciar sesión cuando el correo y la contraseña son correctos",
     "commitTimestamp": 1792073203468,
     "testId": 20
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 1,
+    "numTotalTests": 18,
+    "timestamp": 1792073257007,
+    "success": false,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1792073289358,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: ignorar mayúsculas y espacios en el correo al iniciar sesión",
+    "commitTimestamp": 1792073296614,
+    "testId": 21
   }
 ]

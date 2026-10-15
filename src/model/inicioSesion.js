@@ -13,8 +13,9 @@ export class InicioSesion {
     if (correo.trim() === '' || contrasena.trim() === '') {
       return { exito: false, mensaje: MENSAJES_LOGIN.CAMPOS_VACIOS };
     }
+    const correoNormalizado = correo.trim().toLowerCase();
     const usuario = this.usuariosRegistrados.find(
-      (registrado) => registrado.correo === correo && registrado.contrasena === contrasena,
+      (registrado) => registrado.correo === correoNormalizado && registrado.contrasena === contrasena,
     );
     if (!usuario) {
       return { exito: false, mensaje: MENSAJES_LOGIN.CREDENCIALES_INVALIDAS };
