@@ -396,9 +396,31 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6a8e23a4c93f02ade964ec721df080288bfba0a5",
     "commitName": "feat: pedir correo y contraseña cuando la contraseña está vacía",
     "commitTimestamp": 1792072980424,
     "testId": 18
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 1,
+    "numTotalTests": 16,
+    "timestamp": 1792073062285,
+    "success": false,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1792073092922,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: avisar cuando el correo o la contraseña son incorrectos",
+    "commitTimestamp": 1792073114537,
+    "testId": 19
   }
 ]
