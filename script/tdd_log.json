@@ -484,9 +484,23 @@
     "testId": 22
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d3fa01734de1a2ae56d6a36b9c3952dc9ffe2296",
     "commitName": "feat: crear presenter de inicio de sesión",
     "commitTimestamp": 1792073384548,
     "testId": 22
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1792073427046,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: crear formulario de inicio de sesión en la vista",
+    "commitTimestamp": 1792073437984,
+    "testId": 23
   }
 ]

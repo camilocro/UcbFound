@@ -418,16 +418,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d3fa01734de1a2ae56d6a36b9c3952dc9ffe2296",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-15T14:09:43.000Z",
       "message": "feat: crear presenter de inicio de sesión",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/d3fa01734de1a2ae56d6a36b9c3952dc9ffe2296"
     },
     "stats": {
       "total": 34,
       "additions": 34,
+      "deletions": 0,
+      "date": "2026-10-15"
+    },
+    "coverage": 100,
+    "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-15T14:10:36.000Z",
+      "message": "feat: crear formulario de inicio de sesión en la vista",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 72,
+      "additions": 72,
       "deletions": 0,
       "date": "2026-10-15"
     },
