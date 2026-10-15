@@ -374,9 +374,31 @@
     "testId": 17
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8bbf7747470e9068b5ec176782f7dd7d2231ff66",
     "commitName": "feat: pedir correo y contraseña cuando el correo está vacío",
     "commitTimestamp": 1792072829001,
     "testId": 17
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 1,
+    "numTotalTests": 15,
+    "timestamp": 1792072925995,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1792072956283,
+    "success": true,
+    "testId": 18
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: pedir correo y contraseña cuando la contraseña está vacía",
+    "commitTimestamp": 1792072980424,
+    "testId": 18
   }
 ]

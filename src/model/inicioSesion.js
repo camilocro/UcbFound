@@ -8,8 +8,8 @@ export class InicioSesion {
     this.usuariosRegistrados = usuariosRegistrados;
   }
 
-  iniciar({ correo }) {
-    if (correo.trim() === '') {
+  iniciar({ correo, contrasena }) {
+    if (correo.trim() === '' || contrasena.trim() === '') {
       return { exito: false, mensaje: MENSAJES_LOGIN.CAMPOS_VACIOS };
     }
   }

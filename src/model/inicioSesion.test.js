@@ -6,4 +6,10 @@ describe('HU-02 Criterio 3: campos vacíos', () => {
     const resultado = inicioSesion.iniciar({ correo: '', contrasena: 'clave1234' });
     expect(resultado).toEqual({ exito: false, mensaje: 'Por favor, ingrese correo y contraseña' });
   });
+
+  it('debería pedir correo y contraseña cuando la contraseña está vacía', () => {
+    const inicioSesion = new InicioSesion([]);
+    const resultado = inicioSesion.iniciar({ correo: 'juan.perez@ucb.edu.bo', contrasena: '' });
+    expect(resultado).toEqual({ exito: false, mensaje: 'Por favor, ingrese correo y contraseña' });
+  });
 });
