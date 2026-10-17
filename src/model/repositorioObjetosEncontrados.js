@@ -1,3 +1,5 @@
+import { ObjetoEncontrado } from './objetoEncontrado.js';
+
 const CLAVE = 'ucbfound_objetos_encontrados';
 
 export class RepositorioObjetosEncontrados {
@@ -7,6 +9,13 @@ export class RepositorioObjetosEncontrados {
 
   obtenerTodos() {
     const datos = this.almacenamiento.getItem(CLAVE);
-    return datos ? JSON.parse(datos) : [];
+    const lista = datos ? JSON.parse(datos) : [];
+    return lista.map((objeto) => new ObjetoEncontrado(objeto));
+  }
+
+  guardar(objeto) {
+    const lista = this.obtenerTodos();
+    lista.push(objeto);
+    this.almacenamiento.setItem(CLAVE, JSON.stringify(lista));
   }
 }

@@ -969,12 +969,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0a4499ca444b0e761d5d1aa525c2be556229bbb8",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-10-17T23:48:16.000Z",
       "message": "feat: crear repositorio de objetos encontrados",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/0a4499ca444b0e761d5d1aa525c2be556229bbb8"
     },
     "stats": {
       "total": 42,
@@ -984,6 +984,25 @@
     },
     "coverage": 99.19,
     "test_count": 46,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-10-17T23:49:46.000Z",
+      "message": "feat: guardar objetos encontrados en el navegador",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 18,
+      "deletions": 1,
+      "date": "2026-10-17"
+    },
+    "coverage": 99.22,
+    "test_count": 47,
     "failed_tests": 0,
     "conclusion": "success"
   }

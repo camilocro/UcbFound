@@ -1178,9 +1178,31 @@
     "testId": 51
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0a4499ca444b0e761d5d1aa525c2be556229bbb8",
     "commitName": "feat: crear repositorio de objetos encontrados",
     "commitTimestamp": 1792280899542,
     "testId": 51
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 1,
+    "numTotalTests": 47,
+    "timestamp": 1792280932554,
+    "success": false,
+    "testId": 52
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792280966376,
+    "success": true,
+    "testId": 52
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: guardar objetos encontrados en el navegador",
+    "commitTimestamp": 1792280989853,
+    "testId": 52
   }
 ]

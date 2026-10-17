@@ -28,3 +28,11 @@ describe('HU-07 Repositorio de objetos encontrados', () => {
     expect(repositorio.obtenerTodos()).toEqual([]);
   });
 });
+
+describe('HU-07 Repositorio de objetos encontrados: guardar', () => {
+  it('debería guardar un objeto y devolverlo como objeto encontrado', () => {
+    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+    repositorio.guardar(datosMochila);
+    expect(repositorio.obtenerTodos()[0].coincideCon('mochila')).toBe(true);
+  });
+});
