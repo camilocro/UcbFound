@@ -798,12 +798,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "45cd914c447f3d05aef1ff98399527f6cba7a2cd",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:59:13.000Z",
       "message": "feat: guardar y listar los reportes de cada usuario",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/45cd914c447f3d05aef1ff98399527f6cba7a2cd"
     },
     "stats": {
       "total": 19,
@@ -813,6 +813,25 @@
     },
     "coverage": 100,
     "test_count": 37,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T20:00:34.000Z",
+      "message": "feat: convertir fechas al formato AAAA-MM-DD",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 38,
     "failed_tests": 0,
     "conclusion": "success"
   }

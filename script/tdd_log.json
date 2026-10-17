@@ -948,9 +948,31 @@
     "testId": 42
   },
   {
-    "commitId": "HEAD",
+    "commitId": "45cd914c447f3d05aef1ff98399527f6cba7a2cd",
     "commitName": "feat: guardar y listar los reportes de cada usuario",
     "commitTimestamp": 1792267156183,
     "testId": 42
+  },
+  {
+    "numPassedTests": 37,
+    "failedTests": 0,
+    "numTotalTests": 37,
+    "timestamp": 1792267183265,
+    "success": false,
+    "testId": 43
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 0,
+    "numTotalTests": 38,
+    "timestamp": 1792267221708,
+    "success": true,
+    "testId": 43
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: convertir fechas al formato AAAA-MM-DD",
+    "commitTimestamp": 1792267237385,
+    "testId": 43
   }
 ]
