@@ -794,9 +794,31 @@
     "testId": 35
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f2140c07c9403a01f03f47f731dfa61c74dc66c5",
     "commitName": "feat: crear reporte de objeto perdido con datos válidos",
     "commitTimestamp": 1792266666002,
     "testId": 35
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 1,
+    "numTotalTests": 31,
+    "timestamp": 1792266699699,
+    "success": false,
+    "testId": 36
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1792266756377,
+    "success": true,
+    "testId": 36
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: crear el reporte a nombre del usuario",
+    "commitTimestamp": 1792266768406,
+    "testId": 36
   }
 ]
