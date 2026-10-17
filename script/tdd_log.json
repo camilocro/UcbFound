@@ -748,9 +748,55 @@
     "testId": 34
   },
   {
-    "commitId": "HEAD",
+    "commitId": "174215c3bbab8bdddfa2a4cbe34884625bb955fd",
     "commitName": "feat: proteger páginas y agregar el botón de cerrar sesión",
     "commitTimestamp": 1792266328971,
     "testId": 34
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 0,
+    "numTotalTests": 29,
+    "timestamp": 1792266482585,
+    "success": true,
+    "testId": 35
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 0,
+    "numTotalTests": 29,
+    "timestamp": 1792266541387,
+    "success": true,
+    "testId": 35
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 0,
+    "numTotalTests": 29,
+    "timestamp": 1792266613068,
+    "success": true,
+    "testId": 35
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 0,
+    "numTotalTests": 29,
+    "timestamp": 1792266632641,
+    "success": false,
+    "testId": 35
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 0,
+    "numTotalTests": 30,
+    "timestamp": 1792266655065,
+    "success": true,
+    "testId": 35
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: crear reporte de objeto perdido con datos válidos",
+    "commitTimestamp": 1792266666002,
+    "testId": 35
   }
 ]

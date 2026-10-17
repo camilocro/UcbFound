@@ -646,12 +646,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "174215c3bbab8bdddfa2a4cbe34884625bb955fd",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:45:26.000Z",
       "message": "feat: proteger páginas y agregar el botón de cerrar sesión",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/174215c3bbab8bdddfa2a4cbe34884625bb955fd"
     },
     "stats": {
       "total": 92,
@@ -661,6 +661,25 @@
     },
     "coverage": 100,
     "test_count": 29,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:51:03.000Z",
+      "message": "feat: crear reporte de objeto perdido con datos válidos",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 30,
+      "additions": 30,
+      "deletions": 0,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 30,
     "failed_tests": 0,
     "conclusion": "success"
   }
