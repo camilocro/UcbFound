@@ -1052,9 +1052,31 @@
     "testId": 46
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6925efbd56bd6e26953613bc485bf806c7ce7db9",
     "commitName": "feat: buscar objetos encontrados por descripción",
     "commitTimestamp": 1792279220633,
     "testId": 46
+  },
+  {
+    "numPassedTests": 41,
+    "failedTests": 1,
+    "numTotalTests": 42,
+    "timestamp": 1792279906167,
+    "success": false,
+    "testId": 47
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 0,
+    "numTotalTests": 42,
+    "timestamp": 1792280062092,
+    "success": true,
+    "testId": 47
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: buscar sin importar mayúsculas y minúsculas",
+    "commitTimestamp": 1792280094974,
+    "testId": 47
   }
 ]

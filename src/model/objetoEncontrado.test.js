@@ -21,3 +21,9 @@ describe('HU-07 Objeto encontrado: buscar por descripción', () => {
     expect(mochila.coincideCon('llavero')).toBe(true);
   });
 });
+
+describe('HU-07 Objeto encontrado: mayúsculas', () => {
+  it('debería coincidir sin importar mayúsculas y minúsculas', () => {
+    expect(mochila.coincideCon('MOCHILA')).toBe(true);
+  });
+});

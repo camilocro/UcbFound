@@ -9,6 +9,7 @@ export class ObjetoEncontrado {
   }
 
   coincideCon(texto) {
-    return this.nombre.includes(texto) || this.descripcion.includes(texto);
+    const buscado = texto.toLowerCase();
+    return this.nombre.toLowerCase().includes(buscado) || this.descripcion.toLowerCase().includes(buscado);
   }
 }
