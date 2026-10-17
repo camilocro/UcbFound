@@ -836,12 +836,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b5b41ad0f52194c0a8926a2fd2d98f418cc12be1",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T20:02:10.000Z",
       "message": "feat: agregar el formulario para reportar objetos perdidos",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/b5b41ad0f52194c0a8926a2fd2d98f418cc12be1"
     },
     "stats": {
       "total": 170,
@@ -851,6 +851,25 @@
     },
     "coverage": 99.03,
     "test_count": 39,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-10-17T23:17:07.000Z",
+      "message": "feat: buscar objetos encontrados por nombre",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 30,
+      "additions": 30,
+      "deletions": 0,
+      "date": "2026-10-17"
+    },
+    "coverage": 99.09,
+    "test_count": 40,
     "failed_tests": 0,
     "conclusion": "success"
   }

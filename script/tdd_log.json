@@ -992,9 +992,39 @@
     "testId": 44
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b5b41ad0f52194c0a8926a2fd2d98f418cc12be1",
     "commitName": "feat: agregar el formulario para reportar objetos perdidos",
     "commitTimestamp": 1792267333477,
     "testId": 44
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 0,
+    "numTotalTests": 39,
+    "timestamp": 1792278671092,
+    "success": true,
+    "testId": 45
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 0,
+    "numTotalTests": 39,
+    "timestamp": 1792278802687,
+    "success": false,
+    "testId": 45
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 0,
+    "numTotalTests": 40,
+    "timestamp": 1792279005172,
+    "success": true,
+    "testId": 45
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: buscar objetos encontrados por nombre",
+    "commitTimestamp": 1792279030567,
+    "testId": 45
   }
 ]
