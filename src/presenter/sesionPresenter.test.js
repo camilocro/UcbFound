@@ -34,3 +34,10 @@ describe('HU-03 Presenter: iniciar sesión', () => {
     expect(presenter.obtenerUsuario()).toEqual(usuario);
   });
 });
+
+describe('HU-03 Presenter Criterio 2: páginas que requieren cuenta', () => {
+  it('debería mostrar la pantalla de ingreso al abrir la página principal sin sesión', () => {
+    const presenter = new SesionPresenter(new Sesion(crearAlmacenamientoFalso()));
+    expect(presenter.mostrarPagina('principal')).toEqual('inicio-sesion');
+  });
+});

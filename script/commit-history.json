@@ -627,12 +627,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "aa4d50d6906c6a343b5697fb52cb4a513aa385bf",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:44:12.000Z",
       "message": "feat: iniciar sesión desde el presenter de sesión",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/aa4d50d6906c6a343b5697fb52cb4a513aa385bf"
     },
     "stats": {
       "total": 17,
@@ -642,6 +642,25 @@
     },
     "coverage": 100,
     "test_count": 28,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:45:26.000Z",
+      "message": "feat: proteger páginas y agregar el botón de cerrar sesión",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 92,
+      "additions": 82,
+      "deletions": 10,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 29,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -726,9 +726,31 @@
     "testId": 33
   },
   {
-    "commitId": "HEAD",
+    "commitId": "aa4d50d6906c6a343b5697fb52cb4a513aa385bf",
     "commitName": "feat: iniciar sesión desde el presenter de sesión",
     "commitTimestamp": 1792266255316,
     "testId": 33
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 1,
+    "numTotalTests": 29,
+    "timestamp": 1792266273159,
+    "success": false,
+    "testId": 34
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 0,
+    "numTotalTests": 29,
+    "timestamp": 1792266305776,
+    "success": true,
+    "testId": 34
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: proteger páginas y agregar el botón de cerrar sesión",
+    "commitTimestamp": 1792266328971,
+    "testId": 34
   }
 ]

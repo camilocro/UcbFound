@@ -178,3 +178,27 @@ body {
   cursor: pointer;
   font: inherit;
 }
+
+.encabezado__acciones {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.boton-salir {
+  padding: 8px 14px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--azul);
+  background: var(--amarillo);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.aviso {
+  max-width: 440px;
+  margin: 0 auto 16px;
+  color: var(--azul);
+  background: #fff4cc;
+}

@@ -17,4 +17,8 @@ export class SesionPresenter {
   obtenerUsuario() {
     return this.sesion.obtenerUsuario();
   }
+
+  mostrarPagina(pagina) {
+    return this.sesion.resolverPagina(pagina);
+  }
 }
