@@ -542,9 +542,31 @@
     "testId": 25
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f8b214d931be566129caa18de043a0652c820177",
     "commitName": "feat: crear la sesión del usuario sin sesión iniciada",
     "commitTimestamp": 1792265356171,
     "testId": 25
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 1,
+    "numTotalTests": 21,
+    "timestamp": 1792265378525,
+    "success": false,
+    "testId": 26
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1792265392730,
+    "success": true,
+    "testId": 26
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: iniciar la sesión del usuario",
+    "commitTimestamp": 1792265405468,
+    "testId": 26
   }
 ]

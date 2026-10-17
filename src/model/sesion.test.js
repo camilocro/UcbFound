@@ -22,3 +22,11 @@ describe('HU-03 Sesión', () => {
     expect(sesion.estaIniciada()).toBe(false);
   });
 });
+
+describe('HU-03 Sesión: iniciar', () => {
+  it('debería quedar iniciada después de iniciar sesión', () => {
+    const sesion = new Sesion(crearAlmacenamientoFalso());
+    sesion.iniciar(usuario);
+    expect(sesion.estaIniciada()).toBe(true);
+  });
+});

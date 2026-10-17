@@ -475,12 +475,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f8b214d931be566129caa18de043a0652c820177",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:29:13.000Z",
       "message": "feat: crear la sesión del usuario sin sesión iniciada",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/f8b214d931be566129caa18de043a0652c820177"
     },
     "stats": {
       "total": 36,
@@ -490,6 +490,25 @@
     },
     "coverage": 100,
     "test_count": 20,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:30:03.000Z",
+      "message": "feat: iniciar la sesión del usuario",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 21,
     "failed_tests": 0,
     "conclusion": "success"
   }
