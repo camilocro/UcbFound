@@ -608,9 +608,39 @@
     "testId": 28
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9be9100e2a123bd387e51634e360ba30e3713374",
     "commitName": "feat: cerrar la sesión del usuario",
     "commitTimestamp": 1792265715414,
     "testId": 28
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1792265747179,
+    "success": false,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1792265854224,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1792265915664,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: pedir iniciar sesión en páginas que requieren cuenta",
+    "commitTimestamp": 1792265926914,
+    "testId": 29
   }
 ]

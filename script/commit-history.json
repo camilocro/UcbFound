@@ -532,12 +532,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9be9100e2a123bd387e51634e360ba30e3713374",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:35:12.000Z",
       "message": "feat: cerrar la sesión del usuario",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/9be9100e2a123bd387e51634e360ba30e3713374"
     },
     "stats": {
       "total": 13,
@@ -547,6 +547,25 @@
     },
     "coverage": 100,
     "test_count": 23,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:38:44.000Z",
+      "message": "feat: pedir iniciar sesión en páginas que requieren cuenta",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 12,
+      "deletions": 1,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 24,
     "failed_tests": 0,
     "conclusion": "success"
   }

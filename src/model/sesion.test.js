@@ -47,3 +47,10 @@ describe('HU-03 Criterio 1: cerrar sesión', () => {
     expect(sesion.estaIniciada()).toBe(false);
   });
 });
+
+describe('HU-03 Criterio 2: páginas que requieren cuenta', () => {
+  it('debería pedir iniciar sesión al abrir una página que requiere cuenta sin sesión', () => {
+    const sesion = new Sesion(crearAlmacenamientoFalso());
+    expect(sesion.resolverPagina('principal')).toEqual('inicio-sesion');
+  });
+});
