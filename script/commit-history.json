@@ -589,12 +589,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7fdca39a871b3a8e63962d0540984996bfbb90ad",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:41:18.000Z",
       "message": "feat: permitir páginas públicas sin sesión",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/7fdca39a871b3a8e63962d0540984996bfbb90ad"
     },
     "stats": {
       "total": 13,
@@ -604,6 +604,25 @@
     },
     "coverage": 100,
     "test_count": 26,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:43:21.000Z",
+      "message": "feat: crear presenter para cerrar sesión",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 39,
+      "additions": 39,
+      "deletions": 0,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 27,
     "failed_tests": 0,
     "conclusion": "success"
   }

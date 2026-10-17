@@ -682,9 +682,31 @@
     "testId": 31
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7fdca39a871b3a8e63962d0540984996bfbb90ad",
     "commitName": "feat: permitir páginas públicas sin sesión",
     "commitTimestamp": 1792266081299,
     "testId": 31
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 0,
+    "numTotalTests": 26,
+    "timestamp": 1792266122560,
+    "success": false,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 0,
+    "numTotalTests": 27,
+    "timestamp": 1792266191754,
+    "success": true,
+    "testId": 32
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: crear presenter para cerrar sesión",
+    "commitTimestamp": 1792266203836,
+    "testId": 32
   }
 ]
