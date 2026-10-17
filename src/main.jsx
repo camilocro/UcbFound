@@ -2,11 +2,17 @@ import { useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import FormularioRegistro from './view/FormularioRegistro.jsx';
 import FormularioInicioSesion from './view/FormularioInicioSesion.jsx';
+import FormularioReporteObjetoPerdido from './view/FormularioReporteObjetoPerdido.jsx';
+import { RepositorioReportes } from './model/repositorioReportes.js';
+import { fechaComoTexto } from './model/fecha.js';
+import { ReportePresenter } from './presenter/reportePresenter.js';
 import { Sesion } from './model/sesion.js';
 import { SesionPresenter } from './presenter/sesionPresenter.js';
 
-const sesionPresenter = new SesionPresenter(new Sesion(window.sessionStorage));
-const PAGINAS = ['principal', 'inicio-sesion', 'registro'];
+const sesion = new Sesion(window.sessionStorage);
+const sesionPresenter = new SesionPresenter(sesion);
+const reportePresenter = new ReportePresenter(new RepositorioReportes(window.localStorage), sesion);
+const PAGINAS = ['principal', 'inicio-sesion', 'registro', 'reportar-objeto'];
 
 function leerVista() {
   const direccion = window.location.hash.replace('#/', '');
@@ -48,7 +54,18 @@ function App() {
           <section className="tarjeta">
             <h1 className="tarjeta__titulo">Hola, {usuario.nombre}</h1>
             <p className="tarjeta__subtitulo">Sesión iniciada con {usuario.correo}.</p>
+            <button id="ir-reportar-button" type="button" className="boton boton--ancho" onClick={() => irA('reportar-objeto')}>
+              Reportar objeto perdido
+            </button>
           </section>
+        )}
+        {vista.pagina === 'reportar-objeto' && (
+          <div>
+            <FormularioReporteObjetoPerdido presenter={reportePresenter} fechaMaxima={fechaComoTexto(new Date())} />
+            <button type="button" className="enlace" onClick={() => irA('principal')}>
+              Volver al inicio
+            </button>
+          </div>
         )}
         {vista.pagina === 'registro' && (
           <div>

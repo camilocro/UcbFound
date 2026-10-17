@@ -970,9 +970,31 @@
     "testId": 43
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d8634c833f6ee67666cc47dffafcf140dc4fe9f4",
     "commitName": "feat: convertir fechas al formato AAAA-MM-DD",
     "commitTimestamp": 1792267237385,
     "testId": 43
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 0,
+    "numTotalTests": 38,
+    "timestamp": 1792267276998,
+    "success": false,
+    "testId": 44
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 0,
+    "numTotalTests": 39,
+    "timestamp": 1792267296914,
+    "success": true,
+    "testId": 44
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar el formulario para reportar objetos perdidos",
+    "commitTimestamp": 1792267333477,
+    "testId": 44
   }
 ]

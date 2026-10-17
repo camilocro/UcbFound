@@ -202,3 +202,23 @@ body {
   color: var(--azul);
   background: #fff4cc;
 }
+
+.campo textarea {
+  padding: 12px 14px;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+  resize: vertical;
+}
+
+.campo textarea:focus {
+  outline: none;
+  border-color: var(--azul);
+  box-shadow: 0 0 0 3px rgba(245, 184, 0, 0.35);
+}
+
+.boton--ancho {
+  width: 100%;
+  margin-top: 16px;
+}
