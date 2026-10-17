@@ -6,4 +6,8 @@ export class ObjetoPerdido {
     this.fecha = fecha;
     this.correoDelDueno = correoDelDueno;
   }
+
+  faltanNombreOFecha() {
+    return this.nombre === '';
+  }
 }

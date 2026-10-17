@@ -816,9 +816,31 @@
     "testId": 36
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7494cfa71ccdde76e8eb43fbeec93f7475ce4a5a",
     "commitName": "feat: crear el reporte a nombre del usuario",
     "commitTimestamp": 1792266768406,
     "testId": 36
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 1,
+    "numTotalTests": 32,
+    "timestamp": 1792266801438,
+    "success": false,
+    "testId": 37
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 0,
+    "numTotalTests": 32,
+    "timestamp": 1792266834825,
+    "success": true,
+    "testId": 37
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: pedir nombre y fecha cuando el nombre está vacío",
+    "commitTimestamp": 1792266845357,
+    "testId": 37
   }
 ]
