@@ -586,9 +586,31 @@
     "testId": 27
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4f7b65ee4dd7e0b69a5f3c6a971f0a9c8223df77",
     "commitName": "feat: obtener el usuario de la sesión iniciada",
     "commitTimestamp": 1792265643692,
     "testId": 27
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 1,
+    "numTotalTests": 23,
+    "timestamp": 1792265663080,
+    "success": false,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1792265690373,
+    "success": true,
+    "testId": 28
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: cerrar la sesión del usuario",
+    "commitTimestamp": 1792265715414,
+    "testId": 28
   }
 ]

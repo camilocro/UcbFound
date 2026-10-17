@@ -18,4 +18,8 @@ export class Sesion {
     const datos = this.almacenamiento.getItem(CLAVE_SESION);
     return datos ? JSON.parse(datos) : null;
   }
+
+  cerrar() {
+    this.almacenamiento.removeItem(CLAVE_SESION);
+  }
 }

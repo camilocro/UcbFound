@@ -38,3 +38,12 @@ describe('HU-03 Sesión: usuario actual', () => {
     expect(sesion.obtenerUsuario()).toEqual(usuario);
   });
 });
+
+describe('HU-03 Criterio 1: cerrar sesión', () => {
+  it('debería terminar la sesión al cerrarla', () => {
+    const sesion = new Sesion(crearAlmacenamientoFalso());
+    sesion.iniciar(usuario);
+    sesion.cerrar();
+    expect(sesion.estaIniciada()).toBe(false);
+  });
+});
