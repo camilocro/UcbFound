@@ -9,6 +9,6 @@ export class ObjetoEncontrado {
   }
 
   coincideCon(texto) {
-    return this.nombre.includes(texto);
+    return this.nombre.includes(texto) || this.descripcion.includes(texto);
   }
 }

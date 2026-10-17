@@ -13,4 +13,11 @@ describe('HU-07 Objeto encontrado: buscar por nombre', () => {
   it('debería coincidir cuando el texto está en el nombre', () => {
     expect(mochila.coincideCon('Mochila')).toBe(true);
   });
+
+});
+
+describe('HU-07 Objeto encontrado: buscar por descripción', () => {
+  it('debería coincidir cuando el texto está en la descripción', () => {
+    expect(mochila.coincideCon('llavero')).toBe(true);
+  });
 });

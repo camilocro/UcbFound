@@ -1022,9 +1022,39 @@
     "testId": 45
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5315a86682c1dc0ed1321a0e6d2df57405b06cf7",
     "commitName": "feat: buscar objetos encontrados por nombre",
     "commitTimestamp": 1792279030567,
     "testId": 45
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 1,
+    "numTotalTests": 41,
+    "timestamp": 1792279107794,
+    "success": false,
+    "testId": 46
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 0,
+    "numTotalTests": 39,
+    "timestamp": 1792279169801,
+    "success": false,
+    "testId": 46
+  },
+  {
+    "numPassedTests": 41,
+    "failedTests": 0,
+    "numTotalTests": 41,
+    "timestamp": 1792279194091,
+    "success": true,
+    "testId": 46
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: buscar objetos encontrados por descripción",
+    "commitTimestamp": 1792279220633,
+    "testId": 46
   }
 ]
