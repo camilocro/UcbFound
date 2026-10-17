@@ -7,10 +7,15 @@ export class Sesion {
   }
 
   estaIniciada() {
-    return this.almacenamiento.getItem(CLAVE_SESION) !== null;
+    return this.obtenerUsuario() !== null;
   }
 
   iniciar(usuario) {
     this.almacenamiento.setItem(CLAVE_SESION, JSON.stringify(usuario));
+  }
+
+  obtenerUsuario() {
+    const datos = this.almacenamiento.getItem(CLAVE_SESION);
+    return datos ? JSON.parse(datos) : null;
   }
 }

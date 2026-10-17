@@ -30,3 +30,11 @@ describe('HU-03 Sesión: iniciar', () => {
     expect(sesion.estaIniciada()).toBe(true);
   });
 });
+
+describe('HU-03 Sesión: usuario actual', () => {
+  it('debería devolver el usuario que inició sesión', () => {
+    const sesion = new Sesion(crearAlmacenamientoFalso());
+    sesion.iniciar(usuario);
+    expect(sesion.obtenerUsuario()).toEqual(usuario);
+  });
+});
