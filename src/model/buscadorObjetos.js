@@ -8,7 +8,10 @@ export class BuscadorObjetos {
   }
 
   buscar(texto) {
-    const encontrados = this.objetos.filter((objeto) => objeto.coincideCon(texto));
+    const buscado = texto.trim();
+    const encontrados = this.objetos
+      .filter((objeto) => objeto.coincideCon(buscado))
+      .sort((primero, segundo) => segundo.fecha.localeCompare(primero.fecha));
     if (encontrados.length === 0) {
       return { objetos: [], mensaje: MENSAJES_BUSQUEDA.SIN_RESULTADOS };
     }

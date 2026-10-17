@@ -931,12 +931,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d7fcb9c98678682397ed7d98d195f590a43a49b4",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-10-17T23:43:21.000Z",
       "message": "feat: avisar cuando no hay objetos que coincidan",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/d7fcb9c98678682397ed7d98d195f590a43a49b4"
     },
     "stats": {
       "total": 13,
@@ -946,6 +946,25 @@
     },
     "coverage": 99.15,
     "test_count": 44,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-10-17T23:45:48.000Z",
+      "message": "feat: mostrar todos los objetos del más reciente al más antiguo",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2026-10-17"
+    },
+    "coverage": 99.17,
+    "test_count": 45,
     "failed_tests": 0,
     "conclusion": "success"
   }

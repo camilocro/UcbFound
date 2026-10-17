@@ -21,3 +21,10 @@ describe('HU-07 Criterio 2: sin coincidencias', () => {
     expect(resultado).toEqual({ objetos: [], mensaje: 'No se encontraron objetos con ese nombre o descripción' });
   });
 });
+
+describe('HU-07 Criterio 3: buscar sin escribir nada', () => {
+  it('debería mostrar todos los objetos del más reciente al más antiguo', () => {
+    const resultado = new BuscadorObjetos(objetos).buscar('');
+    expect(nombres(resultado)).toEqual(['Cargador de laptop', 'Botella de agua', 'Mochila negra']);
+  });
+});

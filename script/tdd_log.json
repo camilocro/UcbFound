@@ -1134,9 +1134,31 @@
     "testId": 49
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d7fcb9c98678682397ed7d98d195f590a43a49b4",
     "commitName": "feat: avisar cuando no hay objetos que coincidan",
     "commitTimestamp": 1792280604222,
     "testId": 49
+  },
+  {
+    "numPassedTests": 44,
+    "failedTests": 1,
+    "numTotalTests": 45,
+    "timestamp": 1792280699896,
+    "success": false,
+    "testId": 50
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 0,
+    "numTotalTests": 45,
+    "timestamp": 1792280731713,
+    "success": true,
+    "testId": 50
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar todos los objetos del más reciente al más antiguo",
+    "commitTimestamp": 1792280751298,
+    "testId": 50
   }
 ]
