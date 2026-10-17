@@ -950,12 +950,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bff6616c054db670e3aba3d209f1b187b8823763",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-10-17T23:45:48.000Z",
       "message": "feat: mostrar todos los objetos del más reciente al más antiguo",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/bff6616c054db670e3aba3d209f1b187b8823763"
     },
     "stats": {
       "total": 12,
@@ -965,6 +965,25 @@
     },
     "coverage": 99.17,
     "test_count": 45,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-10-17T23:48:16.000Z",
+      "message": "feat: crear repositorio de objetos encontrados",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 42,
+      "additions": 42,
+      "deletions": 0,
+      "date": "2026-10-17"
+    },
+    "coverage": 99.19,
+    "test_count": 46,
     "failed_tests": 0,
     "conclusion": "success"
   }

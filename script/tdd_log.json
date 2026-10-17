@@ -1156,9 +1156,31 @@
     "testId": 50
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bff6616c054db670e3aba3d209f1b187b8823763",
     "commitName": "feat: mostrar todos los objetos del más reciente al más antiguo",
     "commitTimestamp": 1792280751298,
     "testId": 50
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 0,
+    "numTotalTests": 45,
+    "timestamp": 1792280812727,
+    "success": false,
+    "testId": 51
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 0,
+    "numTotalTests": 46,
+    "timestamp": 1792280867855,
+    "success": true,
+    "testId": 51
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: crear repositorio de objetos encontrados",
+    "commitTimestamp": 1792280899542,
+    "testId": 51
   }
 ]
