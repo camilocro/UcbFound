@@ -779,12 +779,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "dcc92d34131cf8e3d05e364a03bf87f04fcbf1df",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:58:07.000Z",
       "message": "feat: crear repositorio de objetos perdidos",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/dcc92d34131cf8e3d05e364a03bf87f04fcbf1df"
     },
     "stats": {
       "total": 37,
@@ -794,6 +794,25 @@
     },
     "coverage": 100,
     "test_count": 36,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:59:13.000Z",
+      "message": "feat: guardar y listar los reportes de cada usuario",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 19,
+      "deletions": 0,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 37,
     "failed_tests": 0,
     "conclusion": "success"
   }

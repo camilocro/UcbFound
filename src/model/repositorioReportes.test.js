@@ -23,3 +23,12 @@ describe('HU-04 Repositorio de objetos perdidos', () => {
     expect(repositorio.obtenerReportes()).toEqual([]);
   });
 });
+
+describe('HU-04 Repositorio de objetos perdidos: guardar', () => {
+  it('debería guardar los reportes y devolver solo los de cada dueño', () => {
+    const repositorio = new RepositorioReportes(crearAlmacenamientoFalso());
+    repositorio.guardar(mochila);
+    repositorio.guardar(llaves);
+    expect(repositorio.obtenerReportesDe('juan.perez@ucb.edu.bo')).toEqual([mochila]);
+  });
+});

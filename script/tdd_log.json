@@ -926,9 +926,31 @@
     "testId": 41
   },
   {
-    "commitId": "HEAD",
+    "commitId": "dcc92d34131cf8e3d05e364a03bf87f04fcbf1df",
     "commitName": "feat: crear repositorio de objetos perdidos",
     "commitTimestamp": 1792267090059,
     "testId": 41
+  },
+  {
+    "numPassedTests": 36,
+    "failedTests": 1,
+    "numTotalTests": 37,
+    "timestamp": 1792267113461,
+    "success": false,
+    "testId": 42
+  },
+  {
+    "numPassedTests": 37,
+    "failedTests": 0,
+    "numTotalTests": 37,
+    "timestamp": 1792267142236,
+    "success": true,
+    "testId": 42
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: guardar y listar los reportes de cada usuario",
+    "commitTimestamp": 1792267156183,
+    "testId": 42
   }
 ]
