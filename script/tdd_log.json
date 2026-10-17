@@ -1074,9 +1074,31 @@
     "testId": 47
   },
   {
-    "commitId": "HEAD",
+    "commitId": "70a7a8b438c21cfcfc1df98e61675db8324927df",
     "commitName": "feat: buscar sin importar mayúsculas y minúsculas",
     "commitTimestamp": 1792280094974,
     "testId": 47
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 0,
+    "numTotalTests": 42,
+    "timestamp": 1792280324765,
+    "success": false,
+    "testId": 48
+  },
+  {
+    "numPassedTests": 43,
+    "failedTests": 0,
+    "numTotalTests": 43,
+    "timestamp": 1792280402628,
+    "success": true,
+    "testId": 48
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar los objetos que coinciden con la búsqueda",
+    "commitTimestamp": 1792280428283,
+    "testId": 48
   }
 ]
