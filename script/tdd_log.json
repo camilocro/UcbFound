@@ -1096,9 +1096,47 @@
     "testId": 48
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2ebed19220f48612b0b7e37e2d96f1dfcc3819ce",
     "commitName": "feat: mostrar los objetos que coinciden con la búsqueda",
     "commitTimestamp": 1792280428283,
     "testId": 48
+  },
+  {
+    "numPassedTests": 43,
+    "failedTests": 1,
+    "numTotalTests": 44,
+    "timestamp": 1792280462831,
+    "success": false,
+    "testId": 49
+  },
+  {
+    "numPassedTests": 43,
+    "failedTests": 0,
+    "numTotalTests": 43,
+    "timestamp": 1792280531348,
+    "success": true,
+    "testId": 49
+  },
+  {
+    "numPassedTests": 43,
+    "failedTests": 1,
+    "numTotalTests": 44,
+    "timestamp": 1792280545316,
+    "success": false,
+    "testId": 49
+  },
+  {
+    "numPassedTests": 44,
+    "failedTests": 0,
+    "numTotalTests": 44,
+    "timestamp": 1792280583455,
+    "success": true,
+    "testId": 49
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: avisar cuando no hay objetos que coincidan",
+    "commitTimestamp": 1792280604222,
+    "testId": 49
   }
 ]

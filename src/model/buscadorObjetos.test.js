@@ -15,3 +15,9 @@ describe('HU-07 Criterio 1: buscar por nombre o descripción', () => {
     expect(nombres(resultado)).toEqual(['Cargador de laptop']);
   });
 });
+describe('HU-07 Criterio 2: sin coincidencias', () => {
+  it('debería avisar cuando ningún objeto coincide', () => {
+    const resultado = new BuscadorObjetos(objetos).buscar('paraguas');
+    expect(resultado).toEqual({ objetos: [], mensaje: 'No se encontraron objetos con ese nombre o descripción' });
+  });
+});
