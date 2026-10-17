@@ -838,9 +838,31 @@
     "testId": 37
   },
   {
-    "commitId": "HEAD",
+    "commitId": "709b714548c3a008cd73d5eb3ab9753b8a62b799",
     "commitName": "feat: pedir nombre y fecha cuando el nombre está vacío",
     "commitTimestamp": 1792266845357,
     "testId": 37
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 1,
+    "numTotalTests": 33,
+    "timestamp": 1792266876358,
+    "success": false,
+    "testId": 38
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 0,
+    "numTotalTests": 33,
+    "timestamp": 1792266895378,
+    "success": true,
+    "testId": 38
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: pedir nombre y fecha cuando la fecha está vacía",
+    "commitTimestamp": 1792266905746,
+    "testId": 38
   }
 ]

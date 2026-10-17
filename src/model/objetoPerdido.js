@@ -8,6 +8,6 @@ export class ObjetoPerdido {
   }
 
   faltanNombreOFecha() {
-    return this.nombre === '';
+    return this.nombre === '' || this.fecha === '';
   }
 }

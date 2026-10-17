@@ -703,12 +703,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "709b714548c3a008cd73d5eb3ab9753b8a62b799",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:54:02.000Z",
       "message": "feat: pedir nombre y fecha cuando el nombre está vacío",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/709b714548c3a008cd73d5eb3ab9753b8a62b799"
     },
     "stats": {
       "total": 20,
@@ -718,6 +718,25 @@
     },
     "coverage": 100,
     "test_count": 32,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:55:03.000Z",
+      "message": "feat: pedir nombre y fecha cuando la fecha está vacía",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 33,
     "failed_tests": 0,
     "conclusion": "success"
   }
