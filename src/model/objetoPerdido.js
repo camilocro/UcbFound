@@ -1,9 +1,9 @@
 
 export class ObjetoPerdido {
   constructor(nombre, descripcion, fecha, correoDelDueno) {
-    this.nombre = nombre;
-    this.descripcion = descripcion;
-    this.fecha = fecha;
+    this.nombre = nombre.trim();
+    this.descripcion = descripcion.trim();
+    this.fecha = fecha.trim();
     this.correoDelDueno = correoDelDueno;
   }
 

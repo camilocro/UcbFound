@@ -41,3 +41,10 @@ describe('HU-04 Criterio 2: nombre o fecha vacíos', () => {
     expect(resultado).toEqual({ exito: false, mensaje: 'Es necesario ingresar nombre y fecha' });
   });
 });
+
+describe('HU-04 Criterio 2: nombre o fecha vacíos', () => {
+  it('debería pedir nombre y fecha cuando el nombre solo tiene espacios', () => {
+    const resultado = new ReporteObjetoPerdido(HOY).reportar({ ...datosValidos, nombre: '   ' }, CORREO);
+    expect(resultado).toEqual({ exito: false, mensaje: 'Es necesario ingresar nombre y fecha' });
+  });
+});

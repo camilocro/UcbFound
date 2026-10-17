@@ -722,12 +722,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1610cfacdcc22f3d96a58c8f41046afeb951fd0c",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:55:03.000Z",
       "message": "feat: pedir nombre y fecha cuando la fecha está vacía",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/1610cfacdcc22f3d96a58c8f41046afeb951fd0c"
     },
     "stats": {
       "total": 9,
@@ -737,6 +737,25 @@
     },
     "coverage": 100,
     "test_count": 33,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:55:54.000Z",
+      "message": "feat: tratar como vacío el nombre con solo espacios en el reporte",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 10,
+      "deletions": 3,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 34,
     "failed_tests": 0,
     "conclusion": "success"
   }

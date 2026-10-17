@@ -860,9 +860,31 @@
     "testId": 38
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1610cfacdcc22f3d96a58c8f41046afeb951fd0c",
     "commitName": "feat: pedir nombre y fecha cuando la fecha está vacía",
     "commitTimestamp": 1792266905746,
     "testId": 38
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 1,
+    "numTotalTests": 34,
+    "timestamp": 1792266924931,
+    "success": false,
+    "testId": 39
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 0,
+    "numTotalTests": 34,
+    "timestamp": 1792266947014,
+    "success": true,
+    "testId": 39
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: tratar como vacío el nombre con solo espacios en el reporte",
+    "commitTimestamp": 1792266956761,
+    "testId": 39
   }
 ]
