@@ -904,9 +904,31 @@
     "testId": 40
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1d33a526c410427244f0ea0dd4f76901888af030",
     "commitName": "feat: rechazar fechas de pérdida futuras",
     "commitTimestamp": 1792267019290,
     "testId": 40
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 0,
+    "numTotalTests": 35,
+    "timestamp": 1792267043826,
+    "success": false,
+    "testId": 41
+  },
+  {
+    "numPassedTests": 36,
+    "failedTests": 0,
+    "numTotalTests": 36,
+    "timestamp": 1792267071042,
+    "success": true,
+    "testId": 41
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: crear repositorio de objetos perdidos",
+    "commitTimestamp": 1792267090059,
+    "testId": 41
   }
 ]

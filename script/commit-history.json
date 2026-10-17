@@ -760,12 +760,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1d33a526c410427244f0ea0dd4f76901888af030",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:56:56.000Z",
       "message": "feat: rechazar fechas de pérdida futuras",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/1d33a526c410427244f0ea0dd4f76901888af030"
     },
     "stats": {
       "total": 15,
@@ -775,6 +775,25 @@
     },
     "coverage": 100,
     "test_count": 35,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:58:07.000Z",
+      "message": "feat: crear repositorio de objetos perdidos",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 37,
+      "additions": 37,
+      "deletions": 0,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 36,
     "failed_tests": 0,
     "conclusion": "success"
   }
