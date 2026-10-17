@@ -660,9 +660,31 @@
     "testId": 30
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2abe647820a2d4fa8c3799efa164a76a93454c85",
     "commitName": "feat: mostrar páginas que requieren cuenta cuando hay sesión",
     "commitTimestamp": 1792266028605,
     "testId": 30
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 1,
+    "numTotalTests": 26,
+    "timestamp": 1792266048866,
+    "success": false,
+    "testId": 31
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 0,
+    "numTotalTests": 26,
+    "timestamp": 1792266071959,
+    "success": true,
+    "testId": 31
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: permitir páginas públicas sin sesión",
+    "commitTimestamp": 1792266081299,
+    "testId": 31
   }
 ]

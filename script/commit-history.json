@@ -570,12 +570,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2abe647820a2d4fa8c3799efa164a76a93454c85",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:40:25.000Z",
       "message": "feat: mostrar páginas que requieren cuenta cuando hay sesión",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/2abe647820a2d4fa8c3799efa164a76a93454c85"
     },
     "stats": {
       "total": 13,
@@ -585,6 +585,25 @@
     },
     "coverage": 100,
     "test_count": 25,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:41:18.000Z",
+      "message": "feat: permitir páginas públicas sin sesión",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 12,
+      "deletions": 1,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 26,
     "failed_tests": 0,
     "conclusion": "success"
   }

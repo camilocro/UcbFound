@@ -62,3 +62,10 @@ describe('HU-03 Criterio 2: páginas que requieren cuenta', () => {
     expect(sesion.resolverPagina('principal')).toEqual('principal');
   });
 });
+
+describe('HU-03 Criterio 2: páginas públicas', () => {
+  it('debería mostrar la página de registro aunque no haya sesión', () => {
+    const sesion = new Sesion(crearAlmacenamientoFalso());
+    expect(sesion.resolverPagina('registro')).toEqual('registro');
+  });
+});
