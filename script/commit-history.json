@@ -646,12 +646,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "174215c3bbab8bdddfa2a4cbe34884625bb955fd",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:45:26.000Z",
       "message": "feat: proteger páginas y agregar el botón de cerrar sesión",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/174215c3bbab8bdddfa2a4cbe34884625bb955fd"
     },
     "stats": {
       "total": 92,
@@ -661,6 +661,196 @@
     },
     "coverage": 100,
     "test_count": 29,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "f2140c07c9403a01f03f47f731dfa61c74dc66c5",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:51:03.000Z",
+      "message": "feat: crear reporte de objeto perdido con datos válidos",
+      "url": "https://github.com/camilocro/UcbFound/commit/f2140c07c9403a01f03f47f731dfa61c74dc66c5"
+    },
+    "stats": {
+      "total": 30,
+      "additions": 30,
+      "deletions": 0,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 30,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "7494cfa71ccdde76e8eb43fbeec93f7475ce4a5a",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:52:45.000Z",
+      "message": "feat: crear el reporte a nombre del usuario",
+      "url": "https://github.com/camilocro/UcbFound/commit/7494cfa71ccdde76e8eb43fbeec93f7475ce4a5a"
+    },
+    "stats": {
+      "total": 29,
+      "additions": 27,
+      "deletions": 2,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 31,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "709b714548c3a008cd73d5eb3ab9753b8a62b799",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:54:02.000Z",
+      "message": "feat: pedir nombre y fecha cuando el nombre está vacío",
+      "url": "https://github.com/camilocro/UcbFound/commit/709b714548c3a008cd73d5eb3ab9753b8a62b799"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 19,
+      "deletions": 1,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 32,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "1610cfacdcc22f3d96a58c8f41046afeb951fd0c",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:55:03.000Z",
+      "message": "feat: pedir nombre y fecha cuando la fecha está vacía",
+      "url": "https://github.com/camilocro/UcbFound/commit/1610cfacdcc22f3d96a58c8f41046afeb951fd0c"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 33,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "3dd034a4e5953729db0de4b3a0f25fee5fdf1016",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:55:54.000Z",
+      "message": "feat: tratar como vacío el nombre con solo espacios en el reporte",
+      "url": "https://github.com/camilocro/UcbFound/commit/3dd034a4e5953729db0de4b3a0f25fee5fdf1016"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 10,
+      "deletions": 3,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 34,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "1d33a526c410427244f0ea0dd4f76901888af030",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:56:56.000Z",
+      "message": "feat: rechazar fechas de pérdida futuras",
+      "url": "https://github.com/camilocro/UcbFound/commit/1d33a526c410427244f0ea0dd4f76901888af030"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 15,
+      "deletions": 0,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 35,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "dcc92d34131cf8e3d05e364a03bf87f04fcbf1df",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:58:07.000Z",
+      "message": "feat: crear repositorio de objetos perdidos",
+      "url": "https://github.com/camilocro/UcbFound/commit/dcc92d34131cf8e3d05e364a03bf87f04fcbf1df"
+    },
+    "stats": {
+      "total": 37,
+      "additions": 37,
+      "deletions": 0,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 36,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "45cd914c447f3d05aef1ff98399527f6cba7a2cd",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:59:13.000Z",
+      "message": "feat: guardar y listar los reportes de cada usuario",
+      "url": "https://github.com/camilocro/UcbFound/commit/45cd914c447f3d05aef1ff98399527f6cba7a2cd"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 19,
+      "deletions": 0,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 37,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "d8634c833f6ee67666cc47dffafcf140dc4fe9f4",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T20:00:34.000Z",
+      "message": "feat: convertir fechas al formato AAAA-MM-DD",
+      "url": "https://github.com/camilocro/UcbFound/commit/d8634c833f6ee67666cc47dffafcf140dc4fe9f4"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 38,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T20:02:10.000Z",
+      "message": "feat: agregar el formulario para reportar objetos perdidos",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 170,
+      "additions": 168,
+      "deletions": 2,
+      "date": "2026-10-17"
+    },
+    "coverage": 99.03,
+    "test_count": 39,
     "failed_tests": 0,
     "conclusion": "success"
   }
