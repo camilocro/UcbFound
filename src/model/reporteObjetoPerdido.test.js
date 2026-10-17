@@ -48,3 +48,10 @@ describe('HU-04 Criterio 2: nombre o fecha vacíos', () => {
     expect(resultado).toEqual({ exito: false, mensaje: 'Es necesario ingresar nombre y fecha' });
   });
 });
+
+describe('HU-04 Criterio 3: fecha futura', () => {
+  it('debería rechazar una fecha de pérdida posterior a hoy', () => {
+    const resultado = new ReporteObjetoPerdido(HOY).reportar({ ...datosValidos, fecha: '2026-10-18' }, CORREO);
+    expect(resultado).toEqual({ exito: false, mensaje: 'La fecha no puede ser futura' });
+  });
+});

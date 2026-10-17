@@ -741,12 +741,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3dd034a4e5953729db0de4b3a0f25fee5fdf1016",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:55:54.000Z",
       "message": "feat: tratar como vacío el nombre con solo espacios en el reporte",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/3dd034a4e5953729db0de4b3a0f25fee5fdf1016"
     },
     "stats": {
       "total": 13,
@@ -756,6 +756,25 @@
     },
     "coverage": 100,
     "test_count": 34,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:56:56.000Z",
+      "message": "feat: rechazar fechas de pérdida futuras",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 15,
+      "deletions": 0,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 35,
     "failed_tests": 0,
     "conclusion": "success"
   }

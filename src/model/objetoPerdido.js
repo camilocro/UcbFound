@@ -10,4 +10,8 @@ export class ObjetoPerdido {
   faltanNombreOFecha() {
     return this.nombre === '' || this.fecha === '';
   }
+
+  esDeFechaFutura(fechaDeHoy) {
+    return this.fecha > fechaDeHoy;
+  }
 }

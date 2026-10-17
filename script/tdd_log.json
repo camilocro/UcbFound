@@ -882,9 +882,31 @@
     "testId": 39
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3dd034a4e5953729db0de4b3a0f25fee5fdf1016",
     "commitName": "feat: tratar como vacío el nombre con solo espacios en el reporte",
     "commitTimestamp": 1792266956761,
     "testId": 39
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 1,
+    "numTotalTests": 35,
+    "timestamp": 1792266978569,
+    "success": false,
+    "testId": 40
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 0,
+    "numTotalTests": 35,
+    "timestamp": 1792267010237,
+    "success": true,
+    "testId": 40
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: rechazar fechas de pérdida futuras",
+    "commitTimestamp": 1792267019290,
+    "testId": 40
   }
 ]
