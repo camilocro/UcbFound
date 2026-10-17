@@ -1200,9 +1200,31 @@
     "testId": 52
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cf27223d3c2cc2a5d1c47c84eb01f7c85152dae2",
     "commitName": "feat: guardar objetos encontrados en el navegador",
     "commitTimestamp": 1792280989853,
     "testId": 52
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1792281057938,
+    "success": false,
+    "testId": 53
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 0,
+    "numTotalTests": 48,
+    "timestamp": 1792281092429,
+    "success": true,
+    "testId": 53
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar la pantalla para buscar objetos encontrados",
+    "commitTimestamp": 1792281334600,
+    "testId": 53
   }
 ]

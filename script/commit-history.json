@@ -988,12 +988,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cf27223d3c2cc2a5d1c47c84eb01f7c85152dae2",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-10-17T23:49:46.000Z",
       "message": "feat: guardar objetos encontrados en el navegador",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/cf27223d3c2cc2a5d1c47c84eb01f7c85152dae2"
     },
     "stats": {
       "total": 19,
@@ -1003,6 +1003,25 @@
     },
     "coverage": 99.22,
     "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-10-17T23:55:31.000Z",
+      "message": "feat: agregar la pantalla para buscar objetos encontrados",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 163,
+      "additions": 162,
+      "deletions": 1,
+      "date": "2026-10-17"
+    },
+    "coverage": 99.24,
+    "test_count": 48,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -222,3 +222,57 @@ body {
   width: 100%;
   margin-top: 16px;
 }
+
+.tarjeta--ancha {
+  max-width: 640px;
+}
+
+.buscador {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.buscador input {
+  flex: 1;
+  padding: 12px 14px;
+  font-size: 1rem;
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+}
+
+.lista-objetos {
+  list-style: none;
+  display: grid;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.objeto {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px;
+  border: 1px solid var(--borde);
+  border-radius: 12px;
+  background: #fff;
+}
+
+.objeto__foto {
+  width: 72px;
+  height: 54px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.objeto__nombre {
+  display: block;
+  font-weight: 600;
+  color: var(--azul);
+}
+
+.objeto__fecha {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--gris);
+}
