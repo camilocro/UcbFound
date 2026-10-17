@@ -456,12 +456,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3e1ec5d356f8ebcee2475e8dbf4b06ce8d9be358",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-15T14:16:51.000Z",
       "message": "feat: conectar el inicio de sesión en la pantalla principal",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/3e1ec5d356f8ebcee2475e8dbf4b06ce8d9be358"
     },
     "stats": {
       "total": 36,
@@ -471,6 +471,25 @@
     },
     "coverage": 100,
     "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:29:13.000Z",
+      "message": "feat: crear la sesión del usuario sin sesión iniciada",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 36,
+      "additions": 36,
+      "deletions": 0,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 20,
     "failed_tests": 0,
     "conclusion": "success"
   }

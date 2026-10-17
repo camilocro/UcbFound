@@ -512,9 +512,39 @@
     "testId": 24
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3e1ec5d356f8ebcee2475e8dbf4b06ce8d9be358",
     "commitName": "feat: conectar el inicio de sesión en la pantalla principal",
     "commitTimestamp": 1792073813217,
     "testId": 24
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1792264943958,
+    "success": true,
+    "testId": 25
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1792265318830,
+    "success": false,
+    "testId": 25
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 0,
+    "numTotalTests": 20,
+    "timestamp": 1792265342173,
+    "success": true,
+    "testId": 25
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: crear la sesión del usuario sin sesión iniciada",
+    "commitTimestamp": 1792265356171,
+    "testId": 25
   }
 ]
