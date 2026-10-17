@@ -456,12 +456,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3e1ec5d356f8ebcee2475e8dbf4b06ce8d9be358",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-15T14:16:51.000Z",
       "message": "feat: conectar el inicio de sesión en la pantalla principal",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/3e1ec5d356f8ebcee2475e8dbf4b06ce8d9be358"
     },
     "stats": {
       "total": 36,
@@ -471,6 +471,196 @@
     },
     "coverage": 100,
     "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "f8b214d931be566129caa18de043a0652c820177",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:29:13.000Z",
+      "message": "feat: crear la sesión del usuario sin sesión iniciada",
+      "url": "https://github.com/camilocro/UcbFound/commit/f8b214d931be566129caa18de043a0652c820177"
+    },
+    "stats": {
+      "total": 36,
+      "additions": 36,
+      "deletions": 0,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 20,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "523f6ff4a0dcfc2ec4ce961c77f40ef6295e3162",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:30:03.000Z",
+      "message": "feat: iniciar la sesión del usuario",
+      "url": "https://github.com/camilocro/UcbFound/commit/523f6ff4a0dcfc2ec4ce961c77f40ef6295e3162"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 21,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "4f7b65ee4dd7e0b69a5f3c6a971f0a9c8223df77",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:34:01.000Z",
+      "message": "feat: obtener el usuario de la sesión iniciada",
+      "url": "https://github.com/camilocro/UcbFound/commit/4f7b65ee4dd7e0b69a5f3c6a971f0a9c8223df77"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 14,
+      "deletions": 1,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 22,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "9be9100e2a123bd387e51634e360ba30e3713374",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:35:12.000Z",
+      "message": "feat: cerrar la sesión del usuario",
+      "url": "https://github.com/camilocro/UcbFound/commit/9be9100e2a123bd387e51634e360ba30e3713374"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 23,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "3d5100f46917164f92383824d044b0ce808cdf29",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:38:44.000Z",
+      "message": "feat: pedir iniciar sesión en páginas que requieren cuenta",
+      "url": "https://github.com/camilocro/UcbFound/commit/3d5100f46917164f92383824d044b0ce808cdf29"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 12,
+      "deletions": 1,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "2abe647820a2d4fa8c3799efa164a76a93454c85",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:40:25.000Z",
+      "message": "feat: mostrar páginas que requieren cuenta cuando hay sesión",
+      "url": "https://github.com/camilocro/UcbFound/commit/2abe647820a2d4fa8c3799efa164a76a93454c85"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 10,
+      "deletions": 3,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 25,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "7fdca39a871b3a8e63962d0540984996bfbb90ad",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:41:18.000Z",
+      "message": "feat: permitir páginas públicas sin sesión",
+      "url": "https://github.com/camilocro/UcbFound/commit/7fdca39a871b3a8e63962d0540984996bfbb90ad"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 12,
+      "deletions": 1,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 26,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "4757e4de76167015bf63698d03707734f4c85e41",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:43:21.000Z",
+      "message": "feat: crear presenter para cerrar sesión",
+      "url": "https://github.com/camilocro/UcbFound/commit/4757e4de76167015bf63698d03707734f4c85e41"
+    },
+    "stats": {
+      "total": 39,
+      "additions": 39,
+      "deletions": 0,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 27,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "aa4d50d6906c6a343b5697fb52cb4a513aa385bf",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:44:12.000Z",
+      "message": "feat: iniciar sesión desde el presenter de sesión",
+      "url": "https://github.com/camilocro/UcbFound/commit/aa4d50d6906c6a343b5697fb52cb4a513aa385bf"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 17,
+      "deletions": 0,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 28,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:45:26.000Z",
+      "message": "feat: proteger páginas y agregar el botón de cerrar sesión",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 92,
+      "additions": 82,
+      "deletions": 10,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 29,
     "failed_tests": 0,
     "conclusion": "success"
   }
