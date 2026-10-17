@@ -8,4 +8,13 @@ export class SesionPresenter {
     this.sesion.cerrar();
     return 'inicio-sesion';
   }
+
+  iniciarSesion(usuario) {
+    this.sesion.iniciar(usuario);
+    return 'principal';
+  }
+
+  obtenerUsuario() {
+    return this.sesion.obtenerUsuario();
+  }
 }

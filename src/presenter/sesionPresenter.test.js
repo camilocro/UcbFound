@@ -26,3 +26,11 @@ describe('HU-03 Presenter Criterio 1: cerrar sesión', () => {
     expect(sesion.estaIniciada()).toBe(false);
   });
 });
+
+describe('HU-03 Presenter: iniciar sesión', () => {
+  it('debería guardar la sesión del usuario y llevar a la página principal', () => {
+    const presenter = new SesionPresenter(new Sesion(crearAlmacenamientoFalso()));
+    expect(presenter.iniciarSesion(usuario)).toEqual('principal');
+    expect(presenter.obtenerUsuario()).toEqual(usuario);
+  });
+});

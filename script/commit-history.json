@@ -608,12 +608,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4757e4de76167015bf63698d03707734f4c85e41",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:43:21.000Z",
       "message": "feat: crear presenter para cerrar sesión",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/4757e4de76167015bf63698d03707734f4c85e41"
     },
     "stats": {
       "total": 39,
@@ -623,6 +623,25 @@
     },
     "coverage": 100,
     "test_count": 27,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:44:12.000Z",
+      "message": "feat: iniciar sesión desde el presenter de sesión",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 17,
+      "deletions": 0,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 28,
     "failed_tests": 0,
     "conclusion": "success"
   }

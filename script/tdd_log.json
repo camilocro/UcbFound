@@ -704,9 +704,31 @@
     "testId": 32
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4757e4de76167015bf63698d03707734f4c85e41",
     "commitName": "feat: crear presenter para cerrar sesión",
     "commitTimestamp": 1792266203836,
     "testId": 32
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 1,
+    "numTotalTests": 28,
+    "timestamp": 1792266224675,
+    "success": false,
+    "testId": 33
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1792266245201,
+    "success": true,
+    "testId": 33
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: iniciar sesión desde el presenter de sesión",
+    "commitTimestamp": 1792266255316,
+    "testId": 33
   }
 ]
