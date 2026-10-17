@@ -551,12 +551,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3d5100f46917164f92383824d044b0ce808cdf29",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:38:44.000Z",
       "message": "feat: pedir iniciar sesión en páginas que requieren cuenta",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/3d5100f46917164f92383824d044b0ce808cdf29"
     },
     "stats": {
       "total": 13,
@@ -566,6 +566,25 @@
     },
     "coverage": 100,
     "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-17T19:40:25.000Z",
+      "message": "feat: mostrar páginas que requieren cuenta cuando hay sesión",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 10,
+      "deletions": 3,
+      "date": "2026-10-17"
+    },
+    "coverage": 100,
+    "test_count": 25,
     "failed_tests": 0,
     "conclusion": "success"
   }

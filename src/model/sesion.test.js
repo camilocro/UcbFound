@@ -54,3 +54,11 @@ describe('HU-03 Criterio 2: páginas que requieren cuenta', () => {
     expect(sesion.resolverPagina('principal')).toEqual('inicio-sesion');
   });
 });
+
+describe('HU-03 Criterio 2: páginas que requieren cuenta', () => {
+  it('debería mostrar la página que requiere cuenta cuando hay sesión', () => {
+    const sesion = new Sesion(crearAlmacenamientoFalso());
+    sesion.iniciar(usuario);
+    expect(sesion.resolverPagina('principal')).toEqual('principal');
+  });
+});

@@ -1,6 +1,5 @@
 const CLAVE_SESION = 'ucbfound_sesion';
 
-// Guarda quién tiene la sesión iniciada y decide qué páginas se pueden ver
 export class Sesion {
   constructor(almacenamiento) {
     this.almacenamiento = almacenamiento;
@@ -23,7 +22,7 @@ export class Sesion {
     this.almacenamiento.removeItem(CLAVE_SESION);
   }
 
-  resolverPagina() {
-    return 'inicio-sesion';
+  resolverPagina(pagina) {
+    return this.estaIniciada() ? pagina : 'inicio-sesion';
   }
 }
