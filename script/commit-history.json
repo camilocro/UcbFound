@@ -1330,12 +1330,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f216ee26e7458d24954d0affc3f8df2a62fc4cdc",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-18T23:47:23.000Z",
       "message": "feat: aceptar solo imágenes como foto del objeto",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/f216ee26e7458d24954d0affc3f8df2a62fc4cdc"
     },
     "stats": {
       "total": 11,
@@ -1345,6 +1345,25 @@
     },
     "coverage": 99.36,
     "test_count": 62,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-18T23:51:09.000Z",
+      "message": "feat: guardar el objeto registrado para que aparezca en la lista",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 55,
+      "additions": 55,
+      "deletions": 0,
+      "date": "2026-10-18"
+    },
+    "coverage": 98.21,
+    "test_count": 63,
     "failed_tests": 0,
     "conclusion": "success"
   }

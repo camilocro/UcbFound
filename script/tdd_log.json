@@ -1612,9 +1612,31 @@
     "testId": 70
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f216ee26e7458d24954d0affc3f8df2a62fc4cdc",
     "commitName": "feat: aceptar solo imágenes como foto del objeto",
     "commitTimestamp": 1792367248530,
     "testId": 70
+  },
+  {
+    "numPassedTests": 62,
+    "failedTests": 0,
+    "numTotalTests": 62,
+    "timestamp": 1792367435344,
+    "success": false,
+    "testId": 71
+  },
+  {
+    "numPassedTests": 63,
+    "failedTests": 0,
+    "numTotalTests": 63,
+    "timestamp": 1792367460566,
+    "success": true,
+    "testId": 71
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: guardar el objeto registrado para que aparezca en la lista",
+    "commitTimestamp": 1792367474288,
+    "testId": 71
   }
 ]
