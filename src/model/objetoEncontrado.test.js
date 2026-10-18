@@ -39,3 +39,9 @@ describe('HU-09 Criterio 1: vista básica del objeto', () => {
     ]);
   });
 });
+
+describe('HU-09 Criterio 2: sin datos personales', () => {
+  it('no debería mostrar los datos de quien encontró el objeto', () => {
+    expect('correoDeQuienEncontro' in mochila.vistaBasica()).toBe(false);
+  });
+});

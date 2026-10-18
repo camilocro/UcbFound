@@ -1288,9 +1288,31 @@
     "testId": 56
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2f6a2846890ec2f7f51010c7073e92254302c989",
     "commitName": "feat: mostrar la vista básica de un objeto encontrado",
     "commitTimestamp": 1792284208169,
     "testId": 56
+  },
+  {
+    "numPassedTests": 51,
+    "failedTests": 1,
+    "numTotalTests": 52,
+    "timestamp": 1792284269578,
+    "success": false,
+    "testId": 57
+  },
+  {
+    "numPassedTests": 52,
+    "failedTests": 0,
+    "numTotalTests": 52,
+    "timestamp": 1792284310421,
+    "success": true,
+    "testId": 57
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: ocultar los datos de quien encontró el objeto",
+    "commitTimestamp": 1792284350462,
+    "testId": 57
   }
 ]

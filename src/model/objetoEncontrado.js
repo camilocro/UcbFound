@@ -14,6 +14,12 @@ export class ObjetoEncontrado {
   }
 
   vistaBasica() {
-    return { ...this };
+    return {
+      id: this.id,
+      foto: this.foto,
+      nombre: this.nombre,
+      descripcion: this.descripcion,
+      fecha: this.fecha,
+    };
   }
 }
