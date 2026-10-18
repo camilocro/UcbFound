@@ -1442,9 +1442,39 @@
     "testId": 63
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5d2fb29e3429c689c4f30ed5cc176dc7ab85fc10",
     "commitName": "chore: correr las pruebas antes de cada commit",
     "commitTimestamp": 1792290259618,
     "testId": 63
+  },
+  {
+    "numPassedTests": 55,
+    "failedTests": 0,
+    "numTotalTests": 55,
+    "timestamp": 1792365788018,
+    "success": true,
+    "testId": 64
+  },
+  {
+    "numPassedTests": 55,
+    "failedTests": 0,
+    "numTotalTests": 55,
+    "timestamp": 1792365978279,
+    "success": false,
+    "testId": 64
+  },
+  {
+    "numPassedTests": 56,
+    "failedTests": 0,
+    "numTotalTests": 56,
+    "timestamp": 1792366014470,
+    "success": true,
+    "testId": 64
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: registrar objeto encontrado con foto y descripción",
+    "commitTimestamp": 1792366406648,
+    "testId": 64
   }
 ]
