@@ -18,4 +18,8 @@ export class RepositorioObjetosEncontrados {
     lista.push(objeto);
     this.almacenamiento.setItem(CLAVE, JSON.stringify(lista));
   }
+
+  buscarPorId(id) {
+    return this.obtenerTodos().find((objeto) => objeto.id === id);
+  }
 }

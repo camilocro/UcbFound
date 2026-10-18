@@ -1083,12 +1083,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0c3bfca30ab35831e1ca3e056bae0bc83e988210",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-10-18T00:45:47.000Z",
       "message": "feat: ocultar los datos de quien encontró el objeto",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/0c3bfca30ab35831e1ca3e056bae0bc83e988210"
     },
     "stats": {
       "total": 14,
@@ -1098,6 +1098,25 @@
     },
     "coverage": 99.29,
     "test_count": 52,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-10-18T00:47:14.000Z",
+      "message": "feat: buscar un objeto encontrado por su id",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-10-18"
+    },
+    "coverage": 99.3,
+    "test_count": 53,
     "failed_tests": 0,
     "conclusion": "success"
   }

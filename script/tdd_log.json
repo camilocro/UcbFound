@@ -1310,9 +1310,31 @@
     "testId": 57
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0c3bfca30ab35831e1ca3e056bae0bc83e988210",
     "commitName": "feat: ocultar los datos de quien encontró el objeto",
     "commitTimestamp": 1792284350462,
     "testId": 57
+  },
+  {
+    "numPassedTests": 52,
+    "failedTests": 1,
+    "numTotalTests": 53,
+    "timestamp": 1792284384304,
+    "success": false,
+    "testId": 58
+  },
+  {
+    "numPassedTests": 53,
+    "failedTests": 0,
+    "numTotalTests": 53,
+    "timestamp": 1792284412320,
+    "success": true,
+    "testId": 58
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: buscar un objeto encontrado por su id",
+    "commitTimestamp": 1792284437248,
+    "testId": 58
   }
 ]
