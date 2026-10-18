@@ -1140,17 +1140,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "31ce16d3bdcf190e37c0399a92d27b48ebffad93",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-10-18T00:58:18.000Z",
       "message": "feat: no enviar a la lista los datos de quien encontró el objeto",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/31ce16d3bdcf190e37c0399a92d27b48ebffad93"
     },
     "stats": {
       "total": 11,
       "additions": 10,
       "deletions": 1,
+      "date": "2026-10-18"
+    },
+    "coverage": 99.32,
+    "test_count": 55,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-10-18T01:08:20.000Z",
+      "message": "docs: agregar las pruebas manuales del sprint 1",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 32,
+      "additions": 32,
+      "deletions": 0,
       "date": "2026-10-18"
     },
     "coverage": 99.32,

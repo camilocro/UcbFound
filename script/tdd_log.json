@@ -1384,9 +1384,23 @@
     "testId": 60
   },
   {
-    "commitId": "HEAD",
+    "commitId": "31ce16d3bdcf190e37c0399a92d27b48ebffad93",
     "commitName": "feat: no enviar a la lista los datos de quien encontró el objeto",
     "commitTimestamp": 1792285099645,
     "testId": 60
+  },
+  {
+    "numPassedTests": 55,
+    "failedTests": 0,
+    "numTotalTests": 55,
+    "timestamp": 1792285400652,
+    "success": true,
+    "testId": 61
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "docs: agregar las pruebas manuales del sprint 1",
+    "commitTimestamp": 1792285702672,
+    "testId": 61
   }
 ]
