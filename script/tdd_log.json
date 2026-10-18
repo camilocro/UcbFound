@@ -1362,9 +1362,31 @@
     "testId": 59
   },
   {
-    "commitId": "HEAD",
+    "commitId": "df87ce056435943874eee66daedb8e9be80e1405",
     "commitName": "feat: ver los datos de un objeto al presionarlo en la lista",
     "commitTimestamp": 1792284967518,
     "testId": 59
+  },
+  {
+    "numPassedTests": 54,
+    "failedTests": 1,
+    "numTotalTests": 55,
+    "timestamp": 1792285063147,
+    "success": false,
+    "testId": 60
+  },
+  {
+    "numPassedTests": 55,
+    "failedTests": 0,
+    "numTotalTests": 55,
+    "timestamp": 1792285088545,
+    "success": true,
+    "testId": 60
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: no enviar a la lista los datos de quien encontró el objeto",
+    "commitTimestamp": 1792285099645,
+    "testId": 60
   }
 ]

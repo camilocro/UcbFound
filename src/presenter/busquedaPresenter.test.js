@@ -28,3 +28,11 @@ describe('HU-07 Presenter: buscar objetos', () => {
     expect(resultado.objetos.map((objeto) => objeto.nombre)).toEqual(['Botella de agua']);
   });
 });
+
+describe('HU-09 Criterio 2: lista sin datos personales', () => {
+  it('no debería enviar a la lista los datos de quien encontró el objeto', () => {
+    const presenter = new BusquedaPresenter(crearRepositorioConObjetos());
+    const resultado = presenter.buscar('mochila');
+    expect('correoDeQuienEncontro' in resultado.objetos[0]).toBe(false);
+  });
+});
