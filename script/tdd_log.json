@@ -1538,9 +1538,31 @@
     "testId": 67
   },
   {
-    "commitId": "HEAD",
+    "commitId": "897d610a4b7f8d73a353e4c08934cad40ffcb3db",
     "commitName": "feat: pedir foto y descripción cuando falta la descripción",
     "commitTimestamp": 1792366867301,
     "testId": 67
+  },
+  {
+    "numPassedTests": 59,
+    "failedTests": 1,
+    "numTotalTests": 60,
+    "timestamp": 1792366945937,
+    "success": false,
+    "testId": 68
+  },
+  {
+    "numPassedTests": 60,
+    "failedTests": 0,
+    "numTotalTests": 60,
+    "timestamp": 1792366987209,
+    "success": true,
+    "testId": 68
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: tratar como vacía la descripción con solo espacios",
+    "commitTimestamp": 1792367014303,
+    "testId": 68
   }
 ]

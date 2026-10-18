@@ -45,3 +45,10 @@ describe('HU-11 Criterio 2: sin descripción', () => {
     expect(resultado).toEqual({ exito: false, mensaje: 'Es necesario agregar una foto y una descripción' });
   });
 });
+
+describe('HU-11 Criterio 2: descripción con solo espacios', () => {
+  it('debería tratar como vacía una descripción con solo espacios', () => {
+    const resultado = registro.registrar({ ...datosValidos, descripcion: '   ' }, CORREO);
+    expect(resultado).toEqual({ exito: false, mensaje: 'Es necesario agregar una foto y una descripción' });
+  });
+});

@@ -1273,12 +1273,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "897d610a4b7f8d73a353e4c08934cad40ffcb3db",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-18T23:41:01.000Z",
       "message": "feat: pedir foto y descripción cuando falta la descripción",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/897d610a4b7f8d73a353e4c08934cad40ffcb3db"
     },
     "stats": {
       "total": 9,
@@ -1288,6 +1288,25 @@
     },
     "coverage": 99.35,
     "test_count": 59,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-18T23:43:27.000Z",
+      "message": "feat: tratar como vacía la descripción con solo espacios",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-10-18"
+    },
+    "coverage": 99.35,
+    "test_count": 60,
     "failed_tests": 0,
     "conclusion": "success"
   }
