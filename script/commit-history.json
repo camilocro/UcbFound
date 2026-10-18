@@ -1368,12 +1368,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "40587cc66890f098767bff9b7582dafc3b0dbe01",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-18T23:52:11.000Z",
       "message": "feat: no guardar el objeto cuando faltan la foto o la descripción",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/40587cc66890f098767bff9b7582dafc3b0dbe01"
     },
     "stats": {
       "total": 11,
@@ -1383,6 +1383,25 @@
     },
     "coverage": 98.22,
     "test_count": 64,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-18T23:53:25.000Z",
+      "message": "feat: avisar cuando la foto es muy pesada para guardarla",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 26,
+      "additions": 24,
+      "deletions": 2,
+      "date": "2026-10-18"
+    },
+    "coverage": 98.26,
+    "test_count": 65,
     "failed_tests": 0,
     "conclusion": "success"
   }

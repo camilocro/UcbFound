@@ -1656,9 +1656,31 @@
     "testId": 72
   },
   {
-    "commitId": "HEAD",
+    "commitId": "40587cc66890f098767bff9b7582dafc3b0dbe01",
     "commitName": "feat: no guardar el objeto cuando faltan la foto o la descripción",
     "commitTimestamp": 1792367536056,
     "testId": 72
+  },
+  {
+    "numPassedTests": 64,
+    "failedTests": 1,
+    "numTotalTests": 65,
+    "timestamp": 1792367565035,
+    "success": false,
+    "testId": 73
+  },
+  {
+    "numPassedTests": 65,
+    "failedTests": 0,
+    "numTotalTests": 65,
+    "timestamp": 1792367589396,
+    "success": true,
+    "testId": 73
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: avisar cuando la foto es muy pesada para guardarla",
+    "commitTimestamp": 1792367609396,
+    "testId": 73
   }
 ]

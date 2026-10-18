@@ -4,6 +4,7 @@ export const MENSAJES_REGISTRO_OBJETO = {
   OBJETO_REGISTRADO: 'Objeto registrado correctamente',
   FALTAN_FOTO_O_DESCRIPCION: 'Es necesario agregar una foto y una descripción',
   SOLO_IMAGENES: 'Solo se permiten imágenes',
+  FOTO_MUY_PESADA: 'La foto es muy pesada, prueba con una imagen más pequeña',
 };
 
 const NOMBRE_POR_DEFECTO = 'Objeto encontrado';

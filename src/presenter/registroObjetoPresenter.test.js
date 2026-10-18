@@ -41,3 +41,19 @@ describe('HU-11 Presenter Criterio 2: no guardar sin datos', () => {
     expect(repositorio.obtenerTodos()).toEqual([]);
   });
 });
+describe('HU-11 Presenter: foto muy pesada', () => {
+  it('debería avisar cuando el navegador no tiene espacio para guardar la foto', () => {
+    const almacenamientoLleno = {
+      getItem: () => null,
+      setItem: () => {
+        throw new Error('QuotaExceededError');
+      },
+      removeItem: () => {},
+    };
+    const repositorio = new RepositorioObjetosEncontrados(almacenamientoLleno);
+    expect(crearPresenter(repositorio).registrar(datosValidos)).toEqual({
+      exito: false,
+      mensaje: 'La foto es muy pesada, prueba con una imagen más pequeña',
+    });
+  });
+});

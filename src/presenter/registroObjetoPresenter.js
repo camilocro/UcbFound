@@ -1,4 +1,4 @@
-import { RegistroObjetoEncontrado } from '../model/registroObjetoEncontrado.js';
+import { MENSAJES_REGISTRO_OBJETO, RegistroObjetoEncontrado } from '../model/registroObjetoEncontrado.js';
 import { fechaComoTexto } from '../model/fecha.js';
 
 export class RegistroObjetoPresenter {
@@ -13,8 +13,13 @@ export class RegistroObjetoPresenter {
     const usuario = this.sesion.obtenerUsuario();
     const registro = new RegistroObjetoEncontrado(fechaComoTexto(this.obtenerFechaActual()), this.crearId);
     const resultado = registro.registrar(datos, usuario.correo);
-    if (resultado.exito) {
+    if (!resultado.exito) {
+      return resultado;
+    }
+    try {
       this.repositorio.guardar(resultado.objeto);
+    } catch {
+      return { exito: false, mensaje: MENSAJES_REGISTRO_OBJETO.FOTO_MUY_PESADA };
     }
     return resultado;
   }
