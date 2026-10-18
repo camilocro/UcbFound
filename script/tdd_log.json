@@ -1222,9 +1222,31 @@
     "testId": 53
   },
   {
-    "commitId": "HEAD",
+    "commitId": "02d5d4086f651ae4bf560c0a443e67be92689524",
     "commitName": "feat: agregar la pantalla para buscar objetos encontrados",
     "commitTimestamp": 1792281334600,
     "testId": 53
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 0,
+    "numTotalTests": 48,
+    "timestamp": 1792283066945,
+    "success": false,
+    "testId": 54
+  },
+  {
+    "numPassedTests": 49,
+    "failedTests": 0,
+    "numTotalTests": 49,
+    "timestamp": 1792283119730,
+    "success": true,
+    "testId": 54
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: cargar objetos encontrados de ejemplo",
+    "commitTimestamp": 1792283150453,
+    "testId": 54
   }
 ]
