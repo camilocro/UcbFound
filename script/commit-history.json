@@ -1254,12 +1254,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "69b61a9fae434136bf5f29db38a18cc9a6e7cd95",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-18T23:38:26.000Z",
       "message": "feat: pedir foto y descripción cuando falta la foto",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/69b61a9fae434136bf5f29db38a18cc9a6e7cd95"
     },
     "stats": {
       "total": 15,
@@ -1269,6 +1269,25 @@
     },
     "coverage": 99.35,
     "test_count": 58,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-18T23:41:01.000Z",
+      "message": "feat: pedir foto y descripción cuando falta la descripción",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-10-18"
+    },
+    "coverage": 99.35,
+    "test_count": 59,
     "failed_tests": 0,
     "conclusion": "success"
   }

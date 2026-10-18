@@ -1516,9 +1516,31 @@
     "testId": 66
   },
   {
-    "commitId": "HEAD",
+    "commitId": "69b61a9fae434136bf5f29db38a18cc9a6e7cd95",
     "commitName": "feat: pedir foto y descripción cuando falta la foto",
     "commitTimestamp": 1792366710640,
     "testId": 66
+  },
+  {
+    "numPassedTests": 58,
+    "failedTests": 1,
+    "numTotalTests": 59,
+    "timestamp": 1792366793317,
+    "success": false,
+    "testId": 67
+  },
+  {
+    "numPassedTests": 59,
+    "failedTests": 0,
+    "numTotalTests": 59,
+    "timestamp": 1792366853686,
+    "success": true,
+    "testId": 67
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: pedir foto y descripción cuando falta la descripción",
+    "commitTimestamp": 1792366867301,
+    "testId": 67
   }
 ]

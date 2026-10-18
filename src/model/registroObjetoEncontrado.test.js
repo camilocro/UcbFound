@@ -38,3 +38,10 @@ describe('HU-11 Criterio 2: sin foto', () => {
     expect(resultado).toEqual({ exito: false, mensaje: 'Es necesario agregar una foto y una descripción' });
   });
 });
+
+describe('HU-11 Criterio 2: sin descripción', () => {
+  it('debería pedir foto y descripción cuando falta la descripción', () => {
+    const resultado = registro.registrar({ ...datosValidos, descripcion: '' }, CORREO);
+    expect(resultado).toEqual({ exito: false, mensaje: 'Es necesario agregar una foto y una descripción' });
+  });
+});

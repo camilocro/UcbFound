@@ -12,7 +12,7 @@ export class RegistroObjetoEncontrado {
   }
 
   registrar({ nombre, descripcion, foto }, correoDeQuienEncontro) {
-    if (foto === '') {
+    if (foto === '' || descripcion === '') {
       return this.crearError(MENSAJES_REGISTRO_OBJETO.FALTAN_FOTO_O_DESCRIPCION);
     }
     const objeto = new ObjetoEncontrado({
