@@ -13,7 +13,9 @@ export class RegistroObjetoPresenter {
     const usuario = this.sesion.obtenerUsuario();
     const registro = new RegistroObjetoEncontrado(fechaComoTexto(this.obtenerFechaActual()), this.crearId);
     const resultado = registro.registrar(datos, usuario.correo);
-    this.repositorio.guardar(resultado.objeto);
+    if (resultado.exito) {
+      this.repositorio.guardar(resultado.objeto);
+    }
     return resultado;
   }
 }

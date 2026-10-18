@@ -34,3 +34,10 @@ describe('HU-11 Presenter Criterio 1: aparece en la lista', () => {
     ]);
   });
 });
+describe('HU-11 Presenter Criterio 2: no guardar sin datos', () => {
+  it('no debería guardar el objeto cuando falta la foto', () => {
+    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+    crearPresenter(repositorio).registrar({ ...datosValidos, foto: '' });
+    expect(repositorio.obtenerTodos()).toEqual([]);
+  });
+});

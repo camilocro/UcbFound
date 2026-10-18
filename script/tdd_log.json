@@ -1634,9 +1634,31 @@
     "testId": 71
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0717bf1f281052e036947fff8ad112aa29ce797c",
     "commitName": "feat: guardar el objeto registrado para que aparezca en la lista",
     "commitTimestamp": 1792367474288,
     "testId": 71
+  },
+  {
+    "numPassedTests": 63,
+    "failedTests": 1,
+    "numTotalTests": 64,
+    "timestamp": 1792367504847,
+    "success": false,
+    "testId": 72
+  },
+  {
+    "numPassedTests": 64,
+    "failedTests": 0,
+    "numTotalTests": 64,
+    "timestamp": 1792367525139,
+    "success": true,
+    "testId": 72
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: no guardar el objeto cuando faltan la foto o la descripción",
+    "commitTimestamp": 1792367536056,
+    "testId": 72
   }
 ]
