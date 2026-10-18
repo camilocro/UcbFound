@@ -1311,12 +1311,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4ab7b387972b7371fa4e40cf11d11d0ebb69c958",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-18T23:45:54.000Z",
       "message": "feat: usar un nombre por defecto cuando no se escribe el nombre del objeto",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/4ab7b387972b7371fa4e40cf11d11d0ebb69c958"
     },
     "stats": {
       "total": 11,
@@ -1326,6 +1326,25 @@
     },
     "coverage": 99.35,
     "test_count": 61,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-18T23:47:23.000Z",
+      "message": "feat: aceptar solo imágenes como foto del objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-10-18"
+    },
+    "coverage": 99.36,
+    "test_count": 62,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -59,3 +59,10 @@ describe('HU-11 Nombre opcional', () => {
     expect(resultado.objeto.nombre).toEqual('Objeto encontrado');
   });
 });
+
+describe('HU-11 Criterio 3: solo imágenes', () => {
+  it('debería rechazar un archivo que no es una imagen', () => {
+    const resultado = registro.registrar({ ...datosValidos, foto: 'data:application/pdf;base64,AAA' }, CORREO);
+    expect(resultado).toEqual({ exito: false, mensaje: 'Solo se permiten imágenes' });
+  });
+});

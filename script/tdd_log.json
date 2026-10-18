@@ -1590,9 +1590,31 @@
     "testId": 69
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4ab7b387972b7371fa4e40cf11d11d0ebb69c958",
     "commitName": "feat: usar un nombre por defecto cuando no se escribe el nombre del objeto",
     "commitTimestamp": 1792367160192,
     "testId": 69
+  },
+  {
+    "numPassedTests": 61,
+    "failedTests": 1,
+    "numTotalTests": 62,
+    "timestamp": 1792367196513,
+    "success": false,
+    "testId": 70
+  },
+  {
+    "numPassedTests": 62,
+    "failedTests": 0,
+    "numTotalTests": 62,
+    "timestamp": 1792367238305,
+    "success": true,
+    "testId": 70
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aceptar solo imágenes como foto del objeto",
+    "commitTimestamp": 1792367248530,
+    "testId": 70
   }
 ]
