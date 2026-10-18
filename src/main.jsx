@@ -10,6 +10,7 @@ import { cargarDatosDeEjemplo } from './model/datosDeEjemplo.js';
 import { fechaComoTexto } from './model/fecha.js';
 import { ReportePresenter } from './presenter/reportePresenter.js';
 import { BusquedaPresenter } from './presenter/busquedaPresenter.js';
+import { DetalleObjetoPresenter } from './presenter/detalleObjetoPresenter.js';
 import { Sesion } from './model/sesion.js';
 import { SesionPresenter } from './presenter/sesionPresenter.js';
 
@@ -19,6 +20,7 @@ const reportePresenter = new ReportePresenter(new RepositorioReportes(window.loc
 const repositorioObjetos = new RepositorioObjetosEncontrados(window.localStorage);
 cargarDatosDeEjemplo(repositorioObjetos);
 const busquedaPresenter = new BusquedaPresenter(repositorioObjetos);
+const detalleObjetoPresenter = new DetalleObjetoPresenter(repositorioObjetos);
 const PAGINAS = ['principal', 'inicio-sesion', 'registro', 'reportar-objeto', 'buscar-objetos'];
 
 function leerVista() {
@@ -79,7 +81,7 @@ function App() {
         )}
         {vista.pagina === 'buscar-objetos' && (
           <div>
-            <VistaBusquedaObjetos presenter={busquedaPresenter} />
+            <VistaBusquedaObjetos presenterBusqueda={busquedaPresenter} presenterDetalle={detalleObjetoPresenter} />
             <button type="button" className="enlace" onClick={() => irA('principal')}>
               Volver al inicio
             </button>

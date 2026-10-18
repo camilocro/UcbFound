@@ -1332,9 +1332,39 @@
     "testId": 58
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2a86c3c83f1fcecd248108eb64c115a659dc3ef4",
     "commitName": "feat: buscar un objeto encontrado por su id",
     "commitTimestamp": 1792284437248,
     "testId": 58
+  },
+  {
+    "numPassedTests": 53,
+    "failedTests": 0,
+    "numTotalTests": 53,
+    "timestamp": 1792284482379,
+    "success": false,
+    "testId": 59
+  },
+  {
+    "numPassedTests": 54,
+    "failedTests": 0,
+    "numTotalTests": 54,
+    "timestamp": 1792284512491,
+    "success": true,
+    "testId": 59
+  },
+  {
+    "numPassedTests": 54,
+    "failedTests": 0,
+    "numTotalTests": 54,
+    "timestamp": 1792284848680,
+    "success": true,
+    "testId": 59
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: ver los datos de un objeto al presionarlo en la lista",
+    "commitTimestamp": 1792284967518,
+    "testId": 59
   }
 ]
