@@ -836,12 +836,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b5b41ad0f52194c0a8926a2fd2d98f418cc12be1",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T20:02:10.000Z",
       "message": "feat: agregar el formulario para reportar objetos perdidos",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/b5b41ad0f52194c0a8926a2fd2d98f418cc12be1"
     },
     "stats": {
       "total": 170,
@@ -851,6 +851,177 @@
     },
     "coverage": 99.03,
     "test_count": 39,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "5315a86682c1dc0ed1321a0e6d2df57405b06cf7",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-10-17T23:17:07.000Z",
+      "message": "feat: buscar objetos encontrados por nombre",
+      "url": "https://github.com/camilocro/UcbFound/commit/5315a86682c1dc0ed1321a0e6d2df57405b06cf7"
+    },
+    "stats": {
+      "total": 30,
+      "additions": 30,
+      "deletions": 0,
+      "date": "2026-10-17"
+    },
+    "coverage": 99.09,
+    "test_count": 40,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "6925efbd56bd6e26953613bc485bf806c7ce7db9",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-10-17T23:20:17.000Z",
+      "message": "feat: buscar objetos encontrados por descripción",
+      "url": "https://github.com/camilocro/UcbFound/commit/6925efbd56bd6e26953613bc485bf806c7ce7db9"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 9,
+      "deletions": 2,
+      "date": "2026-10-17"
+    },
+    "coverage": 99.09,
+    "test_count": 41,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "70a7a8b438c21cfcfc1df98e61675db8324927df",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-10-17T23:34:51.000Z",
+      "message": "feat: buscar sin importar mayúsculas y minúsculas",
+      "url": "https://github.com/camilocro/UcbFound/commit/70a7a8b438c21cfcfc1df98e61675db8324927df"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 9,
+      "deletions": 2,
+      "date": "2026-10-17"
+    },
+    "coverage": 99.1,
+    "test_count": 42,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "2ebed19220f48612b0b7e37e2d96f1dfcc3819ce",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-10-17T23:40:25.000Z",
+      "message": "feat: mostrar los objetos que coinciden con la búsqueda",
+      "url": "https://github.com/camilocro/UcbFound/commit/2ebed19220f48612b0b7e37e2d96f1dfcc3819ce"
+    },
+    "stats": {
+      "total": 27,
+      "additions": 27,
+      "deletions": 0,
+      "date": "2026-10-17"
+    },
+    "coverage": 99.13,
+    "test_count": 43,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "d7fcb9c98678682397ed7d98d195f590a43a49b4",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-10-17T23:43:21.000Z",
+      "message": "feat: avisar cuando no hay objetos que coincidan",
+      "url": "https://github.com/camilocro/UcbFound/commit/d7fcb9c98678682397ed7d98d195f590a43a49b4"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-10-17"
+    },
+    "coverage": 99.15,
+    "test_count": 44,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "bff6616c054db670e3aba3d209f1b187b8823763",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-10-17T23:45:48.000Z",
+      "message": "feat: mostrar todos los objetos del más reciente al más antiguo",
+      "url": "https://github.com/camilocro/UcbFound/commit/bff6616c054db670e3aba3d209f1b187b8823763"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2026-10-17"
+    },
+    "coverage": 99.17,
+    "test_count": 45,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "0a4499ca444b0e761d5d1aa525c2be556229bbb8",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-10-17T23:48:16.000Z",
+      "message": "feat: crear repositorio de objetos encontrados",
+      "url": "https://github.com/camilocro/UcbFound/commit/0a4499ca444b0e761d5d1aa525c2be556229bbb8"
+    },
+    "stats": {
+      "total": 42,
+      "additions": 42,
+      "deletions": 0,
+      "date": "2026-10-17"
+    },
+    "coverage": 99.19,
+    "test_count": 46,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "cf27223d3c2cc2a5d1c47c84eb01f7c85152dae2",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-10-17T23:49:46.000Z",
+      "message": "feat: guardar objetos encontrados en el navegador",
+      "url": "https://github.com/camilocro/UcbFound/commit/cf27223d3c2cc2a5d1c47c84eb01f7c85152dae2"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 18,
+      "deletions": 1,
+      "date": "2026-10-17"
+    },
+    "coverage": 99.22,
+    "test_count": 47,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-10-17T23:55:31.000Z",
+      "message": "feat: agregar la pantalla para buscar objetos encontrados",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 163,
+      "additions": 162,
+      "deletions": 1,
+      "date": "2026-10-17"
+    },
+    "coverage": 99.24,
+    "test_count": 48,
     "failed_tests": 0,
     "conclusion": "success"
   }

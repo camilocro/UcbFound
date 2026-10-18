@@ -3,16 +3,21 @@ import { createRoot } from 'react-dom/client';
 import FormularioRegistro from './view/FormularioRegistro.jsx';
 import FormularioInicioSesion from './view/FormularioInicioSesion.jsx';
 import FormularioReporteObjetoPerdido from './view/FormularioReporteObjetoPerdido.jsx';
+import VistaBusquedaObjetos from './view/VistaBusquedaObjetos.jsx';
 import { RepositorioReportes } from './model/repositorioReportes.js';
+import { RepositorioObjetosEncontrados } from './model/repositorioObjetosEncontrados.js';
 import { fechaComoTexto } from './model/fecha.js';
 import { ReportePresenter } from './presenter/reportePresenter.js';
+import { BusquedaPresenter } from './presenter/busquedaPresenter.js';
 import { Sesion } from './model/sesion.js';
 import { SesionPresenter } from './presenter/sesionPresenter.js';
 
 const sesion = new Sesion(window.sessionStorage);
 const sesionPresenter = new SesionPresenter(sesion);
 const reportePresenter = new ReportePresenter(new RepositorioReportes(window.localStorage), sesion);
-const PAGINAS = ['principal', 'inicio-sesion', 'registro', 'reportar-objeto'];
+const repositorioObjetos = new RepositorioObjetosEncontrados(window.localStorage);
+const busquedaPresenter = new BusquedaPresenter(repositorioObjetos);
+const PAGINAS = ['principal', 'inicio-sesion', 'registro', 'reportar-objeto', 'buscar-objetos'];
 
 function leerVista() {
   const direccion = window.location.hash.replace('#/', '');
@@ -57,11 +62,22 @@ function App() {
             <button id="ir-reportar-button" type="button" className="boton boton--ancho" onClick={() => irA('reportar-objeto')}>
               Reportar objeto perdido
             </button>
+            <button id="ir-buscar-button" type="button" className="boton boton--ancho" onClick={() => irA('buscar-objetos')}>
+              Buscar objetos encontrados
+            </button>
           </section>
         )}
         {vista.pagina === 'reportar-objeto' && (
           <div>
             <FormularioReporteObjetoPerdido presenter={reportePresenter} fechaMaxima={fechaComoTexto(new Date())} />
+            <button type="button" className="enlace" onClick={() => irA('principal')}>
+              Volver al inicio
+            </button>
+          </div>
+        )}
+        {vista.pagina === 'buscar-objetos' && (
+          <div>
+            <VistaBusquedaObjetos presenter={busquedaPresenter} />
             <button type="button" className="enlace" onClick={() => irA('principal')}>
               Volver al inicio
             </button>
