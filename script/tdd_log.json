@@ -1678,9 +1678,31 @@
     "testId": 73
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1c02fea757085900de4eee6383992fa79df45611",
     "commitName": "feat: avisar cuando la foto es muy pesada para guardarla",
     "commitTimestamp": 1792367609396,
     "testId": 73
+  },
+  {
+    "numPassedTests": 65,
+    "failedTests": 1,
+    "numTotalTests": 66,
+    "timestamp": 1792367662238,
+    "success": false,
+    "testId": 74
+  },
+  {
+    "numPassedTests": 66,
+    "failedTests": 0,
+    "numTotalTests": 66,
+    "timestamp": 1792367687165,
+    "success": true,
+    "testId": 74
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: pedir iniciar sesión para registrar un objeto encontrado",
+    "commitTimestamp": 1792367696947,
+    "testId": 74
   }
 ]

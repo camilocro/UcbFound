@@ -1,5 +1,5 @@
 const CLAVE_SESION = 'ucbfound_sesion';
-const PAGINAS_CON_CUENTA = ['principal', 'reportar-objeto'];
+const PAGINAS_CON_CUENTA = ['principal', 'reportar-objeto', 'registrar-objeto'];
 
 export class Sesion {
   constructor(almacenamiento) {

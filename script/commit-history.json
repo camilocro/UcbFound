@@ -1387,12 +1387,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1c02fea757085900de4eee6383992fa79df45611",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-18T23:53:25.000Z",
       "message": "feat: avisar cuando la foto es muy pesada para guardarla",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/1c02fea757085900de4eee6383992fa79df45611"
     },
     "stats": {
       "total": 26,
@@ -1402,6 +1402,25 @@
     },
     "coverage": 98.26,
     "test_count": 65,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-18T23:54:52.000Z",
+      "message": "feat: pedir iniciar sesión para registrar un objeto encontrado",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-10-18"
+    },
+    "coverage": 98.26,
+    "test_count": 66,
     "failed_tests": 0,
     "conclusion": "success"
   }
