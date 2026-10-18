@@ -1494,9 +1494,31 @@
     "testId": 65
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7ea73248a55c79ac09e5adbbd8ae561414dd8b5c",
     "commitName": "feat: crear el objeto encontrado con la fecha de hoy y el correo de quien lo encontró",
     "commitTimestamp": 1792366540229,
     "testId": 65
+  },
+  {
+    "numPassedTests": 57,
+    "failedTests": 1,
+    "numTotalTests": 58,
+    "timestamp": 1792366657727,
+    "success": false,
+    "testId": 66
+  },
+  {
+    "numPassedTests": 58,
+    "failedTests": 0,
+    "numTotalTests": 58,
+    "timestamp": 1792366696108,
+    "success": true,
+    "testId": 66
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: pedir foto y descripción cuando falta la foto",
+    "commitTimestamp": 1792366710640,
+    "testId": 66
   }
 ]

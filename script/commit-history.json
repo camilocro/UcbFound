@@ -1235,12 +1235,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7ea73248a55c79ac09e5adbbd8ae561414dd8b5c",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-18T23:35:36.000Z",
       "message": "feat: crear el objeto encontrado con la fecha de hoy y el correo de quien lo encontró",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/7ea73248a55c79ac09e5adbbd8ae561414dd8b5c"
     },
     "stats": {
       "total": 28,
@@ -1250,6 +1250,25 @@
     },
     "coverage": 99.34,
     "test_count": 57,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-18T23:38:26.000Z",
+      "message": "feat: pedir foto y descripción cuando falta la foto",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 15,
+      "deletions": 0,
+      "date": "2026-10-18"
+    },
+    "coverage": 99.35,
+    "test_count": 58,
     "failed_tests": 0,
     "conclusion": "success"
   }

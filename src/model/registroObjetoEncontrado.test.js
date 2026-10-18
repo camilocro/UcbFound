@@ -31,3 +31,10 @@ describe('HU-11 Criterio 1: objeto a nombre de quien lo encontró', () => {
     });
   });
 });
+
+describe('HU-11 Criterio 2: sin foto', () => {
+  it('debería pedir foto y descripción cuando falta la foto', () => {
+    const resultado = registro.registrar({ ...datosValidos, foto: '' }, CORREO);
+    expect(resultado).toEqual({ exito: false, mensaje: 'Es necesario agregar una foto y una descripción' });
+  });
+});
