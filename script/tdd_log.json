@@ -1428,9 +1428,23 @@
     "testId": 62
   },
   {
-    "commitId": "HEAD",
+    "commitId": "37281414ddf8e34df7b6e04902510f8b30900221",
     "commitName": "chore: ejecutar las pruebas automáticamente en cada push y en cada pull request",
     "commitTimestamp": 1792290200271,
     "testId": 62
+  },
+  {
+    "numPassedTests": 55,
+    "failedTests": 0,
+    "numTotalTests": 55,
+    "timestamp": 1792290237845,
+    "success": true,
+    "testId": 63
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "chore: correr las pruebas antes de cada commit",
+    "commitTimestamp": 1792290259618,
+    "testId": 63
   }
 ]

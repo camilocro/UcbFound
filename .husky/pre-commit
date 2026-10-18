@@ -1,1 +1,2 @@
-#npm run lint
+# Corre todas las pruebas antes de cada commit. Si alguna falla, el commit no se hace.
+npx jest --silent

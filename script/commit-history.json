@@ -1178,17 +1178,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "37281414ddf8e34df7b6e04902510f8b30900221",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-18T02:23:17.000Z",
       "message": "chore: ejecutar las pruebas automáticamente en cada push y en cada pull request",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/37281414ddf8e34df7b6e04902510f8b30900221"
     },
     "stats": {
       "total": 17,
       "additions": 10,
       "deletions": 7,
+      "date": "2026-10-18"
+    },
+    "coverage": 99.32,
+    "test_count": 55,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-18T02:24:09.000Z",
+      "message": "chore: correr las pruebas antes de cada commit",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 2,
+      "deletions": 1,
       "date": "2026-10-18"
     },
     "coverage": 99.32,
