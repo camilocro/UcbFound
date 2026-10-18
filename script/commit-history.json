@@ -1045,12 +1045,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ed87c29857dd712ce9082c7a7ebf7e0142514774",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-10-18T00:29:08.000Z",
       "message": "feat: no duplicar los objetos de ejemplo al recargar",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/ed87c29857dd712ce9082c7a7ebf7e0142514774"
     },
     "stats": {
       "total": 14,
@@ -1060,6 +1060,101 @@
     },
     "coverage": 99.28,
     "test_count": 50,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "2f6a2846890ec2f7f51010c7073e92254302c989",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-10-18T00:43:25.000Z",
+      "message": "feat: mostrar la vista básica de un objeto encontrado",
+      "url": "https://github.com/camilocro/UcbFound/commit/2f6a2846890ec2f7f51010c7073e92254302c989"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 16,
+      "deletions": 0,
+      "date": "2026-10-18"
+    },
+    "coverage": 99.29,
+    "test_count": 51,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "0c3bfca30ab35831e1ca3e056bae0bc83e988210",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-10-18T00:45:47.000Z",
+      "message": "feat: ocultar los datos de quien encontró el objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/0c3bfca30ab35831e1ca3e056bae0bc83e988210"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-10-18"
+    },
+    "coverage": 99.29,
+    "test_count": 52,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "2a86c3c83f1fcecd248108eb64c115a659dc3ef4",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-10-18T00:47:14.000Z",
+      "message": "feat: buscar un objeto encontrado por su id",
+      "url": "https://github.com/camilocro/UcbFound/commit/2a86c3c83f1fcecd248108eb64c115a659dc3ef4"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-10-18"
+    },
+    "coverage": 99.3,
+    "test_count": 53,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "df87ce056435943874eee66daedb8e9be80e1405",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-10-18T00:56:05.000Z",
+      "message": "feat: ver los datos de un objeto al presionarlo en la lista",
+      "url": "https://github.com/camilocro/UcbFound/commit/df87ce056435943874eee66daedb8e9be80e1405"
+    },
+    "stats": {
+      "total": 111,
+      "additions": 100,
+      "deletions": 11,
+      "date": "2026-10-18"
+    },
+    "coverage": 99.31,
+    "test_count": 54,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-10-18T00:58:18.000Z",
+      "message": "feat: no enviar a la lista los datos de quien encontró el objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-10-18"
+    },
+    "coverage": 99.32,
+    "test_count": 55,
     "failed_tests": 0,
     "conclusion": "success"
   }

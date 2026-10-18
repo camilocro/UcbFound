@@ -12,4 +12,14 @@ export class ObjetoEncontrado {
     const buscado = texto.toLowerCase();
     return this.nombre.toLowerCase().includes(buscado) || this.descripcion.toLowerCase().includes(buscado);
   }
+
+  vistaBasica() {
+    return {
+      id: this.id,
+      foto: this.foto,
+      nombre: this.nombre,
+      descripcion: this.descripcion,
+      fecha: this.fecha,
+    };
+  }
 }

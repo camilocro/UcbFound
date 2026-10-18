@@ -1266,9 +1266,127 @@
     "testId": 55
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ed87c29857dd712ce9082c7a7ebf7e0142514774",
     "commitName": "feat: no duplicar los objetos de ejemplo al recargar",
     "commitTimestamp": 1792283351767,
     "testId": 55
+  },
+  {
+    "numPassedTests": 50,
+    "failedTests": 1,
+    "numTotalTests": 51,
+    "timestamp": 1792284157907,
+    "success": false,
+    "testId": 56
+  },
+  {
+    "numPassedTests": 51,
+    "failedTests": 0,
+    "numTotalTests": 51,
+    "timestamp": 1792284180754,
+    "success": true,
+    "testId": 56
+  },
+  {
+    "commitId": "2f6a2846890ec2f7f51010c7073e92254302c989",
+    "commitName": "feat: mostrar la vista básica de un objeto encontrado",
+    "commitTimestamp": 1792284208169,
+    "testId": 56
+  },
+  {
+    "numPassedTests": 51,
+    "failedTests": 1,
+    "numTotalTests": 52,
+    "timestamp": 1792284269578,
+    "success": false,
+    "testId": 57
+  },
+  {
+    "numPassedTests": 52,
+    "failedTests": 0,
+    "numTotalTests": 52,
+    "timestamp": 1792284310421,
+    "success": true,
+    "testId": 57
+  },
+  {
+    "commitId": "0c3bfca30ab35831e1ca3e056bae0bc83e988210",
+    "commitName": "feat: ocultar los datos de quien encontró el objeto",
+    "commitTimestamp": 1792284350462,
+    "testId": 57
+  },
+  {
+    "numPassedTests": 52,
+    "failedTests": 1,
+    "numTotalTests": 53,
+    "timestamp": 1792284384304,
+    "success": false,
+    "testId": 58
+  },
+  {
+    "numPassedTests": 53,
+    "failedTests": 0,
+    "numTotalTests": 53,
+    "timestamp": 1792284412320,
+    "success": true,
+    "testId": 58
+  },
+  {
+    "commitId": "2a86c3c83f1fcecd248108eb64c115a659dc3ef4",
+    "commitName": "feat: buscar un objeto encontrado por su id",
+    "commitTimestamp": 1792284437248,
+    "testId": 58
+  },
+  {
+    "numPassedTests": 53,
+    "failedTests": 0,
+    "numTotalTests": 53,
+    "timestamp": 1792284482379,
+    "success": false,
+    "testId": 59
+  },
+  {
+    "numPassedTests": 54,
+    "failedTests": 0,
+    "numTotalTests": 54,
+    "timestamp": 1792284512491,
+    "success": true,
+    "testId": 59
+  },
+  {
+    "numPassedTests": 54,
+    "failedTests": 0,
+    "numTotalTests": 54,
+    "timestamp": 1792284848680,
+    "success": true,
+    "testId": 59
+  },
+  {
+    "commitId": "df87ce056435943874eee66daedb8e9be80e1405",
+    "commitName": "feat: ver los datos de un objeto al presionarlo en la lista",
+    "commitTimestamp": 1792284967518,
+    "testId": 59
+  },
+  {
+    "numPassedTests": 54,
+    "failedTests": 1,
+    "numTotalTests": 55,
+    "timestamp": 1792285063147,
+    "success": false,
+    "testId": 60
+  },
+  {
+    "numPassedTests": 55,
+    "failedTests": 0,
+    "numTotalTests": 55,
+    "timestamp": 1792285088545,
+    "success": true,
+    "testId": 60
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: no enviar a la lista los datos de quien encontró el objeto",
+    "commitTimestamp": 1792285099645,
+    "testId": 60
   }
 ]

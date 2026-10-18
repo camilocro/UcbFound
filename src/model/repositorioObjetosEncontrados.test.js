@@ -36,3 +36,11 @@ describe('HU-07 Repositorio de objetos encontrados: guardar', () => {
     expect(repositorio.obtenerTodos()[0].coincideCon('mochila')).toBe(true);
   });
 });
+
+describe('HU-09 Repositorio de objetos encontrados: buscar por id', () => {
+  it('debería encontrar un objeto guardado por su id', () => {
+    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+    repositorio.guardar(datosMochila);
+    expect(repositorio.buscarPorId('obj-1').nombre).toEqual('Mochila negra');
+  });
+});
