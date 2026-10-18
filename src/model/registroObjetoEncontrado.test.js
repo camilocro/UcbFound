@@ -17,3 +17,17 @@ describe('HU-11 Criterio 1: objeto registrado', () => {
     expect(resultado.mensaje).toEqual('Objeto registrado correctamente');
   });
 });
+
+describe('HU-11 Criterio 1: objeto a nombre de quien lo encontró', () => {
+  it('debería crear el objeto con la fecha de hoy y el correo de quien lo encontró', () => {
+    const resultado = registro.registrar(datosValidos, CORREO);
+    expect(resultado.objeto).toEqual({
+      id: 'obj-1',
+      nombre: 'Billetera café',
+      descripcion: 'Tiene un carnet de la UCB adentro',
+      fecha: '2026-10-17',
+      foto: FOTO,
+      correoDeQuienEncontro: 'camilo.rojas@ucb.edu.bo',
+    });
+  });
+});

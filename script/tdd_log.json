@@ -1472,9 +1472,31 @@
     "testId": 64
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b2763425c37636f3cdf45e04a59aa954629c1e8f",
     "commitName": "feat: registrar objeto encontrado con foto y descripción",
     "commitTimestamp": 1792366406648,
     "testId": 64
+  },
+  {
+    "numPassedTests": 56,
+    "failedTests": 1,
+    "numTotalTests": 57,
+    "timestamp": 1792366488973,
+    "success": false,
+    "testId": 65
+  },
+  {
+    "numPassedTests": 57,
+    "failedTests": 0,
+    "numTotalTests": 57,
+    "timestamp": 1792366518804,
+    "success": true,
+    "testId": 65
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: crear el objeto encontrado con la fecha de hoy y el correo de quien lo encontró",
+    "commitTimestamp": 1792366540229,
+    "testId": 65
   }
 ]

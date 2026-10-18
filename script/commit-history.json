@@ -1216,12 +1216,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b2763425c37636f3cdf45e04a59aa954629c1e8f",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-18T23:33:22.000Z",
       "message": "feat: registrar objeto encontrado con foto y descripción",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/b2763425c37636f3cdf45e04a59aa954629c1e8f"
     },
     "stats": {
       "total": 62,
@@ -1231,6 +1231,25 @@
     },
     "coverage": 99.33,
     "test_count": 56,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-18T23:35:36.000Z",
+      "message": "feat: crear el objeto encontrado con la fecha de hoy y el correo de quien lo encontró",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 28,
+      "additions": 26,
+      "deletions": 2,
+      "date": "2026-10-18"
+    },
+    "coverage": 99.34,
+    "test_count": 57,
     "failed_tests": 0,
     "conclusion": "success"
   }
