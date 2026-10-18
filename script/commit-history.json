@@ -1292,12 +1292,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "83c5d0ce46dfcad1bf748212283c1332e474c079",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-18T23:43:27.000Z",
       "message": "feat: tratar como vacía la descripción con solo espacios",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/83c5d0ce46dfcad1bf748212283c1332e474c079"
     },
     "stats": {
       "total": 9,
@@ -1307,6 +1307,25 @@
     },
     "coverage": 99.35,
     "test_count": 60,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-18T23:45:54.000Z",
+      "message": "feat: usar un nombre por defecto cuando no se escribe el nombre del objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-10-18"
+    },
+    "coverage": 99.35,
+    "test_count": 61,
     "failed_tests": 0,
     "conclusion": "success"
   }

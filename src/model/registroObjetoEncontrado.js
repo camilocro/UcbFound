@@ -5,6 +5,8 @@ export const MENSAJES_REGISTRO_OBJETO = {
   FALTAN_FOTO_O_DESCRIPCION: 'Es necesario agregar una foto y una descripción',
 };
 
+const NOMBRE_POR_DEFECTO = 'Objeto encontrado';
+
 export class RegistroObjetoEncontrado {
   constructor(fechaDeHoy, crearId) {
     this.fechaDeHoy = fechaDeHoy;
@@ -17,7 +19,7 @@ export class RegistroObjetoEncontrado {
     }
     const objeto = new ObjetoEncontrado({
       id: this.crearId(),
-      nombre: nombre.trim(),
+      nombre: nombre.trim() || NOMBRE_POR_DEFECTO,
       descripcion: descripcion.trim(),
       fecha: this.fechaDeHoy,
       foto,

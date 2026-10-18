@@ -1560,9 +1560,39 @@
     "testId": 68
   },
   {
-    "commitId": "HEAD",
+    "commitId": "83c5d0ce46dfcad1bf748212283c1332e474c079",
     "commitName": "feat: tratar como vacía la descripción con solo espacios",
     "commitTimestamp": 1792367014303,
     "testId": 68
+  },
+  {
+    "numPassedTests": 60,
+    "failedTests": 0,
+    "numTotalTests": 60,
+    "timestamp": 1792367076522,
+    "success": true,
+    "testId": 69
+  },
+  {
+    "numPassedTests": 60,
+    "failedTests": 1,
+    "numTotalTests": 61,
+    "timestamp": 1792367113355,
+    "success": false,
+    "testId": 69
+  },
+  {
+    "numPassedTests": 61,
+    "failedTests": 0,
+    "numTotalTests": 61,
+    "timestamp": 1792367145560,
+    "success": true,
+    "testId": 69
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: usar un nombre por defecto cuando no se escribe el nombre del objeto",
+    "commitTimestamp": 1792367160192,
+    "testId": 69
   }
 ]

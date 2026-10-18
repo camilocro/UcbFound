@@ -52,3 +52,10 @@ describe('HU-11 Criterio 2: descripción con solo espacios', () => {
     expect(resultado).toEqual({ exito: false, mensaje: 'Es necesario agregar una foto y una descripción' });
   });
 });
+
+describe('HU-11 Nombre opcional', () => {
+  it('debería usar "Objeto encontrado" como nombre cuando no se escribe uno', () => {
+    const resultado = registro.registrar({ ...datosValidos, nombre: '' }, CORREO);
+    expect(resultado.objeto.nombre).toEqual('Objeto encontrado');
+  });
+});
