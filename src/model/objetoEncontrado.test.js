@@ -27,3 +27,15 @@ describe('HU-07 Objeto encontrado: mayúsculas', () => {
     expect(mochila.coincideCon('MOCHILA')).toBe(true);
   });
 });
+
+describe('HU-09 Criterio 1: vista básica del objeto', () => {
+  it('debería mostrar la foto, el nombre, la descripción y la fecha', () => {
+    const vista = mochila.vistaBasica();
+    expect([vista.foto, vista.nombre, vista.descripcion, vista.fecha]).toEqual([
+      'data:image/png;base64,AAA',
+      'Mochila negra',
+      'Tiene un llavero de la UCB',
+      '2026-10-15',
+    ]);
+  });
+});

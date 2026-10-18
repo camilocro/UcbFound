@@ -12,4 +12,8 @@ export class ObjetoEncontrado {
     const buscado = texto.toLowerCase();
     return this.nombre.toLowerCase().includes(buscado) || this.descripcion.toLowerCase().includes(buscado);
   }
+
+  vistaBasica() {
+    return { ...this };
+  }
 }

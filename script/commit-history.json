@@ -1045,12 +1045,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ed87c29857dd712ce9082c7a7ebf7e0142514774",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-10-18T00:29:08.000Z",
       "message": "feat: no duplicar los objetos de ejemplo al recargar",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/ed87c29857dd712ce9082c7a7ebf7e0142514774"
     },
     "stats": {
       "total": 14,
@@ -1060,6 +1060,25 @@
     },
     "coverage": 99.28,
     "test_count": 50,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-10-18T00:43:25.000Z",
+      "message": "feat: mostrar la vista básica de un objeto encontrado",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 16,
+      "deletions": 0,
+      "date": "2026-10-18"
+    },
+    "coverage": 99.29,
+    "test_count": 51,
     "failed_tests": 0,
     "conclusion": "success"
   }
