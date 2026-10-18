@@ -1244,9 +1244,31 @@
     "testId": 54
   },
   {
-    "commitId": "HEAD",
+    "commitId": "93b2336b36cd412af37331be16a418eeeed90be8",
     "commitName": "feat: cargar objetos encontrados de ejemplo",
     "commitTimestamp": 1792283150453,
     "testId": 54
+  },
+  {
+    "numPassedTests": 49,
+    "failedTests": 1,
+    "numTotalTests": 50,
+    "timestamp": 1792283197302,
+    "success": false,
+    "testId": 55
+  },
+  {
+    "numPassedTests": 50,
+    "failedTests": 0,
+    "numTotalTests": 50,
+    "timestamp": 1792283227329,
+    "success": true,
+    "testId": 55
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: no duplicar los objetos de ejemplo al recargar",
+    "commitTimestamp": 1792283351767,
+    "testId": 55
   }
 ]

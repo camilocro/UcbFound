@@ -21,3 +21,12 @@ describe('Datos de ejemplo', () => {
     expect(repositorio.obtenerTodos().length).toBe(6);
   });
 });
+
+describe('Datos de ejemplo: sin duplicar', () => {
+  it('no debería volver a cargarlos si ya hay objetos guardados', () => {
+    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+    cargarDatosDeEjemplo(repositorio);
+    cargarDatosDeEjemplo(repositorio);
+    expect(repositorio.obtenerTodos().length).toBe(6);
+  });
+});

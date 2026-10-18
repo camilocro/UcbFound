@@ -13,5 +13,8 @@ export const OBJETOS_DE_EJEMPLO = [
 ];
 
 export function cargarDatosDeEjemplo(repositorio) {
+  if (repositorio.obtenerTodos().length > 0) {
+    return;
+  }
   OBJETOS_DE_EJEMPLO.forEach((objeto) => repositorio.guardar(objeto));
 }

@@ -6,6 +6,7 @@ import FormularioReporteObjetoPerdido from './view/FormularioReporteObjetoPerdid
 import VistaBusquedaObjetos from './view/VistaBusquedaObjetos.jsx';
 import { RepositorioReportes } from './model/repositorioReportes.js';
 import { RepositorioObjetosEncontrados } from './model/repositorioObjetosEncontrados.js';
+import { cargarDatosDeEjemplo } from './model/datosDeEjemplo.js';
 import { fechaComoTexto } from './model/fecha.js';
 import { ReportePresenter } from './presenter/reportePresenter.js';
 import { BusquedaPresenter } from './presenter/busquedaPresenter.js';
@@ -16,6 +17,7 @@ const sesion = new Sesion(window.sessionStorage);
 const sesionPresenter = new SesionPresenter(sesion);
 const reportePresenter = new ReportePresenter(new RepositorioReportes(window.localStorage), sesion);
 const repositorioObjetos = new RepositorioObjetosEncontrados(window.localStorage);
+cargarDatosDeEjemplo(repositorioObjetos);
 const busquedaPresenter = new BusquedaPresenter(repositorioObjetos);
 const PAGINAS = ['principal', 'inicio-sesion', 'registro', 'reportar-objeto', 'buscar-objetos'];
 
