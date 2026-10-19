@@ -1706,9 +1706,15 @@
     "testId": 74
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5a7b03391da7097758a875f3da09172fca38b10c",
     "commitName": "feat: agregar la pantalla para registrar objetos encontrados",
     "commitTimestamp": 1792368481330,
     "testId": 75
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "chore: unir main en la rama de la HU-11",
+    "commitTimestamp": 1792370657699,
+    "testId": 76
   }
 ]

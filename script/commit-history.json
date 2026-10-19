@@ -1425,17 +1425,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5a7b03391da7097758a875f3da09172fca38b10c",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-19T00:07:56.000Z",
       "message": "feat: agregar la pantalla para registrar objetos encontrados",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/5a7b03391da7097758a875f3da09172fca38b10c"
     },
     "stats": {
       "total": 168,
       "additions": 167,
       "deletions": 1,
+      "date": "2026-10-19"
+    },
+    "coverage": 98.26,
+    "test_count": 66,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-19T00:44:03.000Z",
+      "message": "chore: unir main en la rama de la HU-11",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 35,
+      "additions": 24,
+      "deletions": 11,
       "date": "2026-10-19"
     },
     "coverage": 98.26,
