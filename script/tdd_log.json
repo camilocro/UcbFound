@@ -1442,9 +1442,23 @@
     "testId": 63
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5d2fb29e3429c689c4f30ed5cc176dc7ab85fc10",
     "commitName": "chore: correr las pruebas antes de cada commit",
     "commitTimestamp": 1792290259618,
     "testId": 63
+  },
+  {
+    "numPassedTests": 55,
+    "failedTests": 0,
+    "numTotalTests": 55,
+    "timestamp": 1792369310090,
+    "success": true,
+    "testId": 64
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "docs: simplificar el README",
+    "commitTimestamp": 1792369566862,
+    "testId": 64
   }
 ]
