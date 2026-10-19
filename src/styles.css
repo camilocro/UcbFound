@@ -299,3 +299,19 @@ body {
   margin-top: 10px;
   line-height: 1.5;
 }
+.vista-previa {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.campo input[type='file'] {
+  background: #fff;
+  cursor: pointer;
+}
+
+.boton:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}

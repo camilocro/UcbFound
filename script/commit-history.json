@@ -1216,11 +1216,239 @@
     "conclusion": "success"
   },
   {
+    "sha": "b2763425c37636f3cdf45e04a59aa954629c1e8f",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-18T23:33:22.000Z",
+      "message": "feat: registrar objeto encontrado con foto y descripción",
+      "url": "https://github.com/camilocro/UcbFound/commit/b2763425c37636f3cdf45e04a59aa954629c1e8f"
+    },
+    "stats": {
+      "total": 62,
+      "additions": 37,
+      "deletions": 25,
+      "date": "2026-10-18"
+    },
+    "coverage": 99.33,
+    "test_count": 56,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "7ea73248a55c79ac09e5adbbd8ae561414dd8b5c",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-18T23:35:36.000Z",
+      "message": "feat: crear el objeto encontrado con la fecha de hoy y el correo de quien lo encontró",
+      "url": "https://github.com/camilocro/UcbFound/commit/7ea73248a55c79ac09e5adbbd8ae561414dd8b5c"
+    },
+    "stats": {
+      "total": 28,
+      "additions": 26,
+      "deletions": 2,
+      "date": "2026-10-18"
+    },
+    "coverage": 99.34,
+    "test_count": 57,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "69b61a9fae434136bf5f29db38a18cc9a6e7cd95",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-18T23:38:26.000Z",
+      "message": "feat: pedir foto y descripción cuando falta la foto",
+      "url": "https://github.com/camilocro/UcbFound/commit/69b61a9fae434136bf5f29db38a18cc9a6e7cd95"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 15,
+      "deletions": 0,
+      "date": "2026-10-18"
+    },
+    "coverage": 99.35,
+    "test_count": 58,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "897d610a4b7f8d73a353e4c08934cad40ffcb3db",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-18T23:41:01.000Z",
+      "message": "feat: pedir foto y descripción cuando falta la descripción",
+      "url": "https://github.com/camilocro/UcbFound/commit/897d610a4b7f8d73a353e4c08934cad40ffcb3db"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-10-18"
+    },
+    "coverage": 99.35,
+    "test_count": 59,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "83c5d0ce46dfcad1bf748212283c1332e474c079",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-18T23:43:27.000Z",
+      "message": "feat: tratar como vacía la descripción con solo espacios",
+      "url": "https://github.com/camilocro/UcbFound/commit/83c5d0ce46dfcad1bf748212283c1332e474c079"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-10-18"
+    },
+    "coverage": 99.35,
+    "test_count": 60,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "4ab7b387972b7371fa4e40cf11d11d0ebb69c958",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-18T23:45:54.000Z",
+      "message": "feat: usar un nombre por defecto cuando no se escribe el nombre del objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/4ab7b387972b7371fa4e40cf11d11d0ebb69c958"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-10-18"
+    },
+    "coverage": 99.35,
+    "test_count": 61,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "f216ee26e7458d24954d0affc3f8df2a62fc4cdc",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-18T23:47:23.000Z",
+      "message": "feat: aceptar solo imágenes como foto del objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/f216ee26e7458d24954d0affc3f8df2a62fc4cdc"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-10-18"
+    },
+    "coverage": 99.36,
+    "test_count": 62,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "0717bf1f281052e036947fff8ad112aa29ce797c",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-18T23:51:09.000Z",
+      "message": "feat: guardar el objeto registrado para que aparezca en la lista",
+      "url": "https://github.com/camilocro/UcbFound/commit/0717bf1f281052e036947fff8ad112aa29ce797c"
+    },
+    "stats": {
+      "total": 55,
+      "additions": 55,
+      "deletions": 0,
+      "date": "2026-10-18"
+    },
+    "coverage": 98.21,
+    "test_count": 63,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "40587cc66890f098767bff9b7582dafc3b0dbe01",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-18T23:52:11.000Z",
+      "message": "feat: no guardar el objeto cuando faltan la foto o la descripción",
+      "url": "https://github.com/camilocro/UcbFound/commit/40587cc66890f098767bff9b7582dafc3b0dbe01"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-10-18"
+    },
+    "coverage": 98.22,
+    "test_count": 64,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "1c02fea757085900de4eee6383992fa79df45611",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-18T23:53:25.000Z",
+      "message": "feat: avisar cuando la foto es muy pesada para guardarla",
+      "url": "https://github.com/camilocro/UcbFound/commit/1c02fea757085900de4eee6383992fa79df45611"
+    },
+    "stats": {
+      "total": 26,
+      "additions": 24,
+      "deletions": 2,
+      "date": "2026-10-18"
+    },
+    "coverage": 98.26,
+    "test_count": 65,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "b0e9b04ea530f2b38478b0f79b01d473a808e2b7",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-18T23:54:52.000Z",
+      "message": "feat: pedir iniciar sesión para registrar un objeto encontrado",
+      "url": "https://github.com/camilocro/UcbFound/commit/b0e9b04ea530f2b38478b0f79b01d473a808e2b7"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-10-18"
+    },
+    "coverage": 98.26,
+    "test_count": 66,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "5a7b03391da7097758a875f3da09172fca38b10c",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-19T00:07:56.000Z",
+      "message": "feat: agregar la pantalla para registrar objetos encontrados",
+      "url": "https://github.com/camilocro/UcbFound/commit/5a7b03391da7097758a875f3da09172fca38b10c"
+    },
+    "stats": {
+      "total": 168,
+      "additions": 167,
+      "deletions": 1,
+      "date": "2026-10-19"
+    },
+    "coverage": 98.26,
+    "test_count": 66,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
     "sha": "HEAD",
     "author": "camilocro",
     "commit": {
-      "date": "2026-10-19T00:25:57.000Z",
-      "message": "docs: simplificar el README",
+      "date": "2026-10-19T00:44:03.000Z",
+      "message": "chore: unir main en la rama de la HU-11",
       "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
     },
     "stats": {
@@ -1229,8 +1457,8 @@
       "deletions": 11,
       "date": "2026-10-19"
     },
-    "coverage": 99.32,
-    "test_count": 55,
+    "coverage": 98.26,
+    "test_count": 66,
     "failed_tests": 0,
     "conclusion": "success"
   }
