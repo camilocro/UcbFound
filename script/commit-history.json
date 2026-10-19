@@ -1197,18 +1197,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5d2fb29e3429c689c4f30ed5cc176dc7ab85fc10",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-18T02:24:09.000Z",
       "message": "chore: correr las pruebas antes de cada commit",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/5d2fb29e3429c689c4f30ed5cc176dc7ab85fc10"
     },
     "stats": {
       "total": 3,
       "additions": 2,
       "deletions": 1,
       "date": "2026-10-18"
+    },
+    "coverage": 99.32,
+    "test_count": 55,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-19T00:25:57.000Z",
+      "message": "docs: simplificar el README",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 35,
+      "additions": 24,
+      "deletions": 11,
+      "date": "2026-10-19"
     },
     "coverage": 99.32,
     "test_count": 55,
