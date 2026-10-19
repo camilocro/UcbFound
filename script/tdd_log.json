@@ -1700,9 +1700,15 @@
     "testId": 74
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b0e9b04ea530f2b38478b0f79b01d473a808e2b7",
     "commitName": "feat: pedir iniciar sesión para registrar un objeto encontrado",
     "commitTimestamp": 1792367696947,
     "testId": 74
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar la pantalla para registrar objetos encontrados",
+    "commitTimestamp": 1792368481330,
+    "testId": 75
   }
 ]

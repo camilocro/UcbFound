@@ -1406,18 +1406,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b0e9b04ea530f2b38478b0f79b01d473a808e2b7",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-18T23:54:52.000Z",
       "message": "feat: pedir iniciar sesión para registrar un objeto encontrado",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/b0e9b04ea530f2b38478b0f79b01d473a808e2b7"
     },
     "stats": {
       "total": 8,
       "additions": 7,
       "deletions": 1,
       "date": "2026-10-18"
+    },
+    "coverage": 98.26,
+    "test_count": 66,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-19T00:07:56.000Z",
+      "message": "feat: agregar la pantalla para registrar objetos encontrados",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 168,
+      "additions": 167,
+      "deletions": 1,
+      "date": "2026-10-19"
     },
     "coverage": 98.26,
     "test_count": 66,
