@@ -9,7 +9,8 @@ export class BuscadorObjetos {
 
   buscar(texto) {
     const buscado = texto.trim();
-    const encontrados = this.objetos
+    const encontrados = [...this.objetos]
+      .reverse()
       .filter((objeto) => objeto.coincideCon(buscado))
       .sort((primero, segundo) => segundo.fecha.localeCompare(primero.fecha));
     if (encontrados.length === 0) {

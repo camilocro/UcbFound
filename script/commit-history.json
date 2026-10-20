@@ -1501,12 +1501,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "610c6e569db64d5605b129463acf76a75a9ccdbc",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-20T13:49:03.000Z",
       "message": "fix: buscar sin importar las tildes",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/610c6e569db64d5605b129463acf76a75a9ccdbc"
     },
     "stats": {
       "total": 15,
@@ -1516,6 +1516,25 @@
     },
     "coverage": 98.27,
     "test_count": 68,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-20T13:50:25.000Z",
+      "message": "fix: mostrar primero el último objeto registrado cuando tienen la misma fecha",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 12,
+      "deletions": 1,
+      "date": "2026-10-20"
+    },
+    "coverage": 98.27,
+    "test_count": 69,
     "failed_tests": 0,
     "conclusion": "success"
   }

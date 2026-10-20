@@ -28,3 +28,13 @@ describe('HU-07 Criterio 3: buscar sin escribir nada', () => {
     expect(nombres(resultado)).toEqual(['Cargador de laptop', 'Botella de agua', 'Mochila negra']);
   });
 });
+
+describe('HU-07 Criterio 3: objetos del mismo día', () => {
+  it('debería mostrar primero el último objeto registrado cuando tienen la misma fecha', () => {
+    const delMismoDia = [
+      new ObjetoEncontrado({ id: 'obj-4', nombre: 'Gorra azul', descripcion: 'Gorra con el logo de la UCB', fecha: '2026-10-14', foto: '', correoDeQuienEncontro: 'ana.lopez@ucb.edu.bo' }),
+      new ObjetoEncontrado({ id: 'obj-5', nombre: 'Termo rojo', descripcion: 'Termo de metal', fecha: '2026-10-14', foto: '', correoDeQuienEncontro: 'luis.rojas@ucb.edu.bo' }),
+    ];
+    expect(nombres(new BuscadorObjetos(delMismoDia).buscar(''))).toEqual(['Termo rojo', 'Gorra azul']);
+  });
+});

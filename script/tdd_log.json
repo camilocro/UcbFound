@@ -1786,9 +1786,31 @@
     "testId": 79
   },
   {
-    "commitId": "HEAD",
+    "commitId": "610c6e569db64d5605b129463acf76a75a9ccdbc",
     "commitName": "fix: buscar sin importar las tildes",
     "commitTimestamp": 1792504154404,
     "testId": 79
+  },
+  {
+    "numPassedTests": 68,
+    "failedTests": 1,
+    "numTotalTests": 69,
+    "timestamp": 1792504188148,
+    "success": false,
+    "testId": 80
+  },
+  {
+    "numPassedTests": 69,
+    "failedTests": 0,
+    "numTotalTests": 69,
+    "timestamp": 1792504215159,
+    "success": true,
+    "testId": 80
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: mostrar primero el último objeto registrado cuando tienen la misma fecha",
+    "commitTimestamp": 1792504237526,
+    "testId": 80
   }
 ]
