@@ -1814,9 +1814,15 @@
     "testId": 80
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ed008d06df1cd0fe714ba6514f1fea762e6e5951",
     "commitName": "docs: agregar la HU-11 y las correcciones a las pruebas manuales",
     "commitTimestamp": 1792504518350,
     "testId": 81
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "docs: marcar los resultados de las pruebas manuales del sprint 1",
+    "commitTimestamp": 1792504672633,
+    "testId": 82
   }
 ]

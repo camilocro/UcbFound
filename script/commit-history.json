@@ -1539,17 +1539,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ed008d06df1cd0fe714ba6514f1fea762e6e5951",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-20T13:55:05.000Z",
       "message": "docs: agregar la HU-11 y las correcciones a las pruebas manuales",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/ed008d06df1cd0fe714ba6514f1fea762e6e5951"
     },
     "stats": {
       "total": 16,
       "additions": 14,
       "deletions": 2,
+      "date": "2026-10-20"
+    },
+    "coverage": 98.27,
+    "test_count": 69,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-20T13:57:42.000Z",
+      "message": "docs: marcar los resultados de las pruebas manuales del sprint 1",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 10,
+      "deletions": 10,
       "date": "2026-10-20"
     },
     "coverage": 98.27,
