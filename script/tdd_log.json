@@ -1764,9 +1764,31 @@
     "testId": 78
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b3502a60f599ba5387a3b0a81f7d29787e133536",
     "commitName": "fix: pedir sesión para buscar objetos encontrados",
     "commitTimestamp": 1792504060472,
     "testId": 78
+  },
+  {
+    "numPassedTests": 67,
+    "failedTests": 1,
+    "numTotalTests": 68,
+    "timestamp": 1792504092314,
+    "success": false,
+    "testId": 79
+  },
+  {
+    "numPassedTests": 68,
+    "failedTests": 0,
+    "numTotalTests": 68,
+    "timestamp": 1792504124818,
+    "success": true,
+    "testId": 79
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: buscar sin importar las tildes",
+    "commitTimestamp": 1792504154404,
+    "testId": 79
   }
 ]

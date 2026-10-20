@@ -1482,12 +1482,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b3502a60f599ba5387a3b0a81f7d29787e133536",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-20T13:47:28.000Z",
       "message": "fix: pedir sesión para buscar objetos encontrados",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/b3502a60f599ba5387a3b0a81f7d29787e133536"
     },
     "stats": {
       "total": 9,
@@ -1497,6 +1497,25 @@
     },
     "coverage": 98.26,
     "test_count": 67,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-20T13:49:03.000Z",
+      "message": "fix: buscar sin importar las tildes",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 13,
+      "deletions": 2,
+      "date": "2026-10-20"
+    },
+    "coverage": 98.27,
+    "test_count": 68,
     "failed_tests": 0,
     "conclusion": "success"
   }

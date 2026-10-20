@@ -45,3 +45,10 @@ describe('HU-09 Criterio 2: sin datos personales', () => {
     expect('correoDeQuienEncontro' in mochila.vistaBasica()).toBe(false);
   });
 });
+
+describe('HU-07 Objeto encontrado: tildes', () => {
+  it('debería coincidir aunque se escriba sin tildes', () => {
+    const audifonos = new ObjetoEncontrado({ ...mochila, id: 'obj-2', nombre: 'Audífonos', descripcion: 'Inalámbricos y blancos' });
+    expect(audifonos.coincideCon('audifonos')).toBe(true);
+  });
+});

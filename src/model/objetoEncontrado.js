@@ -1,3 +1,7 @@
+function sinTildes(texto) {
+  return texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+}
+
 export class ObjetoEncontrado {
   constructor({ id, nombre, descripcion, fecha, foto, correoDeQuienEncontro }) {
     this.id = id;
@@ -9,8 +13,8 @@ export class ObjetoEncontrado {
   }
 
   coincideCon(texto) {
-    const buscado = texto.toLowerCase();
-    return this.nombre.toLowerCase().includes(buscado) || this.descripcion.toLowerCase().includes(buscado);
+    const buscado = sinTildes(texto);
+    return sinTildes(this.nombre).includes(buscado) || sinTildes(this.descripcion).includes(buscado);
   }
 
   vistaBasica() {
