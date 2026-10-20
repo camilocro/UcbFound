@@ -1577,17 +1577,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e518842f35389b7b101fbac804fd323b4c500072",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-10-20T20:04:34.000Z",
       "message": "feat: agregar actualizar al repositorio de objetos encontrados",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/e518842f35389b7b101fbac804fd323b4c500072"
     },
     "stats": {
       "total": 5,
       "additions": 5,
       "deletions": 0,
+      "date": "2026-10-20"
+    },
+    "coverage": 96.2,
+    "test_count": 69,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-10-20T20:05:02.000Z",
+      "message": "refactor: reemplazar los emojis de los objetos de ejemplo por fotos reales",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 33,
+      "additions": 21,
+      "deletions": 12,
       "date": "2026-10-20"
     },
     "coverage": 96.2,
