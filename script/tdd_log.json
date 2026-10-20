@@ -1742,9 +1742,31 @@
     "testId": 77
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d05c28b50d272191408bd560799b3fa2ddedeada",
     "commitName": "refactor: crear los presenters de registro e inicio de sesión en main.jsx",
     "commitTimestamp": 1792503750368,
     "testId": 77
+  },
+  {
+    "numPassedTests": 66,
+    "failedTests": 1,
+    "numTotalTests": 67,
+    "timestamp": 1792504016805,
+    "success": false,
+    "testId": 78
+  },
+  {
+    "numPassedTests": 67,
+    "failedTests": 0,
+    "numTotalTests": 67,
+    "timestamp": 1792504037167,
+    "success": true,
+    "testId": 78
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: pedir sesión para buscar objetos encontrados",
+    "commitTimestamp": 1792504060472,
+    "testId": 78
   }
 ]

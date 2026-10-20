@@ -1463,12 +1463,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d05c28b50d272191408bd560799b3fa2ddedeada",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-20T13:42:17.000Z",
       "message": "refactor: crear los presenters de registro e inicio de sesión en main.jsx",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/d05c28b50d272191408bd560799b3fa2ddedeada"
     },
     "stats": {
       "total": 27,
@@ -1478,6 +1478,25 @@
     },
     "coverage": 98.26,
     "test_count": 66,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-20T13:47:28.000Z",
+      "message": "fix: pedir sesión para buscar objetos encontrados",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-10-20"
+    },
+    "coverage": 98.26,
+    "test_count": 67,
     "failed_tests": 0,
     "conclusion": "success"
   }

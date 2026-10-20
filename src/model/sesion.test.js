@@ -75,3 +75,10 @@ describe('HU-11 Páginas que requieren cuenta', () => {
     expect(sesion.resolverPagina('registrar-objeto')).toEqual('inicio-sesion');
   });
 });
+
+describe('HU-07 Páginas que requieren cuenta', () => {
+  it('debería pedir iniciar sesión para buscar objetos encontrados', () => {
+    const sesion = new Sesion(crearAlmacenamientoFalso());
+    expect(sesion.resolverPagina('buscar-objetos')).toEqual('inicio-sesion');
+  });
+});
