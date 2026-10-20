@@ -1558,12 +1558,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7d36b164b793e70b5537bf2e095a04b085a9a1d6",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-20T13:57:42.000Z",
       "message": "docs: marcar los resultados de las pruebas manuales del sprint 1",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/7d36b164b793e70b5537bf2e095a04b085a9a1d6"
     },
     "stats": {
       "total": 20,
@@ -1573,6 +1573,25 @@
     },
     "coverage": 98.27,
     "test_count": 69,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-20T14:18:15.000Z",
+      "message": "test: agregar prueba de integración del registro y el login",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 25,
+      "deletions": 0,
+      "date": "2026-10-20"
+    },
+    "coverage": 98.32,
+    "test_count": 70,
     "failed_tests": 0,
     "conclusion": "success"
   }
