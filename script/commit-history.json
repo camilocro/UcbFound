@@ -1520,17 +1520,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ee03452daab51102371664064ddb917ba9aa1bdc",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-20T13:50:25.000Z",
       "message": "fix: mostrar primero el último objeto registrado cuando tienen la misma fecha",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/ee03452daab51102371664064ddb917ba9aa1bdc"
     },
     "stats": {
       "total": 13,
       "additions": 12,
       "deletions": 1,
+      "date": "2026-10-20"
+    },
+    "coverage": 98.27,
+    "test_count": 69,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-20T13:55:05.000Z",
+      "message": "docs: agregar la HU-11 y las correcciones a las pruebas manuales",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 14,
+      "deletions": 2,
       "date": "2026-10-20"
     },
     "coverage": 98.27,

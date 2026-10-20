@@ -1808,9 +1808,15 @@
     "testId": 80
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ee03452daab51102371664064ddb917ba9aa1bdc",
     "commitName": "fix: mostrar primero el último objeto registrado cuando tienen la misma fecha",
     "commitTimestamp": 1792504237526,
     "testId": 80
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "docs: agregar la HU-11 y las correcciones a las pruebas manuales",
+    "commitTimestamp": 1792504518350,
+    "testId": 81
   }
 ]
