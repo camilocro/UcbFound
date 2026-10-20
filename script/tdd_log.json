@@ -1712,9 +1712,39 @@
     "testId": 75
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4719652fcf8c8c86c4609d6c0d8c3162aa9205ba",
     "commitName": "chore: unir main en la rama de la HU-11",
     "commitTimestamp": 1792370657699,
     "testId": 76
+  },
+  {
+    "numPassedTests": 66,
+    "failedTests": 0,
+    "numTotalTests": 66,
+    "timestamp": 1792370767148,
+    "success": true,
+    "testId": 77
+  },
+  {
+    "numPassedTests": 66,
+    "failedTests": 0,
+    "numTotalTests": 66,
+    "timestamp": 1792503359387,
+    "success": true,
+    "testId": 77
+  },
+  {
+    "numPassedTests": 66,
+    "failedTests": 0,
+    "numTotalTests": 66,
+    "timestamp": 1792503693927,
+    "success": true,
+    "testId": 77
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: crear los presenters de registro e inicio de sesión en main.jsx",
+    "commitTimestamp": 1792503750368,
+    "testId": 77
   }
 ]

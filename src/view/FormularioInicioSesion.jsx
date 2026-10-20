@@ -1,12 +1,8 @@
 import { useState } from 'react';
-import { RepositorioUsuarios } from '../model/repositorioUsuarios.js';
-import { InicioSesionPresenter } from '../presenter/inicioSesionPresenter.js';
-
-const presenter = new InicioSesionPresenter(new RepositorioUsuarios(window.localStorage));
 
 const DATOS_INICIALES = { correo: '', contrasena: '' };
 
-export default function FormularioInicioSesion({ alIniciarSesion }) {
+export default function FormularioInicioSesion({ presenter, alIniciarSesion }) {
   const [datos, setDatos] = useState(DATOS_INICIALES);
   const [resultado, setResultado] = useState(null);
 

@@ -1,9 +1,8 @@
 import { useState } from 'react';
-import { registroPresenter } from '../presenter/registroPresenter.js';
 
 const DATOS_INICIALES = { nombre: '', correo: '', contrasena: '' };
 
-export default function FormularioRegistro() {
+export default function FormularioRegistro({ presenter }) {
   const [datos, setDatos] = useState(DATOS_INICIALES);
   const [resultado, setResultado] = useState(null);
 
@@ -14,7 +13,7 @@ export default function FormularioRegistro() {
 
   const enviar = (evento) => {
     evento.preventDefault();
-    const respuesta = registroPresenter.procesarRegistro(datos);
+    const respuesta = presenter.procesarRegistro(datos);
     setResultado(respuesta);
     if (respuesta.exito) {
       setDatos(DATOS_INICIALES);

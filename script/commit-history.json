@@ -1444,18 +1444,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4719652fcf8c8c86c4609d6c0d8c3162aa9205ba",
     "author": "camilocro",
     "commit": {
       "date": "2026-10-19T00:44:03.000Z",
       "message": "chore: unir main en la rama de la HU-11",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/4719652fcf8c8c86c4609d6c0d8c3162aa9205ba"
     },
     "stats": {
       "total": 35,
       "additions": 24,
       "deletions": 11,
       "date": "2026-10-19"
+    },
+    "coverage": 98.26,
+    "test_count": 66,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-10-20T13:42:17.000Z",
+      "message": "refactor: crear los presenters de registro e inicio de sesión en main.jsx",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 27,
+      "additions": 12,
+      "deletions": 15,
+      "date": "2026-10-20"
     },
     "coverage": 98.26,
     "test_count": 66,

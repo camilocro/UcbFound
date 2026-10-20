@@ -5,10 +5,13 @@ import FormularioInicioSesion from './view/FormularioInicioSesion.jsx';
 import FormularioReporteObjetoPerdido from './view/FormularioReporteObjetoPerdido.jsx';
 import FormularioObjetoEncontrado from './view/FormularioObjetoEncontrado.jsx';
 import VistaBusquedaObjetos from './view/VistaBusquedaObjetos.jsx';
+import { RepositorioUsuarios } from './model/repositorioUsuarios.js';
 import { RepositorioReportes } from './model/repositorioReportes.js';
 import { RepositorioObjetosEncontrados } from './model/repositorioObjetosEncontrados.js';
 import { cargarDatosDeEjemplo } from './model/datosDeEjemplo.js';
 import { fechaComoTexto } from './model/fecha.js';
+import { RegistroPresenter } from './presenter/registroPresenter.js';
+import { InicioSesionPresenter } from './presenter/inicioSesionPresenter.js';
 import { ReportePresenter } from './presenter/reportePresenter.js';
 import { BusquedaPresenter } from './presenter/busquedaPresenter.js';
 import { DetalleObjetoPresenter } from './presenter/detalleObjetoPresenter.js';
@@ -18,6 +21,9 @@ import { SesionPresenter } from './presenter/sesionPresenter.js';
 
 const sesion = new Sesion(window.sessionStorage);
 const sesionPresenter = new SesionPresenter(sesion);
+const repositorioUsuarios = new RepositorioUsuarios(window.localStorage);
+const registroPresenter = new RegistroPresenter(repositorioUsuarios);
+const inicioSesionPresenter = new InicioSesionPresenter(repositorioUsuarios);
 const reportePresenter = new ReportePresenter(new RepositorioReportes(window.localStorage), sesion);
 const repositorioObjetos = new RepositorioObjetosEncontrados(window.localStorage);
 cargarDatosDeEjemplo(repositorioObjetos);
@@ -103,7 +109,7 @@ function App() {
         )}
         {vista.pagina === 'registro' && (
           <div>
-            <FormularioRegistro />
+            <FormularioRegistro presenter={registroPresenter} />
             <button type="button" className="enlace" onClick={() => irA('inicio-sesion')}>
               ¿Ya tienes cuenta? Inicia sesión
             </button>
@@ -116,7 +122,7 @@ function App() {
                 Inicia sesión para continuar.
               </p>
             )}
-            <FormularioInicioSesion alIniciarSesion={(usuarioIngresado) => irA(sesionPresenter.iniciarSesion(usuarioIngresado))} />
+            <FormularioInicioSesion presenter={inicioSesionPresenter} alIniciarSesion={(usuarioIngresado) => irA(sesionPresenter.iniciarSesion(usuarioIngresado))} />
             <button type="button" className="enlace" onClick={() => irA('registro')}>
               ¿No tienes cuenta? Regístrate
             </button>
