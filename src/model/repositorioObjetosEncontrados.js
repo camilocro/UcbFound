@@ -19,6 +19,11 @@ export class RepositorioObjetosEncontrados {
     this.almacenamiento.setItem(CLAVE, JSON.stringify(lista));
   }
 
+  actualizar(objeto) {
+    const lista = this.obtenerTodos().map((existente) => (existente.id === objeto.id ? objeto : existente));
+    this.almacenamiento.setItem(CLAVE, JSON.stringify(lista));
+  }
+
   buscarPorId(id) {
     return this.obtenerTodos().find((objeto) => objeto.id === id);
   }

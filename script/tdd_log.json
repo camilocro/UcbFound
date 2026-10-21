@@ -1826,17 +1826,37 @@
     "testId": 82
   },
   {
-    "numPassedTests": 70,
+    "numPassedTests": 69,
     "failedTests": 0,
-    "numTotalTests": 70,
-    "timestamp": 1792505838400,
+    "numTotalTests": 69,
+    "timestamp": 1792510634378,
     "success": true,
     "testId": 83
   },
   {
-    "commitId": "HEAD",
-    "commitName": "test: agregar prueba de integración del registro y el login",
-    "commitTimestamp": 1792505921152,
+    "numPassedTests": 69,
+    "failedTests": 0,
+    "numTotalTests": 69,
+    "timestamp": 1792524483112,
+    "success": true,
     "testId": 83
+  },
+  {
+    "commitId": "e518842f35389b7b101fbac804fd323b4c500072",
+    "commitName": "feat: agregar actualizar al repositorio de objetos encontrados",
+    "commitTimestamp": 1792526686121,
+    "testId": 83
+  },
+  {
+    "commitId": "03018029050384472f84ec04a18d0aef1c5eb6ad",
+    "commitName": "refactor: reemplazar los emojis de los objetos de ejemplo por fotos reales",
+    "commitTimestamp": 1792526714638,
+    "testId": 84
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Merge remote-tracking branch 'origin/main' into test/integracion-registro-login\n\n# Conflicts:\n#\tscript/commit-history.json\n#\tscript/tdd_log.json",
+    "commitTimestamp": 1792595233094,
+    "testId": 85
   }
 ]
