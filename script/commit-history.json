@@ -1596,12 +1596,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "03018029050384472f84ec04a18d0aef1c5eb6ad",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-10-20T20:05:02.000Z",
       "message": "refactor: reemplazar los emojis de los objetos de ejemplo por fotos reales",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/03018029050384472f84ec04a18d0aef1c5eb6ad"
     },
     "stats": {
       "total": 33,
@@ -1611,6 +1611,25 @@
     },
     "coverage": 96.2,
     "test_count": 69,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-10-21T15:05:24.000Z",
+      "message": "Merge remote-tracking branch 'origin/main' into test/integracion-registro-login\n\n# Conflicts:\n#\tscript/commit-history.json\n#\tscript/tdd_log.json",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 38,
+      "additions": 26,
+      "deletions": 12,
+      "date": "2026-10-21"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
     "failed_tests": 0,
     "conclusion": "success"
   }
