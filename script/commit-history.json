@@ -1653,17 +1653,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a0a730211ec833e7e3e63118454e5ce8a015e59b",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-10T13:48:03.000Z",
       "message": "refactor: renombrar registro a reglasDeRegistro en RegistroObjetoPresenter",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/a0a730211ec833e7e3e63118454e5ce8a015e59b"
     },
     "stats": {
       "total": 14,
       "additions": 11,
       "deletions": 3,
+      "date": "2026-11-10"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-10T13:50:40.000Z",
+      "message": "refactor: renombrar registro a reglasDeRegistro en RegistroPresenter",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
       "date": "2026-11-10"
     },
     "coverage": 96.32,

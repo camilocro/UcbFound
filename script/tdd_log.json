@@ -1906,9 +1906,23 @@
     "testId": 87
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a0a730211ec833e7e3e63118454e5ce8a015e59b",
     "commitName": "refactor: renombrar registro a reglasDeRegistro en RegistroObjetoPresenter",
     "commitTimestamp": 1794318492599,
     "testId": 87
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794318627161,
+    "success": true,
+    "testId": 88
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: renombrar registro a reglasDeRegistro en RegistroPresenter",
+    "commitTimestamp": 1794318647445,
+    "testId": 88
   }
 ]
