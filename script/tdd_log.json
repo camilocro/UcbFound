@@ -1904,9 +1904,23 @@
     "testId": 88
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e088eaaeec1ee1a9f9b059abc0237aa1d90642f7",
     "commitName": "chore: unir main en la rama refactor/majo-objeto-perdido",
     "commitTimestamp": 1794320546802,
     "testId": 88
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794320758386,
+    "success": true,
+    "testId": 89
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "chore: unir main en la rama refactor/majo-objeto-perdido",
+    "commitTimestamp": 1794320767826,
+    "testId": 89
   }
 ]

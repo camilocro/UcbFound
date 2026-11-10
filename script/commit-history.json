@@ -1672,17 +1672,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e088eaaeec1ee1a9f9b059abc0237aa1d90642f7",
     "author": "Maria Sandoval",
     "commit": {
       "date": "2026-11-10T14:22:20.000Z",
       "message": "chore: unir main en la rama refactor/majo-objeto-perdido",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/e088eaaeec1ee1a9f9b059abc0237aa1d90642f7"
     },
     "stats": {
       "total": 150,
       "additions": 75,
       "deletions": 75,
+      "date": "2026-11-10"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Sandoval",
+    "commit": {
+      "date": "2026-11-10T14:26:01.000Z",
+      "message": "chore: unir main en la rama refactor/majo-objeto-perdido",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 46,
+      "additions": 28,
+      "deletions": 18,
       "date": "2026-11-10"
     },
     "coverage": 96.32,
