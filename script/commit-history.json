@@ -1843,17 +1843,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "24a81df3ac18e13f5599ecf897e0d0d35ebdc67e",
     "author": "camilocro",
     "commit": {
       "date": "2026-11-10T14:13:36.000Z",
       "message": "refactor: aclarar los nombres en main.jsx",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/24a81df3ac18e13f5599ecf897e0d0d35ebdc67e"
     },
     "stats": {
       "total": 20,
       "additions": 10,
       "deletions": 10,
+      "date": "2026-11-10"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-10T14:20:56.000Z",
+      "message": "chore: resolver conflictos de los logs con main",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 150,
+      "additions": 75,
+      "deletions": 75,
       "date": "2026-11-10"
     },
     "coverage": 96.32,

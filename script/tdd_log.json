@@ -1966,9 +1966,15 @@
     "testId": 96
   },
   {
-    "commitId": "HEAD",
+    "commitId": "24a81df3ac18e13f5599ecf897e0d0d35ebdc67e",
     "commitName": "refactor: aclarar los nombres en main.jsx",
     "commitTimestamp": 1794320027804,
     "testId": 97
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "chore: resolver conflictos de los logs con main",
+    "commitTimestamp": 1794320464552,
+    "testId": 98
   }
 ]
