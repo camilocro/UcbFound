@@ -1920,9 +1920,23 @@
     "testId": 88
   },
   {
-    "commitId": "HEAD",
+    "commitId": "72164ee838fa36de0f60047e607b9b1224d0ccfa",
     "commitName": "refactor: renombrar registro a reglasDeRegistro en RegistroPresenter",
     "commitTimestamp": 1794318647445,
     "testId": 88
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794319032160,
+    "success": true,
+    "testId": 89
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: renombrar inicioSesion a reglasDeInicioSesion en InicioSesionPresenter",
+    "commitTimestamp": 1794319055165,
+    "testId": 89
   }
 ]

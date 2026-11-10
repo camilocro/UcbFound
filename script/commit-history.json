@@ -1672,11 +1672,30 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "72164ee838fa36de0f60047e607b9b1224d0ccfa",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-10T13:50:40.000Z",
       "message": "refactor: renombrar registro a reglasDeRegistro en RegistroPresenter",
+      "url": "https://github.com/camilocro/UcbFound/commit/72164ee838fa36de0f60047e607b9b1224d0ccfa"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
+      "date": "2026-11-10"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-10T13:57:28.000Z",
+      "message": "refactor: renombrar inicioSesion a reglasDeInicioSesion en InicioSesionPresenter",
       "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
     },
     "stats": {
