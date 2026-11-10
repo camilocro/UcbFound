@@ -1634,17 +1634,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e9d39d61f51d186358f875c9188851eebb3084aa",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-10T13:47:14.000Z",
       "message": "refactor: renombrar reporte a reglasDeReporte en ReportePresenter",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/e9d39d61f51d186358f875c9188851eebb3084aa"
     },
     "stats": {
       "total": 6,
       "additions": 4,
       "deletions": 2,
+      "date": "2026-11-10"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-10T13:48:03.000Z",
+      "message": "refactor: renombrar registro a reglasDeRegistro en RegistroObjetoPresenter",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 11,
+      "deletions": 3,
       "date": "2026-11-10"
     },
     "coverage": 96.32,

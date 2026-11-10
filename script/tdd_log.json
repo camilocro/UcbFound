@@ -1892,9 +1892,23 @@
     "testId": 86
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e9d39d61f51d186358f875c9188851eebb3084aa",
     "commitName": "refactor: renombrar reporte a reglasDeReporte en ReportePresenter",
     "commitTimestamp": 1794318442796,
     "testId": 86
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794318475118,
+    "success": true,
+    "testId": 87
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: renombrar registro a reglasDeRegistro en RegistroObjetoPresenter",
+    "commitTimestamp": 1794318492599,
+    "testId": 87
   }
 ]
