@@ -1854,9 +1854,23 @@
     "testId": 84
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bce695d316180d3d61978632c4a48b09d3e7687e",
     "commitName": "Merge remote-tracking branch 'origin/main' into test/integracion-registro-login\n\n# Conflicts:\n#\tscript/commit-history.json\n#\tscript/tdd_log.json",
     "commitTimestamp": 1792595233094,
     "testId": 85
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794319203623,
+    "success": true,
+    "testId": 86
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: renombrar MENSAJES a MENSAJES_REGISTRO",
+    "commitTimestamp": 1794319239916,
+    "testId": 86
   }
 ]
