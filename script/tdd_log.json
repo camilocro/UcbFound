@@ -1924,9 +1924,15 @@
     "testId": 90
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e4e28d784adb6b472c49bba1227127763275fecf",
     "commitName": "refactor: aclarar los nombres del repositorio de objetos encontrados",
     "commitTimestamp": 1794319502087,
     "testId": 90
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: renombrar datos a textoGuardado en la sesión",
+    "commitTimestamp": 1794319587369,
+    "testId": 91
   }
 ]
