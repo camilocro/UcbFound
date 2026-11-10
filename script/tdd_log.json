@@ -1890,9 +1890,23 @@
     "testId": 87
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b4f36971b31166f5f102495c30a7af24ba0db03a",
     "commitName": "refactor: agrupar las pruebas repetidas del registro de usuario",
     "commitTimestamp": 1794319327511,
     "testId": 87
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794320536438,
+    "success": true,
+    "testId": 88
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "chore: unir main en la rama refactor/majo-objeto-perdido",
+    "commitTimestamp": 1794320546802,
+    "testId": 88
   }
 ]

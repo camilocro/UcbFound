@@ -1,4 +1,4 @@
-const CLAVE = 'ucbfound_usuarios';
+const CLAVE_USUARIOS = 'ucbfound_usuarios';
 
 // Clase porque guarda estado: el almacenamiento donde viven los usuarios
 export class RepositorioUsuarios {
@@ -7,8 +7,8 @@ export class RepositorioUsuarios {
   }
 
   obtenerUsuarios() {
-    const datos = this.almacenamiento.getItem(CLAVE);
-    return datos ? JSON.parse(datos) : [];
+    const textoGuardado = this.almacenamiento.getItem(CLAVE_USUARIOS);
+    return textoGuardado ? JSON.parse(textoGuardado) : [];
   }
 
   obtenerCorreos() {
@@ -18,6 +18,6 @@ export class RepositorioUsuarios {
   guardar(usuario) {
     const usuarios = this.obtenerUsuarios();
     usuarios.push(usuario);
-    this.almacenamiento.setItem(CLAVE, JSON.stringify(usuarios));
+    this.almacenamiento.setItem(CLAVE_USUARIOS, JSON.stringify(usuarios));
   }
 }

@@ -1653,17 +1653,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b4f36971b31166f5f102495c30a7af24ba0db03a",
     "author": "Maria Sandoval",
     "commit": {
       "date": "2026-11-10T14:02:01.000Z",
       "message": "refactor: agrupar las pruebas repetidas del registro de usuario",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/b4f36971b31166f5f102495c30a7af24ba0db03a"
     },
     "stats": {
       "total": 111,
       "additions": 70,
       "deletions": 41,
+      "date": "2026-11-10"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Sandoval",
+    "commit": {
+      "date": "2026-11-10T14:22:20.000Z",
+      "message": "chore: unir main en la rama refactor/majo-objeto-perdido",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 150,
+      "additions": 75,
+      "deletions": 75,
       "date": "2026-11-10"
     },
     "coverage": 96.32,

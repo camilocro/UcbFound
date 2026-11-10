@@ -15,8 +15,8 @@ export class Sesion {
   }
 
   obtenerUsuario() {
-    const datos = this.almacenamiento.getItem(CLAVE_SESION);
-    return datos ? JSON.parse(datos) : null;
+    const textoGuardado = this.almacenamiento.getItem(CLAVE_SESION);
+    return textoGuardado ? JSON.parse(textoGuardado) : null;
   }
 
   cerrar() {

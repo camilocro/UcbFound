@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 const DATOS_INICIALES = { nombre: '', descripcion: '', foto: '' };
-const LADO_MAXIMO = 800;
+const LADO_MAXIMO_EN_PIXELES = 800;
 
 function leerArchivo(archivo) {
   return new Promise((resolve, reject) => {
@@ -21,7 +21,7 @@ function achicarImagen(dataUrl) {
         resolve(dataUrl);
         return;
       }
-      const escala = Math.min(1, LADO_MAXIMO / Math.max(imagen.width, imagen.height));
+      const escala = Math.min(1, LADO_MAXIMO_EN_PIXELES / Math.max(imagen.width, imagen.height));
       const lienzo = document.createElement('canvas');
       lienzo.width = Math.round(imagen.width * escala);
       lienzo.height = Math.round(imagen.height * escala);
@@ -45,22 +45,22 @@ export default function FormularioObjetoEncontrado({ presenter, alVerLista }) {
   const [datos, setDatos] = useState(DATOS_INICIALES);
   const [resultado, setResultado] = useState(null);
   const [cargandoFoto, setCargandoFoto] = useState(false);
-  const [claveArchivo, setClaveArchivo] = useState(0);
+  const [claveCampoFoto, setClaveCampoFoto] = useState(0);
 
   const cambiarCampo = (evento) => {
     const { name, value } = evento.target;
-    setDatos((actuales) => ({ ...actuales, [name]: value }));
+    setDatos((datosActuales) => ({ ...datosActuales, [name]: value }));
   };
 
   const cambiarFoto = async (evento) => {
     const archivo = evento.target.files[0];
     if (!archivo) {
-      setDatos((actuales) => ({ ...actuales, foto: '' }));
+      setDatos((datosActuales) => ({ ...datosActuales, foto: '' }));
       return;
     }
     setCargandoFoto(true);
     const foto = await leerFoto(archivo);
-    setDatos((actuales) => ({ ...actuales, foto }));
+    setDatos((datosActuales) => ({ ...datosActuales, foto }));
     setCargandoFoto(false);
   };
 
@@ -70,7 +70,7 @@ export default function FormularioObjetoEncontrado({ presenter, alVerLista }) {
     setResultado(respuesta);
     if (respuesta.exito) {
       setDatos(DATOS_INICIALES);
-      setClaveArchivo((clave) => clave + 1);
+      setClaveCampoFoto((claveAnterior) => claveAnterior + 1);
     }
   };
 
@@ -84,7 +84,7 @@ export default function FormularioObjetoEncontrado({ presenter, alVerLista }) {
       <form id="form-objeto-encontrado" className="formulario" onSubmit={enviar} noValidate>
         <div className="campo">
           <label htmlFor="foto-encontrado">Foto del objeto</label>
-          <input key={claveArchivo} id="foto-encontrado" name="foto" type="file" onChange={cambiarFoto} />
+          <input key={claveCampoFoto} id="foto-encontrado" name="foto" type="file" onChange={cambiarFoto} />
         </div>
 
         {datos.foto.startsWith('data:image/') && (
