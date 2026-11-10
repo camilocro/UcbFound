@@ -25,18 +25,18 @@ const repositorioUsuarios = new RepositorioUsuarios(window.localStorage);
 const registroPresenter = new RegistroPresenter(repositorioUsuarios);
 const inicioSesionPresenter = new InicioSesionPresenter(repositorioUsuarios);
 const reportePresenter = new ReportePresenter(new RepositorioReportes(window.localStorage), sesion);
-const repositorioObjetos = new RepositorioObjetosEncontrados(window.localStorage);
-cargarDatosDeEjemplo(repositorioObjetos);
-const busquedaPresenter = new BusquedaPresenter(repositorioObjetos);
-const detalleObjetoPresenter = new DetalleObjetoPresenter(repositorioObjetos);
-const registroObjetoPresenter = new RegistroObjetoPresenter(repositorioObjetos, sesion);
+const repositorioObjetosEncontrados = new RepositorioObjetosEncontrados(window.localStorage);
+cargarDatosDeEjemplo(repositorioObjetosEncontrados);
+const busquedaPresenter = new BusquedaPresenter(repositorioObjetosEncontrados);
+const detalleObjetoPresenter = new DetalleObjetoPresenter(repositorioObjetosEncontrados);
+const registroObjetoPresenter = new RegistroObjetoPresenter(repositorioObjetosEncontrados, sesion);
 const PAGINAS = ['principal', 'inicio-sesion', 'registro', 'reportar-objeto', 'buscar-objetos', 'registrar-objeto'];
 
 function leerVista() {
-  const direccion = window.location.hash.replace('#/', '');
-  const solicitada = PAGINAS.includes(direccion) ? direccion : 'principal';
-  const pagina = sesionPresenter.mostrarPagina(solicitada);
-  return { pagina, pidioCuenta: pagina !== solicitada };
+  const paginaEnLaDireccion = window.location.hash.replace('#/', '');
+  const paginaSolicitada = PAGINAS.includes(paginaEnLaDireccion) ? paginaEnLaDireccion : 'principal';
+  const pagina = sesionPresenter.mostrarPagina(paginaSolicitada);
+  return { pagina, pidioIniciarSesion: pagina !== paginaSolicitada };
 }
 
 function App() {
@@ -117,7 +117,7 @@ function App() {
         )}
         {vista.pagina === 'inicio-sesion' && (
           <div>
-            {vista.pidioCuenta && (
+            {vista.pidioIniciarSesion && (
               <p id="aviso-sesion" className="mensaje aviso" role="status">
                 Inicia sesión para continuar.
               </p>

@@ -1854,9 +1854,121 @@
     "testId": 84
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bce695d316180d3d61978632c4a48b09d3e7687e",
     "commitName": "Merge remote-tracking branch 'origin/main' into test/integracion-registro-login\n\n# Conflicts:\n#\tscript/commit-history.json\n#\tscript/tdd_log.json",
     "commitTimestamp": 1792595233094,
     "testId": 85
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794319203623,
+    "success": true,
+    "testId": 86
+  },
+  {
+    "commitId": "ebf11a06c394e8617d331a9d0d4faf1043c78094",
+    "commitName": "refactor: renombrar MENSAJES a MENSAJES_REGISTRO",
+    "commitTimestamp": 1794319239916,
+    "testId": 86
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794319272721,
+    "success": true,
+    "testId": 87
+  },
+  {
+    "commitId": "377fd2f2823750d6ff960d31e8f339fab653fa71",
+    "commitName": "refactor: renombrar MENSAJES_LOGIN a MENSAJES_INICIO_SESION",
+    "commitTimestamp": 1794319329939,
+    "testId": 87
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794319356857,
+    "success": true,
+    "testId": 88
+  },
+  {
+    "commitId": "6369797a9752372ee8e88b4f2df510291bc2de5a",
+    "commitName": "refactor: aclarar los nombres del repositorio de usuarios",
+    "commitTimestamp": 1794319381473,
+    "testId": 88
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794319424741,
+    "success": true,
+    "testId": 89
+  },
+  {
+    "commitId": "9722312ee804c95b17ca715f9f1937602ddbdf1a",
+    "commitName": "refactor: aclarar los nombres del repositorio de reportes",
+    "commitTimestamp": 1794319455570,
+    "testId": 89
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794319478272,
+    "success": true,
+    "testId": 90
+  },
+  {
+    "commitId": "e4e28d784adb6b472c49bba1227127763275fecf",
+    "commitName": "refactor: aclarar los nombres del repositorio de objetos encontrados",
+    "commitTimestamp": 1794319502087,
+    "testId": 90
+  },
+  {
+    "commitId": "a590334dc5418edd5e28706edaf5f84f46563ad6",
+    "commitName": "refactor: renombrar datos a textoGuardado en la sesión",
+    "commitTimestamp": 1794319587369,
+    "testId": 91
+  },
+  {
+    "commitId": "bdf9a997f1cb04a2ce06ee9df3a10308d97a73b7",
+    "commitName": "refactor: aclarar los nombres del buscador de objetos",
+    "commitTimestamp": 1794319670178,
+    "testId": 92
+  },
+  {
+    "commitId": "0790171ff0c4e3ae54e304b3ca389e37b2ffd6ba",
+    "commitName": "refactor: renombrar buscado a textoBuscado en el objeto encontrado",
+    "commitTimestamp": 1794319722193,
+    "testId": 93
+  },
+  {
+    "commitId": "4eb350c38ba748e2e1c570ff0a7b9fa8d4c796c4",
+    "commitName": "refactor: aclarar los nombres de la vista de búsqueda",
+    "commitTimestamp": 1794319771577,
+    "testId": 94
+  },
+  {
+    "commitId": "5543bf3218015c5cbe4f42787677c7c42f015d01",
+    "commitName": "refactor: aclarar los nombres de los datos de ejemplo",
+    "commitTimestamp": 1794319891619,
+    "testId": 95
+  },
+  {
+    "commitId": "1c1bd1c0fe510f8832ef1cd10b3f4bb2c85d2283",
+    "commitName": "refactor: aclarar los nombres del formulario de objeto encontrado",
+    "commitTimestamp": 1794319958447,
+    "testId": 96
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: aclarar los nombres en main.jsx",
+    "commitTimestamp": 1794320027804,
+    "testId": 97
   }
 ]

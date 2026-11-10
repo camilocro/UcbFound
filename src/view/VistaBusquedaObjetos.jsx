@@ -2,17 +2,17 @@ import { useState } from 'react';
 import DetalleObjeto from './DetalleObjeto.jsx';
 
 export default function VistaBusquedaObjetos({ presenterBusqueda, presenterDetalle }) {
-  const [texto, setTexto] = useState('');
+  const [textoBuscado, setTextoBuscado] = useState('');
   const [resultado, setResultado] = useState(() => presenterBusqueda.buscar(''));
-  const [seleccionado, setSeleccionado] = useState(null);
+  const [objetoSeleccionado, setObjetoSeleccionado] = useState(null);
 
   const buscar = (evento) => {
     evento.preventDefault();
-    setResultado(presenterBusqueda.buscar(texto));
+    setResultado(presenterBusqueda.buscar(textoBuscado));
   };
 
-  if (seleccionado) {
-    return <DetalleObjeto objeto={seleccionado} alVolver={() => setSeleccionado(null)} />;
+  if (objetoSeleccionado) {
+    return <DetalleObjeto objeto={objetoSeleccionado} alVolver={() => setObjetoSeleccionado(null)} />;
   }
 
   return (
@@ -25,8 +25,8 @@ export default function VistaBusquedaObjetos({ presenterBusqueda, presenterDetal
           id="texto-busqueda"
           type="search"
           placeholder="Ej. mochila, cargador, llaves"
-          value={texto}
-          onChange={(evento) => setTexto(evento.target.value)}
+          value={textoBuscado}
+          onChange={(evento) => setTextoBuscado(evento.target.value)}
         />
         <button id="buscar-button" type="submit" className="boton">
           Buscar
@@ -42,7 +42,7 @@ export default function VistaBusquedaObjetos({ presenterBusqueda, presenterDetal
       <ul id="lista-objetos" className="lista-objetos">
         {resultado.objetos.map((objeto) => (
           <li key={objeto.id}>
-            <button type="button" className="objeto objeto--boton" onClick={() => setSeleccionado(presenterDetalle.verDetalle(objeto.id))}>
+            <button type="button" className="objeto objeto--boton" onClick={() => setObjetoSeleccionado(presenterDetalle.verDetalle(objeto.id))}>
               <img className="objeto__foto" src={objeto.foto} alt={objeto.nombre} />
               <span>
                 <span className="objeto__nombre">{objeto.nombre}</span>
