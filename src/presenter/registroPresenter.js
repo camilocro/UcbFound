@@ -6,8 +6,8 @@ export class RegistroPresenter {
   }
 
   procesarRegistro(datos) {
-    const registro = new RegistroUsuario(this.repositorio.obtenerCorreos());
-    const resultado = registro.registrar(datos);
+    const reglasDeRegistro = new RegistroUsuario(this.repositorio.obtenerCorreos());
+    const resultado = reglasDeRegistro.registrar(datos);
     if (resultado.exito) {
       this.repositorio.guardar(resultado.usuario);
     }

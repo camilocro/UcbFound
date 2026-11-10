@@ -1,23 +1,23 @@
 import { useState } from 'react';
 
-const DATOS_INICIALES = { correo: '', contrasena: '' };
+const CAMPOS_INICIALES = { correo: '', contrasena: '' };
 
 export default function FormularioInicioSesion({ presenter, alIniciarSesion }) {
-  const [datos, setDatos] = useState(DATOS_INICIALES);
+  const [camposDelFormulario, setCamposDelFormulario] = useState(CAMPOS_INICIALES);
   const [resultado, setResultado] = useState(null);
 
   const cambiarCampo = (evento) => {
     const { name, value } = evento.target;
-    setDatos({ ...datos, [name]: value });
+    setCamposDelFormulario({ ...camposDelFormulario, [name]: value });
   };
 
   const enviar = (evento) => {
     evento.preventDefault();
-    const respuesta = presenter.procesarInicioSesion(datos);
-    if (respuesta.exito) {
-      alIniciarSesion(respuesta.usuario);
+    const resultadoDeInicioSesion = presenter.procesarInicioSesion(camposDelFormulario);
+    if (resultadoDeInicioSesion.exito) {
+      alIniciarSesion(resultadoDeInicioSesion.usuario);
     } else {
-      setResultado(respuesta);
+      setResultado(resultadoDeInicioSesion);
     }
   };
 
@@ -36,7 +36,7 @@ export default function FormularioInicioSesion({ presenter, alIniciarSesion }) {
             name="correo"
             type="email"
             placeholder="tunombre@ucb.edu.bo"
-            value={datos.correo}
+            value={camposDelFormulario.correo}
             onChange={cambiarCampo}
           />
         </div>
@@ -48,7 +48,7 @@ export default function FormularioInicioSesion({ presenter, alIniciarSesion }) {
             name="contrasena"
             type="password"
             placeholder="Tu contraseña"
-            value={datos.contrasena}
+            value={camposDelFormulario.contrasena}
             onChange={cambiarCampo}
           />
         </div>
