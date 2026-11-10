@@ -1748,17 +1748,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bdf9a997f1cb04a2ce06ee9df3a10308d97a73b7",
     "author": "camilocro",
     "commit": {
       "date": "2026-11-10T14:07:37.000Z",
       "message": "refactor: aclarar los nombres del buscador de objetos",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/bdf9a997f1cb04a2ce06ee9df3a10308d97a73b7"
     },
     "stats": {
       "total": 10,
       "additions": 5,
       "deletions": 5,
+      "date": "2026-11-10"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-10T14:08:29.000Z",
+      "message": "refactor: renombrar buscado a textoBuscado en el objeto encontrado",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
       "date": "2026-11-10"
     },
     "coverage": 96.32,

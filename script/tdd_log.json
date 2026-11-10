@@ -1936,9 +1936,15 @@
     "testId": 91
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bdf9a997f1cb04a2ce06ee9df3a10308d97a73b7",
     "commitName": "refactor: aclarar los nombres del buscador de objetos",
     "commitTimestamp": 1794319670178,
     "testId": 92
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: renombrar buscado a textoBuscado en el objeto encontrado",
+    "commitTimestamp": 1794319722193,
+    "testId": 93
   }
 ]
