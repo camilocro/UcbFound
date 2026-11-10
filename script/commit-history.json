@@ -1691,17 +1691,55 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1ce7f3465590f5ae47698dfedcb5e35336909e8f",
     "author": "Maria Sandoval",
     "commit": {
       "date": "2026-11-10T14:26:01.000Z",
       "message": "chore: unir main en la rama refactor/majo-objeto-perdido",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/1ce7f3465590f5ae47698dfedcb5e35336909e8f"
     },
     "stats": {
       "total": 46,
       "additions": 28,
       "deletions": 18,
+      "date": "2026-11-10"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "b54554a5113c49aa437a8d8ad7bf81480462cbcb",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-10T14:41:09.000Z",
+      "message": "chore: resolver conflictos de los logs con main",
+      "url": "https://github.com/camilocro/UcbFound/commit/b54554a5113c49aa437a8d8ad7bf81480462cbcb"
+    },
+    "stats": {
+      "total": 166,
+      "additions": 102,
+      "deletions": 64,
+      "date": "2026-11-10"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-10T14:43:59.000Z",
+      "message": "test: registrar ejecucion de pruebas",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 0,
+      "additions": 0,
+      "deletions": 0,
       "date": "2026-11-10"
     },
     "coverage": 96.32,

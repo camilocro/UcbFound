@@ -1918,9 +1918,29 @@
     "testId": 89
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1ce7f3465590f5ae47698dfedcb5e35336909e8f",
     "commitName": "chore: unir main en la rama refactor/majo-objeto-perdido",
     "commitTimestamp": 1794320767826,
     "testId": 89
+  },
+  {
+    "commitId": "b54554a5113c49aa437a8d8ad7bf81480462cbcb",
+    "commitName": "chore: resolver conflictos de los logs con main",
+    "commitTimestamp": 1794321683632,
+    "testId": 90
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794321702612,
+    "success": true,
+    "testId": 91
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: registrar ejecucion de pruebas",
+    "commitTimestamp": 1794321854027,
+    "testId": 91
   }
 ]
