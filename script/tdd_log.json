@@ -1884,9 +1884,23 @@
     "testId": 86
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3912fa2abcaf8bc13ad50324548325bdc1e00c8b",
     "commitName": "refactor: aclarar los nombres de los campos en FormularioRegistro",
     "commitTimestamp": 1794319655470,
     "testId": 86
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794319710630,
+    "success": true,
+    "testId": 87
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: aclarar los nombres de los campos en FormularioReporteObjetoPerdido",
+    "commitTimestamp": 1794319784878,
+    "testId": 87
   }
 ]

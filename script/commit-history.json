@@ -1634,11 +1634,30 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3912fa2abcaf8bc13ad50324548325bdc1e00c8b",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-10T14:07:15.000Z",
       "message": "refactor: aclarar los nombres de los campos en FormularioRegistro",
+      "url": "https://github.com/camilocro/UcbFound/commit/3912fa2abcaf8bc13ad50324548325bdc1e00c8b"
+    },
+    "stats": {
+      "total": 29,
+      "additions": 18,
+      "deletions": 11,
+      "date": "2026-11-10"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-10T14:09:27.000Z",
+      "message": "refactor: aclarar los nombres de los campos en FormularioReporteObjetoPerdido",
       "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
     },
     "stats": {
