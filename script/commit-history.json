@@ -1805,17 +1805,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5543bf3218015c5cbe4f42787677c7c42f015d01",
     "author": "camilocro",
     "commit": {
       "date": "2026-11-10T14:11:19.000Z",
       "message": "refactor: aclarar los nombres de los datos de ejemplo",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/5543bf3218015c5cbe4f42787677c7c42f015d01"
     },
     "stats": {
       "total": 26,
       "additions": 13,
       "deletions": 13,
+      "date": "2026-11-10"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-10T14:12:24.000Z",
+      "message": "refactor: aclarar los nombres del formulario de objeto encontrado",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 8,
+      "deletions": 8,
       "date": "2026-11-10"
     },
     "coverage": 96.32,
