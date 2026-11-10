@@ -1924,9 +1924,23 @@
     "testId": 89
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b54554a5113c49aa437a8d8ad7bf81480462cbcb",
     "commitName": "chore: resolver conflictos de los logs con main",
     "commitTimestamp": 1794321683632,
     "testId": 90
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794321702612,
+    "success": true,
+    "testId": 91
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: registrar ejecucion de pruebas",
+    "commitTimestamp": 1794321854027,
+    "testId": 91
   }
 ]
