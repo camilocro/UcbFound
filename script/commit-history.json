@@ -1672,11 +1672,30 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6369797a9752372ee8e88b4f2df510291bc2de5a",
     "author": "camilocro",
     "commit": {
       "date": "2026-11-10T14:02:49.000Z",
       "message": "refactor: aclarar los nombres del repositorio de usuarios",
+      "url": "https://github.com/camilocro/UcbFound/commit/6369797a9752372ee8e88b4f2df510291bc2de5a"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 4,
+      "deletions": 4,
+      "date": "2026-11-10"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-10T14:04:03.000Z",
+      "message": "refactor: aclarar los nombres del repositorio de reportes",
       "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
     },
     "stats": {

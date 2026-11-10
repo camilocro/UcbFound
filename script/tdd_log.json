@@ -1896,9 +1896,23 @@
     "testId": 88
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6369797a9752372ee8e88b4f2df510291bc2de5a",
     "commitName": "refactor: aclarar los nombres del repositorio de usuarios",
     "commitTimestamp": 1794319381473,
     "testId": 88
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794319424741,
+    "success": true,
+    "testId": 89
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: aclarar los nombres del repositorio de reportes",
+    "commitTimestamp": 1794319455570,
+    "testId": 89
   }
 ]
