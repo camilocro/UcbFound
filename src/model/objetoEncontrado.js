@@ -13,8 +13,8 @@ export class ObjetoEncontrado {
   }
 
   coincideCon(texto) {
-    const buscado = sinTildes(texto);
-    return sinTildes(this.nombre).includes(buscado) || sinTildes(this.descripcion).includes(buscado);
+    const textoBuscado = sinTildes(texto);
+    return sinTildes(this.nombre).includes(textoBuscado) || sinTildes(this.descripcion).includes(textoBuscado);
   }
 
   vistaBasica() {
