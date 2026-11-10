@@ -1691,17 +1691,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9722312ee804c95b17ca715f9f1937602ddbdf1a",
     "author": "camilocro",
     "commit": {
       "date": "2026-11-10T14:04:03.000Z",
       "message": "refactor: aclarar los nombres del repositorio de reportes",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/9722312ee804c95b17ca715f9f1937602ddbdf1a"
     },
     "stats": {
       "total": 8,
       "additions": 4,
       "deletions": 4,
+      "date": "2026-11-10"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-10T14:04:49.000Z",
+      "message": "refactor: aclarar los nombres del repositorio de objetos encontrados",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 9,
+      "deletions": 9,
       "date": "2026-11-10"
     },
     "coverage": 96.32,

@@ -1910,9 +1910,23 @@
     "testId": 89
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9722312ee804c95b17ca715f9f1937602ddbdf1a",
     "commitName": "refactor: aclarar los nombres del repositorio de reportes",
     "commitTimestamp": 1794319455570,
     "testId": 89
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794319478272,
+    "success": true,
+    "testId": 90
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: aclarar los nombres del repositorio de objetos encontrados",
+    "commitTimestamp": 1794319502087,
+    "testId": 90
   }
 ]
