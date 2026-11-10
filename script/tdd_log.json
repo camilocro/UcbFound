@@ -1930,9 +1930,15 @@
     "testId": 90
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a590334dc5418edd5e28706edaf5f84f46563ad6",
     "commitName": "refactor: renombrar datos a textoGuardado en la sesión",
     "commitTimestamp": 1794319587369,
     "testId": 91
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: aclarar los nombres del buscador de objetos",
+    "commitTimestamp": 1794319670178,
+    "testId": 92
   }
 ]

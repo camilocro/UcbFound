@@ -1729,17 +1729,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a590334dc5418edd5e28706edaf5f84f46563ad6",
     "author": "camilocro",
     "commit": {
       "date": "2026-11-10T14:06:16.000Z",
       "message": "refactor: renombrar datos a textoGuardado en la sesión",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/a590334dc5418edd5e28706edaf5f84f46563ad6"
     },
     "stats": {
       "total": 4,
       "additions": 2,
       "deletions": 2,
+      "date": "2026-11-10"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-10T14:07:37.000Z",
+      "message": "refactor: aclarar los nombres del buscador de objetos",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 5,
+      "deletions": 5,
       "date": "2026-11-10"
     },
     "coverage": 96.32,
