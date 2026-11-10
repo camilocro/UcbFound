@@ -1653,11 +1653,30 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "377fd2f2823750d6ff960d31e8f339fab653fa71",
     "author": "camilocro",
     "commit": {
       "date": "2026-11-10T14:01:56.000Z",
       "message": "refactor: renombrar MENSAJES_LOGIN a MENSAJES_INICIO_SESION",
+      "url": "https://github.com/camilocro/UcbFound/commit/377fd2f2823750d6ff960d31e8f339fab653fa71"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 4,
+      "deletions": 4,
+      "date": "2026-11-10"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-10T14:02:49.000Z",
+      "message": "refactor: aclarar los nombres del repositorio de usuarios",
       "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
     },
     "stats": {

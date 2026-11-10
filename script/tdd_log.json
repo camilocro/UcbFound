@@ -1882,9 +1882,23 @@
     "testId": 87
   },
   {
-    "commitId": "HEAD",
+    "commitId": "377fd2f2823750d6ff960d31e8f339fab653fa71",
     "commitName": "refactor: renombrar MENSAJES_LOGIN a MENSAJES_INICIO_SESION",
     "commitTimestamp": 1794319329939,
     "testId": 87
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794319356857,
+    "success": true,
+    "testId": 88
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: aclarar los nombres del repositorio de usuarios",
+    "commitTimestamp": 1794319381473,
+    "testId": 88
   }
 ]
