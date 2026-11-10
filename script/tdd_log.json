@@ -1948,9 +1948,15 @@
     "testId": 93
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4eb350c38ba748e2e1c570ff0a7b9fa8d4c796c4",
     "commitName": "refactor: aclarar los nombres de la vista de búsqueda",
     "commitTimestamp": 1794319771577,
     "testId": 94
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: aclarar los nombres de los datos de ejemplo",
+    "commitTimestamp": 1794319891619,
+    "testId": 95
   }
 ]
