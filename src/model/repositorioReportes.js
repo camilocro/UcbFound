@@ -1,4 +1,4 @@
-const CLAVE = 'ucbfound_objetos_perdidos';
+const CLAVE_REPORTES = 'ucbfound_objetos_perdidos';
 
 export class RepositorioReportes {
   constructor(almacenamiento) {
@@ -6,8 +6,8 @@ export class RepositorioReportes {
   }
 
   obtenerReportes() {
-    const datos = this.almacenamiento.getItem(CLAVE);
-    return datos ? JSON.parse(datos) : [];
+    const textoGuardado = this.almacenamiento.getItem(CLAVE_REPORTES);
+    return textoGuardado ? JSON.parse(textoGuardado) : [];
   }
 
   obtenerReportesDe(correo) {
@@ -17,6 +17,6 @@ export class RepositorioReportes {
   guardar(reporte) {
     const reportes = this.obtenerReportes();
     reportes.push(reporte);
-    this.almacenamiento.setItem(CLAVE, JSON.stringify(reportes));
+    this.almacenamiento.setItem(CLAVE_REPORTES, JSON.stringify(reportes));
   }
 }
