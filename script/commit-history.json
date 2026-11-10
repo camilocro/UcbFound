@@ -1767,17 +1767,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0790171ff0c4e3ae54e304b3ca389e37b2ffd6ba",
     "author": "camilocro",
     "commit": {
       "date": "2026-11-10T14:08:29.000Z",
       "message": "refactor: renombrar buscado a textoBuscado en el objeto encontrado",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/0790171ff0c4e3ae54e304b3ca389e37b2ffd6ba"
     },
     "stats": {
       "total": 4,
       "additions": 2,
       "deletions": 2,
+      "date": "2026-11-10"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-10T14:09:19.000Z",
+      "message": "refactor: aclarar los nombres de la vista de búsqueda",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 8,
+      "deletions": 8,
       "date": "2026-11-10"
     },
     "coverage": 96.32,

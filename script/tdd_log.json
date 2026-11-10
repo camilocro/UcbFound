@@ -1942,9 +1942,15 @@
     "testId": 92
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0790171ff0c4e3ae54e304b3ca389e37b2ffd6ba",
     "commitName": "refactor: renombrar buscado a textoBuscado en el objeto encontrado",
     "commitTimestamp": 1794319722193,
     "testId": 93
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: aclarar los nombres de la vista de búsqueda",
+    "commitTimestamp": 1794319771577,
+    "testId": 94
   }
 ]
