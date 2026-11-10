@@ -1691,17 +1691,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6a7ddf93b15409fb3e78366e7d461c9da340c742",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-10T13:57:28.000Z",
       "message": "refactor: renombrar inicioSesion a reglasDeInicioSesion en InicioSesionPresenter",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/6a7ddf93b15409fb3e78366e7d461c9da340c742"
     },
     "stats": {
       "total": 4,
       "additions": 2,
       "deletions": 2,
+      "date": "2026-11-10"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-10T13:59:23.000Z",
+      "message": "refactor: aclarar los nombres de los campos en FormularioInicioSesion",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 9,
+      "deletions": 9,
       "date": "2026-11-10"
     },
     "coverage": 96.32,

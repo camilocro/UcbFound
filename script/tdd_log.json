@@ -1934,9 +1934,23 @@
     "testId": 89
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6a7ddf93b15409fb3e78366e7d461c9da340c742",
     "commitName": "refactor: renombrar inicioSesion a reglasDeInicioSesion en InicioSesionPresenter",
     "commitTimestamp": 1794319055165,
     "testId": 89
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794319136595,
+    "success": true,
+    "testId": 90
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: aclarar los nombres de los campos en FormularioInicioSesion",
+    "commitTimestamp": 1794319170287,
+    "testId": 90
   }
 ]
