@@ -10,8 +10,10 @@ export class ReportePresenter {
 
   reportarObjeto(datos) {
     const usuario = this.sesion.obtenerUsuario();
-    const reporte = new ReporteObjetoPerdido(fechaComoTexto(this.obtenerFechaActual()));
-    const resultado = reporte.reportar(datos, usuario.correo);
+    const reglasDeReporte = new ReporteObjetoPerdido(
+      fechaComoTexto(this.obtenerFechaActual()),
+    );
+    const resultado = reglasDeReporte.reportar(datos, usuario.correo);
     if (resultado.exito) {
       this.repositorio.guardar(resultado.objeto);
     }
