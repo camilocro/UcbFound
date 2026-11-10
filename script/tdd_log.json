@@ -1876,9 +1876,23 @@
     "testId": 86
   },
   {
-    "commitId": "HEAD",
+    "commitId": "99f8386cd6d9eae93a60589fc06f4e744903541f",
     "commitName": "refactor: nombrar como predicados los métodos de ObjetoPerdido",
     "commitTimestamp": 1794319266644,
     "testId": 86
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794319318456,
+    "success": true,
+    "testId": 87
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: agrupar las pruebas repetidas del registro de usuario",
+    "commitTimestamp": 1794319327511,
+    "testId": 87
   }
 ]

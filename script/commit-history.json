@@ -1634,17 +1634,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "99f8386cd6d9eae93a60589fc06f4e744903541f",
     "author": "Maria Sandoval",
     "commit": {
       "date": "2026-11-10T14:01:00.000Z",
       "message": "refactor: nombrar como predicados los métodos de ObjetoPerdido",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/99f8386cd6d9eae93a60589fc06f4e744903541f"
     },
     "stats": {
       "total": 9,
       "additions": 4,
       "deletions": 5,
+      "date": "2026-11-10"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Sandoval",
+    "commit": {
+      "date": "2026-11-10T14:02:01.000Z",
+      "message": "refactor: agrupar las pruebas repetidas del registro de usuario",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 111,
+      "additions": 70,
+      "deletions": 41,
       "date": "2026-11-10"
     },
     "coverage": 96.32,
