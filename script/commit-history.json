@@ -1634,17 +1634,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ebf11a06c394e8617d331a9d0d4faf1043c78094",
     "author": "camilocro",
     "commit": {
       "date": "2026-11-10T14:00:27.000Z",
       "message": "refactor: renombrar MENSAJES a MENSAJES_REGISTRO",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/ebf11a06c394e8617d331a9d0d4faf1043c78094"
     },
     "stats": {
       "total": 12,
       "additions": 6,
       "deletions": 6,
+      "date": "2026-11-10"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-10T14:01:56.000Z",
+      "message": "refactor: renombrar MENSAJES_LOGIN a MENSAJES_INICIO_SESION",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 4,
+      "deletions": 4,
       "date": "2026-11-10"
     },
     "coverage": 96.32,

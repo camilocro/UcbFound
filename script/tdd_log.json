@@ -1868,9 +1868,23 @@
     "testId": 86
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ebf11a06c394e8617d331a9d0d4faf1043c78094",
     "commitName": "refactor: renombrar MENSAJES a MENSAJES_REGISTRO",
     "commitTimestamp": 1794319239916,
     "testId": 86
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794319272721,
+    "success": true,
+    "testId": 87
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: renombrar MENSAJES_LOGIN a MENSAJES_INICIO_SESION",
+    "commitTimestamp": 1794319329939,
+    "testId": 87
   }
 ]
