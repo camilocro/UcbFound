@@ -2000,9 +2000,23 @@
     "testId": 96
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0ba2720453257fb7c8523a0fa8e6fe5e72131254",
     "commitName": "refactor: renombrar obtenerUsuarios a obtenerTodos en RepositorioUsuarios",
     "commitTimestamp": 1794486557456,
     "testId": 96
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794486697487,
+    "success": true,
+    "testId": 97
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: renombrar obtenerReportes a obtenerTodos en RepositorioReportes",
+    "commitTimestamp": 1794486709936,
+    "testId": 97
   }
 ]

@@ -1824,17 +1824,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0ba2720453257fb7c8523a0fa8e6fe5e72131254",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T12:29:10.000Z",
       "message": "refactor: renombrar obtenerUsuarios a obtenerTodos en RepositorioUsuarios",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/0ba2720453257fb7c8523a0fa8e6fe5e72131254"
     },
     "stats": {
       "total": 12,
       "additions": 6,
       "deletions": 6,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T12:31:41.000Z",
+      "message": "refactor: renombrar obtenerReportes a obtenerTodos en RepositorioReportes",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 4,
+      "deletions": 4,
       "date": "2026-11-12"
     },
     "coverage": 96.32,
