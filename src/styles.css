@@ -383,3 +383,28 @@ body {
 .boton--primario:hover {
   filter: brightness(1.2);
 }
+.campo select {
+  padding: 12px 14px;
+  font-size: 1rem;
+  font-family: inherit;
+  color: var(--texto);
+  background: #fff;
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.campo select:focus {
+  outline: none;
+  border-color: var(--azul);
+  box-shadow: 0 0 0 3px rgba(245, 184, 0, 0.35);
+}
+.etiqueta {
+  display: inline-block;
+  padding: 3px 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--azul);
+  background: #fff4cc;
+  border-radius: 999px;
+}

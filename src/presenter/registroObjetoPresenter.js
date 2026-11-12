@@ -1,5 +1,6 @@
 import { MENSAJES_REGISTRO_OBJETO, RegistroObjetoEncontrado } from '../model/registroObjetoEncontrado.js';
 import { convertirFechaATexto } from '../model/fecha.js';
+import { CATEGORIAS } from '../model/categorias.js';
 
 export class RegistroObjetoPresenter {
   constructor(
@@ -12,6 +13,10 @@ export class RegistroObjetoPresenter {
     this.sesion = sesion;
     this.obtenerFechaActual = obtenerFechaActual;
     this.crearId = crearId;
+  }
+
+  obtenerCategorias() {
+    return CATEGORIAS;
   }
 
   registrar(datos) {

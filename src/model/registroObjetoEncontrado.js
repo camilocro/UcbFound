@@ -1,11 +1,13 @@
 import { ObjetoEncontrado } from './objetoEncontrado.js';
 import { crearError } from './resultado.js';
+import { CATEGORIAS } from './categorias.js';
 
 export const MENSAJES_REGISTRO_OBJETO = {
   OBJETO_REGISTRADO: 'Objeto registrado correctamente',
   FALTAN_FOTO_O_DESCRIPCION: 'Es necesario agregar una foto y una descripción',
   SOLO_IMAGENES: 'Solo se permiten imágenes',
   FOTO_MUY_PESADA: 'La foto es muy pesada, prueba con una imagen más pequeña',
+  FALTA_CATEGORIA: 'Es necesario elegir una categoría',
 };
 
 const NOMBRE_POR_DEFECTO = 'Objeto encontrado';
@@ -20,12 +22,15 @@ export class RegistroObjetoEncontrado {
     this.crearId = crearId;
   }
 
-  registrar({ nombre, descripcion, foto }, correoDeQuienEncontro) {
+  registrar({ nombre, descripcion, foto, categoria }, correoDeQuienEncontro) {
     if (faltanFotoODescripcion(foto, descripcion)) {
       return crearError(MENSAJES_REGISTRO_OBJETO.FALTAN_FOTO_O_DESCRIPCION);
     }
     if (!foto.startsWith('data:image/')) {
       return crearError(MENSAJES_REGISTRO_OBJETO.SOLO_IMAGENES);
+    }
+    if (!CATEGORIAS.includes(categoria)) {
+      return crearError(MENSAJES_REGISTRO_OBJETO.FALTA_CATEGORIA);
     }
     const objeto = new ObjetoEncontrado({
       id: this.crearId(),
@@ -34,6 +39,7 @@ export class RegistroObjetoEncontrado {
       fecha: this.fechaDeHoy,
       foto,
       correoDeQuienEncontro,
+      categoria,
     });
     return { exito: true, mensaje: MENSAJES_REGISTRO_OBJETO.OBJETO_REGISTRADO, objeto };
   }
