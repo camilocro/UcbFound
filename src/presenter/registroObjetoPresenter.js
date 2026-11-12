@@ -4,12 +4,19 @@ import { crearError } from '../model/resultado.js';
 
 const MENSAJE_SESION_REQUERIDA = 'Inicia sesión para registrar un objeto';
 
+let cantidadDeIdsCreados = 0;
+
+function crearIdUnico() {
+  cantidadDeIdsCreados += 1;
+  return `obj-${Date.now()}-${cantidadDeIdsCreados}`;
+}
+
 export class RegistroObjetoPresenter {
   constructor(
     repositorio,
     sesion,
     obtenerFechaActual = () => new Date(),
-    crearId = () => `obj-${Date.now()}`,
+    crearId = crearIdUnico,
   ) {
     this.repositorio = repositorio;
     this.sesion = sesion;

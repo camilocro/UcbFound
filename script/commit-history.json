@@ -2071,12 +2071,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b294af421e906e7c44d3da23705b256645361c8a",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T14:13:11.000Z",
       "message": "feat: el presentador de registro pide iniciar sesión cuando no hay usuario",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/b294af421e906e7c44d3da23705b256645361c8a"
     },
     "stats": {
       "total": 18,
@@ -2086,6 +2086,25 @@
     },
     "coverage": 96.35,
     "test_count": 71,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T14:15:58.000Z",
+      "message": "feat: generar ids únicos al registrar un objeto encontrado",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 23,
+      "deletions": 2,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.91,
+    "test_count": 72,
     "failed_tests": 0,
     "conclusion": "success"
   }

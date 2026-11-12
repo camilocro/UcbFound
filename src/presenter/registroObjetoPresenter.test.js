@@ -69,3 +69,17 @@ describe('Presenter: registrar sin sesión iniciada', () => {
     expect(repositorio.obtenerTodos()).toEqual([]);
   });
 });
+describe('Presenter: ids únicos', () => {
+  it('debería guardar todos los objetos con ids distintos aunque se registren casi al mismo tiempo', () => {
+    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+    const sesion = new Sesion(crearAlmacenamientoFalso());
+    sesion.iniciar({ nombre: 'Camilo Rojas', correo: 'camilo.rojas@ucb.edu.bo' });
+    const presenter = new RegistroObjetoPresenter(repositorio, sesion, () => new Date(2026, 9, 17));
+    for (let i = 0; i < 20; i += 1) {
+      presenter.registrar(datosValidos);
+    }
+    const ids = repositorio.obtenerTodos().map((objeto) => objeto.id);
+    expect(ids).toHaveLength(20);
+    expect(new Set(ids).size).toBe(20);
+  });
+});
