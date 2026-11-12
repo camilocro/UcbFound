@@ -1919,17 +1919,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d619d5526be4ec2b55d10229c623c9d252ce309e",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T12:43:41.000Z",
       "message": "refactor: renombrar el archivo registro.js a registroUsuario.js",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/d619d5526be4ec2b55d10229c623c9d252ce309e"
     },
     "stats": {
       "total": 4,
       "additions": 2,
       "deletions": 2,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T12:48:20.000Z",
+      "message": "refactor: usar la función crearError compartida en RegistroUsuario",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 8,
+      "deletions": 8,
       "date": "2026-11-12"
     },
     "coverage": 96.32,

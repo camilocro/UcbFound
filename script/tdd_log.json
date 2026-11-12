@@ -2086,9 +2086,31 @@
     "testId": 101
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d619d5526be4ec2b55d10229c623c9d252ce309e",
     "commitName": "refactor: renombrar el archivo registro.js a registroUsuario.js",
     "commitTimestamp": 1794487428424,
     "testId": 101
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794487532132,
+    "success": true,
+    "testId": 102
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794487696031,
+    "success": true,
+    "testId": 102
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: usar la función crearError compartida en RegistroUsuario",
+    "commitTimestamp": 1794487707079,
+    "testId": 102
   }
 ]
