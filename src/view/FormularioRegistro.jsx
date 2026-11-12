@@ -1,22 +1,29 @@
+
 import { useState } from 'react';
 
-const DATOS_INICIALES = { nombre: '', correo: '', contrasena: '' };
+const CAMPOS_INICIALES = { nombre: '', correo: '', contrasena: '' };
 
 export default function FormularioRegistro({ presenter }) {
-  const [datos, setDatos] = useState(DATOS_INICIALES);
+  const [camposDelFormulario, setCamposDelFormulario] =
+    useState(CAMPOS_INICIALES);
   const [resultado, setResultado] = useState(null);
 
   const cambiarCampo = (evento) => {
     const { name, value } = evento.target;
-    setDatos({ ...datos, [name]: value });
+    setCamposDelFormulario({
+      ...camposDelFormulario,
+      [name]: value
+    });
   };
 
   const enviar = (evento) => {
     evento.preventDefault();
-    const respuesta = presenter.procesarRegistro(datos);
-    setResultado(respuesta);
-    if (respuesta.exito) {
-      setDatos(DATOS_INICIALES);
+    const resultadoDelRegistro =
+      presenter.procesarRegistro(camposDelFormulario);
+    setResultado(resultadoDelRegistro);
+
+    if (resultadoDelRegistro.exito) {
+      setCamposDelFormulario(CAMPOS_INICIALES);
     }
   };
 
@@ -35,7 +42,7 @@ export default function FormularioRegistro({ presenter }) {
             name="nombre"
             type="text"
             placeholder="Ej. Juan Pérez"
-            value={datos.nombre}
+            value={camposDelFormulario.nombre}
             onChange={cambiarCampo}
           />
         </div>
@@ -47,7 +54,7 @@ export default function FormularioRegistro({ presenter }) {
             name="correo"
             type="email"
             placeholder="tunombre@ucb.edu.bo"
-            value={datos.correo}
+            value={camposDelFormulario.correo}
             onChange={cambiarCampo}
           />
         </div>
@@ -59,7 +66,7 @@ export default function FormularioRegistro({ presenter }) {
             name="contrasena"
             type="password"
             placeholder="Mínimo 8 caracteres"
-            value={datos.contrasena}
+            value={camposDelFormulario.contrasena}
             onChange={cambiarCampo}
           />
           <small className="campo__ayuda">Debe tener al menos 8 caracteres.</small>
