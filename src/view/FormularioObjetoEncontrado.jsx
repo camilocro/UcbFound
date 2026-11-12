@@ -44,7 +44,7 @@ async function leerFoto(archivo) {
 export default function FormularioObjetoEncontrado({ presenter, alVerLista }) {
   const [datos, setDatos] = useState(DATOS_INICIALES);
   const [resultado, setResultado] = useState(null);
-  const [cargandoFoto, setCargandoFoto] = useState(false);
+  const [estaCargandoFoto, setEstaCargandoFoto] = useState(false);
   const [claveCampoFoto, setClaveCampoFoto] = useState(0);
 
   const cambiarCampo = (evento) => {
@@ -58,10 +58,10 @@ export default function FormularioObjetoEncontrado({ presenter, alVerLista }) {
       setDatos((datosActuales) => ({ ...datosActuales, foto: '' }));
       return;
     }
-    setCargandoFoto(true);
+    setEstaCargandoFoto(true);
     const foto = await leerFoto(archivo);
     setDatos((datosActuales) => ({ ...datosActuales, foto }));
-    setCargandoFoto(false);
+    setEstaCargandoFoto(false);
   };
 
   const enviar = (evento) => {
@@ -121,8 +121,8 @@ export default function FormularioObjetoEncontrado({ presenter, alVerLista }) {
           </p>
         )}
 
-        <button id="registrar-objeto-button" type="submit" className="boton" disabled={cargandoFoto}>
-          {cargandoFoto ? 'Cargando foto...' : 'Registrar'}
+        <button id="registrar-objeto-button" type="submit" className="boton" disabled={estaCargandoFoto}>
+          {estaCargandoFoto ? 'Cargando foto...' : 'Registrar'}
         </button>
 
         {resultado && resultado.exito && (

@@ -2136,9 +2136,65 @@
     "testId": 104
   },
   {
-    "commitId": "HEAD",
+    "commitId": "58f455cab94c3dcd47fa090239d508cb2975928f",
     "commitName": "refactor: usar la función crearError compartida en ReporteObjetoPerdido",
     "commitTimestamp": 1794487865340,
     "testId": 104
+  },
+  {
+    "commitId": "c7830ba84fb72b61d3b15379269f54b5f326b3a8",
+    "commitName": "chore: resolver conflictos de los logs con main",
+    "commitTimestamp": 1794490834863,
+    "testId": 105
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794490859307,
+    "success": true,
+    "testId": 106
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794490949039,
+    "success": true,
+    "testId": 106
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794491054988,
+    "success": true,
+    "testId": 106
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794491218790,
+    "success": true,
+    "testId": 106
+  },
+  {
+    "commitId": "c7830ba84fb72b61d3b15379269f54b5f326b3a8",
+    "commitName": "refactor: renombrar cargandoFoto a estaCargandoFoto",
+    "commitTimestamp": 1794491238974,
+    "testId": 106
+  },
+  {
+    "commitId": "ac78620ab7012710d592042d2698d2fb86909bb2",
+    "commitName": "refactor: usar faltanFotoODescripcion en registrar",
+    "commitTimestamp": 1794491326377,
+    "testId": 107
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: renombrar cargandoFoto a estaCargandoFoto",
+    "commitTimestamp": 1794491359856,
+    "testId": 108
   }
 ]

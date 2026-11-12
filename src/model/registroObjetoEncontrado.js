@@ -10,6 +10,10 @@ export const MENSAJES_REGISTRO_OBJETO = {
 
 const NOMBRE_POR_DEFECTO = 'Objeto encontrado';
 
+function faltanFotoODescripcion(foto, descripcion) {
+  return foto === '' || descripcion.trim() === '';
+}
+
 export class RegistroObjetoEncontrado {
   constructor(fechaDeHoy, crearId) {
     this.fechaDeHoy = fechaDeHoy;
@@ -17,7 +21,7 @@ export class RegistroObjetoEncontrado {
   }
 
   registrar({ nombre, descripcion, foto }, correoDeQuienEncontro) {
-    if (foto === '' || descripcion.trim() === '') {
+    if (faltanFotoODescripcion(foto, descripcion)) {
       return crearError(MENSAJES_REGISTRO_OBJETO.FALTAN_FOTO_O_DESCRIPCION);
     }
     if (!foto.startsWith('data:image/')) {
