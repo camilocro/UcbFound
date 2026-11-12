@@ -2414,9 +2414,23 @@
     "testId": 120
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0581bd5b5eea40c52c9fff0e9e6450899a26ac31",
     "commitName": "feat: filtrar objetos encontrados por categoría",
     "commitTimestamp": 1794515731264,
     "testId": 121
+  },
+  {
+    "numPassedTests": 86,
+    "failedTests": 0,
+    "numTotalTests": 86,
+    "timestamp": 1794517616422,
+    "success": true,
+    "testId": 122
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: avisar cuando ningún objeto coincide con nombre, descripción o categoría",
+    "commitTimestamp": 1794517690834,
+    "testId": 122
   }
 ]

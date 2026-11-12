@@ -2299,12 +2299,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0581bd5b5eea40c52c9fff0e9e6450899a26ac31",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-12T20:35:17.000Z",
       "message": "feat: filtrar objetos encontrados por categoría",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/0581bd5b5eea40c52c9fff0e9e6450899a26ac31"
     },
     "stats": {
       "total": 88,
@@ -2314,6 +2314,25 @@
     },
     "coverage": 97.06,
     "test_count": 85,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-12T21:08:04.000Z",
+      "message": "feat: avisar cuando ningún objeto coincide con nombre, descripción o categoría",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 15,
+      "deletions": 4,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.06,
+    "test_count": 86,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -18,10 +18,12 @@ describe('HU-07 Criterio 1: buscar por nombre o descripción', () => {
 describe('HU-07 Criterio 2: sin coincidencias', () => {
   it('debería avisar cuando ningún objeto coincide', () => {
     const resultado = new BuscadorObjetos(objetos).buscar('paraguas');
-    expect(resultado).toEqual({ objetos: [], mensaje: 'No se encontraron objetos con ese nombre o descripción' });
+    expect(resultado).toEqual({
+      objetos: [],
+      mensaje: 'No se encontraron objetos con ese nombre, descripción o categoría',
+    });
   });
 });
-
 describe('HU-07 Criterio 3: buscar sin escribir nada', () => {
   it('debería mostrar todos los objetos del más reciente al más antiguo', () => {
     const resultado = new BuscadorObjetos(objetos).buscar('');
@@ -105,5 +107,15 @@ describe('HU-08 Criterios 5, 6 y 7: con "Todas"', () => {
       'Mochila negra',
       'Botella de agua',
     ]);
+  });
+});
+describe('HU-08 Criterio 4: categoría sin resultados', () => {
+  it('debería mostrar un mensaje cuando no hay objetos de esa categoría', () => {
+    const resultado = new BuscadorObjetos(objetosConCategoria).buscar('', 'Llaves');
+
+    expect(resultado.mensaje).toBe(
+      'No se encontraron objetos con ese nombre, descripción o categoría'
+    );
+    expect(resultado.objetos).toEqual([]);
   });
 });
