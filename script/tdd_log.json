@@ -1938,9 +1938,85 @@
     "testId": 91
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3bddcefe2e2216ec4d782aaad4b2e83b632263a2",
     "commitName": "test: registrar ejecucion de pruebas",
     "commitTimestamp": 1794321854027,
     "testId": 91
+  },
+  {
+    "commitId": "d676277bdaf96b0dfafbd0c36cdffdca53899579",
+    "commitName": "chore: resolver conflictos de los logs con main",
+    "commitTimestamp": 1794485969579,
+    "testId": 92
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794486233496,
+    "success": true,
+    "testId": 93
+  },
+  {
+    "commitId": "0df59a64bc52423ce8b59902bac829bfbc27dec6",
+    "commitName": "refactor: renombrar mostrarPagina a resolverPagina en SesionPresenter",
+    "commitTimestamp": 1794486244109,
+    "testId": 93
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794486315281,
+    "success": true,
+    "testId": 94
+  },
+  {
+    "commitId": "d404ffdf8ece3230707dbc9db47402e23ed36b9a",
+    "commitName": "refactor: renombrar pidioIniciarSesion a fueRedirigidoAlLogin en main",
+    "commitTimestamp": 1794486325675,
+    "testId": 94
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794486442753,
+    "success": true,
+    "testId": 95
+  },
+  {
+    "commitId": "091103eb2222ce03b7f478079ae9a09351d27118",
+    "commitName": "refactor: renombrar vistaBasica a obtenerVistaBasica en ObjetoEncontrado",
+    "commitTimestamp": 1794486453900,
+    "testId": 95
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794486546509,
+    "success": true,
+    "testId": 96
+  },
+  {
+    "commitId": "0ba2720453257fb7c8523a0fa8e6fe5e72131254",
+    "commitName": "refactor: renombrar obtenerUsuarios a obtenerTodos en RepositorioUsuarios",
+    "commitTimestamp": 1794486557456,
+    "testId": 96
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794486697487,
+    "success": true,
+    "testId": 97
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: renombrar obtenerReportes a obtenerTodos en RepositorioReportes",
+    "commitTimestamp": 1794486709936,
+    "testId": 97
   }
 ]

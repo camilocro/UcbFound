@@ -14,7 +14,7 @@ function crearAlmacenamientoFalso() {
 describe('Repositorio de usuarios', () => {
   it('debería empezar sin usuarios registrados', () => {
     const repositorio = new RepositorioUsuarios(crearAlmacenamientoFalso());
-    expect(repositorio.obtenerUsuarios()).toEqual([]);
+    expect(repositorio.obtenerTodos()).toEqual([]);
   });
 });
 

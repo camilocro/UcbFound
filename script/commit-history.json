@@ -1729,18 +1729,132 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3bddcefe2e2216ec4d782aaad4b2e83b632263a2",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-10T14:43:59.000Z",
       "message": "test: registrar ejecucion de pruebas",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/3bddcefe2e2216ec4d782aaad4b2e83b632263a2"
     },
     "stats": {
       "total": 0,
       "additions": 0,
       "deletions": 0,
       "date": "2026-11-10"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "d676277bdaf96b0dfafbd0c36cdffdca53899579",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T12:19:22.000Z",
+      "message": "chore: resolver conflictos de los logs con main",
+      "url": "https://github.com/camilocro/UcbFound/commit/d676277bdaf96b0dfafbd0c36cdffdca53899579"
+    },
+    "stats": {
+      "total": 178,
+      "additions": 110,
+      "deletions": 68,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "0df59a64bc52423ce8b59902bac829bfbc27dec6",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T12:23:57.000Z",
+      "message": "refactor: renombrar mostrarPagina a resolverPagina en SesionPresenter",
+      "url": "https://github.com/camilocro/UcbFound/commit/0df59a64bc52423ce8b59902bac829bfbc27dec6"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 3,
+      "deletions": 3,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "d404ffdf8ece3230707dbc9db47402e23ed36b9a",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T12:25:18.000Z",
+      "message": "refactor: renombrar pidioIniciarSesion a fueRedirigidoAlLogin en main",
+      "url": "https://github.com/camilocro/UcbFound/commit/d404ffdf8ece3230707dbc9db47402e23ed36b9a"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "091103eb2222ce03b7f478079ae9a09351d27118",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T12:27:26.000Z",
+      "message": "refactor: renombrar vistaBasica a obtenerVistaBasica en ObjetoEncontrado",
+      "url": "https://github.com/camilocro/UcbFound/commit/091103eb2222ce03b7f478079ae9a09351d27118"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 5,
+      "deletions": 5,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "0ba2720453257fb7c8523a0fa8e6fe5e72131254",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T12:29:10.000Z",
+      "message": "refactor: renombrar obtenerUsuarios a obtenerTodos en RepositorioUsuarios",
+      "url": "https://github.com/camilocro/UcbFound/commit/0ba2720453257fb7c8523a0fa8e6fe5e72131254"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 6,
+      "deletions": 6,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T12:31:41.000Z",
+      "message": "refactor: renombrar obtenerReportes a obtenerTodos en RepositorioReportes",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 4,
+      "deletions": 4,
+      "date": "2026-11-12"
     },
     "coverage": 96.32,
     "test_count": 70,

@@ -17,7 +17,7 @@ export class ObjetoEncontrado {
     return sinTildes(this.nombre).includes(textoBuscado) || sinTildes(this.descripcion).includes(textoBuscado);
   }
 
-  vistaBasica() {
+  obtenerVistaBasica() {
     return {
       id: this.id,
       foto: this.foto,

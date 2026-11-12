@@ -4,6 +4,6 @@ export class DetalleObjetoPresenter {
   }
 
   verDetalle(id) {
-    return this.repositorio.buscarPorId(id).vistaBasica();
+    return this.repositorio.buscarPorId(id).obtenerVistaBasica();
   }
 }
