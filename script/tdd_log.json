@@ -2316,9 +2316,31 @@
     "testId": 114
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5cc1ba309f91ec949f865d1235d962cb340eae3c",
     "commitName": "feat: mostrar Sin categoría en objetos anteriores (HU-13)",
     "commitTimestamp": 1794497733635,
     "testId": 114
+  },
+  {
+    "numPassedTests": 75,
+    "failedTests": 1,
+    "numTotalTests": 76,
+    "timestamp": 1794497825733,
+    "success": false,
+    "testId": 115
+  },
+  {
+    "numPassedTests": 76,
+    "failedTests": 0,
+    "numTotalTests": 76,
+    "timestamp": 1794497911464,
+    "success": true,
+    "testId": 115
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: ofrecer la lista de categorías al formulario (HU-13)",
+    "commitTimestamp": 1794497944742,
+    "testId": 115
   }
 ]
