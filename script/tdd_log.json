@@ -2192,9 +2192,39 @@
     "testId": 107
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3d6ce3ed241f649790ccc65bee2a562e5b15b9b7",
     "commitName": "refactor: renombrar cargandoFoto a estaCargandoFoto",
     "commitTimestamp": 1794491359856,
     "testId": 108
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794491710783,
+    "success": true,
+    "testId": 109
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 1,
+    "numTotalTests": 71,
+    "timestamp": 1794492559419,
+    "success": false,
+    "testId": 109
+  },
+  {
+    "numPassedTests": 71,
+    "failedTests": 0,
+    "numTotalTests": 71,
+    "timestamp": 1794492778990,
+    "success": true,
+    "testId": 109
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: el presentador de registro pide iniciar sesión cuando no hay usuario",
+    "commitTimestamp": 1794492798753,
+    "testId": 109
   }
 ]

@@ -57,3 +57,15 @@ describe('HU-11 Presenter: foto muy pesada', () => {
     });
   });
 });
+describe('Presenter: registrar sin sesión iniciada', () => {
+  it('debería pedir iniciar sesión y no guardar nada cuando no hay usuario', () => {
+    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+    const sesionSinUsuario = new Sesion(crearAlmacenamientoFalso());
+    const presenter = new RegistroObjetoPresenter(repositorio, sesionSinUsuario, () => new Date(2026, 9, 17), () => 'obj-1');
+    expect(presenter.registrar(datosValidos)).toEqual({
+      exito: false,
+      mensaje: 'Inicia sesión para registrar un objeto',
+    });
+    expect(repositorio.obtenerTodos()).toEqual([]);
+  });
+});

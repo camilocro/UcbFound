@@ -2052,12 +2052,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3d6ce3ed241f649790ccc65bee2a562e5b15b9b7",
     "author": "camilocro",
     "commit": {
       "date": "2026-11-12T13:49:07.000Z",
       "message": "refactor: renombrar cargandoFoto a estaCargandoFoto",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/3d6ce3ed241f649790ccc65bee2a562e5b15b9b7"
     },
     "stats": {
       "total": 10,
@@ -2067,6 +2067,25 @@
     },
     "coverage": 96.3,
     "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T14:13:11.000Z",
+      "message": "feat: el presentador de registro pide iniciar sesión cuando no hay usuario",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 18,
+      "deletions": 0,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.35,
+    "test_count": 71,
     "failed_tests": 0,
     "conclusion": "success"
   }

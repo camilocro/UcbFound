@@ -1,5 +1,8 @@
 import { MENSAJES_REGISTRO_OBJETO, RegistroObjetoEncontrado } from '../model/registroObjetoEncontrado.js';
 import { convertirFechaATexto } from '../model/fecha.js';
+import { crearError } from '../model/resultado.js';
+
+const MENSAJE_SESION_REQUERIDA = 'Inicia sesión para registrar un objeto';
 
 export class RegistroObjetoPresenter {
   constructor(
@@ -16,6 +19,9 @@ export class RegistroObjetoPresenter {
 
   registrar(datos) {
     const usuario = this.sesion.obtenerUsuario();
+    if (!usuario) {
+      return crearError(MENSAJE_SESION_REQUERIDA);
+    }
     const reglasDeRegistro = new RegistroObjetoEncontrado(
       convertirFechaATexto(this.obtenerFechaActual()),
       this.crearId,
