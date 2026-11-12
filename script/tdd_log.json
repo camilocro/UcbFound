@@ -2594,9 +2594,67 @@
     "testId": 127
   },
   {
-    "commitId": "HEAD",
+    "commitId": "04143c4da0391887d018e5b7b339787526680542",
     "commitName": "feat: agregar los campos de bloque y aula al formulario de objeto encontrado (HU-12)",
     "commitTimestamp": 1794511984563,
     "testId": 127
+  },
+  {
+    "numPassedTests": 87,
+    "failedTests": 0,
+    "numTotalTests": 87,
+    "timestamp": 1794513767651,
+    "success": false,
+    "testId": 128
+  },
+  {
+    "numPassedTests": 88,
+    "failedTests": 0,
+    "numTotalTests": 88,
+    "timestamp": 1794513797659,
+    "success": true,
+    "testId": 128
+  },
+  {
+    "commitId": "2e778b520e4809d4dda7ece77ed360fefa38971e",
+    "commitName": "feat: agregar esImagen para reconocer si una foto es una imagen",
+    "commitTimestamp": 1794513815516,
+    "testId": 128
+  },
+  {
+    "numPassedTests": 88,
+    "failedTests": 0,
+    "numTotalTests": 88,
+    "timestamp": 1794513940737,
+    "success": true,
+    "testId": 129
+  },
+  {
+    "commitId": "7069052dbc606a512b60d1dff0b72422fa697b3b",
+    "commitName": "refactor: usar esImagen para validar la foto al registrar un objeto",
+    "commitTimestamp": 1794513951727,
+    "testId": 129
+  },
+  {
+    "numPassedTests": 88,
+    "failedTests": 0,
+    "numTotalTests": 88,
+    "timestamp": 1794513988421,
+    "success": true,
+    "testId": 130
+  },
+  {
+    "numPassedTests": 88,
+    "failedTests": 0,
+    "numTotalTests": 88,
+    "timestamp": 1794514063287,
+    "success": true,
+    "testId": 130
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: usar esImagen para mostrar la vista previa de la foto",
+    "commitTimestamp": 1794514075541,
+    "testId": 130
   }
 ]

@@ -2413,12 +2413,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "04143c4da0391887d018e5b7b339787526680542",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T19:32:58.000Z",
       "message": "feat: agregar los campos de bloque y aula al formulario de objeto encontrado (HU-12)",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/04143c4da0391887d018e5b7b339787526680542"
     },
     "stats": {
       "total": 27,
@@ -2428,6 +2428,63 @@
     },
     "coverage": 97.18,
     "test_count": 87,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "2e778b520e4809d4dda7ece77ed360fefa38971e",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T20:03:28.000Z",
+      "message": "feat: agregar esImagen para reconocer si una foto es una imagen",
+      "url": "https://github.com/camilocro/UcbFound/commit/2e778b520e4809d4dda7ece77ed360fefa38971e"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.21,
+    "test_count": 88,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "7069052dbc606a512b60d1dff0b72422fa697b3b",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T20:05:44.000Z",
+      "message": "refactor: usar esImagen para validar la foto al registrar un objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/7069052dbc606a512b60d1dff0b72422fa697b3b"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 2,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.21,
+    "test_count": 88,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T20:07:47.000Z",
+      "message": "refactor: usar esImagen para mostrar la vista previa de la foto",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 2,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.21,
+    "test_count": 88,
     "failed_tests": 0,
     "conclusion": "success"
   }

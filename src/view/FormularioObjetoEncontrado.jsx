@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { esImagen } from '../model/foto.js';
 
 const DATOS_INICIALES = { nombre: '', descripcion: '', foto: '', categoria: '', bloque: '', aula: '' };
 const LADO_MAXIMO_EN_PIXELES = 800;
@@ -85,7 +86,7 @@ export default function FormularioObjetoEncontrado({ presenter, alVerLista }) {
     }
   };
 
-  const tieneFotoValida = datos.foto.startsWith('data:image/');
+  const tieneFotoValida = esImagen(datos.foto);
 
   return (
     <section className="tarjeta">
