@@ -1862,17 +1862,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e5e78307d12405eea135f45727bd1eb8d54fa949",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T12:37:21.000Z",
       "message": "refactor: renombrar sinTildes a quitarTildes en ObjetoEncontrado",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/e5e78307d12405eea135f45727bd1eb8d54fa949"
     },
     "stats": {
       "total": 6,
       "additions": 3,
       "deletions": 3,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T12:38:57.000Z",
+      "message": "refactor: renombrar fechaComoTexto a convertirFechaATexto",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 9,
+      "deletions": 9,
       "date": "2026-11-12"
     },
     "coverage": 96.32,

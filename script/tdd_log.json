@@ -2044,9 +2044,23 @@
     "testId": 98
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e5e78307d12405eea135f45727bd1eb8d54fa949",
     "commitName": "refactor: renombrar sinTildes a quitarTildes en ObjetoEncontrado",
     "commitTimestamp": 1794487047895,
     "testId": 98
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794487133168,
+    "success": true,
+    "testId": 99
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: renombrar fechaComoTexto a convertirFechaATexto",
+    "commitTimestamp": 1794487144062,
+    "testId": 99
   }
 ]
