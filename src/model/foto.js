@@ -6,6 +6,6 @@ export function esImagen(foto) {
 }
 
 export function calcularTamanoReducido(ancho, alto) {
-  const escala = LADO_MAXIMO_EN_PIXELES / Math.max(ancho, alto);
+  const escala = Math.min(1, LADO_MAXIMO_EN_PIXELES / Math.max(ancho, alto));
   return { ancho: Math.round(ancho * escala), alto: Math.round(alto * escala) };
 }

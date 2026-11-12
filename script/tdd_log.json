@@ -2674,9 +2674,31 @@
     "testId": 131
   },
   {
-    "commitId": "HEAD",
+    "commitId": "67e9f21273eb0d7093bfcb7dbe2bb87fe93190bc",
     "commitName": "feat: calcular el tamaño reducido de una foto grande",
     "commitTimestamp": 1794514782589,
     "testId": 131
+  },
+  {
+    "numPassedTests": 89,
+    "failedTests": 1,
+    "numTotalTests": 90,
+    "timestamp": 1794514816150,
+    "success": false,
+    "testId": 132
+  },
+  {
+    "numPassedTests": 90,
+    "failedTests": 0,
+    "numTotalTests": 90,
+    "timestamp": 1794514842423,
+    "success": true,
+    "testId": 132
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: no agrandar las fotos que ya son pequeñas",
+    "commitTimestamp": 1794514880586,
+    "testId": 132
   }
 ]

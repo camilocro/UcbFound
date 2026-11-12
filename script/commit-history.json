@@ -2489,12 +2489,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "67e9f21273eb0d7093bfcb7dbe2bb87fe93190bc",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T20:19:35.000Z",
       "message": "feat: calcular el tamaño reducido de una foto grande",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/67e9f21273eb0d7093bfcb7dbe2bb87fe93190bc"
     },
     "stats": {
       "total": 14,
@@ -2504,6 +2504,25 @@
     },
     "coverage": 97.25,
     "test_count": 89,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T20:21:13.000Z",
+      "message": "feat: no agrandar las fotos que ya son pequeñas",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.25,
+    "test_count": 90,
     "failed_tests": 0,
     "conclusion": "success"
   }
