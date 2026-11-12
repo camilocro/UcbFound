@@ -2272,9 +2272,31 @@
     "testId": 112
   },
   {
-    "commitId": "HEAD",
+    "commitId": "35bc008ef397321a57785b091593319ec06419b7",
     "commitName": "feat: aceptar solo categorías de la lista oficial (HU-13)",
     "commitTimestamp": 1794497446227,
     "testId": 112
+  },
+  {
+    "numPassedTests": 73,
+    "failedTests": 1,
+    "numTotalTests": 74,
+    "timestamp": 1794497510659,
+    "success": false,
+    "testId": 113
+  },
+  {
+    "numPassedTests": 74,
+    "failedTests": 0,
+    "numTotalTests": 74,
+    "timestamp": 1794497553558,
+    "success": true,
+    "testId": 113
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar la categoría en el detalle del objeto (HU-13)",
+    "commitTimestamp": 1794497575882,
+    "testId": 113
   }
 ]

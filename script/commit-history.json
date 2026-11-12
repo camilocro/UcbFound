@@ -2128,12 +2128,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "35bc008ef397321a57785b091593319ec06419b7",
     "author": "camilocro",
     "commit": {
       "date": "2026-11-12T15:30:35.000Z",
       "message": "feat: aceptar solo categorías de la lista oficial (HU-13)",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/35bc008ef397321a57785b091593319ec06419b7"
     },
     "stats": {
       "total": 19,
@@ -2143,6 +2143,25 @@
     },
     "coverage": 96.37,
     "test_count": 73,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-12T15:32:45.000Z",
+      "message": "feat: mostrar la categoría en el detalle del objeto (HU-13)",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.39,
+    "test_count": 74,
     "failed_tests": 0,
     "conclusion": "success"
   }

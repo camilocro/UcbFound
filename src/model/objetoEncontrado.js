@@ -18,6 +18,10 @@ export class ObjetoEncontrado {
     return quitarTildes(this.nombre).includes(textoBuscado) || quitarTildes(this.descripcion).includes(textoBuscado);
   }
 
+  obtenerDetalle() {
+    return { ...this.obtenerVistaBasica(), categoria: this.categoria };
+  }
+
   obtenerVistaBasica() {
     return {
       id: this.id,
