@@ -2774,9 +2774,23 @@
     "testId": 137
   },
   {
-    "commitId": "HEAD",
+    "commitId": "38cc1b555d03a6cf11ff3e1d4e8fd770420b90e4",
     "commitName": "feat: mostrar un error y quitar Cargando foto cuando falla la lectura de la foto",
     "commitTimestamp": 1794517168386,
     "testId": 137
+  },
+  {
+    "numPassedTests": 95,
+    "failedTests": 0,
+    "numTotalTests": 95,
+    "timestamp": 1794521722526,
+    "success": true,
+    "testId": 138
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "chore: resolver conflictos de los logs con main",
+    "commitTimestamp": 1794521754378,
+    "testId": 138
   }
 ]
