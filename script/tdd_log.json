@@ -1972,9 +1972,23 @@
     "testId": 94
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d404ffdf8ece3230707dbc9db47402e23ed36b9a",
     "commitName": "refactor: renombrar pidioIniciarSesion a fueRedirigidoAlLogin en main",
     "commitTimestamp": 1794486325675,
     "testId": 94
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794486442753,
+    "success": true,
+    "testId": 95
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: renombrar vistaBasica a obtenerVistaBasica en ObjetoEncontrado",
+    "commitTimestamp": 1794486453900,
+    "testId": 95
   }
 ]

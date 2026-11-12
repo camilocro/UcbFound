@@ -1786,17 +1786,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d404ffdf8ece3230707dbc9db47402e23ed36b9a",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T12:25:18.000Z",
       "message": "refactor: renombrar pidioIniciarSesion a fueRedirigidoAlLogin en main",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/d404ffdf8ece3230707dbc9db47402e23ed36b9a"
     },
     "stats": {
       "total": 4,
       "additions": 2,
       "deletions": 2,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T12:27:26.000Z",
+      "message": "refactor: renombrar vistaBasica a obtenerVistaBasica en ObjetoEncontrado",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 5,
+      "deletions": 5,
       "date": "2026-11-12"
     },
     "coverage": 96.32,

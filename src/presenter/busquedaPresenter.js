@@ -8,6 +8,6 @@ export class BusquedaPresenter {
   buscar(texto) {
     const buscador = new BuscadorObjetos(this.repositorio.obtenerTodos());
     const resultado = buscador.buscar(texto);
-    return { ...resultado, objetos: resultado.objetos.map((objeto) => objeto.vistaBasica()) };
+    return { ...resultado, objetos: resultado.objetos.map((objeto) => objeto.obtenerVistaBasica()) };
   }
 }
