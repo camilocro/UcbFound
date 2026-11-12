@@ -1900,11 +1900,30 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b8ae9b2343c725d6bee1e1f5a0d3bea13325e017",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T12:40:21.000Z",
       "message": "refactor: renombrar correoYaRegistrado a estaRegistrado en RegistroUsuario",
+      "url": "https://github.com/camilocro/UcbFound/commit/b8ae9b2343c725d6bee1e1f5a0d3bea13325e017"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T12:43:41.000Z",
+      "message": "refactor: renombrar el archivo registro.js a registroUsuario.js",
       "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
     },
     "stats": {

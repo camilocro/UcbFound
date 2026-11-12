@@ -2072,9 +2072,23 @@
     "testId": 100
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b8ae9b2343c725d6bee1e1f5a0d3bea13325e017",
     "commitName": "refactor: renombrar correoYaRegistrado a estaRegistrado en RegistroUsuario",
     "commitTimestamp": 1794487228276,
     "testId": 100
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794487417195,
+    "success": true,
+    "testId": 101
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: renombrar el archivo registro.js a registroUsuario.js",
+    "commitTimestamp": 1794487428424,
+    "testId": 101
   }
 ]

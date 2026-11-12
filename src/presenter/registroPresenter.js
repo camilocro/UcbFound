@@ -1,4 +1,4 @@
-import { RegistroUsuario } from '../model/registro.js';
+import { RegistroUsuario } from '../model/registroUsuario.js';
 
 export class RegistroPresenter {
   constructor(repositorio) {

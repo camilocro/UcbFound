@@ -1,4 +1,4 @@
-import { registrarUsuario } from './registro.js';
+import { registrarUsuario } from './registroUsuario.js';
 
 const datosValidos = {
   nombre: 'Juan Pérez',
