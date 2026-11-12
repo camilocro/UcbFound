@@ -2710,9 +2710,23 @@
     "testId": 133
   },
   {
-    "commitId": "HEAD",
+    "commitId": "60972f0b96481282eceb2b14004897b25de0cc5f",
     "commitName": "refactor: crear lectorDeFoto con la lectura y el achicado de la foto",
     "commitTimestamp": 1794514938971,
     "testId": 133
+  },
+  {
+    "numPassedTests": 90,
+    "failedTests": 0,
+    "numTotalTests": 90,
+    "timestamp": 1794515080483,
+    "success": true,
+    "testId": 134
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: usar lectorDeFoto en el formulario y quitar la lógica de achicar de la vista",
+    "commitTimestamp": 1794515091244,
+    "testId": 134
   }
 ]

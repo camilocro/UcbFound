@@ -1,46 +1,8 @@
 import { useState } from 'react';
 import { esImagen } from '../model/foto.js';
+import { leerFoto } from './lectorDeFoto.js';
 
 const DATOS_INICIALES = { nombre: '', descripcion: '', foto: '', categoria: '', bloque: '', aula: '' };
-const LADO_MAXIMO_EN_PIXELES = 800;
-
-function leerArchivo(archivo) {
-  return new Promise((resolve, reject) => {
-    const lector = new FileReader();
-    lector.onload = () => resolve(lector.result);
-    lector.onerror = () => reject(lector.error);
-    lector.readAsDataURL(archivo);
-  });
-}
-
-// Achica la foto (máximo 800 px por lado) para que entre en el almacenamiento del navegador
-function achicarImagen(dataUrl) {
-  return new Promise((resolve) => {
-    const imagen = new Image();
-    imagen.onload = () => {
-      if (!imagen.width || !imagen.height) {
-        resolve(dataUrl);
-        return;
-      }
-      const escala = Math.min(1, LADO_MAXIMO_EN_PIXELES / Math.max(imagen.width, imagen.height));
-      const lienzo = document.createElement('canvas');
-      lienzo.width = Math.round(imagen.width * escala);
-      lienzo.height = Math.round(imagen.height * escala);
-      const contexto = lienzo.getContext('2d');
-      contexto.fillStyle = '#ffffff';
-      contexto.fillRect(0, 0, lienzo.width, lienzo.height);
-      contexto.drawImage(imagen, 0, 0, lienzo.width, lienzo.height);
-      resolve(lienzo.toDataURL('image/jpeg', 0.8));
-    };
-    imagen.onerror = () => resolve(dataUrl);
-    imagen.src = dataUrl;
-  });
-}
-
-async function leerFoto(archivo) {
-  const dataUrl = await leerArchivo(archivo);
-  return archivo.type.startsWith('image/') ? achicarImagen(dataUrl) : dataUrl;
-}
 
 function IconoCamara() {
   return (

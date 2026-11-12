@@ -2527,17 +2527,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "60972f0b96481282eceb2b14004897b25de0cc5f",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T20:22:11.000Z",
       "message": "refactor: crear lectorDeFoto con la lectura y el achicado de la foto",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/60972f0b96481282eceb2b14004897b25de0cc5f"
     },
     "stats": {
       "total": 39,
       "additions": 39,
       "deletions": 0,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.25,
+    "test_count": 90,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T20:24:43.000Z",
+      "message": "refactor: usar lectorDeFoto en el formulario y quitar la lógica de achicar de la vista",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 40,
+      "additions": 1,
+      "deletions": 39,
       "date": "2026-11-12"
     },
     "coverage": 97.25,
