@@ -2223,12 +2223,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4c40e5f5aab0d5fa1d6baca34a7917955aa75ae1",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T18:17:58.000Z",
       "message": "chore: resolver conflictos con main (HU-13)",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/4c40e5f5aab0d5fa1d6baca34a7917955aa75ae1"
     },
     "stats": {
       "total": 238,
@@ -2238,6 +2238,25 @@
     },
     "coverage": 97.01,
     "test_count": 78,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T18:30:48.000Z",
+      "message": "feat: agregar la lista compartida de bloques de los dos campus",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 32,
+      "additions": 32,
+      "deletions": 0,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.03,
+    "test_count": 80,
     "failed_tests": 0,
     "conclusion": "success"
   }

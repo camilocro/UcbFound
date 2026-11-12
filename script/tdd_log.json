@@ -2374,9 +2374,31 @@
     "testId": 117
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4c40e5f5aab0d5fa1d6baca34a7917955aa75ae1",
     "commitName": "chore: resolver conflictos con main (HU-13)",
     "commitTimestamp": 1794507483832,
     "testId": 117
+  },
+  {
+    "numPassedTests": 78,
+    "failedTests": 0,
+    "numTotalTests": 78,
+    "timestamp": 1794507833586,
+    "success": true,
+    "testId": 118
+  },
+  {
+    "numPassedTests": 80,
+    "failedTests": 0,
+    "numTotalTests": 80,
+    "timestamp": 1794508219603,
+    "success": true,
+    "testId": 118
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar la lista compartida de bloques de los dos campus",
+    "commitTimestamp": 1794508253920,
+    "testId": 118
   }
 ]
