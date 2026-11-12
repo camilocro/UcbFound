@@ -48,7 +48,7 @@ describe('HU-11 Presenter: foto muy pesada', () => {
     const almacenamientoLleno = {
       getItem: () => null,
       setItem: () => {
-        throw new Error('QuotaExceededError');
+        throw Object.assign(new Error('Almacenamiento lleno'), { name: 'QuotaExceededError' });
       },
       removeItem: () => {},
     };

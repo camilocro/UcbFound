@@ -2724,9 +2724,23 @@
     "testId": 134
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5e616f99f73e25eff72f24e88c1a6c55aae08c40",
     "commitName": "refactor: usar lectorDeFoto en el formulario y quitar la lógica de achicar de la vista",
     "commitTimestamp": 1794515091244,
     "testId": 134
+  },
+  {
+    "numPassedTests": 90,
+    "failedTests": 0,
+    "numTotalTests": 90,
+    "timestamp": 1794516740276,
+    "success": true,
+    "testId": 135
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: simular el error real de almacenamiento lleno del navegador",
+    "commitTimestamp": 1794516751295,
+    "testId": 135
   }
 ]
