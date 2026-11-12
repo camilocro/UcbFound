@@ -2242,12 +2242,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c0562f43c390d0e0b7cd06fdc3cd19d454af0ebc",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T18:30:48.000Z",
       "message": "feat: agregar la lista compartida de bloques de los dos campus",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/c0562f43c390d0e0b7cd06fdc3cd19d454af0ebc"
     },
     "stats": {
       "total": 32,
@@ -2257,6 +2257,25 @@
     },
     "coverage": 97.03,
     "test_count": 80,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-12T19:25:07.000Z",
+      "message": "feat: saber si un objeto es de una categoría",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 22,
+      "additions": 21,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.04,
+    "test_count": 81,
     "failed_tests": 0,
     "conclusion": "success"
   }

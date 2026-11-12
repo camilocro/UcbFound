@@ -19,6 +19,9 @@ export class ObjetoEncontrado {
     const textoBuscado = quitarTildes(texto);
     return quitarTildes(this.nombre).includes(textoBuscado) || quitarTildes(this.descripcion).includes(textoBuscado);
   }
+  esDeCategoria(categoria) {
+  return this.categoria === categoria;
+}
 
   obtenerDetalle() {
     return { ...this.obtenerVistaBasica(), categoria: this.categoria || SIN_CATEGORIA };

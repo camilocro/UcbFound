@@ -2396,9 +2396,15 @@
     "testId": 118
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c0562f43c390d0e0b7cd06fdc3cd19d454af0ebc",
     "commitName": "feat: agregar la lista compartida de bloques de los dos campus",
     "commitTimestamp": 1794508253920,
     "testId": 118
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: saber si un objeto es de una categoría",
+    "commitTimestamp": 1794511518018,
+    "testId": 119
   }
 ]
