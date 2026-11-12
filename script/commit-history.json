@@ -2242,12 +2242,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c0562f43c390d0e0b7cd06fdc3cd19d454af0ebc",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T18:30:48.000Z",
       "message": "feat: agregar la lista compartida de bloques de los dos campus",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/c0562f43c390d0e0b7cd06fdc3cd19d454af0ebc"
     },
     "stats": {
       "total": 32,
@@ -2257,6 +2257,25 @@
     },
     "coverage": 97.03,
     "test_count": 80,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T18:53:44.000Z",
+      "message": "feat: guardar el bloque y el aula del objeto encontrado (HU-12)",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 15,
+      "deletions": 2,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.06,
+    "test_count": 81,
     "failed_tests": 0,
     "conclusion": "success"
   }

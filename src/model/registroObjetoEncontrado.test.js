@@ -1,4 +1,5 @@
 import { RegistroObjetoEncontrado } from './registroObjetoEncontrado.js';
+import { BLOQUES } from './bloques.js';
 
 const HOY = '2026-10-17';
 const CORREO = 'camilo.rojas@ucb.edu.bo';
@@ -84,5 +85,13 @@ describe('HU-13 Categoría fuera de la lista', () => {
   it('debería pedir la categoría cuando no está en la lista de categorías', () => {
     const resultado = registro.registrar({ ...datosValidos, categoria: 'Mascotas' }, CORREO);
     expect(resultado).toEqual({ exito: false, mensaje: 'Es necesario elegir una categoría' });
+  });
+});
+describe('HU-12 Criterio 3: lugar guardado', () => {
+  it('debería guardar el bloque y el aula junto con el objeto', () => {
+    const resultado = registro.registrar({ ...datosValidos, bloque: BLOQUES[0], aula: 'Aula 201' }, CORREO);
+    expect(resultado.exito).toBe(true);
+    expect(resultado.objeto.bloque).toEqual(BLOQUES[0]);
+    expect(resultado.objeto.aula).toEqual('Aula 201');
   });
 });

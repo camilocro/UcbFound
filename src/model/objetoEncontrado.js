@@ -5,7 +5,7 @@ function quitarTildes(texto) {
 const SIN_CATEGORIA = 'Sin categoría';
 
 export class ObjetoEncontrado {
-  constructor({ id, nombre, descripcion, fecha, foto, correoDeQuienEncontro, categoria }) {
+  constructor({ id, nombre, descripcion, fecha, foto, correoDeQuienEncontro, categoria, bloque, aula }) {
     this.id = id;
     this.nombre = nombre;
     this.descripcion = descripcion;
@@ -13,6 +13,8 @@ export class ObjetoEncontrado {
     this.foto = foto;
     this.correoDeQuienEncontro = correoDeQuienEncontro;
     this.categoria = categoria;
+    this.bloque = bloque;
+    this.aula = aula;
   }
 
   coincideCon(texto) {

@@ -2396,9 +2396,39 @@
     "testId": 118
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c0562f43c390d0e0b7cd06fdc3cd19d454af0ebc",
     "commitName": "feat: agregar la lista compartida de bloques de los dos campus",
     "commitTimestamp": 1794508253920,
     "testId": 118
+  },
+  {
+    "numPassedTests": 74,
+    "failedTests": 0,
+    "numTotalTests": 74,
+    "timestamp": 1794509383973,
+    "success": false,
+    "testId": 119
+  },
+  {
+    "numPassedTests": 80,
+    "failedTests": 1,
+    "numTotalTests": 81,
+    "timestamp": 1794509505801,
+    "success": false,
+    "testId": 119
+  },
+  {
+    "numPassedTests": 81,
+    "failedTests": 0,
+    "numTotalTests": 81,
+    "timestamp": 1794509620892,
+    "success": true,
+    "testId": 119
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: guardar el bloque y el aula del objeto encontrado (HU-12)",
+    "commitTimestamp": 1794509630716,
+    "testId": 119
   }
 ]
