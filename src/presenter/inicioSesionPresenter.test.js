@@ -2,7 +2,7 @@ import { InicioSesionPresenter } from './inicioSesionPresenter.js';
 
 // Repositorio falso: devuelve los usuarios como si estuvieran guardados
 function crearRepositorioFalso(usuarios) {
-  return { obtenerUsuarios: () => usuarios };
+  return { obtenerTodos: () => usuarios };
 }
 
 const usuarios = [

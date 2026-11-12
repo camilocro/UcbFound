@@ -1805,17 +1805,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "091103eb2222ce03b7f478079ae9a09351d27118",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T12:27:26.000Z",
       "message": "refactor: renombrar vistaBasica a obtenerVistaBasica en ObjetoEncontrado",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/091103eb2222ce03b7f478079ae9a09351d27118"
     },
     "stats": {
       "total": 10,
       "additions": 5,
       "deletions": 5,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T12:29:10.000Z",
+      "message": "refactor: renombrar obtenerUsuarios a obtenerTodos en RepositorioUsuarios",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 6,
+      "deletions": 6,
       "date": "2026-11-12"
     },
     "coverage": 96.32,

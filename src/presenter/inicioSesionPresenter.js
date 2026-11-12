@@ -7,7 +7,7 @@ export class InicioSesionPresenter {
   }
 
   procesarInicioSesion(datos) {
-    const reglasDeInicioSesion = new InicioSesion(this.repositorio.obtenerUsuarios());
+    const reglasDeInicioSesion = new InicioSesion(this.repositorio.obtenerTodos());
     return reglasDeInicioSesion.validarCredenciales(datos);
   }
 }

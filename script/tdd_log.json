@@ -1986,9 +1986,23 @@
     "testId": 95
   },
   {
-    "commitId": "HEAD",
+    "commitId": "091103eb2222ce03b7f478079ae9a09351d27118",
     "commitName": "refactor: renombrar vistaBasica a obtenerVistaBasica en ObjetoEncontrado",
     "commitTimestamp": 1794486453900,
     "testId": 95
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794486546509,
+    "success": true,
+    "testId": 96
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: renombrar obtenerUsuarios a obtenerTodos en RepositorioUsuarios",
+    "commitTimestamp": 1794486557456,
+    "testId": 96
   }
 ]
