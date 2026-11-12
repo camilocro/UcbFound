@@ -17,7 +17,7 @@ function crearAlmacenamientoFalso() {
 }
 
 const FOTO = 'data:image/jpeg;base64,AAA';
-const datosValidos = { nombre: 'Billetera café', descripcion: 'Tiene un carnet de la UCB adentro', foto: FOTO };
+const datosValidos = { nombre: 'Billetera café', descripcion: 'Tiene un carnet de la UCB adentro', foto: FOTO, categoria: 'Electrónica' };
 
 function crearPresenter(repositorio) {
   const sesion = new Sesion(crearAlmacenamientoFalso());

@@ -2090,12 +2090,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3de9fe9c738a5b3a0a7a431e71e986dcff5eb49d",
     "author": "camilocro",
     "commit": {
       "date": "2026-11-12T15:18:34.000Z",
       "message": "feat: guardar la categoría del objeto encontrado (HU-13)",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/3de9fe9c738a5b3a0a7a431e71e986dcff5eb49d"
     },
     "stats": {
       "total": 12,
@@ -2105,6 +2105,25 @@
     },
     "coverage": 96.32,
     "test_count": 71,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-12T15:27:27.000Z",
+      "message": "feat: pedir la categoría al registrar un objeto encontrado (HU-13)",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.35,
+    "test_count": 72,
     "failed_tests": 0,
     "conclusion": "success"
   }

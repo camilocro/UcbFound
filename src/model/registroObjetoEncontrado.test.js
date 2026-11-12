@@ -4,6 +4,7 @@ const HOY = '2026-10-17';
 const CORREO = 'camilo.rojas@ucb.edu.bo';
 const FOTO = 'data:image/jpeg;base64,AAA';
 const datosValidos = {
+  categoria: 'Electrónica',
   nombre: 'Billetera café',
   descripcion: 'Tiene un carnet de la UCB adentro',
   foto: FOTO,
@@ -28,6 +29,7 @@ describe('HU-11 Criterio 1: objeto a nombre de quien lo encontró', () => {
       fecha: '2026-10-17',
       foto: FOTO,
       correoDeQuienEncontro: 'camilo.rojas@ucb.edu.bo',
+      categoria: 'Electrónica',
     });
   });
 });
@@ -70,5 +72,11 @@ describe('HU-13 Criterio 3: categoría guardada', () => {
   it('debería guardar la categoría junto con el objeto', () => {
     const resultado = registro.registrar({ ...datosValidos, categoria: 'Electrónica' }, CORREO);
     expect(resultado.objeto.categoria).toEqual('Electrónica');
+  });
+});
+describe('HU-13 Criterio 4: sin categoría', () => {
+  it('debería pedir la categoría cuando no se elige una', () => {
+    const resultado = registro.registrar({ ...datosValidos, categoria: '' }, CORREO);
+    expect(resultado).toEqual({ exito: false, mensaje: 'Es necesario elegir una categoría' });
   });
 });

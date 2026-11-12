@@ -6,6 +6,7 @@ export const MENSAJES_REGISTRO_OBJETO = {
   FALTAN_FOTO_O_DESCRIPCION: 'Es necesario agregar una foto y una descripción',
   SOLO_IMAGENES: 'Solo se permiten imágenes',
   FOTO_MUY_PESADA: 'La foto es muy pesada, prueba con una imagen más pequeña',
+  FALTA_CATEGORIA: 'Es necesario elegir una categoría',
 };
 
 const NOMBRE_POR_DEFECTO = 'Objeto encontrado';
@@ -26,6 +27,9 @@ export class RegistroObjetoEncontrado {
     }
     if (!foto.startsWith('data:image/')) {
       return crearError(MENSAJES_REGISTRO_OBJETO.SOLO_IMAGENES);
+    }
+    if (!categoria) {
+      return crearError(MENSAJES_REGISTRO_OBJETO.FALTA_CATEGORIA);
     }
     const objeto = new ObjetoEncontrado({
       id: this.crearId(),
