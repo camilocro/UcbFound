@@ -62,7 +62,7 @@ export default function FormularioInicioSesion({ presenter, alIniciarSesion }) {
           </p>
         )}
 
-        <button id="iniciar-sesion-button" type="submit" className="boton">
+        <button id="iniciar-sesion-button" type="submit" className="boton boton--primario">
           Iniciar sesión
         </button>
       </form>

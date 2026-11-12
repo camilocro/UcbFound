@@ -2788,9 +2788,23 @@
     "testId": 138
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0f01ac47b7f5cf1935c901cc74781001e04d0cf5",
     "commitName": "feat: enfocar el correo y activar el autocompletado en el inicio de sesión",
     "commitTimestamp": 1794521739898,
     "testId": 138
+  },
+  {
+    "numPassedTests": 91,
+    "failedTests": 0,
+    "numTotalTests": 91,
+    "timestamp": 1794522046982,
+    "success": true,
+    "testId": 139
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: usar el botón azul en el inicio de sesión",
+    "commitTimestamp": 1794522055938,
+    "testId": 139
   }
 ]

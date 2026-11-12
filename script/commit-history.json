@@ -2622,17 +2622,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0f01ac47b7f5cf1935c901cc74781001e04d0cf5",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T22:15:31.000Z",
       "message": "feat: enfocar el correo y activar el autocompletado en el inicio de sesión",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/0f01ac47b7f5cf1935c901cc74781001e04d0cf5"
     },
     "stats": {
       "total": 3,
       "additions": 3,
       "deletions": 0,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.27,
+    "test_count": 91,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T22:20:50.000Z",
+      "message": "feat: usar el botón azul en el inicio de sesión",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2026-11-12"
     },
     "coverage": 97.27,
