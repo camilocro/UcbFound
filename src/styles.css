@@ -315,3 +315,71 @@ body {
   opacity: 0.6;
   cursor: wait;
 }
+/* Registro de objeto encontrado (prototipo) */
+.campo__etiqueta {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.campo .oculto-visual {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.zona-foto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 150px;
+  padding: 20px;
+  border: 2px dashed var(--borde);
+  border-radius: 12px;
+  background: var(--fondo);
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.zona-foto:hover,
+.oculto-visual:focus-visible + .zona-foto {
+  border-color: var(--azul);
+  background: #eef2f9;
+}
+
+.zona-foto__icono {
+  width: 36px;
+  height: 36px;
+  fill: none;
+  stroke: var(--gris);
+  stroke-width: 1.6;
+  stroke-linejoin: round;
+}
+
+.zona-foto__texto {
+  color: var(--azul);
+  font-weight: 600;
+}
+
+.zona-foto__ayuda {
+  color: var(--gris);
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+
+.boton--primario {
+  width: 100%;
+  color: #fff;
+  background: var(--azul);
+}
+
+.boton--primario:hover {
+  filter: brightness(1.2);
+}

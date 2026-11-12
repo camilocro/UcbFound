@@ -2192,9 +2192,23 @@
     "testId": 107
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3d6ce3ed241f649790ccc65bee2a562e5b15b9b7",
     "commitName": "refactor: renombrar cargandoFoto a estaCargandoFoto",
     "commitTimestamp": 1794491359856,
     "testId": 108
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794492743931,
+    "success": true,
+    "testId": 109
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: ajusta el diseño del registro de objeto encontrado al prototipo",
+    "commitTimestamp": 1794492827477,
+    "testId": 109
   }
 ]
