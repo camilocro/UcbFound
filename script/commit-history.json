@@ -2337,12 +2337,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "840f3b428ac110ab15d296841d966addb2a9654f",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T19:10:24.000Z",
       "message": "feat: mostrar solo el bloque en el detalle cuando no hay aula (HU-12)",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/840f3b428ac110ab15d296841d966addb2a9654f"
     },
     "stats": {
       "total": 9,
@@ -2351,6 +2351,25 @@
       "date": "2026-11-12"
     },
     "coverage": 97.16,
+    "test_count": 86,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T19:13:39.000Z",
+      "message": "feat: mostrar Lugar no indicado en objetos anteriores sin lugar (HU-12)",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 3,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.17,
     "test_count": 86,
     "failed_tests": 0,
     "conclusion": "success"

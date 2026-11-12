@@ -3,6 +3,7 @@ function quitarTildes(texto) {
 }
 
 const SIN_CATEGORIA = 'Sin categoría';
+const SIN_LUGAR = 'Lugar no indicado';
 
 export class ObjetoEncontrado {
   constructor({ id, nombre, descripcion, fecha, foto, correoDeQuienEncontro, categoria, bloque, aula }) {
@@ -33,7 +34,7 @@ export class ObjetoEncontrado {
     if (this.bloque) {
       return this.bloque;
     }
-    return undefined;
+    return SIN_LUGAR;
   }
 
   obtenerVistaBasica() {

@@ -26,6 +26,7 @@ describe('HU-09 Presenter Criterio 1: ver un objeto de la lista', () => {
       descripcion: 'Tiene un llavero de la UCB',
       fecha: '2026-10-15',
       categoria: 'Sin categoría',
+      lugar: 'Lugar no indicado',
     });
   });
 });

@@ -2522,9 +2522,31 @@
     "testId": 123
   },
   {
-    "commitId": "HEAD",
+    "commitId": "840f3b428ac110ab15d296841d966addb2a9654f",
     "commitName": "feat: mostrar solo el bloque en el detalle cuando no hay aula (HU-12)",
     "commitTimestamp": 1794510629612,
     "testId": 123
+  },
+  {
+    "numPassedTests": 85,
+    "failedTests": 1,
+    "numTotalTests": 86,
+    "timestamp": 1794510676282,
+    "success": false,
+    "testId": 124
+  },
+  {
+    "numPassedTests": 86,
+    "failedTests": 0,
+    "numTotalTests": 86,
+    "timestamp": 1794510815657,
+    "success": true,
+    "testId": 124
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar Lugar no indicado en objetos anteriores sin lugar (HU-12)",
+    "commitTimestamp": 1794510824505,
+    "testId": 124
   }
 ]
