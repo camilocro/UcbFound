@@ -23,7 +23,14 @@ export class ObjetoEncontrado {
   }
 
   obtenerDetalle() {
-    return { ...this.obtenerVistaBasica(), categoria: this.categoria || SIN_CATEGORIA };
+    return { ...this.obtenerVistaBasica(), categoria: this.categoria || SIN_CATEGORIA, lugar: this.obtenerLugar() };
+  }
+
+  obtenerLugar() {
+    if (this.bloque && this.aula) {
+      return `${this.bloque}, ${this.aula}`;
+    }
+    return undefined;
   }
 
   obtenerVistaBasica() {

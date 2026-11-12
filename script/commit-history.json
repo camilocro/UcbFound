@@ -2299,12 +2299,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9352a7fee95b3eb66d37f4879fcb27452a554c0f",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T19:00:16.000Z",
       "message": "feat: el aula es opcional y se guarda sin espacios sobrantes (HU-12)",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/9352a7fee95b3eb66d37f4879fcb27452a554c0f"
     },
     "stats": {
       "total": 14,
@@ -2314,6 +2314,25 @@
     },
     "coverage": 97.09,
     "test_count": 84,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T19:07:14.000Z",
+      "message": "feat: mostrar bloque y aula en el detalle del objeto (HU-12)",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 16,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.13,
+    "test_count": 85,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -2470,9 +2470,39 @@
     "testId": 121
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9352a7fee95b3eb66d37f4879fcb27452a554c0f",
     "commitName": "feat: el aula es opcional y se guarda sin espacios sobrantes (HU-12)",
     "commitTimestamp": 1794510021710,
     "testId": 121
+  },
+  {
+    "numPassedTests": 83,
+    "failedTests": 4,
+    "numTotalTests": 87,
+    "timestamp": 1794510229821,
+    "success": false,
+    "testId": 122
+  },
+  {
+    "numPassedTests": 84,
+    "failedTests": 1,
+    "numTotalTests": 85,
+    "timestamp": 1794510349825,
+    "success": false,
+    "testId": 122
+  },
+  {
+    "numPassedTests": 85,
+    "failedTests": 0,
+    "numTotalTests": 85,
+    "timestamp": 1794510431714,
+    "success": true,
+    "testId": 122
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar bloque y aula en el detalle del objeto (HU-12)",
+    "commitTimestamp": 1794510439984,
+    "testId": 122
   }
 ]
