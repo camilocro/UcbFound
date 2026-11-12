@@ -19,6 +19,8 @@ function completarEjemploGuardado(objetoGuardado, objetoDeEjemplo) {
     ...objetoGuardado,
     foto: tieneFotoAntigua(objetoGuardado) ? objetoDeEjemplo.foto : objetoGuardado.foto,
     categoria: objetoGuardado.categoria || objetoDeEjemplo.categoria,
+    bloque: objetoGuardado.bloque || objetoDeEjemplo.bloque,
+    aula: objetoGuardado.aula || objetoDeEjemplo.aula,
   };
 }
 

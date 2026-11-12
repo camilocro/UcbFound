@@ -68,3 +68,11 @@ describe('Datos de ejemplo: lugar', () => {
     ]);
   });
 });
+describe('Datos de ejemplo: lugar en ejemplos ya guardados', () => {
+  it('debería agregar el lugar a un ejemplo que se guardó antes sin él', () => {
+    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+    repositorio.guardar({ id: 'ejemplo-2', nombre: 'Cargador de laptop', descripcion: 'Cargador marca HP con cable negro', fecha: '2026-10-08', foto: 'https://foto.jpg', correoDeQuienEncontro: 'luis.rojas@ucb.edu.bo' });
+    cargarDatosDeEjemplo(repositorio);
+    expect(repositorio.buscarPorId('ejemplo-2').obtenerDetalle().lugar).toEqual('Tupuraya 2 - Bloque A, A-204');
+  });
+});
