@@ -1,5 +1,5 @@
 
-export function fechaComoTexto(fecha) {
+export function convertirFechaATexto(fecha) {
   const anio = fecha.getFullYear();
   const mes = String(fecha.getMonth() + 1).padStart(2, '0');
   const dia = String(fecha.getDate()).padStart(2, '0');

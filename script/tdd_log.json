@@ -2014,9 +2014,81 @@
     "testId": 97
   },
   {
-    "commitId": "HEAD",
+    "commitId": "87f97ae3310cb9de60d9943295fe0802898ff15f",
     "commitName": "refactor: renombrar obtenerReportes a obtenerTodos en RepositorioReportes",
     "commitTimestamp": 1794486709936,
     "testId": 97
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794486935078,
+    "success": true,
+    "testId": 98
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794486982104,
+    "success": true,
+    "testId": 98
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794487037700,
+    "success": true,
+    "testId": 98
+  },
+  {
+    "commitId": "e5e78307d12405eea135f45727bd1eb8d54fa949",
+    "commitName": "refactor: renombrar sinTildes a quitarTildes en ObjetoEncontrado",
+    "commitTimestamp": 1794487047895,
+    "testId": 98
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794487133168,
+    "success": true,
+    "testId": 99
+  },
+  {
+    "commitId": "8537c7d5ccdfdce872cc92d6538f7b9203ed75b1",
+    "commitName": "refactor: renombrar fechaComoTexto a convertirFechaATexto",
+    "commitTimestamp": 1794487144062,
+    "testId": 99
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794487218277,
+    "success": true,
+    "testId": 100
+  },
+  {
+    "commitId": "b8ae9b2343c725d6bee1e1f5a0d3bea13325e017",
+    "commitName": "refactor: renombrar correoYaRegistrado a estaRegistrado en RegistroUsuario",
+    "commitTimestamp": 1794487228276,
+    "testId": 100
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794487417195,
+    "success": true,
+    "testId": 101
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: renombrar el archivo registro.js a registroUsuario.js",
+    "commitTimestamp": 1794487428424,
+    "testId": 101
   }
 ]
