@@ -2622,17 +2622,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8d11df7910e9957f1de92fe7d1f853ebdc14fde1",
     "author": "camilocro",
     "commit": {
       "date": "2026-11-12T22:15:39.000Z",
       "message": "chore: resolver conflictos de los logs con main",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/8d11df7910e9957f1de92fe7d1f853ebdc14fde1"
     },
     "stats": {
       "total": 164,
       "additions": 117,
       "deletions": 47,
+      "date": "2026-11-12"
+    },
+    "coverage": 99.1,
+    "test_count": 95,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T22:27:10.000Z",
+      "message": "chore: resolver conflictos con main (apariencia del inicio de sesión)",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 72,
+      "additions": 64,
+      "deletions": 8,
       "date": "2026-11-12"
     },
     "coverage": 99.1,

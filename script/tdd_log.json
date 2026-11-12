@@ -2788,9 +2788,23 @@
     "testId": 138
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8d11df7910e9957f1de92fe7d1f853ebdc14fde1",
     "commitName": "chore: resolver conflictos de los logs con main",
     "commitTimestamp": 1794521754378,
     "testId": 138
+  },
+  {
+    "numPassedTests": 95,
+    "failedTests": 0,
+    "numTotalTests": 95,
+    "timestamp": 1794522427743,
+    "success": true,
+    "testId": 139
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "chore: resolver conflictos con main (apariencia del inicio de sesión)",
+    "commitTimestamp": 1794522436392,
+    "testId": 139
   }
 ]

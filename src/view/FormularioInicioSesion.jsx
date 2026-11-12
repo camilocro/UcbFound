@@ -34,6 +34,8 @@ export default function FormularioInicioSesion({ presenter, alIniciarSesion }) {
           <input
             id="correo-login"
             name="correo"
+            autoComplete="email"
+            autoFocus
             type="email"
             placeholder="tunombre@ucb.edu.bo"
             value={camposDelFormulario.correo}
@@ -46,6 +48,7 @@ export default function FormularioInicioSesion({ presenter, alIniciarSesion }) {
           <input
             id="contrasena-login"
             name="contrasena"
+            autoComplete="current-password"
             type="password"
             placeholder="Tu contraseña"
             value={camposDelFormulario.contrasena}
@@ -59,7 +62,7 @@ export default function FormularioInicioSesion({ presenter, alIniciarSesion }) {
           </p>
         )}
 
-        <button id="iniciar-sesion-button" type="submit" className="boton">
+        <button id="iniciar-sesion-button" type="submit" className="boton boton--primario">
           Iniciar sesión
         </button>
       </form>
