@@ -2280,12 +2280,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "fd6a2394436c54eeb253687988dd63c59c7f3a02",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-12T20:20:05.000Z",
       "message": "feat: aceptar todas las categorías y objetos sin categoría con Todas",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/fd6a2394436c54eeb253687988dd63c59c7f3a02"
     },
     "stats": {
       "total": 14,
@@ -2295,6 +2295,25 @@
     },
     "coverage": 97.06,
     "test_count": 82,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-12T20:35:17.000Z",
+      "message": "feat: filtrar objetos encontrados por categoría",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 88,
+      "additions": 84,
+      "deletions": 4,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.06,
+    "test_count": 85,
     "failed_tests": 0,
     "conclusion": "success"
   }

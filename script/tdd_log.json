@@ -2408,9 +2408,15 @@
     "testId": 119
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fd6a2394436c54eeb253687988dd63c59c7f3a02",
     "commitName": "feat: aceptar todas las categorías y objetos sin categoría con Todas",
     "commitTimestamp": 1794514820370,
     "testId": 120
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: filtrar objetos encontrados por categoría",
+    "commitTimestamp": 1794515731264,
+    "testId": 121
   }
 ]
