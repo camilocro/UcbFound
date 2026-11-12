@@ -1843,12 +1843,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cfe9777d246aa4853f76e247eecb1e55fd8d7a05",
     "author": "camilocro",
     "commit": {
       "date": "2026-11-10T14:13:36.000Z",
       "message": "refactor: aclarar los nombres en main.jsx",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/cfe9777d246aa4853f76e247eecb1e55fd8d7a05"
     },
     "stats": {
       "total": 20,
@@ -1857,6 +1857,25 @@
       "date": "2026-11-10"
     },
     "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-12T13:34:05.000Z",
+      "message": "refactor: extraer faltanFotoODescripcion en RegistroObjetoEncontrado",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-11-12"
+    },
+    "coverage": 95.81,
     "test_count": 70,
     "failed_tests": 0,
     "conclusion": "success"

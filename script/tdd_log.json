@@ -1966,9 +1966,39 @@
     "testId": 96
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cfe9777d246aa4853f76e247eecb1e55fd8d7a05",
     "commitName": "refactor: aclarar los nombres en main.jsx",
     "commitTimestamp": 1794320027804,
     "testId": 97
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794320378218,
+    "success": true,
+    "testId": 98
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794490294975,
+    "success": true,
+    "testId": 98
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794490433955,
+    "success": true,
+    "testId": 98
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: extraer faltanFotoODescripcion en RegistroObjetoEncontrado",
+    "commitTimestamp": 1794490463135,
+    "testId": 98
   }
 ]

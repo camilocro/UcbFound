@@ -9,6 +9,10 @@ export const MENSAJES_REGISTRO_OBJETO = {
 
 const NOMBRE_POR_DEFECTO = 'Objeto encontrado';
 
+function faltanFotoODescripcion(foto, descripcion) {
+  return foto === '' || descripcion.trim() === '';
+}
+
 export class RegistroObjetoEncontrado {
   constructor(fechaDeHoy, crearId) {
     this.fechaDeHoy = fechaDeHoy;
