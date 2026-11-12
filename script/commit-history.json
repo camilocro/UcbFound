@@ -1995,12 +1995,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c7830ba84fb72b61d3b15379269f54b5f326b3a8",
     "author": "camilocro",
     "commit": {
       "date": "2026-11-12T13:40:22.000Z",
       "message": "chore: resolver conflictos de los logs con main",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/c7830ba84fb72b61d3b15379269f54b5f326b3a8"
     },
     "stats": {
       "total": 336,
@@ -2009,6 +2009,44 @@
       "date": "2026-11-12"
     },
     "coverage": 95.77,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "c7830ba84fb72b61d3b15379269f54b5f326b3a8",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-12T13:47:07.000Z",
+      "message": "refactor: renombrar cargandoFoto a estaCargandoFoto",
+      "url": "https://github.com/camilocro/UcbFound/commit/c7830ba84fb72b61d3b15379269f54b5f326b3a8"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 6,
+      "deletions": 6,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.3,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-12T13:48:34.000Z",
+      "message": "refactor: usar faltanFotoODescripcion en registrar",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.3,
     "test_count": 70,
     "failed_tests": 0,
     "conclusion": "success"

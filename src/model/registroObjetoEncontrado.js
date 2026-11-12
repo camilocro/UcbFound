@@ -21,7 +21,7 @@ export class RegistroObjetoEncontrado {
   }
 
   registrar({ nombre, descripcion, foto }, correoDeQuienEncontro) {
-    if (foto === '' || descripcion.trim() === '') {
+    if (faltanFotoODescripcion(foto, descripcion)) {
       return crearError(MENSAJES_REGISTRO_OBJETO.FALTAN_FOTO_O_DESCRIPCION);
     }
     if (!foto.startsWith('data:image/')) {
