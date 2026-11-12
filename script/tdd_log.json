@@ -2638,9 +2638,31 @@
     "testId": 129
   },
   {
-    "commitId": "HEAD",
+    "commitId": "44b0bd7adfbef15b362d9e75e8bec45c6f476d4a",
     "commitName": "feat: completar la categoría de los ejemplos ya guardados",
     "commitTimestamp": 1794515638389,
     "testId": 129
+  },
+  {
+    "numPassedTests": 89,
+    "failedTests": 1,
+    "numTotalTests": 90,
+    "timestamp": 1794515712134,
+    "success": false,
+    "testId": 130
+  },
+  {
+    "numPassedTests": 90,
+    "failedTests": 0,
+    "numTotalTests": 90,
+    "timestamp": 1794515782507,
+    "success": true,
+    "testId": 130
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar el lugar a los datos de ejemplo",
+    "commitTimestamp": 1794515811845,
+    "testId": 130
   }
 ]

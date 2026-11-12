@@ -53,3 +53,18 @@ describe('Datos de ejemplo: categoría en ejemplos ya guardados', () => {
     expect(repositorio.buscarPorId('ejemplo-1').obtenerDetalle().categoria).toEqual('Mochilas y bolsos');
   });
 });
+describe('Datos de ejemplo: lugar', () => {
+  it('debería cargar cada objeto de ejemplo con el lugar donde se encontró', () => {
+    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+    cargarDatosDeEjemplo(repositorio);
+    const lugares = repositorio.obtenerTodos().map((objeto) => objeto.obtenerDetalle().lugar);
+    expect(lugares).toEqual([
+      'Tupuraya 1 - Biblioteca',
+      'Tupuraya 2 - Bloque A, A-204',
+      'Tupuraya 2 - Canchas',
+      'Tupuraya 2 - Bloque C, C-101',
+      'Tupuraya 2 - Parqueo',
+      'Tupuraya 1 - Bloque B, B-305',
+    ]);
+  });
+});

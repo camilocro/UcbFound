@@ -2451,12 +2451,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "44b0bd7adfbef15b362d9e75e8bec45c6f476d4a",
     "author": "camilocro",
     "commit": {
       "date": "2026-11-12T20:33:45.000Z",
       "message": "feat: completar la categoría de los ejemplos ya guardados",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/44b0bd7adfbef15b362d9e75e8bec45c6f476d4a"
     },
     "stats": {
       "total": 20,
@@ -2466,6 +2466,25 @@
     },
     "coverage": 99.07,
     "test_count": 89,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-12T20:36:39.000Z",
+      "message": "feat: agregar el lugar a los datos de ejemplo",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 27,
+      "additions": 21,
+      "deletions": 6,
+      "date": "2026-11-12"
+    },
+    "coverage": 99.07,
+    "test_count": 90,
     "failed_tests": 0,
     "conclusion": "success"
   }
