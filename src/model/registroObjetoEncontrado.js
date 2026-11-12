@@ -8,6 +8,7 @@ export const MENSAJES_REGISTRO_OBJETO = {
   SOLO_IMAGENES: 'Solo se permiten imágenes',
   FOTO_MUY_PESADA: 'La foto es muy pesada, prueba con una imagen más pequeña',
   FALTA_CATEGORIA: 'Es necesario elegir una categoría',
+  FALTA_BLOQUE: 'Es necesario indicar el bloque donde lo encontraste',
 };
 
 const NOMBRE_POR_DEFECTO = 'Objeto encontrado';
@@ -31,6 +32,9 @@ export class RegistroObjetoEncontrado {
     }
     if (!CATEGORIAS.includes(categoria)) {
       return crearError(MENSAJES_REGISTRO_OBJETO.FALTA_CATEGORIA);
+    }
+    if (!bloque) {
+      return crearError(MENSAJES_REGISTRO_OBJETO.FALTA_BLOQUE);
     }
     const objeto = new ObjetoEncontrado({
       id: this.crearId(),

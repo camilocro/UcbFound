@@ -2261,12 +2261,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c27ec8388c22f32c011b41be5a2bce936503c18f",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T18:53:44.000Z",
       "message": "feat: guardar el bloque y el aula del objeto encontrado (HU-12)",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/c27ec8388c22f32c011b41be5a2bce936503c18f"
     },
     "stats": {
       "total": 17,
@@ -2276,6 +2276,25 @@
     },
     "coverage": 97.06,
     "test_count": 81,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T18:57:34.000Z",
+      "message": "feat: pedir el bloque cuando no se elige uno (HU-12)",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 14,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.09,
+    "test_count": 82,
     "failed_tests": 0,
     "conclusion": "success"
   }

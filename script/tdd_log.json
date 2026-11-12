@@ -2426,9 +2426,31 @@
     "testId": 119
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c27ec8388c22f32c011b41be5a2bce936503c18f",
     "commitName": "feat: guardar el bloque y el aula del objeto encontrado (HU-12)",
     "commitTimestamp": 1794509630716,
     "testId": 119
+  },
+  {
+    "numPassedTests": 81,
+    "failedTests": 1,
+    "numTotalTests": 82,
+    "timestamp": 1794509740406,
+    "success": false,
+    "testId": 120
+  },
+  {
+    "numPassedTests": 82,
+    "failedTests": 0,
+    "numTotalTests": 82,
+    "timestamp": 1794509851042,
+    "success": true,
+    "testId": 120
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: pedir el bloque cuando no se elige uno (HU-12)",
+    "commitTimestamp": 1794509859936,
+    "testId": 120
   }
 ]

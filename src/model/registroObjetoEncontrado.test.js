@@ -9,6 +9,7 @@ const datosValidos = {
   nombre: 'Billetera café',
   descripcion: 'Tiene un carnet de la UCB adentro',
   foto: FOTO,
+  bloque: BLOQUES[0],
 };
 const registro = new RegistroObjetoEncontrado(HOY, () => 'obj-1');
 
@@ -31,6 +32,7 @@ describe('HU-11 Criterio 1: objeto a nombre de quien lo encontró', () => {
       foto: FOTO,
       correoDeQuienEncontro: 'camilo.rojas@ucb.edu.bo',
       categoria: 'Electrónica',
+      bloque: BLOQUES[0],
     });
   });
 });
@@ -93,5 +95,11 @@ describe('HU-12 Criterio 3: lugar guardado', () => {
     expect(resultado.exito).toBe(true);
     expect(resultado.objeto.bloque).toEqual(BLOQUES[0]);
     expect(resultado.objeto.aula).toEqual('Aula 201');
+  });
+});
+describe('HU-12 Criterio 4: sin bloque', () => {
+  it('debería pedir el bloque cuando no se elige uno', () => {
+    const resultado = registro.registrar({ ...datosValidos, bloque: '' }, CORREO);
+    expect(resultado).toEqual({ exito: false, mensaje: 'Es necesario indicar el bloque donde lo encontraste' });
   });
 });
