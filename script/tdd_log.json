@@ -2014,9 +2014,39 @@
     "testId": 97
   },
   {
-    "commitId": "HEAD",
+    "commitId": "87f97ae3310cb9de60d9943295fe0802898ff15f",
     "commitName": "refactor: renombrar obtenerReportes a obtenerTodos en RepositorioReportes",
     "commitTimestamp": 1794486709936,
     "testId": 97
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794486935078,
+    "success": true,
+    "testId": 98
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794486982104,
+    "success": true,
+    "testId": 98
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794487037700,
+    "success": true,
+    "testId": 98
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: renombrar sinTildes a quitarTildes en ObjetoEncontrado",
+    "commitTimestamp": 1794487047895,
+    "testId": 98
   }
 ]

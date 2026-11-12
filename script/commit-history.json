@@ -1843,17 +1843,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "87f97ae3310cb9de60d9943295fe0802898ff15f",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T12:31:41.000Z",
       "message": "refactor: renombrar obtenerReportes a obtenerTodos en RepositorioReportes",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/87f97ae3310cb9de60d9943295fe0802898ff15f"
     },
     "stats": {
       "total": 8,
       "additions": 4,
       "deletions": 4,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T12:37:21.000Z",
+      "message": "refactor: renombrar sinTildes a quitarTildes en ObjetoEncontrado",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 3,
+      "deletions": 3,
       "date": "2026-11-12"
     },
     "coverage": 96.32,
