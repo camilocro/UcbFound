@@ -45,7 +45,7 @@ export class RegistroObjetoEncontrado {
       correoDeQuienEncontro,
       categoria,
       bloque,
-      aula,
+      aula: (aula || '').trim(),
     });
     return { exito: true, mensaje: MENSAJES_REGISTRO_OBJETO.OBJETO_REGISTRADO, objeto };
   }

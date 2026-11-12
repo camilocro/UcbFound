@@ -2280,12 +2280,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "49f3921b5de887f1c1b8230e36e37ecafab9a097",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T18:57:34.000Z",
       "message": "feat: pedir el bloque cuando no se elige uno (HU-12)",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/49f3921b5de887f1c1b8230e36e37ecafab9a097"
     },
     "stats": {
       "total": 15,
@@ -2295,6 +2295,25 @@
     },
     "coverage": 97.09,
     "test_count": 82,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T19:00:16.000Z",
+      "message": "feat: el aula es opcional y se guarda sin espacios sobrantes (HU-12)",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.09,
+    "test_count": 84,
     "failed_tests": 0,
     "conclusion": "success"
   }

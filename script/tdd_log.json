@@ -2448,9 +2448,31 @@
     "testId": 120
   },
   {
-    "commitId": "HEAD",
+    "commitId": "49f3921b5de887f1c1b8230e36e37ecafab9a097",
     "commitName": "feat: pedir el bloque cuando no se elige uno (HU-12)",
     "commitTimestamp": 1794509859936,
     "testId": 120
+  },
+  {
+    "numPassedTests": 82,
+    "failedTests": 2,
+    "numTotalTests": 84,
+    "timestamp": 1794509919356,
+    "success": false,
+    "testId": 121
+  },
+  {
+    "numPassedTests": 84,
+    "failedTests": 0,
+    "numTotalTests": 84,
+    "timestamp": 1794510013345,
+    "success": true,
+    "testId": 121
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: el aula es opcional y se guarda sin espacios sobrantes (HU-12)",
+    "commitTimestamp": 1794510021710,
+    "testId": 121
   }
 ]
