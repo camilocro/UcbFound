@@ -2375,16 +2375,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cdc43db328c261551f37ada9f92011195525adc8",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T19:16:27.000Z",
       "message": "feat: ofrecer la lista de bloques al formulario de registro (HU-12)",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/cdc43db328c261551f37ada9f92011195525adc8"
     },
     "stats": {
       "total": 11,
       "additions": 11,
+      "deletions": 0,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.18,
+    "test_count": 87,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T19:19:00.000Z",
+      "message": "feat: mostrar el lugar donde se encontró en el detalle del objeto (HU-12)",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 3,
       "deletions": 0,
       "date": "2026-11-12"
     },

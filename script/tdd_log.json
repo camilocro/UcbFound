@@ -2566,9 +2566,23 @@
     "testId": 125
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cdc43db328c261551f37ada9f92011195525adc8",
     "commitName": "feat: ofrecer la lista de bloques al formulario de registro (HU-12)",
     "commitTimestamp": 1794510992934,
     "testId": 125
+  },
+  {
+    "numPassedTests": 87,
+    "failedTests": 0,
+    "numTotalTests": 87,
+    "timestamp": 1794511137639,
+    "success": true,
+    "testId": 126
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar el lugar donde se encontró en el detalle del objeto (HU-12)",
+    "commitTimestamp": 1794511146713,
+    "testId": 126
   }
 ]
