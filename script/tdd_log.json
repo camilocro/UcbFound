@@ -2360,9 +2360,23 @@
     "testId": 116
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e9a88d839c67f500fd140e935d7b9f661ee3a9b4",
     "commitName": "feat: elegir la categoría en el formulario y verla en el detalle (HU-13)",
     "commitTimestamp": 1794498394886,
     "testId": 116
+  },
+  {
+    "numPassedTests": 78,
+    "failedTests": 0,
+    "numTotalTests": 78,
+    "timestamp": 1794507444760,
+    "success": true,
+    "testId": 117
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "chore: resolver conflictos con main (HU-13)",
+    "commitTimestamp": 1794507483832,
+    "testId": 117
   }
 ]

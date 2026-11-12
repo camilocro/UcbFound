@@ -64,3 +64,29 @@ describe('HU-13 Presenter Criterio 1: lista de categorías', () => {
     expect(crearPresenter(repositorio).obtenerCategorias()).toEqual(CATEGORIAS);
   });
 });
+describe('Presenter: registrar sin sesión iniciada', () => {
+  it('debería pedir iniciar sesión y no guardar nada cuando no hay usuario', () => {
+    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+    const sesionSinUsuario = new Sesion(crearAlmacenamientoFalso());
+    const presenter = new RegistroObjetoPresenter(repositorio, sesionSinUsuario, () => new Date(2026, 9, 17), () => 'obj-1');
+    expect(presenter.registrar(datosValidos)).toEqual({
+      exito: false,
+      mensaje: 'Inicia sesión para registrar un objeto',
+    });
+    expect(repositorio.obtenerTodos()).toEqual([]);
+  });
+});
+describe('Presenter: ids únicos', () => {
+  it('debería guardar todos los objetos con ids distintos aunque se registren casi al mismo tiempo', () => {
+    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+    const sesion = new Sesion(crearAlmacenamientoFalso());
+    sesion.iniciar({ nombre: 'Camilo Rojas', correo: 'camilo.rojas@ucb.edu.bo' });
+    const presenter = new RegistroObjetoPresenter(repositorio, sesion, () => new Date(2026, 9, 17));
+    for (let i = 0; i < 20; i += 1) {
+      presenter.registrar(datosValidos);
+    }
+    const ids = repositorio.obtenerTodos().map((objeto) => objeto.id);
+    expect(ids).toHaveLength(20);
+    expect(new Set(ids).size).toBe(20);
+  });
+});

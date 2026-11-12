@@ -2204,12 +2204,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e9a88d839c67f500fd140e935d7b9f661ee3a9b4",
     "author": "camilocro",
     "commit": {
       "date": "2026-11-12T15:46:22.000Z",
       "message": "feat: elegir la categoría en el formulario y verla en el detalle (HU-13)",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/e9a88d839c67f500fd140e935d7b9f661ee3a9b4"
     },
     "stats": {
       "total": 43,
@@ -2219,6 +2219,25 @@
     },
     "coverage": 96.43,
     "test_count": 76,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T18:17:58.000Z",
+      "message": "chore: resolver conflictos con main (HU-13)",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 238,
+      "additions": 222,
+      "deletions": 16,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.01,
+    "test_count": 78,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -1,13 +1,23 @@
 import { MENSAJES_REGISTRO_OBJETO, RegistroObjetoEncontrado } from '../model/registroObjetoEncontrado.js';
 import { convertirFechaATexto } from '../model/fecha.js';
 import { CATEGORIAS } from '../model/categorias.js';
+import { crearError } from '../model/resultado.js';
+
+const MENSAJE_SESION_REQUERIDA = 'Inicia sesión para registrar un objeto';
+
+let cantidadDeIdsCreados = 0;
+
+function crearIdUnico() {
+  cantidadDeIdsCreados += 1;
+  return `obj-${Date.now()}-${cantidadDeIdsCreados}`;
+}
 
 export class RegistroObjetoPresenter {
   constructor(
     repositorio,
     sesion,
     obtenerFechaActual = () => new Date(),
-    crearId = () => `obj-${Date.now()}`,
+    crearId = crearIdUnico,
   ) {
     this.repositorio = repositorio;
     this.sesion = sesion;
@@ -21,6 +31,9 @@ export class RegistroObjetoPresenter {
 
   registrar(datos) {
     const usuario = this.sesion.obtenerUsuario();
+    if (!usuario) {
+      return crearError(MENSAJE_SESION_REQUERIDA);
+    }
     const reglasDeRegistro = new RegistroObjetoEncontrado(
       convertirFechaATexto(this.obtenerFechaActual()),
       this.crearId,
