@@ -1957,12 +1957,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "58872da3dc8bebeb077f5c4b286b6e441cb44fbf",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T12:50:00.000Z",
       "message": "refactor: usar la función crearError compartida en RegistroObjetoEncontrado",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/58872da3dc8bebeb077f5c4b286b6e441cb44fbf"
     },
     "stats": {
       "total": 9,
@@ -1971,6 +1971,25 @@
       "date": "2026-11-12"
     },
     "coverage": 96.3,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T12:50:58.000Z",
+      "message": "refactor: usar la función crearError compartida en ReporteObjetoPerdido",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 3,
+      "deletions": 6,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.28,
     "test_count": 70,
     "failed_tests": 0,
     "conclusion": "success"

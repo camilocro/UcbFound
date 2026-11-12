@@ -1,4 +1,5 @@
 import { ObjetoPerdido } from './objetoPerdido.js';
+import { crearError } from './resultado.js';
 
 export const MENSAJES_REPORTE = {
   REPORTE_CREADO: 'Reporte creado correctamente',
@@ -14,15 +15,11 @@ export class ReporteObjetoPerdido {
   reportar({ nombre, descripcion, fecha }, correoDelDueno) {
     const objeto = new ObjetoPerdido(nombre, descripcion, fecha, correoDelDueno);
     if (objeto.tieneNombreOFechaVacios()) {
-      return this.crearError(MENSAJES_REPORTE.NOMBRE_O_FECHA_VACIOS);
+      return crearError(MENSAJES_REPORTE.NOMBRE_O_FECHA_VACIOS);
     }
     if (objeto.tieneFechaFutura(this.fechaDeHoy)) {
-      return this.crearError(MENSAJES_REPORTE.FECHA_FUTURA);
+      return crearError(MENSAJES_REPORTE.FECHA_FUTURA);
     }
     return { exito: true, mensaje: MENSAJES_REPORTE.REPORTE_CREADO, objeto };
-  }
-
-  crearError(mensaje) {
-    return { exito: false, mensaje };
   }
 }

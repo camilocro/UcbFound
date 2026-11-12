@@ -2122,9 +2122,23 @@
     "testId": 103
   },
   {
-    "commitId": "HEAD",
+    "commitId": "58872da3dc8bebeb077f5c4b286b6e441cb44fbf",
     "commitName": "refactor: usar la función crearError compartida en RegistroObjetoEncontrado",
     "commitTimestamp": 1794487807208,
     "testId": 103
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794487854300,
+    "success": true,
+    "testId": 104
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: usar la función crearError compartida en ReporteObjetoPerdido",
+    "commitTimestamp": 1794487865340,
+    "testId": 104
   }
 ]
