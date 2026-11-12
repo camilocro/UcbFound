@@ -2186,9 +2186,15 @@
     "testId": 106
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ac78620ab7012710d592042d2698d2fb86909bb2",
     "commitName": "refactor: usar faltanFotoODescripcion en registrar",
     "commitTimestamp": 1794491326377,
     "testId": 107
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: renombrar cargandoFoto a estaCargandoFoto",
+    "commitTimestamp": 1794491359856,
+    "testId": 108
   }
 ]
