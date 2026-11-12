@@ -1944,9 +1944,23 @@
     "testId": 91
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d676277bdaf96b0dfafbd0c36cdffdca53899579",
     "commitName": "chore: resolver conflictos de los logs con main",
     "commitTimestamp": 1794485969579,
     "testId": 92
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794486233496,
+    "success": true,
+    "testId": 93
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: renombrar mostrarPagina a resolverPagina en SesionPresenter",
+    "commitTimestamp": 1794486244109,
+    "testId": 93
   }
 ]

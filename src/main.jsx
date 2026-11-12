@@ -35,7 +35,7 @@ const PAGINAS = ['principal', 'inicio-sesion', 'registro', 'reportar-objeto', 'b
 function leerVista() {
   const paginaEnLaDireccion = window.location.hash.replace('#/', '');
   const paginaSolicitada = PAGINAS.includes(paginaEnLaDireccion) ? paginaEnLaDireccion : 'principal';
-  const pagina = sesionPresenter.mostrarPagina(paginaSolicitada);
+  const pagina = sesionPresenter.resolverPagina(paginaSolicitada);
   return { pagina, pidioIniciarSesion: pagina !== paginaSolicitada };
 }
 

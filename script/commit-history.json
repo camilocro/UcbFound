@@ -1748,17 +1748,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d676277bdaf96b0dfafbd0c36cdffdca53899579",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T12:19:22.000Z",
       "message": "chore: resolver conflictos de los logs con main",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/d676277bdaf96b0dfafbd0c36cdffdca53899579"
     },
     "stats": {
       "total": 178,
       "additions": 110,
       "deletions": 68,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T12:23:57.000Z",
+      "message": "refactor: renombrar mostrarPagina a resolverPagina en SesionPresenter",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 3,
+      "deletions": 3,
       "date": "2026-11-12"
     },
     "coverage": 96.32,
