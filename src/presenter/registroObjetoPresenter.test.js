@@ -65,6 +65,12 @@ describe('HU-13 Presenter Criterio 1: lista de categorías', () => {
     expect(crearPresenter(repositorio).obtenerCategorias()).toEqual(CATEGORIAS);
   });
 });
+describe('HU-12 Presenter Criterio 1: lista de bloques', () => {
+  it('debería ofrecer al formulario la lista oficial de bloques', () => {
+    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+    expect(crearPresenter(repositorio).obtenerBloques()).toEqual(BLOQUES);
+  });
+});
 describe('Presenter: registrar sin sesión iniciada', () => {
   it('debería pedir iniciar sesión y no guardar nada cuando no hay usuario', () => {
     const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());

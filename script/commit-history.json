@@ -2356,12 +2356,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f28dccb9090c921eaf3c8e08fd15408966eec124",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T19:13:39.000Z",
       "message": "feat: mostrar Lugar no indicado en objetos anteriores sin lugar (HU-12)",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/f28dccb9090c921eaf3c8e08fd15408966eec124"
     },
     "stats": {
       "total": 4,
@@ -2371,6 +2371,25 @@
     },
     "coverage": 97.17,
     "test_count": 86,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T19:16:27.000Z",
+      "message": "feat: ofrecer la lista de bloques al formulario de registro (HU-12)",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.18,
+    "test_count": 87,
     "failed_tests": 0,
     "conclusion": "success"
   }

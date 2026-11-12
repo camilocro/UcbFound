@@ -2544,9 +2544,31 @@
     "testId": 124
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f28dccb9090c921eaf3c8e08fd15408966eec124",
     "commitName": "feat: mostrar Lugar no indicado en objetos anteriores sin lugar (HU-12)",
     "commitTimestamp": 1794510824505,
     "testId": 124
+  },
+  {
+    "numPassedTests": 86,
+    "failedTests": 1,
+    "numTotalTests": 87,
+    "timestamp": 1794510878926,
+    "success": false,
+    "testId": 125
+  },
+  {
+    "numPassedTests": 87,
+    "failedTests": 0,
+    "numTotalTests": 87,
+    "timestamp": 1794510984055,
+    "success": true,
+    "testId": 125
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: ofrecer la lista de bloques al formulario de registro (HU-12)",
+    "commitTimestamp": 1794510992934,
+    "testId": 125
   }
 ]
