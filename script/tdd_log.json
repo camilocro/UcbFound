@@ -2580,9 +2580,23 @@
     "testId": 126
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1c964c276f30e28cb7e894b6d06b8733fd22a445",
     "commitName": "feat: mostrar el lugar donde se encontró en el detalle del objeto (HU-12)",
     "commitTimestamp": 1794511146713,
     "testId": 126
+  },
+  {
+    "numPassedTests": 87,
+    "failedTests": 0,
+    "numTotalTests": 87,
+    "timestamp": 1794511975569,
+    "success": true,
+    "testId": 127
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar los campos de bloque y aula al formulario de objeto encontrado (HU-12)",
+    "commitTimestamp": 1794511984563,
+    "testId": 127
   }
 ]

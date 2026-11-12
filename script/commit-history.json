@@ -2394,17 +2394,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1c964c276f30e28cb7e894b6d06b8733fd22a445",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T19:19:00.000Z",
       "message": "feat: mostrar el lugar donde se encontró en el detalle del objeto (HU-12)",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/1c964c276f30e28cb7e894b6d06b8733fd22a445"
     },
     "stats": {
       "total": 3,
       "additions": 3,
       "deletions": 0,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.18,
+    "test_count": 87,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T19:32:58.000Z",
+      "message": "feat: agregar los campos de bloque y aula al formulario de objeto encontrado (HU-12)",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 27,
+      "additions": 26,
+      "deletions": 1,
       "date": "2026-11-12"
     },
     "coverage": 97.18,
