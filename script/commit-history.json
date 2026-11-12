@@ -2470,12 +2470,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5a8c5a565bf9c3ce7e98b940a07bc3a93de11ad9",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T20:07:47.000Z",
       "message": "refactor: usar esImagen para mostrar la vista previa de la foto",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/5a8c5a565bf9c3ce7e98b940a07bc3a93de11ad9"
     },
     "stats": {
       "total": 3,
@@ -2485,6 +2485,82 @@
     },
     "coverage": 97.21,
     "test_count": 88,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "67e9f21273eb0d7093bfcb7dbe2bb87fe93190bc",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T20:19:35.000Z",
+      "message": "feat: calcular el tamaño reducido de una foto grande",
+      "url": "https://github.com/camilocro/UcbFound/commit/67e9f21273eb0d7093bfcb7dbe2bb87fe93190bc"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.25,
+    "test_count": 89,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "e46b0a9139124cfc1ca77f37fa797ecde86573ea",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T20:21:13.000Z",
+      "message": "feat: no agrandar las fotos que ya son pequeñas",
+      "url": "https://github.com/camilocro/UcbFound/commit/e46b0a9139124cfc1ca77f37fa797ecde86573ea"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.25,
+    "test_count": 90,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "60972f0b96481282eceb2b14004897b25de0cc5f",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T20:22:11.000Z",
+      "message": "refactor: crear lectorDeFoto con la lectura y el achicado de la foto",
+      "url": "https://github.com/camilocro/UcbFound/commit/60972f0b96481282eceb2b14004897b25de0cc5f"
+    },
+    "stats": {
+      "total": 39,
+      "additions": 39,
+      "deletions": 0,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.25,
+    "test_count": 90,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T20:24:43.000Z",
+      "message": "refactor: usar lectorDeFoto en el formulario y quitar la lógica de achicar de la vista",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 40,
+      "additions": 1,
+      "deletions": 39,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.25,
+    "test_count": 90,
     "failed_tests": 0,
     "conclusion": "success"
   }

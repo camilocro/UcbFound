@@ -2652,9 +2652,81 @@
     "testId": 130
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5a8c5a565bf9c3ce7e98b940a07bc3a93de11ad9",
     "commitName": "refactor: usar esImagen para mostrar la vista previa de la foto",
     "commitTimestamp": 1794514075541,
     "testId": 130
+  },
+  {
+    "numPassedTests": 88,
+    "failedTests": 1,
+    "numTotalTests": 89,
+    "timestamp": 1794514691400,
+    "success": false,
+    "testId": 131
+  },
+  {
+    "numPassedTests": 89,
+    "failedTests": 0,
+    "numTotalTests": 89,
+    "timestamp": 1794514767474,
+    "success": true,
+    "testId": 131
+  },
+  {
+    "commitId": "67e9f21273eb0d7093bfcb7dbe2bb87fe93190bc",
+    "commitName": "feat: calcular el tamaño reducido de una foto grande",
+    "commitTimestamp": 1794514782589,
+    "testId": 131
+  },
+  {
+    "numPassedTests": 89,
+    "failedTests": 1,
+    "numTotalTests": 90,
+    "timestamp": 1794514816150,
+    "success": false,
+    "testId": 132
+  },
+  {
+    "numPassedTests": 90,
+    "failedTests": 0,
+    "numTotalTests": 90,
+    "timestamp": 1794514842423,
+    "success": true,
+    "testId": 132
+  },
+  {
+    "commitId": "e46b0a9139124cfc1ca77f37fa797ecde86573ea",
+    "commitName": "feat: no agrandar las fotos que ya son pequeñas",
+    "commitTimestamp": 1794514880586,
+    "testId": 132
+  },
+  {
+    "numPassedTests": 90,
+    "failedTests": 0,
+    "numTotalTests": 90,
+    "timestamp": 1794514920917,
+    "success": true,
+    "testId": 133
+  },
+  {
+    "commitId": "60972f0b96481282eceb2b14004897b25de0cc5f",
+    "commitName": "refactor: crear lectorDeFoto con la lectura y el achicado de la foto",
+    "commitTimestamp": 1794514938971,
+    "testId": 133
+  },
+  {
+    "numPassedTests": 90,
+    "failedTests": 0,
+    "numTotalTests": 90,
+    "timestamp": 1794515080483,
+    "success": true,
+    "testId": 134
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: usar lectorDeFoto en el formulario y quitar la lógica de achicar de la vista",
+    "commitTimestamp": 1794515091244,
+    "testId": 134
   }
 ]
