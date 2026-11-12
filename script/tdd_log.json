@@ -2738,9 +2738,31 @@
     "testId": 135
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c872d2be88024d258d515f00e04f0e8ec7ae22bd",
     "commitName": "test: simular el error real de almacenamiento lleno del navegador",
     "commitTimestamp": 1794516751295,
     "testId": 135
+  },
+  {
+    "numPassedTests": 90,
+    "failedTests": 1,
+    "numTotalTests": 91,
+    "timestamp": 1794516797881,
+    "success": false,
+    "testId": 136
+  },
+  {
+    "numPassedTests": 91,
+    "failedTests": 0,
+    "numTotalTests": 91,
+    "timestamp": 1794516854883,
+    "success": true,
+    "testId": 136
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: distinguir el error de espacio lleno de otros fallos al guardar el objeto",
+    "commitTimestamp": 1794516886181,
+    "testId": 136
   }
 ]

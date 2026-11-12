@@ -10,6 +10,7 @@ export const MENSAJES_REGISTRO_OBJETO = {
   FOTO_MUY_PESADA: 'La foto es muy pesada, prueba con una imagen más pequeña',
   FALTA_CATEGORIA: 'Es necesario elegir una categoría',
   FALTA_BLOQUE: 'Es necesario indicar el bloque donde lo encontraste',
+  NO_SE_PUDO_GUARDAR: 'No se pudo guardar el objeto, intenta de nuevo',
 };
 
 const NOMBRE_POR_DEFECTO = 'Objeto encontrado';

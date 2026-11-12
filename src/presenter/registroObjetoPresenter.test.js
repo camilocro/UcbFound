@@ -97,3 +97,20 @@ describe('Presenter: ids únicos', () => {
     expect(new Set(ids).size).toBe(20);
   });
 });
+
+describe('Presenter: error inesperado al guardar', () => {
+  it('debería avisar que no se pudo guardar cuando el fallo no es por falta de espacio', () => {
+    const almacenamientoConFalla = {
+      getItem: () => null,
+      setItem: () => {
+        throw new Error('Fallo inesperado');
+      },
+      removeItem: () => {},
+    };
+    const repositorio = new RepositorioObjetosEncontrados(almacenamientoConFalla);
+    expect(crearPresenter(repositorio).registrar(datosValidos)).toEqual({
+      exito: false,
+      mensaje: 'No se pudo guardar el objeto, intenta de nuevo',
+    });
+  });
+});

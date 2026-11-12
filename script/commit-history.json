@@ -2565,12 +2565,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c872d2be88024d258d515f00e04f0e8ec7ae22bd",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T20:52:23.000Z",
       "message": "test: simular el error real de almacenamiento lleno del navegador",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/c872d2be88024d258d515f00e04f0e8ec7ae22bd"
     },
     "stats": {
       "total": 2,
@@ -2580,6 +2580,25 @@
     },
     "coverage": 97.25,
     "test_count": 90,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T20:54:39.000Z",
+      "message": "feat: distinguir el error de espacio lleno de otros fallos al guardar el objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 29,
+      "additions": 27,
+      "deletions": 2,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.27,
+    "test_count": 91,
     "failed_tests": 0,
     "conclusion": "success"
   }
