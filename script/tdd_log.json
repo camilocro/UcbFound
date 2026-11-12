@@ -2402,9 +2402,15 @@
     "testId": 118
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8f36acffbd54ad33031609e260aeb0ac97c93ae1",
     "commitName": "feat: saber si un objeto es de una categoría",
     "commitTimestamp": 1794511518018,
     "testId": 119
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aceptar todas las categorías y objetos sin categoría con Todas",
+    "commitTimestamp": 1794514820370,
+    "testId": 120
   }
 ]

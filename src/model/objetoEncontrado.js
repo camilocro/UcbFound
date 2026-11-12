@@ -1,3 +1,4 @@
+import { TODAS_LAS_CATEGORIAS } from './categorias.js';
 function quitarTildes(texto) {
   return texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 }
@@ -20,8 +21,8 @@ export class ObjetoEncontrado {
     return quitarTildes(this.nombre).includes(textoBuscado) || quitarTildes(this.descripcion).includes(textoBuscado);
   }
   esDeCategoria(categoria) {
-  return this.categoria === categoria;
-}
+    return categoria === TODAS_LAS_CATEGORIAS || this.categoria === categoria;
+  }
 
   obtenerDetalle() {
     return { ...this.obtenerVistaBasica(), categoria: this.categoria || SIN_CATEGORIA };

@@ -69,3 +69,9 @@ describe('HU-08 Objeto encontrado: categoría', () => {
     expect(cargador.esDeCategoria('Llaves')).toBe(false);
   });
 });
+describe('HU-08 Objeto encontrado: objetos anteriores sin categoría', () => {
+  it('debería aparecer solo con "Todas" cuando no tiene categoría', () => {
+    expect(mochila.esDeCategoria('Todas')).toBe(true);
+    expect(mochila.esDeCategoria('Llaves')).toBe(false);
+  });
+});

@@ -2261,12 +2261,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8f36acffbd54ad33031609e260aeb0ac97c93ae1",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-12T19:25:07.000Z",
       "message": "feat: saber si un objeto es de una categoría",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/8f36acffbd54ad33031609e260aeb0ac97c93ae1"
     },
     "stats": {
       "total": 22,
@@ -2276,6 +2276,25 @@
     },
     "coverage": 97.04,
     "test_count": 81,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-12T20:20:05.000Z",
+      "message": "feat: aceptar todas las categorías y objetos sin categoría con Todas",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 11,
+      "deletions": 3,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.06,
+    "test_count": 82,
     "failed_tests": 0,
     "conclusion": "success"
   }
