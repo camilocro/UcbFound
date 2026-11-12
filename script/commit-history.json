@@ -1767,17 +1767,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0df59a64bc52423ce8b59902bac829bfbc27dec6",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T12:23:57.000Z",
       "message": "refactor: renombrar mostrarPagina a resolverPagina en SesionPresenter",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/0df59a64bc52423ce8b59902bac829bfbc27dec6"
     },
     "stats": {
       "total": 6,
       "additions": 3,
       "deletions": 3,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T12:25:18.000Z",
+      "message": "refactor: renombrar pidioIniciarSesion a fueRedirigidoAlLogin en main",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
       "date": "2026-11-12"
     },
     "coverage": 96.32,

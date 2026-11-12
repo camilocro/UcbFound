@@ -36,7 +36,7 @@ function leerVista() {
   const paginaEnLaDireccion = window.location.hash.replace('#/', '');
   const paginaSolicitada = PAGINAS.includes(paginaEnLaDireccion) ? paginaEnLaDireccion : 'principal';
   const pagina = sesionPresenter.resolverPagina(paginaSolicitada);
-  return { pagina, pidioIniciarSesion: pagina !== paginaSolicitada };
+  return { pagina, fueRedirigidoAlLogin: pagina !== paginaSolicitada };
 }
 
 function App() {
@@ -117,7 +117,7 @@ function App() {
         )}
         {vista.pagina === 'inicio-sesion' && (
           <div>
-            {vista.pidioIniciarSesion && (
+            {vista.fueRedirigidoAlLogin && (
               <p id="aviso-sesion" className="mensaje aviso" role="status">
                 Inicia sesión para continuar.
               </p>

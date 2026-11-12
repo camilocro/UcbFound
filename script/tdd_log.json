@@ -1958,9 +1958,23 @@
     "testId": 93
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0df59a64bc52423ce8b59902bac829bfbc27dec6",
     "commitName": "refactor: renombrar mostrarPagina a resolverPagina en SesionPresenter",
     "commitTimestamp": 1794486244109,
     "testId": 93
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794486315281,
+    "success": true,
+    "testId": 94
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: renombrar pidioIniciarSesion a fueRedirigidoAlLogin en main",
+    "commitTimestamp": 1794486325675,
+    "testId": 94
   }
 ]
