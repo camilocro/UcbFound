@@ -80,3 +80,9 @@ describe('HU-13 Criterio 4: sin categoría', () => {
     expect(resultado).toEqual({ exito: false, mensaje: 'Es necesario elegir una categoría' });
   });
 });
+describe('HU-13 Categoría fuera de la lista', () => {
+  it('debería pedir la categoría cuando no está en la lista de categorías', () => {
+    const resultado = registro.registrar({ ...datosValidos, categoria: 'Mascotas' }, CORREO);
+    expect(resultado).toEqual({ exito: false, mensaje: 'Es necesario elegir una categoría' });
+  });
+});

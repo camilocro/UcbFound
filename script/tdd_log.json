@@ -2250,9 +2250,31 @@
     "testId": 111
   },
   {
-    "commitId": "HEAD",
+    "commitId": "afceabeb20f253f91b2fb499e3981b603c86bf41",
     "commitName": "feat: pedir la categoría al registrar un objeto encontrado (HU-13)",
     "commitTimestamp": 1794497257356,
     "testId": 111
+  },
+  {
+    "numPassedTests": 72,
+    "failedTests": 1,
+    "numTotalTests": 73,
+    "timestamp": 1794497326553,
+    "success": false,
+    "testId": 112
+  },
+  {
+    "numPassedTests": 73,
+    "failedTests": 0,
+    "numTotalTests": 73,
+    "timestamp": 1794497421510,
+    "success": true,
+    "testId": 112
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aceptar solo categorías de la lista oficial (HU-13)",
+    "commitTimestamp": 1794497446227,
+    "testId": 112
   }
 ]

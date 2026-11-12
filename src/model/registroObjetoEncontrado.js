@@ -1,5 +1,6 @@
 import { ObjetoEncontrado } from './objetoEncontrado.js';
 import { crearError } from './resultado.js';
+import { CATEGORIAS } from './categorias.js';
 
 export const MENSAJES_REGISTRO_OBJETO = {
   OBJETO_REGISTRADO: 'Objeto registrado correctamente',
@@ -28,7 +29,7 @@ export class RegistroObjetoEncontrado {
     if (!foto.startsWith('data:image/')) {
       return crearError(MENSAJES_REGISTRO_OBJETO.SOLO_IMAGENES);
     }
-    if (!categoria) {
+    if (!CATEGORIAS.includes(categoria)) {
       return crearError(MENSAJES_REGISTRO_OBJETO.FALTA_CATEGORIA);
     }
     const objeto = new ObjetoEncontrado({
