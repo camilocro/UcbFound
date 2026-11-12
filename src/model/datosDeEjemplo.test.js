@@ -30,3 +30,18 @@ describe('Datos de ejemplo: sin duplicar', () => {
     expect(repositorio.obtenerTodos().length).toBe(6);
   });
 });
+describe('Datos de ejemplo: categoría', () => {
+  it('debería cargar cada objeto de ejemplo con su categoría', () => {
+    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+    cargarDatosDeEjemplo(repositorio);
+    const categorias = repositorio.obtenerTodos().map((objeto) => objeto.categoria);
+    expect(categorias).toEqual([
+      'Mochilas y bolsos',
+      'Electrónica',
+      'Botellas y termos',
+      'Electrónica',
+      'Llaves',
+      'Electrónica',
+    ]);
+  });
+});

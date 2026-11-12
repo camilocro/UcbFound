@@ -2413,12 +2413,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "04143c4da0391887d018e5b7b339787526680542",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T19:32:58.000Z",
       "message": "feat: agregar los campos de bloque y aula al formulario de objeto encontrado (HU-12)",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/04143c4da0391887d018e5b7b339787526680542"
     },
     "stats": {
       "total": 27,
@@ -2428,6 +2428,25 @@
     },
     "coverage": 97.18,
     "test_count": 87,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-12T20:14:29.000Z",
+      "message": "feat: agregar la categoría a los datos de ejemplo",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 27,
+      "additions": 21,
+      "deletions": 6,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.18,
+    "test_count": 88,
     "failed_tests": 0,
     "conclusion": "success"
   }

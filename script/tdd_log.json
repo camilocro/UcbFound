@@ -2594,9 +2594,31 @@
     "testId": 127
   },
   {
-    "commitId": "HEAD",
+    "commitId": "04143c4da0391887d018e5b7b339787526680542",
     "commitName": "feat: agregar los campos de bloque y aula al formulario de objeto encontrado (HU-12)",
     "commitTimestamp": 1794511984563,
     "testId": 127
+  },
+  {
+    "numPassedTests": 87,
+    "failedTests": 1,
+    "numTotalTests": 88,
+    "timestamp": 1794514317091,
+    "success": false,
+    "testId": 128
+  },
+  {
+    "numPassedTests": 88,
+    "failedTests": 0,
+    "numTotalTests": 88,
+    "timestamp": 1794514425993,
+    "success": true,
+    "testId": 128
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar la categoría a los datos de ejemplo",
+    "commitTimestamp": 1794514483157,
+    "testId": 128
   }
 ]
