@@ -2760,9 +2760,23 @@
     "testId": 136
   },
   {
-    "commitId": "HEAD",
+    "commitId": "da1598cc73d095d22784d2a433b1789e882eee10",
     "commitName": "feat: distinguir el error de espacio lleno de otros fallos al guardar el objeto",
     "commitTimestamp": 1794516886181,
     "testId": 136
+  },
+  {
+    "numPassedTests": 91,
+    "failedTests": 0,
+    "numTotalTests": 91,
+    "timestamp": 1794517157841,
+    "success": true,
+    "testId": 137
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar un error y quitar Cargando foto cuando falla la lectura de la foto",
+    "commitTimestamp": 1794517168386,
+    "testId": 137
   }
 ]

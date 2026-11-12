@@ -3,6 +3,7 @@ import { esImagen } from '../model/foto.js';
 import { leerFoto } from './lectorDeFoto.js';
 
 const DATOS_INICIALES = { nombre: '', descripcion: '', foto: '', categoria: '', bloque: '', aula: '' };
+const MENSAJE_ERROR_FOTO = 'No se pudo cargar la foto, intenta con otra imagen';
 
 function IconoCamara() {
   return (
@@ -17,6 +18,7 @@ export default function FormularioObjetoEncontrado({ presenter, alVerLista }) {
   const [datos, setDatos] = useState(DATOS_INICIALES);
   const [resultado, setResultado] = useState(null);
   const [estaCargandoFoto, setEstaCargandoFoto] = useState(false);
+  const [errorFoto, setErrorFoto] = useState('');
   const [claveCampoFoto, setClaveCampoFoto] = useState(0);
   const categorias = presenter.obtenerCategorias();
   const bloques = presenter.obtenerBloques();
@@ -28,14 +30,21 @@ export default function FormularioObjetoEncontrado({ presenter, alVerLista }) {
 
   const cambiarFoto = async (evento) => {
     const archivo = evento.target.files[0];
+    setErrorFoto('');
     if (!archivo) {
       setDatos((datosActuales) => ({ ...datosActuales, foto: '' }));
       return;
     }
     setEstaCargandoFoto(true);
-    const foto = await leerFoto(archivo);
-    setDatos((datosActuales) => ({ ...datosActuales, foto }));
-    setEstaCargandoFoto(false);
+    try {
+      const foto = await leerFoto(archivo);
+      setDatos((datosActuales) => ({ ...datosActuales, foto }));
+    } catch {
+      setDatos((datosActuales) => ({ ...datosActuales, foto: '' }));
+      setErrorFoto(MENSAJE_ERROR_FOTO);
+    } finally {
+      setEstaCargandoFoto(false);
+    }
   };
 
   const enviar = (evento) => {
@@ -79,6 +88,11 @@ export default function FormularioObjetoEncontrado({ presenter, alVerLista }) {
               </>
             )}
           </label>
+          {errorFoto && (
+            <p id="mensaje-error-foto" className="mensaje mensaje--error" role="alert">
+              {errorFoto}
+            </p>
+          )}
         </div>
 
         <div className="campo">
