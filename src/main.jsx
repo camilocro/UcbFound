@@ -9,7 +9,7 @@ import { RepositorioUsuarios } from './model/repositorioUsuarios.js';
 import { RepositorioReportes } from './model/repositorioReportes.js';
 import { RepositorioObjetosEncontrados } from './model/repositorioObjetosEncontrados.js';
 import { cargarDatosDeEjemplo } from './model/datosDeEjemplo.js';
-import { fechaComoTexto } from './model/fecha.js';
+import { convertirFechaATexto } from './model/fecha.js';
 import { RegistroPresenter } from './presenter/registroPresenter.js';
 import { InicioSesionPresenter } from './presenter/inicioSesionPresenter.js';
 import { ReportePresenter } from './presenter/reportePresenter.js';
@@ -35,8 +35,8 @@ const PAGINAS = ['principal', 'inicio-sesion', 'registro', 'reportar-objeto', 'b
 function leerVista() {
   const paginaEnLaDireccion = window.location.hash.replace('#/', '');
   const paginaSolicitada = PAGINAS.includes(paginaEnLaDireccion) ? paginaEnLaDireccion : 'principal';
-  const pagina = sesionPresenter.mostrarPagina(paginaSolicitada);
-  return { pagina, pidioIniciarSesion: pagina !== paginaSolicitada };
+  const pagina = sesionPresenter.resolverPagina(paginaSolicitada);
+  return { pagina, fueRedirigidoAlLogin: pagina !== paginaSolicitada };
 }
 
 function App() {
@@ -85,7 +85,7 @@ function App() {
         )}
         {vista.pagina === 'reportar-objeto' && (
           <div>
-            <FormularioReporteObjetoPerdido presenter={reportePresenter} fechaMaxima={fechaComoTexto(new Date())} />
+            <FormularioReporteObjetoPerdido presenter={reportePresenter} fechaMaxima={convertirFechaATexto(new Date())} />
             <button type="button" className="enlace" onClick={() => irA('principal')}>
               Volver al inicio
             </button>
@@ -117,7 +117,7 @@ function App() {
         )}
         {vista.pagina === 'inicio-sesion' && (
           <div>
-            {vista.pidioIniciarSesion && (
+            {vista.fueRedirigidoAlLogin && (
               <p id="aviso-sesion" className="mensaje aviso" role="status">
                 Inicia sesión para continuar.
               </p>

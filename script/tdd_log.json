@@ -1863,119 +1863,167 @@
     "numPassedTests": 70,
     "failedTests": 0,
     "numTotalTests": 70,
-    "timestamp": 1794319203623,
+    "timestamp": 1794319131867,
     "success": true,
     "testId": 86
   },
   {
-    "commitId": "ebf11a06c394e8617d331a9d0d4faf1043c78094",
-    "commitName": "refactor: renombrar MENSAJES a MENSAJES_REGISTRO",
-    "commitTimestamp": 1794319239916,
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794319257031,
+    "success": true,
+    "testId": 86
+  },
+  {
+    "commitId": "99f8386cd6d9eae93a60589fc06f4e744903541f",
+    "commitName": "refactor: nombrar como predicados los métodos de ObjetoPerdido",
+    "commitTimestamp": 1794319266644,
     "testId": 86
   },
   {
     "numPassedTests": 70,
     "failedTests": 0,
     "numTotalTests": 70,
-    "timestamp": 1794319272721,
+    "timestamp": 1794319318456,
     "success": true,
     "testId": 87
   },
   {
-    "commitId": "377fd2f2823750d6ff960d31e8f339fab653fa71",
-    "commitName": "refactor: renombrar MENSAJES_LOGIN a MENSAJES_INICIO_SESION",
-    "commitTimestamp": 1794319329939,
+    "commitId": "b4f36971b31166f5f102495c30a7af24ba0db03a",
+    "commitName": "refactor: agrupar las pruebas repetidas del registro de usuario",
+    "commitTimestamp": 1794319327511,
     "testId": 87
   },
   {
     "numPassedTests": 70,
     "failedTests": 0,
     "numTotalTests": 70,
-    "timestamp": 1794319356857,
+    "timestamp": 1794320536438,
     "success": true,
     "testId": 88
   },
   {
-    "commitId": "6369797a9752372ee8e88b4f2df510291bc2de5a",
-    "commitName": "refactor: aclarar los nombres del repositorio de usuarios",
-    "commitTimestamp": 1794319381473,
+    "commitId": "e088eaaeec1ee1a9f9b059abc0237aa1d90642f7",
+    "commitName": "chore: unir main en la rama refactor/majo-objeto-perdido",
+    "commitTimestamp": 1794320546802,
     "testId": 88
   },
   {
     "numPassedTests": 70,
     "failedTests": 0,
     "numTotalTests": 70,
-    "timestamp": 1794319424741,
+    "timestamp": 1794320758386,
     "success": true,
     "testId": 89
   },
   {
-    "commitId": "9722312ee804c95b17ca715f9f1937602ddbdf1a",
-    "commitName": "refactor: aclarar los nombres del repositorio de reportes",
-    "commitTimestamp": 1794319455570,
+    "commitId": "1ce7f3465590f5ae47698dfedcb5e35336909e8f",
+    "commitName": "chore: unir main en la rama refactor/majo-objeto-perdido",
+    "commitTimestamp": 1794320767826,
     "testId": 89
+  },
+  {
+    "commitId": "b54554a5113c49aa437a8d8ad7bf81480462cbcb",
+    "commitName": "chore: resolver conflictos de los logs con main",
+    "commitTimestamp": 1794321683632,
+    "testId": 90
   },
   {
     "numPassedTests": 70,
     "failedTests": 0,
     "numTotalTests": 70,
-    "timestamp": 1794319478272,
+    "timestamp": 1794321702612,
     "success": true,
-    "testId": 90
-  },
-  {
-    "commitId": "e4e28d784adb6b472c49bba1227127763275fecf",
-    "commitName": "refactor: aclarar los nombres del repositorio de objetos encontrados",
-    "commitTimestamp": 1794319502087,
-    "testId": 90
-  },
-  {
-    "commitId": "a590334dc5418edd5e28706edaf5f84f46563ad6",
-    "commitName": "refactor: renombrar datos a textoGuardado en la sesión",
-    "commitTimestamp": 1794319587369,
     "testId": 91
   },
   {
-    "commitId": "bdf9a997f1cb04a2ce06ee9df3a10308d97a73b7",
-    "commitName": "refactor: aclarar los nombres del buscador de objetos",
-    "commitTimestamp": 1794319670178,
+    "commitId": "3bddcefe2e2216ec4d782aaad4b2e83b632263a2",
+    "commitName": "test: registrar ejecucion de pruebas",
+    "commitTimestamp": 1794321854027,
+    "testId": 91
+  },
+  {
+    "commitId": "d676277bdaf96b0dfafbd0c36cdffdca53899579",
+    "commitName": "chore: resolver conflictos de los logs con main",
+    "commitTimestamp": 1794485969579,
     "testId": 92
   },
   {
-    "commitId": "0790171ff0c4e3ae54e304b3ca389e37b2ffd6ba",
-    "commitName": "refactor: renombrar buscado a textoBuscado en el objeto encontrado",
-    "commitTimestamp": 1794319722193,
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794486233496,
+    "success": true,
     "testId": 93
   },
   {
-    "commitId": "4eb350c38ba748e2e1c570ff0a7b9fa8d4c796c4",
-    "commitName": "refactor: aclarar los nombres de la vista de búsqueda",
-    "commitTimestamp": 1794319771577,
+    "commitId": "0df59a64bc52423ce8b59902bac829bfbc27dec6",
+    "commitName": "refactor: renombrar mostrarPagina a resolverPagina en SesionPresenter",
+    "commitTimestamp": 1794486244109,
+    "testId": 93
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794486315281,
+    "success": true,
     "testId": 94
   },
   {
-    "commitId": "5543bf3218015c5cbe4f42787677c7c42f015d01",
-    "commitName": "refactor: aclarar los nombres de los datos de ejemplo",
-    "commitTimestamp": 1794319891619,
+    "commitId": "d404ffdf8ece3230707dbc9db47402e23ed36b9a",
+    "commitName": "refactor: renombrar pidioIniciarSesion a fueRedirigidoAlLogin en main",
+    "commitTimestamp": 1794486325675,
+    "testId": 94
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794486442753,
+    "success": true,
     "testId": 95
   },
   {
-    "commitId": "1c1bd1c0fe510f8832ef1cd10b3f4bb2c85d2283",
-    "commitName": "refactor: aclarar los nombres del formulario de objeto encontrado",
-    "commitTimestamp": 1794319958447,
+    "commitId": "091103eb2222ce03b7f478079ae9a09351d27118",
+    "commitName": "refactor: renombrar vistaBasica a obtenerVistaBasica en ObjetoEncontrado",
+    "commitTimestamp": 1794486453900,
+    "testId": 95
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794486546509,
+    "success": true,
     "testId": 96
   },
   {
-    "commitId": "cfe9777d246aa4853f76e247eecb1e55fd8d7a05",
-    "commitName": "refactor: aclarar los nombres en main.jsx",
-    "commitTimestamp": 1794320027804,
+    "commitId": "0ba2720453257fb7c8523a0fa8e6fe5e72131254",
+    "commitName": "refactor: renombrar obtenerUsuarios a obtenerTodos en RepositorioUsuarios",
+    "commitTimestamp": 1794486557456,
+    "testId": 96
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794486697487,
+    "success": true,
+    "testId": 97
+  },
+  {
+    "commitId": "87f97ae3310cb9de60d9943295fe0802898ff15f",
+    "commitName": "refactor: renombrar obtenerReportes a obtenerTodos en RepositorioReportes",
+    "commitTimestamp": 1794486709936,
     "testId": 97
   },
   {
     "numPassedTests": 70,
     "failedTests": 0,
     "numTotalTests": 70,
-    "timestamp": 1794320378218,
+    "timestamp": 1794486935078,
     "success": true,
     "testId": 98
   },
@@ -1983,7 +2031,7 @@
     "numPassedTests": 70,
     "failedTests": 0,
     "numTotalTests": 70,
-    "timestamp": 1794490294975,
+    "timestamp": 1794486982104,
     "success": true,
     "testId": 98
   },
@@ -1991,14 +2039,112 @@
     "numPassedTests": 70,
     "failedTests": 0,
     "numTotalTests": 70,
-    "timestamp": 1794490433955,
+    "timestamp": 1794487037700,
     "success": true,
     "testId": 98
+  },
+  {
+    "commitId": "e5e78307d12405eea135f45727bd1eb8d54fa949",
+    "commitName": "refactor: renombrar sinTildes a quitarTildes en ObjetoEncontrado",
+    "commitTimestamp": 1794487047895,
+    "testId": 98
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794487133168,
+    "success": true,
+    "testId": 99
+  },
+  {
+    "commitId": "8537c7d5ccdfdce872cc92d6538f7b9203ed75b1",
+    "commitName": "refactor: renombrar fechaComoTexto a convertirFechaATexto",
+    "commitTimestamp": 1794487144062,
+    "testId": 99
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794487218277,
+    "success": true,
+    "testId": 100
+  },
+  {
+    "commitId": "b8ae9b2343c725d6bee1e1f5a0d3bea13325e017",
+    "commitName": "refactor: renombrar correoYaRegistrado a estaRegistrado en RegistroUsuario",
+    "commitTimestamp": 1794487228276,
+    "testId": 100
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794487417195,
+    "success": true,
+    "testId": 101
+  },
+  {
+    "commitId": "d619d5526be4ec2b55d10229c623c9d252ce309e",
+    "commitName": "refactor: renombrar el archivo registro.js a registroUsuario.js",
+    "commitTimestamp": 1794487428424,
+    "testId": 101
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794487532132,
+    "success": true,
+    "testId": 102
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794487696031,
+    "success": true,
+    "testId": 102
+  },
+  {
+    "commitId": "6ace7a5e8d1930ecf39a990ac9dfe59589643e02",
+    "commitName": "refactor: usar la función crearError compartida en RegistroUsuario",
+    "commitTimestamp": 1794487707079,
+    "testId": 102
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794487796544,
+    "success": true,
+    "testId": 103
+  },
+  {
+    "commitId": "58872da3dc8bebeb077f5c4b286b6e441cb44fbf",
+    "commitName": "refactor: usar la función crearError compartida en RegistroObjetoEncontrado",
+    "commitTimestamp": 1794487807208,
+    "testId": 103
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794487854300,
+    "success": true,
+    "testId": 104
+  },
+  {
+    "commitId": "58f455cab94c3dcd47fa090239d508cb2975928f",
+    "commitName": "refactor: usar la función crearError compartida en ReporteObjetoPerdido",
+    "commitTimestamp": 1794487865340,
+    "testId": 104
   },
   {
     "commitId": "HEAD",
-    "commitName": "refactor: extraer faltanFotoODescripcion en RegistroObjetoEncontrado",
-    "commitTimestamp": 1794490463135,
-    "testId": 98
+    "commitName": "chore: resolver conflictos de los logs con main",
+    "commitTimestamp": 1794490834863,
+    "testId": 105
   }
 ]

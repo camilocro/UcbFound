@@ -1,22 +1,29 @@
+
 import { useState } from 'react';
 
-const DATOS_INICIALES = { nombre: '', descripcion: '', fecha: '' };
+const CAMPOS_INICIALES = { nombre: '', descripcion: '', fecha: '' };
 
 export default function FormularioReporteObjetoPerdido({ presenter, fechaMaxima }) {
-  const [datos, setDatos] = useState(DATOS_INICIALES);
+  const [camposDelFormulario, setCamposDelFormulario] =
+    useState(CAMPOS_INICIALES);
   const [resultado, setResultado] = useState(null);
 
   const cambiarCampo = (evento) => {
     const { name, value } = evento.target;
-    setDatos({ ...datos, [name]: value });
+    setCamposDelFormulario({
+      ...camposDelFormulario,
+      [name]: value
+    });
   };
 
   const enviar = (evento) => {
     evento.preventDefault();
-    const respuesta = presenter.reportarObjeto(datos);
-    setResultado(respuesta);
-    if (respuesta.exito) {
-      setDatos(DATOS_INICIALES);
+    const resultadoDelReporte =
+      presenter.reportarObjeto(camposDelFormulario);
+    setResultado(resultadoDelReporte);
+
+    if (resultadoDelReporte.exito) {
+      setCamposDelFormulario(CAMPOS_INICIALES);
     }
   };
 
@@ -35,7 +42,7 @@ export default function FormularioReporteObjetoPerdido({ presenter, fechaMaxima 
             name="nombre"
             type="text"
             placeholder="Ej. Mochila negra"
-            value={datos.nombre}
+            value={camposDelFormulario.nombre}
             onChange={cambiarCampo}
           />
         </div>
@@ -47,7 +54,7 @@ export default function FormularioReporteObjetoPerdido({ presenter, fechaMaxima 
             name="descripcion"
             rows="3"
             placeholder="Color, marca, detalles que ayuden a reconocerlo"
-            value={datos.descripcion}
+            value={camposDelFormulario.descripcion}
             onChange={cambiarCampo}
           />
         </div>
@@ -59,7 +66,7 @@ export default function FormularioReporteObjetoPerdido({ presenter, fechaMaxima 
             name="fecha"
             type="date"
             max={fechaMaxima}
-            value={datos.fecha}
+            value={camposDelFormulario.fecha}
             onChange={cambiarCampo}
           />
         </div>

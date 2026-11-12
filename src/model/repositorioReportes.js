@@ -5,17 +5,17 @@ export class RepositorioReportes {
     this.almacenamiento = almacenamiento;
   }
 
-  obtenerReportes() {
+  obtenerTodos() {
     const textoGuardado = this.almacenamiento.getItem(CLAVE_REPORTES);
     return textoGuardado ? JSON.parse(textoGuardado) : [];
   }
 
   obtenerReportesDe(correo) {
-    return this.obtenerReportes().filter((reporte) => reporte.correoDelDueno === correo);
+    return this.obtenerTodos().filter((reporte) => reporte.correoDelDueno === correo);
   }
 
   guardar(reporte) {
-    const reportes = this.obtenerReportes();
+    const reportes = this.obtenerTodos();
     reportes.push(reporte);
     this.almacenamiento.setItem(CLAVE_REPORTES, JSON.stringify(reportes));
   }

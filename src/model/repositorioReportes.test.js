@@ -20,7 +20,7 @@ const llaves = { nombre: 'Llaves', descripcion: '', fecha: '2026-10-16', correoD
 describe('HU-04 Repositorio de objetos perdidos', () => {
   it('debería empezar sin reportes', () => {
     const repositorio = new RepositorioReportes(crearAlmacenamientoFalso());
-    expect(repositorio.obtenerReportes()).toEqual([]);
+    expect(repositorio.obtenerTodos()).toEqual([]);
   });
 });
 

@@ -1,4 +1,4 @@
-function sinTildes(texto) {
+function quitarTildes(texto) {
   return texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 }
 
@@ -13,11 +13,11 @@ export class ObjetoEncontrado {
   }
 
   coincideCon(texto) {
-    const textoBuscado = sinTildes(texto);
-    return sinTildes(this.nombre).includes(textoBuscado) || sinTildes(this.descripcion).includes(textoBuscado);
+    const textoBuscado = quitarTildes(texto);
+    return quitarTildes(this.nombre).includes(textoBuscado) || quitarTildes(this.descripcion).includes(textoBuscado);
   }
 
-  vistaBasica() {
+  obtenerVistaBasica() {
     return {
       id: this.id,
       foto: this.foto,

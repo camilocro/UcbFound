@@ -6,17 +6,17 @@ export class RepositorioUsuarios {
     this.almacenamiento = almacenamiento;
   }
 
-  obtenerUsuarios() {
+  obtenerTodos() {
     const textoGuardado = this.almacenamiento.getItem(CLAVE_USUARIOS);
     return textoGuardado ? JSON.parse(textoGuardado) : [];
   }
 
   obtenerCorreos() {
-    return this.obtenerUsuarios().map((usuario) => usuario.correo);
+    return this.obtenerTodos().map((usuario) => usuario.correo);
   }
 
   guardar(usuario) {
-    const usuarios = this.obtenerUsuarios();
+    const usuarios = this.obtenerTodos();
     usuarios.push(usuario);
     this.almacenamiento.setItem(CLAVE_USUARIOS, JSON.stringify(usuarios));
   }

@@ -1,4 +1,5 @@
 import { Usuario } from './usuario.js';
+import { crearError } from './resultado.js';
 
 export const MENSAJES_REGISTRO = {
   CUENTA_CREADA: 'Cuenta creada correctamente',
@@ -17,26 +18,22 @@ export class RegistroUsuario {
   registrar({ nombre, correo, contrasena }) {
     const usuario = new Usuario(nombre, correo, contrasena);
     if (usuario.tieneCamposVacios()) {
-      return this.crearError(MENSAJES_REGISTRO.CAMPOS_VACIOS);
+      return crearError(MENSAJES_REGISTRO.CAMPOS_VACIOS);
     }
     if (!usuario.tieneCorreoUcb()) {
-      return this.crearError(MENSAJES_REGISTRO.CORREO_NO_UCB);
+      return crearError(MENSAJES_REGISTRO.CORREO_NO_UCB);
     }
     if (!usuario.tieneContrasenaValida()) {
-      return this.crearError(MENSAJES_REGISTRO.CONTRASENA_CORTA);
+      return crearError(MENSAJES_REGISTRO.CONTRASENA_CORTA);
     }
-    if (this.correoYaRegistrado(usuario.correo)) {
-      return this.crearError(MENSAJES_REGISTRO.CORREO_REPETIDO);
+    if (this.estaRegistrado(usuario.correo)) {
+      return crearError(MENSAJES_REGISTRO.CORREO_REPETIDO);
     }
     return { exito: true, mensaje: MENSAJES_REGISTRO.CUENTA_CREADA, usuario };
   }
 
-  correoYaRegistrado(correo) {
+  estaRegistrado(correo) {
     return this.correosRegistrados.includes(correo);
-  }
-
-  crearError(mensaje) {
-    return { exito: false, mensaje };
   }
 }
 

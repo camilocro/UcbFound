@@ -1634,130 +1634,16 @@
     "conclusion": "success"
   },
   {
-    "sha": "ebf11a06c394e8617d331a9d0d4faf1043c78094",
-    "author": "camilocro",
+    "sha": "99f8386cd6d9eae93a60589fc06f4e744903541f",
+    "author": "Maria Sandoval",
     "commit": {
-      "date": "2026-11-10T14:00:27.000Z",
-      "message": "refactor: renombrar MENSAJES a MENSAJES_REGISTRO",
-      "url": "https://github.com/camilocro/UcbFound/commit/ebf11a06c394e8617d331a9d0d4faf1043c78094"
+      "date": "2026-11-10T14:01:00.000Z",
+      "message": "refactor: nombrar como predicados los métodos de ObjetoPerdido",
+      "url": "https://github.com/camilocro/UcbFound/commit/99f8386cd6d9eae93a60589fc06f4e744903541f"
     },
     "stats": {
-      "total": 12,
-      "additions": 6,
-      "deletions": 6,
-      "date": "2026-11-10"
-    },
-    "coverage": 96.32,
-    "test_count": 70,
-    "failed_tests": 0,
-    "conclusion": "success"
-  },
-  {
-    "sha": "377fd2f2823750d6ff960d31e8f339fab653fa71",
-    "author": "camilocro",
-    "commit": {
-      "date": "2026-11-10T14:01:56.000Z",
-      "message": "refactor: renombrar MENSAJES_LOGIN a MENSAJES_INICIO_SESION",
-      "url": "https://github.com/camilocro/UcbFound/commit/377fd2f2823750d6ff960d31e8f339fab653fa71"
-    },
-    "stats": {
-      "total": 8,
+      "total": 9,
       "additions": 4,
-      "deletions": 4,
-      "date": "2026-11-10"
-    },
-    "coverage": 96.32,
-    "test_count": 70,
-    "failed_tests": 0,
-    "conclusion": "success"
-  },
-  {
-    "sha": "6369797a9752372ee8e88b4f2df510291bc2de5a",
-    "author": "camilocro",
-    "commit": {
-      "date": "2026-11-10T14:02:49.000Z",
-      "message": "refactor: aclarar los nombres del repositorio de usuarios",
-      "url": "https://github.com/camilocro/UcbFound/commit/6369797a9752372ee8e88b4f2df510291bc2de5a"
-    },
-    "stats": {
-      "total": 8,
-      "additions": 4,
-      "deletions": 4,
-      "date": "2026-11-10"
-    },
-    "coverage": 96.32,
-    "test_count": 70,
-    "failed_tests": 0,
-    "conclusion": "success"
-  },
-  {
-    "sha": "9722312ee804c95b17ca715f9f1937602ddbdf1a",
-    "author": "camilocro",
-    "commit": {
-      "date": "2026-11-10T14:04:03.000Z",
-      "message": "refactor: aclarar los nombres del repositorio de reportes",
-      "url": "https://github.com/camilocro/UcbFound/commit/9722312ee804c95b17ca715f9f1937602ddbdf1a"
-    },
-    "stats": {
-      "total": 8,
-      "additions": 4,
-      "deletions": 4,
-      "date": "2026-11-10"
-    },
-    "coverage": 96.32,
-    "test_count": 70,
-    "failed_tests": 0,
-    "conclusion": "success"
-  },
-  {
-    "sha": "e4e28d784adb6b472c49bba1227127763275fecf",
-    "author": "camilocro",
-    "commit": {
-      "date": "2026-11-10T14:04:49.000Z",
-      "message": "refactor: aclarar los nombres del repositorio de objetos encontrados",
-      "url": "https://github.com/camilocro/UcbFound/commit/e4e28d784adb6b472c49bba1227127763275fecf"
-    },
-    "stats": {
-      "total": 18,
-      "additions": 9,
-      "deletions": 9,
-      "date": "2026-11-10"
-    },
-    "coverage": 96.32,
-    "test_count": 70,
-    "failed_tests": 0,
-    "conclusion": "success"
-  },
-  {
-    "sha": "a590334dc5418edd5e28706edaf5f84f46563ad6",
-    "author": "camilocro",
-    "commit": {
-      "date": "2026-11-10T14:06:16.000Z",
-      "message": "refactor: renombrar datos a textoGuardado en la sesión",
-      "url": "https://github.com/camilocro/UcbFound/commit/a590334dc5418edd5e28706edaf5f84f46563ad6"
-    },
-    "stats": {
-      "total": 4,
-      "additions": 2,
-      "deletions": 2,
-      "date": "2026-11-10"
-    },
-    "coverage": 96.32,
-    "test_count": 70,
-    "failed_tests": 0,
-    "conclusion": "success"
-  },
-  {
-    "sha": "bdf9a997f1cb04a2ce06ee9df3a10308d97a73b7",
-    "author": "camilocro",
-    "commit": {
-      "date": "2026-11-10T14:07:37.000Z",
-      "message": "refactor: aclarar los nombres del buscador de objetos",
-      "url": "https://github.com/camilocro/UcbFound/commit/bdf9a997f1cb04a2ce06ee9df3a10308d97a73b7"
-    },
-    "stats": {
-      "total": 10,
-      "additions": 5,
       "deletions": 5,
       "date": "2026-11-10"
     },
@@ -1767,18 +1653,151 @@
     "conclusion": "success"
   },
   {
-    "sha": "0790171ff0c4e3ae54e304b3ca389e37b2ffd6ba",
-    "author": "camilocro",
+    "sha": "b4f36971b31166f5f102495c30a7af24ba0db03a",
+    "author": "Maria Sandoval",
     "commit": {
-      "date": "2026-11-10T14:08:29.000Z",
-      "message": "refactor: renombrar buscado a textoBuscado en el objeto encontrado",
-      "url": "https://github.com/camilocro/UcbFound/commit/0790171ff0c4e3ae54e304b3ca389e37b2ffd6ba"
+      "date": "2026-11-10T14:02:01.000Z",
+      "message": "refactor: agrupar las pruebas repetidas del registro de usuario",
+      "url": "https://github.com/camilocro/UcbFound/commit/b4f36971b31166f5f102495c30a7af24ba0db03a"
+    },
+    "stats": {
+      "total": 111,
+      "additions": 70,
+      "deletions": 41,
+      "date": "2026-11-10"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "e088eaaeec1ee1a9f9b059abc0237aa1d90642f7",
+    "author": "Maria Sandoval",
+    "commit": {
+      "date": "2026-11-10T14:22:20.000Z",
+      "message": "chore: unir main en la rama refactor/majo-objeto-perdido",
+      "url": "https://github.com/camilocro/UcbFound/commit/e088eaaeec1ee1a9f9b059abc0237aa1d90642f7"
+    },
+    "stats": {
+      "total": 150,
+      "additions": 75,
+      "deletions": 75,
+      "date": "2026-11-10"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "1ce7f3465590f5ae47698dfedcb5e35336909e8f",
+    "author": "Maria Sandoval",
+    "commit": {
+      "date": "2026-11-10T14:26:01.000Z",
+      "message": "chore: unir main en la rama refactor/majo-objeto-perdido",
+      "url": "https://github.com/camilocro/UcbFound/commit/1ce7f3465590f5ae47698dfedcb5e35336909e8f"
+    },
+    "stats": {
+      "total": 46,
+      "additions": 28,
+      "deletions": 18,
+      "date": "2026-11-10"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "b54554a5113c49aa437a8d8ad7bf81480462cbcb",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-10T14:41:09.000Z",
+      "message": "chore: resolver conflictos de los logs con main",
+      "url": "https://github.com/camilocro/UcbFound/commit/b54554a5113c49aa437a8d8ad7bf81480462cbcb"
+    },
+    "stats": {
+      "total": 166,
+      "additions": 102,
+      "deletions": 64,
+      "date": "2026-11-10"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "3bddcefe2e2216ec4d782aaad4b2e83b632263a2",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-10T14:43:59.000Z",
+      "message": "test: registrar ejecucion de pruebas",
+      "url": "https://github.com/camilocro/UcbFound/commit/3bddcefe2e2216ec4d782aaad4b2e83b632263a2"
+    },
+    "stats": {
+      "total": 0,
+      "additions": 0,
+      "deletions": 0,
+      "date": "2026-11-10"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "d676277bdaf96b0dfafbd0c36cdffdca53899579",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T12:19:22.000Z",
+      "message": "chore: resolver conflictos de los logs con main",
+      "url": "https://github.com/camilocro/UcbFound/commit/d676277bdaf96b0dfafbd0c36cdffdca53899579"
+    },
+    "stats": {
+      "total": 178,
+      "additions": 110,
+      "deletions": 68,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "0df59a64bc52423ce8b59902bac829bfbc27dec6",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T12:23:57.000Z",
+      "message": "refactor: renombrar mostrarPagina a resolverPagina en SesionPresenter",
+      "url": "https://github.com/camilocro/UcbFound/commit/0df59a64bc52423ce8b59902bac829bfbc27dec6"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 3,
+      "deletions": 3,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "d404ffdf8ece3230707dbc9db47402e23ed36b9a",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T12:25:18.000Z",
+      "message": "refactor: renombrar pidioIniciarSesion a fueRedirigidoAlLogin en main",
+      "url": "https://github.com/camilocro/UcbFound/commit/d404ffdf8ece3230707dbc9db47402e23ed36b9a"
     },
     "stats": {
       "total": 4,
       "additions": 2,
       "deletions": 2,
-      "date": "2026-11-10"
+      "date": "2026-11-12"
     },
     "coverage": 96.32,
     "test_count": 70,
@@ -1786,18 +1805,151 @@
     "conclusion": "success"
   },
   {
-    "sha": "4eb350c38ba748e2e1c570ff0a7b9fa8d4c796c4",
-    "author": "camilocro",
+    "sha": "091103eb2222ce03b7f478079ae9a09351d27118",
+    "author": "nazaclaure",
     "commit": {
-      "date": "2026-11-10T14:09:19.000Z",
-      "message": "refactor: aclarar los nombres de la vista de búsqueda",
-      "url": "https://github.com/camilocro/UcbFound/commit/4eb350c38ba748e2e1c570ff0a7b9fa8d4c796c4"
+      "date": "2026-11-12T12:27:26.000Z",
+      "message": "refactor: renombrar vistaBasica a obtenerVistaBasica en ObjetoEncontrado",
+      "url": "https://github.com/camilocro/UcbFound/commit/091103eb2222ce03b7f478079ae9a09351d27118"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 5,
+      "deletions": 5,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "0ba2720453257fb7c8523a0fa8e6fe5e72131254",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T12:29:10.000Z",
+      "message": "refactor: renombrar obtenerUsuarios a obtenerTodos en RepositorioUsuarios",
+      "url": "https://github.com/camilocro/UcbFound/commit/0ba2720453257fb7c8523a0fa8e6fe5e72131254"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 6,
+      "deletions": 6,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "87f97ae3310cb9de60d9943295fe0802898ff15f",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T12:31:41.000Z",
+      "message": "refactor: renombrar obtenerReportes a obtenerTodos en RepositorioReportes",
+      "url": "https://github.com/camilocro/UcbFound/commit/87f97ae3310cb9de60d9943295fe0802898ff15f"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 4,
+      "deletions": 4,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "e5e78307d12405eea135f45727bd1eb8d54fa949",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T12:37:21.000Z",
+      "message": "refactor: renombrar sinTildes a quitarTildes en ObjetoEncontrado",
+      "url": "https://github.com/camilocro/UcbFound/commit/e5e78307d12405eea135f45727bd1eb8d54fa949"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 3,
+      "deletions": 3,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "8537c7d5ccdfdce872cc92d6538f7b9203ed75b1",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T12:38:57.000Z",
+      "message": "refactor: renombrar fechaComoTexto a convertirFechaATexto",
+      "url": "https://github.com/camilocro/UcbFound/commit/8537c7d5ccdfdce872cc92d6538f7b9203ed75b1"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 9,
+      "deletions": 9,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "b8ae9b2343c725d6bee1e1f5a0d3bea13325e017",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T12:40:21.000Z",
+      "message": "refactor: renombrar correoYaRegistrado a estaRegistrado en RegistroUsuario",
+      "url": "https://github.com/camilocro/UcbFound/commit/b8ae9b2343c725d6bee1e1f5a0d3bea13325e017"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "d619d5526be4ec2b55d10229c623c9d252ce309e",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T12:43:41.000Z",
+      "message": "refactor: renombrar el archivo registro.js a registroUsuario.js",
+      "url": "https://github.com/camilocro/UcbFound/commit/d619d5526be4ec2b55d10229c623c9d252ce309e"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "6ace7a5e8d1930ecf39a990ac9dfe59589643e02",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T12:48:20.000Z",
+      "message": "refactor: usar la función crearError compartida en RegistroUsuario",
+      "url": "https://github.com/camilocro/UcbFound/commit/6ace7a5e8d1930ecf39a990ac9dfe59589643e02"
     },
     "stats": {
       "total": 16,
       "additions": 8,
       "deletions": 8,
-      "date": "2026-11-10"
+      "date": "2026-11-12"
     },
     "coverage": 96.32,
     "test_count": 70,
@@ -1805,58 +1957,39 @@
     "conclusion": "success"
   },
   {
-    "sha": "5543bf3218015c5cbe4f42787677c7c42f015d01",
-    "author": "camilocro",
+    "sha": "58872da3dc8bebeb077f5c4b286b6e441cb44fbf",
+    "author": "nazaclaure",
     "commit": {
-      "date": "2026-11-10T14:11:19.000Z",
-      "message": "refactor: aclarar los nombres de los datos de ejemplo",
-      "url": "https://github.com/camilocro/UcbFound/commit/5543bf3218015c5cbe4f42787677c7c42f015d01"
+      "date": "2026-11-12T12:50:00.000Z",
+      "message": "refactor: usar la función crearError compartida en RegistroObjetoEncontrado",
+      "url": "https://github.com/camilocro/UcbFound/commit/58872da3dc8bebeb077f5c4b286b6e441cb44fbf"
     },
     "stats": {
-      "total": 26,
-      "additions": 13,
-      "deletions": 13,
-      "date": "2026-11-10"
+      "total": 9,
+      "additions": 3,
+      "deletions": 6,
+      "date": "2026-11-12"
     },
-    "coverage": 96.32,
+    "coverage": 96.3,
     "test_count": 70,
     "failed_tests": 0,
     "conclusion": "success"
   },
   {
-    "sha": "1c1bd1c0fe510f8832ef1cd10b3f4bb2c85d2283",
-    "author": "camilocro",
+    "sha": "58f455cab94c3dcd47fa090239d508cb2975928f",
+    "author": "nazaclaure",
     "commit": {
-      "date": "2026-11-10T14:12:24.000Z",
-      "message": "refactor: aclarar los nombres del formulario de objeto encontrado",
-      "url": "https://github.com/camilocro/UcbFound/commit/1c1bd1c0fe510f8832ef1cd10b3f4bb2c85d2283"
+      "date": "2026-11-12T12:50:58.000Z",
+      "message": "refactor: usar la función crearError compartida en ReporteObjetoPerdido",
+      "url": "https://github.com/camilocro/UcbFound/commit/58f455cab94c3dcd47fa090239d508cb2975928f"
     },
     "stats": {
-      "total": 16,
-      "additions": 8,
-      "deletions": 8,
-      "date": "2026-11-10"
+      "total": 9,
+      "additions": 3,
+      "deletions": 6,
+      "date": "2026-11-12"
     },
-    "coverage": 96.32,
-    "test_count": 70,
-    "failed_tests": 0,
-    "conclusion": "success"
-  },
-  {
-    "sha": "cfe9777d246aa4853f76e247eecb1e55fd8d7a05",
-    "author": "camilocro",
-    "commit": {
-      "date": "2026-11-10T14:13:36.000Z",
-      "message": "refactor: aclarar los nombres en main.jsx",
-      "url": "https://github.com/camilocro/UcbFound/commit/cfe9777d246aa4853f76e247eecb1e55fd8d7a05"
-    },
-    "stats": {
-      "total": 20,
-      "additions": 10,
-      "deletions": 10,
-      "date": "2026-11-10"
-    },
-    "coverage": 96.32,
+    "coverage": 96.28,
     "test_count": 70,
     "failed_tests": 0,
     "conclusion": "success"
@@ -1865,17 +1998,17 @@
     "sha": "HEAD",
     "author": "camilocro",
     "commit": {
-      "date": "2026-11-12T13:34:05.000Z",
-      "message": "refactor: extraer faltanFotoODescripcion en RegistroObjetoEncontrado",
+      "date": "2026-11-12T13:40:22.000Z",
+      "message": "chore: resolver conflictos de los logs con main",
       "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
     },
     "stats": {
-      "total": 4,
-      "additions": 4,
-      "deletions": 0,
+      "total": 336,
+      "additions": 191,
+      "deletions": 145,
       "date": "2026-11-12"
     },
-    "coverage": 95.81,
+    "coverage": 95.77,
     "test_count": 70,
     "failed_tests": 0,
     "conclusion": "success"

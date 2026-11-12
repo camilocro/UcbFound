@@ -30,7 +30,7 @@ describe('HU-07 Objeto encontrado: mayúsculas', () => {
 
 describe('HU-09 Criterio 1: vista básica del objeto', () => {
   it('debería mostrar la foto, el nombre, la descripción y la fecha', () => {
-    const vista = mochila.vistaBasica();
+    const vista = mochila.obtenerVistaBasica();
     expect([vista.foto, vista.nombre, vista.descripcion, vista.fecha]).toEqual([
       'data:image/png;base64,AAA',
       'Mochila negra',
@@ -42,7 +42,7 @@ describe('HU-09 Criterio 1: vista básica del objeto', () => {
 
 describe('HU-09 Criterio 2: sin datos personales', () => {
   it('no debería mostrar los datos de quien encontró el objeto', () => {
-    expect('correoDeQuienEncontro' in mochila.vistaBasica()).toBe(false);
+    expect('correoDeQuienEncontro' in mochila.obtenerVistaBasica()).toBe(false);
   });
 });
 
