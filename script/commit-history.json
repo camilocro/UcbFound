@@ -2546,12 +2546,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5e616f99f73e25eff72f24e88c1a6c55aae08c40",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T20:24:43.000Z",
       "message": "refactor: usar lectorDeFoto en el formulario y quitar la lógica de achicar de la vista",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/5e616f99f73e25eff72f24e88c1a6c55aae08c40"
     },
     "stats": {
       "total": 40,
@@ -2561,6 +2561,63 @@
     },
     "coverage": 97.25,
     "test_count": 90,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "c872d2be88024d258d515f00e04f0e8ec7ae22bd",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T20:52:23.000Z",
+      "message": "test: simular el error real de almacenamiento lleno del navegador",
+      "url": "https://github.com/camilocro/UcbFound/commit/c872d2be88024d258d515f00e04f0e8ec7ae22bd"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.25,
+    "test_count": 90,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "da1598cc73d095d22784d2a433b1789e882eee10",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T20:54:39.000Z",
+      "message": "feat: distinguir el error de espacio lleno de otros fallos al guardar el objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/da1598cc73d095d22784d2a433b1789e882eee10"
+    },
+    "stats": {
+      "total": 29,
+      "additions": 27,
+      "deletions": 2,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.27,
+    "test_count": 91,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T20:59:21.000Z",
+      "message": "feat: mostrar un error y quitar Cargando foto cuando falla la lectura de la foto",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 17,
+      "deletions": 3,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.27,
+    "test_count": 91,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -2724,9 +2724,59 @@
     "testId": 134
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5e616f99f73e25eff72f24e88c1a6c55aae08c40",
     "commitName": "refactor: usar lectorDeFoto en el formulario y quitar la lógica de achicar de la vista",
     "commitTimestamp": 1794515091244,
     "testId": 134
+  },
+  {
+    "numPassedTests": 90,
+    "failedTests": 0,
+    "numTotalTests": 90,
+    "timestamp": 1794516740276,
+    "success": true,
+    "testId": 135
+  },
+  {
+    "commitId": "c872d2be88024d258d515f00e04f0e8ec7ae22bd",
+    "commitName": "test: simular el error real de almacenamiento lleno del navegador",
+    "commitTimestamp": 1794516751295,
+    "testId": 135
+  },
+  {
+    "numPassedTests": 90,
+    "failedTests": 1,
+    "numTotalTests": 91,
+    "timestamp": 1794516797881,
+    "success": false,
+    "testId": 136
+  },
+  {
+    "numPassedTests": 91,
+    "failedTests": 0,
+    "numTotalTests": 91,
+    "timestamp": 1794516854883,
+    "success": true,
+    "testId": 136
+  },
+  {
+    "commitId": "da1598cc73d095d22784d2a433b1789e882eee10",
+    "commitName": "feat: distinguir el error de espacio lleno de otros fallos al guardar el objeto",
+    "commitTimestamp": 1794516886181,
+    "testId": 136
+  },
+  {
+    "numPassedTests": 91,
+    "failedTests": 0,
+    "numTotalTests": 91,
+    "timestamp": 1794517157841,
+    "success": true,
+    "testId": 137
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar un error y quitar Cargando foto cuando falla la lectura de la foto",
+    "commitTimestamp": 1794517168386,
+    "testId": 137
   }
 ]
