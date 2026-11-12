@@ -2206,9 +2206,31 @@
     "testId": 109
   },
   {
-    "commitId": "HEAD",
+    "commitId": "980e05c5f5e15aab2be7beb1310b98af99a9deb6",
     "commitName": "refactor: ajusta el diseño del registro de objeto encontrado al prototipo",
     "commitTimestamp": 1794492827477,
     "testId": 109
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 1,
+    "numTotalTests": 71,
+    "timestamp": 1794496542559,
+    "success": false,
+    "testId": 110
+  },
+  {
+    "numPassedTests": 71,
+    "failedTests": 0,
+    "numTotalTests": 71,
+    "timestamp": 1794496694414,
+    "success": true,
+    "testId": 110
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: guardar la categoría del objeto encontrado (HU-13)",
+    "commitTimestamp": 1794496724183,
+    "testId": 110
   }
 ]

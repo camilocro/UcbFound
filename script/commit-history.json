@@ -2071,12 +2071,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "980e05c5f5e15aab2be7beb1310b98af99a9deb6",
     "author": "camilocro",
     "commit": {
       "date": "2026-11-12T14:13:35.000Z",
       "message": "refactor: ajusta el diseño del registro de objeto encontrado al prototipo",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/980e05c5f5e15aab2be7beb1310b98af99a9deb6"
     },
     "stats": {
       "total": 113,
@@ -2086,6 +2086,25 @@
     },
     "coverage": 96.3,
     "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-12T15:18:34.000Z",
+      "message": "feat: guardar la categoría del objeto encontrado (HU-13)",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 10,
+      "deletions": 2,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.32,
+    "test_count": 71,
     "failed_tests": 0,
     "conclusion": "success"
   }

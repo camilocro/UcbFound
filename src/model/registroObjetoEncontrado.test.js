@@ -66,3 +66,9 @@ describe('HU-11 Criterio 3: solo imágenes', () => {
     expect(resultado).toEqual({ exito: false, mensaje: 'Solo se permiten imágenes' });
   });
 });
+describe('HU-13 Criterio 3: categoría guardada', () => {
+  it('debería guardar la categoría junto con el objeto', () => {
+    const resultado = registro.registrar({ ...datosValidos, categoria: 'Electrónica' }, CORREO);
+    expect(resultado.objeto.categoria).toEqual('Electrónica');
+  });
+});

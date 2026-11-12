@@ -20,7 +20,7 @@ export class RegistroObjetoEncontrado {
     this.crearId = crearId;
   }
 
-  registrar({ nombre, descripcion, foto }, correoDeQuienEncontro) {
+  registrar({ nombre, descripcion, foto, categoria }, correoDeQuienEncontro) {
     if (faltanFotoODescripcion(foto, descripcion)) {
       return crearError(MENSAJES_REGISTRO_OBJETO.FALTAN_FOTO_O_DESCRIPCION);
     }
@@ -34,6 +34,7 @@ export class RegistroObjetoEncontrado {
       fecha: this.fechaDeHoy,
       foto,
       correoDeQuienEncontro,
+      categoria,
     });
     return { exito: true, mensaje: MENSAJES_REGISTRO_OBJETO.OBJETO_REGISTRADO, objeto };
   }

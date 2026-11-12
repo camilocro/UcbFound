@@ -3,13 +3,14 @@ function quitarTildes(texto) {
 }
 
 export class ObjetoEncontrado {
-  constructor({ id, nombre, descripcion, fecha, foto, correoDeQuienEncontro }) {
+  constructor({ id, nombre, descripcion, fecha, foto, correoDeQuienEncontro, categoria }) {
     this.id = id;
     this.nombre = nombre;
     this.descripcion = descripcion;
     this.fecha = fecha;
     this.foto = foto;
     this.correoDeQuienEncontro = correoDeQuienEncontro;
+    this.categoria = categoria;
   }
 
   coincideCon(texto) {
