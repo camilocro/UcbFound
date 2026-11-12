@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const DATOS_INICIALES = { nombre: '', descripcion: '', foto: '' };
+const DATOS_INICIALES = { nombre: '', descripcion: '', foto: '', categoria: '' };
 const LADO_MAXIMO_EN_PIXELES = 800;
 
 function leerArchivo(archivo) {
@@ -55,6 +55,7 @@ export default function FormularioObjetoEncontrado({ presenter, alVerLista }) {
   const [resultado, setResultado] = useState(null);
   const [estaCargandoFoto, setEstaCargandoFoto] = useState(false);
   const [claveCampoFoto, setClaveCampoFoto] = useState(0);
+  const categorias = presenter.obtenerCategorias();
 
   const cambiarCampo = (evento) => {
     const { name, value } = evento.target;
@@ -126,6 +127,18 @@ export default function FormularioObjetoEncontrado({ presenter, alVerLista }) {
             value={datos.nombre}
             onChange={cambiarCampo}
           />
+        </div>
+
+        <div className="campo">
+          <label htmlFor="categoria-encontrado">Categoría *</label>
+          <select id="categoria-encontrado" name="categoria" value={datos.categoria} onChange={cambiarCampo}>
+            <option value="">Elige una categoría</option>
+            {categorias.map((categoria) => (
+              <option key={categoria} value={categoria}>
+                {categoria}
+              </option>
+            ))}
+          </select>
         </div>
 
         <div className="campo">

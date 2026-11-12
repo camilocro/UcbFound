@@ -2338,9 +2338,31 @@
     "testId": 115
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d9db9260885aed1bc116e0d803cdf3abe4734f3a",
     "commitName": "feat: ofrecer la lista de categorías al formulario (HU-13)",
     "commitTimestamp": 1794497944742,
     "testId": 115
+  },
+  {
+    "numPassedTests": 76,
+    "failedTests": 0,
+    "numTotalTests": 76,
+    "timestamp": 1794498120820,
+    "success": true,
+    "testId": 116
+  },
+  {
+    "numPassedTests": 76,
+    "failedTests": 0,
+    "numTotalTests": 76,
+    "timestamp": 1794498290132,
+    "success": true,
+    "testId": 116
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: elegir la categoría en el formulario y verla en el detalle (HU-13)",
+    "commitTimestamp": 1794498394886,
+    "testId": 116
   }
 ]

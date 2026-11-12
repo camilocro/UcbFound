@@ -2185,17 +2185,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d9db9260885aed1bc116e0d803cdf3abe4734f3a",
     "author": "camilocro",
     "commit": {
       "date": "2026-11-12T15:38:54.000Z",
       "message": "feat: ofrecer la lista de categorías al formulario (HU-13)",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/d9db9260885aed1bc116e0d803cdf3abe4734f3a"
     },
     "stats": {
       "total": 12,
       "additions": 12,
       "deletions": 0,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.43,
+    "test_count": 76,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-12T15:46:22.000Z",
+      "message": "feat: elegir la categoría en el formulario y verla en el detalle (HU-13)",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 43,
+      "additions": 42,
+      "deletions": 1,
       "date": "2026-11-12"
     },
     "coverage": 96.43,
