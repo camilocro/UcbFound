@@ -2603,12 +2603,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "146f2863f377b743a1e9475599ab4f30ceee84bc",
+    "sha": "38cc1b555d03a6cf11ff3e1d4e8fd770420b90e4",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T20:59:21.000Z",
       "message": "feat: mostrar un error y quitar Cargando foto cuando falla la lectura de la foto",
-      "url": "https://github.com/camilocro/UcbFound/commit/146f2863f377b743a1e9475599ab4f30ceee84bc"
+      "url": "https://github.com/camilocro/UcbFound/commit/38cc1b555d03a6cf11ff3e1d4e8fd770420b90e4"
     },
     "stats": {
       "total": 20,
@@ -2622,21 +2622,21 @@
     "conclusion": "success"
   },
   {
-    "sha": "0f01ac47b7f5cf1935c901cc74781001e04d0cf5",
-    "author": "nazaclaure",
+    "sha": "8d11df7910e9957f1de92fe7d1f853ebdc14fde1",
+    "author": "camilocro",
     "commit": {
-      "date": "2026-11-12T22:15:31.000Z",
-      "message": "feat: enfocar el correo y activar el autocompletado en el inicio de sesión",
-      "url": "https://github.com/camilocro/UcbFound/commit/0f01ac47b7f5cf1935c901cc74781001e04d0cf5"
+      "date": "2026-11-12T22:15:39.000Z",
+      "message": "chore: resolver conflictos de los logs con main",
+      "url": "https://github.com/camilocro/UcbFound/commit/8d11df7910e9957f1de92fe7d1f853ebdc14fde1"
     },
     "stats": {
-      "total": 3,
-      "additions": 3,
-      "deletions": 0,
+      "total": 164,
+      "additions": 117,
+      "deletions": 47,
       "date": "2026-11-12"
     },
-    "coverage": 97.27,
-    "test_count": 91,
+    "coverage": 99.1,
+    "test_count": 95,
     "failed_tests": 0,
     "conclusion": "success"
   },
@@ -2644,18 +2644,18 @@
     "sha": "HEAD",
     "author": "nazaclaure",
     "commit": {
-      "date": "2026-11-12T22:20:50.000Z",
-      "message": "feat: usar el botón azul en el inicio de sesión",
+      "date": "2026-11-12T22:27:10.000Z",
+      "message": "chore: resolver conflictos con main (apariencia del inicio de sesión)",
       "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
     },
     "stats": {
-      "total": 2,
-      "additions": 1,
-      "deletions": 1,
+      "total": 72,
+      "additions": 64,
+      "deletions": 8,
       "date": "2026-11-12"
     },
-    "coverage": 97.27,
-    "test_count": 91,
+    "coverage": 99.1,
+    "test_count": 95,
     "failed_tests": 0,
     "conclusion": "success"
   }

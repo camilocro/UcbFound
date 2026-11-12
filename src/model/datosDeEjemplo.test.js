@@ -30,3 +30,49 @@ describe('Datos de ejemplo: sin duplicar', () => {
     expect(repositorio.obtenerTodos().length).toBe(6);
   });
 });
+describe('Datos de ejemplo: categoría', () => {
+  it('debería cargar cada objeto de ejemplo con su categoría', () => {
+    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+    cargarDatosDeEjemplo(repositorio);
+    const categorias = repositorio.obtenerTodos().map((objeto) => objeto.categoria);
+    expect(categorias).toEqual([
+      'Mochilas y bolsos',
+      'Electrónica',
+      'Botellas y termos',
+      'Electrónica',
+      'Llaves',
+      'Electrónica',
+    ]);
+  });
+});
+describe('Datos de ejemplo: categoría en ejemplos ya guardados', () => {
+  it('debería agregar la categoría a un ejemplo que se guardó antes sin ella', () => {
+    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+    repositorio.guardar({ id: 'ejemplo-1', nombre: 'Mochila negra', descripcion: 'Mochila con un llavero de la UCB', fecha: '2026-10-06', foto: 'https://foto.jpg', correoDeQuienEncontro: 'ana.lopez@ucb.edu.bo' });
+    cargarDatosDeEjemplo(repositorio);
+    expect(repositorio.buscarPorId('ejemplo-1').obtenerDetalle().categoria).toEqual('Mochilas y bolsos');
+  });
+});
+describe('Datos de ejemplo: lugar', () => {
+  it('debería cargar cada objeto de ejemplo con el lugar donde se encontró', () => {
+    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+    cargarDatosDeEjemplo(repositorio);
+    const lugares = repositorio.obtenerTodos().map((objeto) => objeto.obtenerDetalle().lugar);
+    expect(lugares).toEqual([
+      'Tupuraya 1 - Biblioteca',
+      'Tupuraya 2 - Bloque A, A-204',
+      'Tupuraya 2 - Canchas',
+      'Tupuraya 2 - Bloque C, C-101',
+      'Tupuraya 2 - Parqueo',
+      'Tupuraya 1 - Bloque B, B-305',
+    ]);
+  });
+});
+describe('Datos de ejemplo: lugar en ejemplos ya guardados', () => {
+  it('debería agregar el lugar a un ejemplo que se guardó antes sin él', () => {
+    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+    repositorio.guardar({ id: 'ejemplo-2', nombre: 'Cargador de laptop', descripcion: 'Cargador marca HP con cable negro', fecha: '2026-10-08', foto: 'https://foto.jpg', correoDeQuienEncontro: 'luis.rojas@ucb.edu.bo' });
+    cargarDatosDeEjemplo(repositorio);
+    expect(repositorio.buscarPorId('ejemplo-2').obtenerDetalle().lugar).toEqual('Tupuraya 2 - Bloque A, A-204');
+  });
+});
