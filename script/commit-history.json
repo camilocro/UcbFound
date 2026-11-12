@@ -2432,59 +2432,192 @@
     "conclusion": "success"
   },
   {
-    "sha": "ae5c862de1e5931fcb1023d9ff3ed6bb53fbde96",
-    "author": "camilocro",
+    "sha": "2e778b520e4809d4dda7ece77ed360fefa38971e",
+    "author": "nazaclaure",
     "commit": {
-      "date": "2026-11-12T20:14:29.000Z",
-      "message": "feat: agregar la categoría a los datos de ejemplo",
-      "url": "https://github.com/camilocro/UcbFound/commit/ae5c862de1e5931fcb1023d9ff3ed6bb53fbde96"
+      "date": "2026-11-12T20:03:28.000Z",
+      "message": "feat: agregar esImagen para reconocer si una foto es una imagen",
+      "url": "https://github.com/camilocro/UcbFound/commit/2e778b520e4809d4dda7ece77ed360fefa38971e"
     },
     "stats": {
-      "total": 27,
-      "additions": 21,
-      "deletions": 6,
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
       "date": "2026-11-12"
     },
-    "coverage": 97.18,
+    "coverage": 97.21,
     "test_count": 88,
     "failed_tests": 0,
     "conclusion": "success"
   },
   {
-    "sha": "44b0bd7adfbef15b362d9e75e8bec45c6f476d4a",
-    "author": "camilocro",
+    "sha": "7069052dbc606a512b60d1dff0b72422fa697b3b",
+    "author": "nazaclaure",
     "commit": {
-      "date": "2026-11-12T20:33:45.000Z",
-      "message": "feat: completar la categoría de los ejemplos ya guardados",
-      "url": "https://github.com/camilocro/UcbFound/commit/44b0bd7adfbef15b362d9e75e8bec45c6f476d4a"
+      "date": "2026-11-12T20:05:44.000Z",
+      "message": "refactor: usar esImagen para validar la foto al registrar un objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/7069052dbc606a512b60d1dff0b72422fa697b3b"
     },
     "stats": {
-      "total": 20,
-      "additions": 18,
-      "deletions": 2,
+      "total": 3,
+      "additions": 2,
+      "deletions": 1,
       "date": "2026-11-12"
     },
-    "coverage": 99.07,
+    "coverage": 97.21,
+    "test_count": 88,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "5a8c5a565bf9c3ce7e98b940a07bc3a93de11ad9",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T20:07:47.000Z",
+      "message": "refactor: usar esImagen para mostrar la vista previa de la foto",
+      "url": "https://github.com/camilocro/UcbFound/commit/5a8c5a565bf9c3ce7e98b940a07bc3a93de11ad9"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 2,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.21,
+    "test_count": 88,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "67e9f21273eb0d7093bfcb7dbe2bb87fe93190bc",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T20:19:35.000Z",
+      "message": "feat: calcular el tamaño reducido de una foto grande",
+      "url": "https://github.com/camilocro/UcbFound/commit/67e9f21273eb0d7093bfcb7dbe2bb87fe93190bc"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.25,
     "test_count": 89,
     "failed_tests": 0,
     "conclusion": "success"
   },
   {
-    "sha": "d7fae1fd4184dcd52ea9eafd7b5fbf0dbbf42168",
-    "author": "camilocro",
+    "sha": "e46b0a9139124cfc1ca77f37fa797ecde86573ea",
+    "author": "nazaclaure",
     "commit": {
-      "date": "2026-11-12T20:36:39.000Z",
-      "message": "feat: agregar el lugar a los datos de ejemplo",
-      "url": "https://github.com/camilocro/UcbFound/commit/d7fae1fd4184dcd52ea9eafd7b5fbf0dbbf42168"
+      "date": "2026-11-12T20:21:13.000Z",
+      "message": "feat: no agrandar las fotos que ya son pequeñas",
+      "url": "https://github.com/camilocro/UcbFound/commit/e46b0a9139124cfc1ca77f37fa797ecde86573ea"
     },
     "stats": {
-      "total": 27,
-      "additions": 21,
-      "deletions": 6,
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
       "date": "2026-11-12"
     },
-    "coverage": 99.07,
+    "coverage": 97.25,
     "test_count": 90,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "60972f0b96481282eceb2b14004897b25de0cc5f",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T20:22:11.000Z",
+      "message": "refactor: crear lectorDeFoto con la lectura y el achicado de la foto",
+      "url": "https://github.com/camilocro/UcbFound/commit/60972f0b96481282eceb2b14004897b25de0cc5f"
+    },
+    "stats": {
+      "total": 39,
+      "additions": 39,
+      "deletions": 0,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.25,
+    "test_count": 90,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "5e616f99f73e25eff72f24e88c1a6c55aae08c40",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T20:24:43.000Z",
+      "message": "refactor: usar lectorDeFoto en el formulario y quitar la lógica de achicar de la vista",
+      "url": "https://github.com/camilocro/UcbFound/commit/5e616f99f73e25eff72f24e88c1a6c55aae08c40"
+    },
+    "stats": {
+      "total": 40,
+      "additions": 1,
+      "deletions": 39,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.25,
+    "test_count": 90,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "c872d2be88024d258d515f00e04f0e8ec7ae22bd",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T20:52:23.000Z",
+      "message": "test: simular el error real de almacenamiento lleno del navegador",
+      "url": "https://github.com/camilocro/UcbFound/commit/c872d2be88024d258d515f00e04f0e8ec7ae22bd"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.25,
+    "test_count": 90,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "da1598cc73d095d22784d2a433b1789e882eee10",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T20:54:39.000Z",
+      "message": "feat: distinguir el error de espacio lleno de otros fallos al guardar el objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/da1598cc73d095d22784d2a433b1789e882eee10"
+    },
+    "stats": {
+      "total": 29,
+      "additions": 27,
+      "deletions": 2,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.27,
+    "test_count": 91,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "38cc1b555d03a6cf11ff3e1d4e8fd770420b90e4",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T20:59:21.000Z",
+      "message": "feat: mostrar un error y quitar Cargando foto cuando falla la lectura de la foto",
+      "url": "https://github.com/camilocro/UcbFound/commit/38cc1b555d03a6cf11ff3e1d4e8fd770420b90e4"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 17,
+      "deletions": 3,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.27,
+    "test_count": 91,
     "failed_tests": 0,
     "conclusion": "success"
   },
@@ -2492,18 +2625,18 @@
     "sha": "HEAD",
     "author": "camilocro",
     "commit": {
-      "date": "2026-11-12T22:11:23.000Z",
-      "message": "feat: completar el lugar de los ejemplos ya guardados",
+      "date": "2026-11-12T22:15:39.000Z",
+      "message": "chore: resolver conflictos de los logs con main",
       "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
     },
     "stats": {
-      "total": 10,
-      "additions": 10,
-      "deletions": 0,
+      "total": 164,
+      "additions": 117,
+      "deletions": 47,
       "date": "2026-11-12"
     },
-    "coverage": 99.07,
-    "test_count": 91,
+    "coverage": 99.1,
+    "test_count": 95,
     "failed_tests": 0,
     "conclusion": "success"
   }

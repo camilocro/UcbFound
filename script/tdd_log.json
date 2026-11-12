@@ -2601,9 +2601,9 @@
   },
   {
     "numPassedTests": 87,
-    "failedTests": 1,
-    "numTotalTests": 88,
-    "timestamp": 1794514317091,
+    "failedTests": 0,
+    "numTotalTests": 87,
+    "timestamp": 1794513767651,
     "success": false,
     "testId": 128
   },
@@ -2611,80 +2611,186 @@
     "numPassedTests": 88,
     "failedTests": 0,
     "numTotalTests": 88,
-    "timestamp": 1794514425993,
+    "timestamp": 1794513797659,
     "success": true,
     "testId": 128
   },
   {
-    "commitId": "ae5c862de1e5931fcb1023d9ff3ed6bb53fbde96",
-    "commitName": "feat: agregar la categoría a los datos de ejemplo",
-    "commitTimestamp": 1794514483157,
+    "commitId": "2e778b520e4809d4dda7ece77ed360fefa38971e",
+    "commitName": "feat: agregar esImagen para reconocer si una foto es una imagen",
+    "commitTimestamp": 1794513815516,
     "testId": 128
+  },
+  {
+    "numPassedTests": 88,
+    "failedTests": 0,
+    "numTotalTests": 88,
+    "timestamp": 1794513940737,
+    "success": true,
+    "testId": 129
+  },
+  {
+    "commitId": "7069052dbc606a512b60d1dff0b72422fa697b3b",
+    "commitName": "refactor: usar esImagen para validar la foto al registrar un objeto",
+    "commitTimestamp": 1794513951727,
+    "testId": 129
+  },
+  {
+    "numPassedTests": 88,
+    "failedTests": 0,
+    "numTotalTests": 88,
+    "timestamp": 1794513988421,
+    "success": true,
+    "testId": 130
+  },
+  {
+    "numPassedTests": 88,
+    "failedTests": 0,
+    "numTotalTests": 88,
+    "timestamp": 1794514063287,
+    "success": true,
+    "testId": 130
+  },
+  {
+    "commitId": "5a8c5a565bf9c3ce7e98b940a07bc3a93de11ad9",
+    "commitName": "refactor: usar esImagen para mostrar la vista previa de la foto",
+    "commitTimestamp": 1794514075541,
+    "testId": 130
   },
   {
     "numPassedTests": 88,
     "failedTests": 1,
     "numTotalTests": 89,
-    "timestamp": 1794514590843,
+    "timestamp": 1794514691400,
     "success": false,
-    "testId": 129
+    "testId": 131
   },
   {
     "numPassedTests": 89,
     "failedTests": 0,
     "numTotalTests": 89,
-    "timestamp": 1794515580999,
+    "timestamp": 1794514767474,
     "success": true,
-    "testId": 129
+    "testId": 131
   },
   {
-    "commitId": "44b0bd7adfbef15b362d9e75e8bec45c6f476d4a",
-    "commitName": "feat: completar la categoría de los ejemplos ya guardados",
-    "commitTimestamp": 1794515638389,
-    "testId": 129
+    "commitId": "67e9f21273eb0d7093bfcb7dbe2bb87fe93190bc",
+    "commitName": "feat: calcular el tamaño reducido de una foto grande",
+    "commitTimestamp": 1794514782589,
+    "testId": 131
   },
   {
     "numPassedTests": 89,
     "failedTests": 1,
     "numTotalTests": 90,
-    "timestamp": 1794515712134,
+    "timestamp": 1794514816150,
     "success": false,
-    "testId": 130
+    "testId": 132
   },
   {
     "numPassedTests": 90,
     "failedTests": 0,
     "numTotalTests": 90,
-    "timestamp": 1794515782507,
+    "timestamp": 1794514842423,
     "success": true,
-    "testId": 130
+    "testId": 132
   },
   {
-    "commitId": "d7fae1fd4184dcd52ea9eafd7b5fbf0dbbf42168",
-    "commitName": "feat: agregar el lugar a los datos de ejemplo",
-    "commitTimestamp": 1794515811845,
-    "testId": 130
+    "commitId": "e46b0a9139124cfc1ca77f37fa797ecde86573ea",
+    "commitName": "feat: no agrandar las fotos que ya son pequeñas",
+    "commitTimestamp": 1794514880586,
+    "testId": 132
+  },
+  {
+    "numPassedTests": 90,
+    "failedTests": 0,
+    "numTotalTests": 90,
+    "timestamp": 1794514920917,
+    "success": true,
+    "testId": 133
+  },
+  {
+    "commitId": "60972f0b96481282eceb2b14004897b25de0cc5f",
+    "commitName": "refactor: crear lectorDeFoto con la lectura y el achicado de la foto",
+    "commitTimestamp": 1794514938971,
+    "testId": 133
+  },
+  {
+    "numPassedTests": 90,
+    "failedTests": 0,
+    "numTotalTests": 90,
+    "timestamp": 1794515080483,
+    "success": true,
+    "testId": 134
+  },
+  {
+    "commitId": "5e616f99f73e25eff72f24e88c1a6c55aae08c40",
+    "commitName": "refactor: usar lectorDeFoto en el formulario y quitar la lógica de achicar de la vista",
+    "commitTimestamp": 1794515091244,
+    "testId": 134
+  },
+  {
+    "numPassedTests": 90,
+    "failedTests": 0,
+    "numTotalTests": 90,
+    "timestamp": 1794516740276,
+    "success": true,
+    "testId": 135
+  },
+  {
+    "commitId": "c872d2be88024d258d515f00e04f0e8ec7ae22bd",
+    "commitName": "test: simular el error real de almacenamiento lleno del navegador",
+    "commitTimestamp": 1794516751295,
+    "testId": 135
   },
   {
     "numPassedTests": 90,
     "failedTests": 1,
     "numTotalTests": 91,
-    "timestamp": 1794515886029,
+    "timestamp": 1794516797881,
     "success": false,
-    "testId": 131
+    "testId": 136
   },
   {
     "numPassedTests": 91,
     "failedTests": 0,
     "numTotalTests": 91,
-    "timestamp": 1794521449149,
+    "timestamp": 1794516854883,
     "success": true,
-    "testId": 131
+    "testId": 136
+  },
+  {
+    "commitId": "da1598cc73d095d22784d2a433b1789e882eee10",
+    "commitName": "feat: distinguir el error de espacio lleno de otros fallos al guardar el objeto",
+    "commitTimestamp": 1794516886181,
+    "testId": 136
+  },
+  {
+    "numPassedTests": 91,
+    "failedTests": 0,
+    "numTotalTests": 91,
+    "timestamp": 1794517157841,
+    "success": true,
+    "testId": 137
+  },
+  {
+    "commitId": "38cc1b555d03a6cf11ff3e1d4e8fd770420b90e4",
+    "commitName": "feat: mostrar un error y quitar Cargando foto cuando falla la lectura de la foto",
+    "commitTimestamp": 1794517168386,
+    "testId": 137
+  },
+  {
+    "numPassedTests": 95,
+    "failedTests": 0,
+    "numTotalTests": 95,
+    "timestamp": 1794521722526,
+    "success": true,
+    "testId": 138
   },
   {
     "commitId": "HEAD",
-    "commitName": "feat: completar el lugar de los ejemplos ya guardados",
-    "commitTimestamp": 1794521497929,
-    "testId": 131
+    "commitName": "chore: resolver conflictos de los logs con main",
+    "commitTimestamp": 1794521754378,
+    "testId": 138
   }
 ]

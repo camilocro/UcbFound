@@ -1,6 +1,7 @@
 import { ObjetoEncontrado } from './objetoEncontrado.js';
 import { crearError } from './resultado.js';
 import { CATEGORIAS } from './categorias.js';
+import { esImagen } from './foto.js';
 
 export const MENSAJES_REGISTRO_OBJETO = {
   OBJETO_REGISTRADO: 'Objeto registrado correctamente',
@@ -9,6 +10,7 @@ export const MENSAJES_REGISTRO_OBJETO = {
   FOTO_MUY_PESADA: 'La foto es muy pesada, prueba con una imagen más pequeña',
   FALTA_CATEGORIA: 'Es necesario elegir una categoría',
   FALTA_BLOQUE: 'Es necesario indicar el bloque donde lo encontraste',
+  NO_SE_PUDO_GUARDAR: 'No se pudo guardar el objeto, intenta de nuevo',
 };
 
 const NOMBRE_POR_DEFECTO = 'Objeto encontrado';
@@ -27,7 +29,7 @@ export class RegistroObjetoEncontrado {
     if (faltanFotoODescripcion(foto, descripcion)) {
       return crearError(MENSAJES_REGISTRO_OBJETO.FALTAN_FOTO_O_DESCRIPCION);
     }
-    if (!foto.startsWith('data:image/')) {
+    if (!esImagen(foto)) {
       return crearError(MENSAJES_REGISTRO_OBJETO.SOLO_IMAGENES);
     }
     if (!CATEGORIAS.includes(categoria)) {

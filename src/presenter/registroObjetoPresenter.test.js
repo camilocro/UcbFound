@@ -48,7 +48,7 @@ describe('HU-11 Presenter: foto muy pesada', () => {
     const almacenamientoLleno = {
       getItem: () => null,
       setItem: () => {
-        throw new Error('QuotaExceededError');
+        throw Object.assign(new Error('Almacenamiento lleno'), { name: 'QuotaExceededError' });
       },
       removeItem: () => {},
     };
@@ -95,5 +95,22 @@ describe('Presenter: ids únicos', () => {
     const ids = repositorio.obtenerTodos().map((objeto) => objeto.id);
     expect(ids).toHaveLength(20);
     expect(new Set(ids).size).toBe(20);
+  });
+});
+
+describe('Presenter: error inesperado al guardar', () => {
+  it('debería avisar que no se pudo guardar cuando el fallo no es por falta de espacio', () => {
+    const almacenamientoConFalla = {
+      getItem: () => null,
+      setItem: () => {
+        throw new Error('Fallo inesperado');
+      },
+      removeItem: () => {},
+    };
+    const repositorio = new RepositorioObjetosEncontrados(almacenamientoConFalla);
+    expect(crearPresenter(repositorio).registrar(datosValidos)).toEqual({
+      exito: false,
+      mensaje: 'No se pudo guardar el objeto, intenta de nuevo',
+    });
   });
 });
