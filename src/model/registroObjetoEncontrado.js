@@ -1,4 +1,5 @@
 import { ObjetoEncontrado } from './objetoEncontrado.js';
+import { crearError } from './resultado.js';
 
 export const MENSAJES_REGISTRO_OBJETO = {
   OBJETO_REGISTRADO: 'Objeto registrado correctamente',
@@ -17,10 +18,10 @@ export class RegistroObjetoEncontrado {
 
   registrar({ nombre, descripcion, foto }, correoDeQuienEncontro) {
     if (foto === '' || descripcion.trim() === '') {
-      return this.crearError(MENSAJES_REGISTRO_OBJETO.FALTAN_FOTO_O_DESCRIPCION);
+      return crearError(MENSAJES_REGISTRO_OBJETO.FALTAN_FOTO_O_DESCRIPCION);
     }
     if (!foto.startsWith('data:image/')) {
-      return this.crearError(MENSAJES_REGISTRO_OBJETO.SOLO_IMAGENES);
+      return crearError(MENSAJES_REGISTRO_OBJETO.SOLO_IMAGENES);
     }
     const objeto = new ObjetoEncontrado({
       id: this.crearId(),
@@ -31,9 +32,5 @@ export class RegistroObjetoEncontrado {
       correoDeQuienEncontro,
     });
     return { exito: true, mensaje: MENSAJES_REGISTRO_OBJETO.OBJETO_REGISTRADO, objeto };
-  }
-
-  crearError(mensaje) {
-    return { exito: false, mensaje };
   }
 }
