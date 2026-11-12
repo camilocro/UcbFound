@@ -2294,9 +2294,31 @@
     "testId": 113
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5e3a62518d035007b871b6d3f9823b23470f857d",
     "commitName": "feat: mostrar la categoría en el detalle del objeto (HU-13)",
     "commitTimestamp": 1794497575882,
     "testId": 113
+  },
+  {
+    "numPassedTests": 74,
+    "failedTests": 1,
+    "numTotalTests": 75,
+    "timestamp": 1794497644337,
+    "success": false,
+    "testId": 114
+  },
+  {
+    "numPassedTests": 75,
+    "failedTests": 0,
+    "numTotalTests": 75,
+    "timestamp": 1794497704730,
+    "success": true,
+    "testId": 114
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar Sin categoría en objetos anteriores (HU-13)",
+    "commitTimestamp": 1794497733635,
+    "testId": 114
   }
 ]

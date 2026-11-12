@@ -2,6 +2,8 @@ function quitarTildes(texto) {
   return texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 }
 
+const SIN_CATEGORIA = 'Sin categoría';
+
 export class ObjetoEncontrado {
   constructor({ id, nombre, descripcion, fecha, foto, correoDeQuienEncontro, categoria }) {
     this.id = id;
@@ -19,7 +21,7 @@ export class ObjetoEncontrado {
   }
 
   obtenerDetalle() {
-    return { ...this.obtenerVistaBasica(), categoria: this.categoria };
+    return { ...this.obtenerVistaBasica(), categoria: this.categoria || SIN_CATEGORIA };
   }
 
   obtenerVistaBasica() {

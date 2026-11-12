@@ -2147,12 +2147,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5e3a62518d035007b871b6d3f9823b23470f857d",
     "author": "camilocro",
     "commit": {
       "date": "2026-11-12T15:32:45.000Z",
       "message": "feat: mostrar la categoría en el detalle del objeto (HU-13)",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/5e3a62518d035007b871b6d3f9823b23470f857d"
     },
     "stats": {
       "total": 14,
@@ -2162,6 +2162,25 @@
     },
     "coverage": 96.39,
     "test_count": 74,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-12T15:35:23.000Z",
+      "message": "feat: mostrar Sin categoría en objetos anteriores (HU-13)",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 12,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.41,
+    "test_count": 75,
     "failed_tests": 0,
     "conclusion": "success"
   }
