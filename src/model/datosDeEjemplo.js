@@ -14,6 +14,14 @@ function tieneFotoAntigua(objeto) {
   return objeto.foto.startsWith(PREFIJO_FOTO_ANTIGUA);
 }
 
+function completarEjemploGuardado(objetoGuardado, objetoDeEjemplo) {
+  return {
+    ...objetoGuardado,
+    foto: tieneFotoAntigua(objetoGuardado) ? objetoDeEjemplo.foto : objetoGuardado.foto,
+    categoria: objetoGuardado.categoria || objetoDeEjemplo.categoria,
+  };
+}
+
 export function cargarDatosDeEjemplo(repositorio) {
   const objetosGuardados = repositorio.obtenerTodos();
   if (objetosGuardados.length === 0) {
@@ -22,8 +30,8 @@ export function cargarDatosDeEjemplo(repositorio) {
   }
   OBJETOS_DE_EJEMPLO.forEach((objetoDeEjemplo) => {
     const objetoGuardado = objetosGuardados.find((objeto) => objeto.id === objetoDeEjemplo.id);
-    if (objetoGuardado && tieneFotoAntigua(objetoGuardado)) {
-      repositorio.actualizar({ ...objetoGuardado, foto: objetoDeEjemplo.foto });
+    if (objetoGuardado) {
+      repositorio.actualizar(completarEjemploGuardado(objetoGuardado, objetoDeEjemplo));
     }
   });
 }

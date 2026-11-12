@@ -45,3 +45,11 @@ describe('Datos de ejemplo: categoría', () => {
     ]);
   });
 });
+describe('Datos de ejemplo: categoría en ejemplos ya guardados', () => {
+  it('debería agregar la categoría a un ejemplo que se guardó antes sin ella', () => {
+    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+    repositorio.guardar({ id: 'ejemplo-1', nombre: 'Mochila negra', descripcion: 'Mochila con un llavero de la UCB', fecha: '2026-10-06', foto: 'https://foto.jpg', correoDeQuienEncontro: 'ana.lopez@ucb.edu.bo' });
+    cargarDatosDeEjemplo(repositorio);
+    expect(repositorio.buscarPorId('ejemplo-1').obtenerDetalle().categoria).toEqual('Mochilas y bolsos');
+  });
+});

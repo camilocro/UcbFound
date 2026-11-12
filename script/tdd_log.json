@@ -2616,9 +2616,31 @@
     "testId": 128
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ae5c862de1e5931fcb1023d9ff3ed6bb53fbde96",
     "commitName": "feat: agregar la categoría a los datos de ejemplo",
     "commitTimestamp": 1794514483157,
     "testId": 128
+  },
+  {
+    "numPassedTests": 88,
+    "failedTests": 1,
+    "numTotalTests": 89,
+    "timestamp": 1794514590843,
+    "success": false,
+    "testId": 129
+  },
+  {
+    "numPassedTests": 89,
+    "failedTests": 0,
+    "numTotalTests": 89,
+    "timestamp": 1794515580999,
+    "success": true,
+    "testId": 129
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: completar la categoría de los ejemplos ya guardados",
+    "commitTimestamp": 1794515638389,
+    "testId": 129
   }
 ]
