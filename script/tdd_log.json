@@ -2058,9 +2058,23 @@
     "testId": 99
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8537c7d5ccdfdce872cc92d6538f7b9203ed75b1",
     "commitName": "refactor: renombrar fechaComoTexto a convertirFechaATexto",
     "commitTimestamp": 1794487144062,
     "testId": 99
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794487218277,
+    "success": true,
+    "testId": 100
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: renombrar correoYaRegistrado a estaRegistrado en RegistroUsuario",
+    "commitTimestamp": 1794487228276,
+    "testId": 100
   }
 ]

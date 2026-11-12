@@ -25,13 +25,13 @@ export class RegistroUsuario {
     if (!usuario.tieneContrasenaValida()) {
       return this.crearError(MENSAJES_REGISTRO.CONTRASENA_CORTA);
     }
-    if (this.correoYaRegistrado(usuario.correo)) {
+    if (this.estaRegistrado(usuario.correo)) {
       return this.crearError(MENSAJES_REGISTRO.CORREO_REPETIDO);
     }
     return { exito: true, mensaje: MENSAJES_REGISTRO.CUENTA_CREADA, usuario };
   }
 
-  correoYaRegistrado(correo) {
+  estaRegistrado(correo) {
     return this.correosRegistrados.includes(correo);
   }
 
