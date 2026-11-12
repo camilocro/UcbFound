@@ -2774,9 +2774,23 @@
     "testId": 137
   },
   {
-    "commitId": "HEAD",
+    "commitId": "146f2863f377b743a1e9475599ab4f30ceee84bc",
     "commitName": "feat: mostrar un error y quitar Cargando foto cuando falla la lectura de la foto",
     "commitTimestamp": 1794517168386,
     "testId": 137
+  },
+  {
+    "numPassedTests": 91,
+    "failedTests": 0,
+    "numTotalTests": 91,
+    "timestamp": 1794521726017,
+    "success": true,
+    "testId": 138
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: enfocar el correo y activar el autocompletado en el inicio de sesión",
+    "commitTimestamp": 1794521739898,
+    "testId": 138
   }
 ]

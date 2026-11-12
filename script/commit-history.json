@@ -2603,17 +2603,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "146f2863f377b743a1e9475599ab4f30ceee84bc",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T20:59:21.000Z",
       "message": "feat: mostrar un error y quitar Cargando foto cuando falla la lectura de la foto",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/146f2863f377b743a1e9475599ab4f30ceee84bc"
     },
     "stats": {
       "total": 20,
       "additions": 17,
       "deletions": 3,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.27,
+    "test_count": 91,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T22:15:31.000Z",
+      "message": "feat: enfocar el correo y activar el autocompletado en el inicio de sesión",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 3,
+      "deletions": 0,
       "date": "2026-11-12"
     },
     "coverage": 97.27,
