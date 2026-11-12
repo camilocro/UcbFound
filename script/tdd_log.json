@@ -2500,9 +2500,31 @@
     "testId": 122
   },
   {
-    "commitId": "HEAD",
+    "commitId": "eeb31b2631a8fc7790359b21466279bba3878b24",
     "commitName": "feat: mostrar bloque y aula en el detalle del objeto (HU-12)",
     "commitTimestamp": 1794510439984,
     "testId": 122
+  },
+  {
+    "numPassedTests": 85,
+    "failedTests": 1,
+    "numTotalTests": 86,
+    "timestamp": 1794510536209,
+    "success": false,
+    "testId": 123
+  },
+  {
+    "numPassedTests": 86,
+    "failedTests": 0,
+    "numTotalTests": 86,
+    "timestamp": 1794510620837,
+    "success": true,
+    "testId": 123
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar solo el bloque en el detalle cuando no hay aula (HU-12)",
+    "commitTimestamp": 1794510629612,
+    "testId": 123
   }
 ]

@@ -2318,12 +2318,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "eeb31b2631a8fc7790359b21466279bba3878b24",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T19:07:14.000Z",
       "message": "feat: mostrar bloque y aula en el detalle del objeto (HU-12)",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/eeb31b2631a8fc7790359b21466279bba3878b24"
     },
     "stats": {
       "total": 17,
@@ -2333,6 +2333,25 @@
     },
     "coverage": 97.13,
     "test_count": 85,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T19:10:24.000Z",
+      "message": "feat: mostrar solo el bloque en el detalle cuando no hay aula (HU-12)",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.16,
+    "test_count": 86,
     "failed_tests": 0,
     "conclusion": "success"
   }

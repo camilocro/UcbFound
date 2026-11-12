@@ -30,6 +30,9 @@ export class ObjetoEncontrado {
     if (this.bloque && this.aula) {
       return `${this.bloque}, ${this.aula}`;
     }
+    if (this.bloque) {
+      return this.bloque;
+    }
     return undefined;
   }
 
