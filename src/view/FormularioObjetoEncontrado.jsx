@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const DATOS_INICIALES = { nombre: '', descripcion: '', foto: '' };
+const DATOS_INICIALES = { nombre: '', descripcion: '', foto: '', categoria: '' };
 const LADO_MAXIMO_EN_PIXELES = 800;
 
 function leerArchivo(archivo) {
@@ -41,11 +41,21 @@ async function leerFoto(archivo) {
   return archivo.type.startsWith('image/') ? achicarImagen(dataUrl) : dataUrl;
 }
 
+function IconoCamara() {
+  return (
+    <svg className="zona-foto__icono" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M4 8h3l2-3h6l2 3h3v11H4z" />
+      <circle cx="12" cy="13" r="3.5" />
+    </svg>
+  );
+}
+
 export default function FormularioObjetoEncontrado({ presenter, alVerLista }) {
   const [datos, setDatos] = useState(DATOS_INICIALES);
   const [resultado, setResultado] = useState(null);
   const [estaCargandoFoto, setEstaCargandoFoto] = useState(false);
   const [claveCampoFoto, setClaveCampoFoto] = useState(0);
+  const categorias = presenter.obtenerCategorias();
 
   const cambiarCampo = (evento) => {
     const { name, value } = evento.target;
@@ -74,22 +84,38 @@ export default function FormularioObjetoEncontrado({ presenter, alVerLista }) {
     }
   };
 
+  const tieneFotoValida = datos.foto.startsWith('data:image/');
+
   return (
     <section className="tarjeta">
-      <h1 className="tarjeta__titulo">Registrar objeto encontrado</h1>
+      <h1 className="tarjeta__titulo">Reportar objeto encontrado</h1>
       <p className="tarjeta__subtitulo">
         Sube una foto y describe el objeto para que su dueño pueda reconocerlo.
       </p>
 
       <form id="form-objeto-encontrado" className="formulario" onSubmit={enviar} noValidate>
         <div className="campo">
-          <label htmlFor="foto-encontrado">Foto del objeto</label>
-          <input key={claveCampoFoto} id="foto-encontrado" name="foto" type="file" onChange={cambiarFoto} />
+          <span className="campo__etiqueta">Foto del objeto *</span>
+          <input
+            key={claveCampoFoto}
+            id="foto-encontrado"
+            name="foto"
+            type="file"
+            className="oculto-visual"
+            onChange={cambiarFoto}
+          />
+          <label htmlFor="foto-encontrado" className="zona-foto">
+            {tieneFotoValida ? (
+              <img id="vista-previa-foto" className="vista-previa" src={datos.foto} alt="Vista previa de la foto" />
+            ) : (
+              <>
+                <IconoCamara />
+                <span className="zona-foto__texto">Sube una foto</span>
+                <span className="zona-foto__ayuda">Toca aquí para elegir una imagen</span>
+              </>
+            )}
+          </label>
         </div>
-
-        {datos.foto.startsWith('data:image/') && (
-          <img id="vista-previa-foto" className="vista-previa" src={datos.foto} alt="Vista previa de la foto" />
-        )}
 
         <div className="campo">
           <label htmlFor="nombre-encontrado">Nombre del objeto (opcional)</label>
@@ -104,7 +130,19 @@ export default function FormularioObjetoEncontrado({ presenter, alVerLista }) {
         </div>
 
         <div className="campo">
-          <label htmlFor="descripcion-encontrado">Descripción</label>
+          <label htmlFor="categoria-encontrado">Categoría *</label>
+          <select id="categoria-encontrado" name="categoria" value={datos.categoria} onChange={cambiarCampo}>
+            <option value="">Elige una categoría</option>
+            {categorias.map((categoria) => (
+              <option key={categoria} value={categoria}>
+                {categoria}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        <div className="campo">
+          <label htmlFor="descripcion-encontrado">Descripción *</label>
           <textarea
             id="descripcion-encontrado"
             name="descripcion"
@@ -121,8 +159,8 @@ export default function FormularioObjetoEncontrado({ presenter, alVerLista }) {
           </p>
         )}
 
-        <button id="registrar-objeto-button" type="submit" className="boton" disabled={estaCargandoFoto}>
-          {estaCargandoFoto ? 'Cargando foto...' : 'Registrar'}
+        <button id="registrar-objeto-button" type="submit" className="boton boton--primario" disabled={estaCargandoFoto}>
+          {estaCargandoFoto ? 'Cargando foto...' : 'Enviar reporte'}
         </button>
 
         {resultado && resultado.exito && (

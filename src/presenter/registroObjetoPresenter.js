@@ -1,5 +1,6 @@
 import { MENSAJES_REGISTRO_OBJETO, RegistroObjetoEncontrado } from '../model/registroObjetoEncontrado.js';
 import { convertirFechaATexto } from '../model/fecha.js';
+import { CATEGORIAS } from '../model/categorias.js';
 import { crearError } from '../model/resultado.js';
 
 const MENSAJE_SESION_REQUERIDA = 'Inicia sesión para registrar un objeto';
@@ -22,6 +23,10 @@ export class RegistroObjetoPresenter {
     this.sesion = sesion;
     this.obtenerFechaActual = obtenerFechaActual;
     this.crearId = crearId;
+  }
+
+  obtenerCategorias() {
+    return CATEGORIAS;
   }
 
   registrar(datos) {

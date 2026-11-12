@@ -2,19 +2,26 @@ function quitarTildes(texto) {
   return texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 }
 
+const SIN_CATEGORIA = 'Sin categoría';
+
 export class ObjetoEncontrado {
-  constructor({ id, nombre, descripcion, fecha, foto, correoDeQuienEncontro }) {
+  constructor({ id, nombre, descripcion, fecha, foto, correoDeQuienEncontro, categoria }) {
     this.id = id;
     this.nombre = nombre;
     this.descripcion = descripcion;
     this.fecha = fecha;
     this.foto = foto;
     this.correoDeQuienEncontro = correoDeQuienEncontro;
+    this.categoria = categoria;
   }
 
   coincideCon(texto) {
     const textoBuscado = quitarTildes(texto);
     return quitarTildes(this.nombre).includes(textoBuscado) || quitarTildes(this.descripcion).includes(textoBuscado);
+  }
+
+  obtenerDetalle() {
+    return { ...this.obtenerVistaBasica(), categoria: this.categoria || SIN_CATEGORIA };
   }
 
   obtenerVistaBasica() {

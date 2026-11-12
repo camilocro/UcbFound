@@ -2201,52 +2201,182 @@
     "numPassedTests": 70,
     "failedTests": 0,
     "numTotalTests": 70,
-    "timestamp": 1794491710783,
+    "timestamp": 1794492743931,
     "success": true,
+    "testId": 109
+  },
+  {
+    "commitId": "980e05c5f5e15aab2be7beb1310b98af99a9deb6",
+    "commitName": "refactor: ajusta el diseño del registro de objeto encontrado al prototipo",
+    "commitTimestamp": 1794492827477,
     "testId": 109
   },
   {
     "numPassedTests": 70,
     "failedTests": 1,
     "numTotalTests": 71,
-    "timestamp": 1794492559419,
+    "timestamp": 1794496542559,
     "success": false,
-    "testId": 109
+    "testId": 110
   },
   {
     "numPassedTests": 71,
     "failedTests": 0,
     "numTotalTests": 71,
-    "timestamp": 1794492778990,
+    "timestamp": 1794496694414,
     "success": true,
-    "testId": 109
+    "testId": 110
   },
   {
-    "commitId": "b294af421e906e7c44d3da23705b256645361c8a",
-    "commitName": "feat: el presentador de registro pide iniciar sesión cuando no hay usuario",
-    "commitTimestamp": 1794492798753,
-    "testId": 109
+    "commitId": "3de9fe9c738a5b3a0a7a431e71e986dcff5eb49d",
+    "commitName": "feat: guardar la categoría del objeto encontrado (HU-13)",
+    "commitTimestamp": 1794496724183,
+    "testId": 110
   },
   {
     "numPassedTests": 71,
     "failedTests": 1,
     "numTotalTests": 72,
-    "timestamp": 1794492881570,
+    "timestamp": 1794496941592,
     "success": false,
-    "testId": 110
+    "testId": 111
   },
   {
     "numPassedTests": 72,
     "failedTests": 0,
     "numTotalTests": 72,
-    "timestamp": 1794492954926,
+    "timestamp": 1794497091884,
     "success": true,
-    "testId": 110
+    "testId": 111
+  },
+  {
+    "commitId": "afceabeb20f253f91b2fb499e3981b603c86bf41",
+    "commitName": "feat: pedir la categoría al registrar un objeto encontrado (HU-13)",
+    "commitTimestamp": 1794497257356,
+    "testId": 111
+  },
+  {
+    "numPassedTests": 72,
+    "failedTests": 1,
+    "numTotalTests": 73,
+    "timestamp": 1794497326553,
+    "success": false,
+    "testId": 112
+  },
+  {
+    "numPassedTests": 73,
+    "failedTests": 0,
+    "numTotalTests": 73,
+    "timestamp": 1794497421510,
+    "success": true,
+    "testId": 112
+  },
+  {
+    "commitId": "35bc008ef397321a57785b091593319ec06419b7",
+    "commitName": "feat: aceptar solo categorías de la lista oficial (HU-13)",
+    "commitTimestamp": 1794497446227,
+    "testId": 112
+  },
+  {
+    "numPassedTests": 73,
+    "failedTests": 1,
+    "numTotalTests": 74,
+    "timestamp": 1794497510659,
+    "success": false,
+    "testId": 113
+  },
+  {
+    "numPassedTests": 74,
+    "failedTests": 0,
+    "numTotalTests": 74,
+    "timestamp": 1794497553558,
+    "success": true,
+    "testId": 113
+  },
+  {
+    "commitId": "5e3a62518d035007b871b6d3f9823b23470f857d",
+    "commitName": "feat: mostrar la categoría en el detalle del objeto (HU-13)",
+    "commitTimestamp": 1794497575882,
+    "testId": 113
+  },
+  {
+    "numPassedTests": 74,
+    "failedTests": 1,
+    "numTotalTests": 75,
+    "timestamp": 1794497644337,
+    "success": false,
+    "testId": 114
+  },
+  {
+    "numPassedTests": 75,
+    "failedTests": 0,
+    "numTotalTests": 75,
+    "timestamp": 1794497704730,
+    "success": true,
+    "testId": 114
+  },
+  {
+    "commitId": "5cc1ba309f91ec949f865d1235d962cb340eae3c",
+    "commitName": "feat: mostrar Sin categoría en objetos anteriores (HU-13)",
+    "commitTimestamp": 1794497733635,
+    "testId": 114
+  },
+  {
+    "numPassedTests": 75,
+    "failedTests": 1,
+    "numTotalTests": 76,
+    "timestamp": 1794497825733,
+    "success": false,
+    "testId": 115
+  },
+  {
+    "numPassedTests": 76,
+    "failedTests": 0,
+    "numTotalTests": 76,
+    "timestamp": 1794497911464,
+    "success": true,
+    "testId": 115
+  },
+  {
+    "commitId": "d9db9260885aed1bc116e0d803cdf3abe4734f3a",
+    "commitName": "feat: ofrecer la lista de categorías al formulario (HU-13)",
+    "commitTimestamp": 1794497944742,
+    "testId": 115
+  },
+  {
+    "numPassedTests": 76,
+    "failedTests": 0,
+    "numTotalTests": 76,
+    "timestamp": 1794498120820,
+    "success": true,
+    "testId": 116
+  },
+  {
+    "numPassedTests": 76,
+    "failedTests": 0,
+    "numTotalTests": 76,
+    "timestamp": 1794498290132,
+    "success": true,
+    "testId": 116
+  },
+  {
+    "commitId": "e9a88d839c67f500fd140e935d7b9f661ee3a9b4",
+    "commitName": "feat: elegir la categoría en el formulario y verla en el detalle (HU-13)",
+    "commitTimestamp": 1794498394886,
+    "testId": 116
+  },
+  {
+    "numPassedTests": 78,
+    "failedTests": 0,
+    "numTotalTests": 78,
+    "timestamp": 1794507444760,
+    "success": true,
+    "testId": 117
   },
   {
     "commitId": "HEAD",
-    "commitName": "feat: generar ids únicos al registrar un objeto encontrado",
-    "commitTimestamp": 1794492965735,
-    "testId": 110
+    "commitName": "chore: resolver conflictos con main (HU-13)",
+    "commitTimestamp": 1794507483832,
+    "testId": 117
   }
 ]

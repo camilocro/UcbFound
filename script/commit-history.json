@@ -2071,21 +2071,154 @@
     "conclusion": "success"
   },
   {
-    "sha": "b294af421e906e7c44d3da23705b256645361c8a",
-    "author": "nazaclaure",
+    "sha": "980e05c5f5e15aab2be7beb1310b98af99a9deb6",
+    "author": "camilocro",
     "commit": {
-      "date": "2026-11-12T14:13:11.000Z",
-      "message": "feat: el presentador de registro pide iniciar sesión cuando no hay usuario",
-      "url": "https://github.com/camilocro/UcbFound/commit/b294af421e906e7c44d3da23705b256645361c8a"
+      "date": "2026-11-12T14:13:35.000Z",
+      "message": "refactor: ajusta el diseño del registro de objeto encontrado al prototipo",
+      "url": "https://github.com/camilocro/UcbFound/commit/980e05c5f5e15aab2be7beb1310b98af99a9deb6"
     },
     "stats": {
-      "total": 18,
-      "additions": 18,
-      "deletions": 0,
+      "total": 113,
+      "additions": 103,
+      "deletions": 10,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.3,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "3de9fe9c738a5b3a0a7a431e71e986dcff5eb49d",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-12T15:18:34.000Z",
+      "message": "feat: guardar la categoría del objeto encontrado (HU-13)",
+      "url": "https://github.com/camilocro/UcbFound/commit/3de9fe9c738a5b3a0a7a431e71e986dcff5eb49d"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 10,
+      "deletions": 2,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.32,
+    "test_count": 71,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "afceabeb20f253f91b2fb499e3981b603c86bf41",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-12T15:27:27.000Z",
+      "message": "feat: pedir la categoría al registrar un objeto encontrado (HU-13)",
+      "url": "https://github.com/camilocro/UcbFound/commit/afceabeb20f253f91b2fb499e3981b603c86bf41"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
       "date": "2026-11-12"
     },
     "coverage": 96.35,
-    "test_count": 71,
+    "test_count": 72,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "35bc008ef397321a57785b091593319ec06419b7",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-12T15:30:35.000Z",
+      "message": "feat: aceptar solo categorías de la lista oficial (HU-13)",
+      "url": "https://github.com/camilocro/UcbFound/commit/35bc008ef397321a57785b091593319ec06419b7"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 18,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.37,
+    "test_count": 73,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "5e3a62518d035007b871b6d3f9823b23470f857d",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-12T15:32:45.000Z",
+      "message": "feat: mostrar la categoría en el detalle del objeto (HU-13)",
+      "url": "https://github.com/camilocro/UcbFound/commit/5e3a62518d035007b871b6d3f9823b23470f857d"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.39,
+    "test_count": 74,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "5cc1ba309f91ec949f865d1235d962cb340eae3c",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-12T15:35:23.000Z",
+      "message": "feat: mostrar Sin categoría en objetos anteriores (HU-13)",
+      "url": "https://github.com/camilocro/UcbFound/commit/5cc1ba309f91ec949f865d1235d962cb340eae3c"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 12,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.41,
+    "test_count": 75,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "d9db9260885aed1bc116e0d803cdf3abe4734f3a",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-12T15:38:54.000Z",
+      "message": "feat: ofrecer la lista de categorías al formulario (HU-13)",
+      "url": "https://github.com/camilocro/UcbFound/commit/d9db9260885aed1bc116e0d803cdf3abe4734f3a"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.43,
+    "test_count": 76,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "e9a88d839c67f500fd140e935d7b9f661ee3a9b4",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-12T15:46:22.000Z",
+      "message": "feat: elegir la categoría en el formulario y verla en el detalle (HU-13)",
+      "url": "https://github.com/camilocro/UcbFound/commit/e9a88d839c67f500fd140e935d7b9f661ee3a9b4"
+    },
+    "stats": {
+      "total": 43,
+      "additions": 42,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 96.43,
+    "test_count": 76,
     "failed_tests": 0,
     "conclusion": "success"
   },
@@ -2093,18 +2226,18 @@
     "sha": "HEAD",
     "author": "nazaclaure",
     "commit": {
-      "date": "2026-11-12T14:15:58.000Z",
-      "message": "feat: generar ids únicos al registrar un objeto encontrado",
+      "date": "2026-11-12T18:17:58.000Z",
+      "message": "chore: resolver conflictos con main (HU-13)",
       "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
     },
     "stats": {
-      "total": 25,
-      "additions": 23,
-      "deletions": 2,
+      "total": 238,
+      "additions": 222,
+      "deletions": 16,
       "date": "2026-11-12"
     },
-    "coverage": 96.91,
-    "test_count": 72,
+    "coverage": 97.01,
+    "test_count": 78,
     "failed_tests": 0,
     "conclusion": "success"
   }

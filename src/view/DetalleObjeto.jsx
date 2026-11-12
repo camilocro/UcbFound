@@ -9,6 +9,9 @@ export default function DetalleObjeto({ objeto, alVolver }) {
       <p className="detalle__dato">
         <strong>Fecha en que se encontró:</strong> {objeto.fecha}
       </p>
+      <p className="detalle__dato">
+        <strong>Categoría:</strong> <span className="etiqueta">{objeto.categoria}</span>
+      </p>
       <button id="volver-lista-button" type="button" className="enlace" onClick={alVolver}>
         Volver a la lista
       </button>
