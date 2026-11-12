@@ -2616,9 +2616,23 @@
     "testId": 128
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2e778b520e4809d4dda7ece77ed360fefa38971e",
     "commitName": "feat: agregar esImagen para reconocer si una foto es una imagen",
     "commitTimestamp": 1794513815516,
     "testId": 128
+  },
+  {
+    "numPassedTests": 88,
+    "failedTests": 0,
+    "numTotalTests": 88,
+    "timestamp": 1794513940737,
+    "success": true,
+    "testId": 129
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: usar esImagen para validar la foto al registrar un objeto",
+    "commitTimestamp": 1794513951727,
+    "testId": 129
   }
 ]

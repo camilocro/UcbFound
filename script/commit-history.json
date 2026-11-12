@@ -2432,17 +2432,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2e778b520e4809d4dda7ece77ed360fefa38971e",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T20:03:28.000Z",
       "message": "feat: agregar esImagen para reconocer si una foto es una imagen",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/2e778b520e4809d4dda7ece77ed360fefa38971e"
     },
     "stats": {
       "total": 12,
       "additions": 12,
       "deletions": 0,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.21,
+    "test_count": 88,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T20:05:44.000Z",
+      "message": "refactor: usar esImagen para validar la foto al registrar un objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 2,
+      "deletions": 1,
       "date": "2026-11-12"
     },
     "coverage": 97.21,
