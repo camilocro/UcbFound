@@ -2652,9 +2652,31 @@
     "testId": 130
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5a8c5a565bf9c3ce7e98b940a07bc3a93de11ad9",
     "commitName": "refactor: usar esImagen para mostrar la vista previa de la foto",
     "commitTimestamp": 1794514075541,
     "testId": 130
+  },
+  {
+    "numPassedTests": 88,
+    "failedTests": 1,
+    "numTotalTests": 89,
+    "timestamp": 1794514691400,
+    "success": false,
+    "testId": 131
+  },
+  {
+    "numPassedTests": 89,
+    "failedTests": 0,
+    "numTotalTests": 89,
+    "timestamp": 1794514767474,
+    "success": true,
+    "testId": 131
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular el tamaño reducido de una foto grande",
+    "commitTimestamp": 1794514782589,
+    "testId": 131
   }
 ]

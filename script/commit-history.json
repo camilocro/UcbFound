@@ -2470,12 +2470,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5a8c5a565bf9c3ce7e98b940a07bc3a93de11ad9",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T20:07:47.000Z",
       "message": "refactor: usar esImagen para mostrar la vista previa de la foto",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/5a8c5a565bf9c3ce7e98b940a07bc3a93de11ad9"
     },
     "stats": {
       "total": 3,
@@ -2485,6 +2485,25 @@
     },
     "coverage": 97.21,
     "test_count": 88,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T20:19:35.000Z",
+      "message": "feat: calcular el tamaño reducido de una foto grande",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.25,
+    "test_count": 89,
     "failed_tests": 0,
     "conclusion": "success"
   }
