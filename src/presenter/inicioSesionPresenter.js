@@ -8,6 +8,6 @@ export class InicioSesionPresenter {
 
   procesarInicioSesion(datos) {
     const reglasDeInicioSesion = new InicioSesion(this.repositorio.obtenerUsuarios());
-    return reglasDeInicioSesion.iniciar(datos);
+    return reglasDeInicioSesion.validarCredenciales(datos);
   }
 }

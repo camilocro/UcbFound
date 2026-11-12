@@ -9,7 +9,7 @@ export class InicioSesion {
     this.usuariosRegistrados = usuariosRegistrados;
   }
 
-  iniciar({ correo, contrasena }) {
+  validarCredenciales({ correo, contrasena }) {
     if (correo.trim() === '' || contrasena.trim() === '') {
       return { exito: false, mensaje: MENSAJES_INICIO_SESION.CAMPOS_VACIOS };
     }

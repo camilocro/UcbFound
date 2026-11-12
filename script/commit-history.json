@@ -1862,18 +1862,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c6ebab5642a454a06f622fa94316d5c78fa3aba4",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-10T14:20:56.000Z",
       "message": "chore: resolver conflictos de los logs con main",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/c6ebab5642a454a06f622fa94316d5c78fa3aba4"
     },
     "stats": {
       "total": 150,
       "additions": 75,
       "deletions": 75,
       "date": "2026-11-10"
+    },
+    "coverage": 96.32,
+    "test_count": 70,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T12:18:07.000Z",
+      "message": "refactor: renombrar iniciar a validarCredenciales en InicioSesion",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 7,
+      "deletions": 7,
+      "date": "2026-11-12"
     },
     "coverage": 96.32,
     "test_count": 70,

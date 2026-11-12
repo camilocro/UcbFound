@@ -1972,9 +1972,47 @@
     "testId": 97
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c6ebab5642a454a06f622fa94316d5c78fa3aba4",
     "commitName": "chore: resolver conflictos de los logs con main",
     "commitTimestamp": 1794320464552,
     "testId": 98
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794320610758,
+    "success": true,
+    "testId": 99
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794320901669,
+    "success": true,
+    "testId": 99
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794321315153,
+    "success": true,
+    "testId": 99
+  },
+  {
+    "numPassedTests": 70,
+    "failedTests": 0,
+    "numTotalTests": 70,
+    "timestamp": 1794485864393,
+    "success": true,
+    "testId": 99
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: renombrar iniciar a validarCredenciales en InicioSesion",
+    "commitTimestamp": 1794485895706,
+    "testId": 99
   }
 ]
