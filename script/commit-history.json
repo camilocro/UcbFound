@@ -2508,17 +2508,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e46b0a9139124cfc1ca77f37fa797ecde86573ea",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T20:21:13.000Z",
       "message": "feat: no agrandar las fotos que ya son pequeñas",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/e46b0a9139124cfc1ca77f37fa797ecde86573ea"
     },
     "stats": {
       "total": 6,
       "additions": 5,
       "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.25,
+    "test_count": 90,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T20:22:11.000Z",
+      "message": "refactor: crear lectorDeFoto con la lectura y el achicado de la foto",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 39,
+      "additions": 39,
+      "deletions": 0,
       "date": "2026-11-12"
     },
     "coverage": 97.25,

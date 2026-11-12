@@ -2696,9 +2696,23 @@
     "testId": 132
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e46b0a9139124cfc1ca77f37fa797ecde86573ea",
     "commitName": "feat: no agrandar las fotos que ya son pequeñas",
     "commitTimestamp": 1794514880586,
     "testId": 132
+  },
+  {
+    "numPassedTests": 90,
+    "failedTests": 0,
+    "numTotalTests": 90,
+    "timestamp": 1794514920917,
+    "success": true,
+    "testId": 133
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: crear lectorDeFoto con la lectura y el achicado de la foto",
+    "commitTimestamp": 1794514938971,
+    "testId": 133
   }
 ]
