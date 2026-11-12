@@ -408,3 +408,34 @@ body {
   background: #fff4cc;
   border-radius: 999px;
 }
+
+.filtro-categoria {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.filtro-categoria label {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--texto);
+}
+
+.filtro-categoria select {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 1rem;
+  font-family: inherit;
+  color: var(--texto);
+  background: #fff;
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.filtro-categoria select:focus {
+  outline: none;
+  border-color: var(--azul);
+  box-shadow: 0 0 0 3px rgba(245, 184, 0, 0.35);
+}

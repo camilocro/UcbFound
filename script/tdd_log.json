@@ -2428,9 +2428,47 @@
     "testId": 122
   },
   {
-    "commitId": "HEAD",
+    "commitId": "52ecab68dc73b307a3836e8c7aece4390036ced0",
     "commitName": "feat: avisar cuando ningún objeto coincide con nombre, descripción o categoría",
     "commitTimestamp": 1794517690834,
     "testId": 122
+  },
+  {
+    "numPassedTests": 86,
+    "failedTests": 2,
+    "numTotalTests": 88,
+    "timestamp": 1794521323995,
+    "success": false,
+    "testId": 123
+  },
+  {
+    "numPassedTests": 86,
+    "failedTests": 2,
+    "numTotalTests": 88,
+    "timestamp": 1794521524407,
+    "success": false,
+    "testId": 123
+  },
+  {
+    "numPassedTests": 88,
+    "failedTests": 0,
+    "numTotalTests": 88,
+    "timestamp": 1794521569237,
+    "success": true,
+    "testId": 123
+  },
+  {
+    "numPassedTests": 88,
+    "failedTests": 0,
+    "numTotalTests": 88,
+    "timestamp": 1794522151191,
+    "success": true,
+    "testId": 123
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar el filtro por categoría a la pantalla de búsqueda",
+    "commitTimestamp": 1794522808480,
+    "testId": 123
   }
 ]
