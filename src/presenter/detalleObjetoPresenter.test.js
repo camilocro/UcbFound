@@ -26,6 +26,7 @@ describe('HU-09 Presenter Criterio 1: ver un objeto de la lista', () => {
       descripcion: 'Tiene un llavero de la UCB',
       fecha: '2026-10-15',
       categoria: 'Sin categoría',
+      lugar: 'Lugar no indicado',
     });
   });
 });
@@ -43,5 +44,19 @@ describe('HU-13 Presenter Criterio 6: objeto anterior sin categoría', () => {
     repositorio.guardar({ id: 'obj-1', nombre: 'Mochila negra', descripcion: 'Tiene un llavero de la UCB', fecha: '2026-10-15', foto: 'foto.png', correoDeQuienEncontro: 'ana.lopez@ucb.edu.bo' });
     const presenter = new DetalleObjetoPresenter(repositorio);
     expect(presenter.verDetalle('obj-1').categoria).toEqual('Sin categoría');
+  });
+});
+describe('HU-12 Presenter Criterio 6: lugar en el detalle', () => {
+  it('debería mostrar el bloque y el aula donde se encontró el objeto', () => {
+    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+    repositorio.guardar({ id: 'obj-1', nombre: 'Mochila negra', descripcion: 'Tiene un llavero de la UCB', fecha: '2026-10-15', foto: 'foto.png', correoDeQuienEncontro: 'ana.lopez@ucb.edu.bo', bloque: 'Tupuraya 1 - Bloque A', aula: 'Aula 201' });
+    const presenter = new DetalleObjetoPresenter(repositorio);
+    expect(presenter.verDetalle('obj-1').lugar).toEqual('Tupuraya 1 - Bloque A, Aula 201');
+  });
+  it('debería mostrar solo el bloque cuando el objeto no tiene aula', () => {
+    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+    repositorio.guardar({ id: 'obj-1', nombre: 'Mochila negra', descripcion: 'Tiene un llavero de la UCB', fecha: '2026-10-15', foto: 'foto.png', correoDeQuienEncontro: 'ana.lopez@ucb.edu.bo', bloque: 'Tupuraya 1 - Biblioteca', aula: '' });
+    const presenter = new DetalleObjetoPresenter(repositorio);
+    expect(presenter.verDetalle('obj-1').lugar).toEqual('Tupuraya 1 - Biblioteca');
   });
 });

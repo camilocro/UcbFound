@@ -2242,12 +2242,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c0562f43c390d0e0b7cd06fdc3cd19d454af0ebc",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T18:30:48.000Z",
       "message": "feat: agregar la lista compartida de bloques de los dos campus",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/c0562f43c390d0e0b7cd06fdc3cd19d454af0ebc"
     },
     "stats": {
       "total": 32,
@@ -2257,6 +2257,177 @@
     },
     "coverage": 97.03,
     "test_count": 80,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "c27ec8388c22f32c011b41be5a2bce936503c18f",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T18:53:44.000Z",
+      "message": "feat: guardar el bloque y el aula del objeto encontrado (HU-12)",
+      "url": "https://github.com/camilocro/UcbFound/commit/c27ec8388c22f32c011b41be5a2bce936503c18f"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 15,
+      "deletions": 2,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.06,
+    "test_count": 81,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "49f3921b5de887f1c1b8230e36e37ecafab9a097",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T18:57:34.000Z",
+      "message": "feat: pedir el bloque cuando no se elige uno (HU-12)",
+      "url": "https://github.com/camilocro/UcbFound/commit/49f3921b5de887f1c1b8230e36e37ecafab9a097"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 14,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.09,
+    "test_count": 82,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "9352a7fee95b3eb66d37f4879fcb27452a554c0f",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T19:00:16.000Z",
+      "message": "feat: el aula es opcional y se guarda sin espacios sobrantes (HU-12)",
+      "url": "https://github.com/camilocro/UcbFound/commit/9352a7fee95b3eb66d37f4879fcb27452a554c0f"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.09,
+    "test_count": 84,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "eeb31b2631a8fc7790359b21466279bba3878b24",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T19:07:14.000Z",
+      "message": "feat: mostrar bloque y aula en el detalle del objeto (HU-12)",
+      "url": "https://github.com/camilocro/UcbFound/commit/eeb31b2631a8fc7790359b21466279bba3878b24"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 16,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.13,
+    "test_count": 85,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "840f3b428ac110ab15d296841d966addb2a9654f",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T19:10:24.000Z",
+      "message": "feat: mostrar solo el bloque en el detalle cuando no hay aula (HU-12)",
+      "url": "https://github.com/camilocro/UcbFound/commit/840f3b428ac110ab15d296841d966addb2a9654f"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.16,
+    "test_count": 86,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "f28dccb9090c921eaf3c8e08fd15408966eec124",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T19:13:39.000Z",
+      "message": "feat: mostrar Lugar no indicado en objetos anteriores sin lugar (HU-12)",
+      "url": "https://github.com/camilocro/UcbFound/commit/f28dccb9090c921eaf3c8e08fd15408966eec124"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 3,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.17,
+    "test_count": 86,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "cdc43db328c261551f37ada9f92011195525adc8",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T19:16:27.000Z",
+      "message": "feat: ofrecer la lista de bloques al formulario de registro (HU-12)",
+      "url": "https://github.com/camilocro/UcbFound/commit/cdc43db328c261551f37ada9f92011195525adc8"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.18,
+    "test_count": 87,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "1c964c276f30e28cb7e894b6d06b8733fd22a445",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T19:19:00.000Z",
+      "message": "feat: mostrar el lugar donde se encontró en el detalle del objeto (HU-12)",
+      "url": "https://github.com/camilocro/UcbFound/commit/1c964c276f30e28cb7e894b6d06b8733fd22a445"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 3,
+      "deletions": 0,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.18,
+    "test_count": 87,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-12T19:32:58.000Z",
+      "message": "feat: agregar los campos de bloque y aula al formulario de objeto encontrado (HU-12)",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 27,
+      "additions": 26,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.18,
+    "test_count": 87,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const DATOS_INICIALES = { nombre: '', descripcion: '', foto: '', categoria: '' };
+const DATOS_INICIALES = { nombre: '', descripcion: '', foto: '', categoria: '', bloque: '', aula: '' };
 const LADO_MAXIMO_EN_PIXELES = 800;
 
 function leerArchivo(archivo) {
@@ -56,6 +56,7 @@ export default function FormularioObjetoEncontrado({ presenter, alVerLista }) {
   const [estaCargandoFoto, setEstaCargandoFoto] = useState(false);
   const [claveCampoFoto, setClaveCampoFoto] = useState(0);
   const categorias = presenter.obtenerCategorias();
+  const bloques = presenter.obtenerBloques();
 
   const cambiarCampo = (evento) => {
     const { name, value } = evento.target;
@@ -139,6 +140,30 @@ export default function FormularioObjetoEncontrado({ presenter, alVerLista }) {
               </option>
             ))}
           </select>
+        </div>
+
+        <div className="campo">
+          <label htmlFor="bloque-encontrado">Bloque donde lo encontraste *</label>
+          <select id="bloque-encontrado" name="bloque" value={datos.bloque} onChange={cambiarCampo}>
+            <option value="">Elige un bloque</option>
+            {bloques.map((bloque) => (
+              <option key={bloque} value={bloque}>
+                {bloque}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        <div className="campo">
+          <label htmlFor="aula-encontrado">Aula (opcional)</label>
+          <input
+            id="aula-encontrado"
+            name="aula"
+            type="text"
+            placeholder="Ej. Aula 201"
+            value={datos.aula}
+            onChange={cambiarCampo}
+          />
         </div>
 
         <div className="campo">

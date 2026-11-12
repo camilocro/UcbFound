@@ -3,9 +3,10 @@ function quitarTildes(texto) {
 }
 
 const SIN_CATEGORIA = 'Sin categoría';
+const SIN_LUGAR = 'Lugar no indicado';
 
 export class ObjetoEncontrado {
-  constructor({ id, nombre, descripcion, fecha, foto, correoDeQuienEncontro, categoria }) {
+  constructor({ id, nombre, descripcion, fecha, foto, correoDeQuienEncontro, categoria, bloque, aula }) {
     this.id = id;
     this.nombre = nombre;
     this.descripcion = descripcion;
@@ -13,6 +14,8 @@ export class ObjetoEncontrado {
     this.foto = foto;
     this.correoDeQuienEncontro = correoDeQuienEncontro;
     this.categoria = categoria;
+    this.bloque = bloque;
+    this.aula = aula;
   }
 
   coincideCon(texto) {
@@ -21,7 +24,17 @@ export class ObjetoEncontrado {
   }
 
   obtenerDetalle() {
-    return { ...this.obtenerVistaBasica(), categoria: this.categoria || SIN_CATEGORIA };
+    return { ...this.obtenerVistaBasica(), categoria: this.categoria || SIN_CATEGORIA, lugar: this.obtenerLugar() };
+  }
+
+  obtenerLugar() {
+    if (this.bloque && this.aula) {
+      return `${this.bloque}, ${this.aula}`;
+    }
+    if (this.bloque) {
+      return this.bloque;
+    }
+    return SIN_LUGAR;
   }
 
   obtenerVistaBasica() {

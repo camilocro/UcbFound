@@ -2396,9 +2396,207 @@
     "testId": 118
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c0562f43c390d0e0b7cd06fdc3cd19d454af0ebc",
     "commitName": "feat: agregar la lista compartida de bloques de los dos campus",
     "commitTimestamp": 1794508253920,
     "testId": 118
+  },
+  {
+    "numPassedTests": 74,
+    "failedTests": 0,
+    "numTotalTests": 74,
+    "timestamp": 1794509383973,
+    "success": false,
+    "testId": 119
+  },
+  {
+    "numPassedTests": 80,
+    "failedTests": 1,
+    "numTotalTests": 81,
+    "timestamp": 1794509505801,
+    "success": false,
+    "testId": 119
+  },
+  {
+    "numPassedTests": 81,
+    "failedTests": 0,
+    "numTotalTests": 81,
+    "timestamp": 1794509620892,
+    "success": true,
+    "testId": 119
+  },
+  {
+    "commitId": "c27ec8388c22f32c011b41be5a2bce936503c18f",
+    "commitName": "feat: guardar el bloque y el aula del objeto encontrado (HU-12)",
+    "commitTimestamp": 1794509630716,
+    "testId": 119
+  },
+  {
+    "numPassedTests": 81,
+    "failedTests": 1,
+    "numTotalTests": 82,
+    "timestamp": 1794509740406,
+    "success": false,
+    "testId": 120
+  },
+  {
+    "numPassedTests": 82,
+    "failedTests": 0,
+    "numTotalTests": 82,
+    "timestamp": 1794509851042,
+    "success": true,
+    "testId": 120
+  },
+  {
+    "commitId": "49f3921b5de887f1c1b8230e36e37ecafab9a097",
+    "commitName": "feat: pedir el bloque cuando no se elige uno (HU-12)",
+    "commitTimestamp": 1794509859936,
+    "testId": 120
+  },
+  {
+    "numPassedTests": 82,
+    "failedTests": 2,
+    "numTotalTests": 84,
+    "timestamp": 1794509919356,
+    "success": false,
+    "testId": 121
+  },
+  {
+    "numPassedTests": 84,
+    "failedTests": 0,
+    "numTotalTests": 84,
+    "timestamp": 1794510013345,
+    "success": true,
+    "testId": 121
+  },
+  {
+    "commitId": "9352a7fee95b3eb66d37f4879fcb27452a554c0f",
+    "commitName": "feat: el aula es opcional y se guarda sin espacios sobrantes (HU-12)",
+    "commitTimestamp": 1794510021710,
+    "testId": 121
+  },
+  {
+    "numPassedTests": 83,
+    "failedTests": 4,
+    "numTotalTests": 87,
+    "timestamp": 1794510229821,
+    "success": false,
+    "testId": 122
+  },
+  {
+    "numPassedTests": 84,
+    "failedTests": 1,
+    "numTotalTests": 85,
+    "timestamp": 1794510349825,
+    "success": false,
+    "testId": 122
+  },
+  {
+    "numPassedTests": 85,
+    "failedTests": 0,
+    "numTotalTests": 85,
+    "timestamp": 1794510431714,
+    "success": true,
+    "testId": 122
+  },
+  {
+    "commitId": "eeb31b2631a8fc7790359b21466279bba3878b24",
+    "commitName": "feat: mostrar bloque y aula en el detalle del objeto (HU-12)",
+    "commitTimestamp": 1794510439984,
+    "testId": 122
+  },
+  {
+    "numPassedTests": 85,
+    "failedTests": 1,
+    "numTotalTests": 86,
+    "timestamp": 1794510536209,
+    "success": false,
+    "testId": 123
+  },
+  {
+    "numPassedTests": 86,
+    "failedTests": 0,
+    "numTotalTests": 86,
+    "timestamp": 1794510620837,
+    "success": true,
+    "testId": 123
+  },
+  {
+    "commitId": "840f3b428ac110ab15d296841d966addb2a9654f",
+    "commitName": "feat: mostrar solo el bloque en el detalle cuando no hay aula (HU-12)",
+    "commitTimestamp": 1794510629612,
+    "testId": 123
+  },
+  {
+    "numPassedTests": 85,
+    "failedTests": 1,
+    "numTotalTests": 86,
+    "timestamp": 1794510676282,
+    "success": false,
+    "testId": 124
+  },
+  {
+    "numPassedTests": 86,
+    "failedTests": 0,
+    "numTotalTests": 86,
+    "timestamp": 1794510815657,
+    "success": true,
+    "testId": 124
+  },
+  {
+    "commitId": "f28dccb9090c921eaf3c8e08fd15408966eec124",
+    "commitName": "feat: mostrar Lugar no indicado en objetos anteriores sin lugar (HU-12)",
+    "commitTimestamp": 1794510824505,
+    "testId": 124
+  },
+  {
+    "numPassedTests": 86,
+    "failedTests": 1,
+    "numTotalTests": 87,
+    "timestamp": 1794510878926,
+    "success": false,
+    "testId": 125
+  },
+  {
+    "numPassedTests": 87,
+    "failedTests": 0,
+    "numTotalTests": 87,
+    "timestamp": 1794510984055,
+    "success": true,
+    "testId": 125
+  },
+  {
+    "commitId": "cdc43db328c261551f37ada9f92011195525adc8",
+    "commitName": "feat: ofrecer la lista de bloques al formulario de registro (HU-12)",
+    "commitTimestamp": 1794510992934,
+    "testId": 125
+  },
+  {
+    "numPassedTests": 87,
+    "failedTests": 0,
+    "numTotalTests": 87,
+    "timestamp": 1794511137639,
+    "success": true,
+    "testId": 126
+  },
+  {
+    "commitId": "1c964c276f30e28cb7e894b6d06b8733fd22a445",
+    "commitName": "feat: mostrar el lugar donde se encontró en el detalle del objeto (HU-12)",
+    "commitTimestamp": 1794511146713,
+    "testId": 126
+  },
+  {
+    "numPassedTests": 87,
+    "failedTests": 0,
+    "numTotalTests": 87,
+    "timestamp": 1794511975569,
+    "success": true,
+    "testId": 127
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar los campos de bloque y aula al formulario de objeto encontrado (HU-12)",
+    "commitTimestamp": 1794511984563,
+    "testId": 127
   }
 ]

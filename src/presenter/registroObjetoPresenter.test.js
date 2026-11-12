@@ -3,6 +3,7 @@ import { BusquedaPresenter } from './busquedaPresenter.js';
 import { RepositorioObjetosEncontrados } from '../model/repositorioObjetosEncontrados.js';
 import { Sesion } from '../model/sesion.js';
 import { CATEGORIAS } from '../model/categorias.js';
+import { BLOQUES } from '../model/bloques.js';
 
 function crearAlmacenamientoFalso() {
   const datos = {};
@@ -18,7 +19,7 @@ function crearAlmacenamientoFalso() {
 }
 
 const FOTO = 'data:image/jpeg;base64,AAA';
-const datosValidos = { nombre: 'Billetera café', descripcion: 'Tiene un carnet de la UCB adentro', foto: FOTO, categoria: 'Electrónica' };
+const datosValidos = { nombre: 'Billetera café', descripcion: 'Tiene un carnet de la UCB adentro', foto: FOTO, categoria: 'Electrónica', bloque: BLOQUES[0] };
 
 function crearPresenter(repositorio) {
   const sesion = new Sesion(crearAlmacenamientoFalso());
@@ -62,6 +63,12 @@ describe('HU-13 Presenter Criterio 1: lista de categorías', () => {
   it('debería ofrecer al formulario la lista oficial de categorías', () => {
     const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
     expect(crearPresenter(repositorio).obtenerCategorias()).toEqual(CATEGORIAS);
+  });
+});
+describe('HU-12 Presenter Criterio 1: lista de bloques', () => {
+  it('debería ofrecer al formulario la lista oficial de bloques', () => {
+    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+    expect(crearPresenter(repositorio).obtenerBloques()).toEqual(BLOQUES);
   });
 });
 describe('Presenter: registrar sin sesión iniciada', () => {
