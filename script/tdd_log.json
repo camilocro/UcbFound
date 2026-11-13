@@ -3130,9 +3130,23 @@
     "testId": 133
   },
   {
-    "commitId": "HEAD",
+    "commitId": "41cb5fd22a0bd89ccd1b5933895ac1676d90d347",
     "commitName": "feat: revisar las solicitudes guardadas antes de enviar otro reclamo",
     "commitTimestamp": 1794589203570,
     "testId": 133
+  },
+  {
+    "numPassedTests": 113,
+    "failedTests": 0,
+    "numTotalTests": 113,
+    "timestamp": 1794589327902,
+    "success": true,
+    "testId": 134
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "chore: unir main en la rama de la HU-10",
+    "commitTimestamp": 1794589339359,
+    "testId": 134
   }
 ]

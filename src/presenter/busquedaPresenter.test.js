@@ -1,9 +1,11 @@
+
 import { BusquedaPresenter } from './busquedaPresenter.js';
 import { RepositorioObjetosEncontrados } from '../model/repositorioObjetosEncontrados.js';
 import { CATEGORIAS, TODAS_LAS_CATEGORIAS } from '../model/categorias.js';
 
 function crearAlmacenamientoFalso() {
   const datos = {};
+
   return {
     getItem: (clave) => (clave in datos ? datos[clave] : null),
     setItem: (clave, valor) => {
@@ -16,9 +18,28 @@ function crearAlmacenamientoFalso() {
 }
 
 function crearRepositorioConObjetos() {
-  const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
-  repositorio.guardar({ id: 'obj-1', nombre: 'Mochila negra', descripcion: 'Tiene un llavero de la UCB', fecha: '2026-10-10', foto: '', correoDeQuienEncontro: 'ana.lopez@ucb.edu.bo' });
-  repositorio.guardar({ id: 'obj-2', nombre: 'Botella de agua', descripcion: 'Botella azul con stickers', fecha: '2026-10-12', foto: '', correoDeQuienEncontro: 'luis.rojas@ucb.edu.bo' });
+  const repositorio = new RepositorioObjetosEncontrados(
+    crearAlmacenamientoFalso()
+  );
+
+  repositorio.guardar({
+    id: 'obj-1',
+    nombre: 'Mochila negra',
+    descripcion: 'Tiene un llavero de la UCB',
+    fecha: '2026-10-10',
+    foto: '',
+    correoDeQuienEncontro: 'ana.lopez@ucb.edu.bo',
+  });
+
+  repositorio.guardar({
+    id: 'obj-2',
+    nombre: 'Botella de agua',
+    descripcion: 'Botella azul con stickers',
+    fecha: '2026-10-12',
+    foto: '',
+    correoDeQuienEncontro: 'luis.rojas@ucb.edu.bo',
+  });
+
   return repositorio;
 }
 
@@ -26,7 +47,10 @@ describe('HU-07 Presenter: buscar objetos', () => {
   it('debería buscar entre los objetos guardados en el repositorio', () => {
     const presenter = new BusquedaPresenter(crearRepositorioConObjetos());
     const resultado = presenter.buscar('botella');
-    expect(resultado.objetos.map((objeto) => objeto.nombre)).toEqual(['Botella de agua']);
+
+    expect(resultado.objetos.map((objeto) => objeto.nombre)).toEqual([
+      'Botella de agua',
+    ]);
   });
 });
 
@@ -34,11 +58,13 @@ describe('HU-09 Criterio 2: lista sin datos personales', () => {
   it('no debería enviar a la lista los datos de quien encontró el objeto', () => {
     const presenter = new BusquedaPresenter(crearRepositorioConObjetos());
     const resultado = presenter.buscar('mochila');
+
     expect('correoDeQuienEncontro' in resultado.objetos[0]).toBe(false);
   });
 });
-describe('HU-08 Criterio 5: Presenter con categorias', () => {
-  it('deberia devolver Todas y las categorias disponibles', () => {
+
+describe('HU-08 Criterio 1: Presenter con categorías', () => {
+  it('debería devolver Todas y las categorías disponibles', () => {
     const presenter = new BusquedaPresenter(crearRepositorioConObjetos());
 
     expect(presenter.obtenerCategorias()).toEqual([
@@ -47,8 +73,10 @@ describe('HU-08 Criterio 5: Presenter con categorias', () => {
     ]);
   });
 
-  it('deberia buscar objetos usando la categoria seleccionada', () => {
-    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+  it('debería buscar objetos usando la categoría seleccionada', () => {
+    const repositorio = new RepositorioObjetosEncontrados(
+      crearAlmacenamientoFalso()
+    );
 
     repositorio.guardar({
       id: 'obj-1',

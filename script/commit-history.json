@@ -2907,12 +2907,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "41cb5fd22a0bd89ccd1b5933895ac1676d90d347",
     "author": "majo",
     "commit": {
       "date": "2026-11-13T16:59:55.000Z",
       "message": "feat: revisar las solicitudes guardadas antes de enviar otro reclamo",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/41cb5fd22a0bd89ccd1b5933895ac1676d90d347"
     },
     "stats": {
       "total": 14,
@@ -2922,6 +2922,25 @@
     },
     "coverage": 98.51,
     "test_count": 111,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-13T17:02:11.000Z",
+      "message": "chore: unir main en la rama de la HU-10",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 128,
+      "additions": 111,
+      "deletions": 17,
+      "date": "2026-11-13"
+    },
+    "coverage": 98.51,
+    "test_count": 113,
     "failed_tests": 0,
     "conclusion": "success"
   }
