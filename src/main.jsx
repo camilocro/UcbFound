@@ -8,6 +8,7 @@ import VistaBusquedaObjetos from './view/VistaBusquedaObjetos.jsx';
 import { RepositorioUsuarios } from './model/repositorioUsuarios.js';
 import { RepositorioReportes } from './model/repositorioReportes.js';
 import { RepositorioObjetosEncontrados } from './model/repositorioObjetosEncontrados.js';
+import { RepositorioReclamos } from './model/repositorioReclamos.js';
 import { cargarDatosDeEjemplo } from './model/datosDeEjemplo.js';
 import { convertirFechaATexto } from './model/fecha.js';
 import { RegistroPresenter } from './presenter/registroPresenter.js';
@@ -16,6 +17,7 @@ import { ReportePresenter } from './presenter/reportePresenter.js';
 import { BusquedaPresenter } from './presenter/busquedaPresenter.js';
 import { DetalleObjetoPresenter } from './presenter/detalleObjetoPresenter.js';
 import { RegistroObjetoPresenter } from './presenter/registroObjetoPresenter.js';
+import { ReclamoPresenter } from './presenter/reclamoPresenter.js';
 import { Sesion } from './model/sesion.js';
 import { SesionPresenter } from './presenter/sesionPresenter.js';
 
@@ -30,6 +32,11 @@ cargarDatosDeEjemplo(repositorioObjetosEncontrados);
 const busquedaPresenter = new BusquedaPresenter(repositorioObjetosEncontrados);
 const detalleObjetoPresenter = new DetalleObjetoPresenter(repositorioObjetosEncontrados);
 const registroObjetoPresenter = new RegistroObjetoPresenter(repositorioObjetosEncontrados, sesion);
+const reclamoPresenter = new ReclamoPresenter(
+  new RepositorioReclamos(window.localStorage),
+  repositorioObjetosEncontrados,
+  sesion,
+);
 const PAGINAS = ['principal', 'inicio-sesion', 'registro', 'reportar-objeto', 'buscar-objetos', 'registrar-objeto'];
 
 function leerVista() {
@@ -93,7 +100,12 @@ function App() {
         )}
         {vista.pagina === 'buscar-objetos' && (
           <div>
-           <VistaBusquedaObjetos presenterBusqueda={busquedaPresenter} presenterDetalle={detalleObjetoPresenter}  alReportar={() => irA('reportar-objeto')}/>
+            <VistaBusquedaObjetos
+              presenterBusqueda={busquedaPresenter}
+              presenterDetalle={detalleObjetoPresenter}
+              presenterReclamo={reclamoPresenter}
+              alReportar={() => irA('reportar-objeto')}
+            />
             <button type="button" className="enlace" onClick={() => irA('principal')}>
               Volver al inicio
             </button>

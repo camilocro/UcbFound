@@ -2774,78 +2774,192 @@
     "conclusion": "success"
   },
   {
-    "sha": "9f741ba7c5e36143b4546536ab58d08268ea5f63",
-    "author": "nazaclaure",
+    "sha": "062545f255d5ceac20d284b01e09381c24590ed9",
+    "author": "majo",
     "commit": {
-      "date": "2026-11-13T04:58:19.000Z",
-      "message": "test: encontrar por categoría un objeto recién registrado con categoría y lugar",
-      "url": "https://github.com/camilocro/UcbFound/commit/9f741ba7c5e36143b4546536ab58d08268ea5f63"
+      "date": "2026-11-13T05:29:03.000Z",
+      "message": "feat: enviar la solicitud de reclamo como pendiente a nombre de quien reclama",
+      "url": "https://github.com/camilocro/UcbFound/commit/062545f255d5ceac20d284b01e09381c24590ed9"
     },
     "stats": {
-      "total": 42,
-      "additions": 42,
+      "total": 72,
+      "additions": 72,
       "deletions": 0,
       "date": "2026-11-13"
     },
-    "coverage": 99.11,
+    "coverage": 99.15,
     "test_count": 104,
     "failed_tests": 0,
     "conclusion": "success"
   },
   {
-    "sha": "69996c18c08876d59f1c84e96b49efcda3bfb8ca",
-    "author": "nazaclaure",
+    "sha": "14f2c4cca11936545a32cfc5f6083ad90bb42056",
+    "author": "majo",
     "commit": {
-      "date": "2026-11-13T04:59:41.000Z",
-      "message": "test: no encontrar el objeto al filtrar por otra categoría",
-      "url": "https://github.com/camilocro/UcbFound/commit/69996c18c08876d59f1c84e96b49efcda3bfb8ca"
+      "date": "2026-11-13T05:33:36.000Z",
+      "message": "feat: pedir la explicación cuando está vacía en la solicitud de reclamo",
+      "url": "https://github.com/camilocro/UcbFound/commit/14f2c4cca11936545a32cfc5f6083ad90bb42056"
     },
     "stats": {
-      "total": 6,
-      "additions": 6,
+      "total": 18,
+      "additions": 18,
       "deletions": 0,
       "date": "2026-11-13"
     },
-    "coverage": 99.11,
+    "coverage": 99.16,
     "test_count": 105,
     "failed_tests": 0,
     "conclusion": "success"
   },
   {
-    "sha": "dbdb823379634bce1499a32b504f07432ac90811",
-    "author": "Celeste Limeira",
+    "sha": "d7fac8aa07aa75faf68d07f0ca6315462aca9936",
+    "author": "majo",
     "commit": {
-      "date": "2026-11-13T12:31:59.000Z",
-      "message": "fix: corregir observaciones de revision HU-08",
-      "url": "https://github.com/camilocro/UcbFound/commit/dbdb823379634bce1499a32b504f07432ac90811"
+      "date": "2026-11-13T05:39:54.000Z",
+      "message": "feat: tratar como vacía la explicación con solo espacios",
+      "url": "https://github.com/camilocro/UcbFound/commit/d7fac8aa07aa75faf68d07f0ca6315462aca9936"
     },
     "stats": {
-      "total": 34,
-      "additions": 26,
-      "deletions": 8,
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
       "date": "2026-11-13"
     },
-    "coverage": 99.11,
-    "test_count": 105,
+    "coverage": 99.16,
+    "test_count": 106,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "acd8d5ff24a4ef17b059671a68a06e22899aa35a",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-13T05:44:45.000Z",
+      "message": "feat: no dejar reclamar un objeto que registró la misma persona",
+      "url": "https://github.com/camilocro/UcbFound/commit/acd8d5ff24a4ef17b059671a68a06e22899aa35a"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 18,
+      "deletions": 0,
+      "date": "2026-11-13"
+    },
+    "coverage": 99.17,
+    "test_count": 107,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "d043b8243d81a930342ee9ae921b9d61032cc7d6",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-13T06:30:08.000Z",
+      "message": "feat: no dejar enviar otra solicitud de reclamo sobre el mismo objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/d043b8243d81a930342ee9ae921b9d61032cc7d6"
+    },
+    "stats": {
+      "total": 35,
+      "additions": 34,
+      "deletions": 1,
+      "date": "2026-11-13"
+    },
+    "coverage": 99.19,
+    "test_count": 108,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "f324bfd6888af53b755f1da0fa42ae55070adddf",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-13T06:45:57.000Z",
+      "message": "feat: guardar y recuperar las solicitudes de reclamo en el navegador",
+      "url": "https://github.com/camilocro/UcbFound/commit/f324bfd6888af53b755f1da0fa42ae55070adddf"
+    },
+    "stats": {
+      "total": 54,
+      "additions": 54,
+      "deletions": 0,
+      "date": "2026-11-13"
+    },
+    "coverage": 99.22,
+    "test_count": 109,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "d2552ce90220bfd32011a26636050d84cc7eff57",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-13T16:55:55.000Z",
+      "message": "feat: guardar la solicitud de reclamo a nombre de quien inició sesión",
+      "url": "https://github.com/camilocro/UcbFound/commit/d2552ce90220bfd32011a26636050d84cc7eff57"
+    },
+    "stats": {
+      "total": 90,
+      "additions": 90,
+      "deletions": 0,
+      "date": "2026-11-13"
+    },
+    "coverage": 98.51,
+    "test_count": 110,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "41cb5fd22a0bd89ccd1b5933895ac1676d90d347",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-13T16:59:55.000Z",
+      "message": "feat: revisar las solicitudes guardadas antes de enviar otro reclamo",
+      "url": "https://github.com/camilocro/UcbFound/commit/41cb5fd22a0bd89ccd1b5933895ac1676d90d347"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2026-11-13"
+    },
+    "coverage": 98.51,
+    "test_count": 111,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "807755ef1c795f6fb36dc61763696a6f763c026f",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-13T17:02:11.000Z",
+      "message": "chore: unir main en la rama de la HU-10",
+      "url": "https://github.com/camilocro/UcbFound/commit/807755ef1c795f6fb36dc61763696a6f763c026f"
+    },
+    "stats": {
+      "total": 128,
+      "additions": 111,
+      "deletions": 17,
+      "date": "2026-11-13"
+    },
+    "coverage": 98.51,
+    "test_count": 113,
     "failed_tests": 0,
     "conclusion": "success"
   },
   {
     "sha": "HEAD",
-    "author": "Celeste Limeira",
+    "author": "majo",
     "commit": {
-      "date": "2026-11-13T13:17:28.000Z",
-      "message": "test: corregir nombres y criterio en pruebas de HU-08",
+      "date": "2026-11-13T17:15:31.000Z",
+      "message": "feat: ocultar el formulario de reclamo después de enviar la solicitud",
       "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
     },
     "stats": {
-      "total": 46,
-      "additions": 37,
-      "deletions": 9,
+      "total": 94,
+      "additions": 91,
+      "deletions": 3,
       "date": "2026-11-13"
     },
-    "coverage": 99.11,
-    "test_count": 105,
+    "coverage": 98.51,
+    "test_count": 113,
     "failed_tests": 0,
     "conclusion": "success"
   }

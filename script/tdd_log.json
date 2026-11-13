@@ -2915,48 +2915,260 @@
     "numPassedTests": 103,
     "failedTests": 0,
     "numTotalTests": 103,
-    "timestamp": 1794545384864,
+    "timestamp": 1794546229267,
     "success": true,
+    "testId": 126
+  },
+  {
+    "numPassedTests": 103,
+    "failedTests": 0,
+    "numTotalTests": 103,
+    "timestamp": 1794547276376,
+    "success": false,
     "testId": 126
   },
   {
     "numPassedTests": 104,
     "failedTests": 0,
     "numTotalTests": 104,
-    "timestamp": 1794545665678,
+    "timestamp": 1794547333557,
     "success": true,
     "testId": 126
   },
   {
-    "commitId": "9f741ba7c5e36143b4546536ab58d08268ea5f63",
-    "commitName": "test: encontrar por categoría un objeto recién registrado con categoría y lugar",
-    "commitTimestamp": 1794545912320,
+    "commitId": "062545f255d5ceac20d284b01e09381c24590ed9",
+    "commitName": "feat: enviar la solicitud de reclamo como pendiente a nombre de quien reclama",
+    "commitTimestamp": 1794547752486,
     "testId": 126
+  },
+  {
+    "numPassedTests": 104,
+    "failedTests": 1,
+    "numTotalTests": 105,
+    "timestamp": 1794547887183,
+    "success": false,
+    "testId": 127
   },
   {
     "numPassedTests": 105,
     "failedTests": 0,
     "numTotalTests": 105,
-    "timestamp": 1794545959276,
+    "timestamp": 1794547977119,
     "success": true,
     "testId": 127
   },
   {
-    "commitId": "69996c18c08876d59f1c84e96b49efcda3bfb8ca",
-    "commitName": "test: no encontrar el objeto al filtrar por otra categoría",
-    "commitTimestamp": 1794545989041,
+    "commitId": "14f2c4cca11936545a32cfc5f6083ad90bb42056",
+    "commitName": "feat: pedir la explicación cuando está vacía en la solicitud de reclamo",
+    "commitTimestamp": 1794548023878,
     "testId": 127
   },
   {
-    "commitId": "dbdb823379634bce1499a32b504f07432ac90811",
-    "commitName": "fix: corregir observaciones de revision HU-08",
-    "commitTimestamp": 1794573136627,
+    "numPassedTests": 105,
+    "failedTests": 1,
+    "numTotalTests": 106,
+    "timestamp": 1794548316428,
+    "success": false,
     "testId": 128
   },
   {
-    "commitId": "HEAD",
-    "commitName": "test: corregir nombres y criterio en pruebas de HU-08",
-    "commitTimestamp": 1794575855718,
+    "numPassedTests": 106,
+    "failedTests": 0,
+    "numTotalTests": 106,
+    "timestamp": 1794548380017,
+    "success": true,
+    "testId": 128
+  },
+  {
+    "commitId": "d7fac8aa07aa75faf68d07f0ca6315462aca9936",
+    "commitName": "feat: tratar como vacía la explicación con solo espacios",
+    "commitTimestamp": 1794548402174,
+    "testId": 128
+  },
+  {
+    "numPassedTests": 106,
+    "failedTests": 1,
+    "numTotalTests": 107,
+    "timestamp": 1794548439419,
+    "success": false,
     "testId": 129
+  },
+  {
+    "numPassedTests": 107,
+    "failedTests": 0,
+    "numTotalTests": 107,
+    "timestamp": 1794548462806,
+    "success": true,
+    "testId": 129
+  },
+  {
+    "commitId": "acd8d5ff24a4ef17b059671a68a06e22899aa35a",
+    "commitName": "feat: no dejar reclamar un objeto que registró la misma persona",
+    "commitTimestamp": 1794548692850,
+    "testId": 129
+  },
+  {
+    "numPassedTests": 107,
+    "failedTests": 1,
+    "numTotalTests": 108,
+    "timestamp": 1794549595506,
+    "success": false,
+    "testId": 130
+  },
+  {
+    "numPassedTests": 107,
+    "failedTests": 1,
+    "numTotalTests": 108,
+    "timestamp": 1794550684541,
+    "success": false,
+    "testId": 130
+  },
+  {
+    "numPassedTests": 108,
+    "failedTests": 0,
+    "numTotalTests": 108,
+    "timestamp": 1794551381349,
+    "success": true,
+    "testId": 130
+  },
+  {
+    "commitId": "d043b8243d81a930342ee9ae921b9d61032cc7d6",
+    "commitName": "feat: no dejar enviar otra solicitud de reclamo sobre el mismo objeto",
+    "commitTimestamp": 1794551417138,
+    "testId": 130
+  },
+  {
+    "numPassedTests": 108,
+    "failedTests": 0,
+    "numTotalTests": 108,
+    "timestamp": 1794551508643,
+    "success": false,
+    "testId": 131
+  },
+  {
+    "numPassedTests": 108,
+    "failedTests": 0,
+    "numTotalTests": 108,
+    "timestamp": 1794552300606,
+    "success": false,
+    "testId": 131
+  },
+  {
+    "numPassedTests": 109,
+    "failedTests": 0,
+    "numTotalTests": 109,
+    "timestamp": 1794552344745,
+    "success": true,
+    "testId": 131
+  },
+  {
+    "commitId": "f324bfd6888af53b755f1da0fa42ae55070adddf",
+    "commitName": "feat: guardar y recuperar las solicitudes de reclamo en el navegador",
+    "commitTimestamp": 1794552364616,
+    "testId": 131
+  },
+  {
+    "numPassedTests": 109,
+    "failedTests": 0,
+    "numTotalTests": 109,
+    "timestamp": 1794588639969,
+    "success": true,
+    "testId": 132
+  },
+  {
+    "numPassedTests": 109,
+    "failedTests": 0,
+    "numTotalTests": 109,
+    "timestamp": 1794588896970,
+    "success": false,
+    "testId": 132
+  },
+  {
+    "numPassedTests": 110,
+    "failedTests": 0,
+    "numTotalTests": 110,
+    "timestamp": 1794588943513,
+    "success": true,
+    "testId": 132
+  },
+  {
+    "commitId": "d2552ce90220bfd32011a26636050d84cc7eff57",
+    "commitName": "feat: guardar la solicitud de reclamo a nombre de quien inició sesión",
+    "commitTimestamp": 1794588964316,
+    "testId": 132
+  },
+  {
+    "numPassedTests": 103,
+    "failedTests": 9,
+    "numTotalTests": 112,
+    "timestamp": 1794589032452,
+    "success": false,
+    "testId": 133
+  },
+  {
+    "numPassedTests": 110,
+    "failedTests": 0,
+    "numTotalTests": 110,
+    "timestamp": 1794589084667,
+    "success": true,
+    "testId": 133
+  },
+  {
+    "numPassedTests": 103,
+    "failedTests": 1,
+    "numTotalTests": 104,
+    "timestamp": 1794589100536,
+    "success": false,
+    "testId": 133
+  },
+  {
+    "numPassedTests": 110,
+    "failedTests": 1,
+    "numTotalTests": 111,
+    "timestamp": 1794589165829,
+    "success": false,
+    "testId": 133
+  },
+  {
+    "commitId": "41cb5fd22a0bd89ccd1b5933895ac1676d90d347",
+    "commitName": "feat: revisar las solicitudes guardadas antes de enviar otro reclamo",
+    "commitTimestamp": 1794589203570,
+    "testId": 133
+  },
+  {
+    "numPassedTests": 113,
+    "failedTests": 0,
+    "numTotalTests": 113,
+    "timestamp": 1794589327902,
+    "success": true,
+    "testId": 134
+  },
+  {
+    "commitId": "807755ef1c795f6fb36dc61763696a6f763c026f",
+    "commitName": "chore: unir main en la rama de la HU-10",
+    "commitTimestamp": 1794589339359,
+    "testId": 134
+  },
+  {
+    "numPassedTests": 113,
+    "failedTests": 0,
+    "numTotalTests": 113,
+    "timestamp": 1794589798530,
+    "success": true,
+    "testId": 135
+  },
+  {
+    "numPassedTests": 113,
+    "failedTests": 0,
+    "numTotalTests": 113,
+    "timestamp": 1794590120302,
+    "success": true,
+    "testId": 135
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: ocultar el formulario de reclamo después de enviar la solicitud",
+    "commitTimestamp": 1794590139100,
+    "testId": 135
   }
 ]
