@@ -1,0 +1,30 @@
+import { SolicitudReclamo } from './solicitudReclamo.js';
+import { OBJETOS_DE_EJEMPLO } from './datosDeEjemplo.js';
+
+const FECHA_DE_HOY = '2026-11-12';
+const CORREO_DE_QUIEN_RECLAMA = 'majo.sandoval@ucb.edu.bo';
+const [mochilaEncontrada] = OBJETOS_DE_EJEMPLO;
+const solicitudValida = {
+  objeto: mochilaEncontrada,
+  explicacion: 'Es mía, adentro está mi carnet universitario',
+};
+const reglasDeReclamo = new SolicitudReclamo(FECHA_DE_HOY, () => 'reclamo-1');
+
+describe('HU-10 Criterio 3: solicitud enviada', () => {
+  it('debería guardar la solicitud como pendiente a nombre de quien reclama', () => {
+    const resultado = reglasDeReclamo.crearReclamo(
+      solicitudValida,
+      CORREO_DE_QUIEN_RECLAMA,
+    );
+    expect(resultado.exito).toBe(true);
+    expect(resultado.mensaje).toEqual('Solicitud enviada. Un encargado la revisará');
+    expect(resultado.reclamo).toEqual({
+      id: 'reclamo-1',
+      idObjeto: 'ejemplo-1',
+      correoDelReclamante: 'majo.sandoval@ucb.edu.bo',
+      explicacion: 'Es mía, adentro está mi carnet universitario',
+      fecha: '2026-11-12',
+      estado: 'pendiente',
+    });
+  });
+});

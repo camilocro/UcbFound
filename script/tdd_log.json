@@ -2906,9 +2906,39 @@
     "testId": 125
   },
   {
-    "commitId": "HEAD",
+    "commitId": "777f83728a960fbf402a0169b6862c5d5c5c81d3",
     "commitName": "Merge remote-tracking branch 'origin/main' into feature/hu-08-buscar-por-categoria\n\n:wq#:wq",
     "commitTimestamp": 1794534681112,
     "testId": 125
+  },
+  {
+    "numPassedTests": 103,
+    "failedTests": 0,
+    "numTotalTests": 103,
+    "timestamp": 1794546229267,
+    "success": true,
+    "testId": 126
+  },
+  {
+    "numPassedTests": 103,
+    "failedTests": 0,
+    "numTotalTests": 103,
+    "timestamp": 1794547276376,
+    "success": false,
+    "testId": 126
+  },
+  {
+    "numPassedTests": 104,
+    "failedTests": 0,
+    "numTotalTests": 104,
+    "timestamp": 1794547333557,
+    "success": true,
+    "testId": 126
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: enviar la solicitud de reclamo como pendiente a nombre de quien reclama",
+    "commitTimestamp": 1794547752486,
+    "testId": 126
   }
 ]
