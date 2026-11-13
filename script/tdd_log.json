@@ -3248,9 +3248,23 @@
     "testId": 138
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a3099ebd12c2ac26550ba3445b5f681756e456b8",
     "commitName": "feat: guardar el bloque y el aula donde se perdió el objeto",
     "commitTimestamp": 1794593824788,
     "testId": 138
+  },
+  {
+    "numPassedTests": 114,
+    "failedTests": 0,
+    "numTotalTests": 114,
+    "timestamp": 1794593902970,
+    "success": true,
+    "testId": 139
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: completar con bloque y aula los datos de las pruebas de reporte",
+    "commitTimestamp": 1794593932029,
+    "testId": 139
   }
 ]

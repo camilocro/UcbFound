@@ -6,6 +6,8 @@ const datosValidos = {
   nombre: 'Mochila negra',
   descripcion: 'Mochila con un llavero de la UCB',
   fecha: '2026-10-15',
+  bloque: 'Tupuraya 2 - Bloque A',
+  aula: 'A-204',
 };
 
 describe('HU-04 Criterio 1: reporte creado', () => {
@@ -24,6 +26,8 @@ describe('HU-04 Criterio 1: reporte guardado a mi nombre', () => {
       descripcion: 'Mochila con un llavero de la UCB',
       fecha: '2026-10-15',
       correoDelDueno: 'juan.perez@ucb.edu.bo',
+      bloque: 'Tupuraya 2 - Bloque A',
+      aula: 'A-204',
     });
   });
 });
@@ -58,7 +62,7 @@ describe('HU-04 Criterio 3: fecha futura', () => {
 describe('HU-05 Criterio 3: lugar guardado', () => {
   it('debería guardar el bloque y el aula junto con el reporte', () => {
     const resultado = new ReporteObjetoPerdido(HOY).reportar(
-      { ...datosValidos, bloque: 'Tupuraya 2 - Bloque A', aula: 'A-204' },
+      datosValidos,
       CORREO,
     );
     expect(resultado.mensaje).toEqual('Reporte creado correctamente');
