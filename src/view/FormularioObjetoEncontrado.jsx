@@ -1,45 +1,9 @@
 import { useState } from 'react';
+import { esImagen } from '../model/foto.js';
+import { leerFoto } from './lectorDeFoto.js';
 
-const DATOS_INICIALES = { nombre: '', descripcion: '', foto: '', categoria: '' };
-const LADO_MAXIMO_EN_PIXELES = 800;
-
-function leerArchivo(archivo) {
-  return new Promise((resolve, reject) => {
-    const lector = new FileReader();
-    lector.onload = () => resolve(lector.result);
-    lector.onerror = () => reject(lector.error);
-    lector.readAsDataURL(archivo);
-  });
-}
-
-// Achica la foto (máximo 800 px por lado) para que entre en el almacenamiento del navegador
-function achicarImagen(dataUrl) {
-  return new Promise((resolve) => {
-    const imagen = new Image();
-    imagen.onload = () => {
-      if (!imagen.width || !imagen.height) {
-        resolve(dataUrl);
-        return;
-      }
-      const escala = Math.min(1, LADO_MAXIMO_EN_PIXELES / Math.max(imagen.width, imagen.height));
-      const lienzo = document.createElement('canvas');
-      lienzo.width = Math.round(imagen.width * escala);
-      lienzo.height = Math.round(imagen.height * escala);
-      const contexto = lienzo.getContext('2d');
-      contexto.fillStyle = '#ffffff';
-      contexto.fillRect(0, 0, lienzo.width, lienzo.height);
-      contexto.drawImage(imagen, 0, 0, lienzo.width, lienzo.height);
-      resolve(lienzo.toDataURL('image/jpeg', 0.8));
-    };
-    imagen.onerror = () => resolve(dataUrl);
-    imagen.src = dataUrl;
-  });
-}
-
-async function leerFoto(archivo) {
-  const dataUrl = await leerArchivo(archivo);
-  return archivo.type.startsWith('image/') ? achicarImagen(dataUrl) : dataUrl;
-}
+const DATOS_INICIALES = { nombre: '', descripcion: '', foto: '', categoria: '', bloque: '', aula: '' };
+const MENSAJE_ERROR_FOTO = 'No se pudo cargar la foto, intenta con otra imagen';
 
 function IconoCamara() {
   return (
@@ -54,8 +18,10 @@ export default function FormularioObjetoEncontrado({ presenter, alVerLista }) {
   const [datos, setDatos] = useState(DATOS_INICIALES);
   const [resultado, setResultado] = useState(null);
   const [estaCargandoFoto, setEstaCargandoFoto] = useState(false);
+  const [errorFoto, setErrorFoto] = useState('');
   const [claveCampoFoto, setClaveCampoFoto] = useState(0);
   const categorias = presenter.obtenerCategorias();
+  const bloques = presenter.obtenerBloques();
 
   const cambiarCampo = (evento) => {
     const { name, value } = evento.target;
@@ -64,14 +30,21 @@ export default function FormularioObjetoEncontrado({ presenter, alVerLista }) {
 
   const cambiarFoto = async (evento) => {
     const archivo = evento.target.files[0];
+    setErrorFoto('');
     if (!archivo) {
       setDatos((datosActuales) => ({ ...datosActuales, foto: '' }));
       return;
     }
     setEstaCargandoFoto(true);
-    const foto = await leerFoto(archivo);
-    setDatos((datosActuales) => ({ ...datosActuales, foto }));
-    setEstaCargandoFoto(false);
+    try {
+      const foto = await leerFoto(archivo);
+      setDatos((datosActuales) => ({ ...datosActuales, foto }));
+    } catch {
+      setDatos((datosActuales) => ({ ...datosActuales, foto: '' }));
+      setErrorFoto(MENSAJE_ERROR_FOTO);
+    } finally {
+      setEstaCargandoFoto(false);
+    }
   };
 
   const enviar = (evento) => {
@@ -84,7 +57,7 @@ export default function FormularioObjetoEncontrado({ presenter, alVerLista }) {
     }
   };
 
-  const tieneFotoValida = datos.foto.startsWith('data:image/');
+  const tieneFotoValida = esImagen(datos.foto);
 
   return (
     <section className="tarjeta">
@@ -115,6 +88,11 @@ export default function FormularioObjetoEncontrado({ presenter, alVerLista }) {
               </>
             )}
           </label>
+          {errorFoto && (
+            <p id="mensaje-error-foto" className="mensaje mensaje--error" role="alert">
+              {errorFoto}
+            </p>
+          )}
         </div>
 
         <div className="campo">
@@ -139,6 +117,30 @@ export default function FormularioObjetoEncontrado({ presenter, alVerLista }) {
               </option>
             ))}
           </select>
+        </div>
+
+        <div className="campo">
+          <label htmlFor="bloque-encontrado">Bloque donde lo encontraste *</label>
+          <select id="bloque-encontrado" name="bloque" value={datos.bloque} onChange={cambiarCampo}>
+            <option value="">Elige un bloque</option>
+            {bloques.map((bloque) => (
+              <option key={bloque} value={bloque}>
+                {bloque}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        <div className="campo">
+          <label htmlFor="aula-encontrado">Aula (opcional)</label>
+          <input
+            id="aula-encontrado"
+            name="aula"
+            type="text"
+            placeholder="Ej. Aula 201"
+            value={datos.aula}
+            onChange={cambiarCampo}
+          />
         </div>
 
         <div className="campo">

@@ -12,6 +12,9 @@ export default function DetalleObjeto({ objeto, alVolver }) {
       <p className="detalle__dato">
         <strong>Categoría:</strong> <span className="etiqueta">{objeto.categoria}</span>
       </p>
+      <p className="detalle__dato">
+        <strong>Lugar donde se encontró:</strong> {objeto.lugar}
+      </p>
       <button id="volver-lista-button" type="button" className="enlace" onClick={alVolver}>
         Volver a la lista
       </button>
