@@ -26,6 +26,7 @@ export class ReclamoPresenter {
     const resultado = reglasDeReclamo.crearReclamo(
       { objeto, explicacion },
       usuario.correo,
+      this.repositorioReclamos.obtenerTodos(),
     );
     if (resultado.exito) {
       this.repositorioReclamos.guardar(resultado.reclamo);

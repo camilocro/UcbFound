@@ -53,3 +53,16 @@ describe('HU-10 Presenter Criterio 7: solicitud guardada a mi nombre', () => {
     ]);
   });
 });
+
+describe('HU-10 Presenter Criterio 5: solicitud repetida', () => {
+  it('debería avisar que ya envió una solicitud si la anterior está guardada', () => {
+    const repositorioReclamos = new RepositorioReclamos(crearAlmacenamientoFalso());
+    const presenter = crearPresenter(repositorioReclamos);
+    presenter.enviarReclamo('ejemplo-1', EXPLICACION);
+    expect(presenter.enviarReclamo('ejemplo-1', EXPLICACION)).toEqual({
+      exito: false,
+      mensaje: 'Ya enviaste una solicitud para este objeto',
+    });
+    expect(repositorioReclamos.obtenerTodos()).toHaveLength(1);
+  });
+});

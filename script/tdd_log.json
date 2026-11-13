@@ -3092,9 +3092,47 @@
     "testId": 132
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d2552ce90220bfd32011a26636050d84cc7eff57",
     "commitName": "feat: guardar la solicitud de reclamo a nombre de quien inició sesión",
     "commitTimestamp": 1794588964316,
     "testId": 132
+  },
+  {
+    "numPassedTests": 103,
+    "failedTests": 9,
+    "numTotalTests": 112,
+    "timestamp": 1794589032452,
+    "success": false,
+    "testId": 133
+  },
+  {
+    "numPassedTests": 110,
+    "failedTests": 0,
+    "numTotalTests": 110,
+    "timestamp": 1794589084667,
+    "success": true,
+    "testId": 133
+  },
+  {
+    "numPassedTests": 103,
+    "failedTests": 1,
+    "numTotalTests": 104,
+    "timestamp": 1794589100536,
+    "success": false,
+    "testId": 133
+  },
+  {
+    "numPassedTests": 110,
+    "failedTests": 1,
+    "numTotalTests": 111,
+    "timestamp": 1794589165829,
+    "success": false,
+    "testId": 133
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: revisar las solicitudes guardadas antes de enviar otro reclamo",
+    "commitTimestamp": 1794589203570,
+    "testId": 133
   }
 ]
