@@ -39,4 +39,10 @@ describe('Integración HU-12, HU-13 y HU-08: registrar y buscar por categoría',
     const resultado = new BusquedaPresenter(repositorio).buscar('', 'Llaves');
     expect(resultado.objetos.map((objeto) => objeto.nombre)).toEqual(['Llaves del casillero']);
   });
+
+  it('no debería encontrar el objeto al filtrar por otra categoría', () => {
+    const repositorio = crearRepositorioConLlavesRegistradas();
+    const resultado = new BusquedaPresenter(repositorio).buscar('', 'Electrónica');
+    expect(resultado.objetos).toEqual([]);
+  });
 });

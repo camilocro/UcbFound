@@ -2928,9 +2928,23 @@
     "testId": 126
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9f741ba7c5e36143b4546536ab58d08268ea5f63",
     "commitName": "test: encontrar por categoría un objeto recién registrado con categoría y lugar",
     "commitTimestamp": 1794545912320,
     "testId": 126
+  },
+  {
+    "numPassedTests": 105,
+    "failedTests": 0,
+    "numTotalTests": 105,
+    "timestamp": 1794545959276,
+    "success": true,
+    "testId": 127
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: no encontrar el objeto al filtrar por otra categoría",
+    "commitTimestamp": 1794545989041,
+    "testId": 127
   }
 ]

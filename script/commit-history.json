@@ -2774,12 +2774,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9f741ba7c5e36143b4546536ab58d08268ea5f63",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-13T04:58:19.000Z",
       "message": "test: encontrar por categoría un objeto recién registrado con categoría y lugar",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/9f741ba7c5e36143b4546536ab58d08268ea5f63"
     },
     "stats": {
       "total": 42,
@@ -2789,6 +2789,25 @@
     },
     "coverage": 99.11,
     "test_count": 104,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-13T04:59:41.000Z",
+      "message": "test: no encontrar el objeto al filtrar por otra categoría",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-11-13"
+    },
+    "coverage": 99.11,
+    "test_count": 105,
     "failed_tests": 0,
     "conclusion": "success"
   }
