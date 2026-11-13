@@ -40,4 +40,14 @@ describe('HU-10 Criterio 4: explicación vacía', () => {
       mensaje: 'Es necesario explicar por qué el objeto es tuyo',
     });
   });
+  it('debería tratar como vacía una explicación con solo espacios', () => {
+    const resultado = reglasDeReclamo.crearReclamo(
+      { ...solicitudValida, explicacion: '   ' },
+      CORREO_DE_QUIEN_RECLAMA,
+    );
+    expect(resultado).toEqual({
+      exito: false,
+      mensaje: 'Es necesario explicar por qué el objeto es tuyo',
+    });
+  });
 });

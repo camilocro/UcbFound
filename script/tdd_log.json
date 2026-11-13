@@ -2958,9 +2958,31 @@
     "testId": 127
   },
   {
-    "commitId": "HEAD",
+    "commitId": "14f2c4cca11936545a32cfc5f6083ad90bb42056",
     "commitName": "feat: pedir la explicación cuando está vacía en la solicitud de reclamo",
     "commitTimestamp": 1794548023878,
     "testId": 127
+  },
+  {
+    "numPassedTests": 105,
+    "failedTests": 1,
+    "numTotalTests": 106,
+    "timestamp": 1794548316428,
+    "success": false,
+    "testId": 128
+  },
+  {
+    "numPassedTests": 106,
+    "failedTests": 0,
+    "numTotalTests": 106,
+    "timestamp": 1794548380017,
+    "success": true,
+    "testId": 128
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: tratar como vacía la explicación con solo espacios",
+    "commitTimestamp": 1794548402174,
+    "testId": 128
   }
 ]

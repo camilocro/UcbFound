@@ -13,7 +13,7 @@ export class SolicitudReclamo {
   }
 
   crearReclamo({ objeto, explicacion }, correoDelReclamante) {
-    if (explicacion === '') {
+    if (explicacion.trim() === '') {
       return crearError(MENSAJES_RECLAMO.FALTA_EXPLICACION);
     }
     const reclamo = new Reclamo({

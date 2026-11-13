@@ -2793,12 +2793,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "14f2c4cca11936545a32cfc5f6083ad90bb42056",
     "author": "majo",
     "commit": {
       "date": "2026-11-13T05:33:36.000Z",
       "message": "feat: pedir la explicación cuando está vacía en la solicitud de reclamo",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/14f2c4cca11936545a32cfc5f6083ad90bb42056"
     },
     "stats": {
       "total": 18,
@@ -2808,6 +2808,25 @@
     },
     "coverage": 99.16,
     "test_count": 105,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-13T05:39:54.000Z",
+      "message": "feat: tratar como vacía la explicación con solo espacios",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2026-11-13"
+    },
+    "coverage": 99.16,
+    "test_count": 106,
     "failed_tests": 0,
     "conclusion": "success"
   }
