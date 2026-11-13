@@ -2466,9 +2466,15 @@
     "testId": 123
   },
   {
-    "commitId": "HEAD",
+    "commitId": "01e0b9eb0dfb89bc908d10da846b1f8dedfccc3f",
     "commitName": "feat: agregar el filtro por categoría a la pantalla de búsqueda",
     "commitTimestamp": 1794522808480,
     "testId": 123
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style: mejorar estado sin resultados en búsqueda",
+    "commitTimestamp": 1794533030826,
+    "testId": 124
   }
 ]

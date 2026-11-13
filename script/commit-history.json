@@ -2337,18 +2337,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "01e0b9eb0dfb89bc908d10da846b1f8dedfccc3f",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-12T22:33:08.000Z",
       "message": "feat: agregar el filtro por categoría a la pantalla de búsqueda",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/01e0b9eb0dfb89bc908d10da846b1f8dedfccc3f"
     },
     "stats": {
       "total": 155,
       "additions": 142,
       "deletions": 13,
       "date": "2026-11-12"
+    },
+    "coverage": 97.07,
+    "test_count": 88,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-13T01:23:32.000Z",
+      "message": "style: mejorar estado sin resultados en búsqueda",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 191,
+      "additions": 159,
+      "deletions": 32,
+      "date": "2026-11-13"
     },
     "coverage": 97.07,
     "test_count": 88,

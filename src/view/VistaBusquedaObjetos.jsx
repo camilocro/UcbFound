@@ -2,7 +2,11 @@
 import { useState } from 'react';
 import DetalleObjeto from './DetalleObjeto.jsx';
 
-export default function VistaBusquedaObjetos({ presenterBusqueda, presenterDetalle }) {
+export default function VistaBusquedaObjetos({
+  presenterBusqueda,
+  presenterDetalle,
+  alReportar,
+}) {
   const categorias = presenterBusqueda.obtenerCategorias();
 
   const [textoBuscado, setTextoBuscado] = useState('');
@@ -27,6 +31,8 @@ export default function VistaBusquedaObjetos({ presenterBusqueda, presenterDetal
       />
     );
   }
+
+  const sinResultados = resultado.objetos.length === 0;
 
   return (
     <section className="tarjeta tarjeta--ancha">
@@ -66,38 +72,86 @@ export default function VistaBusquedaObjetos({ presenterBusqueda, presenterDetal
         </select>
       </div>
 
-      {resultado.mensaje && (
-        <p id="mensaje-busqueda" className="mensaje mensaje--error" role="status">
-          {resultado.mensaje}
-        </p>
-      )}
+      {sinResultados ? (
+      <div className="sin-resultados" role="status">
+          <svg
+            className="sin-resultados__icono"
+            viewBox="0 0 100 100"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              d="M15 32L50 15L85 32V72L50 90L15 72V32Z"
+              stroke="currentColor"
+              strokeWidth="4"
+              strokeLinejoin="round"
+            />
+            <path
+              d="M15 32L50 50L85 32M50 50V90M32 24L68 42"
+              stroke="currentColor"
+              strokeWidth="4"
+              strokeLinejoin="round"
+            />
+            <circle
+              cx="70"
+              cy="69"
+              r="15"
+              fill="white"
+              stroke="currentColor"
+              strokeWidth="4"
+            />
+            <path
+              d="M81 80L91 90"
+              stroke="currentColor"
+              strokeWidth="4"
+              strokeLinecap="round"
+            />
+          </svg>
 
-      <ul id="lista-objetos" className="lista-objetos">
-        {resultado.objetos.map((objeto) => (
-          <li key={objeto.id}>
-            <button
-              type="button"
-              className="objeto objeto--boton"
-              onClick={() =>
-                setObjetoSeleccionado(presenterDetalle.verDetalle(objeto.id))
-              }
-            >
-              <img
-                className="objeto__foto"
-                src={objeto.foto}
-                alt={objeto.nombre}
-              />
+          <h2 className="sin-resultados__titulo">
+            No encontramos objetos con esos datos.
+            ¿Quieres reportarlo como perdido?
+          </h2>
 
-              <span>
-                <span className="objeto__nombre">{objeto.nombre}</span>
-                <span className="objeto__fecha">
-                  Encontrado el {objeto.fecha}
+          <button
+            type="button"
+            className="sin-resultados__boton"
+            onClick={alReportar}
+          >
+            Reportar como perdido
+          </button>
+        </div>
+      ) : (
+        <ul id="lista-objetos" className="lista-objetos">
+          {resultado.objetos.map((objeto) => (
+            <li key={objeto.id}>
+              <button
+                type="button"
+                className="objeto objeto--boton"
+                onClick={() =>
+                  setObjetoSeleccionado(
+                    presenterDetalle.verDetalle(objeto.id)
+                  )
+                }
+              >
+                <img
+                  className="objeto__foto"
+                  src={objeto.foto}
+                  alt={objeto.nombre}
+                />
+
+                <span>
+                  <span className="objeto__nombre">{objeto.nombre}</span>
+                  <span className="objeto__fecha">
+                    Encontrado el {objeto.fecha}
+                  </span>
                 </span>
-              </span>
-            </button>
-          </li>
-        ))}
-      </ul>
+              </button>
+            </li>
+          ))}
+        </ul>
+      )}
     </section>
   );
 }
