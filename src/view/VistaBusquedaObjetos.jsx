@@ -5,6 +5,7 @@ import { TODAS_LAS_CATEGORIAS } from '../model/categorias.js';
 export default function VistaBusquedaObjetos({
   presenterBusqueda,
   presenterDetalle,
+  presenterReclamo,
   alReportar,
 }) {
   const categorias = presenterBusqueda.obtenerCategorias();
@@ -40,6 +41,7 @@ export default function VistaBusquedaObjetos({
       <DetalleObjeto
         objeto={objetoSeleccionado}
         alVolver={() => setObjetoSeleccionado(null)}
+        presenterReclamo={presenterReclamo}
       />
     );
   }

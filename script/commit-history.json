@@ -2926,17 +2926,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "807755ef1c795f6fb36dc61763696a6f763c026f",
     "author": "majo",
     "commit": {
       "date": "2026-11-13T17:02:11.000Z",
       "message": "chore: unir main en la rama de la HU-10",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/807755ef1c795f6fb36dc61763696a6f763c026f"
     },
     "stats": {
       "total": 128,
       "additions": 111,
       "deletions": 17,
+      "date": "2026-11-13"
+    },
+    "coverage": 98.51,
+    "test_count": 113,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-13T17:15:31.000Z",
+      "message": "feat: ocultar el formulario de reclamo después de enviar la solicitud",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 94,
+      "additions": 91,
+      "deletions": 3,
       "date": "2026-11-13"
     },
     "coverage": 98.51,

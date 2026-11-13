@@ -3144,9 +3144,31 @@
     "testId": 134
   },
   {
-    "commitId": "HEAD",
+    "commitId": "807755ef1c795f6fb36dc61763696a6f763c026f",
     "commitName": "chore: unir main en la rama de la HU-10",
     "commitTimestamp": 1794589339359,
     "testId": 134
+  },
+  {
+    "numPassedTests": 113,
+    "failedTests": 0,
+    "numTotalTests": 113,
+    "timestamp": 1794589798530,
+    "success": true,
+    "testId": 135
+  },
+  {
+    "numPassedTests": 113,
+    "failedTests": 0,
+    "numTotalTests": 113,
+    "timestamp": 1794590120302,
+    "success": true,
+    "testId": 135
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: ocultar el formulario de reclamo después de enviar la solicitud",
+    "commitTimestamp": 1794590139100,
+    "testId": 135
   }
 ]
