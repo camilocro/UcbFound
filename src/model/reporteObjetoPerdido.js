@@ -13,7 +13,7 @@ export class ReporteObjetoPerdido {
   }
 
   reportar({ nombre, descripcion, fecha }, correoDelDueno) {
-    const objeto = new ObjetoPerdido(nombre, descripcion, fecha, correoDelDueno);
+    const objeto = new ObjetoPerdido({ nombre, descripcion, fecha, correoDelDueno });
     if (objeto.tieneNombreOFechaVacios()) {
       return crearError(MENSAJES_REPORTE.NOMBRE_O_FECHA_VACIOS);
     }

@@ -2964,17 +2964,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b936cfa2351fcb5c75a9be5a9f6badfa71ff75e0",
     "author": "majo",
     "commit": {
       "date": "2026-11-13T17:30:12.000Z",
       "message": "fix: corregir el nombre del archivo de pruebas del repositorio de reclamos",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/b936cfa2351fcb5c75a9be5a9f6badfa71ff75e0"
     },
     "stats": {
       "total": 1,
       "additions": 1,
       "deletions": 0,
+      "date": "2026-11-13"
+    },
+    "coverage": 98.51,
+    "test_count": 113,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-13T18:04:41.000Z",
+      "message": "refactor: recibir los datos de ObjetoPerdido en un objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
       "date": "2026-11-13"
     },
     "coverage": 98.51,
