@@ -2869,12 +2869,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f324bfd6888af53b755f1da0fa42ae55070adddf",
     "author": "majo",
     "commit": {
       "date": "2026-11-13T06:45:57.000Z",
       "message": "feat: guardar y recuperar las solicitudes de reclamo en el navegador",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/f324bfd6888af53b755f1da0fa42ae55070adddf"
     },
     "stats": {
       "total": 54,
@@ -2884,6 +2884,25 @@
     },
     "coverage": 99.22,
     "test_count": 109,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-13T16:55:55.000Z",
+      "message": "feat: guardar la solicitud de reclamo a nombre de quien inició sesión",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 90,
+      "additions": 90,
+      "deletions": 0,
+      "date": "2026-11-13"
+    },
+    "coverage": 98.51,
+    "test_count": 110,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -3062,9 +3062,39 @@
     "testId": 131
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f324bfd6888af53b755f1da0fa42ae55070adddf",
     "commitName": "feat: guardar y recuperar las solicitudes de reclamo en el navegador",
     "commitTimestamp": 1794552364616,
     "testId": 131
+  },
+  {
+    "numPassedTests": 109,
+    "failedTests": 0,
+    "numTotalTests": 109,
+    "timestamp": 1794588639969,
+    "success": true,
+    "testId": 132
+  },
+  {
+    "numPassedTests": 109,
+    "failedTests": 0,
+    "numTotalTests": 109,
+    "timestamp": 1794588896970,
+    "success": false,
+    "testId": 132
+  },
+  {
+    "numPassedTests": 110,
+    "failedTests": 0,
+    "numTotalTests": 110,
+    "timestamp": 1794588943513,
+    "success": true,
+    "testId": 132
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: guardar la solicitud de reclamo a nombre de quien inició sesión",
+    "commitTimestamp": 1794588964316,
+    "testId": 132
   }
 ]
