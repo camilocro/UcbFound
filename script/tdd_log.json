@@ -3032,9 +3032,39 @@
     "testId": 130
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d043b8243d81a930342ee9ae921b9d61032cc7d6",
     "commitName": "feat: no dejar enviar otra solicitud de reclamo sobre el mismo objeto",
     "commitTimestamp": 1794551417138,
     "testId": 130
+  },
+  {
+    "numPassedTests": 108,
+    "failedTests": 0,
+    "numTotalTests": 108,
+    "timestamp": 1794551508643,
+    "success": false,
+    "testId": 131
+  },
+  {
+    "numPassedTests": 108,
+    "failedTests": 0,
+    "numTotalTests": 108,
+    "timestamp": 1794552300606,
+    "success": false,
+    "testId": 131
+  },
+  {
+    "numPassedTests": 109,
+    "failedTests": 0,
+    "numTotalTests": 109,
+    "timestamp": 1794552344745,
+    "success": true,
+    "testId": 131
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: guardar y recuperar las solicitudes de reclamo en el navegador",
+    "commitTimestamp": 1794552364616,
+    "testId": 131
   }
 ]

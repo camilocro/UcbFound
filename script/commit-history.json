@@ -2850,12 +2850,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d043b8243d81a930342ee9ae921b9d61032cc7d6",
     "author": "majo",
     "commit": {
       "date": "2026-11-13T06:30:08.000Z",
       "message": "feat: no dejar enviar otra solicitud de reclamo sobre el mismo objeto",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/d043b8243d81a930342ee9ae921b9d61032cc7d6"
     },
     "stats": {
       "total": 35,
@@ -2865,6 +2865,25 @@
     },
     "coverage": 99.19,
     "test_count": 108,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-13T06:45:57.000Z",
+      "message": "feat: guardar y recuperar las solicitudes de reclamo en el navegador",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 54,
+      "additions": 54,
+      "deletions": 0,
+      "date": "2026-11-13"
+    },
+    "coverage": 99.22,
+    "test_count": 109,
     "failed_tests": 0,
     "conclusion": "success"
   }
