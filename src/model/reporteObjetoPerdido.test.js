@@ -6,6 +6,8 @@ const datosValidos = {
   nombre: 'Mochila negra',
   descripcion: 'Mochila con un llavero de la UCB',
   fecha: '2026-10-15',
+  bloque: 'Tupuraya 2 - Bloque A',
+  aula: 'A-204',
 };
 
 describe('HU-04 Criterio 1: reporte creado', () => {
@@ -24,6 +26,8 @@ describe('HU-04 Criterio 1: reporte guardado a mi nombre', () => {
       descripcion: 'Mochila con un llavero de la UCB',
       fecha: '2026-10-15',
       correoDelDueno: 'juan.perez@ucb.edu.bo',
+      bloque: 'Tupuraya 2 - Bloque A',
+      aula: 'A-204',
     });
   });
 });
@@ -53,5 +57,40 @@ describe('HU-04 Criterio 3: fecha futura', () => {
   it('debería rechazar una fecha de pérdida posterior a hoy', () => {
     const resultado = new ReporteObjetoPerdido(HOY).reportar({ ...datosValidos, fecha: '2026-10-18' }, CORREO);
     expect(resultado).toEqual({ exito: false, mensaje: 'La fecha no puede ser futura' });
+  });
+});
+
+describe('HU-05 Criterio 3: lugar guardado', () => {
+  it('debería guardar el bloque y el aula junto con el reporte', () => {
+    const resultado = new ReporteObjetoPerdido(HOY).reportar(datosValidos, CORREO);
+    expect(resultado.mensaje).toEqual('Reporte creado correctamente');
+    expect([resultado.objeto.bloque, resultado.objeto.aula]).toEqual([
+      'Tupuraya 2 - Bloque A',
+      'A-204',
+    ]);
+  });
+});
+
+describe('HU-05 Criterio 4: sin bloque', () => {
+  it('debería pedir el bloque cuando no se elige uno', () => {
+    const resultado = new ReporteObjetoPerdido(HOY).reportar(
+      { ...datosValidos, bloque: '' },
+      CORREO,
+    );
+    expect(resultado).toEqual({
+      exito: false,
+      mensaje: 'Es necesario indicar el bloque donde lo perdiste',
+    });
+  });
+});
+
+describe('HU-05 Criterio 5: aula opcional', () => {
+  it('debería crear el reporte solo con el bloque cuando el aula está vacía', () => {
+    const resultado = new ReporteObjetoPerdido(HOY).reportar(
+      { ...datosValidos, aula: '   ' },
+      CORREO,
+    );
+    expect(resultado.mensaje).toEqual('Reporte creado correctamente');
+    expect(resultado.objeto.aula).toEqual('');
   });
 });

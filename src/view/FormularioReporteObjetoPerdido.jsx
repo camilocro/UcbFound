@@ -1,12 +1,19 @@
 
 import { useState } from 'react';
 
-const CAMPOS_INICIALES = { nombre: '', descripcion: '', fecha: '' };
+const CAMPOS_INICIALES = {
+  nombre: '',
+  descripcion: '',
+  fecha: '',
+  bloque: '',
+  aula: '',
+};
 
 export default function FormularioReporteObjetoPerdido({ presenter, fechaMaxima }) {
   const [camposDelFormulario, setCamposDelFormulario] =
     useState(CAMPOS_INICIALES);
   const [resultado, setResultado] = useState(null);
+  const bloques = presenter.obtenerBloques();
 
   const cambiarCampo = (evento) => {
     const { name, value } = evento.target;
@@ -67,6 +74,35 @@ export default function FormularioReporteObjetoPerdido({ presenter, fechaMaxima 
             type="date"
             max={fechaMaxima}
             value={camposDelFormulario.fecha}
+            onChange={cambiarCampo}
+          />
+        </div>
+
+        <div className="campo">
+          <label htmlFor="bloque-perdido">Bloque donde lo perdiste *</label>
+          <select
+            id="bloque-perdido"
+            name="bloque"
+            value={camposDelFormulario.bloque}
+            onChange={cambiarCampo}
+          >
+            <option value="">Elige un bloque</option>
+            {bloques.map((bloque) => (
+              <option key={bloque} value={bloque}>
+                {bloque}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        <div className="campo">
+          <label htmlFor="aula-perdido">Aula (opcional)</label>
+          <input
+            id="aula-perdido"
+            name="aula"
+            type="text"
+            placeholder="Ej. A-204"
+            value={camposDelFormulario.aula}
             onChange={cambiarCampo}
           />
         </div>

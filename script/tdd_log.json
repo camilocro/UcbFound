@@ -3180,9 +3180,187 @@
     "testId": 136
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b936cfa2351fcb5c75a9be5a9f6badfa71ff75e0",
     "commitName": "fix: corregir el nombre del archivo de pruebas del repositorio de reclamos",
     "commitTimestamp": 1794591020273,
     "testId": 136
+  },
+  {
+    "numPassedTests": 113,
+    "failedTests": 0,
+    "numTotalTests": 113,
+    "timestamp": 1794592754820,
+    "success": true,
+    "testId": 137
+  },
+  {
+    "numPassedTests": 113,
+    "failedTests": 0,
+    "numTotalTests": 113,
+    "timestamp": 1794593047043,
+    "success": true,
+    "testId": 137
+  },
+  {
+    "commitId": "075bfe6bd251b496ec967c292beeee87407f6006",
+    "commitName": "refactor: recibir los datos de ObjetoPerdido en un objeto",
+    "commitTimestamp": 1794593089499,
+    "testId": 137
+  },
+  {
+    "numPassedTests": 111,
+    "failedTests": 3,
+    "numTotalTests": 114,
+    "timestamp": 1794593177683,
+    "success": false,
+    "testId": 138
+  },
+  {
+    "numPassedTests": 113,
+    "failedTests": 0,
+    "numTotalTests": 113,
+    "timestamp": 1794593568775,
+    "success": true,
+    "testId": 138
+  },
+  {
+    "numPassedTests": 113,
+    "failedTests": 0,
+    "numTotalTests": 113,
+    "timestamp": 1794593713350,
+    "success": true,
+    "testId": 138
+  },
+  {
+    "numPassedTests": 113,
+    "failedTests": 1,
+    "numTotalTests": 114,
+    "timestamp": 1794593730443,
+    "success": false,
+    "testId": 138
+  },
+  {
+    "numPassedTests": 114,
+    "failedTests": 0,
+    "numTotalTests": 114,
+    "timestamp": 1794593806958,
+    "success": true,
+    "testId": 138
+  },
+  {
+    "commitId": "a3099ebd12c2ac26550ba3445b5f681756e456b8",
+    "commitName": "feat: guardar el bloque y el aula donde se perdió el objeto",
+    "commitTimestamp": 1794593824788,
+    "testId": 138
+  },
+  {
+    "numPassedTests": 114,
+    "failedTests": 0,
+    "numTotalTests": 114,
+    "timestamp": 1794593902970,
+    "success": true,
+    "testId": 139
+  },
+  {
+    "commitId": "200495357bc418f1be52a77e6d55c890eb1cbcfe",
+    "commitName": "test: completar con bloque y aula los datos de las pruebas de reporte",
+    "commitTimestamp": 1794593932029,
+    "testId": 139
+  },
+  {
+    "numPassedTests": 106,
+    "failedTests": 0,
+    "numTotalTests": 106,
+    "timestamp": 1794593990968,
+    "success": false,
+    "testId": 140
+  },
+  {
+    "numPassedTests": 114,
+    "failedTests": 0,
+    "numTotalTests": 114,
+    "timestamp": 1794594087401,
+    "success": true,
+    "testId": 140
+  },
+  {
+    "numPassedTests": 114,
+    "failedTests": 1,
+    "numTotalTests": 115,
+    "timestamp": 1794594113731,
+    "success": false,
+    "testId": 140
+  },
+  {
+    "numPassedTests": 115,
+    "failedTests": 0,
+    "numTotalTests": 115,
+    "timestamp": 1794594195666,
+    "success": true,
+    "testId": 140
+  },
+  {
+    "commitId": "bec23b4dda76cb87cae3af9f3220a4bba0b9f35a",
+    "commitName": "feat: pedir el bloque donde se perdió el objeto",
+    "commitTimestamp": 1794594217449,
+    "testId": 140
+  },
+  {
+    "numPassedTests": 115,
+    "failedTests": 1,
+    "numTotalTests": 116,
+    "timestamp": 1794594280536,
+    "success": false,
+    "testId": 141
+  },
+  {
+    "numPassedTests": 116,
+    "failedTests": 0,
+    "numTotalTests": 116,
+    "timestamp": 1794594350587,
+    "success": true,
+    "testId": 141
+  },
+  {
+    "commitId": "cf681392873ffec72ebbe16b0f04e660c73f2628",
+    "commitName": "feat: crear el reporte solo con el bloque cuando el aula está vacía",
+    "commitTimestamp": 1794594394480,
+    "testId": 141
+  },
+  {
+    "numPassedTests": 116,
+    "failedTests": 1,
+    "numTotalTests": 117,
+    "timestamp": 1794594447931,
+    "success": false,
+    "testId": 142
+  },
+  {
+    "numPassedTests": 117,
+    "failedTests": 0,
+    "numTotalTests": 117,
+    "timestamp": 1794594464427,
+    "success": true,
+    "testId": 142
+  },
+  {
+    "commitId": "972ebaa19b96b6b10498a1375d1dd2a6ce0df9af",
+    "commitName": "feat: ofrecer la lista de bloques al formulario de reporte",
+    "commitTimestamp": 1794594514786,
+    "testId": 142
+  },
+  {
+    "numPassedTests": 117,
+    "failedTests": 0,
+    "numTotalTests": 117,
+    "timestamp": 1794594695615,
+    "success": true,
+    "testId": 143
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar los campos de bloque y aula al formulario de reporte",
+    "commitTimestamp": 1794594714957,
+    "testId": 143
   }
 ]
