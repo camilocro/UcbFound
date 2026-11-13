@@ -3078,17 +3078,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "972ebaa19b96b6b10498a1375d1dd2a6ce0df9af",
     "author": "majo",
     "commit": {
       "date": "2026-11-13T18:28:27.000Z",
       "message": "feat: ofrecer la lista de bloques al formulario de reporte",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/972ebaa19b96b6b10498a1375d1dd2a6ce0df9af"
     },
     "stats": {
       "total": 15,
       "additions": 15,
       "deletions": 0,
+      "date": "2026-11-13"
+    },
+    "coverage": 98.55,
+    "test_count": 117,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-13T18:31:47.000Z",
+      "message": "feat: agregar los campos de bloque y aula al formulario de reporte",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 40,
+      "additions": 38,
+      "deletions": 2,
       "date": "2026-11-13"
     },
     "coverage": 98.55,

@@ -3344,9 +3344,23 @@
     "testId": 142
   },
   {
-    "commitId": "HEAD",
+    "commitId": "972ebaa19b96b6b10498a1375d1dd2a6ce0df9af",
     "commitName": "feat: ofrecer la lista de bloques al formulario de reporte",
     "commitTimestamp": 1794594514786,
     "testId": 142
+  },
+  {
+    "numPassedTests": 117,
+    "failedTests": 0,
+    "numTotalTests": 117,
+    "timestamp": 1794594695615,
+    "success": true,
+    "testId": 143
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar los campos de bloque y aula al formulario de reporte",
+    "commitTimestamp": 1794594714957,
+    "testId": 143
   }
 ]
