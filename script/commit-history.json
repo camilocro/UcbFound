@@ -2793,17 +2793,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "69996c18c08876d59f1c84e96b49efcda3bfb8ca",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-13T04:59:41.000Z",
       "message": "test: no encontrar el objeto al filtrar por otra categoría",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/69996c18c08876d59f1c84e96b49efcda3bfb8ca"
     },
     "stats": {
       "total": 6,
       "additions": 6,
       "deletions": 0,
+      "date": "2026-11-13"
+    },
+    "coverage": 99.11,
+    "test_count": 105,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-13T12:31:59.000Z",
+      "message": "fix: corregir observaciones de revision HU-08",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 34,
+      "additions": 26,
+      "deletions": 8,
       "date": "2026-11-13"
     },
     "coverage": 99.11,
