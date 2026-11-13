@@ -2812,17 +2812,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "dbdb823379634bce1499a32b504f07432ac90811",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-13T12:31:59.000Z",
       "message": "fix: corregir observaciones de revision HU-08",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/dbdb823379634bce1499a32b504f07432ac90811"
     },
     "stats": {
       "total": 34,
       "additions": 26,
       "deletions": 8,
+      "date": "2026-11-13"
+    },
+    "coverage": 99.11,
+    "test_count": 105,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-13T13:17:28.000Z",
+      "message": "test: corregir nombres y criterio en pruebas de HU-08",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 46,
+      "additions": 37,
+      "deletions": 9,
       "date": "2026-11-13"
     },
     "coverage": 99.11,
