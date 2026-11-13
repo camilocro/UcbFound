@@ -5,6 +5,7 @@ export const MENSAJES_REPORTE = {
   REPORTE_CREADO: 'Reporte creado correctamente',
   NOMBRE_O_FECHA_VACIOS: 'Es necesario ingresar nombre y fecha',
   FECHA_FUTURA: 'La fecha no puede ser futura',
+  FALTA_BLOQUE: 'Es necesario indicar el bloque donde lo perdiste',
 };
 
 export class ReporteObjetoPerdido {
@@ -26,6 +27,9 @@ export class ReporteObjetoPerdido {
     }
     if (objeto.tieneFechaFutura(this.fechaDeHoy)) {
       return crearError(MENSAJES_REPORTE.FECHA_FUTURA);
+    }
+    if (objeto.tieneBloqueVacio()) {
+      return crearError(MENSAJES_REPORTE.FALTA_BLOQUE);
     }
     return { exito: true, mensaje: MENSAJES_REPORTE.REPORTE_CREADO, objeto };
   }

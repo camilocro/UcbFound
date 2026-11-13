@@ -59,16 +59,27 @@ describe('HU-04 Criterio 3: fecha futura', () => {
     expect(resultado).toEqual({ exito: false, mensaje: 'La fecha no puede ser futura' });
   });
 });
+
 describe('HU-05 Criterio 3: lugar guardado', () => {
   it('debería guardar el bloque y el aula junto con el reporte', () => {
-    const resultado = new ReporteObjetoPerdido(HOY).reportar(
-      datosValidos,
-      CORREO,
-    );
+    const resultado = new ReporteObjetoPerdido(HOY).reportar(datosValidos, CORREO);
     expect(resultado.mensaje).toEqual('Reporte creado correctamente');
     expect([resultado.objeto.bloque, resultado.objeto.aula]).toEqual([
       'Tupuraya 2 - Bloque A',
       'A-204',
     ]);
+  });
+});
+
+describe('HU-05 Criterio 4: sin bloque', () => {
+  it('debería pedir el bloque cuando no se elige uno', () => {
+    const resultado = new ReporteObjetoPerdido(HOY).reportar(
+      { ...datosValidos, bloque: '' },
+      CORREO,
+    );
+    expect(resultado).toEqual({
+      exito: false,
+      mensaje: 'Es necesario indicar el bloque donde lo perdiste',
+    });
   });
 });

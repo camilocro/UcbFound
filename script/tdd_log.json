@@ -3262,9 +3262,47 @@
     "testId": 139
   },
   {
-    "commitId": "HEAD",
+    "commitId": "200495357bc418f1be52a77e6d55c890eb1cbcfe",
     "commitName": "test: completar con bloque y aula los datos de las pruebas de reporte",
     "commitTimestamp": 1794593932029,
     "testId": 139
+  },
+  {
+    "numPassedTests": 106,
+    "failedTests": 0,
+    "numTotalTests": 106,
+    "timestamp": 1794593990968,
+    "success": false,
+    "testId": 140
+  },
+  {
+    "numPassedTests": 114,
+    "failedTests": 0,
+    "numTotalTests": 114,
+    "timestamp": 1794594087401,
+    "success": true,
+    "testId": 140
+  },
+  {
+    "numPassedTests": 114,
+    "failedTests": 1,
+    "numTotalTests": 115,
+    "timestamp": 1794594113731,
+    "success": false,
+    "testId": 140
+  },
+  {
+    "numPassedTests": 115,
+    "failedTests": 0,
+    "numTotalTests": 115,
+    "timestamp": 1794594195666,
+    "success": true,
+    "testId": 140
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: pedir el bloque donde se perdió el objeto",
+    "commitTimestamp": 1794594217449,
+    "testId": 140
   }
 ]

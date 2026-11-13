@@ -1,5 +1,5 @@
 export class ObjetoPerdido {
-  constructor({ nombre, descripcion, fecha, correoDelDueno, bloque, aula }) {
+  constructor({ nombre, descripcion, fecha, correoDelDueno, bloque = '', aula }) {
     this.nombre = nombre.trim();
     this.descripcion = descripcion.trim();
     this.fecha = fecha.trim();
@@ -14,5 +14,9 @@ export class ObjetoPerdido {
 
   tieneFechaFutura(fechaDeHoy) {
     return this.fecha > fechaDeHoy;
+  }
+
+  tieneBloqueVacio() {
+    return this.bloque === '';
   }
 }

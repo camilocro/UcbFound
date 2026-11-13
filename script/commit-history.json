@@ -3021,12 +3021,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "200495357bc418f1be52a77e6d55c890eb1cbcfe",
     "author": "majo",
     "commit": {
       "date": "2026-11-13T18:18:44.000Z",
       "message": "test: completar con bloque y aula los datos de las pruebas de reporte",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/200495357bc418f1be52a77e6d55c890eb1cbcfe"
     },
     "stats": {
       "total": 23,
@@ -3036,6 +3036,25 @@
     },
     "coverage": 98.52,
     "test_count": 114,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-13T18:23:29.000Z",
+      "message": "feat: pedir el bloque donde se perdió el objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 29,
+      "additions": 24,
+      "deletions": 5,
+      "date": "2026-11-13"
+    },
+    "coverage": 98.54,
+    "test_count": 115,
     "failed_tests": 0,
     "conclusion": "success"
   }
