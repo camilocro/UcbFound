@@ -2812,12 +2812,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d7fac8aa07aa75faf68d07f0ca6315462aca9936",
     "author": "majo",
     "commit": {
       "date": "2026-11-13T05:39:54.000Z",
       "message": "feat: tratar como vacía la explicación con solo espacios",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/d7fac8aa07aa75faf68d07f0ca6315462aca9936"
     },
     "stats": {
       "total": 12,
@@ -2827,6 +2827,25 @@
     },
     "coverage": 99.16,
     "test_count": 106,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-13T05:44:45.000Z",
+      "message": "feat: no dejar reclamar un objeto que registró la misma persona",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 18,
+      "deletions": 0,
+      "date": "2026-11-13"
+    },
+    "coverage": 99.17,
+    "test_count": 107,
     "failed_tests": 0,
     "conclusion": "success"
   }

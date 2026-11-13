@@ -40,6 +40,7 @@ describe('HU-10 Criterio 4: explicación vacía', () => {
       mensaje: 'Es necesario explicar por qué el objeto es tuyo',
     });
   });
+
   it('debería tratar como vacía una explicación con solo espacios', () => {
     const resultado = reglasDeReclamo.crearReclamo(
       { ...solicitudValida, explicacion: '   ' },
@@ -48,6 +49,19 @@ describe('HU-10 Criterio 4: explicación vacía', () => {
     expect(resultado).toEqual({
       exito: false,
       mensaje: 'Es necesario explicar por qué el objeto es tuyo',
+    });
+  });
+});
+
+describe('HU-10 Criterio 6: objeto registrado por mí', () => {
+  it('no debería dejar reclamar un objeto que registró la misma persona', () => {
+    const resultado = reglasDeReclamo.crearReclamo(
+      solicitudValida,
+      'ana.lopez@ucb.edu.bo',
+    );
+    expect(resultado).toEqual({
+      exito: false,
+      mensaje: 'No puedes reclamar un objeto que tú registraste',
     });
   });
 });

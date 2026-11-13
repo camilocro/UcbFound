@@ -2980,9 +2980,31 @@
     "testId": 128
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d7fac8aa07aa75faf68d07f0ca6315462aca9936",
     "commitName": "feat: tratar como vacía la explicación con solo espacios",
     "commitTimestamp": 1794548402174,
     "testId": 128
+  },
+  {
+    "numPassedTests": 106,
+    "failedTests": 1,
+    "numTotalTests": 107,
+    "timestamp": 1794548439419,
+    "success": false,
+    "testId": 129
+  },
+  {
+    "numPassedTests": 107,
+    "failedTests": 0,
+    "numTotalTests": 107,
+    "timestamp": 1794548462806,
+    "success": true,
+    "testId": 129
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: no dejar reclamar un objeto que registró la misma persona",
+    "commitTimestamp": 1794548692850,
+    "testId": 129
   }
 ]
