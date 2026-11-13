@@ -2983,12 +2983,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "075bfe6bd251b496ec967c292beeee87407f6006",
     "author": "majo",
     "commit": {
       "date": "2026-11-13T18:04:41.000Z",
       "message": "refactor: recibir los datos de ObjetoPerdido en un objeto",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/075bfe6bd251b496ec967c292beeee87407f6006"
     },
     "stats": {
       "total": 4,
@@ -2998,6 +2998,25 @@
     },
     "coverage": 98.51,
     "test_count": 113,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-13T18:16:57.000Z",
+      "message": "feat: guardar el bloque y el aula donde se perdió el objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 28,
+      "additions": 25,
+      "deletions": 3,
+      "date": "2026-11-13"
+    },
+    "coverage": 98.52,
+    "test_count": 114,
     "failed_tests": 0,
     "conclusion": "success"
   }

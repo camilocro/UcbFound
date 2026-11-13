@@ -12,8 +12,15 @@ export class ReporteObjetoPerdido {
     this.fechaDeHoy = fechaDeHoy;
   }
 
-  reportar({ nombre, descripcion, fecha }, correoDelDueno) {
-    const objeto = new ObjetoPerdido({ nombre, descripcion, fecha, correoDelDueno });
+  reportar({ nombre, descripcion, fecha, bloque, aula }, correoDelDueno) {
+    const objeto = new ObjetoPerdido({
+      nombre,
+      descripcion,
+      fecha,
+      correoDelDueno,
+      bloque,
+      aula,
+    });
     if (objeto.tieneNombreOFechaVacios()) {
       return crearError(MENSAJES_REPORTE.NOMBRE_O_FECHA_VACIOS);
     }

@@ -3202,9 +3202,55 @@
     "testId": 137
   },
   {
-    "commitId": "HEAD",
+    "commitId": "075bfe6bd251b496ec967c292beeee87407f6006",
     "commitName": "refactor: recibir los datos de ObjetoPerdido en un objeto",
     "commitTimestamp": 1794593089499,
     "testId": 137
+  },
+  {
+    "numPassedTests": 111,
+    "failedTests": 3,
+    "numTotalTests": 114,
+    "timestamp": 1794593177683,
+    "success": false,
+    "testId": 138
+  },
+  {
+    "numPassedTests": 113,
+    "failedTests": 0,
+    "numTotalTests": 113,
+    "timestamp": 1794593568775,
+    "success": true,
+    "testId": 138
+  },
+  {
+    "numPassedTests": 113,
+    "failedTests": 0,
+    "numTotalTests": 113,
+    "timestamp": 1794593713350,
+    "success": true,
+    "testId": 138
+  },
+  {
+    "numPassedTests": 113,
+    "failedTests": 1,
+    "numTotalTests": 114,
+    "timestamp": 1794593730443,
+    "success": false,
+    "testId": 138
+  },
+  {
+    "numPassedTests": 114,
+    "failedTests": 0,
+    "numTotalTests": 114,
+    "timestamp": 1794593806958,
+    "success": true,
+    "testId": 138
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: guardar el bloque y el aula donde se perdió el objeto",
+    "commitTimestamp": 1794593824788,
+    "testId": 138
   }
 ]
