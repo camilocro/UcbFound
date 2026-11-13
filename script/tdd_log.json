@@ -2936,9 +2936,31 @@
     "testId": 126
   },
   {
-    "commitId": "HEAD",
+    "commitId": "062545f255d5ceac20d284b01e09381c24590ed9",
     "commitName": "feat: enviar la solicitud de reclamo como pendiente a nombre de quien reclama",
     "commitTimestamp": 1794547752486,
     "testId": 126
+  },
+  {
+    "numPassedTests": 104,
+    "failedTests": 1,
+    "numTotalTests": 105,
+    "timestamp": 1794547887183,
+    "success": false,
+    "testId": 127
+  },
+  {
+    "numPassedTests": 105,
+    "failedTests": 0,
+    "numTotalTests": 105,
+    "timestamp": 1794547977119,
+    "success": true,
+    "testId": 127
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: pedir la explicación cuando está vacía en la solicitud de reclamo",
+    "commitTimestamp": 1794548023878,
+    "testId": 127
   }
 ]

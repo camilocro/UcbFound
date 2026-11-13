@@ -28,3 +28,16 @@ describe('HU-10 Criterio 3: solicitud enviada', () => {
     });
   });
 });
+
+describe('HU-10 Criterio 4: explicación vacía', () => {
+  it('debería pedir la explicación cuando está vacía', () => {
+    const resultado = reglasDeReclamo.crearReclamo(
+      { ...solicitudValida, explicacion: '' },
+      CORREO_DE_QUIEN_RECLAMA,
+    );
+    expect(resultado).toEqual({
+      exito: false,
+      mensaje: 'Es necesario explicar por qué el objeto es tuyo',
+    });
+  });
+});

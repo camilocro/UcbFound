@@ -2774,12 +2774,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "062545f255d5ceac20d284b01e09381c24590ed9",
     "author": "majo",
     "commit": {
       "date": "2026-11-13T05:29:03.000Z",
       "message": "feat: enviar la solicitud de reclamo como pendiente a nombre de quien reclama",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/062545f255d5ceac20d284b01e09381c24590ed9"
     },
     "stats": {
       "total": 72,
@@ -2789,6 +2789,25 @@
     },
     "coverage": 99.15,
     "test_count": 104,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-13T05:33:36.000Z",
+      "message": "feat: pedir la explicación cuando está vacía en la solicitud de reclamo",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 18,
+      "deletions": 0,
+      "date": "2026-11-13"
+    },
+    "coverage": 99.16,
+    "test_count": 105,
     "failed_tests": 0,
     "conclusion": "success"
   }
