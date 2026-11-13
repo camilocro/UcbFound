@@ -2831,12 +2831,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "acd8d5ff24a4ef17b059671a68a06e22899aa35a",
     "author": "majo",
     "commit": {
       "date": "2026-11-13T05:44:45.000Z",
       "message": "feat: no dejar reclamar un objeto que registró la misma persona",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/acd8d5ff24a4ef17b059671a68a06e22899aa35a"
     },
     "stats": {
       "total": 18,
@@ -2846,6 +2846,25 @@
     },
     "coverage": 99.17,
     "test_count": 107,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-13T06:30:08.000Z",
+      "message": "feat: no dejar enviar otra solicitud de reclamo sobre el mismo objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 35,
+      "additions": 34,
+      "deletions": 1,
+      "date": "2026-11-13"
+    },
+    "coverage": 99.19,
+    "test_count": 108,
     "failed_tests": 0,
     "conclusion": "success"
   }

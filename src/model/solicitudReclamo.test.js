@@ -65,3 +65,21 @@ describe('HU-10 Criterio 6: objeto registrado por mí', () => {
     });
   });
 });
+
+describe('HU-10 Criterio 5: solicitud repetida', () => {
+  it('no debería dejar enviar otra solicitud sobre el mismo objeto', () => {
+    const reclamoAnterior = reglasDeReclamo.crearReclamo(
+      solicitudValida,
+      CORREO_DE_QUIEN_RECLAMA,
+    ).reclamo;
+    const resultado = reglasDeReclamo.crearReclamo(
+      solicitudValida,
+      CORREO_DE_QUIEN_RECLAMA,
+      [reclamoAnterior],
+    );
+    expect(resultado).toEqual({
+      exito: false,
+      mensaje: 'Ya enviaste una solicitud para este objeto',
+    });
+  });
+});

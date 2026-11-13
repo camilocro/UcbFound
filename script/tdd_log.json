@@ -3002,9 +3002,39 @@
     "testId": 129
   },
   {
-    "commitId": "HEAD",
+    "commitId": "acd8d5ff24a4ef17b059671a68a06e22899aa35a",
     "commitName": "feat: no dejar reclamar un objeto que registró la misma persona",
     "commitTimestamp": 1794548692850,
     "testId": 129
+  },
+  {
+    "numPassedTests": 107,
+    "failedTests": 1,
+    "numTotalTests": 108,
+    "timestamp": 1794549595506,
+    "success": false,
+    "testId": 130
+  },
+  {
+    "numPassedTests": 107,
+    "failedTests": 1,
+    "numTotalTests": 108,
+    "timestamp": 1794550684541,
+    "success": false,
+    "testId": 130
+  },
+  {
+    "numPassedTests": 108,
+    "failedTests": 0,
+    "numTotalTests": 108,
+    "timestamp": 1794551381349,
+    "success": true,
+    "testId": 130
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: no dejar enviar otra solicitud de reclamo sobre el mismo objeto",
+    "commitTimestamp": 1794551417138,
+    "testId": 130
   }
 ]
