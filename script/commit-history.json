@@ -3040,12 +3040,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bec23b4dda76cb87cae3af9f3220a4bba0b9f35a",
     "author": "majo",
     "commit": {
       "date": "2026-11-13T18:23:29.000Z",
       "message": "feat: pedir el bloque donde se perdió el objeto",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/bec23b4dda76cb87cae3af9f3220a4bba0b9f35a"
     },
     "stats": {
       "total": 29,
@@ -3055,6 +3055,25 @@
     },
     "coverage": 98.54,
     "test_count": 115,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-13T18:26:27.000Z",
+      "message": "feat: crear el reporte solo con el bloque cuando el aula está vacía",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 13,
+      "deletions": 2,
+      "date": "2026-11-13"
+    },
+    "coverage": 98.54,
+    "test_count": 116,
     "failed_tests": 0,
     "conclusion": "success"
   }

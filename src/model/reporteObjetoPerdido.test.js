@@ -83,3 +83,14 @@ describe('HU-05 Criterio 4: sin bloque', () => {
     });
   });
 });
+
+describe('HU-05 Criterio 5: aula opcional', () => {
+  it('debería crear el reporte solo con el bloque cuando el aula está vacía', () => {
+    const resultado = new ReporteObjetoPerdido(HOY).reportar(
+      { ...datosValidos, aula: '   ' },
+      CORREO,
+    );
+    expect(resultado.mensaje).toEqual('Reporte creado correctamente');
+    expect(resultado.objeto.aula).toEqual('');
+  });
+});
