@@ -2755,12 +2755,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "777f83728a960fbf402a0169b6862c5d5c5c81d3",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-13T01:48:10.000Z",
       "message": "Merge remote-tracking branch 'origin/main' into feature/hu-08-buscar-por-categoria\n\n:wq#:wq",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/777f83728a960fbf402a0169b6862c5d5c5c81d3"
     },
     "stats": {
       "total": 354,
@@ -2770,6 +2770,44 @@
     },
     "coverage": 99.11,
     "test_count": 103,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "9f741ba7c5e36143b4546536ab58d08268ea5f63",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-13T04:58:19.000Z",
+      "message": "test: encontrar por categoría un objeto recién registrado con categoría y lugar",
+      "url": "https://github.com/camilocro/UcbFound/commit/9f741ba7c5e36143b4546536ab58d08268ea5f63"
+    },
+    "stats": {
+      "total": 42,
+      "additions": 42,
+      "deletions": 0,
+      "date": "2026-11-13"
+    },
+    "coverage": 99.11,
+    "test_count": 104,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-13T04:59:41.000Z",
+      "message": "test: no encontrar el objeto al filtrar por otra categoría",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-11-13"
+    },
+    "coverage": 99.11,
+    "test_count": 105,
     "failed_tests": 0,
     "conclusion": "success"
   }
