@@ -16,6 +16,7 @@ export class Reclamo {
     this.fecha = fecha;
     this.estado = estado;
   }
+  
   esSobreElObjeto(idObjeto) {
     return this.idObjeto === idObjeto;
   }

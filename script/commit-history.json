@@ -2945,17 +2945,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f4f6c60f2baa650a1e38bc302b17568536fcbeb7",
     "author": "majo",
     "commit": {
       "date": "2026-11-13T17:15:31.000Z",
       "message": "feat: ocultar el formulario de reclamo después de enviar la solicitud",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/f4f6c60f2baa650a1e38bc302b17568536fcbeb7"
     },
     "stats": {
       "total": 94,
       "additions": 91,
       "deletions": 3,
+      "date": "2026-11-13"
+    },
+    "coverage": 98.51,
+    "test_count": 113,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-13T17:30:12.000Z",
+      "message": "fix: corregir el nombre del archivo de pruebas del repositorio de reclamos",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 1,
+      "additions": 1,
+      "deletions": 0,
       "date": "2026-11-13"
     },
     "coverage": 98.51,
