@@ -3322,9 +3322,31 @@
     "testId": 141
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cf681392873ffec72ebbe16b0f04e660c73f2628",
     "commitName": "feat: crear el reporte solo con el bloque cuando el aula está vacía",
     "commitTimestamp": 1794594394480,
     "testId": 141
+  },
+  {
+    "numPassedTests": 116,
+    "failedTests": 1,
+    "numTotalTests": 117,
+    "timestamp": 1794594447931,
+    "success": false,
+    "testId": 142
+  },
+  {
+    "numPassedTests": 117,
+    "failedTests": 0,
+    "numTotalTests": 117,
+    "timestamp": 1794594464427,
+    "success": true,
+    "testId": 142
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: ofrecer la lista de bloques al formulario de reporte",
+    "commitTimestamp": 1794594514786,
+    "testId": 142
   }
 ]

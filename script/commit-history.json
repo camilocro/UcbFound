@@ -3059,12 +3059,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cf681392873ffec72ebbe16b0f04e660c73f2628",
     "author": "majo",
     "commit": {
       "date": "2026-11-13T18:26:27.000Z",
       "message": "feat: crear el reporte solo con el bloque cuando el aula está vacía",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/cf681392873ffec72ebbe16b0f04e660c73f2628"
     },
     "stats": {
       "total": 15,
@@ -3074,6 +3074,25 @@
     },
     "coverage": 98.54,
     "test_count": 116,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-13T18:28:27.000Z",
+      "message": "feat: ofrecer la lista de bloques al formulario de reporte",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 15,
+      "deletions": 0,
+      "date": "2026-11-13"
+    },
+    "coverage": 98.55,
+    "test_count": 117,
     "failed_tests": 0,
     "conclusion": "success"
   }
