@@ -8,3 +8,4 @@ export const CATEGORIAS = [
   'Botellas y termos',
   'Otros',
 ];
+export const TODAS_LAS_CATEGORIAS = 'Todas';

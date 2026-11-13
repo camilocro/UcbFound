@@ -1,24 +1,46 @@
+
 import { useState } from 'react';
 import DetalleObjeto from './DetalleObjeto.jsx';
 
-export default function VistaBusquedaObjetos({ presenterBusqueda, presenterDetalle }) {
+export default function VistaBusquedaObjetos({
+  presenterBusqueda,
+  presenterDetalle,
+  alReportar,
+}) {
+  const categorias = presenterBusqueda.obtenerCategorias();
+
   const [textoBuscado, setTextoBuscado] = useState('');
-  const [resultado, setResultado] = useState(() => presenterBusqueda.buscar(''));
+  const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(categorias[0]);
+  const [resultado, setResultado] = useState(() =>
+    presenterBusqueda.buscar('', categorias[0])
+  );
   const [objetoSeleccionado, setObjetoSeleccionado] = useState(null);
 
   const buscar = (evento) => {
     evento.preventDefault();
-    setResultado(presenterBusqueda.buscar(textoBuscado));
+    setResultado(
+      presenterBusqueda.buscar(textoBuscado, categoriaSeleccionada)
+    );
   };
 
   if (objetoSeleccionado) {
-    return <DetalleObjeto objeto={objetoSeleccionado} alVolver={() => setObjetoSeleccionado(null)} />;
+    return (
+      <DetalleObjeto
+        objeto={objetoSeleccionado}
+        alVolver={() => setObjetoSeleccionado(null)}
+      />
+    );
   }
+
+  const sinResultados = resultado.objetos.length === 0;
 
   return (
     <section className="tarjeta tarjeta--ancha">
       <h1 className="tarjeta__titulo">Objetos encontrados</h1>
-      <p className="tarjeta__subtitulo">Busca por nombre o descripción. Presiona un objeto para ver sus datos.</p>
+
+      <p className="tarjeta__subtitulo">
+        Busca por nombre, descripción o categoría. Presiona un objeto para ver sus datos.
+      </p>
 
       <form id="form-busqueda" className="buscador" onSubmit={buscar}>
         <input
@@ -28,30 +50,108 @@ export default function VistaBusquedaObjetos({ presenterBusqueda, presenterDetal
           value={textoBuscado}
           onChange={(evento) => setTextoBuscado(evento.target.value)}
         />
+
         <button id="buscar-button" type="submit" className="boton">
           Buscar
         </button>
       </form>
 
-      {resultado.mensaje && (
-        <p id="mensaje-busqueda" className="mensaje mensaje--error" role="status">
-          {resultado.mensaje}
-        </p>
-      )}
+      <div className="filtro-categoria">
+        <label htmlFor="filtro-categoria">Filtrar por categoría</label>
 
-      <ul id="lista-objetos" className="lista-objetos">
-        {resultado.objetos.map((objeto) => (
-          <li key={objeto.id}>
-            <button type="button" className="objeto objeto--boton" onClick={() => setObjetoSeleccionado(presenterDetalle.verDetalle(objeto.id))}>
-              <img className="objeto__foto" src={objeto.foto} alt={objeto.nombre} />
-              <span>
-                <span className="objeto__nombre">{objeto.nombre}</span>
-                <span className="objeto__fecha">Encontrado el {objeto.fecha}</span>
-              </span>
-            </button>
-          </li>
-        ))}
-      </ul>
+        <select
+          id="filtro-categoria"
+          value={categoriaSeleccionada}
+          onChange={(evento) => setCategoriaSeleccionada(evento.target.value)}
+        >
+          {categorias.map((categoria) => (
+            <option key={categoria} value={categoria}>
+              {categoria}
+            </option>
+          ))}
+        </select>
+      </div>
+
+      {sinResultados ? (
+      <div className="sin-resultados" role="status">
+          <svg
+            className="sin-resultados__icono"
+            viewBox="0 0 100 100"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              d="M15 32L50 15L85 32V72L50 90L15 72V32Z"
+              stroke="currentColor"
+              strokeWidth="4"
+              strokeLinejoin="round"
+            />
+            <path
+              d="M15 32L50 50L85 32M50 50V90M32 24L68 42"
+              stroke="currentColor"
+              strokeWidth="4"
+              strokeLinejoin="round"
+            />
+            <circle
+              cx="70"
+              cy="69"
+              r="15"
+              fill="white"
+              stroke="currentColor"
+              strokeWidth="4"
+            />
+            <path
+              d="M81 80L91 90"
+              stroke="currentColor"
+              strokeWidth="4"
+              strokeLinecap="round"
+            />
+          </svg>
+
+          <h2 className="sin-resultados__titulo">
+            No encontramos objetos con esos datos.
+            ¿Quieres reportarlo como perdido?
+          </h2>
+
+          <button
+            type="button"
+            className="sin-resultados__boton"
+            onClick={alReportar}
+          >
+            Reportar como perdido
+          </button>
+        </div>
+      ) : (
+        <ul id="lista-objetos" className="lista-objetos">
+          {resultado.objetos.map((objeto) => (
+            <li key={objeto.id}>
+              <button
+                type="button"
+                className="objeto objeto--boton"
+                onClick={() =>
+                  setObjetoSeleccionado(
+                    presenterDetalle.verDetalle(objeto.id)
+                  )
+                }
+              >
+                <img
+                  className="objeto__foto"
+                  src={objeto.foto}
+                  alt={objeto.nombre}
+                />
+
+                <span>
+                  <span className="objeto__nombre">{objeto.nombre}</span>
+                  <span className="objeto__fecha">
+                    Encontrado el {objeto.fecha}
+                  </span>
+                </span>
+              </button>
+            </li>
+          ))}
+        </ul>
+      )}
     </section>
   );
 }

@@ -93,7 +93,7 @@ function App() {
         )}
         {vista.pagina === 'buscar-objetos' && (
           <div>
-            <VistaBusquedaObjetos presenterBusqueda={busquedaPresenter} presenterDetalle={detalleObjetoPresenter} />
+           <VistaBusquedaObjetos presenterBusqueda={busquedaPresenter} presenterDetalle={detalleObjetoPresenter}  alReportar={() => irA('reportar-objeto')}/>
             <button type="button" className="enlace" onClick={() => irA('principal')}>
               Volver al inicio
             </button>

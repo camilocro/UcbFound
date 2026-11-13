@@ -18,10 +18,12 @@ describe('HU-07 Criterio 1: buscar por nombre o descripción', () => {
 describe('HU-07 Criterio 2: sin coincidencias', () => {
   it('debería avisar cuando ningún objeto coincide', () => {
     const resultado = new BuscadorObjetos(objetos).buscar('paraguas');
-    expect(resultado).toEqual({ objetos: [], mensaje: 'No se encontraron objetos con ese nombre o descripción' });
+    expect(resultado).toEqual({
+      objetos: [],
+      mensaje: 'No se encontraron objetos con ese nombre, descripción o categoría',
+    });
   });
 });
-
 describe('HU-07 Criterio 3: buscar sin escribir nada', () => {
   it('debería mostrar todos los objetos del más reciente al más antiguo', () => {
     const resultado = new BuscadorObjetos(objetos).buscar('');
@@ -36,5 +38,84 @@ describe('HU-07 Criterio 3: objetos del mismo día', () => {
       new ObjetoEncontrado({ id: 'obj-5', nombre: 'Termo rojo', descripcion: 'Termo de metal', fecha: '2026-10-14', foto: '', correoDeQuienEncontro: 'luis.rojas@ucb.edu.bo' }),
     ];
     expect(nombres(new BuscadorObjetos(delMismoDia).buscar(''))).toEqual(['Termo rojo', 'Gorra azul']);
+  });
+});
+const objetosConCategoria = [
+  new ObjetoEncontrado({
+    id: 'cat-1',
+    nombre: 'Mochila negra',
+    descripcion: 'Tiene un llavero de la UCB',
+    fecha: '2026-10-10',
+    foto: '',
+    correoDeQuienEncontro: 'ana.lopez@ucb.edu.bo',
+    categoria: 'Mochilas y bolsos',
+  }),
+  new ObjetoEncontrado({
+    id: 'cat-2',
+    nombre: 'Cargador de laptop',
+    descripcion: 'Marca HP, cable negro',
+    fecha: '2026-10-14',
+    foto: '',
+    correoDeQuienEncontro: 'luis.rojas@ucb.edu.bo',
+    categoria: 'Electrónica',
+  }),
+  new ObjetoEncontrado({
+    id: 'cat-3',
+    nombre: 'Audífonos negros',
+    descripcion: 'Audífonos con estuche',
+    fecha: '2026-10-12',
+    foto: '',
+    correoDeQuienEncontro: 'maria.vargas@ucb.edu.bo',
+    categoria: 'Electrónica',
+  }),
+  new ObjetoEncontrado({
+    id: 'cat-4',
+    nombre: 'Botella de agua',
+    descripcion: 'Botella azul con stickers',
+    fecha: '2026-10-08',
+    foto: '',
+    correoDeQuienEncontro: 'ana.lopez@ucb.edu.bo',
+  }),
+];
+
+describe('HU-08 Criterio 2: elegir una categoría sin escribir texto', () => {
+  it('debería mostrar solo los objetos de esa categoría, del más reciente al más antiguo', () => {
+    const resultado = new BuscadorObjetos(objetosConCategoria).buscar('', 'Electrónica');
+
+    expect(nombres(resultado)).toEqual([
+      'Cargador de laptop',
+      'Audífonos negros',
+    ]);
+  });
+});
+
+describe('HU-08 Criterio 3: categoría y texto a la vez', () => {
+  it('debería mostrar solo los objetos que cumplen las dos condiciones', () => {
+    const resultado = new BuscadorObjetos(objetosConCategoria).buscar('negr', 'Mochilas y bolsos');
+
+    expect(nombres(resultado)).toEqual(['Mochila negra']);
+  });
+});
+
+describe('HU-08 Criterios 5, 6 y 7: con "Todas"', () => {
+  it('debería mostrar todos los objetos, también los sin categoría, del más reciente al más antiguo', () => {
+    const resultado = new BuscadorObjetos(objetosConCategoria).buscar('', 'Todas');
+
+    expect(nombres(resultado)).toEqual([
+      'Cargador de laptop',
+      'Audífonos negros',
+      'Mochila negra',
+      'Botella de agua',
+    ]);
+  });
+});
+describe('HU-08 Criterio 4: categoría sin resultados', () => {
+  it('debería mostrar un mensaje cuando no hay objetos de esa categoría', () => {
+    const resultado = new BuscadorObjetos(objetosConCategoria).buscar('', 'Llaves');
+
+    expect(resultado.mensaje).toBe(
+      'No se encontraron objetos con ese nombre, descripción o categoría'
+    );
+    expect(resultado.objetos).toEqual([]);
   });
 });

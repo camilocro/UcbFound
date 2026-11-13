@@ -1,5 +1,6 @@
 import { BusquedaPresenter } from './busquedaPresenter.js';
 import { RepositorioObjetosEncontrados } from '../model/repositorioObjetosEncontrados.js';
+import { CATEGORIAS, TODAS_LAS_CATEGORIAS } from '../model/categorias.js';
 
 function crearAlmacenamientoFalso() {
   const datos = {};
@@ -34,5 +35,46 @@ describe('HU-09 Criterio 2: lista sin datos personales', () => {
     const presenter = new BusquedaPresenter(crearRepositorioConObjetos());
     const resultado = presenter.buscar('mochila');
     expect('correoDeQuienEncontro' in resultado.objetos[0]).toBe(false);
+  });
+});
+describe('HU-08 Criterio 5: Presenter con categorias', () => {
+  it('deberia devolver Todas y las categorias disponibles', () => {
+    const presenter = new BusquedaPresenter(crearRepositorioConObjetos());
+
+    expect(presenter.obtenerCategorias()).toEqual([
+      TODAS_LAS_CATEGORIAS,
+      ...CATEGORIAS,
+    ]);
+  });
+
+  it('deberia buscar objetos usando la categoria seleccionada', () => {
+    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+
+    repositorio.guardar({
+      id: 'obj-1',
+      nombre: 'Mochila negra',
+      descripcion: 'Tiene un llavero',
+      fecha: '2026-10-10',
+      foto: '',
+      correoDeQuienEncontro: 'ana.lopez@ucb.edu.bo',
+      categoria: 'Mochilas y bolsos',
+    });
+
+    repositorio.guardar({
+      id: 'obj-2',
+      nombre: 'Botella azul',
+      descripcion: 'Tiene stickers',
+      fecha: '2026-10-12',
+      foto: '',
+      correoDeQuienEncontro: 'luis.rojas@ucb.edu.bo',
+      categoria: 'Botellas y termos',
+    });
+
+    const presenter = new BusquedaPresenter(repositorio);
+    const resultado = presenter.buscar('', 'Botellas y termos');
+
+    expect(resultado.objetos.map((objeto) => objeto.nombre)).toEqual([
+      'Botella azul',
+    ]);
   });
 });

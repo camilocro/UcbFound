@@ -42,7 +42,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-13T14:24:41.000Z",
-      "message": "feat: crear cuenta con nombre, correo UCB y contraseña válidos",
+      "message": "feat: crear cuenta con nombre, correo UCB y contrase├▒a v├ílidos",
       "url": "https://github.com/camilocro/UcbFound/commit/a4fe23b5c04ed4e5712f1941a633f20a66fcda06"
     },
     "stats": {
@@ -61,7 +61,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-14T13:24:23.000Z",
-      "message": "feat: validar que el nombre no esté vacío",
+      "message": "feat: validar que el nombre no est├® vac├¡o",
       "url": "https://github.com/camilocro/UcbFound/commit/a149b32795c143a5221f29927919216e67fecda9"
     },
     "stats": {
@@ -80,7 +80,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-14T13:26:01.000Z",
-      "message": "feat: validar que el correo no esté vacío",
+      "message": "feat: validar que el correo no est├® vac├¡o",
       "url": "https://github.com/camilocro/UcbFound/commit/c008a643bfd644489877fba4e111e140fff5e2d2"
     },
     "stats": {
@@ -99,7 +99,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-14T13:28:55.000Z",
-      "message": "feat: validar que la contraseña no esté vacía",
+      "message": "feat: validar que la contrase├▒a no est├® vac├¡a",
       "url": "https://github.com/camilocro/UcbFound/commit/2bb1bd0b010260c7d3bc450bde34646fe39aa251"
     },
     "stats": {
@@ -118,7 +118,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-14T13:32:07.000Z",
-      "message": "feat: tratar como vacíos los campos que solo tienen espacios",
+      "message": "feat: tratar como vac├¡os los campos que solo tienen espacios",
       "url": "https://github.com/camilocro/UcbFound/commit/435cb3a3cac3dfc9f1e57b874b902bd292067307"
     },
     "stats": {
@@ -175,7 +175,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-14T13:46:41.000Z",
-      "message": "feat: exigir contraseña de mínimo 8 caracteres",
+      "message": "feat: exigir contrase├▒a de m├¡nimo 8 caracteres",
       "url": "https://github.com/camilocro/UcbFound/commit/f59b17857b0edfeb916b395f7d633948a6dd1125"
     },
     "stats": {
@@ -194,7 +194,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-14T13:48:39.000Z",
-      "message": "feat: avisar cuando el correo ya está registrado",
+      "message": "feat: avisar cuando el correo ya est├í registrado",
       "url": "https://github.com/camilocro/UcbFound/commit/8c5e3a7a90326c6688eebfdea4a53c8b5ba4dba6"
     },
     "stats": {
@@ -251,7 +251,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-14T13:53:45.000Z",
-      "message": "feat: detectar correo repetido sin importar mayúsculas ni espacios",
+      "message": "feat: detectar correo repetido sin importar may├║sculas ni espacios",
       "url": "https://github.com/camilocro/UcbFound/commit/557cd3e7bfdec356241249a644941e73289ee03f"
     },
     "stats": {
@@ -270,7 +270,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-14T13:58:21.000Z",
-      "message": "feat: guardar el usuario con el correo en minúsculas",
+      "message": "feat: guardar el usuario con el correo en min├║sculas",
       "url": "https://github.com/camilocro/UcbFound/commit/62cf2b3d258382f4448945c5de35132396ad0444"
     },
     "stats": {
@@ -289,7 +289,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-14T14:01:10.000Z",
-      "message": "refactor: organizar el código en carpetas model, presenter y view",
+      "message": "refactor: organizar el c├│digo en carpetas model, presenter y view",
       "url": "https://github.com/camilocro/UcbFound/commit/ede0d10760afedb171d93f491cc4e0b1a444b1fb"
     },
     "stats": {
@@ -327,7 +327,7 @@
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-15T14:00:27.000Z",
-      "message": "feat: pedir correo y contraseña cuando el correo está vacío",
+      "message": "feat: pedir correo y contrase├▒a cuando el correo est├í vac├¡o",
       "url": "https://github.com/camilocro/UcbFound/commit/8bbf7747470e9068b5ec176782f7dd7d2231ff66"
     },
     "stats": {
@@ -346,7 +346,7 @@
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-15T14:02:59.000Z",
-      "message": "feat: pedir correo y contraseña cuando la contraseña está vacía",
+      "message": "feat: pedir correo y contrase├▒a cuando la contrase├▒a est├í vac├¡a",
       "url": "https://github.com/camilocro/UcbFound/commit/6a8e23a4c93f02ade964ec721df080288bfba0a5"
     },
     "stats": {
@@ -365,7 +365,7 @@
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-15T14:05:13.000Z",
-      "message": "feat: avisar cuando el correo o la contraseña son incorrectos",
+      "message": "feat: avisar cuando el correo o la contrase├▒a son incorrectos",
       "url": "https://github.com/camilocro/UcbFound/commit/3011eb4d3a478fc1155bc6b5087e12374c407ea1"
     },
     "stats": {
@@ -384,7 +384,7 @@
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-15T14:06:41.000Z",
-      "message": "feat: iniciar sesión cuando el correo y la contraseña son correctos",
+      "message": "feat: iniciar sesi├│n cuando el correo y la contrase├▒a son correctos",
       "url": "https://github.com/camilocro/UcbFound/commit/93e430e6ff3d2baa1d3b466bc96cf966430815eb"
     },
     "stats": {
@@ -403,7 +403,7 @@
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-15T14:08:15.000Z",
-      "message": "feat: ignorar mayúsculas y espacios en el correo al iniciar sesión",
+      "message": "feat: ignorar may├║sculas y espacios en el correo al iniciar sesi├│n",
       "url": "https://github.com/camilocro/UcbFound/commit/6dc379e8c3a121f4f98b33d0ba5b9a2ee6f4dbff"
     },
     "stats": {
@@ -422,7 +422,7 @@
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-15T14:09:43.000Z",
-      "message": "feat: crear presenter de inicio de sesión",
+      "message": "feat: crear presenter de inicio de sesi├│n",
       "url": "https://github.com/camilocro/UcbFound/commit/d3fa01734de1a2ae56d6a36b9c3952dc9ffe2296"
     },
     "stats": {
@@ -441,7 +441,7 @@
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-15T14:10:36.000Z",
-      "message": "feat: crear formulario de inicio de sesión en la vista",
+      "message": "feat: crear formulario de inicio de sesi├│n en la vista",
       "url": "https://github.com/camilocro/UcbFound/commit/6edaacfddcbcec9fff63cc54ec38d06117aef2a1"
     },
     "stats": {
@@ -460,7 +460,7 @@
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-15T14:16:51.000Z",
-      "message": "feat: conectar el inicio de sesión en la pantalla principal",
+      "message": "feat: conectar el inicio de sesi├│n en la pantalla principal",
       "url": "https://github.com/camilocro/UcbFound/commit/3e1ec5d356f8ebcee2475e8dbf4b06ce8d9be358"
     },
     "stats": {
@@ -479,7 +479,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:29:13.000Z",
-      "message": "feat: crear la sesión del usuario sin sesión iniciada",
+      "message": "feat: crear la sesi├│n del usuario sin sesi├│n iniciada",
       "url": "https://github.com/camilocro/UcbFound/commit/f8b214d931be566129caa18de043a0652c820177"
     },
     "stats": {
@@ -498,7 +498,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:30:03.000Z",
-      "message": "feat: iniciar la sesión del usuario",
+      "message": "feat: iniciar la sesi├│n del usuario",
       "url": "https://github.com/camilocro/UcbFound/commit/523f6ff4a0dcfc2ec4ce961c77f40ef6295e3162"
     },
     "stats": {
@@ -517,7 +517,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:34:01.000Z",
-      "message": "feat: obtener el usuario de la sesión iniciada",
+      "message": "feat: obtener el usuario de la sesi├│n iniciada",
       "url": "https://github.com/camilocro/UcbFound/commit/4f7b65ee4dd7e0b69a5f3c6a971f0a9c8223df77"
     },
     "stats": {
@@ -536,7 +536,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:35:12.000Z",
-      "message": "feat: cerrar la sesión del usuario",
+      "message": "feat: cerrar la sesi├│n del usuario",
       "url": "https://github.com/camilocro/UcbFound/commit/9be9100e2a123bd387e51634e360ba30e3713374"
     },
     "stats": {
@@ -555,7 +555,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:38:44.000Z",
-      "message": "feat: pedir iniciar sesión en páginas que requieren cuenta",
+      "message": "feat: pedir iniciar sesi├│n en p├íginas que requieren cuenta",
       "url": "https://github.com/camilocro/UcbFound/commit/3d5100f46917164f92383824d044b0ce808cdf29"
     },
     "stats": {
@@ -574,7 +574,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:40:25.000Z",
-      "message": "feat: mostrar páginas que requieren cuenta cuando hay sesión",
+      "message": "feat: mostrar p├íginas que requieren cuenta cuando hay sesi├│n",
       "url": "https://github.com/camilocro/UcbFound/commit/2abe647820a2d4fa8c3799efa164a76a93454c85"
     },
     "stats": {
@@ -593,7 +593,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:41:18.000Z",
-      "message": "feat: permitir páginas públicas sin sesión",
+      "message": "feat: permitir p├íginas p├║blicas sin sesi├│n",
       "url": "https://github.com/camilocro/UcbFound/commit/7fdca39a871b3a8e63962d0540984996bfbb90ad"
     },
     "stats": {
@@ -612,7 +612,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:43:21.000Z",
-      "message": "feat: crear presenter para cerrar sesión",
+      "message": "feat: crear presenter para cerrar sesi├│n",
       "url": "https://github.com/camilocro/UcbFound/commit/4757e4de76167015bf63698d03707734f4c85e41"
     },
     "stats": {
@@ -631,7 +631,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:44:12.000Z",
-      "message": "feat: iniciar sesión desde el presenter de sesión",
+      "message": "feat: iniciar sesi├│n desde el presenter de sesi├│n",
       "url": "https://github.com/camilocro/UcbFound/commit/aa4d50d6906c6a343b5697fb52cb4a513aa385bf"
     },
     "stats": {
@@ -650,7 +650,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:45:26.000Z",
-      "message": "feat: proteger páginas y agregar el botón de cerrar sesión",
+      "message": "feat: proteger p├íginas y agregar el bot├│n de cerrar sesi├│n",
       "url": "https://github.com/camilocro/UcbFound/commit/174215c3bbab8bdddfa2a4cbe34884625bb955fd"
     },
     "stats": {
@@ -669,7 +669,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:51:03.000Z",
-      "message": "feat: crear reporte de objeto perdido con datos válidos",
+      "message": "feat: crear reporte de objeto perdido con datos v├ílidos",
       "url": "https://github.com/camilocro/UcbFound/commit/f2140c07c9403a01f03f47f731dfa61c74dc66c5"
     },
     "stats": {
@@ -707,7 +707,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:54:02.000Z",
-      "message": "feat: pedir nombre y fecha cuando el nombre está vacío",
+      "message": "feat: pedir nombre y fecha cuando el nombre est├í vac├¡o",
       "url": "https://github.com/camilocro/UcbFound/commit/709b714548c3a008cd73d5eb3ab9753b8a62b799"
     },
     "stats": {
@@ -726,7 +726,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:55:03.000Z",
-      "message": "feat: pedir nombre y fecha cuando la fecha está vacía",
+      "message": "feat: pedir nombre y fecha cuando la fecha est├í vac├¡a",
       "url": "https://github.com/camilocro/UcbFound/commit/1610cfacdcc22f3d96a58c8f41046afeb951fd0c"
     },
     "stats": {
@@ -745,7 +745,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:55:54.000Z",
-      "message": "feat: tratar como vacío el nombre con solo espacios en el reporte",
+      "message": "feat: tratar como vac├¡o el nombre con solo espacios en el reporte",
       "url": "https://github.com/camilocro/UcbFound/commit/3dd034a4e5953729db0de4b3a0f25fee5fdf1016"
     },
     "stats": {
@@ -764,7 +764,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-17T19:56:56.000Z",
-      "message": "feat: rechazar fechas de pérdida futuras",
+      "message": "feat: rechazar fechas de p├®rdida futuras",
       "url": "https://github.com/camilocro/UcbFound/commit/1d33a526c410427244f0ea0dd4f76901888af030"
     },
     "stats": {
@@ -878,7 +878,7 @@
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-10-17T23:20:17.000Z",
-      "message": "feat: buscar objetos encontrados por descripción",
+      "message": "feat: buscar objetos encontrados por descripci├│n",
       "url": "https://github.com/camilocro/UcbFound/commit/6925efbd56bd6e26953613bc485bf806c7ce7db9"
     },
     "stats": {
@@ -897,7 +897,7 @@
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-10-17T23:34:51.000Z",
-      "message": "feat: buscar sin importar mayúsculas y minúsculas",
+      "message": "feat: buscar sin importar may├║sculas y min├║sculas",
       "url": "https://github.com/camilocro/UcbFound/commit/70a7a8b438c21cfcfc1df98e61675db8324927df"
     },
     "stats": {
@@ -916,7 +916,7 @@
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-10-17T23:40:25.000Z",
-      "message": "feat: mostrar los objetos que coinciden con la búsqueda",
+      "message": "feat: mostrar los objetos que coinciden con la b├║squeda",
       "url": "https://github.com/camilocro/UcbFound/commit/2ebed19220f48612b0b7e37e2d96f1dfcc3819ce"
     },
     "stats": {
@@ -954,7 +954,7 @@
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-10-17T23:45:48.000Z",
-      "message": "feat: mostrar todos los objetos del más reciente al más antiguo",
+      "message": "feat: mostrar todos los objetos del m├ís reciente al m├ís antiguo",
       "url": "https://github.com/camilocro/UcbFound/commit/bff6616c054db670e3aba3d209f1b187b8823763"
     },
     "stats": {
@@ -1068,7 +1068,7 @@
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-10-18T00:43:25.000Z",
-      "message": "feat: mostrar la vista básica de un objeto encontrado",
+      "message": "feat: mostrar la vista b├ísica de un objeto encontrado",
       "url": "https://github.com/camilocro/UcbFound/commit/2f6a2846890ec2f7f51010c7073e92254302c989"
     },
     "stats": {
@@ -1087,7 +1087,7 @@
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-10-18T00:45:47.000Z",
-      "message": "feat: ocultar los datos de quien encontró el objeto",
+      "message": "feat: ocultar los datos de quien encontr├│ el objeto",
       "url": "https://github.com/camilocro/UcbFound/commit/0c3bfca30ab35831e1ca3e056bae0bc83e988210"
     },
     "stats": {
@@ -1144,7 +1144,7 @@
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-10-18T00:58:18.000Z",
-      "message": "feat: no enviar a la lista los datos de quien encontró el objeto",
+      "message": "feat: no enviar a la lista los datos de quien encontr├│ el objeto",
       "url": "https://github.com/camilocro/UcbFound/commit/31ce16d3bdcf190e37c0399a92d27b48ebffad93"
     },
     "stats": {
@@ -1182,7 +1182,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-18T02:23:17.000Z",
-      "message": "chore: ejecutar las pruebas automáticamente en cada push y en cada pull request",
+      "message": "chore: ejecutar las pruebas autom├íticamente en cada push y en cada pull request",
       "url": "https://github.com/camilocro/UcbFound/commit/37281414ddf8e34df7b6e04902510f8b30900221"
     },
     "stats": {
@@ -1220,7 +1220,7 @@
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-18T23:33:22.000Z",
-      "message": "feat: registrar objeto encontrado con foto y descripción",
+      "message": "feat: registrar objeto encontrado con foto y descripci├│n",
       "url": "https://github.com/camilocro/UcbFound/commit/b2763425c37636f3cdf45e04a59aa954629c1e8f"
     },
     "stats": {
@@ -1239,7 +1239,7 @@
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-18T23:35:36.000Z",
-      "message": "feat: crear el objeto encontrado con la fecha de hoy y el correo de quien lo encontró",
+      "message": "feat: crear el objeto encontrado con la fecha de hoy y el correo de quien lo encontr├│",
       "url": "https://github.com/camilocro/UcbFound/commit/7ea73248a55c79ac09e5adbbd8ae561414dd8b5c"
     },
     "stats": {
@@ -1258,7 +1258,7 @@
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-18T23:38:26.000Z",
-      "message": "feat: pedir foto y descripción cuando falta la foto",
+      "message": "feat: pedir foto y descripci├│n cuando falta la foto",
       "url": "https://github.com/camilocro/UcbFound/commit/69b61a9fae434136bf5f29db38a18cc9a6e7cd95"
     },
     "stats": {
@@ -1277,7 +1277,7 @@
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-18T23:41:01.000Z",
-      "message": "feat: pedir foto y descripción cuando falta la descripción",
+      "message": "feat: pedir foto y descripci├│n cuando falta la descripci├│n",
       "url": "https://github.com/camilocro/UcbFound/commit/897d610a4b7f8d73a353e4c08934cad40ffcb3db"
     },
     "stats": {
@@ -1296,7 +1296,7 @@
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-18T23:43:27.000Z",
-      "message": "feat: tratar como vacía la descripción con solo espacios",
+      "message": "feat: tratar como vac├¡a la descripci├│n con solo espacios",
       "url": "https://github.com/camilocro/UcbFound/commit/83c5d0ce46dfcad1bf748212283c1332e474c079"
     },
     "stats": {
@@ -1334,7 +1334,7 @@
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-18T23:47:23.000Z",
-      "message": "feat: aceptar solo imágenes como foto del objeto",
+      "message": "feat: aceptar solo im├ígenes como foto del objeto",
       "url": "https://github.com/camilocro/UcbFound/commit/f216ee26e7458d24954d0affc3f8df2a62fc4cdc"
     },
     "stats": {
@@ -1372,7 +1372,7 @@
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-18T23:52:11.000Z",
-      "message": "feat: no guardar el objeto cuando faltan la foto o la descripción",
+      "message": "feat: no guardar el objeto cuando faltan la foto o la descripci├│n",
       "url": "https://github.com/camilocro/UcbFound/commit/40587cc66890f098767bff9b7582dafc3b0dbe01"
     },
     "stats": {
@@ -1410,7 +1410,7 @@
     "author": "nazaclaure",
     "commit": {
       "date": "2026-10-18T23:54:52.000Z",
-      "message": "feat: pedir iniciar sesión para registrar un objeto encontrado",
+      "message": "feat: pedir iniciar sesi├│n para registrar un objeto encontrado",
       "url": "https://github.com/camilocro/UcbFound/commit/b0e9b04ea530f2b38478b0f79b01d473a808e2b7"
     },
     "stats": {
@@ -1467,7 +1467,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-20T13:42:17.000Z",
-      "message": "refactor: crear los presenters de registro e inicio de sesión en main.jsx",
+      "message": "refactor: crear los presenters de registro e inicio de sesi├│n en main.jsx",
       "url": "https://github.com/camilocro/UcbFound/commit/d05c28b50d272191408bd560799b3fa2ddedeada"
     },
     "stats": {
@@ -1486,7 +1486,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-20T13:47:28.000Z",
-      "message": "fix: pedir sesión para buscar objetos encontrados",
+      "message": "fix: pedir sesi├│n para buscar objetos encontrados",
       "url": "https://github.com/camilocro/UcbFound/commit/b3502a60f599ba5387a3b0a81f7d29787e133536"
     },
     "stats": {
@@ -1524,7 +1524,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-10-20T13:50:25.000Z",
-      "message": "fix: mostrar primero el último objeto registrado cuando tienen la misma fecha",
+      "message": "fix: mostrar primero el ├║ltimo objeto registrado cuando tienen la misma fecha",
       "url": "https://github.com/camilocro/UcbFound/commit/ee03452daab51102371664064ddb917ba9aa1bdc"
     },
     "stats": {
@@ -1638,7 +1638,7 @@
     "author": "Maria Sandoval",
     "commit": {
       "date": "2026-11-10T14:01:00.000Z",
-      "message": "refactor: nombrar como predicados los métodos de ObjetoPerdido",
+      "message": "refactor: nombrar como predicados los m├®todos de ObjetoPerdido",
       "url": "https://github.com/camilocro/UcbFound/commit/99f8386cd6d9eae93a60589fc06f4e744903541f"
     },
     "stats": {
@@ -1942,7 +1942,7 @@
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T12:48:20.000Z",
-      "message": "refactor: usar la función crearError compartida en RegistroUsuario",
+      "message": "refactor: usar la funci├│n crearError compartida en RegistroUsuario",
       "url": "https://github.com/camilocro/UcbFound/commit/6ace7a5e8d1930ecf39a990ac9dfe59589643e02"
     },
     "stats": {
@@ -1961,7 +1961,7 @@
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T12:50:00.000Z",
-      "message": "refactor: usar la función crearError compartida en RegistroObjetoEncontrado",
+      "message": "refactor: usar la funci├│n crearError compartida en RegistroObjetoEncontrado",
       "url": "https://github.com/camilocro/UcbFound/commit/58872da3dc8bebeb077f5c4b286b6e441cb44fbf"
     },
     "stats": {
@@ -1980,7 +1980,7 @@
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T12:50:58.000Z",
-      "message": "refactor: usar la función crearError compartida en ReporteObjetoPerdido",
+      "message": "refactor: usar la funci├│n crearError compartida en ReporteObjetoPerdido",
       "url": "https://github.com/camilocro/UcbFound/commit/58f455cab94c3dcd47fa090239d508cb2975928f"
     },
     "stats": {
@@ -2009,25 +2009,6 @@
       "date": "2026-11-12"
     },
     "coverage": 95.77,
-    "test_count": 70,
-    "failed_tests": 0,
-    "conclusion": "success"
-  },
-  {
-    "sha": "c7830ba84fb72b61d3b15379269f54b5f326b3a8",
-    "author": "camilocro",
-    "commit": {
-      "date": "2026-11-12T13:47:07.000Z",
-      "message": "refactor: renombrar cargandoFoto a estaCargandoFoto",
-      "url": "https://github.com/camilocro/UcbFound/commit/c7830ba84fb72b61d3b15379269f54b5f326b3a8"
-    },
-    "stats": {
-      "total": 12,
-      "additions": 6,
-      "deletions": 6,
-      "date": "2026-11-12"
-    },
-    "coverage": 96.3,
     "test_count": 70,
     "failed_tests": 0,
     "conclusion": "success"
@@ -2075,7 +2056,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-11-12T14:13:35.000Z",
-      "message": "refactor: ajusta el diseño del registro de objeto encontrado al prototipo",
+      "message": "refactor: ajusta el dise├▒o del registro de objeto encontrado al prototipo",
       "url": "https://github.com/camilocro/UcbFound/commit/980e05c5f5e15aab2be7beb1310b98af99a9deb6"
     },
     "stats": {
@@ -2094,7 +2075,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-11-12T15:18:34.000Z",
-      "message": "feat: guardar la categoría del objeto encontrado (HU-13)",
+      "message": "feat: guardar la categor├¡a del objeto encontrado (HU-13)",
       "url": "https://github.com/camilocro/UcbFound/commit/3de9fe9c738a5b3a0a7a431e71e986dcff5eb49d"
     },
     "stats": {
@@ -2113,7 +2094,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-11-12T15:27:27.000Z",
-      "message": "feat: pedir la categoría al registrar un objeto encontrado (HU-13)",
+      "message": "feat: pedir la categor├¡a al registrar un objeto encontrado (HU-13)",
       "url": "https://github.com/camilocro/UcbFound/commit/afceabeb20f253f91b2fb499e3981b603c86bf41"
     },
     "stats": {
@@ -2132,7 +2113,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-11-12T15:30:35.000Z",
-      "message": "feat: aceptar solo categorías de la lista oficial (HU-13)",
+      "message": "feat: aceptar solo categor├¡as de la lista oficial (HU-13)",
       "url": "https://github.com/camilocro/UcbFound/commit/35bc008ef397321a57785b091593319ec06419b7"
     },
     "stats": {
@@ -2151,7 +2132,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-11-12T15:32:45.000Z",
-      "message": "feat: mostrar la categoría en el detalle del objeto (HU-13)",
+      "message": "feat: mostrar la categor├¡a en el detalle del objeto (HU-13)",
       "url": "https://github.com/camilocro/UcbFound/commit/5e3a62518d035007b871b6d3f9823b23470f857d"
     },
     "stats": {
@@ -2170,7 +2151,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-11-12T15:35:23.000Z",
-      "message": "feat: mostrar Sin categoría en objetos anteriores (HU-13)",
+      "message": "feat: mostrar Sin categor├¡a en objetos anteriores (HU-13)",
       "url": "https://github.com/camilocro/UcbFound/commit/5cc1ba309f91ec949f865d1235d962cb340eae3c"
     },
     "stats": {
@@ -2189,7 +2170,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-11-12T15:38:54.000Z",
-      "message": "feat: ofrecer la lista de categorías al formulario (HU-13)",
+      "message": "feat: ofrecer la lista de categor├¡as al formulario (HU-13)",
       "url": "https://github.com/camilocro/UcbFound/commit/d9db9260885aed1bc116e0d803cdf3abe4734f3a"
     },
     "stats": {
@@ -2208,7 +2189,7 @@
     "author": "camilocro",
     "commit": {
       "date": "2026-11-12T15:46:22.000Z",
-      "message": "feat: elegir la categoría en el formulario y verla en el detalle (HU-13)",
+      "message": "feat: elegir la categor├¡a en el formulario y verla en el detalle (HU-13)",
       "url": "https://github.com/camilocro/UcbFound/commit/e9a88d839c67f500fd140e935d7b9f661ee3a9b4"
     },
     "stats": {
@@ -2398,7 +2379,7 @@
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T19:19:00.000Z",
-      "message": "feat: mostrar el lugar donde se encontró en el detalle del objeto (HU-12)",
+      "message": "feat: mostrar el lugar donde se encontr├│ en el detalle del objeto (HU-12)",
       "url": "https://github.com/camilocro/UcbFound/commit/1c964c276f30e28cb7e894b6d06b8733fd22a445"
     },
     "stats": {
@@ -2409,6 +2390,25 @@
     },
     "coverage": 97.18,
     "test_count": 87,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "8f36acffbd54ad33031609e260aeb0ac97c93ae1",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-12T19:25:07.000Z",
+      "message": "feat: saber si un objeto es de una categor├¡a",
+      "url": "https://github.com/camilocro/UcbFound/commit/8f36acffbd54ad33031609e260aeb0ac97c93ae1"
+    },
+    "stats": {
+      "total": 22,
+      "additions": 21,
+      "deletions": 1,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.04,
+    "test_count": 81,
     "failed_tests": 0,
     "conclusion": "success"
   },
@@ -2493,7 +2493,7 @@
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T20:19:35.000Z",
-      "message": "feat: calcular el tamaño reducido de una foto grande",
+      "message": "feat: calcular el tama├▒o reducido de una foto grande",
       "url": "https://github.com/camilocro/UcbFound/commit/67e9f21273eb0d7093bfcb7dbe2bb87fe93190bc"
     },
     "stats": {
@@ -2508,11 +2508,30 @@
     "conclusion": "success"
   },
   {
+    "sha": "fd6a2394436c54eeb253687988dd63c59c7f3a02",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-12T20:20:05.000Z",
+      "message": "feat: aceptar todas las categor├¡as y objetos sin categor├¡a con Todas",
+      "url": "https://github.com/camilocro/UcbFound/commit/fd6a2394436c54eeb253687988dd63c59c7f3a02"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 11,
+      "deletions": 3,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.06,
+    "test_count": 82,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
     "sha": "e46b0a9139124cfc1ca77f37fa797ecde86573ea",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T20:21:13.000Z",
-      "message": "feat: no agrandar las fotos que ya son pequeñas",
+      "message": "feat: no agrandar las fotos que ya son peque├▒as",
       "url": "https://github.com/camilocro/UcbFound/commit/e46b0a9139124cfc1ca77f37fa797ecde86573ea"
     },
     "stats": {
@@ -2550,7 +2569,7 @@
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T20:24:43.000Z",
-      "message": "refactor: usar lectorDeFoto en el formulario y quitar la lógica de achicar de la vista",
+      "message": "refactor: usar lectorDeFoto en el formulario y quitar la l├│gica de achicar de la vista",
       "url": "https://github.com/camilocro/UcbFound/commit/5e616f99f73e25eff72f24e88c1a6c55aae08c40"
     },
     "stats": {
@@ -2561,6 +2580,25 @@
     },
     "coverage": 97.25,
     "test_count": 90,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "0581bd5b5eea40c52c9fff0e9e6450899a26ac31",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-12T20:35:17.000Z",
+      "message": "feat: filtrar objetos encontrados por categor├¡a",
+      "url": "https://github.com/camilocro/UcbFound/commit/0581bd5b5eea40c52c9fff0e9e6450899a26ac31"
+    },
+    "stats": {
+      "total": 88,
+      "additions": 84,
+      "deletions": 4,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.06,
+    "test_count": 85,
     "failed_tests": 0,
     "conclusion": "success"
   },
@@ -2622,6 +2660,25 @@
     "conclusion": "success"
   },
   {
+    "sha": "52ecab68dc73b307a3836e8c7aece4390036ced0",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-12T21:08:04.000Z",
+      "message": "feat: avisar cuando ning├║n objeto coincide con nombre, descripci├│n o categor├¡a",
+      "url": "https://github.com/camilocro/UcbFound/commit/52ecab68dc73b307a3836e8c7aece4390036ced0"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 15,
+      "deletions": 4,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.06,
+    "test_count": 86,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
     "sha": "8d11df7910e9957f1de92fe7d1f853ebdc14fde1",
     "author": "camilocro",
     "commit": {
@@ -2641,12 +2698,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6fb8a50867ac1ef647bb3ab22be150df9948fa57",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-12T22:27:10.000Z",
-      "message": "chore: resolver conflictos con main (apariencia del inicio de sesión)",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "message": "chore: resolver conflictos con main (apariencia del inicio de sesi├│n)",
+      "url": "https://github.com/camilocro/UcbFound/commit/6fb8a50867ac1ef647bb3ab22be150df9948fa57"
     },
     "stats": {
       "total": 72,
@@ -2656,6 +2713,63 @@
     },
     "coverage": 99.1,
     "test_count": 95,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "01e0b9eb0dfb89bc908d10da846b1f8dedfccc3f",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-12T22:33:08.000Z",
+      "message": "feat: agregar el filtro por categor├¡a a la pantalla de b├║squeda",
+      "url": "https://github.com/camilocro/UcbFound/commit/01e0b9eb0dfb89bc908d10da846b1f8dedfccc3f"
+    },
+    "stats": {
+      "total": 155,
+      "additions": 142,
+      "deletions": 13,
+      "date": "2026-11-12"
+    },
+    "coverage": 97.07,
+    "test_count": 88,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "c8064ef9ce196cc506f28187f7c043ed343bc03c",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-13T01:23:32.000Z",
+      "message": "style: mejorar estado sin resultados en b├║squeda",
+      "url": "https://github.com/camilocro/UcbFound/commit/c8064ef9ce196cc506f28187f7c043ed343bc03c"
+    },
+    "stats": {
+      "total": 191,
+      "additions": 159,
+      "deletions": 32,
+      "date": "2026-11-13"
+    },
+    "coverage": 97.07,
+    "test_count": 88,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-13T01:48:10.000Z",
+      "message": "Merge remote-tracking branch 'origin/main' into feature/hu-08-buscar-por-categoria\n\n:wq#:wq",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 354,
+      "additions": 293,
+      "deletions": 61,
+      "date": "2026-11-13"
+    },
+    "coverage": 99.11,
+    "test_count": 103,
     "failed_tests": 0,
     "conclusion": "success"
   }

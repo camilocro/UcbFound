@@ -52,3 +52,26 @@ describe('HU-07 Objeto encontrado: tildes', () => {
     expect(audifonos.coincideCon('audifonos')).toBe(true);
   });
 });
+
+describe('HU-08 Objeto encontrado: categoría', () => {
+  it('debería pertenecer a la categoría con la que se registró', () => {
+    const cargador = new ObjetoEncontrado({
+      id: 'obj-2',
+      nombre: 'Cargador de laptop',
+      descripcion: 'Marca HP, cable negro',
+      fecha: '2026-10-14',
+      foto: '',
+      correoDeQuienEncontro: 'luis.rojas@ucb.edu.bo',
+      categoria: 'Electrónica',
+    });
+
+    expect(cargador.esDeCategoria('Electrónica')).toBe(true);
+    expect(cargador.esDeCategoria('Llaves')).toBe(false);
+  });
+});
+describe('HU-08 Objeto encontrado: objetos anteriores sin categoría', () => {
+  it('debería aparecer solo con "Todas" cuando no tiene categoría', () => {
+    expect(mochila.esDeCategoria('Todas')).toBe(true);
+    expect(mochila.esDeCategoria('Llaves')).toBe(false);
+  });
+});
