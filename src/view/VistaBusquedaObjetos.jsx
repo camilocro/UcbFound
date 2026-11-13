@@ -1,6 +1,6 @@
-
 import { useState } from 'react';
 import DetalleObjeto from './DetalleObjeto.jsx';
+import { TODAS_LAS_CATEGORIAS } from '../model/categorias.js';
 
 export default function VistaBusquedaObjetos({
   presenterBusqueda,
@@ -10,16 +10,28 @@ export default function VistaBusquedaObjetos({
   const categorias = presenterBusqueda.obtenerCategorias();
 
   const [textoBuscado, setTextoBuscado] = useState('');
-  const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(categorias[0]);
+  const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(
+    TODAS_LAS_CATEGORIAS
+  );
   const [resultado, setResultado] = useState(() =>
-    presenterBusqueda.buscar('', categorias[0])
+    presenterBusqueda.buscar('', TODAS_LAS_CATEGORIAS)
   );
   const [objetoSeleccionado, setObjetoSeleccionado] = useState(null);
 
   const buscar = (evento) => {
     evento.preventDefault();
+
     setResultado(
       presenterBusqueda.buscar(textoBuscado, categoriaSeleccionada)
+    );
+  };
+
+  const cambiarCategoria = (evento) => {
+    const nuevaCategoria = evento.target.value;
+
+    setCategoriaSeleccionada(nuevaCategoria);
+    setResultado(
+      presenterBusqueda.buscar(textoBuscado, nuevaCategoria)
     );
   };
 
@@ -62,7 +74,7 @@ export default function VistaBusquedaObjetos({
         <select
           id="filtro-categoria"
           value={categoriaSeleccionada}
-          onChange={(evento) => setCategoriaSeleccionada(evento.target.value)}
+          onChange={cambiarCategoria}
         >
           {categorias.map((categoria) => (
             <option key={categoria} value={categoria}>
@@ -73,7 +85,7 @@ export default function VistaBusquedaObjetos({
       </div>
 
       {sinResultados ? (
-      <div className="sin-resultados" role="status">
+        <div className="sin-resultados" role="status">
           <svg
             className="sin-resultados__icono"
             viewBox="0 0 100 100"
@@ -110,9 +122,12 @@ export default function VistaBusquedaObjetos({
           </svg>
 
           <h2 className="sin-resultados__titulo">
-            No encontramos objetos con esos datos.
-            ¿Quieres reportarlo como perdido?
+            {resultado.mensaje}
           </h2>
+
+          <p>
+            ¿Quieres reportarlo como perdido?
+          </p>
 
           <button
             type="button"
@@ -142,7 +157,10 @@ export default function VistaBusquedaObjetos({
                 />
 
                 <span>
-                  <span className="objeto__nombre">{objeto.nombre}</span>
+                  <span className="objeto__nombre">
+                    {objeto.nombre}
+                  </span>
+
                   <span className="objeto__fecha">
                     Encontrado el {objeto.fecha}
                   </span>

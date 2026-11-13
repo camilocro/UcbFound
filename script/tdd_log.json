@@ -2942,9 +2942,21 @@
     "testId": 127
   },
   {
-    "commitId": "HEAD",
+    "commitId": "69996c18c08876d59f1c84e96b49efcda3bfb8ca",
     "commitName": "test: no encontrar el objeto al filtrar por otra categoría",
     "commitTimestamp": 1794545989041,
     "testId": 127
+  },
+  {
+    "commitId": "dbdb823379634bce1499a32b504f07432ac90811",
+    "commitName": "fix: corregir observaciones de revision HU-08",
+    "commitTimestamp": 1794573136627,
+    "testId": 128
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: corregir nombres y criterio en pruebas de HU-08",
+    "commitTimestamp": 1794575855718,
+    "testId": 129
   }
 ]
