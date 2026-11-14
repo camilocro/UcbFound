@@ -3230,12 +3230,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "78db02f4aedd5c427835a9ed6b97126ab8d43120",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-14T06:46:29.000Z",
       "message": "feat: agregar el campo de celular de contacto al formulario de reporte",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/78db02f4aedd5c427835a9ed6b97126ab8d43120"
     },
     "stats": {
       "total": 14,
@@ -3245,6 +3245,25 @@
     },
     "coverage": 98.59,
     "test_count": 122,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-14T06:53:46.000Z",
+      "message": "fix: rechazar un celular que tiene letras",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 8,
+      "deletions": 6,
+      "date": "2026-11-14"
+    },
+    "coverage": 98.58,
+    "test_count": 123,
     "failed_tests": 0,
     "conclusion": "success"
   }

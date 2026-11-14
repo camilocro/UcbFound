@@ -13,3 +13,9 @@ describe('HU-16 Celular de contacto', () => {
     expect(esCelularValido('51234567')).toBe(false);
   });
 });
+
+describe('HU-16 Celular de contacto: solo dígitos', () => {
+  it('debería rechazar un celular de 8 caracteres que tiene letras', () => {
+    expect(esCelularValido('7123abcd')).toBe(false);
+  });
+});

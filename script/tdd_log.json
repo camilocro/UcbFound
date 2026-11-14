@@ -3504,9 +3504,31 @@
     "testId": 149
   },
   {
-    "commitId": "HEAD",
+    "commitId": "78db02f4aedd5c427835a9ed6b97126ab8d43120",
     "commitName": "feat: agregar el campo de celular de contacto al formulario de reporte",
     "commitTimestamp": 1794638797631,
     "testId": 150
+  },
+  {
+    "numPassedTests": 122,
+    "failedTests": 1,
+    "numTotalTests": 123,
+    "timestamp": 1794639177760,
+    "success": false,
+    "testId": 151
+  },
+  {
+    "numPassedTests": 123,
+    "failedTests": 0,
+    "numTotalTests": 123,
+    "timestamp": 1794639204810,
+    "success": true,
+    "testId": 151
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: rechazar un celular que tiene letras",
+    "commitTimestamp": 1794639234759,
+    "testId": 151
   }
 ]
