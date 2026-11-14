@@ -3211,17 +3211,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "875327522274588a3e9b4d7fa3e55d8845403989",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-14T06:41:27.000Z",
       "message": "feat: permitir crear el reporte sin celular de contacto",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/875327522274588a3e9b4d7fa3e55d8845403989"
     },
     "stats": {
       "total": 16,
       "additions": 15,
       "deletions": 1,
+      "date": "2026-11-14"
+    },
+    "coverage": 98.59,
+    "test_count": 122,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-14T06:46:29.000Z",
+      "message": "feat: agregar el campo de celular de contacto al formulario de reporte",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
       "date": "2026-11-14"
     },
     "coverage": 98.59,

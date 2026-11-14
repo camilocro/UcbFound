@@ -3498,9 +3498,15 @@
     "testId": 149
   },
   {
-    "commitId": "HEAD",
+    "commitId": "875327522274588a3e9b4d7fa3e55d8845403989",
     "commitName": "feat: permitir crear el reporte sin celular de contacto",
     "commitTimestamp": 1794638495312,
     "testId": 149
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar el campo de celular de contacto al formulario de reporte",
+    "commitTimestamp": 1794638797631,
+    "testId": 150
   }
 ]

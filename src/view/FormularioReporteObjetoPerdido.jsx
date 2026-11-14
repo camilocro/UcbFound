@@ -7,6 +7,7 @@ const CAMPOS_INICIALES = {
   fecha: '',
   bloque: '',
   aula: '',
+  celular: '',
 };
 
 export default function FormularioReporteObjetoPerdido({ presenter, fechaMaxima }) {
@@ -103,6 +104,19 @@ export default function FormularioReporteObjetoPerdido({ presenter, fechaMaxima 
             type="text"
             placeholder="Ej. A-204"
             value={camposDelFormulario.aula}
+            onChange={cambiarCampo}
+          />
+        </div>
+
+        <div className="campo">
+          <label htmlFor="celular-perdido">Celular de contacto (opcional)</label>
+          <input
+            id="celular-perdido"
+            name="celular"
+            type="tel"
+            inputMode="numeric"
+            placeholder="Ej. 71234567"
+            value={camposDelFormulario.celular}
             onChange={cambiarCampo}
           />
         </div>
