@@ -3344,17 +3344,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a826242546a33553a93f38606aaf6ba7b0fc504f",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-14T07:10:12.000Z",
       "message": "refactor: agregar esCelularOpcionalValido para el celular de contacto",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/a826242546a33553a93f38606aaf6ba7b0fc504f"
     },
     "stats": {
       "total": 12,
       "additions": 11,
       "deletions": 1,
+      "date": "2026-11-14"
+    },
+    "coverage": 98.6,
+    "test_count": 126,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-14T07:11:25.000Z",
+      "message": "refactor: usar esCelularOpcionalValido en el reporte de objeto perdido",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 2,
+      "deletions": 6,
       "date": "2026-11-14"
     },
     "coverage": 98.6,

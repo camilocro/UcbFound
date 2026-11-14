@@ -1,4 +1,4 @@
-import { esCelularValido } from './celular.js';
+import { esCelularOpcionalValido } from './celular.js';
 
 export class ObjetoPerdido {
   constructor({ nombre, descripcion, fecha, correoDelDueno, bloque = '', aula = '', celular }) {
@@ -23,11 +23,7 @@ export class ObjetoPerdido {
     return this.bloque === '';
   }
 
-  tieneCelular() {
-    return this.celular !== undefined && this.celular !== '';
-  }
-
   tieneCelularInvalido() {
-    return this.tieneCelular() && !esCelularValido(this.celular);
+    return !esCelularOpcionalValido(this.celular);
   }
 }
