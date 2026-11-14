@@ -10,6 +10,7 @@ const datosValidos = {
   descripcion: 'Tiene un carnet de la UCB adentro',
   foto: FOTO,
   bloque: BLOQUES[0],
+  celular: '71234567',
 };
 const registro = new RegistroObjetoEncontrado(HOY, () => 'obj-1');
 
@@ -34,6 +35,7 @@ describe('HU-11 Criterio 1: objeto a nombre de quien lo encontró', () => {
       categoria: 'Electrónica',
       bloque: BLOQUES[0],
       aula: '',
+      celular: '71234567',
     });
   });
 });
@@ -113,5 +115,21 @@ describe('HU-12 Criterio 5: aula opcional', () => {
   it('debería guardar el aula sin espacios sobrantes', () => {
     const resultado = registro.registrar({ ...datosValidos, aula: '  Aula 201  ' }, CORREO);
     expect(resultado.objeto.aula).toEqual('Aula 201');
+  });
+});
+
+describe('HU-20 Criterio 2: celular inválido', () => {
+  it('debería pedir un celular válido cuando el número no tiene 8 dígitos', () => {
+    const resultado = registro.registrar({ ...datosValidos, celular: '7123' }, CORREO);
+    expect(resultado).toEqual({
+      exito: false,
+      mensaje: 'Ingrese un número de celular válido',
+    });
+  });
+});
+describe('HU-20 Criterio 3: celular opcional', () => {
+  it('debería registrar el objeto cuando el celular está vacío', () => {
+    const resultado = registro.registrar({ ...datosValidos, celular: '' }, CORREO);
+    expect(resultado.mensaje).toEqual('Objeto registrado correctamente');
   });
 });

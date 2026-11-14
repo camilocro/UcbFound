@@ -3526,9 +3526,81 @@
     "testId": 151
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f56b57d1b5657783620b547ca301c5afeb4afc4b",
     "commitName": "fix: rechazar un celular que tiene letras",
     "commitTimestamp": 1794639234759,
     "testId": 151
+  },
+  {
+    "numPassedTests": 122,
+    "failedTests": 1,
+    "numTotalTests": 123,
+    "timestamp": 1794639400674,
+    "success": false,
+    "testId": 152
+  },
+  {
+    "numPassedTests": 123,
+    "failedTests": 0,
+    "numTotalTests": 123,
+    "timestamp": 1794639431840,
+    "success": true,
+    "testId": 152
+  },
+  {
+    "commitId": "4e7af140b286d369b186bfcdd008b273b24f789e",
+    "commitName": "feat: guardar el celular de contacto en el objeto encontrado",
+    "commitTimestamp": 1794639470138,
+    "testId": 152
+  },
+  {
+    "numPassedTests": 123,
+    "failedTests": 1,
+    "numTotalTests": 124,
+    "timestamp": 1794639500470,
+    "success": false,
+    "testId": 153
+  },
+  {
+    "numPassedTests": 124,
+    "failedTests": 0,
+    "numTotalTests": 124,
+    "timestamp": 1794639526257,
+    "success": true,
+    "testId": 153
+  },
+  {
+    "commitId": "de704e2622465f9967b624517fa039f3e5dbc514",
+    "commitName": "feat: rechazar el registro con un celular inválido",
+    "commitTimestamp": 1794639561812,
+    "testId": 153
+  },
+  {
+    "numPassedTests": 124,
+    "failedTests": 1,
+    "numTotalTests": 125,
+    "timestamp": 1794639593534,
+    "success": false,
+    "testId": 154
+  },
+  {
+    "numPassedTests": 125,
+    "failedTests": 0,
+    "numTotalTests": 125,
+    "timestamp": 1794639615872,
+    "success": true,
+    "testId": 154
+  },
+  {
+    "commitId": "4e5c8b6f7db160510eefccf8b388d036297520d3",
+    "commitName": "feat: permitir registrar el objeto sin celular de contacto",
+    "commitTimestamp": 1794639648242,
+    "testId": 154
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar el campo de celular de contacto al formulario de objeto encontrado",
+    "commitTimestamp": 1794639924520,
+    "testId": 155
   }
 ]

@@ -2,6 +2,7 @@ import { ObjetoEncontrado } from './objetoEncontrado.js';
 import { crearError } from './resultado.js';
 import { CATEGORIAS } from './categorias.js';
 import { esImagen } from './foto.js';
+import { esCelularValido } from './celular.js';
 
 export const MENSAJES_REGISTRO_OBJETO = {
   OBJETO_REGISTRADO: 'Objeto registrado correctamente',
@@ -10,6 +11,7 @@ export const MENSAJES_REGISTRO_OBJETO = {
   FOTO_MUY_PESADA: 'La foto es muy pesada, prueba con una imagen más pequeña',
   FALTA_CATEGORIA: 'Es necesario elegir una categoría',
   FALTA_BLOQUE: 'Es necesario indicar el bloque donde lo encontraste',
+  CELULAR_INVALIDO: 'Ingrese un número de celular válido',
   NO_SE_PUDO_GUARDAR: 'No se pudo guardar el objeto, intenta de nuevo',
 };
 
@@ -25,7 +27,7 @@ export class RegistroObjetoEncontrado {
     this.crearId = crearId;
   }
 
-  registrar({ nombre, descripcion, foto, categoria, bloque, aula }, correoDeQuienEncontro) {
+  registrar({ nombre, descripcion, foto, categoria, bloque, aula, celular }, correoDeQuienEncontro) {
     if (faltanFotoODescripcion(foto, descripcion)) {
       return crearError(MENSAJES_REGISTRO_OBJETO.FALTAN_FOTO_O_DESCRIPCION);
     }
@@ -38,6 +40,9 @@ export class RegistroObjetoEncontrado {
     if (!bloque) {
       return crearError(MENSAJES_REGISTRO_OBJETO.FALTA_BLOQUE);
     }
+    if (celular && !esCelularValido(celular)) {
+      return crearError(MENSAJES_REGISTRO_OBJETO.CELULAR_INVALIDO);
+    }
     const objeto = new ObjetoEncontrado({
       id: this.crearId(),
       nombre: nombre.trim() || NOMBRE_POR_DEFECTO,
@@ -48,6 +53,7 @@ export class RegistroObjetoEncontrado {
       categoria,
       bloque,
       aula: (aula || '').trim(),
+      celular,
     });
     return { exito: true, mensaje: MENSAJES_REGISTRO_OBJETO.OBJETO_REGISTRADO, objeto };
   }

@@ -7,7 +7,7 @@ const SIN_CATEGORIA = 'Sin categoría';
 const SIN_LUGAR = 'Lugar no indicado';
 
 export class ObjetoEncontrado {
-  constructor({ id, nombre, descripcion, fecha, foto, correoDeQuienEncontro, categoria, bloque, aula }) {
+  constructor({ id, nombre, descripcion, fecha, foto, correoDeQuienEncontro, categoria, bloque, aula, celular }) {
     this.id = id;
     this.nombre = nombre;
     this.descripcion = descripcion;
@@ -17,6 +17,7 @@ export class ObjetoEncontrado {
     this.categoria = categoria;
     this.bloque = bloque;
     this.aula = aula;
+    this.celular = celular;
   }
 
   coincideCon(texto) {

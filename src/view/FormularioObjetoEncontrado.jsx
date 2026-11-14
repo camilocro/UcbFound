@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { esImagen } from '../model/foto.js';
 import { leerFoto } from './lectorDeFoto.js';
 
-const DATOS_INICIALES = { nombre: '', descripcion: '', foto: '', categoria: '', bloque: '', aula: '' };
+const DATOS_INICIALES = { nombre: '', descripcion: '', foto: '', categoria: '', bloque: '', aula: '', celular: '' };
 const MENSAJE_ERROR_FOTO = 'No se pudo cargar la foto, intenta con otra imagen';
 
 function IconoCamara() {
@@ -151,6 +151,19 @@ export default function FormularioObjetoEncontrado({ presenter, alVerLista }) {
             rows="3"
             placeholder="Color, marca y dónde lo encontraste"
             value={datos.descripcion}
+            onChange={cambiarCampo}
+          />
+        </div>
+
+        <div className="campo">
+          <label htmlFor="celular-encontrado">Celular de contacto (opcional)</label>
+          <input
+            id="celular-encontrado"
+            name="celular"
+            type="tel"
+            inputMode="numeric"
+            placeholder="Ej. 71234567"
+            value={datos.celular}
             onChange={cambiarCampo}
           />
         </div>

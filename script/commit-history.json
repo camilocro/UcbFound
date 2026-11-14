@@ -3249,12 +3249,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f56b57d1b5657783620b547ca301c5afeb4afc4b",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-14T06:53:46.000Z",
       "message": "fix: rechazar un celular que tiene letras",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/f56b57d1b5657783620b547ca301c5afeb4afc4b"
     },
     "stats": {
       "total": 14,
@@ -3264,6 +3264,82 @@
     },
     "coverage": 98.58,
     "test_count": 123,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "4e7af140b286d369b186bfcdd008b273b24f789e",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-14T06:57:41.000Z",
+      "message": "feat: guardar el celular de contacto en el objeto encontrado",
+      "url": "https://github.com/camilocro/UcbFound/commit/4e7af140b286d369b186bfcdd008b273b24f789e"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 7,
+      "deletions": 3,
+      "date": "2026-11-14"
+    },
+    "coverage": 98.59,
+    "test_count": 123,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "de704e2622465f9967b624517fa039f3e5dbc514",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-14T06:59:13.000Z",
+      "message": "feat: rechazar el registro con un celular inválido",
+      "url": "https://github.com/camilocro/UcbFound/commit/de704e2622465f9967b624517fa039f3e5dbc514"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 15,
+      "deletions": 0,
+      "date": "2026-11-14"
+    },
+    "coverage": 98.6,
+    "test_count": 124,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "4e5c8b6f7db160510eefccf8b388d036297520d3",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-14T07:00:40.000Z",
+      "message": "feat: permitir registrar el objeto sin celular de contacto",
+      "url": "https://github.com/camilocro/UcbFound/commit/4e5c8b6f7db160510eefccf8b388d036297520d3"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-11-14"
+    },
+    "coverage": 98.6,
+    "test_count": 125,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-14T07:05:18.000Z",
+      "message": "feat: agregar el campo de celular de contacto al formulario de objeto encontrado",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 14,
+      "deletions": 1,
+      "date": "2026-11-14"
+    },
+    "coverage": 98.6,
+    "test_count": 125,
     "failed_tests": 0,
     "conclusion": "success"
   }
