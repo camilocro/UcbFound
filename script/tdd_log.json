@@ -3358,9 +3358,155 @@
     "testId": 143
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cda6120cca9e68ea5087e42113b7d6e7300e4fec",
     "commitName": "feat: agregar los campos de bloque y aula al formulario de reporte",
     "commitTimestamp": 1794594714957,
     "testId": 143
+  },
+  {
+    "numPassedTests": 117,
+    "failedTests": 0,
+    "numTotalTests": 117,
+    "timestamp": 1794637871696,
+    "success": false,
+    "testId": 144
+  },
+  {
+    "numPassedTests": 118,
+    "failedTests": 0,
+    "numTotalTests": 118,
+    "timestamp": 1794637897217,
+    "success": true,
+    "testId": 144
+  },
+  {
+    "commitId": "ab2691aea081a9dfa7d9c784a7c1eb0ba2eb01ef",
+    "commitName": "feat: aceptar un celular de 8 dígitos que empieza con 7",
+    "commitTimestamp": 1794637932181,
+    "testId": 144
+  },
+  {
+    "numPassedTests": 118,
+    "failedTests": 1,
+    "numTotalTests": 119,
+    "timestamp": 1794637969505,
+    "success": false,
+    "testId": 145
+  },
+  {
+    "numPassedTests": 119,
+    "failedTests": 0,
+    "numTotalTests": 119,
+    "timestamp": 1794637991988,
+    "success": true,
+    "testId": 145
+  },
+  {
+    "commitId": "50d048d01921b48b338e5d250d5b2f6b2c6c3c3f",
+    "commitName": "feat: rechazar un celular de menos de 8 dígitos",
+    "commitTimestamp": 1794638021951,
+    "testId": 145
+  },
+  {
+    "numPassedTests": 119,
+    "failedTests": 1,
+    "numTotalTests": 120,
+    "timestamp": 1794638062054,
+    "success": false,
+    "testId": 146
+  },
+  {
+    "numPassedTests": 120,
+    "failedTests": 0,
+    "numTotalTests": 120,
+    "timestamp": 1794638086642,
+    "success": true,
+    "testId": 146
+  },
+  {
+    "commitId": "82b554b37f0e7ff7b9e1cd2d19e220997b7e8ba2",
+    "commitName": "feat: rechazar un celular que no empieza con 6 o 7",
+    "commitTimestamp": 1794638118706,
+    "testId": 146
+  },
+  {
+    "numPassedTests": 119,
+    "failedTests": 2,
+    "numTotalTests": 121,
+    "timestamp": 1794638195603,
+    "success": false,
+    "testId": 147
+  },
+  {
+    "numPassedTests": 119,
+    "failedTests": 1,
+    "numTotalTests": 120,
+    "timestamp": 1794638242920,
+    "success": false,
+    "testId": 147
+  },
+  {
+    "numPassedTests": 120,
+    "failedTests": 0,
+    "numTotalTests": 120,
+    "timestamp": 1794638278199,
+    "success": true,
+    "testId": 147
+  },
+  {
+    "commitId": "c196fbc688aa178817d4070c16248f281a3ded4d",
+    "commitName": "feat: guardar el celular de contacto en el reporte",
+    "commitTimestamp": 1794638312070,
+    "testId": 147
+  },
+  {
+    "numPassedTests": 120,
+    "failedTests": 1,
+    "numTotalTests": 121,
+    "timestamp": 1794638347822,
+    "success": false,
+    "testId": 148
+  },
+  {
+    "numPassedTests": 121,
+    "failedTests": 0,
+    "numTotalTests": 121,
+    "timestamp": 1794638374870,
+    "success": true,
+    "testId": 148
+  },
+  {
+    "commitId": "4c11fac8fa2251ceb9dda24f926de6a9d0998abf",
+    "commitName": "feat: rechazar el reporte con un celular inválido",
+    "commitTimestamp": 1794638407697,
+    "testId": 148
+  },
+  {
+    "numPassedTests": 121,
+    "failedTests": 1,
+    "numTotalTests": 122,
+    "timestamp": 1794638436642,
+    "success": false,
+    "testId": 149
+  },
+  {
+    "numPassedTests": 122,
+    "failedTests": 0,
+    "numTotalTests": 122,
+    "timestamp": 1794638461577,
+    "success": true,
+    "testId": 149
+  },
+  {
+    "commitId": "875327522274588a3e9b4d7fa3e55d8845403989",
+    "commitName": "feat: permitir crear el reporte sin celular de contacto",
+    "commitTimestamp": 1794638495312,
+    "testId": 149
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar el campo de celular de contacto al formulario de reporte",
+    "commitTimestamp": 1794638797631,
+    "testId": 150
   }
 ]

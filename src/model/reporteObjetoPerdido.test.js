@@ -8,6 +8,7 @@ const datosValidos = {
   fecha: '2026-10-15',
   bloque: 'Tupuraya 2 - Bloque A',
   aula: 'A-204',
+  celular: '71234567',
 };
 
 describe('HU-04 Criterio 1: reporte creado', () => {
@@ -28,6 +29,7 @@ describe('HU-04 Criterio 1: reporte guardado a mi nombre', () => {
       correoDelDueno: 'juan.perez@ucb.edu.bo',
       bloque: 'Tupuraya 2 - Bloque A',
       aula: 'A-204',
+      celular: '71234567',
     });
   });
 });
@@ -92,5 +94,28 @@ describe('HU-05 Criterio 5: aula opcional', () => {
     );
     expect(resultado.mensaje).toEqual('Reporte creado correctamente');
     expect(resultado.objeto.aula).toEqual('');
+  });
+});
+
+describe('HU-16 Criterio 2: celular inválido', () => {
+  it('debería pedir un celular válido cuando el número no tiene 8 dígitos', () => {
+    const resultado = new ReporteObjetoPerdido(HOY).reportar(
+      { ...datosValidos, celular: '7123' },
+      CORREO,
+    );
+    expect(resultado).toEqual({
+      exito: false,
+      mensaje: 'Ingrese un número de celular válido',
+    });
+  });
+});
+
+describe('HU-16 Criterio 3: celular opcional', () => {
+  it('debería crear el reporte cuando el celular está vacío', () => {
+    const resultado = new ReporteObjetoPerdido(HOY).reportar(
+      { ...datosValidos, celular: '' },
+      CORREO,
+    );
+    expect(resultado.mensaje).toEqual('Reporte creado correctamente');
   });
 });

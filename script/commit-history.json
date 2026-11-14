@@ -3097,12 +3097,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cda6120cca9e68ea5087e42113b7d6e7300e4fec",
     "author": "majo",
     "commit": {
       "date": "2026-11-13T18:31:47.000Z",
       "message": "feat: agregar los campos de bloque y aula al formulario de reporte",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/cda6120cca9e68ea5087e42113b7d6e7300e4fec"
     },
     "stats": {
       "total": 40,
@@ -3112,6 +3112,139 @@
     },
     "coverage": 98.55,
     "test_count": 117,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "ab2691aea081a9dfa7d9c784a7c1eb0ba2eb01ef",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-14T06:32:04.000Z",
+      "message": "feat: aceptar un celular de 8 dígitos que empieza con 7",
+      "url": "https://github.com/camilocro/UcbFound/commit/ab2691aea081a9dfa7d9c784a7c1eb0ba2eb01ef"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-11-14"
+    },
+    "coverage": 98.55,
+    "test_count": 118,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "50d048d01921b48b338e5d250d5b2f6b2c6c3c3f",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-14T06:33:34.000Z",
+      "message": "feat: rechazar un celular de menos de 8 dígitos",
+      "url": "https://github.com/camilocro/UcbFound/commit/50d048d01921b48b338e5d250d5b2f6b2c6c3c3f"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 8,
+      "deletions": 2,
+      "date": "2026-11-14"
+    },
+    "coverage": 98.56,
+    "test_count": 119,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "82b554b37f0e7ff7b9e1cd2d19e220997b7e8ba2",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-14T06:35:10.000Z",
+      "message": "feat: rechazar un celular que no empieza con 6 o 7",
+      "url": "https://github.com/camilocro/UcbFound/commit/82b554b37f0e7ff7b9e1cd2d19e220997b7e8ba2"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-11-14"
+    },
+    "coverage": 98.56,
+    "test_count": 120,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "c196fbc688aa178817d4070c16248f281a3ded4d",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-14T06:38:23.000Z",
+      "message": "feat: guardar el celular de contacto en el reporte",
+      "url": "https://github.com/camilocro/UcbFound/commit/c196fbc688aa178817d4070c16248f281a3ded4d"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 6,
+      "deletions": 2,
+      "date": "2026-11-14"
+    },
+    "coverage": 98.57,
+    "test_count": 120,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "4c11fac8fa2251ceb9dda24f926de6a9d0998abf",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-14T06:39:59.000Z",
+      "message": "feat: rechazar el reporte con un celular inválido",
+      "url": "https://github.com/camilocro/UcbFound/commit/4c11fac8fa2251ceb9dda24f926de6a9d0998abf"
+    },
+    "stats": {
+      "total": 23,
+      "additions": 23,
+      "deletions": 0,
+      "date": "2026-11-14"
+    },
+    "coverage": 98.58,
+    "test_count": 121,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "875327522274588a3e9b4d7fa3e55d8845403989",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-14T06:41:27.000Z",
+      "message": "feat: permitir crear el reporte sin celular de contacto",
+      "url": "https://github.com/camilocro/UcbFound/commit/875327522274588a3e9b4d7fa3e55d8845403989"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 15,
+      "deletions": 1,
+      "date": "2026-11-14"
+    },
+    "coverage": 98.59,
+    "test_count": 122,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-14T06:46:29.000Z",
+      "message": "feat: agregar el campo de celular de contacto al formulario de reporte",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2026-11-14"
+    },
+    "coverage": 98.59,
+    "test_count": 122,
     "failed_tests": 0,
     "conclusion": "success"
   }
