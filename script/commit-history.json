@@ -3154,12 +3154,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "82b554b37f0e7ff7b9e1cd2d19e220997b7e8ba2",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-14T06:35:10.000Z",
       "message": "feat: rechazar un celular que no empieza con 6 o 7",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/82b554b37f0e7ff7b9e1cd2d19e220997b7e8ba2"
     },
     "stats": {
       "total": 10,
@@ -3168,6 +3168,25 @@
       "date": "2026-11-14"
     },
     "coverage": 98.56,
+    "test_count": 120,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-14T06:38:23.000Z",
+      "message": "feat: guardar el celular de contacto en el reporte",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 6,
+      "deletions": 2,
+      "date": "2026-11-14"
+    },
+    "coverage": 98.57,
     "test_count": 120,
     "failed_tests": 0,
     "conclusion": "success"

@@ -3424,9 +3424,39 @@
     "testId": 146
   },
   {
-    "commitId": "HEAD",
+    "commitId": "82b554b37f0e7ff7b9e1cd2d19e220997b7e8ba2",
     "commitName": "feat: rechazar un celular que no empieza con 6 o 7",
     "commitTimestamp": 1794638118706,
     "testId": 146
+  },
+  {
+    "numPassedTests": 119,
+    "failedTests": 2,
+    "numTotalTests": 121,
+    "timestamp": 1794638195603,
+    "success": false,
+    "testId": 147
+  },
+  {
+    "numPassedTests": 119,
+    "failedTests": 1,
+    "numTotalTests": 120,
+    "timestamp": 1794638242920,
+    "success": false,
+    "testId": 147
+  },
+  {
+    "numPassedTests": 120,
+    "failedTests": 0,
+    "numTotalTests": 120,
+    "timestamp": 1794638278199,
+    "success": true,
+    "testId": 147
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: guardar el celular de contacto en el reporte",
+    "commitTimestamp": 1794638312070,
+    "testId": 147
   }
 ]

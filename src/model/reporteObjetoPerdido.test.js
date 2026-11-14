@@ -8,6 +8,7 @@ const datosValidos = {
   fecha: '2026-10-15',
   bloque: 'Tupuraya 2 - Bloque A',
   aula: 'A-204',
+  celular: '71234567',
 };
 
 describe('HU-04 Criterio 1: reporte creado', () => {
@@ -28,6 +29,7 @@ describe('HU-04 Criterio 1: reporte guardado a mi nombre', () => {
       correoDelDueno: 'juan.perez@ucb.edu.bo',
       bloque: 'Tupuraya 2 - Bloque A',
       aula: 'A-204',
+      celular: '71234567',
     });
   });
 });
