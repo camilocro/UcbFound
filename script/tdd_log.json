@@ -3454,9 +3454,31 @@
     "testId": 147
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c196fbc688aa178817d4070c16248f281a3ded4d",
     "commitName": "feat: guardar el celular de contacto en el reporte",
     "commitTimestamp": 1794638312070,
     "testId": 147
+  },
+  {
+    "numPassedTests": 120,
+    "failedTests": 1,
+    "numTotalTests": 121,
+    "timestamp": 1794638347822,
+    "success": false,
+    "testId": 148
+  },
+  {
+    "numPassedTests": 121,
+    "failedTests": 0,
+    "numTotalTests": 121,
+    "timestamp": 1794638374870,
+    "success": true,
+    "testId": 148
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: rechazar el reporte con un celular inválido",
+    "commitTimestamp": 1794638407697,
+    "testId": 148
   }
 ]

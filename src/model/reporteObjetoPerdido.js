@@ -6,6 +6,7 @@ export const MENSAJES_REPORTE = {
   NOMBRE_O_FECHA_VACIOS: 'Es necesario ingresar nombre y fecha',
   FECHA_FUTURA: 'La fecha no puede ser futura',
   FALTA_BLOQUE: 'Es necesario indicar el bloque donde lo perdiste',
+  CELULAR_INVALIDO: 'Ingrese un número de celular válido',
 };
 
 export class ReporteObjetoPerdido {
@@ -31,6 +32,9 @@ export class ReporteObjetoPerdido {
     }
     if (objeto.tieneBloqueVacio()) {
       return crearError(MENSAJES_REPORTE.FALTA_BLOQUE);
+    }
+    if (objeto.tieneCelularInvalido()) {
+      return crearError(MENSAJES_REPORTE.CELULAR_INVALIDO);
     }
     return { exito: true, mensaje: MENSAJES_REPORTE.REPORTE_CREADO, objeto };
   }

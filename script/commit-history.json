@@ -3173,12 +3173,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c196fbc688aa178817d4070c16248f281a3ded4d",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-14T06:38:23.000Z",
       "message": "feat: guardar el celular de contacto en el reporte",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/c196fbc688aa178817d4070c16248f281a3ded4d"
     },
     "stats": {
       "total": 8,
@@ -3188,6 +3188,25 @@
     },
     "coverage": 98.57,
     "test_count": 120,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-14T06:39:59.000Z",
+      "message": "feat: rechazar el reporte con un celular inválido",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 23,
+      "additions": 23,
+      "deletions": 0,
+      "date": "2026-11-14"
+    },
+    "coverage": 98.58,
+    "test_count": 121,
     "failed_tests": 0,
     "conclusion": "success"
   }
