@@ -109,3 +109,13 @@ describe('HU-16 Criterio 2: celular inválido', () => {
     });
   });
 });
+
+describe('HU-16 Criterio 3: celular opcional', () => {
+  it('debería crear el reporte cuando el celular está vacío', () => {
+    const resultado = new ReporteObjetoPerdido(HOY).reportar(
+      { ...datosValidos, celular: '' },
+      CORREO,
+    );
+    expect(resultado.mensaje).toEqual('Reporte creado correctamente');
+  });
+});

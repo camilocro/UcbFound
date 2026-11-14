@@ -23,7 +23,11 @@ export class ObjetoPerdido {
     return this.bloque === '';
   }
 
+  tieneCelular() {
+    return this.celular !== undefined && this.celular !== '';
+  }
+
   tieneCelularInvalido() {
-    return this.celular !== undefined && !esCelularValido(this.celular);
+    return this.tieneCelular() && !esCelularValido(this.celular);
   }
 }

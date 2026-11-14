@@ -3192,12 +3192,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4c11fac8fa2251ceb9dda24f926de6a9d0998abf",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-14T06:39:59.000Z",
       "message": "feat: rechazar el reporte con un celular inválido",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/4c11fac8fa2251ceb9dda24f926de6a9d0998abf"
     },
     "stats": {
       "total": 23,
@@ -3207,6 +3207,25 @@
     },
     "coverage": 98.58,
     "test_count": 121,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-14T06:41:27.000Z",
+      "message": "feat: permitir crear el reporte sin celular de contacto",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 15,
+      "deletions": 1,
+      "date": "2026-11-14"
+    },
+    "coverage": 98.59,
+    "test_count": 122,
     "failed_tests": 0,
     "conclusion": "success"
   }

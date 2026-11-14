@@ -3476,9 +3476,31 @@
     "testId": 148
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4c11fac8fa2251ceb9dda24f926de6a9d0998abf",
     "commitName": "feat: rechazar el reporte con un celular inválido",
     "commitTimestamp": 1794638407697,
     "testId": 148
+  },
+  {
+    "numPassedTests": 121,
+    "failedTests": 1,
+    "numTotalTests": 122,
+    "timestamp": 1794638436642,
+    "success": false,
+    "testId": 149
+  },
+  {
+    "numPassedTests": 122,
+    "failedTests": 0,
+    "numTotalTests": 122,
+    "timestamp": 1794638461577,
+    "success": true,
+    "testId": 149
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: permitir crear el reporte sin celular de contacto",
+    "commitTimestamp": 1794638495312,
+    "testId": 149
   }
 ]
