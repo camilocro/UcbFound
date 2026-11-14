@@ -3634,9 +3634,23 @@
     "testId": 157
   },
   {
-    "commitId": "HEAD",
+    "commitId": "562125cac9460677e8409b1c1dad6553b3e17b6c",
     "commitName": "refactor: usar esCelularOpcionalValido en el reporte de objeto perdido",
     "commitTimestamp": 1794640291719,
     "testId": 157
+  },
+  {
+    "numPassedTests": 126,
+    "failedTests": 0,
+    "numTotalTests": 126,
+    "timestamp": 1794640317266,
+    "success": true,
+    "testId": 158
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: usar esCelularOpcionalValido en el registro de objeto encontrado",
+    "commitTimestamp": 1794640345353,
+    "testId": 158
   }
 ]

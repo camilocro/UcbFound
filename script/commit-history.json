@@ -3363,17 +3363,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "562125cac9460677e8409b1c1dad6553b3e17b6c",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-14T07:11:25.000Z",
       "message": "refactor: usar esCelularOpcionalValido en el reporte de objeto perdido",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/562125cac9460677e8409b1c1dad6553b3e17b6c"
     },
     "stats": {
       "total": 8,
       "additions": 2,
       "deletions": 6,
+      "date": "2026-11-14"
+    },
+    "coverage": 98.6,
+    "test_count": 126,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-14T07:12:19.000Z",
+      "message": "refactor: usar esCelularOpcionalValido en el registro de objeto encontrado",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
       "date": "2026-11-14"
     },
     "coverage": 98.6,

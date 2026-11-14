@@ -2,7 +2,7 @@ import { ObjetoEncontrado } from './objetoEncontrado.js';
 import { crearError } from './resultado.js';
 import { CATEGORIAS } from './categorias.js';
 import { esImagen } from './foto.js';
-import { esCelularValido } from './celular.js';
+import { esCelularOpcionalValido } from './celular.js';
 
 export const MENSAJES_REGISTRO_OBJETO = {
   OBJETO_REGISTRADO: 'Objeto registrado correctamente',
@@ -40,7 +40,7 @@ export class RegistroObjetoEncontrado {
     if (!bloque) {
       return crearError(MENSAJES_REGISTRO_OBJETO.FALTA_BLOQUE);
     }
-    if (celular && !esCelularValido(celular)) {
+    if (!esCelularOpcionalValido(celular)) {
       return crearError(MENSAJES_REGISTRO_OBJETO.CELULAR_INVALIDO);
     }
     const objeto = new ObjetoEncontrado({
