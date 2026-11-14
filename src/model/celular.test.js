@@ -8,4 +8,8 @@ describe('HU-16 Celular de contacto', () => {
   it('debería rechazar un celular de menos de 8 dígitos', () => {
     expect(esCelularValido('7123456')).toBe(false);
   });
+
+  it('debería rechazar un celular que no empieza con 6 o 7', () => {
+    expect(esCelularValido('51234567')).toBe(false);
+  });
 });

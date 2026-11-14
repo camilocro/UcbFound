@@ -3402,9 +3402,31 @@
     "testId": 145
   },
   {
-    "commitId": "HEAD",
+    "commitId": "50d048d01921b48b338e5d250d5b2f6b2c6c3c3f",
     "commitName": "feat: rechazar un celular de menos de 8 dígitos",
     "commitTimestamp": 1794638021951,
     "testId": 145
+  },
+  {
+    "numPassedTests": 119,
+    "failedTests": 1,
+    "numTotalTests": 120,
+    "timestamp": 1794638062054,
+    "success": false,
+    "testId": 146
+  },
+  {
+    "numPassedTests": 120,
+    "failedTests": 0,
+    "numTotalTests": 120,
+    "timestamp": 1794638086642,
+    "success": true,
+    "testId": 146
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: rechazar un celular que no empieza con 6 o 7",
+    "commitTimestamp": 1794638118706,
+    "testId": 146
   }
 ]

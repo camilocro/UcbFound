@@ -3135,12 +3135,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "50d048d01921b48b338e5d250d5b2f6b2c6c3c3f",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-14T06:33:34.000Z",
       "message": "feat: rechazar un celular de menos de 8 dígitos",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/50d048d01921b48b338e5d250d5b2f6b2c6c3c3f"
     },
     "stats": {
       "total": 10,
@@ -3150,6 +3150,25 @@
     },
     "coverage": 98.56,
     "test_count": 119,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-14T06:35:10.000Z",
+      "message": "feat: rechazar un celular que no empieza con 6 o 7",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-11-14"
+    },
+    "coverage": 98.56,
+    "test_count": 120,
     "failed_tests": 0,
     "conclusion": "success"
   }
