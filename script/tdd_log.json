@@ -3592,9 +3592,15 @@
     "testId": 154
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4e5c8b6f7db160510eefccf8b388d036297520d3",
     "commitName": "feat: permitir registrar el objeto sin celular de contacto",
     "commitTimestamp": 1794639648242,
     "testId": 154
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar el campo de celular de contacto al formulario de objeto encontrado",
+    "commitTimestamp": 1794639924520,
+    "testId": 155
   }
 ]
