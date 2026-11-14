@@ -3268,12 +3268,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4e7af140b286d369b186bfcdd008b273b24f789e",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-14T06:57:41.000Z",
       "message": "feat: guardar el celular de contacto en el objeto encontrado",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/4e7af140b286d369b186bfcdd008b273b24f789e"
     },
     "stats": {
       "total": 10,
@@ -3283,6 +3283,25 @@
     },
     "coverage": 98.59,
     "test_count": 123,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-14T06:59:13.000Z",
+      "message": "feat: rechazar el registro con un celular inválido",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 15,
+      "deletions": 0,
+      "date": "2026-11-14"
+    },
+    "coverage": 98.6,
+    "test_count": 124,
     "failed_tests": 0,
     "conclusion": "success"
   }

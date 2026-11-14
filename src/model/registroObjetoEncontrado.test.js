@@ -117,3 +117,13 @@ describe('HU-12 Criterio 5: aula opcional', () => {
     expect(resultado.objeto.aula).toEqual('Aula 201');
   });
 });
+
+describe('HU-20 Criterio 2: celular inválido', () => {
+  it('debería pedir un celular válido cuando el número no tiene 8 dígitos', () => {
+    const resultado = registro.registrar({ ...datosValidos, celular: '7123' }, CORREO);
+    expect(resultado).toEqual({
+      exito: false,
+      mensaje: 'Ingrese un número de celular válido',
+    });
+  });
+});

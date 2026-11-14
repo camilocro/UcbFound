@@ -3548,9 +3548,31 @@
     "testId": 152
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4e7af140b286d369b186bfcdd008b273b24f789e",
     "commitName": "feat: guardar el celular de contacto en el objeto encontrado",
     "commitTimestamp": 1794639470138,
     "testId": 152
+  },
+  {
+    "numPassedTests": 123,
+    "failedTests": 1,
+    "numTotalTests": 124,
+    "timestamp": 1794639500470,
+    "success": false,
+    "testId": 153
+  },
+  {
+    "numPassedTests": 124,
+    "failedTests": 0,
+    "numTotalTests": 124,
+    "timestamp": 1794639526257,
+    "success": true,
+    "testId": 153
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: rechazar el registro con un celular inválido",
+    "commitTimestamp": 1794639561812,
+    "testId": 153
   }
 ]
