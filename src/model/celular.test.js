@@ -1,4 +1,4 @@
-import { esCelularValido } from './celular.js';
+import { esCelularValido, esCelularOpcionalValido } from './celular.js';
 
 describe('HU-16 Celular de contacto', () => {
   it('debería aceptar un celular de 8 dígitos que empieza con 7', () => {
@@ -17,5 +17,11 @@ describe('HU-16 Celular de contacto', () => {
 describe('HU-16 Celular de contacto: solo dígitos', () => {
   it('debería rechazar un celular de 8 caracteres que tiene letras', () => {
     expect(esCelularValido('7123abcd')).toBe(false);
+  });
+});
+
+describe('HU-16 y HU-20 Celular de contacto: opcional', () => {
+  it('debería aceptar un celular vacío porque es opcional', () => {
+    expect(esCelularOpcionalValido('')).toBe(true);
   });
 });

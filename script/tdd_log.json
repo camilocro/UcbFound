@@ -3598,9 +3598,31 @@
     "testId": 154
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e4f05a09b6d88f328edf9bbfbee9bb895219108d",
     "commitName": "feat: agregar el campo de celular de contacto al formulario de objeto encontrado",
     "commitTimestamp": 1794639924520,
     "testId": 155
+  },
+  {
+    "numPassedTests": 125,
+    "failedTests": 1,
+    "numTotalTests": 126,
+    "timestamp": 1794640160408,
+    "success": false,
+    "testId": 156
+  },
+  {
+    "numPassedTests": 126,
+    "failedTests": 0,
+    "numTotalTests": 126,
+    "timestamp": 1794640190591,
+    "success": true,
+    "testId": 156
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: agregar esCelularOpcionalValido para el celular de contacto",
+    "commitTimestamp": 1794640219055,
+    "testId": 156
   }
 ]
