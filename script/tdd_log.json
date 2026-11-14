@@ -3526,9 +3526,31 @@
     "testId": 151
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f56b57d1b5657783620b547ca301c5afeb4afc4b",
     "commitName": "fix: rechazar un celular que tiene letras",
     "commitTimestamp": 1794639234759,
     "testId": 151
+  },
+  {
+    "numPassedTests": 122,
+    "failedTests": 1,
+    "numTotalTests": 123,
+    "timestamp": 1794639400674,
+    "success": false,
+    "testId": 152
+  },
+  {
+    "numPassedTests": 123,
+    "failedTests": 0,
+    "numTotalTests": 123,
+    "timestamp": 1794639431840,
+    "success": true,
+    "testId": 152
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: guardar el celular de contacto en el objeto encontrado",
+    "commitTimestamp": 1794639470138,
+    "testId": 152
   }
 ]

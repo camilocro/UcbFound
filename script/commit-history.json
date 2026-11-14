@@ -3249,12 +3249,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f56b57d1b5657783620b547ca301c5afeb4afc4b",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-14T06:53:46.000Z",
       "message": "fix: rechazar un celular que tiene letras",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/f56b57d1b5657783620b547ca301c5afeb4afc4b"
     },
     "stats": {
       "total": 14,
@@ -3263,6 +3263,25 @@
       "date": "2026-11-14"
     },
     "coverage": 98.58,
+    "test_count": 123,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-14T06:57:41.000Z",
+      "message": "feat: guardar el celular de contacto en el objeto encontrado",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 7,
+      "deletions": 3,
+      "date": "2026-11-14"
+    },
+    "coverage": 98.59,
     "test_count": 123,
     "failed_tests": 0,
     "conclusion": "success"

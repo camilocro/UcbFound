@@ -10,6 +10,7 @@ const datosValidos = {
   descripcion: 'Tiene un carnet de la UCB adentro',
   foto: FOTO,
   bloque: BLOQUES[0],
+  celular: '71234567',
 };
 const registro = new RegistroObjetoEncontrado(HOY, () => 'obj-1');
 
@@ -34,6 +35,7 @@ describe('HU-11 Criterio 1: objeto a nombre de quien lo encontró', () => {
       categoria: 'Electrónica',
       bloque: BLOQUES[0],
       aula: '',
+      celular: '71234567',
     });
   });
 });
