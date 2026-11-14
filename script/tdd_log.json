@@ -3358,9 +3358,31 @@
     "testId": 143
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cda6120cca9e68ea5087e42113b7d6e7300e4fec",
     "commitName": "feat: agregar los campos de bloque y aula al formulario de reporte",
     "commitTimestamp": 1794594714957,
     "testId": 143
+  },
+  {
+    "numPassedTests": 117,
+    "failedTests": 0,
+    "numTotalTests": 117,
+    "timestamp": 1794637871696,
+    "success": false,
+    "testId": 144
+  },
+  {
+    "numPassedTests": 118,
+    "failedTests": 0,
+    "numTotalTests": 118,
+    "timestamp": 1794637897217,
+    "success": true,
+    "testId": 144
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aceptar un celular de 8 dígitos que empieza con 7",
+    "commitTimestamp": 1794637932181,
+    "testId": 144
   }
 ]

@@ -3097,12 +3097,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cda6120cca9e68ea5087e42113b7d6e7300e4fec",
     "author": "majo",
     "commit": {
       "date": "2026-11-13T18:31:47.000Z",
       "message": "feat: agregar los campos de bloque y aula al formulario de reporte",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/cda6120cca9e68ea5087e42113b7d6e7300e4fec"
     },
     "stats": {
       "total": 40,
@@ -3112,6 +3112,25 @@
     },
     "coverage": 98.55,
     "test_count": 117,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-14T06:32:04.000Z",
+      "message": "feat: aceptar un celular de 8 dígitos que empieza con 7",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-11-14"
+    },
+    "coverage": 98.55,
+    "test_count": 118,
     "failed_tests": 0,
     "conclusion": "success"
   }
