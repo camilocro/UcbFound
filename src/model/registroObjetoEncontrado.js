@@ -40,7 +40,7 @@ export class RegistroObjetoEncontrado {
     if (!bloque) {
       return crearError(MENSAJES_REGISTRO_OBJETO.FALTA_BLOQUE);
     }
-    if (celular !== undefined && !esCelularValido(celular)) {
+    if (celular && !esCelularValido(celular)) {
       return crearError(MENSAJES_REGISTRO_OBJETO.CELULAR_INVALIDO);
     }
     const objeto = new ObjetoEncontrado({

@@ -3287,12 +3287,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "de704e2622465f9967b624517fa039f3e5dbc514",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-14T06:59:13.000Z",
       "message": "feat: rechazar el registro con un celular inválido",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/de704e2622465f9967b624517fa039f3e5dbc514"
     },
     "stats": {
       "total": 15,
@@ -3302,6 +3302,25 @@
     },
     "coverage": 98.6,
     "test_count": 124,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-14T07:00:40.000Z",
+      "message": "feat: permitir registrar el objeto sin celular de contacto",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-11-14"
+    },
+    "coverage": 98.6,
+    "test_count": 125,
     "failed_tests": 0,
     "conclusion": "success"
   }

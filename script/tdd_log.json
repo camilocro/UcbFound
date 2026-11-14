@@ -3570,9 +3570,31 @@
     "testId": 153
   },
   {
-    "commitId": "HEAD",
+    "commitId": "de704e2622465f9967b624517fa039f3e5dbc514",
     "commitName": "feat: rechazar el registro con un celular inválido",
     "commitTimestamp": 1794639561812,
     "testId": 153
+  },
+  {
+    "numPassedTests": 124,
+    "failedTests": 1,
+    "numTotalTests": 125,
+    "timestamp": 1794639593534,
+    "success": false,
+    "testId": 154
+  },
+  {
+    "numPassedTests": 125,
+    "failedTests": 0,
+    "numTotalTests": 125,
+    "timestamp": 1794639615872,
+    "success": true,
+    "testId": 154
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: permitir registrar el objeto sin celular de contacto",
+    "commitTimestamp": 1794639648242,
+    "testId": 154
   }
 ]

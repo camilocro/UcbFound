@@ -127,3 +127,9 @@ describe('HU-20 Criterio 2: celular inválido', () => {
     });
   });
 });
+describe('HU-20 Criterio 3: celular opcional', () => {
+  it('debería registrar el objeto cuando el celular está vacío', () => {
+    const resultado = registro.registrar({ ...datosValidos, celular: '' }, CORREO);
+    expect(resultado.mensaje).toEqual('Objeto registrado correctamente');
+  });
+});
