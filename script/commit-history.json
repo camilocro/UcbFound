@@ -3857,12 +3857,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "49869ad87ebf768c51e4adaf20e3cd038d138605",
     "author": "camilocro",
     "commit": {
       "date": "2026-11-15T13:03:57.000Z",
       "message": "feat: mostrar el estado Entregado de mis objetos ya recogidos (HU-21)",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/49869ad87ebf768c51e4adaf20e3cd038d138605"
     },
     "stats": {
       "total": 11,
@@ -3872,6 +3872,25 @@
     },
     "coverage": 98.58,
     "test_count": 150,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-15T13:07:32.000Z",
+      "message": "fix: ocultar en la búsqueda los objetos que ya fueron entregados",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.58,
+    "test_count": 151,
     "failed_tests": 0,
     "conclusion": "success"
   }

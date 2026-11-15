@@ -119,3 +119,10 @@ describe('HU-08 Criterio 4: categoría sin resultados', () => {
     expect(resultado.objetos).toEqual([]);
   });
 });
+describe('HU-15 Búsqueda: objetos ya entregados', () => {
+  it('no debería mostrar en la búsqueda un objeto que ya fue recogido', () => {
+    const llavesRecogidas = new ObjetoEncontrado({ id: 'obj-9', nombre: 'Llaves', descripcion: 'Llavero con tres llaves', fecha: '2026-10-13', foto: '', correoDeQuienEncontro: 'luis.rojas@ucb.edu.bo', recogida: { nombre: 'Juan Pérez', carnet: '1234567', fecha: '2026-10-20', correoDelEncargado: 'encargado.objetos@ucb.edu.bo' } });
+    const resultado = new BuscadorObjetos([...objetos, llavesRecogidas]).buscar('');
+    expect(nombres(resultado)).toEqual(['Cargador de laptop', 'Botella de agua', 'Mochila negra']);
+  });
+});
