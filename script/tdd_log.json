@@ -3722,9 +3722,31 @@
     "testId": 161
   },
   {
-    "commitId": "HEAD",
+    "commitId": "79c3022aac31ca208061d8183c176dd908150a87",
     "commitName": "feat: no tratar como encargado a quien no tiene el rol",
     "commitTimestamp": 1794706213528,
     "testId": 161
+  },
+  {
+    "numPassedTests": 129,
+    "failedTests": 1,
+    "numTotalTests": 130,
+    "timestamp": 1794706293031,
+    "success": false,
+    "testId": 162
+  },
+  {
+    "numPassedTests": 130,
+    "failedTests": 0,
+    "numTotalTests": 130,
+    "timestamp": 1794706419824,
+    "success": true,
+    "testId": 162
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar la página de objetos guardados solo al encargado",
+    "commitTimestamp": 1794706455015,
+    "testId": 162
   }
 ]

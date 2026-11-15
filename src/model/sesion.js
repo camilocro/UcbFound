@@ -1,7 +1,7 @@
 const CLAVE_SESION = 'ucbfound_sesion';
 import { esEncargado } from './encargado.js';
 const PAGINAS_CON_CUENTA = ['principal', 'reportar-objeto', 'registrar-objeto', 'buscar-objetos'];
-
+const PAGINAS_DEL_ENCARGADO = ['objetos-guardados'];
 export class Sesion {
   constructor(almacenamiento) {
     this.almacenamiento = almacenamiento;
@@ -31,7 +31,10 @@ export class Sesion {
 
   resolverPagina(pagina) {
     if (PAGINAS_CON_CUENTA.includes(pagina) && !this.estaIniciada()) {
-      return 'inicio-sesion';
+           return 'inicio-sesion';
+    }
+    if (PAGINAS_DEL_ENCARGADO.includes(pagina) && !this.esEncargado()) {
+      return 'principal';
     }
     return pagina;
   }

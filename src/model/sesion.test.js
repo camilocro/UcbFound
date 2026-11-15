@@ -100,3 +100,15 @@ describe('HU-14 Sesión: usuario que no es encargado', () => {
     expect(sesion.esEncargado()).toBe(false);
   });
 });
+
+describe('HU-14 Página de objetos guardados', () => {
+  it('debería mostrar la página solo al encargado', () => {
+    const sesionDelEncargado = new Sesion(crearAlmacenamientoFalso());
+    sesionDelEncargado.iniciar(encargado);
+    expect(sesionDelEncargado.resolverPagina('objetos-guardados')).toEqual('objetos-guardados');
+
+    const sesionDeUsuarioComun = new Sesion(crearAlmacenamientoFalso());
+    sesionDeUsuarioComun.iniciar(usuario);
+    expect(sesionDeUsuarioComun.resolverPagina('objetos-guardados')).toEqual('principal');
+  });
+});

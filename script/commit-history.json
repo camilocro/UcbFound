@@ -3439,12 +3439,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "79c3022aac31ca208061d8183c176dd908150a87",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-15T01:30:07.000Z",
       "message": "feat: no tratar como encargado a quien no tiene el rol",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/79c3022aac31ca208061d8183c176dd908150a87"
     },
     "stats": {
       "total": 12,
@@ -3454,6 +3454,25 @@
     },
     "coverage": 98.62,
     "test_count": 129,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-15T01:34:08.000Z",
+      "message": "feat: mostrar la página de objetos guardados solo al encargado",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 17,
+      "deletions": 2,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.63,
+    "test_count": 130,
     "failed_tests": 0,
     "conclusion": "success"
   }
