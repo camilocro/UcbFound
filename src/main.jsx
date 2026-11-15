@@ -20,6 +20,8 @@ import { RegistroObjetoPresenter } from './presenter/registroObjetoPresenter.js'
 import { ReclamoPresenter } from './presenter/reclamoPresenter.js';
 import { Sesion } from './model/sesion.js';
 import { SesionPresenter } from './presenter/sesionPresenter.js';
+import VistaObjetosGuardados from './view/VistaObjetosGuardados.jsx';
+import { ObjetosGuardadosPresenter } from './presenter/objetosGuardadosPresenter.js';
 
 const sesion = new Sesion(window.sessionStorage);
 const sesionPresenter = new SesionPresenter(sesion);
@@ -37,8 +39,8 @@ const reclamoPresenter = new ReclamoPresenter(
   repositorioObjetosEncontrados,
   sesion,
 );
-const PAGINAS = ['principal', 'inicio-sesion', 'registro', 'reportar-objeto', 'buscar-objetos', 'registrar-objeto'];
-
+const objetosGuardadosPresenter = new ObjetosGuardadosPresenter(repositorioObjetosEncontrados);
+const PAGINAS = ['principal', 'inicio-sesion', 'registro', 'reportar-objeto', 'buscar-objetos', 'registrar-objeto', 'objetos-guardados'];
 function leerVista() {
   const paginaEnLaDireccion = window.location.hash.replace('#/', '');
   const paginaSolicitada = PAGINAS.includes(paginaEnLaDireccion) ? paginaEnLaDireccion : 'principal';
@@ -88,6 +90,11 @@ function App() {
             <button id="ir-registrar-objeto-button" type="button" className="boton boton--ancho" onClick={() => irA('registrar-objeto')}>
               Registrar objeto encontrado
             </button>
+              {sesionPresenter.esEncargado() && (
+              <button id="ir-objetos-guardados-button" type="button" className="boton boton--ancho" onClick={() => irA('objetos-guardados')}>
+                Ver objetos guardados
+              </button>
+            )}
           </section>
         )}
         {vista.pagina === 'reportar-objeto' && (
@@ -114,6 +121,14 @@ function App() {
         {vista.pagina === 'registrar-objeto' && (
           <div>
             <FormularioObjetoEncontrado presenter={registroObjetoPresenter} alVerLista={() => irA('buscar-objetos')} />
+            <button type="button" className="enlace" onClick={() => irA('principal')}>
+              Volver al inicio
+            </button>
+          </div>
+        )}
+                {vista.pagina === 'objetos-guardados' && (
+          <div>
+            <VistaObjetosGuardados presenter={objetosGuardadosPresenter} />
             <button type="button" className="enlace" onClick={() => irA('principal')}>
               Volver al inicio
             </button>

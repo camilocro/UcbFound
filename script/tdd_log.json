@@ -3854,9 +3854,39 @@
     "testId": 167
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f55aa50a4a37960715d60856424a451af107fb14",
     "commitName": "feat: avisar a la vista si la sesión es del encargado",
     "commitTimestamp": 1794707277628,
     "testId": 167
+  },
+  {
+    "numPassedTests": 135,
+    "failedTests": 0,
+    "numTotalTests": 135,
+    "timestamp": 1794707410147,
+    "success": false,
+    "testId": 168
+  },
+  {
+    "numPassedTests": 136,
+    "failedTests": 0,
+    "numTotalTests": 136,
+    "timestamp": 1794707434801,
+    "success": true,
+    "testId": 168
+  },
+  {
+    "numPassedTests": 136,
+    "failedTests": 0,
+    "numTotalTests": 136,
+    "timestamp": 1794707631675,
+    "success": true,
+    "testId": 168
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar la pantalla de objetos guardados para el encargado",
+    "commitTimestamp": 1794707847377,
+    "testId": 168
   }
 ]

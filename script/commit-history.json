@@ -3553,12 +3553,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f55aa50a4a37960715d60856424a451af107fb14",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-15T01:47:42.000Z",
       "message": "feat: avisar a la vista si la sesión es del encargado",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/f55aa50a4a37960715d60856424a451af107fb14"
     },
     "stats": {
       "total": 12,
@@ -3568,6 +3568,25 @@
     },
     "coverage": 98.67,
     "test_count": 135,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-15T01:57:12.000Z",
+      "message": "feat: agregar la pantalla de objetos guardados para el encargado",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 101,
+      "additions": 99,
+      "deletions": 2,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.69,
+    "test_count": 136,
     "failed_tests": 0,
     "conclusion": "success"
   }
