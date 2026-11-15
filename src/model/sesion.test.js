@@ -91,3 +91,12 @@ describe('HU-14 Sesión: rol de encargado', () => {
     expect(sesion.esEncargado()).toBe(true);
   });
 });
+
+describe('HU-14 Sesión: usuario que no es encargado', () => {
+  it('no debería ser encargado sin sesión ni con un usuario común', () => {
+    const sesion = new Sesion(crearAlmacenamientoFalso());
+    expect(sesion.esEncargado()).toBe(false);
+    sesion.iniciar(usuario);
+    expect(sesion.esEncargado()).toBe(false);
+  });
+});

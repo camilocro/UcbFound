@@ -3420,12 +3420,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cf37c6c76b2c18106529db355e27af1e7e952fab",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-15T01:26:45.000Z",
       "message": "feat: saber si la sesión es del encargado",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/cf37c6c76b2c18106529db355e27af1e7e952fab"
     },
     "stats": {
       "total": 14,
@@ -3435,6 +3435,25 @@
     },
     "coverage": 98.61,
     "test_count": 128,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-15T01:30:07.000Z",
+      "message": "feat: no tratar como encargado a quien no tiene el rol",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.62,
+    "test_count": 129,
     "failed_tests": 0,
     "conclusion": "success"
   }

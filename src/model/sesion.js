@@ -25,7 +25,8 @@ export class Sesion {
   }
 
     esEncargado() {
-    return esEncargado(this.obtenerUsuario().correo);
+        const usuario = this.obtenerUsuario();
+    return usuario !== null && esEncargado(usuario.correo);
   }
 
   resolverPagina(pagina) {

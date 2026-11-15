@@ -3700,9 +3700,31 @@
     "testId": 160
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cf37c6c76b2c18106529db355e27af1e7e952fab",
     "commitName": "feat: saber si la sesión es del encargado",
     "commitTimestamp": 1794706011578,
     "testId": 160
+  },
+  {
+    "numPassedTests": 128,
+    "failedTests": 1,
+    "numTotalTests": 129,
+    "timestamp": 1794706120587,
+    "success": false,
+    "testId": 161
+  },
+  {
+    "numPassedTests": 129,
+    "failedTests": 0,
+    "numTotalTests": 129,
+    "timestamp": 1794706195263,
+    "success": true,
+    "testId": 161
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: no tratar como encargado a quien no tiene el rol",
+    "commitTimestamp": 1794706213528,
+    "testId": 161
   }
 ]
