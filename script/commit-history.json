@@ -3781,12 +3781,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "723b9d9e58be48d83ecb6ac10beebdbcbad1dc1b",
     "author": "camilocro",
     "commit": {
       "date": "2026-11-15T12:51:54.000Z",
       "message": "feat: mostrar mis reportes con su detalle en la pantalla principal",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/723b9d9e58be48d83ecb6ac10beebdbcbad1dc1b"
     },
     "stats": {
       "total": 57,
@@ -3796,6 +3796,25 @@
     },
     "coverage": 98.52,
     "test_count": 146,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-15T12:58:12.000Z",
+      "message": "feat: avisar cuando no registré ningún objeto encontrado (HU-21)",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 60,
+      "additions": 60,
+      "deletions": 0,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.54,
+    "test_count": 147,
     "failed_tests": 0,
     "conclusion": "success"
   }

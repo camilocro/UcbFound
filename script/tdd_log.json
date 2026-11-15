@@ -4150,9 +4150,47 @@
     "testId": 179
   },
   {
-    "commitId": "HEAD",
+    "commitId": "723b9d9e58be48d83ecb6ac10beebdbcbad1dc1b",
     "commitName": "feat: mostrar mis reportes con su detalle en la pantalla principal",
     "commitTimestamp": 1794747124859,
     "testId": 179
+  },
+  {
+    "numPassedTests": 146,
+    "failedTests": 0,
+    "numTotalTests": 146,
+    "timestamp": 1794747413485,
+    "success": true,
+    "testId": 180
+  },
+  {
+    "numPassedTests": 146,
+    "failedTests": 0,
+    "numTotalTests": 146,
+    "timestamp": 1794747430833,
+    "success": false,
+    "testId": 180
+  },
+  {
+    "numPassedTests": 147,
+    "failedTests": 0,
+    "numTotalTests": 147,
+    "timestamp": 1794747446113,
+    "success": true,
+    "testId": 180
+  },
+  {
+    "numPassedTests": 147,
+    "failedTests": 0,
+    "numTotalTests": 147,
+    "timestamp": 1794747478638,
+    "success": true,
+    "testId": 180
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: avisar cuando no registré ningún objeto encontrado (HU-21)",
+    "commitTimestamp": 1794747500956,
+    "testId": 180
   }
 ]
