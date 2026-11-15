@@ -3572,12 +3572,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e10a902d2397f49368b11dcc2f7373ef5c4d4ad7",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-15T01:57:12.000Z",
       "message": "feat: agregar la pantalla de objetos guardados para el encargado",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/e10a902d2397f49368b11dcc2f7373ef5c4d4ad7"
     },
     "stats": {
       "total": 101,
@@ -3587,6 +3587,120 @@
     },
     "coverage": 98.69,
     "test_count": 136,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "4eeb9c2b34f2845b47510ea2ad3a83ecddab07c3",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-15T02:22:12.000Z",
+      "message": "feat: saber si un objeto encontrado ya fue recogido",
+      "url": "https://github.com/camilocro/UcbFound/commit/4eeb9c2b34f2845b47510ea2ad3a83ecddab07c3"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 24,
+      "deletions": 1,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.7,
+    "test_count": 137,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "92c5e62a9d039d2087f81e5d20677977f7c4c0c7",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-15T02:24:47.000Z",
+      "message": "feat: registrar quién recogió el objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/92c5e62a9d039d2087f81e5d20677977f7c4c0c7"
+    },
+    "stats": {
+      "total": 42,
+      "additions": 42,
+      "deletions": 0,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.71,
+    "test_count": 138,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "6f5da0a793c5b8b83a07ebcf4c3ab66c5ac06e51",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-15T02:26:27.000Z",
+      "message": "feat: pedir el nombre y el carnet de quien recoge el objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/6f5da0a793c5b8b83a07ebcf4c3ab66c5ac06e51"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 15,
+      "deletions": 0,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.72,
+    "test_count": 139,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "9059cfb57ecc3bd0f5fce94d92126443bd40c749",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-15T03:16:44.000Z",
+      "message": "feat: no registrar dos veces la entrega de un objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/9059cfb57ecc3bd0f5fce94d92126443bd40c749"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 15,
+      "deletions": 2,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.73,
+    "test_count": 140,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "19fce10dc40c9735f8497fb3335078974960a556",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-15T03:18:28.000Z",
+      "message": "feat: quitar de la lista los objetos que ya fueron recogidos",
+      "url": "https://github.com/camilocro/UcbFound/commit/19fce10dc40c9735f8497fb3335078974960a556"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.73,
+    "test_count": 141,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-15T03:23:58.000Z",
+      "message": "feat: agregar el formulario para registrar quién recogió el objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 96,
+      "additions": 93,
+      "deletions": 3,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.47,
+    "test_count": 142,
     "failed_tests": 0,
     "conclusion": "success"
   }

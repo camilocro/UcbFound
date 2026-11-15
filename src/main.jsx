@@ -39,7 +39,7 @@ const reclamoPresenter = new ReclamoPresenter(
   repositorioObjetosEncontrados,
   sesion,
 );
-const objetosGuardadosPresenter = new ObjetosGuardadosPresenter(repositorioObjetosEncontrados);
+const objetosGuardadosPresenter = new ObjetosGuardadosPresenter(repositorioObjetosEncontrados, sesion);
 const PAGINAS = ['principal', 'inicio-sesion', 'registro', 'reportar-objeto', 'buscar-objetos', 'registrar-objeto', 'objetos-guardados'];
 function leerVista() {
   const paginaEnLaDireccion = window.location.hash.replace('#/', '');

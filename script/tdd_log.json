@@ -3884,9 +3884,157 @@
     "testId": 168
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e10a902d2397f49368b11dcc2f7373ef5c4d4ad7",
     "commitName": "feat: agregar la pantalla de objetos guardados para el encargado",
     "commitTimestamp": 1794707847377,
     "testId": 168
+  },
+  {
+    "numPassedTests": 136,
+    "failedTests": 0,
+    "numTotalTests": 136,
+    "timestamp": 1794708654149,
+    "success": true,
+    "testId": 169
+  },
+  {
+    "numPassedTests": 136,
+    "failedTests": 1,
+    "numTotalTests": 137,
+    "timestamp": 1794708903438,
+    "success": false,
+    "testId": 169
+  },
+  {
+    "numPassedTests": 122,
+    "failedTests": 15,
+    "numTotalTests": 137,
+    "timestamp": 1794709163449,
+    "success": false,
+    "testId": 169
+  },
+  {
+    "numPassedTests": 137,
+    "failedTests": 0,
+    "numTotalTests": 137,
+    "timestamp": 1794709301559,
+    "success": true,
+    "testId": 169
+  },
+  {
+    "commitId": "4eeb9c2b34f2845b47510ea2ad3a83ecddab07c3",
+    "commitName": "feat: saber si un objeto encontrado ya fue recogido",
+    "commitTimestamp": 1794709348808,
+    "testId": 169
+  },
+  {
+    "numPassedTests": 137,
+    "failedTests": 0,
+    "numTotalTests": 137,
+    "timestamp": 1794709423069,
+    "success": false,
+    "testId": 170
+  },
+  {
+    "numPassedTests": 138,
+    "failedTests": 0,
+    "numTotalTests": 138,
+    "timestamp": 1794709470695,
+    "success": true,
+    "testId": 170
+  },
+  {
+    "commitId": "92c5e62a9d039d2087f81e5d20677977f7c4c0c7",
+    "commitName": "feat: registrar quién recogió el objeto",
+    "commitTimestamp": 1794709499338,
+    "testId": 170
+  },
+  {
+    "numPassedTests": 138,
+    "failedTests": 1,
+    "numTotalTests": 139,
+    "timestamp": 1794709546326,
+    "success": false,
+    "testId": 171
+  },
+  {
+    "numPassedTests": 139,
+    "failedTests": 0,
+    "numTotalTests": 139,
+    "timestamp": 1794709573150,
+    "success": true,
+    "testId": 171
+  },
+  {
+    "commitId": "6f5da0a793c5b8b83a07ebcf4c3ab66c5ac06e51",
+    "commitName": "feat: pedir el nombre y el carnet de quien recoge el objeto",
+    "commitTimestamp": 1794709602981,
+    "testId": 171
+  },
+  {
+    "numPassedTests": 139,
+    "failedTests": 1,
+    "numTotalTests": 140,
+    "timestamp": 1794712493269,
+    "success": false,
+    "testId": 172
+  },
+  {
+    "numPassedTests": 140,
+    "failedTests": 0,
+    "numTotalTests": 140,
+    "timestamp": 1794712588978,
+    "success": true,
+    "testId": 172
+  },
+  {
+    "commitId": "9059cfb57ecc3bd0f5fce94d92126443bd40c749",
+    "commitName": "feat: no registrar dos veces la entrega de un objeto",
+    "commitTimestamp": 1794712624104,
+    "testId": 172
+  },
+  {
+    "numPassedTests": 140,
+    "failedTests": 1,
+    "numTotalTests": 141,
+    "timestamp": 1794712651447,
+    "success": false,
+    "testId": 173
+  },
+  {
+    "numPassedTests": 141,
+    "failedTests": 0,
+    "numTotalTests": 141,
+    "timestamp": 1794712690584,
+    "success": true,
+    "testId": 173
+  },
+  {
+    "commitId": "19fce10dc40c9735f8497fb3335078974960a556",
+    "commitName": "feat: quitar de la lista los objetos que ya fueron recogidos",
+    "commitTimestamp": 1794712723188,
+    "testId": 173
+  },
+  {
+    "numPassedTests": 141,
+    "failedTests": 1,
+    "numTotalTests": 142,
+    "timestamp": 1794712787841,
+    "success": false,
+    "testId": 174
+  },
+  {
+    "numPassedTests": 142,
+    "failedTests": 0,
+    "numTotalTests": 142,
+    "timestamp": 1794712916911,
+    "success": true,
+    "testId": 174
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar el formulario para registrar quién recogió el objeto",
+    "commitTimestamp": 1794713054087,
+    "testId": 174
   }
 ]

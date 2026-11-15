@@ -7,7 +7,7 @@ const SIN_CATEGORIA = 'Sin categoría';
 const SIN_LUGAR = 'Lugar no indicado';
 
 export class ObjetoEncontrado {
-  constructor({ id, nombre, descripcion, fecha, foto, correoDeQuienEncontro, categoria, bloque, aula, celular }) {
+      constructor({ id, nombre, descripcion, fecha, foto, correoDeQuienEncontro, categoria, bloque, aula, celular, recogida }) {
     this.id = id;
     this.nombre = nombre;
     this.descripcion = descripcion;
@@ -18,7 +18,9 @@ export class ObjetoEncontrado {
     this.bloque = bloque;
     this.aula = aula;
     this.celular = celular;
+    this.recogida = recogida;
   }
+  
 
   coincideCon(texto) {
     const textoBuscado = quitarTildes(texto);
@@ -48,6 +50,11 @@ export class ObjetoEncontrado {
       correoDeQuienEncontro: this.correoDeQuienEncontro,
     };
   }
+
+    fueRecogido() {
+    return Boolean(this.recogida);
+  }
+  
   obtenerVistaBasica() {
     return {
       id: this.id,
