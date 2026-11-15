@@ -31,3 +31,12 @@ describe('HU-17 Criterio 1: ver mis reportes', () => {
     expect(presenter.obtenerMisReportes()).toEqual({ reportes: [calculadora, mochila], mensaje: '' });
   });
 });
+
+describe('HU-17 Criterio 2: sin reportes', () => {
+  it('debería avisar cuando el usuario todavía no reportó objetos', () => {
+    const repositorio = new RepositorioReportes(crearAlmacenamientoFalso());
+    repositorio.guardar(llaves);
+    const presenter = new MisReportesPresenter(repositorio, sesionDeJuan);
+    expect(presenter.obtenerMisReportes()).toEqual({ reportes: [], mensaje: 'Todavía no reportaste ningún objeto perdido' });
+  });
+});

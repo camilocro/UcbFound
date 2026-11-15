@@ -4062,9 +4062,31 @@
     "testId": 175
   },
   {
-    "commitId": "HEAD",
+    "commitId": "eed028067b5e1d4f04ce4edaf69f71c59f5a0ec2",
     "commitName": "feat: mostrar mis reportes del más reciente al más antiguo",
     "commitTimestamp": 1794713677461,
     "testId": 175
+  },
+  {
+    "numPassedTests": 143,
+    "failedTests": 1,
+    "numTotalTests": 144,
+    "timestamp": 1794713811748,
+    "success": false,
+    "testId": 176
+  },
+  {
+    "numPassedTests": 144,
+    "failedTests": 0,
+    "numTotalTests": 144,
+    "timestamp": 1794713839331,
+    "success": true,
+    "testId": 176
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: avisar cuando el usuario no tiene reportes",
+    "commitTimestamp": 1794713883367,
+    "testId": 176
   }
 ]
