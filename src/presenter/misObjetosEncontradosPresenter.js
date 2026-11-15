@@ -3,7 +3,7 @@ export const MENSAJES_MIS_OBJETOS_ENCONTRADOS = {
 };
 
 function prepararObjeto(objeto) {
-  return { id: objeto.id, foto: objeto.foto, nombre: objeto.nombre, fecha: objeto.fecha };
+  return { id: objeto.id, foto: objeto.foto, nombre: objeto.nombre, fecha: objeto.fecha, estado: objeto.obtenerEstado() };
 }
 
 export class MisObjetosEncontradosPresenter {

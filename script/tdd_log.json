@@ -4218,9 +4218,39 @@
     "testId": 181
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d319bab6369a9864ef2a34e886998c3a0102644d",
     "commitName": "feat: mostrar solo los objetos que registré (HU-21)",
     "commitTimestamp": 1794747649408,
     "testId": 181
+  },
+  {
+    "numPassedTests": 148,
+    "failedTests": 1,
+    "numTotalTests": 149,
+    "timestamp": 1794747698768,
+    "success": false,
+    "testId": 182
+  },
+  {
+    "numPassedTests": 149,
+    "failedTests": 0,
+    "numTotalTests": 149,
+    "timestamp": 1794747724399,
+    "success": true,
+    "testId": 182
+  },
+  {
+    "numPassedTests": 149,
+    "failedTests": 0,
+    "numTotalTests": 149,
+    "timestamp": 1794747738389,
+    "success": true,
+    "testId": 182
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar el estado Por recibir de mis objetos encontrados (HU-21)",
+    "commitTimestamp": 1794747760830,
+    "testId": 182
   }
 ]

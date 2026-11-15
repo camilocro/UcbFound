@@ -18,6 +18,7 @@ export default function VistaObjetosQueEncontre({ presenter }) {
               <span>
                 <span className="objeto__nombre">{objeto.nombre}</span>
                 <span className="objeto__fecha">Encontrado el {objeto.fecha}</span>
+                <span className="etiqueta">{objeto.estado}</span>
               </span>
             </li>
           ))}

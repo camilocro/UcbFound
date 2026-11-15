@@ -34,8 +34,16 @@ describe('HU-21 Criterios 2 y 3: solo mis objetos', () => {
     repositorio.guardar(llavesDeAna);
     const presenter = new MisObjetosEncontradosPresenter(repositorio, sesionDeJuan);
     expect(presenter.obtenerMisObjetos()).toEqual({
-      objetos: [{ id: 'obj-1', foto: 'mochila.png', nombre: 'Mochila negra', fecha: '2026-10-15' }],
+      objetos: [{ id: 'obj-1', foto: 'mochila.png', nombre: 'Mochila negra', fecha: '2026-10-15', estado: 'Por recibir' }],
       mensaje: '',
     });
+  });
+});
+describe('HU-21 Criterio 4: objeto recién registrado', () => {
+  it('debería mostrar el estado Por recibir en un objeto que acabo de registrar', () => {
+    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+    repositorio.guardar(mochilaDeJuan);
+    const presenter = new MisObjetosEncontradosPresenter(repositorio, sesionDeJuan);
+    expect(presenter.obtenerMisObjetos().objetos[0].estado).toEqual('Por recibir');
   });
 });
