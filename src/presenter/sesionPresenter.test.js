@@ -41,3 +41,11 @@ describe('HU-03 Presenter Criterio 2: páginas que requieren cuenta', () => {
     expect(presenter.resolverPagina('principal')).toEqual('inicio-sesion');
   });
 });
+
+describe('HU-14 Presenter: rol de encargado', () => {
+  it('debería decir si quien inició sesión es el encargado', () => {
+    const presenter = new SesionPresenter(new Sesion(crearAlmacenamientoFalso()));
+    presenter.iniciarSesion({ nombre: 'Encargado UCB', correo: 'encargado.objetos@ucb.edu.bo' });
+    expect(presenter.esEncargado()).toBe(true);
+  });
+});

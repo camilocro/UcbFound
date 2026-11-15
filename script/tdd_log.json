@@ -3832,9 +3832,31 @@
     "testId": 166
   },
   {
-    "commitId": "HEAD",
+    "commitId": "626c524ffca3397f966ba122fd5027bf7f7a9ac8",
     "commitName": "feat: avisar cuando no hay objetos guardados",
     "commitTimestamp": 1794707170283,
     "testId": 166
+  },
+  {
+    "numPassedTests": 134,
+    "failedTests": 1,
+    "numTotalTests": 135,
+    "timestamp": 1794707213670,
+    "success": false,
+    "testId": 167
+  },
+  {
+    "numPassedTests": 135,
+    "failedTests": 0,
+    "numTotalTests": 135,
+    "timestamp": 1794707250342,
+    "success": true,
+    "testId": 167
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: avisar a la vista si la sesión es del encargado",
+    "commitTimestamp": 1794707277628,
+    "testId": 167
   }
 ]

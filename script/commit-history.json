@@ -3534,12 +3534,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "626c524ffca3397f966ba122fd5027bf7f7a9ac8",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-15T01:45:57.000Z",
       "message": "feat: avisar cuando no hay objetos guardados",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/626c524ffca3397f966ba122fd5027bf7f7a9ac8"
     },
     "stats": {
       "total": 14,
@@ -3549,6 +3549,25 @@
     },
     "coverage": 98.67,
     "test_count": 134,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-15T01:47:42.000Z",
+      "message": "feat: avisar a la vista si la sesión es del encargado",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.67,
+    "test_count": 135,
     "failed_tests": 0,
     "conclusion": "success"
   }
