@@ -82,3 +82,12 @@ describe('HU-07 Páginas que requieren cuenta', () => {
     expect(sesion.resolverPagina('buscar-objetos')).toEqual('inicio-sesion');
   });
 });
+const encargado = { nombre: 'Encargado UCB', correo: 'encargado.objetos@ucb.edu.bo' };
+
+describe('HU-14 Sesión: rol de encargado', () => {
+  it('debería saber que quien inició sesión es el encargado', () => {
+    const sesion = new Sesion(crearAlmacenamientoFalso());
+    sesion.iniciar(encargado);
+    expect(sesion.esEncargado()).toBe(true);
+  });
+});

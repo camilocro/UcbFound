@@ -1,4 +1,5 @@
 const CLAVE_SESION = 'ucbfound_sesion';
+import { esEncargado } from './encargado.js';
 const PAGINAS_CON_CUENTA = ['principal', 'reportar-objeto', 'registrar-objeto', 'buscar-objetos'];
 
 export class Sesion {
@@ -21,6 +22,10 @@ export class Sesion {
 
   cerrar() {
     this.almacenamiento.removeItem(CLAVE_SESION);
+  }
+
+    esEncargado() {
+    return esEncargado(this.obtenerUsuario().correo);
   }
 
   resolverPagina(pagina) {

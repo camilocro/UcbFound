@@ -3401,12 +3401,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "06fb3e67a51801f097cbcae9e09888c4a8f71bf1",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-15T01:24:10.000Z",
       "message": "feat: reconocer al encargado de objetos por su correo",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/06fb3e67a51801f097cbcae9e09888c4a8f71bf1"
     },
     "stats": {
       "total": 14,
@@ -3416,6 +3416,25 @@
     },
     "coverage": 98.61,
     "test_count": 127,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-15T01:26:45.000Z",
+      "message": "feat: saber si la sesión es del encargado",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.61,
+    "test_count": 128,
     "failed_tests": 0,
     "conclusion": "success"
   }

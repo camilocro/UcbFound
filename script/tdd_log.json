@@ -3678,9 +3678,31 @@
     "testId": 159
   },
   {
-    "commitId": "HEAD",
+    "commitId": "06fb3e67a51801f097cbcae9e09888c4a8f71bf1",
     "commitName": "feat: reconocer al encargado de objetos por su correo",
     "commitTimestamp": 1794705857556,
     "testId": 159
+  },
+  {
+    "numPassedTests": 127,
+    "failedTests": 1,
+    "numTotalTests": 128,
+    "timestamp": 1794705914019,
+    "success": false,
+    "testId": 160
+  },
+  {
+    "numPassedTests": 128,
+    "failedTests": 0,
+    "numTotalTests": 128,
+    "timestamp": 1794705995725,
+    "success": true,
+    "testId": 160
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: saber si la sesión es del encargado",
+    "commitTimestamp": 1794706011578,
+    "testId": 160
   }
 ]
