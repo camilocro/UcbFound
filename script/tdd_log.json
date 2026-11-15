@@ -3966,9 +3966,31 @@
     "testId": 171
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6f5da0a793c5b8b83a07ebcf4c3ab66c5ac06e51",
     "commitName": "feat: pedir el nombre y el carnet de quien recoge el objeto",
     "commitTimestamp": 1794709602981,
     "testId": 171
+  },
+  {
+    "numPassedTests": 139,
+    "failedTests": 1,
+    "numTotalTests": 140,
+    "timestamp": 1794712493269,
+    "success": false,
+    "testId": 172
+  },
+  {
+    "numPassedTests": 140,
+    "failedTests": 0,
+    "numTotalTests": 140,
+    "timestamp": 1794712588978,
+    "success": true,
+    "testId": 172
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: no registrar dos veces la entrega de un objeto",
+    "commitTimestamp": 1794712624104,
+    "testId": 172
   }
 ]

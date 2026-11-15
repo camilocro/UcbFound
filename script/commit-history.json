@@ -3629,12 +3629,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6f5da0a793c5b8b83a07ebcf4c3ab66c5ac06e51",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-15T02:26:27.000Z",
       "message": "feat: pedir el nombre y el carnet de quien recoge el objeto",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/6f5da0a793c5b8b83a07ebcf4c3ab66c5ac06e51"
     },
     "stats": {
       "total": 15,
@@ -3644,6 +3644,25 @@
     },
     "coverage": 98.72,
     "test_count": 139,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-15T03:16:44.000Z",
+      "message": "feat: no registrar dos veces la entrega de un objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 15,
+      "deletions": 2,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.73,
+    "test_count": 140,
     "failed_tests": 0,
     "conclusion": "success"
   }
