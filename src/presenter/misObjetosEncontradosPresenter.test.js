@@ -47,3 +47,11 @@ describe('HU-21 Criterio 4: objeto recién registrado', () => {
     expect(presenter.obtenerMisObjetos().objetos[0].estado).toEqual('Por recibir');
   });
 });
+describe('HU-21 Criterio 2: objeto ya entregado', () => {
+  it('debería mostrar el estado Entregado cuando ya recogieron el objeto', () => {
+    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+    repositorio.guardar({ ...mochilaDeJuan, recogida: { nombre: 'Ana López', carnet: '7654321', fecha: '2026-10-20', correoDelEncargado: 'encargado.objetos@ucb.edu.bo' } });
+    const presenter = new MisObjetosEncontradosPresenter(repositorio, sesionDeJuan);
+    expect(presenter.obtenerMisObjetos().objetos[0].estado).toEqual('Entregado');
+  });
+});

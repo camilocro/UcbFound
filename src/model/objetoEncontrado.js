@@ -8,6 +8,7 @@ const SIN_LUGAR = 'Lugar no indicado';
 
 export const ESTADOS_OBJETO = {
   POR_RECIBIR: 'Por recibir',
+  ENTREGADO: 'Entregado',
 };
 
 export class ObjetoEncontrado {
@@ -60,7 +61,7 @@ export class ObjetoEncontrado {
   }
   
   obtenerEstado() {
-    return ESTADOS_OBJETO.POR_RECIBIR;
+    return this.fueRecogido() ? ESTADOS_OBJETO.ENTREGADO : ESTADOS_OBJETO.POR_RECIBIR;
   }
 
   obtenerVistaBasica() {
