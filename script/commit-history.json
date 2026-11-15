@@ -3800,12 +3800,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "597a17fa3d65893a512d5e3ce0ee6084dab319df",
     "author": "camilocro",
     "commit": {
       "date": "2026-11-15T12:58:12.000Z",
       "message": "feat: avisar cuando no registré ningún objeto encontrado (HU-21)",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/597a17fa3d65893a512d5e3ce0ee6084dab319df"
     },
     "stats": {
       "total": 60,
@@ -3815,6 +3815,25 @@
     },
     "coverage": 98.54,
     "test_count": 147,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-15T13:00:40.000Z",
+      "message": "feat: mostrar solo los objetos que registré (HU-21)",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 44,
+      "additions": 42,
+      "deletions": 2,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.57,
+    "test_count": 148,
     "failed_tests": 0,
     "conclusion": "success"
   }

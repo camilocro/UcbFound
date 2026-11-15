@@ -24,6 +24,10 @@ export class RepositorioObjetosEncontrados {
     this.almacenamiento.setItem(CLAVE_OBJETOS_ENCONTRADOS, JSON.stringify(objetos));
   }
 
+  obtenerObjetosDe(correo) {
+    return this.obtenerTodos().filter((objeto) => objeto.correoDeQuienEncontro === correo);
+  }
+
   buscarPorId(id) {
     return this.obtenerTodos().find((objeto) => objeto.id === id);
   }

@@ -4188,9 +4188,39 @@
     "testId": 180
   },
   {
-    "commitId": "HEAD",
+    "commitId": "597a17fa3d65893a512d5e3ce0ee6084dab319df",
     "commitName": "feat: avisar cuando no registré ningún objeto encontrado (HU-21)",
     "commitTimestamp": 1794747500956,
     "testId": 180
+  },
+  {
+    "numPassedTests": 147,
+    "failedTests": 1,
+    "numTotalTests": 148,
+    "timestamp": 1794747586162,
+    "success": false,
+    "testId": 181
+  },
+  {
+    "numPassedTests": 148,
+    "failedTests": 0,
+    "numTotalTests": 148,
+    "timestamp": 1794747607416,
+    "success": true,
+    "testId": 181
+  },
+  {
+    "numPassedTests": 148,
+    "failedTests": 0,
+    "numTotalTests": 148,
+    "timestamp": 1794747628392,
+    "success": true,
+    "testId": 181
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar solo los objetos que registré (HU-21)",
+    "commitTimestamp": 1794747649408,
+    "testId": 181
   }
 ]

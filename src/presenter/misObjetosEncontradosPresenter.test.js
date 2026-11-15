@@ -24,3 +24,18 @@ describe('HU-21 Criterio 5: sin objetos registrados', () => {
     expect(presenter.obtenerMisObjetos()).toEqual({ objetos: [], mensaje: 'Todavía no registraste ningún objeto encontrado' });
   });
 });
+const mochilaDeJuan = { id: 'obj-1', nombre: 'Mochila negra', descripcion: 'Tiene un llavero de la UCB', fecha: '2026-10-15', foto: 'mochila.png', correoDeQuienEncontro: 'juan.perez@ucb.edu.bo' };
+const llavesDeAna = { id: 'obj-2', nombre: 'Llaves', descripcion: 'Llavero con tres llaves', fecha: '2026-10-16', foto: 'llaves.png', correoDeQuienEncontro: 'ana.lopez@ucb.edu.bo' };
+
+describe('HU-21 Criterios 2 y 3: solo mis objetos', () => {
+  it('debería mostrar solo los objetos que registré, con su foto, nombre y fecha', () => {
+    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+    repositorio.guardar(mochilaDeJuan);
+    repositorio.guardar(llavesDeAna);
+    const presenter = new MisObjetosEncontradosPresenter(repositorio, sesionDeJuan);
+    expect(presenter.obtenerMisObjetos()).toEqual({
+      objetos: [{ id: 'obj-1', foto: 'mochila.png', nombre: 'Mochila negra', fecha: '2026-10-15' }],
+      mensaje: '',
+    });
+  });
+});
