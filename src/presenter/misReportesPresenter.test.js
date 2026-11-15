@@ -28,7 +28,10 @@ describe('HU-17 Criterio 1: ver mis reportes', () => {
     repositorio.guardar(llaves);
     repositorio.guardar(calculadora);
     const presenter = new MisReportesPresenter(repositorio, sesionDeJuan);
-    expect(presenter.obtenerMisReportes()).toEqual({ reportes: [calculadora, mochila], mensaje: '' });
+    expect(presenter.obtenerMisReportes()).toEqual({
+      reportes: [{ ...calculadora, lugar: 'Tupuraya 1 - Bloque B, B-305' }, { ...mochila, lugar: 'Tupuraya 1 - Biblioteca' }],
+      mensaje: '',
+    });
   });
 });
 
@@ -38,5 +41,13 @@ describe('HU-17 Criterio 2: sin reportes', () => {
     repositorio.guardar(llaves);
     const presenter = new MisReportesPresenter(repositorio, sesionDeJuan);
     expect(presenter.obtenerMisReportes()).toEqual({ reportes: [], mensaje: 'Todavía no reportaste ningún objeto perdido' });
+  });
+});
+describe('HU-17 Criterio 2: lugar de cada reporte', () => {
+  it('debería mostrar el lugar de cada reporte con su bloque y su aula', () => {
+    const repositorio = new RepositorioReportes(crearAlmacenamientoFalso());
+    repositorio.guardar(calculadora);
+    const presenter = new MisReportesPresenter(repositorio, sesionDeJuan);
+    expect(presenter.obtenerMisReportes().reportes[0].lugar).toEqual('Tupuraya 1 - Bloque B, B-305');
   });
 });

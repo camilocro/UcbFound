@@ -4084,9 +4084,39 @@
     "testId": 176
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4954267919e2b83d403653a63b9c984f2fd6bfe6",
     "commitName": "feat: avisar cuando el usuario no tiene reportes",
     "commitTimestamp": 1794713883367,
     "testId": 176
+  },
+  {
+    "numPassedTests": 144,
+    "failedTests": 0,
+    "numTotalTests": 144,
+    "timestamp": 1794746748480,
+    "success": true,
+    "testId": 177
+  },
+  {
+    "numPassedTests": 144,
+    "failedTests": 1,
+    "numTotalTests": 145,
+    "timestamp": 1794746778579,
+    "success": false,
+    "testId": 177
+  },
+  {
+    "numPassedTests": 145,
+    "failedTests": 0,
+    "numTotalTests": 145,
+    "timestamp": 1794746822110,
+    "success": true,
+    "testId": 177
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar el lugar de cada uno de mis reportes",
+    "commitTimestamp": 1794746850248,
+    "testId": 177
   }
 ]

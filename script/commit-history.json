@@ -3724,12 +3724,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4954267919e2b83d403653a63b9c984f2fd6bfe6",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-15T03:37:47.000Z",
       "message": "feat: avisar cuando el usuario no tiene reportes",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/4954267919e2b83d403653a63b9c984f2fd6bfe6"
     },
     "stats": {
       "total": 44,
@@ -3739,6 +3739,25 @@
     },
     "coverage": 98.51,
     "test_count": 144,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-15T12:47:19.000Z",
+      "message": "feat: mostrar el lugar de cada uno de mis reportes",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 24,
+      "additions": 22,
+      "deletions": 2,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.52,
+    "test_count": 145,
     "failed_tests": 0,
     "conclusion": "success"
   }
