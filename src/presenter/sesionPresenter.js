@@ -18,6 +18,10 @@ export class SesionPresenter {
     return this.sesion.obtenerUsuario();
   }
 
+    esEncargado() {
+    return this.sesion.esEncargado();
+  }
+  
   resolverPagina(pagina) {
     return this.sesion.resolverPagina(pagina);
   }

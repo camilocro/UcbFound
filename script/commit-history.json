@@ -3382,12 +3382,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "44face0f45c7949e813ac79ca4120e8ab2dcb66f",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-14T07:12:19.000Z",
       "message": "refactor: usar esCelularOpcionalValido en el registro de objeto encontrado",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/44face0f45c7949e813ac79ca4120e8ab2dcb66f"
     },
     "stats": {
       "total": 4,
@@ -3397,6 +3397,196 @@
     },
     "coverage": 98.6,
     "test_count": 126,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "06fb3e67a51801f097cbcae9e09888c4a8f71bf1",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-15T01:24:10.000Z",
+      "message": "feat: reconocer al encargado de objetos por su correo",
+      "url": "https://github.com/camilocro/UcbFound/commit/06fb3e67a51801f097cbcae9e09888c4a8f71bf1"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.61,
+    "test_count": 127,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "cf37c6c76b2c18106529db355e27af1e7e952fab",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-15T01:26:45.000Z",
+      "message": "feat: saber si la sesión es del encargado",
+      "url": "https://github.com/camilocro/UcbFound/commit/cf37c6c76b2c18106529db355e27af1e7e952fab"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.61,
+    "test_count": 128,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "79c3022aac31ca208061d8183c176dd908150a87",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-15T01:30:07.000Z",
+      "message": "feat: no tratar como encargado a quien no tiene el rol",
+      "url": "https://github.com/camilocro/UcbFound/commit/79c3022aac31ca208061d8183c176dd908150a87"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.62,
+    "test_count": 129,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "58daacfa99d18ca9b27c44a69fdba1b563d534d5",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-15T01:34:08.000Z",
+      "message": "feat: mostrar la página de objetos guardados solo al encargado",
+      "url": "https://github.com/camilocro/UcbFound/commit/58daacfa99d18ca9b27c44a69fdba1b563d534d5"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 17,
+      "deletions": 2,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.63,
+    "test_count": 130,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "cbed26953a75c43e2af333954176ec2bf582f6d2",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-15T01:36:26.000Z",
+      "message": "feat: pedir iniciar sesión para ver los objetos guardados",
+      "url": "https://github.com/camilocro/UcbFound/commit/cbed26953a75c43e2af333954176ec2bf582f6d2"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.63,
+    "test_count": 131,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "df387c4befa1e93597831ee985986bf450cbd0ff",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-15T01:39:10.000Z",
+      "message": "feat: mostrar al encargado el lugar y quién encontró el objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/df387c4befa1e93597831ee985986bf450cbd0ff"
+    },
+    "stats": {
+      "total": 32,
+      "additions": 31,
+      "deletions": 1,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.63,
+    "test_count": 132,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "c4b5843a40d90c417cbe9868593e9ab87e448a0b",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-15T01:40:51.000Z",
+      "message": "feat: listar los objetos guardados del más reciente al más antiguo",
+      "url": "https://github.com/camilocro/UcbFound/commit/c4b5843a40d90c417cbe9868593e9ab87e448a0b"
+    },
+    "stats": {
+      "total": 27,
+      "additions": 27,
+      "deletions": 0,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.65,
+    "test_count": 133,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "626c524ffca3397f966ba122fd5027bf7f7a9ac8",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-15T01:45:57.000Z",
+      "message": "feat: avisar cuando no hay objetos guardados",
+      "url": "https://github.com/camilocro/UcbFound/commit/626c524ffca3397f966ba122fd5027bf7f7a9ac8"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.67,
+    "test_count": 134,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "f55aa50a4a37960715d60856424a451af107fb14",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-15T01:47:42.000Z",
+      "message": "feat: avisar a la vista si la sesión es del encargado",
+      "url": "https://github.com/camilocro/UcbFound/commit/f55aa50a4a37960715d60856424a451af107fb14"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.67,
+    "test_count": 135,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-15T01:57:12.000Z",
+      "message": "feat: agregar la pantalla de objetos guardados para el encargado",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 101,
+      "additions": 99,
+      "deletions": 2,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.69,
+    "test_count": 136,
     "failed_tests": 0,
     "conclusion": "success"
   }

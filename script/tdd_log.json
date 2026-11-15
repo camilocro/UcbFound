@@ -3648,9 +3648,245 @@
     "testId": 158
   },
   {
-    "commitId": "HEAD",
+    "commitId": "44face0f45c7949e813ac79ca4120e8ab2dcb66f",
     "commitName": "refactor: usar esCelularOpcionalValido en el registro de objeto encontrado",
     "commitTimestamp": 1794640345353,
     "testId": 158
+  },
+  {
+    "numPassedTests": 126,
+    "failedTests": 0,
+    "numTotalTests": 126,
+    "timestamp": 1794705720429,
+    "success": true,
+    "testId": 159
+  },
+  {
+    "numPassedTests": 126,
+    "failedTests": 0,
+    "numTotalTests": 126,
+    "timestamp": 1794705804693,
+    "success": false,
+    "testId": 159
+  },
+  {
+    "numPassedTests": 127,
+    "failedTests": 0,
+    "numTotalTests": 127,
+    "timestamp": 1794705834280,
+    "success": true,
+    "testId": 159
+  },
+  {
+    "commitId": "06fb3e67a51801f097cbcae9e09888c4a8f71bf1",
+    "commitName": "feat: reconocer al encargado de objetos por su correo",
+    "commitTimestamp": 1794705857556,
+    "testId": 159
+  },
+  {
+    "numPassedTests": 127,
+    "failedTests": 1,
+    "numTotalTests": 128,
+    "timestamp": 1794705914019,
+    "success": false,
+    "testId": 160
+  },
+  {
+    "numPassedTests": 128,
+    "failedTests": 0,
+    "numTotalTests": 128,
+    "timestamp": 1794705995725,
+    "success": true,
+    "testId": 160
+  },
+  {
+    "commitId": "cf37c6c76b2c18106529db355e27af1e7e952fab",
+    "commitName": "feat: saber si la sesión es del encargado",
+    "commitTimestamp": 1794706011578,
+    "testId": 160
+  },
+  {
+    "numPassedTests": 128,
+    "failedTests": 1,
+    "numTotalTests": 129,
+    "timestamp": 1794706120587,
+    "success": false,
+    "testId": 161
+  },
+  {
+    "numPassedTests": 129,
+    "failedTests": 0,
+    "numTotalTests": 129,
+    "timestamp": 1794706195263,
+    "success": true,
+    "testId": 161
+  },
+  {
+    "commitId": "79c3022aac31ca208061d8183c176dd908150a87",
+    "commitName": "feat: no tratar como encargado a quien no tiene el rol",
+    "commitTimestamp": 1794706213528,
+    "testId": 161
+  },
+  {
+    "numPassedTests": 129,
+    "failedTests": 1,
+    "numTotalTests": 130,
+    "timestamp": 1794706293031,
+    "success": false,
+    "testId": 162
+  },
+  {
+    "numPassedTests": 130,
+    "failedTests": 0,
+    "numTotalTests": 130,
+    "timestamp": 1794706419824,
+    "success": true,
+    "testId": 162
+  },
+  {
+    "commitId": "58daacfa99d18ca9b27c44a69fdba1b563d534d5",
+    "commitName": "feat: mostrar la página de objetos guardados solo al encargado",
+    "commitTimestamp": 1794706455015,
+    "testId": 162
+  },
+  {
+    "numPassedTests": 130,
+    "failedTests": 1,
+    "numTotalTests": 131,
+    "timestamp": 1794706510905,
+    "success": false,
+    "testId": 163
+  },
+  {
+    "numPassedTests": 131,
+    "failedTests": 0,
+    "numTotalTests": 131,
+    "timestamp": 1794706574414,
+    "success": true,
+    "testId": 163
+  },
+  {
+    "commitId": "cbed26953a75c43e2af333954176ec2bf582f6d2",
+    "commitName": "feat: pedir iniciar sesión para ver los objetos guardados",
+    "commitTimestamp": 1794706593133,
+    "testId": 163
+  },
+  {
+    "numPassedTests": 131,
+    "failedTests": 1,
+    "numTotalTests": 132,
+    "timestamp": 1794706700179,
+    "success": false,
+    "testId": 164
+  },
+  {
+    "numPassedTests": 132,
+    "failedTests": 0,
+    "numTotalTests": 132,
+    "timestamp": 1794706745245,
+    "success": true,
+    "testId": 164
+  },
+  {
+    "commitId": "df387c4befa1e93597831ee985986bf450cbd0ff",
+    "commitName": "feat: mostrar al encargado el lugar y quién encontró el objeto",
+    "commitTimestamp": 1794706757375,
+    "testId": 164
+  },
+  {
+    "numPassedTests": 132,
+    "failedTests": 0,
+    "numTotalTests": 132,
+    "timestamp": 1794706808649,
+    "success": false,
+    "testId": 165
+  },
+  {
+    "numPassedTests": 133,
+    "failedTests": 0,
+    "numTotalTests": 133,
+    "timestamp": 1794706844733,
+    "success": true,
+    "testId": 165
+  },
+  {
+    "commitId": "c4b5843a40d90c417cbe9868593e9ab87e448a0b",
+    "commitName": "feat: listar los objetos guardados del más reciente al más antiguo",
+    "commitTimestamp": 1794706857853,
+    "testId": 165
+  },
+  {
+    "numPassedTests": 133,
+    "failedTests": 1,
+    "numTotalTests": 134,
+    "timestamp": 1794707121654,
+    "success": false,
+    "testId": 166
+  },
+  {
+    "numPassedTests": 134,
+    "failedTests": 0,
+    "numTotalTests": 134,
+    "timestamp": 1794707147446,
+    "success": true,
+    "testId": 166
+  },
+  {
+    "commitId": "626c524ffca3397f966ba122fd5027bf7f7a9ac8",
+    "commitName": "feat: avisar cuando no hay objetos guardados",
+    "commitTimestamp": 1794707170283,
+    "testId": 166
+  },
+  {
+    "numPassedTests": 134,
+    "failedTests": 1,
+    "numTotalTests": 135,
+    "timestamp": 1794707213670,
+    "success": false,
+    "testId": 167
+  },
+  {
+    "numPassedTests": 135,
+    "failedTests": 0,
+    "numTotalTests": 135,
+    "timestamp": 1794707250342,
+    "success": true,
+    "testId": 167
+  },
+  {
+    "commitId": "f55aa50a4a37960715d60856424a451af107fb14",
+    "commitName": "feat: avisar a la vista si la sesión es del encargado",
+    "commitTimestamp": 1794707277628,
+    "testId": 167
+  },
+  {
+    "numPassedTests": 135,
+    "failedTests": 0,
+    "numTotalTests": 135,
+    "timestamp": 1794707410147,
+    "success": false,
+    "testId": 168
+  },
+  {
+    "numPassedTests": 136,
+    "failedTests": 0,
+    "numTotalTests": 136,
+    "timestamp": 1794707434801,
+    "success": true,
+    "testId": 168
+  },
+  {
+    "numPassedTests": 136,
+    "failedTests": 0,
+    "numTotalTests": 136,
+    "timestamp": 1794707631675,
+    "success": true,
+    "testId": 168
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar la pantalla de objetos guardados para el encargado",
+    "commitTimestamp": 1794707847377,
+    "testId": 168
   }
 ]

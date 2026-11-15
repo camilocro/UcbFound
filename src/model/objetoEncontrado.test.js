@@ -75,3 +75,27 @@ describe('HU-08 Objeto encontrado: objetos anteriores sin categoría', () => {
     expect(mochila.esDeCategoria('Llaves')).toBe(false);
   });
 });
+
+describe('HU-14 Objeto encontrado: datos para el encargado', () => {
+  it('debería mostrar al encargado el lugar y el correo de quien lo encontró', () => {
+    const cargador = new ObjetoEncontrado({
+      id: 'obj-2',
+      nombre: 'Cargador de laptop',
+      descripcion: 'Marca HP, cable negro',
+      fecha: '2026-10-14',
+      foto: 'foto.png',
+      correoDeQuienEncontro: 'luis.rojas@ucb.edu.bo',
+      bloque: 'Tupuraya 2 - Bloque A',
+      aula: 'A-204',
+    });
+    expect(cargador.obtenerVistaEncargado()).toEqual({
+      id: 'obj-2',
+      foto: 'foto.png',
+      nombre: 'Cargador de laptop',
+      descripcion: 'Marca HP, cable negro',
+      fecha: '2026-10-14',
+      lugar: 'Tupuraya 2 - Bloque A, A-204',
+      correoDeQuienEncontro: 'luis.rojas@ucb.edu.bo',
+    });
+  });
+});

@@ -41,7 +41,13 @@ export class ObjetoEncontrado {
     }
     return SIN_LUGAR;
   }
-
+   obtenerVistaEncargado() {
+    return {
+      ...this.obtenerVistaBasica(),
+      lugar: this.obtenerLugar(),
+      correoDeQuienEncontro: this.correoDeQuienEncontro,
+    };
+  }
   obtenerVistaBasica() {
     return {
       id: this.id,

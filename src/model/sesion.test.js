@@ -82,3 +82,40 @@ describe('HU-07 Páginas que requieren cuenta', () => {
     expect(sesion.resolverPagina('buscar-objetos')).toEqual('inicio-sesion');
   });
 });
+const encargado = { nombre: 'Encargado UCB', correo: 'encargado.objetos@ucb.edu.bo' };
+
+describe('HU-14 Sesión: rol de encargado', () => {
+  it('debería saber que quien inició sesión es el encargado', () => {
+    const sesion = new Sesion(crearAlmacenamientoFalso());
+    sesion.iniciar(encargado);
+    expect(sesion.esEncargado()).toBe(true);
+  });
+});
+
+describe('HU-14 Sesión: usuario que no es encargado', () => {
+  it('no debería ser encargado sin sesión ni con un usuario común', () => {
+    const sesion = new Sesion(crearAlmacenamientoFalso());
+    expect(sesion.esEncargado()).toBe(false);
+    sesion.iniciar(usuario);
+    expect(sesion.esEncargado()).toBe(false);
+  });
+});
+
+describe('HU-14 Página de objetos guardados', () => {
+  it('debería mostrar la página solo al encargado', () => {
+    const sesionDelEncargado = new Sesion(crearAlmacenamientoFalso());
+    sesionDelEncargado.iniciar(encargado);
+    expect(sesionDelEncargado.resolverPagina('objetos-guardados')).toEqual('objetos-guardados');
+
+    const sesionDeUsuarioComun = new Sesion(crearAlmacenamientoFalso());
+    sesionDeUsuarioComun.iniciar(usuario);
+    expect(sesionDeUsuarioComun.resolverPagina('objetos-guardados')).toEqual('principal');
+  });
+});
+
+describe('HU-14 Página de objetos guardados sin sesión', () => {
+  it('debería pedir iniciar sesión para ver los objetos guardados', () => {
+    const sesion = new Sesion(crearAlmacenamientoFalso());
+    expect(sesion.resolverPagina('objetos-guardados')).toEqual('inicio-sesion');
+  });
+});
