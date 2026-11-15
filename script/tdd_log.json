@@ -3922,9 +3922,31 @@
     "testId": 169
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4eeb9c2b34f2845b47510ea2ad3a83ecddab07c3",
     "commitName": "feat: saber si un objeto encontrado ya fue recogido",
     "commitTimestamp": 1794709348808,
     "testId": 169
+  },
+  {
+    "numPassedTests": 137,
+    "failedTests": 0,
+    "numTotalTests": 137,
+    "timestamp": 1794709423069,
+    "success": false,
+    "testId": 170
+  },
+  {
+    "numPassedTests": 138,
+    "failedTests": 0,
+    "numTotalTests": 138,
+    "timestamp": 1794709470695,
+    "success": true,
+    "testId": 170
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: registrar quién recogió el objeto",
+    "commitTimestamp": 1794709499338,
+    "testId": 170
   }
 ]
