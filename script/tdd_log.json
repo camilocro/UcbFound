@@ -3648,9 +3648,39 @@
     "testId": 158
   },
   {
-    "commitId": "HEAD",
+    "commitId": "44face0f45c7949e813ac79ca4120e8ab2dcb66f",
     "commitName": "refactor: usar esCelularOpcionalValido en el registro de objeto encontrado",
     "commitTimestamp": 1794640345353,
     "testId": 158
+  },
+  {
+    "numPassedTests": 126,
+    "failedTests": 0,
+    "numTotalTests": 126,
+    "timestamp": 1794705720429,
+    "success": true,
+    "testId": 159
+  },
+  {
+    "numPassedTests": 126,
+    "failedTests": 0,
+    "numTotalTests": 126,
+    "timestamp": 1794705804693,
+    "success": false,
+    "testId": 159
+  },
+  {
+    "numPassedTests": 127,
+    "failedTests": 0,
+    "numTotalTests": 127,
+    "timestamp": 1794705834280,
+    "success": true,
+    "testId": 159
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: reconocer al encargado de objetos por su correo",
+    "commitTimestamp": 1794705857556,
+    "testId": 159
   }
 ]
