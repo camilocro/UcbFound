@@ -15,6 +15,7 @@ export class BuscadorObjetos {
     const objetosEncontrados = [...this.objetos]
       .reverse()
       .filter((objeto) =>
+        !objeto.fueRecogido() &&
         objeto.coincideCon(textoBuscado) &&
         objeto.esDeCategoria(categoria)
       )
