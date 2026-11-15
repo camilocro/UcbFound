@@ -99,3 +99,19 @@ describe('HU-14 Objeto encontrado: datos para el encargado', () => {
     });
   });
 });
+
+describe('HU-15 Objeto encontrado: recogido', () => {
+  it('debería saber si el objeto ya fue recogido', () => {
+    const llaves = new ObjetoEncontrado({
+      id: 'obj-5',
+      nombre: 'Llaves',
+      descripcion: 'Llavero con tres llaves',
+      fecha: '2026-10-13',
+      foto: '',
+      correoDeQuienEncontro: 'luis.rojas@ucb.edu.bo',
+      recogida: { nombre: 'Juan Pérez', carnet: '1234567', fecha: '2026-10-20', correoDelEncargado: 'encargado.objetos@ucb.edu.bo' },
+    });
+    expect(llaves.fueRecogido()).toBe(true);
+    expect(mochila.fueRecogido()).toBe(false);
+  });
+});
