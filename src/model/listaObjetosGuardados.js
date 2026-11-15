@@ -8,7 +8,8 @@ export class ListaObjetosGuardados {
   }
 
   obtener() {
-    const objetosGuardados = [...this.objetos]
+        const objetosGuardados = this.objetos
+      .filter((objeto) => !objeto.fueRecogido())
       .reverse()
       .sort((primero, segundo) => segundo.fecha.localeCompare(primero.fecha));
     if (objetosGuardados.length === 0) {

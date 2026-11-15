@@ -3988,9 +3988,31 @@
     "testId": 172
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9059cfb57ecc3bd0f5fce94d92126443bd40c749",
     "commitName": "feat: no registrar dos veces la entrega de un objeto",
     "commitTimestamp": 1794712624104,
     "testId": 172
+  },
+  {
+    "numPassedTests": 140,
+    "failedTests": 1,
+    "numTotalTests": 141,
+    "timestamp": 1794712651447,
+    "success": false,
+    "testId": 173
+  },
+  {
+    "numPassedTests": 141,
+    "failedTests": 0,
+    "numTotalTests": 141,
+    "timestamp": 1794712690584,
+    "success": true,
+    "testId": 173
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: quitar de la lista los objetos que ya fueron recogidos",
+    "commitTimestamp": 1794712723188,
+    "testId": 173
   }
 ]

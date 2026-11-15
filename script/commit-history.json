@@ -3648,12 +3648,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9059cfb57ecc3bd0f5fce94d92126443bd40c749",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-15T03:16:44.000Z",
       "message": "feat: no registrar dos veces la entrega de un objeto",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/9059cfb57ecc3bd0f5fce94d92126443bd40c749"
     },
     "stats": {
       "total": 17,
@@ -3663,6 +3663,25 @@
     },
     "coverage": 98.73,
     "test_count": 140,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-15T03:18:28.000Z",
+      "message": "feat: quitar de la lista los objetos que ya fueron recogidos",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.73,
+    "test_count": 141,
     "failed_tests": 0,
     "conclusion": "success"
   }
