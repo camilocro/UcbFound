@@ -3944,9 +3944,31 @@
     "testId": 170
   },
   {
-    "commitId": "HEAD",
+    "commitId": "92c5e62a9d039d2087f81e5d20677977f7c4c0c7",
     "commitName": "feat: registrar quién recogió el objeto",
     "commitTimestamp": 1794709499338,
     "testId": 170
+  },
+  {
+    "numPassedTests": 138,
+    "failedTests": 1,
+    "numTotalTests": 139,
+    "timestamp": 1794709546326,
+    "success": false,
+    "testId": 171
+  },
+  {
+    "numPassedTests": 139,
+    "failedTests": 0,
+    "numTotalTests": 139,
+    "timestamp": 1794709573150,
+    "success": true,
+    "testId": 171
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: pedir el nombre y el carnet de quien recoge el objeto",
+    "commitTimestamp": 1794709602981,
+    "testId": 171
   }
 ]

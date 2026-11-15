@@ -14,3 +14,13 @@ describe('HU-15 Criterio 1: registrar quién recogió el objeto', () => {
     expect(resultado.objeto.fueRecogido()).toBe(true);
   });
 });
+
+describe('HU-15 Criterio 2: faltan datos de quien recoge', () => {
+  it('debería pedir el nombre y el carnet de quien recoge', () => {
+    const entrega = new EntregaObjeto('2026-10-20');
+    const sinNombre = entrega.registrar(crearMochila(), { nombre: '  ', carnet: '1234567' }, CORREO_DEL_ENCARGADO);
+    const sinCarnet = entrega.registrar(crearMochila(), { nombre: 'Juan Pérez', carnet: '' }, CORREO_DEL_ENCARGADO);
+    expect(sinNombre).toEqual({ exito: false, mensaje: 'Es necesario ingresar el nombre y el carnet de quien recoge' });
+    expect(sinCarnet).toEqual({ exito: false, mensaje: 'Es necesario ingresar el nombre y el carnet de quien recoge' });
+  });
+});
