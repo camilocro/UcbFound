@@ -3515,12 +3515,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c4b5843a40d90c417cbe9868593e9ab87e448a0b",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-15T01:40:51.000Z",
       "message": "feat: listar los objetos guardados del más reciente al más antiguo",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/c4b5843a40d90c417cbe9868593e9ab87e448a0b"
     },
     "stats": {
       "total": 27,
@@ -3530,6 +3530,25 @@
     },
     "coverage": 98.65,
     "test_count": 133,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-15T01:45:57.000Z",
+      "message": "feat: avisar cuando no hay objetos guardados",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.67,
+    "test_count": 134,
     "failed_tests": 0,
     "conclusion": "success"
   }
