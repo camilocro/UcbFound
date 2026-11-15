@@ -6,6 +6,11 @@ function quitarTildes(texto) {
 const SIN_CATEGORIA = 'Sin categoría';
 const SIN_LUGAR = 'Lugar no indicado';
 
+export const ESTADOS_OBJETO = {
+  POR_RECIBIR: 'Por recibir',
+  ENTREGADO: 'Entregado',
+};
+
 export class ObjetoEncontrado {
       constructor({ id, nombre, descripcion, fecha, foto, correoDeQuienEncontro, categoria, bloque, aula, celular, recogida }) {
     this.id = id;
@@ -55,6 +60,10 @@ export class ObjetoEncontrado {
     return Boolean(this.recogida);
   }
   
+  obtenerEstado() {
+    return this.fueRecogido() ? ESTADOS_OBJETO.ENTREGADO : ESTADOS_OBJETO.POR_RECIBIR;
+  }
+
   obtenerVistaBasica() {
     return {
       id: this.id,

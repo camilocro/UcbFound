@@ -4150,9 +4150,129 @@
     "testId": 179
   },
   {
-    "commitId": "HEAD",
+    "commitId": "723b9d9e58be48d83ecb6ac10beebdbcbad1dc1b",
     "commitName": "feat: mostrar mis reportes con su detalle en la pantalla principal",
     "commitTimestamp": 1794747124859,
     "testId": 179
+  },
+  {
+    "numPassedTests": 146,
+    "failedTests": 0,
+    "numTotalTests": 146,
+    "timestamp": 1794747413485,
+    "success": true,
+    "testId": 180
+  },
+  {
+    "numPassedTests": 146,
+    "failedTests": 0,
+    "numTotalTests": 146,
+    "timestamp": 1794747430833,
+    "success": false,
+    "testId": 180
+  },
+  {
+    "numPassedTests": 147,
+    "failedTests": 0,
+    "numTotalTests": 147,
+    "timestamp": 1794747446113,
+    "success": true,
+    "testId": 180
+  },
+  {
+    "numPassedTests": 147,
+    "failedTests": 0,
+    "numTotalTests": 147,
+    "timestamp": 1794747478638,
+    "success": true,
+    "testId": 180
+  },
+  {
+    "commitId": "597a17fa3d65893a512d5e3ce0ee6084dab319df",
+    "commitName": "feat: avisar cuando no registré ningún objeto encontrado (HU-21)",
+    "commitTimestamp": 1794747500956,
+    "testId": 180
+  },
+  {
+    "numPassedTests": 147,
+    "failedTests": 1,
+    "numTotalTests": 148,
+    "timestamp": 1794747586162,
+    "success": false,
+    "testId": 181
+  },
+  {
+    "numPassedTests": 148,
+    "failedTests": 0,
+    "numTotalTests": 148,
+    "timestamp": 1794747607416,
+    "success": true,
+    "testId": 181
+  },
+  {
+    "numPassedTests": 148,
+    "failedTests": 0,
+    "numTotalTests": 148,
+    "timestamp": 1794747628392,
+    "success": true,
+    "testId": 181
+  },
+  {
+    "commitId": "d319bab6369a9864ef2a34e886998c3a0102644d",
+    "commitName": "feat: mostrar solo los objetos que registré (HU-21)",
+    "commitTimestamp": 1794747649408,
+    "testId": 181
+  },
+  {
+    "numPassedTests": 148,
+    "failedTests": 1,
+    "numTotalTests": 149,
+    "timestamp": 1794747698768,
+    "success": false,
+    "testId": 182
+  },
+  {
+    "numPassedTests": 149,
+    "failedTests": 0,
+    "numTotalTests": 149,
+    "timestamp": 1794747724399,
+    "success": true,
+    "testId": 182
+  },
+  {
+    "numPassedTests": 149,
+    "failedTests": 0,
+    "numTotalTests": 149,
+    "timestamp": 1794747738389,
+    "success": true,
+    "testId": 182
+  },
+  {
+    "commitId": "ad7d36cee0029ba0fe70335d68761f47404fb37c",
+    "commitName": "feat: mostrar el estado Por recibir de mis objetos encontrados (HU-21)",
+    "commitTimestamp": 1794747760830,
+    "testId": 182
+  },
+  {
+    "numPassedTests": 149,
+    "failedTests": 1,
+    "numTotalTests": 150,
+    "timestamp": 1794747806249,
+    "success": false,
+    "testId": 183
+  },
+  {
+    "numPassedTests": 150,
+    "failedTests": 0,
+    "numTotalTests": 150,
+    "timestamp": 1794747825826,
+    "success": true,
+    "testId": 183
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar el estado Entregado de mis objetos ya recogidos (HU-21)",
+    "commitTimestamp": 1794747847693,
+    "testId": 183
   }
 ]

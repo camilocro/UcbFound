@@ -24,6 +24,8 @@ import VistaObjetosGuardados from './view/VistaObjetosGuardados.jsx';
 import { ObjetosGuardadosPresenter } from './presenter/objetosGuardadosPresenter.js';
 import VistaMisReportes from './view/VistaMisReportes.jsx';
 import { MisReportesPresenter } from './presenter/misReportesPresenter.js';
+import VistaObjetosQueEncontre from './view/VistaObjetosQueEncontre.jsx';
+import { MisObjetosEncontradosPresenter } from './presenter/misObjetosEncontradosPresenter.js';
 
 const sesion = new Sesion(window.sessionStorage);
 const sesionPresenter = new SesionPresenter(sesion);
@@ -44,6 +46,7 @@ const reclamoPresenter = new ReclamoPresenter(
   sesion,
 );
 const objetosGuardadosPresenter = new ObjetosGuardadosPresenter(repositorioObjetosEncontrados, sesion);
+const misObjetosEncontradosPresenter = new MisObjetosEncontradosPresenter(repositorioObjetosEncontrados, sesion);
 const PAGINAS = ['principal', 'inicio-sesion', 'registro', 'reportar-objeto', 'buscar-objetos', 'registrar-objeto', 'objetos-guardados'];
 function leerVista() {
   const paginaEnLaDireccion = window.location.hash.replace('#/', '');
@@ -102,6 +105,7 @@ function App() {
           </section>
         )}
         {vista.pagina === 'principal' && <VistaMisReportes presenter={misReportesPresenter} />}
+        {vista.pagina === 'principal' && <VistaObjetosQueEncontre presenter={misObjetosEncontradosPresenter} />}
         {vista.pagina === 'reportar-objeto' && (
           <div>
             <FormularioReporteObjetoPerdido presenter={reportePresenter} fechaMaxima={convertirFechaATexto(new Date())} />

@@ -3781,12 +3781,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "723b9d9e58be48d83ecb6ac10beebdbcbad1dc1b",
     "author": "camilocro",
     "commit": {
       "date": "2026-11-15T12:51:54.000Z",
       "message": "feat: mostrar mis reportes con su detalle en la pantalla principal",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/723b9d9e58be48d83ecb6ac10beebdbcbad1dc1b"
     },
     "stats": {
       "total": 57,
@@ -3796,6 +3796,82 @@
     },
     "coverage": 98.52,
     "test_count": 146,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "597a17fa3d65893a512d5e3ce0ee6084dab319df",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-15T12:58:12.000Z",
+      "message": "feat: avisar cuando no registré ningún objeto encontrado (HU-21)",
+      "url": "https://github.com/camilocro/UcbFound/commit/597a17fa3d65893a512d5e3ce0ee6084dab319df"
+    },
+    "stats": {
+      "total": 60,
+      "additions": 60,
+      "deletions": 0,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.54,
+    "test_count": 147,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "d319bab6369a9864ef2a34e886998c3a0102644d",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-15T13:00:40.000Z",
+      "message": "feat: mostrar solo los objetos que registré (HU-21)",
+      "url": "https://github.com/camilocro/UcbFound/commit/d319bab6369a9864ef2a34e886998c3a0102644d"
+    },
+    "stats": {
+      "total": 44,
+      "additions": 42,
+      "deletions": 2,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.57,
+    "test_count": 148,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "ad7d36cee0029ba0fe70335d68761f47404fb37c",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-15T13:02:31.000Z",
+      "message": "feat: mostrar el estado Por recibir de mis objetos encontrados (HU-21)",
+      "url": "https://github.com/camilocro/UcbFound/commit/ad7d36cee0029ba0fe70335d68761f47404fb37c"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 19,
+      "deletions": 2,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.58,
+    "test_count": 149,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-15T13:03:57.000Z",
+      "message": "feat: mostrar el estado Entregado de mis objetos ya recogidos (HU-21)",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.58,
+    "test_count": 150,
     "failed_tests": 0,
     "conclusion": "success"
   }
