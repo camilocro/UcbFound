@@ -4032,9 +4032,39 @@
     "testId": 174
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5ead147b55a5bb51fa336d59a1dfe26a50f7b228",
     "commitName": "feat: agregar el formulario para registrar quién recogió el objeto",
     "commitTimestamp": 1794713054087,
     "testId": 174
+  },
+  {
+    "numPassedTests": 142,
+    "failedTests": 0,
+    "numTotalTests": 142,
+    "timestamp": 1794713391306,
+    "success": true,
+    "testId": 175
+  },
+  {
+    "numPassedTests": 142,
+    "failedTests": 0,
+    "numTotalTests": 142,
+    "timestamp": 1794713572592,
+    "success": false,
+    "testId": 175
+  },
+  {
+    "numPassedTests": 143,
+    "failedTests": 0,
+    "numTotalTests": 143,
+    "timestamp": 1794713652310,
+    "success": true,
+    "testId": 175
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar mis reportes del más reciente al más antiguo",
+    "commitTimestamp": 1794713677461,
+    "testId": 175
   }
 ]

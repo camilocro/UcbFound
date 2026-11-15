@@ -3686,12 +3686,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5ead147b55a5bb51fa336d59a1dfe26a50f7b228",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-15T03:23:58.000Z",
       "message": "feat: agregar el formulario para registrar quién recogió el objeto",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/5ead147b55a5bb51fa336d59a1dfe26a50f7b228"
     },
     "stats": {
       "total": 96,
@@ -3701,6 +3701,25 @@
     },
     "coverage": 98.47,
     "test_count": 142,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-15T03:34:22.000Z",
+      "message": "feat: mostrar mis reportes del más reciente al más antiguo",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 48,
+      "additions": 48,
+      "deletions": 0,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.49,
+    "test_count": 143,
     "failed_tests": 0,
     "conclusion": "success"
   }
