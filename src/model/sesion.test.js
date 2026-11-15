@@ -112,3 +112,10 @@ describe('HU-14 Página de objetos guardados', () => {
     expect(sesionDeUsuarioComun.resolverPagina('objetos-guardados')).toEqual('principal');
   });
 });
+
+describe('HU-14 Página de objetos guardados sin sesión', () => {
+  it('debería pedir iniciar sesión para ver los objetos guardados', () => {
+    const sesion = new Sesion(crearAlmacenamientoFalso());
+    expect(sesion.resolverPagina('objetos-guardados')).toEqual('inicio-sesion');
+  });
+});

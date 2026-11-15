@@ -3458,12 +3458,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "58daacfa99d18ca9b27c44a69fdba1b563d534d5",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-15T01:34:08.000Z",
       "message": "feat: mostrar la página de objetos guardados solo al encargado",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/58daacfa99d18ca9b27c44a69fdba1b563d534d5"
     },
     "stats": {
       "total": 19,
@@ -3473,6 +3473,25 @@
     },
     "coverage": 98.63,
     "test_count": 130,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-15T01:36:26.000Z",
+      "message": "feat: pedir iniciar sesión para ver los objetos guardados",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.63,
+    "test_count": 131,
     "failed_tests": 0,
     "conclusion": "success"
   }

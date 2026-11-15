@@ -1,6 +1,6 @@
 const CLAVE_SESION = 'ucbfound_sesion';
 import { esEncargado } from './encargado.js';
-const PAGINAS_CON_CUENTA = ['principal', 'reportar-objeto', 'registrar-objeto', 'buscar-objetos'];
+const PAGINAS_CON_CUENTA = ['principal', 'reportar-objeto', 'registrar-objeto', 'buscar-objetos', 'objetos-guardados'];
 const PAGINAS_DEL_ENCARGADO = ['objetos-guardados'];
 export class Sesion {
   constructor(almacenamiento) {

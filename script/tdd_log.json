@@ -3744,9 +3744,31 @@
     "testId": 162
   },
   {
-    "commitId": "HEAD",
+    "commitId": "58daacfa99d18ca9b27c44a69fdba1b563d534d5",
     "commitName": "feat: mostrar la página de objetos guardados solo al encargado",
     "commitTimestamp": 1794706455015,
     "testId": 162
+  },
+  {
+    "numPassedTests": 130,
+    "failedTests": 1,
+    "numTotalTests": 131,
+    "timestamp": 1794706510905,
+    "success": false,
+    "testId": 163
+  },
+  {
+    "numPassedTests": 131,
+    "failedTests": 0,
+    "numTotalTests": 131,
+    "timestamp": 1794706574414,
+    "success": true,
+    "testId": 163
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: pedir iniciar sesión para ver los objetos guardados",
+    "commitTimestamp": 1794706593133,
+    "testId": 163
   }
 ]
