@@ -4084,9 +4084,75 @@
     "testId": 176
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4954267919e2b83d403653a63b9c984f2fd6bfe6",
     "commitName": "feat: avisar cuando el usuario no tiene reportes",
     "commitTimestamp": 1794713883367,
     "testId": 176
+  },
+  {
+    "numPassedTests": 144,
+    "failedTests": 0,
+    "numTotalTests": 144,
+    "timestamp": 1794746748480,
+    "success": true,
+    "testId": 177
+  },
+  {
+    "numPassedTests": 144,
+    "failedTests": 1,
+    "numTotalTests": 145,
+    "timestamp": 1794746778579,
+    "success": false,
+    "testId": 177
+  },
+  {
+    "numPassedTests": 145,
+    "failedTests": 0,
+    "numTotalTests": 145,
+    "timestamp": 1794746822110,
+    "success": true,
+    "testId": 177
+  },
+  {
+    "commitId": "9894971f0a8448f87aa7cc3234bdd863ad7e51e9",
+    "commitName": "feat: mostrar el lugar de cada uno de mis reportes",
+    "commitTimestamp": 1794746850248,
+    "testId": 177
+  },
+  {
+    "numPassedTests": 145,
+    "failedTests": 1,
+    "numTotalTests": 146,
+    "timestamp": 1794746917670,
+    "success": false,
+    "testId": 178
+  },
+  {
+    "numPassedTests": 146,
+    "failedTests": 0,
+    "numTotalTests": 146,
+    "timestamp": 1794746975064,
+    "success": true,
+    "testId": 178
+  },
+  {
+    "commitId": "24a73b6deea0399ae9405d747174551c67c165c0",
+    "commitName": "feat: mostrar el estado de cada uno de mis reportes",
+    "commitTimestamp": 1794746997672,
+    "testId": 178
+  },
+  {
+    "numPassedTests": 146,
+    "failedTests": 0,
+    "numTotalTests": 146,
+    "timestamp": 1794747097828,
+    "success": true,
+    "testId": 179
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar mis reportes con su detalle en la pantalla principal",
+    "commitTimestamp": 1794747124859,
+    "testId": 179
   }
 ]

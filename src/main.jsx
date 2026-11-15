@@ -22,13 +22,17 @@ import { Sesion } from './model/sesion.js';
 import { SesionPresenter } from './presenter/sesionPresenter.js';
 import VistaObjetosGuardados from './view/VistaObjetosGuardados.jsx';
 import { ObjetosGuardadosPresenter } from './presenter/objetosGuardadosPresenter.js';
+import VistaMisReportes from './view/VistaMisReportes.jsx';
+import { MisReportesPresenter } from './presenter/misReportesPresenter.js';
 
 const sesion = new Sesion(window.sessionStorage);
 const sesionPresenter = new SesionPresenter(sesion);
 const repositorioUsuarios = new RepositorioUsuarios(window.localStorage);
 const registroPresenter = new RegistroPresenter(repositorioUsuarios);
 const inicioSesionPresenter = new InicioSesionPresenter(repositorioUsuarios);
-const reportePresenter = new ReportePresenter(new RepositorioReportes(window.localStorage), sesion);
+const repositorioReportes = new RepositorioReportes(window.localStorage);
+const reportePresenter = new ReportePresenter(repositorioReportes, sesion);
+const misReportesPresenter = new MisReportesPresenter(repositorioReportes, sesion);
 const repositorioObjetosEncontrados = new RepositorioObjetosEncontrados(window.localStorage);
 cargarDatosDeEjemplo(repositorioObjetosEncontrados);
 const busquedaPresenter = new BusquedaPresenter(repositorioObjetosEncontrados);
@@ -97,6 +101,7 @@ function App() {
             )}
           </section>
         )}
+        {vista.pagina === 'principal' && <VistaMisReportes presenter={misReportesPresenter} />}
         {vista.pagina === 'reportar-objeto' && (
           <div>
             <FormularioReporteObjetoPerdido presenter={reportePresenter} fechaMaxima={convertirFechaATexto(new Date())} />

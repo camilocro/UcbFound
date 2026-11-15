@@ -518,3 +518,12 @@ body {
   padding-top: 20px;
   border-top: 1px solid var(--borde);
 }
+/* Pantalla principal con secciones (HU-17) */
+.contenido {
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.detalle-reporte {
+  padding: 8px 14px 4px;
+}
