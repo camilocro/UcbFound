@@ -1,5 +1,7 @@
 import { esCelularOpcionalValido } from './celular.js';
 
+export const ESTADO_INICIAL_REPORTE = 'Buscando';
+
 export class ObjetoPerdido {
   constructor({ nombre, descripcion, fecha, correoDelDueno, bloque = '', aula = '', celular }) {
     this.nombre = nombre.trim();

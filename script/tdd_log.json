@@ -4114,9 +4114,31 @@
     "testId": 177
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9894971f0a8448f87aa7cc3234bdd863ad7e51e9",
     "commitName": "feat: mostrar el lugar de cada uno de mis reportes",
     "commitTimestamp": 1794746850248,
     "testId": 177
+  },
+  {
+    "numPassedTests": 145,
+    "failedTests": 1,
+    "numTotalTests": 146,
+    "timestamp": 1794746917670,
+    "success": false,
+    "testId": 178
+  },
+  {
+    "numPassedTests": 146,
+    "failedTests": 0,
+    "numTotalTests": 146,
+    "timestamp": 1794746975064,
+    "success": true,
+    "testId": 178
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar el estado de cada uno de mis reportes",
+    "commitTimestamp": 1794746997672,
+    "testId": 178
   }
 ]

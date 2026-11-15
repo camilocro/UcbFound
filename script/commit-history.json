@@ -3743,12 +3743,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9894971f0a8448f87aa7cc3234bdd863ad7e51e9",
     "author": "camilocro",
     "commit": {
       "date": "2026-11-15T12:47:19.000Z",
       "message": "feat: mostrar el lugar de cada uno de mis reportes",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/9894971f0a8448f87aa7cc3234bdd863ad7e51e9"
     },
     "stats": {
       "total": 24,
@@ -3758,6 +3758,25 @@
     },
     "coverage": 98.52,
     "test_count": 145,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-15T12:49:47.000Z",
+      "message": "feat: mostrar el estado de cada uno de mis reportes",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 22,
+      "additions": 18,
+      "deletions": 4,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.52,
+    "test_count": 146,
     "failed_tests": 0,
     "conclusion": "success"
   }

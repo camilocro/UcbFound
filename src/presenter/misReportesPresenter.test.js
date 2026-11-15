@@ -29,7 +29,10 @@ describe('HU-17 Criterio 1: ver mis reportes', () => {
     repositorio.guardar(calculadora);
     const presenter = new MisReportesPresenter(repositorio, sesionDeJuan);
     expect(presenter.obtenerMisReportes()).toEqual({
-      reportes: [{ ...calculadora, lugar: 'Tupuraya 1 - Bloque B, B-305' }, { ...mochila, lugar: 'Tupuraya 1 - Biblioteca' }],
+      reportes: [
+        { ...calculadora, lugar: 'Tupuraya 1 - Bloque B, B-305', estado: 'Buscando' },
+        { ...mochila, lugar: 'Tupuraya 1 - Biblioteca', estado: 'Buscando' },
+      ],
       mensaje: '',
     });
   });
@@ -49,5 +52,13 @@ describe('HU-17 Criterio 2: lugar de cada reporte', () => {
     repositorio.guardar(calculadora);
     const presenter = new MisReportesPresenter(repositorio, sesionDeJuan);
     expect(presenter.obtenerMisReportes().reportes[0].lugar).toEqual('Tupuraya 1 - Bloque B, B-305');
+  });
+});
+describe('HU-17 Criterio 2: estado de cada reporte', () => {
+  it('debería mostrar el estado Buscando en cada reporte', () => {
+    const repositorio = new RepositorioReportes(crearAlmacenamientoFalso());
+    repositorio.guardar(mochila);
+    const presenter = new MisReportesPresenter(repositorio, sesionDeJuan);
+    expect(presenter.obtenerMisReportes().reportes[0].estado).toEqual('Buscando');
   });
 });
