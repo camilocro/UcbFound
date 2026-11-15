@@ -3496,12 +3496,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "df387c4befa1e93597831ee985986bf450cbd0ff",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-15T01:39:10.000Z",
       "message": "feat: mostrar al encargado el lugar y quién encontró el objeto",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/df387c4befa1e93597831ee985986bf450cbd0ff"
     },
     "stats": {
       "total": 32,
@@ -3511,6 +3511,25 @@
     },
     "coverage": 98.63,
     "test_count": 132,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-15T01:40:51.000Z",
+      "message": "feat: listar los objetos guardados del más reciente al más antiguo",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 27,
+      "additions": 27,
+      "deletions": 0,
+      "date": "2026-11-15"
+    },
+    "coverage": 98.65,
+    "test_count": 133,
     "failed_tests": 0,
     "conclusion": "success"
   }
