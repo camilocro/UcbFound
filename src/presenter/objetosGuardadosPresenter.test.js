@@ -33,3 +33,18 @@ describe('HU-14 Presenter: ver los objetos guardados', () => {
     });
   });
 });
+
+describe('HU-15 Presenter: registrar quién recogió el objeto', () => {
+  it('debería guardar la entrega y quitar el objeto de la lista de guardados', () => {
+    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+    repositorio.guardar({ id: 'obj-1', nombre: 'Mochila negra', descripcion: 'Tiene un llavero de la UCB', fecha: '2026-10-15', foto: 'foto.png', correoDeQuienEncontro: 'ana.lopez@ucb.edu.bo' });
+    const sesionDelEncargado = { obtenerUsuario: () => ({ nombre: 'Encargado UCB', correo: 'encargado.objetos@ucb.edu.bo' }) };
+    const presenter = new ObjetosGuardadosPresenter(repositorio, sesionDelEncargado, () => new Date(2026, 9, 20));
+
+    const resultado = presenter.registrarEntrega('obj-1', { nombre: 'Juan Pérez', carnet: '1234567' });
+
+    expect(resultado.mensaje).toEqual('Entrega registrada correctamente');
+    expect(repositorio.buscarPorId('obj-1').recogida).toEqual({ nombre: 'Juan Pérez', carnet: '1234567', fecha: '2026-10-20', correoDelEncargado: 'encargado.objetos@ucb.edu.bo' });
+    expect(presenter.obtenerObjetosGuardados().objetos).toEqual([]);
+  });
+});

@@ -1,8 +1,12 @@
 import { ListaObjetosGuardados } from '../model/listaObjetosGuardados.js';
+import { EntregaObjeto } from '../model/entregaObjeto.js';
+import { convertirFechaATexto } from '../model/fecha.js';
 
 export class ObjetosGuardadosPresenter {
-  constructor(repositorio) {
+  constructor(repositorio, sesion, obtenerFechaActual = () => new Date()) {
     this.repositorio = repositorio;
+    this.sesion = sesion;
+    this.obtenerFechaActual = obtenerFechaActual;
   }
 
   obtenerObjetosGuardados() {
@@ -11,5 +15,16 @@ export class ObjetosGuardadosPresenter {
       ...resultado,
       objetos: resultado.objetos.map((objeto) => objeto.obtenerVistaEncargado()),
     };
+  }
+
+  registrarEntrega(idObjeto, datos) {
+    const encargado = this.sesion.obtenerUsuario();
+    const objeto = this.repositorio.buscarPorId(idObjeto);
+    const reglasDeEntrega = new EntregaObjeto(convertirFechaATexto(this.obtenerFechaActual()));
+    const resultado = reglasDeEntrega.registrar(objeto, datos, encargado.correo);
+    if (resultado.exito) {
+      this.repositorio.actualizar(resultado.objeto);
+    }
+    return resultado;
   }
 }

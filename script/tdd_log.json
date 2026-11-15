@@ -4010,9 +4010,31 @@
     "testId": 173
   },
   {
-    "commitId": "HEAD",
+    "commitId": "19fce10dc40c9735f8497fb3335078974960a556",
     "commitName": "feat: quitar de la lista los objetos que ya fueron recogidos",
     "commitTimestamp": 1794712723188,
     "testId": 173
+  },
+  {
+    "numPassedTests": 141,
+    "failedTests": 1,
+    "numTotalTests": 142,
+    "timestamp": 1794712787841,
+    "success": false,
+    "testId": 174
+  },
+  {
+    "numPassedTests": 142,
+    "failedTests": 0,
+    "numTotalTests": 142,
+    "timestamp": 1794712916911,
+    "success": true,
+    "testId": 174
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar el formulario para registrar quién recogió el objeto",
+    "commitTimestamp": 1794713054087,
+    "testId": 174
   }
 ]
