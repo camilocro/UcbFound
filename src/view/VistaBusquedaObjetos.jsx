@@ -2,6 +2,7 @@ import { useState } from 'react';
 import DetalleObjeto from './DetalleObjeto.jsx';
 import SinResultados from './SinResultados.jsx';
 import { TODAS_LAS_CATEGORIAS } from '../model/categorias.js';
+import { describirCantidadDeObjetos } from '../model/cantidad.js';
 
 export default function VistaBusquedaObjetos({
   presenterBusqueda,
@@ -20,7 +21,7 @@ export default function VistaBusquedaObjetos({
   );
   const [objetoSeleccionado, setObjetoSeleccionado] = useState(null);
 
-    const mostrarResultados = (texto, categoria) => {
+  const mostrarResultados = (texto, categoria) => {
     setResultado(presenterBusqueda.buscar(texto, categoria));
   };
 
@@ -88,37 +89,30 @@ export default function VistaBusquedaObjetos({
       {sinResultados ? (
         <SinResultados mensaje={resultado.mensaje} alReportar={alReportar} />
       ) : (
-        <ul id="lista-objetos" className="lista-objetos">
-          {resultado.objetos.map((objeto) => (
-            <li key={objeto.id}>
-              <button
-                type="button"
-                className="objeto objeto--boton"
-                onClick={() =>
-                  setObjetoSeleccionado(
-                    presenterDetalle.verDetalle(objeto.id)
-                  )
-                }
-              >
-                <img
-                  className="objeto__foto"
-                  src={objeto.foto}
-                  alt={objeto.nombre}
-                />
-
-                <span>
-                  <span className="objeto__nombre">
-                    {objeto.nombre}
+        <>
+          <p id="cantidad-resultados" className="resultados__cantidad">
+            {describirCantidadDeObjetos(resultado.objetos.length)}
+          </p>
+          <ul id="lista-objetos" className="lista-objetos">
+            {resultado.objetos.map((objeto) => (
+              <li key={objeto.id}>
+                <button
+                  type="button"
+                  className="objeto objeto--boton"
+                  onClick={() => setObjetoSeleccionado(presenterDetalle.verDetalle(objeto.id))}
+                >
+                  <img className="objeto__foto" src={objeto.foto} alt={objeto.nombre} />
+                  <span className="objeto__info">
+                    <span className="objeto__nombre">{objeto.nombre}</span>
+                    <span className="objeto__descripcion">{objeto.descripcion}</span>
+                    <span className="objeto__fecha">Encontrado el {objeto.fecha}</span>
                   </span>
-
-                  <span className="objeto__fecha">
-                    Encontrado el {objeto.fecha}
-                  </span>
-                </span>
-              </button>
-            </li>
-          ))}
-        </ul>
+                  <span className="objeto__flecha" aria-hidden="true">›</span>
+                </button>
+              </li>
+            ))}
+          </ul>
+        </>
       )}
     </section>
   );

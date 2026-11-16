@@ -4476,9 +4476,23 @@
     "testId": 192
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b1290397e6a294aaf7eab2dc85c8d8ca8d6fa817",
     "commitName": "feat: describir cuántos objetos se encontraron",
     "commitTimestamp": 1794828416081,
     "testId": 192
+  },
+  {
+    "numPassedTests": 153,
+    "failedTests": 0,
+    "numTotalTests": 153,
+    "timestamp": 1794828703562,
+    "success": true,
+    "testId": 193
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style: mostrar la cantidad, la descripción y una flecha en la lista de resultados",
+    "commitTimestamp": 1794828728193,
+    "testId": 193
   }
 ]

@@ -4028,17 +4028,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b1290397e6a294aaf7eab2dc85c8d8ca8d6fa817",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-16T11:26:39.000Z",
       "message": "feat: describir cuántos objetos se encontraron",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/b1290397e6a294aaf7eab2dc85c8d8ca8d6fa817"
     },
     "stats": {
       "total": 14,
       "additions": 14,
       "deletions": 0,
+      "date": "2026-11-16"
+    },
+    "coverage": 98.58,
+    "test_count": 153,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-16T11:31:52.000Z",
+      "message": "style: mostrar la cantidad, la descripción y una flecha en la lista de resultados",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 109,
+      "additions": 78,
+      "deletions": 31,
       "date": "2026-11-16"
     },
     "coverage": 98.58,
