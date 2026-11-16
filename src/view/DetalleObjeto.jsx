@@ -5,21 +5,28 @@ export default function DetalleObjeto({ objeto, alVolver, presenterReclamo }) {
   const [estaReclamando, setEstaReclamando] = useState(false);
 
   return (
-    <section id="detalle-objeto" className="tarjeta">
+    <section id="detalle-objeto" className="tarjeta tarjeta--ancha detalle">
+      <button id="volver-lista-button" type="button" className="detalle__volver" onClick={alVolver}>
+        ‹ Volver a la lista
+      </button>
+
       <img className="detalle__foto" src={objeto.foto} alt={objeto.nombre} />
-      <h1 className="tarjeta__titulo">{objeto.nombre}</h1>
-      <p className="detalle__dato">
-        <strong>Descripción:</strong> {objeto.descripcion}
-      </p>
-      <p className="detalle__dato">
-        <strong>Fecha en que se encontró:</strong> {objeto.fecha}
-      </p>
-      <p className="detalle__dato">
-        <strong>Categoría:</strong> <span className="etiqueta">{objeto.categoria}</span>
-      </p>
-      <p className="detalle__dato">
-        <strong>Lugar donde se encontró:</strong> {objeto.lugar}
-      </p>
+
+      <span className="etiqueta">{objeto.categoria}</span>
+      <h1 className="tarjeta__titulo detalle__titulo">{objeto.nombre}</h1>
+      <p className="detalle__descripcion">{objeto.descripcion}</p>
+
+      <dl className="detalle__datos">
+        <div className="detalle__dato">
+          <dt>Fecha en que se encontró</dt>
+          <dd>{objeto.fecha}</dd>
+        </div>
+        <div className="detalle__dato">
+          <dt>Lugar donde se encontró</dt>
+          <dd>{objeto.lugar}</dd>
+        </div>
+      </dl>
+
       {estaReclamando ? (
         <FormularioReclamo presenter={presenterReclamo} idObjeto={objeto.id} />
       ) : (
@@ -32,9 +39,6 @@ export default function DetalleObjeto({ objeto, alVolver, presenterReclamo }) {
           Reclamar objeto
         </button>
       )}
-      <button id="volver-lista-button" type="button" className="enlace" onClick={alVolver}>
-        Volver a la lista
-      </button>
     </section>
   );
 }

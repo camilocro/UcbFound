@@ -4424,9 +4424,111 @@
     "testId": 190
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f8b53fdc9449c813bb8aa0e4f39980221ba9fde2",
     "commitName": "refactor: usar las variables de color en el aviso sin resultados",
     "commitTimestamp": 1794827562731,
     "testId": 190
+  },
+  {
+    "numPassedTests": 152,
+    "failedTests": 0,
+    "numTotalTests": 152,
+    "timestamp": 1794828097061,
+    "success": true,
+    "testId": 191
+  },
+  {
+    "numPassedTests": 152,
+    "failedTests": 0,
+    "numTotalTests": 152,
+    "timestamp": 1794828228076,
+    "success": true,
+    "testId": 191
+  },
+  {
+    "numPassedTests": 152,
+    "failedTests": 0,
+    "numTotalTests": 152,
+    "timestamp": 1794828255087,
+    "success": true,
+    "testId": 191
+  },
+  {
+    "commitId": "97a3bc6fbc37280526638b839782c3ef8e98a24e",
+    "commitName": "style: usar las variables de color en el aviso sin resultados",
+    "commitTimestamp": 1794828292643,
+    "testId": 191
+  },
+  {
+    "numPassedTests": 152,
+    "failedTests": 1,
+    "numTotalTests": 153,
+    "timestamp": 1794828364865,
+    "success": false,
+    "testId": 192
+  },
+  {
+    "numPassedTests": 153,
+    "failedTests": 0,
+    "numTotalTests": 153,
+    "timestamp": 1794828384416,
+    "success": true,
+    "testId": 192
+  },
+  {
+    "commitId": "b1290397e6a294aaf7eab2dc85c8d8ca8d6fa817",
+    "commitName": "feat: describir cuántos objetos se encontraron",
+    "commitTimestamp": 1794828416081,
+    "testId": 192
+  },
+  {
+    "numPassedTests": 153,
+    "failedTests": 0,
+    "numTotalTests": 153,
+    "timestamp": 1794828703562,
+    "success": true,
+    "testId": 193
+  },
+  {
+    "commitId": "121c6ec0056ccfff6ce34703348d249b2b557412",
+    "commitName": "style: mostrar la cantidad, la descripción y una flecha en la lista de resultados",
+    "commitTimestamp": 1794828728193,
+    "testId": 193
+  },
+  {
+    "numPassedTests": 153,
+    "failedTests": 0,
+    "numTotalTests": 153,
+    "timestamp": 1794828809883,
+    "success": true,
+    "testId": 194
+  },
+  {
+    "commitId": "d3fc8537ea92f0ca09d4262b5eb6c14539d2b70e",
+    "commitName": "style: ordenar los datos del detalle del objeto",
+    "commitTimestamp": 1794828887344,
+    "testId": 194
+  },
+  {
+    "numPassedTests": 153,
+    "failedTests": 0,
+    "numTotalTests": 153,
+    "timestamp": 1794828911389,
+    "success": true,
+    "testId": 195
+  },
+  {
+    "numPassedTests": 153,
+    "failedTests": 0,
+    "numTotalTests": 153,
+    "timestamp": 1794828936058,
+    "success": true,
+    "testId": 195
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style: acomodar la búsqueda y el detalle en pantallas chicas",
+    "commitTimestamp": 1794829065460,
+    "testId": 195
   }
 ]
