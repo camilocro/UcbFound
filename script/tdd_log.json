@@ -4360,9 +4360,23 @@
     "testId": 186
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4e68c68ed5d626f82ea7bef5ddb894f82175938c",
     "commitName": "refactor: usar la función de orden en la búsqueda de objetos",
     "commitTimestamp": 1794803418890,
     "testId": 186
+  },
+  {
+    "numPassedTests": 152,
+    "failedTests": 0,
+    "numTotalTests": 152,
+    "timestamp": 1794803616137,
+    "success": true,
+    "testId": 187
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: usar la función de orden en objetos guardados y mis reportes",
+    "commitTimestamp": 1794803679050,
+    "testId": 187
   }
 ]
