@@ -3895,17 +3895,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "efd63eb5ffac17b53c024a62e31c51d61bd610b3",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-16T04:27:34.000Z",
       "message": "refactor: crear una sola función para ordenar del más reciente al más antiguo",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/efd63eb5ffac17b53c024a62e31c51d61bd610b3"
     },
     "stats": {
       "total": 22,
       "additions": 22,
       "deletions": 0,
+      "date": "2026-11-16"
+    },
+    "coverage": 98.58,
+    "test_count": 152,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-16T04:30:02.000Z",
+      "message": "refactor: usar la función de orden en la búsqueda de objetos",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 4,
+      "deletions": 7,
       "date": "2026-11-16"
     },
     "coverage": 98.58,

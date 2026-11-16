@@ -4338,9 +4338,31 @@
     "testId": 185
   },
   {
-    "commitId": "HEAD",
+    "commitId": "efd63eb5ffac17b53c024a62e31c51d61bd610b3",
     "commitName": "refactor: crear una sola función para ordenar del más reciente al más antiguo",
     "commitTimestamp": 1794803271603,
     "testId": 185
+  },
+  {
+    "numPassedTests": 152,
+    "failedTests": 0,
+    "numTotalTests": 152,
+    "timestamp": 1794803299842,
+    "success": true,
+    "testId": 186
+  },
+  {
+    "numPassedTests": 152,
+    "failedTests": 0,
+    "numTotalTests": 152,
+    "timestamp": 1794803393602,
+    "success": true,
+    "testId": 186
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: usar la función de orden en la búsqueda de objetos",
+    "commitTimestamp": 1794803418890,
+    "testId": 186
   }
 ]
