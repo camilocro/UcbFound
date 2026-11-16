@@ -4066,17 +4066,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d3fc8537ea92f0ca09d4262b5eb6c14539d2b70e",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-16T11:34:31.000Z",
       "message": "style: ordenar los datos del detalle del objeto",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/d3fc8537ea92f0ca09d4262b5eb6c14539d2b70e"
     },
     "stats": {
       "total": 100,
       "additions": 83,
       "deletions": 17,
+      "date": "2026-11-16"
+    },
+    "coverage": 98.58,
+    "test_count": 153,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-16T11:37:29.000Z",
+      "message": "style: acomodar la búsqueda y el detalle en pantallas chicas",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 16,
+      "deletions": 0,
       "date": "2026-11-16"
     },
     "coverage": 98.58,

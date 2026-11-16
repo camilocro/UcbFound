@@ -4504,9 +4504,31 @@
     "testId": 194
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d3fc8537ea92f0ca09d4262b5eb6c14539d2b70e",
     "commitName": "style: ordenar los datos del detalle del objeto",
     "commitTimestamp": 1794828887344,
     "testId": 194
+  },
+  {
+    "numPassedTests": 153,
+    "failedTests": 0,
+    "numTotalTests": 153,
+    "timestamp": 1794828911389,
+    "success": true,
+    "testId": 195
+  },
+  {
+    "numPassedTests": 153,
+    "failedTests": 0,
+    "numTotalTests": 153,
+    "timestamp": 1794828936058,
+    "success": true,
+    "testId": 195
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style: acomodar la búsqueda y el detalle en pantallas chicas",
+    "commitTimestamp": 1794829065460,
+    "testId": 195
   }
 ]

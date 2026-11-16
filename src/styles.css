@@ -643,3 +643,19 @@ body {
   font-weight: 600;
   color: var(--azul);
 }
+
+/* Búsqueda y detalle en pantallas chicas */
+@media (max-width: 480px) {
+  .buscador {
+    flex-direction: column;
+  }
+
+  .lista-objetos .objeto__foto {
+    width: 72px;
+    height: 54px;
+  }
+
+  .detalle__datos {
+    grid-template-columns: 1fr;
+  }
+}
