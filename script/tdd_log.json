@@ -4402,9 +4402,31 @@
     "testId": 189
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b9e84535d320c5104c4142b3f987ffd3277b4436",
     "commitName": "refactor: usar una sola función para mostrar los resultados de la búsqueda",
     "commitTimestamp": 1794827304400,
     "testId": 189
+  },
+  {
+    "numPassedTests": 152,
+    "failedTests": 0,
+    "numTotalTests": 152,
+    "timestamp": 1794827346557,
+    "success": true,
+    "testId": 190
+  },
+  {
+    "numPassedTests": 152,
+    "failedTests": 0,
+    "numTotalTests": 152,
+    "timestamp": 1794827511363,
+    "success": true,
+    "testId": 190
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: usar las variables de color en el aviso sin resultados",
+    "commitTimestamp": 1794827562731,
+    "testId": 190
   }
 ]
