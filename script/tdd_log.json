@@ -4490,9 +4490,23 @@
     "testId": 193
   },
   {
-    "commitId": "HEAD",
+    "commitId": "121c6ec0056ccfff6ce34703348d249b2b557412",
     "commitName": "style: mostrar la cantidad, la descripción y una flecha en la lista de resultados",
     "commitTimestamp": 1794828728193,
     "testId": 193
+  },
+  {
+    "numPassedTests": 153,
+    "failedTests": 0,
+    "numTotalTests": 153,
+    "timestamp": 1794828809883,
+    "success": true,
+    "testId": 194
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style: ordenar los datos del detalle del objeto",
+    "commitTimestamp": 1794828887344,
+    "testId": 194
   }
 ]

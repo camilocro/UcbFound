@@ -581,3 +581,65 @@ body {
   outline: 3px solid var(--amarillo);
   outline-offset: 2px;
 }
+
+/* Detalle del objeto */
+.detalle__volver {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 16px;
+  padding: 6px 0;
+  font: inherit;
+  font-weight: 600;
+  color: var(--azul);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.detalle__volver:hover {
+  text-decoration: underline;
+}
+
+.detalle .detalle__foto {
+  max-height: 320px;
+  background: var(--fondo);
+}
+
+.detalle__titulo {
+  margin-top: 10px;
+}
+
+.detalle__descripcion {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: var(--texto);
+}
+
+.detalle__datos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.detalle__datos .detalle__dato {
+  margin-top: 0;
+  padding: 12px 14px;
+  background: var(--fondo);
+  border-radius: 10px;
+}
+
+.detalle__datos dt {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--gris);
+}
+
+.detalle__datos dd {
+  margin-top: 4px;
+  font-weight: 600;
+  color: var(--azul);
+}
