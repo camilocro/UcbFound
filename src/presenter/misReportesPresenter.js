@@ -1,5 +1,6 @@
 import { describirLugar } from '../model/lugar.js';
 import { ESTADO_INICIAL_REPORTE } from '../model/objetoPerdido.js';
+import { ordenarDelMasRecienteAlMasAntiguo } from '../model/orden.js';
 
 export const MENSAJES_MIS_REPORTES = {
   SIN_REPORTES: 'Todavía no reportaste ningún objeto perdido',
@@ -17,10 +18,7 @@ export class MisReportesPresenter {
 
   obtenerMisReportes() {
     const usuario = this.sesion.obtenerUsuario();
-    const reportes = this.repositorio
-      .obtenerReportesDe(usuario.correo)
-      .reverse()
-      .sort((primero, segundo) => segundo.fecha.localeCompare(primero.fecha));
+    const reportes = ordenarDelMasRecienteAlMasAntiguo(this.repositorio.obtenerReportesDe(usuario.correo));
     if (reportes.length === 0) {
       return { reportes: [], mensaje: MENSAJES_MIS_REPORTES.SIN_REPORTES };
     }

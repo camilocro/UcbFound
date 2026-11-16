@@ -4300,9 +4300,133 @@
     "testId": 184
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5b99050794f074c138e039bf0be7d9d9484b2c06",
     "commitName": "fix: ocultar en la búsqueda los objetos que ya fueron entregados",
     "commitTimestamp": 1794748063111,
     "testId": 184
+  },
+  {
+    "numPassedTests": 151,
+    "failedTests": 0,
+    "numTotalTests": 151,
+    "timestamp": 1794802804929,
+    "success": true,
+    "testId": 185
+  },
+  {
+    "numPassedTests": 151,
+    "failedTests": 0,
+    "numTotalTests": 151,
+    "timestamp": 1794803021772,
+    "success": false,
+    "testId": 185
+  },
+  {
+    "numPassedTests": 151,
+    "failedTests": 0,
+    "numTotalTests": 151,
+    "timestamp": 1794803078946,
+    "success": false,
+    "testId": 185
+  },
+  {
+    "numPassedTests": 152,
+    "failedTests": 0,
+    "numTotalTests": 152,
+    "timestamp": 1794803110100,
+    "success": true,
+    "testId": 185
+  },
+  {
+    "commitId": "efd63eb5ffac17b53c024a62e31c51d61bd610b3",
+    "commitName": "refactor: crear una sola función para ordenar del más reciente al más antiguo",
+    "commitTimestamp": 1794803271603,
+    "testId": 185
+  },
+  {
+    "numPassedTests": 152,
+    "failedTests": 0,
+    "numTotalTests": 152,
+    "timestamp": 1794803299842,
+    "success": true,
+    "testId": 186
+  },
+  {
+    "numPassedTests": 152,
+    "failedTests": 0,
+    "numTotalTests": 152,
+    "timestamp": 1794803393602,
+    "success": true,
+    "testId": 186
+  },
+  {
+    "commitId": "4e68c68ed5d626f82ea7bef5ddb894f82175938c",
+    "commitName": "refactor: usar la función de orden en la búsqueda de objetos",
+    "commitTimestamp": 1794803418890,
+    "testId": 186
+  },
+  {
+    "numPassedTests": 152,
+    "failedTests": 0,
+    "numTotalTests": 152,
+    "timestamp": 1794803616137,
+    "success": true,
+    "testId": 187
+  },
+  {
+    "commitId": "5eae96c009251a6689eb0a7c3f4b7915c45dce28",
+    "commitName": "refactor: usar la función de orden en objetos guardados y mis reportes",
+    "commitTimestamp": 1794803679050,
+    "testId": 187
+  },
+  {
+    "numPassedTests": 152,
+    "failedTests": 0,
+    "numTotalTests": 152,
+    "timestamp": 1794827096375,
+    "success": true,
+    "testId": 188
+  },
+  {
+    "commitId": "30378254461bcf196a74478b083997c884a1f826",
+    "commitName": "refactor: sacar el aviso sin resultados a su propio componente",
+    "commitTimestamp": 1794827162088,
+    "testId": 188
+  },
+  {
+    "numPassedTests": 152,
+    "failedTests": 0,
+    "numTotalTests": 152,
+    "timestamp": 1794827226811,
+    "success": true,
+    "testId": 189
+  },
+  {
+    "commitId": "b9e84535d320c5104c4142b3f987ffd3277b4436",
+    "commitName": "refactor: usar una sola función para mostrar los resultados de la búsqueda",
+    "commitTimestamp": 1794827304400,
+    "testId": 189
+  },
+  {
+    "numPassedTests": 152,
+    "failedTests": 0,
+    "numTotalTests": 152,
+    "timestamp": 1794827346557,
+    "success": true,
+    "testId": 190
+  },
+  {
+    "numPassedTests": 152,
+    "failedTests": 0,
+    "numTotalTests": 152,
+    "timestamp": 1794827511363,
+    "success": true,
+    "testId": 190
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: usar las variables de color en el aviso sin resultados",
+    "commitTimestamp": 1794827562731,
+    "testId": 190
   }
 ]

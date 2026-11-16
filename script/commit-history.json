@@ -3876,12 +3876,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5b99050794f074c138e039bf0be7d9d9484b2c06",
     "author": "camilocro",
     "commit": {
       "date": "2026-11-15T13:07:32.000Z",
       "message": "fix: ocultar en la búsqueda los objetos que ya fueron entregados",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/5b99050794f074c138e039bf0be7d9d9484b2c06"
     },
     "stats": {
       "total": 8,
@@ -3891,6 +3891,120 @@
     },
     "coverage": 98.58,
     "test_count": 151,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "efd63eb5ffac17b53c024a62e31c51d61bd610b3",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-16T04:27:34.000Z",
+      "message": "refactor: crear una sola función para ordenar del más reciente al más antiguo",
+      "url": "https://github.com/camilocro/UcbFound/commit/efd63eb5ffac17b53c024a62e31c51d61bd610b3"
+    },
+    "stats": {
+      "total": 22,
+      "additions": 22,
+      "deletions": 0,
+      "date": "2026-11-16"
+    },
+    "coverage": 98.58,
+    "test_count": 152,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "4e68c68ed5d626f82ea7bef5ddb894f82175938c",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-16T04:30:02.000Z",
+      "message": "refactor: usar la función de orden en la búsqueda de objetos",
+      "url": "https://github.com/camilocro/UcbFound/commit/4e68c68ed5d626f82ea7bef5ddb894f82175938c"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 4,
+      "deletions": 7,
+      "date": "2026-11-16"
+    },
+    "coverage": 98.58,
+    "test_count": 152,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "5eae96c009251a6689eb0a7c3f4b7915c45dce28",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-16T04:34:24.000Z",
+      "message": "refactor: usar la función de orden en objetos guardados y mis reportes",
+      "url": "https://github.com/camilocro/UcbFound/commit/5eae96c009251a6689eb0a7c3f4b7915c45dce28"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 7,
+      "deletions": 8,
+      "date": "2026-11-16"
+    },
+    "coverage": 98.57,
+    "test_count": 152,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "30378254461bcf196a74478b083997c884a1f826",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-16T11:05:45.000Z",
+      "message": "refactor: sacar el aviso sin resultados a su propio componente",
+      "url": "https://github.com/camilocro/UcbFound/commit/30378254461bcf196a74478b083997c884a1f826"
+    },
+    "stats": {
+      "total": 102,
+      "additions": 50,
+      "deletions": 52,
+      "date": "2026-11-16"
+    },
+    "coverage": 98.57,
+    "test_count": 152,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "b9e84535d320c5104c4142b3f987ffd3277b4436",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-16T11:08:11.000Z",
+      "message": "refactor: usar una sola función para mostrar los resultados de la búsqueda",
+      "url": "https://github.com/camilocro/UcbFound/commit/b9e84535d320c5104c4142b3f987ffd3277b4436"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 6,
+      "deletions": 8,
+      "date": "2026-11-16"
+    },
+    "coverage": 98.57,
+    "test_count": 152,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-16T11:12:26.000Z",
+      "message": "refactor: usar las variables de color en el aviso sin resultados",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 2,
+      "deletions": 1,
+      "date": "2026-11-16"
+    },
+    "coverage": 98.57,
+    "test_count": 152,
     "failed_tests": 0,
     "conclusion": "success"
   }

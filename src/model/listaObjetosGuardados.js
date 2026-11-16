@@ -1,3 +1,5 @@
+import { ordenarDelMasRecienteAlMasAntiguo } from './orden.js';
+
 export const MENSAJES_OBJETOS_GUARDADOS = {
   SIN_OBJETOS: 'No hay objetos guardados por ahora',
 };
@@ -8,10 +10,9 @@ export class ListaObjetosGuardados {
   }
 
   obtener() {
-        const objetosGuardados = this.objetos
-      .filter((objeto) => !objeto.fueRecogido())
-      .reverse()
-      .sort((primero, segundo) => segundo.fecha.localeCompare(primero.fecha));
+    const objetosGuardados = ordenarDelMasRecienteAlMasAntiguo(
+      this.objetos.filter((objeto) => !objeto.fueRecogido())
+    );
     if (objetosGuardados.length === 0) {
       return { objetos: [], mensaje: MENSAJES_OBJETOS_GUARDADOS.SIN_OBJETOS };
     }
