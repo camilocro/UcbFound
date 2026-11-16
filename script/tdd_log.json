@@ -4424,9 +4424,39 @@
     "testId": 190
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f8b53fdc9449c813bb8aa0e4f39980221ba9fde2",
     "commitName": "refactor: usar las variables de color en el aviso sin resultados",
     "commitTimestamp": 1794827562731,
     "testId": 190
+  },
+  {
+    "numPassedTests": 152,
+    "failedTests": 0,
+    "numTotalTests": 152,
+    "timestamp": 1794828097061,
+    "success": true,
+    "testId": 191
+  },
+  {
+    "numPassedTests": 152,
+    "failedTests": 0,
+    "numTotalTests": 152,
+    "timestamp": 1794828228076,
+    "success": true,
+    "testId": 191
+  },
+  {
+    "numPassedTests": 152,
+    "failedTests": 0,
+    "numTotalTests": 152,
+    "timestamp": 1794828255087,
+    "success": true,
+    "testId": 191
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style: usar las variables de color en el aviso sin resultados",
+    "commitTimestamp": 1794828292643,
+    "testId": 191
   }
 ]
