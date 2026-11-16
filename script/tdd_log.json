@@ -4374,9 +4374,23 @@
     "testId": 187
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5eae96c009251a6689eb0a7c3f4b7915c45dce28",
     "commitName": "refactor: usar la función de orden en objetos guardados y mis reportes",
     "commitTimestamp": 1794803679050,
     "testId": 187
+  },
+  {
+    "numPassedTests": 152,
+    "failedTests": 0,
+    "numTotalTests": 152,
+    "timestamp": 1794827096375,
+    "success": true,
+    "testId": 188
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: sacar el aviso sin resultados a su propio componente",
+    "commitTimestamp": 1794827162088,
+    "testId": 188
   }
 ]

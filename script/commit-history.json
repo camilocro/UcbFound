@@ -3933,17 +3933,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5eae96c009251a6689eb0a7c3f4b7915c45dce28",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-16T04:34:24.000Z",
       "message": "refactor: usar la función de orden en objetos guardados y mis reportes",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/5eae96c009251a6689eb0a7c3f4b7915c45dce28"
     },
     "stats": {
       "total": 15,
       "additions": 7,
       "deletions": 8,
+      "date": "2026-11-16"
+    },
+    "coverage": 98.57,
+    "test_count": 152,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-16T11:05:45.000Z",
+      "message": "refactor: sacar el aviso sin resultados a su propio componente",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 102,
+      "additions": 50,
+      "deletions": 52,
       "date": "2026-11-16"
     },
     "coverage": 98.57,
