@@ -4388,9 +4388,23 @@
     "testId": 188
   },
   {
-    "commitId": "HEAD",
+    "commitId": "30378254461bcf196a74478b083997c884a1f826",
     "commitName": "refactor: sacar el aviso sin resultados a su propio componente",
     "commitTimestamp": 1794827162088,
     "testId": 188
+  },
+  {
+    "numPassedTests": 152,
+    "failedTests": 0,
+    "numTotalTests": 152,
+    "timestamp": 1794827226811,
+    "success": true,
+    "testId": 189
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: usar una sola función para mostrar los resultados de la búsqueda",
+    "commitTimestamp": 1794827304400,
+    "testId": 189
   }
 ]

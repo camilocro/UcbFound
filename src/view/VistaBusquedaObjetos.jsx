@@ -20,21 +20,19 @@ export default function VistaBusquedaObjetos({
   );
   const [objetoSeleccionado, setObjetoSeleccionado] = useState(null);
 
+    const mostrarResultados = (texto, categoria) => {
+    setResultado(presenterBusqueda.buscar(texto, categoria));
+  };
+
   const buscar = (evento) => {
     evento.preventDefault();
-
-    setResultado(
-      presenterBusqueda.buscar(textoBuscado, categoriaSeleccionada)
-    );
+    mostrarResultados(textoBuscado, categoriaSeleccionada);
   };
 
   const cambiarCategoria = (evento) => {
     const nuevaCategoria = evento.target.value;
-
     setCategoriaSeleccionada(nuevaCategoria);
-    setResultado(
-      presenterBusqueda.buscar(textoBuscado, nuevaCategoria)
-    );
+    mostrarResultados(textoBuscado, nuevaCategoria);
   };
 
   if (objetoSeleccionado) {
