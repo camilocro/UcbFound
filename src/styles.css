@@ -1,5 +1,5 @@
 :root {
-    --azul: #0b2a5b;
+  --azul: #0b2a5b;
   --azul-oscuro: #173b68;
   --amarillo: #f5b800;
   --fondo: #f5f7fa;
@@ -460,13 +460,13 @@ body {
 .sin-resultados__icono {
   width: 105px;
   height: 105px;
-  color: #e6ae24;
+  color: var(--amarillo);
 }
 
 .sin-resultados__titulo {
   max-width: 440px;
   margin: 0;
-  color: #0B2241;
+  color: var(--azul);
   font-size: 1.45rem;
   font-weight: 600;
   line-height: 1.5;
@@ -479,8 +479,8 @@ body {
   padding: 14px 30px;
   border: none;
   border-radius: 999px;
-  background: #0B2241;
-  color: #ffffff;
+  background: var(--azul);
+  color: #fff;
   font-family: inherit;
   font-size: 1rem;
   font-weight: 600;
@@ -489,12 +489,12 @@ body {
 }
 
 .sin-resultados__boton:hover {
-  background: #173b68;
+  background: var(--azul-oscuro);
   transform: translateY(-2px);
 }
 
 .sin-resultados__boton:focus-visible {
-  outline: 3px solid #e6ae24;
+  outline: 3px solid var(--amarillo);
   outline-offset: 4px;
 }
 

@@ -3990,17 +3990,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ca395c15244271a2f4ddb5f26bff66b15381c6a1",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-16T11:12:26.000Z",
       "message": "refactor: usar las variables de color en el aviso sin resultados",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/ca395c15244271a2f4ddb5f26bff66b15381c6a1"
     },
     "stats": {
       "total": 3,
       "additions": 2,
       "deletions": 1,
+      "date": "2026-11-16"
+    },
+    "coverage": 98.57,
+    "test_count": 152,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-16T11:19:30.000Z",
+      "message": "refactor: terminar de usar las variables de color en el aviso sin resultados",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 7,
+      "deletions": 7,
       "date": "2026-11-16"
     },
     "coverage": 98.57,
