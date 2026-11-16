@@ -3876,12 +3876,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5b99050794f074c138e039bf0be7d9d9484b2c06",
     "author": "camilocro",
     "commit": {
       "date": "2026-11-15T13:07:32.000Z",
       "message": "fix: ocultar en la búsqueda los objetos que ya fueron entregados",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/5b99050794f074c138e039bf0be7d9d9484b2c06"
     },
     "stats": {
       "total": 8,
@@ -3891,6 +3891,25 @@
     },
     "coverage": 98.58,
     "test_count": 151,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-16T04:27:34.000Z",
+      "message": "refactor: crear una sola función para ordenar del más reciente al más antiguo",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 22,
+      "additions": 22,
+      "deletions": 0,
+      "date": "2026-11-16"
+    },
+    "coverage": 98.58,
+    "test_count": 152,
     "failed_tests": 0,
     "conclusion": "success"
   }

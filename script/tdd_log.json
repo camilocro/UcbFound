@@ -4300,9 +4300,47 @@
     "testId": 184
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5b99050794f074c138e039bf0be7d9d9484b2c06",
     "commitName": "fix: ocultar en la búsqueda los objetos que ya fueron entregados",
     "commitTimestamp": 1794748063111,
     "testId": 184
+  },
+  {
+    "numPassedTests": 151,
+    "failedTests": 0,
+    "numTotalTests": 151,
+    "timestamp": 1794802804929,
+    "success": true,
+    "testId": 185
+  },
+  {
+    "numPassedTests": 151,
+    "failedTests": 0,
+    "numTotalTests": 151,
+    "timestamp": 1794803021772,
+    "success": false,
+    "testId": 185
+  },
+  {
+    "numPassedTests": 151,
+    "failedTests": 0,
+    "numTotalTests": 151,
+    "timestamp": 1794803078946,
+    "success": false,
+    "testId": 185
+  },
+  {
+    "numPassedTests": 152,
+    "failedTests": 0,
+    "numTotalTests": 152,
+    "timestamp": 1794803110100,
+    "success": true,
+    "testId": 185
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: crear una sola función para ordenar del más reciente al más antiguo",
+    "commitTimestamp": 1794803271603,
+    "testId": 185
   }
 ]
