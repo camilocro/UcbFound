@@ -4454,9 +4454,31 @@
     "testId": 191
   },
   {
-    "commitId": "HEAD",
+    "commitId": "97a3bc6fbc37280526638b839782c3ef8e98a24e",
     "commitName": "style: usar las variables de color en el aviso sin resultados",
     "commitTimestamp": 1794828292643,
     "testId": 191
+  },
+  {
+    "numPassedTests": 152,
+    "failedTests": 1,
+    "numTotalTests": 153,
+    "timestamp": 1794828364865,
+    "success": false,
+    "testId": 192
+  },
+  {
+    "numPassedTests": 153,
+    "failedTests": 0,
+    "numTotalTests": 153,
+    "timestamp": 1794828384416,
+    "success": true,
+    "testId": 192
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: describir cuántos objetos se encontraron",
+    "commitTimestamp": 1794828416081,
+    "testId": 192
   }
 ]

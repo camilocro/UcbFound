@@ -4009,12 +4009,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "97a3bc6fbc37280526638b839782c3ef8e98a24e",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-16T11:24:35.000Z",
       "message": "style: usar las variables de color en el aviso sin resultados",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/97a3bc6fbc37280526638b839782c3ef8e98a24e"
     },
     "stats": {
       "total": 14,
@@ -4024,6 +4024,25 @@
     },
     "coverage": 98.57,
     "test_count": 152,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-16T11:26:39.000Z",
+      "message": "feat: describir cuántos objetos se encontraron",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2026-11-16"
+    },
+    "coverage": 98.58,
+    "test_count": 153,
     "failed_tests": 0,
     "conclusion": "success"
   }
