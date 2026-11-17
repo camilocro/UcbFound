@@ -4712,12 +4712,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "65dc66fbe3e9b2d81e95de289d59590af8e0153e",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-17T14:04:19.000Z",
       "message": "feat: mostrar el celular de quien encontró el objeto al encargado",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/65dc66fbe3e9b2d81e95de289d59590af8e0153e"
     },
     "stats": {
       "total": 16,
@@ -4741,6 +4741,25 @@
     "stats": {
       "total": 15,
       "additions": 15,
+      "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.66,
+    "test_count": 167,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-17T14:18:45.000Z",
+      "message": "feat: mostrar el celular de contacto en la lista de objetos guardados",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 3,
       "deletions": 0,
       "date": "2026-11-17"
     },

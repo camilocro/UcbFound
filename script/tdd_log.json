@@ -5148,7 +5148,7 @@
     "testId": 224
   },
   {
-    "commitId": "HEAD",
+    "commitId": "65dc66fbe3e9b2d81e95de289d59590af8e0153e",
     "commitName": "feat: mostrar el celular de quien encontró el objeto al encargado",
     "commitTimestamp": 1794924267390,
     "testId": 224
@@ -5166,5 +5166,19 @@
     "commitName": "test: confirmar que el detalle público no muestra el celular",
     "commitTimestamp": 1794924295963,
     "testId": 225
+  },
+  {
+    "numPassedTests": 167,
+    "failedTests": 0,
+    "numTotalTests": 167,
+    "timestamp": 1794924356897,
+    "success": true,
+    "testId": 226
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar el celular de contacto en la lista de objetos guardados",
+    "commitTimestamp": 1794925133063,
+    "testId": 226
   }
 ]
