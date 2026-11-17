@@ -4142,17 +4142,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "69da1280734d55e6f7c5b94099be7145521ffe2f",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-17T01:41:10.000Z",
       "message": "feat: convertir la fecha y la hora a texto",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/69da1280734d55e6f7c5b94099be7145521ffe2f"
     },
     "stats": {
       "total": 12,
       "additions": 11,
       "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.6,
+    "test_count": 154,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-17T01:43:30.000Z",
+      "message": "fix: guardar la fecha y la hora en que se entregó el objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 4,
+      "deletions": 4,
       "date": "2026-11-17"
     },
     "coverage": 98.6,
