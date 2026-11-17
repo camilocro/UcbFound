@@ -5212,7 +5212,7 @@
     "testId": 228
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a99d52bad14a5f7890331d5edfb5416f32ac040b",
     "commitName": "refactor: partir la firma de registrar en varias líneas",
     "commitTimestamp": 1794925901517,
     "testId": 228
@@ -5246,5 +5246,35 @@
     "commitName": "feat: definir las opciones de la barra de navegación",
     "commitTimestamp": 1794928296105,
     "testId": 229
+  },
+  {
+    "numPassedTests": 169,
+    "failedTests": 1,
+    "numTotalTests": 170,
+    "timestamp": 1794928342116,
+    "success": false,
+    "testId": 230
+  },
+  {
+    "numPassedTests": 170,
+    "failedTests": 0,
+    "numTotalTests": 170,
+    "timestamp": 1794928363321,
+    "success": true,
+    "testId": 230
+  },
+  {
+    "numPassedTests": 170,
+    "failedTests": 0,
+    "numTotalTests": 170,
+    "timestamp": 1794928440744,
+    "success": true,
+    "testId": 230
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar Objetos guardados en la barra solo al encargado",
+    "commitTimestamp": 1794928457364,
+    "testId": 230
   }
 ]

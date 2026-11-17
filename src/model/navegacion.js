@@ -5,6 +5,11 @@ const OPCIONES_DE_NAVEGACION = [
   { pagina: 'registrar-objeto', texto: 'Registrar objeto encontrado' },
 ];
 
-export function obtenerOpcionesDeNavegacion() {
+const OPCION_DEL_ENCARGADO = { pagina: 'objetos-guardados', texto: 'Objetos guardados' };
+
+export function obtenerOpcionesDeNavegacion(esEncargado) {
+  if (esEncargado) {
+    return [...OPCIONES_DE_NAVEGACION, OPCION_DEL_ENCARGADO];
+  }
   return OPCIONES_DE_NAVEGACION;
 }

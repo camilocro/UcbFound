@@ -17,3 +17,15 @@ describe('Barra de navegación Criterio 2: opciones del estudiante', () => {
     ]);
   });
 });
+
+describe('Barra de navegación Criterio 3: opción del encargado', () => {
+  it('debería agregar Objetos guardados al final solo para el encargado', () => {
+    const delEncargado = obtenerOpcionesDeNavegacion(true, 'principal');
+    expect(delEncargado).toHaveLength(5);
+    expect(delEncargado[4].pagina).toEqual('objetos-guardados');
+    expect(delEncargado[4].texto).toEqual('Objetos guardados');
+
+    const delEstudiante = obtenerOpcionesDeNavegacion(false, 'principal');
+    expect(delEstudiante.map((opcion) => opcion.pagina)).not.toContain('objetos-guardados');
+  });
+});
