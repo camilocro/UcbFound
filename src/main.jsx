@@ -5,6 +5,7 @@ import FormularioInicioSesion from './view/FormularioInicioSesion.jsx';
 import FormularioReporteObjetoPerdido from './view/FormularioReporteObjetoPerdido.jsx';
 import FormularioObjetoEncontrado from './view/FormularioObjetoEncontrado.jsx';
 import VistaBusquedaObjetos from './view/VistaBusquedaObjetos.jsx';
+import PortadaBusqueda from './view/PortadaBusqueda.jsx';
 import { RepositorioUsuarios } from './model/repositorioUsuarios.js';
 import { RepositorioReportes } from './model/repositorioReportes.js';
 import { RepositorioObjetosEncontrados } from './model/repositorioObjetosEncontrados.js';
@@ -86,14 +87,14 @@ function App() {
       </header>
       <main className="contenido">
         {vista.pagina === 'principal' && (
+          <PortadaBusqueda alBuscar={() => irA('buscar-objetos')} />
+        )}
+        {vista.pagina === 'principal' && (
           <section className="tarjeta">
             <h1 className="tarjeta__titulo">Hola, {usuario.nombre}</h1>
             <p className="tarjeta__subtitulo">Sesión iniciada con {usuario.correo}.</p>
             <button id="ir-reportar-button" type="button" className="boton boton--ancho" onClick={() => irA('reportar-objeto')}>
               Reportar objeto perdido
-            </button>
-            <button id="ir-buscar-button" type="button" className="boton boton--ancho" onClick={() => irA('buscar-objetos')}>
-              Buscar objetos encontrados
             </button>
             <button id="ir-registrar-objeto-button" type="button" className="boton boton--ancho" onClick={() => irA('registrar-objeto')}>
               Registrar objeto encontrado

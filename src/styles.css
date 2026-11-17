@@ -710,3 +710,30 @@ body {
   font-size: 0.9rem;
   color: var(--texto);
 }
+.boton--destacado {
+  padding: 20px;
+  font-size: 1.25rem;
+  box-shadow: 0 4px 12px rgba(11, 42, 91, 0.2);
+}
+.contenido:has(.portada) {
+  align-content: flex-start;
+}
+
+.portada {
+  flex-basis: 100%;
+  padding: 40px 24px;
+  text-align: center;
+  background: var(--azul);
+  border-radius: 16px;
+}
+
+.portada__titulo {
+  color: #ffffff;
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+}
+
+.portada__subtitulo {
+  color: #dbe4f0;
+  margin-bottom: 24px;
+}

@@ -4408,17 +4408,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0b415220fd3e3159a8f942c4b631c53c9facff9f",
     "author": "majo",
     "commit": {
       "date": "2026-11-17T07:56:41.000Z",
       "message": "feat: agregar el campo de categoría al formulario de reporte",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/0b415220fd3e3159a8f942c4b631c53c9facff9f"
     },
     "stats": {
       "total": 19,
       "additions": 19,
       "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.64,
+    "test_count": 160,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-17T08:18:34.000Z",
+      "message": "feat: mostrar el botón para buscar objetos encontrados en una portada arriba del inicio",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 62,
+      "additions": 59,
+      "deletions": 3,
       "date": "2026-11-17"
     },
     "coverage": 98.64,
