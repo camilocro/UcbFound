@@ -4750,12 +4750,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "893ca52ad7ed99e03b8bea9aeb71a28bc9a15433",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-17T14:18:45.000Z",
       "message": "feat: mostrar el celular de contacto en la lista de objetos guardados",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/893ca52ad7ed99e03b8bea9aeb71a28bc9a15433"
     },
     "stats": {
       "total": 3,
@@ -4779,6 +4779,25 @@
     "stats": {
       "total": 9,
       "additions": 8,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.66,
+    "test_count": 168,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-17T14:31:32.000Z",
+      "message": "refactor: partir la firma de registrar en varias líneas",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 4,
       "deletions": 1,
       "date": "2026-11-17"
     },

@@ -5176,7 +5176,7 @@
     "testId": 226
   },
   {
-    "commitId": "HEAD",
+    "commitId": "893ca52ad7ed99e03b8bea9aeb71a28bc9a15433",
     "commitName": "feat: mostrar el celular de contacto en la lista de objetos guardados",
     "commitTimestamp": 1794925133063,
     "testId": 226
@@ -5202,5 +5202,19 @@
     "commitName": "feat: rechazar un bloque que no está en la lista al registrar un objeto",
     "commitTimestamp": 1794925831717,
     "testId": 227
+  },
+  {
+    "numPassedTests": 168,
+    "failedTests": 0,
+    "numTotalTests": 168,
+    "timestamp": 1794925867312,
+    "success": true,
+    "testId": 228
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: partir la firma de registrar en varias líneas",
+    "commitTimestamp": 1794925901517,
+    "testId": 228
   }
 ]
