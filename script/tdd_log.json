@@ -4918,9 +4918,31 @@
     "testId": 215
   },
   {
-    "commitId": "HEAD",
+    "commitId": "588c152da8a9964dc11b7c8d818b1f41f9d37378",
     "commitName": "refactor: llamar tieneBloqueInvalido a la revisión del bloque del reporte",
     "commitTimestamp": 1794903903563,
     "testId": 215
+  },
+  {
+    "numPassedTests": 160,
+    "failedTests": 1,
+    "numTotalTests": 161,
+    "timestamp": 1794904015894,
+    "success": false,
+    "testId": 216
+  },
+  {
+    "numPassedTests": 161,
+    "failedTests": 0,
+    "numTotalTests": 161,
+    "timestamp": 1794904113249,
+    "success": true,
+    "testId": 216
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: rechazar un bloque que no está en la lista",
+    "commitTimestamp": 1794904151620,
+    "testId": 216
   }
 ]

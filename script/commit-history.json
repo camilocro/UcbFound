@@ -4465,12 +4465,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "588c152da8a9964dc11b7c8d818b1f41f9d37378",
     "author": "majo",
     "commit": {
       "date": "2026-11-17T08:24:53.000Z",
       "message": "refactor: llamar tieneBloqueInvalido a la revisión del bloque del reporte",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/588c152da8a9964dc11b7c8d818b1f41f9d37378"
     },
     "stats": {
       "total": 4,
@@ -4480,6 +4480,25 @@
     },
     "coverage": 98.64,
     "test_count": 160,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-17T08:28:58.000Z",
+      "message": "feat: rechazar un bloque que no está en la lista",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 15,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.64,
+    "test_count": 161,
     "failed_tests": 0,
     "conclusion": "success"
   }
