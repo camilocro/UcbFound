@@ -3,6 +3,7 @@ import { crearError } from './resultado.js';
 import { CATEGORIAS } from './categorias.js';
 import { esImagen } from './foto.js';
 import { esCelularOpcionalValido } from './celular.js';
+import { BLOQUES } from './bloques.js';
 
 export const MENSAJES_REGISTRO_OBJETO = {
   OBJETO_REGISTRADO: 'Objeto registrado correctamente',
@@ -27,7 +28,10 @@ export class RegistroObjetoEncontrado {
     this.crearId = crearId;
   }
 
-  registrar({ nombre, descripcion, foto, categoria, bloque, aula, celular }, correoDeQuienEncontro) {
+  registrar(
+    { nombre, descripcion, foto, categoria, bloque, aula, celular },
+    correoDeQuienEncontro,
+  ) {
     if (faltanFotoODescripcion(foto, descripcion)) {
       return crearError(MENSAJES_REGISTRO_OBJETO.FALTAN_FOTO_O_DESCRIPCION);
     }
@@ -37,7 +41,7 @@ export class RegistroObjetoEncontrado {
     if (!CATEGORIAS.includes(categoria)) {
       return crearError(MENSAJES_REGISTRO_OBJETO.FALTA_CATEGORIA);
     }
-    if (!bloque) {
+    if (!BLOQUES.includes(bloque)) {
       return crearError(MENSAJES_REGISTRO_OBJETO.FALTA_BLOQUE);
     }
     if (!esCelularOpcionalValido(celular)) {
