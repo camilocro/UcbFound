@@ -4826,12 +4826,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "600222b2559bfaf410365893c080c058274bb4d1",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-17T15:14:11.000Z",
       "message": "feat: mostrar Objetos guardados en la barra solo al encargado",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/600222b2559bfaf410365893c080c058274bb4d1"
     },
     "stats": {
       "total": 19,
@@ -4860,6 +4860,25 @@
     },
     "coverage": 98.68,
     "test_count": 171,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-17T15:19:08.000Z",
+      "message": "feat: no mostrar opciones de navegación sin sesión",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 16,
+      "deletions": 2,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.43,
+    "test_count": 172,
     "failed_tests": 0,
     "conclusion": "success"
   }

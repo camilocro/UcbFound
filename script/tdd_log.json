@@ -5272,7 +5272,7 @@
     "testId": 230
   },
   {
-    "commitId": "HEAD",
+    "commitId": "600222b2559bfaf410365893c080c058274bb4d1",
     "commitName": "feat: mostrar Objetos guardados en la barra solo al encargado",
     "commitTimestamp": 1794928457364,
     "testId": 230
@@ -5298,5 +5298,27 @@
     "commitName": "feat: marcar en la barra la página actual",
     "commitTimestamp": 1794928509998,
     "testId": 231
+  },
+  {
+    "numPassedTests": 171,
+    "failedTests": 1,
+    "numTotalTests": 172,
+    "timestamp": 1794928534522,
+    "success": false,
+    "testId": 232
+  },
+  {
+    "numPassedTests": 172,
+    "failedTests": 0,
+    "numTotalTests": 172,
+    "timestamp": 1794928719254,
+    "success": true,
+    "testId": 232
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: no mostrar opciones de navegación sin sesión",
+    "commitTimestamp": 1794928754291,
+    "testId": 232
   }
 ]

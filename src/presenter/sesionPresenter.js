@@ -1,4 +1,4 @@
-
+import { obtenerOpcionesDeNavegacion } from '../model/navegacion.js';
 export class SesionPresenter {
   constructor(sesion) {
     this.sesion = sesion;
@@ -22,7 +22,14 @@ export class SesionPresenter {
     return this.sesion.esEncargado();
   }
   
-  resolverPagina(pagina) {
+    resolverPagina(pagina) {
     return this.sesion.resolverPagina(pagina);
+  }
+
+  obtenerOpcionesDeNavegacion(paginaActual) {
+    if (!this.sesion.estaIniciada()) {
+      return [];
+    }
+    return obtenerOpcionesDeNavegacion(false, paginaActual);
   }
 }

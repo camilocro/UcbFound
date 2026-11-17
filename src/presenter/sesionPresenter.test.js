@@ -49,3 +49,10 @@ describe('HU-14 Presenter: rol de encargado', () => {
     expect(presenter.esEncargado()).toBe(true);
   });
 });
+
+describe('Barra de navegación Criterio 5: sin sesión no hay opciones', () => {
+  it('no debería ofrecer opciones de navegación si nadie inició sesión', () => {
+    const presenter = new SesionPresenter(new Sesion(crearAlmacenamientoFalso()));
+    expect(presenter.obtenerOpcionesDeNavegacion('inicio-sesion')).toEqual([]);
+  });
+});
