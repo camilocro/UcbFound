@@ -1,4 +1,5 @@
 import { TODAS_LAS_CATEGORIAS } from './categorias.js';
+import { TODOS_LOS_LUGARES } from './bloques.js';
 function quitarTildes(texto) {
   return texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 }
@@ -31,8 +32,12 @@ export class ObjetoEncontrado {
     const textoBuscado = quitarTildes(texto);
     return quitarTildes(this.nombre).includes(textoBuscado) || quitarTildes(this.descripcion).includes(textoBuscado);
   }
-  esDeCategoria(categoria) {
+    esDeCategoria(categoria) {
     return categoria === TODAS_LAS_CATEGORIAS || this.categoria === categoria;
+  }
+
+  estaEnLugar(lugar) {
+    return lugar === TODOS_LOS_LUGARES || this.bloque === lugar;
   }
 
   obtenerDetalle() {

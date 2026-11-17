@@ -126,3 +126,25 @@ describe('HU-15 Búsqueda: objetos ya entregados', () => {
     expect(nombres(resultado)).toEqual(['Cargador de laptop', 'Botella de agua', 'Mochila negra']);
   });
 });
+
+const objetosConLugar = [
+  new ObjetoEncontrado({ id: 'lug-1', nombre: 'Mochila negra', descripcion: 'Tiene un llavero', fecha: '2026-10-10', foto: '', correoDeQuienEncontro: 'ana.lopez@ucb.edu.bo', categoria: 'Mochilas y bolsos', bloque: 'Tupuraya 1 - Biblioteca' }),
+  new ObjetoEncontrado({ id: 'lug-2', nombre: 'Cargador de laptop', descripcion: 'Marca HP', fecha: '2026-10-14', foto: '', correoDeQuienEncontro: 'luis.rojas@ucb.edu.bo', categoria: 'Electrónica', bloque: 'Tupuraya 2 - Bloque A' }),
+  new ObjetoEncontrado({ id: 'lug-3', nombre: 'Audífonos', descripcion: 'Con estuche', fecha: '2026-10-12', foto: '', correoDeQuienEncontro: 'maria.vargas@ucb.edu.bo', categoria: 'Electrónica', bloque: 'Tupuraya 1 - Biblioteca' }),
+  new ObjetoEncontrado({ id: 'lug-4', nombre: 'Botella de agua', descripcion: 'Azul', fecha: '2026-10-08', foto: '', correoDeQuienEncontro: 'ana.lopez@ucb.edu.bo', categoria: 'Botellas y termos' }),
+];
+
+describe('HU-19 Criterios 1 y 2: buscar por lugar', () => {
+  it('debería mostrar solo los objetos de ese lugar, también junto con la categoría', () => {
+    const buscador = new BuscadorObjetos(objetosConLugar);
+    expect(nombres(buscador.buscar('', 'Todas', 'Tupuraya 1 - Biblioteca'))).toEqual(['Audífonos', 'Mochila negra']);
+    expect(nombres(buscador.buscar('', 'Electrónica', 'Tupuraya 1 - Biblioteca'))).toEqual(['Audífonos']);
+  });
+});
+
+describe('HU-19 Criterio 3: lugar sin objetos', () => {
+  it('debería avisar que no hay objetos encontrados en ese lugar', () => {
+    const resultado = new BuscadorObjetos(objetosConLugar).buscar('', 'Todas', 'Tupuraya 2 - Canchas');
+    expect(resultado).toEqual({ objetos: [], mensaje: 'No hay objetos encontrados en este lugar' });
+  });
+});

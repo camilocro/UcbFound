@@ -2,6 +2,7 @@
 import { BusquedaPresenter } from './busquedaPresenter.js';
 import { RepositorioObjetosEncontrados } from '../model/repositorioObjetosEncontrados.js';
 import { CATEGORIAS, TODAS_LAS_CATEGORIAS } from '../model/categorias.js';
+import { BLOQUES, TODOS_LOS_LUGARES } from '../model/bloques.js';
 
 function crearAlmacenamientoFalso() {
   const datos = {};
@@ -104,5 +105,26 @@ describe('HU-08 Criterio 1: Presenter con categorías', () => {
     expect(resultado.objetos.map((objeto) => objeto.nombre)).toEqual([
       'Botella azul',
     ]);
+  });
+});
+
+describe('HU-19 Criterio 1: lista de lugares', () => {
+  it('debería ofrecer "Todos los lugares" y la misma lista de bloques que se usa al reportar', () => {
+    const presenter = new BusquedaPresenter(crearRepositorioConObjetos());
+    expect(presenter.obtenerLugares()).toEqual([TODOS_LOS_LUGARES, ...BLOQUES]);
+    expect(TODOS_LOS_LUGARES).toEqual('Todos los lugares');
+  });
+});
+
+describe('HU-19 Criterio 4: quitar el filtro de lugar', () => {
+  it('debería buscar por el lugar elegido y volver a mostrar todos con "Todos los lugares"', () => {
+    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+    repositorio.guardar({ id: 'obj-1', nombre: 'Mochila negra', descripcion: 'Tiene un llavero', fecha: '2026-10-10', foto: '', correoDeQuienEncontro: 'ana.lopez@ucb.edu.bo', bloque: 'Tupuraya 1 - Biblioteca' });
+    repositorio.guardar({ id: 'obj-2', nombre: 'Botella azul', descripcion: 'Tiene stickers', fecha: '2026-10-12', foto: '', correoDeQuienEncontro: 'luis.rojas@ucb.edu.bo', bloque: 'Tupuraya 2 - Canchas' });
+    const presenter = new BusquedaPresenter(repositorio);
+    const nombresDe = (resultado) => resultado.objetos.map((objeto) => objeto.nombre);
+
+    expect(nombresDe(presenter.buscar('', TODAS_LAS_CATEGORIAS, 'Tupuraya 2 - Canchas'))).toEqual(['Botella azul']);
+    expect(nombresDe(presenter.buscar('', TODAS_LAS_CATEGORIAS, TODOS_LOS_LUGARES))).toEqual(['Botella azul', 'Mochila negra']);
   });
 });
