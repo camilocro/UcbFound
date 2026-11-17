@@ -4864,12 +4864,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "65de768233467d0c088c20525f60100c41c8cc06",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-17T14:44:52.000Z",
       "message": "refactor: ordenar los nombres de las pruebas de celular por criterio",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/65de768233467d0c088c20525f60100c41c8cc06"
     },
     "stats": {
       "total": 6,
@@ -4898,6 +4898,25 @@
     },
     "coverage": 98.66,
     "test_count": 172,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-17T14:47:26.000Z",
+      "message": "test: rechazar un celular de más de 8 dígitos",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.66,
+    "test_count": 173,
     "failed_tests": 0,
     "conclusion": "success"
   }

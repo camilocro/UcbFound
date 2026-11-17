@@ -5292,7 +5292,7 @@
     "testId": 232
   },
   {
-    "commitId": "HEAD",
+    "commitId": "65de768233467d0c088c20525f60100c41c8cc06",
     "commitName": "refactor: ordenar los nombres de las pruebas de celular por criterio",
     "commitTimestamp": 1794926701558,
     "testId": 232
@@ -5310,5 +5310,19 @@
     "commitName": "test: aceptar un celular que empieza con 6",
     "commitTimestamp": 1794926796031,
     "testId": 233
+  },
+  {
+    "numPassedTests": 173,
+    "failedTests": 0,
+    "numTotalTests": 173,
+    "timestamp": 1794926833260,
+    "success": true,
+    "testId": 234
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: rechazar un celular de más de 8 dígitos",
+    "commitTimestamp": 1794926854122,
+    "testId": 234
   }
 ]

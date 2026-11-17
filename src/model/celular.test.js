@@ -13,6 +13,10 @@ describe('HU-16 y HU-20 Criterio 2: celular de 8 dígitos que empieza con 6 o 7'
     expect(esCelularValido('7123456')).toBe(false);
   });
 
+  it('debería rechazar un celular de más de 8 dígitos', () => {
+    expect(esCelularValido('712345678')).toBe(false);
+  });
+
   it('debería rechazar un celular que no empieza con 6 o 7', () => {
     expect(esCelularValido('51234567')).toBe(false);
   });
