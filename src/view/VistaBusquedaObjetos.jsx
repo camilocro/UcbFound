@@ -2,6 +2,7 @@ import { useState } from 'react';
 import DetalleObjeto from './DetalleObjeto.jsx';
 import SinResultados from './SinResultados.jsx';
 import { TODAS_LAS_CATEGORIAS } from '../model/categorias.js';
+import { TODOS_LOS_LUGARES } from '../model/bloques.js';
 import { describirCantidadDeObjetos } from '../model/cantidad.js';
 
 export default function VistaBusquedaObjetos({
@@ -11,29 +12,34 @@ export default function VistaBusquedaObjetos({
   alReportar,
 }) {
   const categorias = presenterBusqueda.obtenerCategorias();
+  const lugares = presenterBusqueda.obtenerLugares();
 
   const [textoBuscado, setTextoBuscado] = useState('');
-  const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(
-    TODAS_LAS_CATEGORIAS
-  );
+  const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(TODAS_LAS_CATEGORIAS);
+  const [lugarSeleccionado, setLugarSeleccionado] = useState(TODOS_LOS_LUGARES);
   const [resultado, setResultado] = useState(() =>
-    presenterBusqueda.buscar('', TODAS_LAS_CATEGORIAS)
+    presenterBusqueda.buscar('', TODAS_LAS_CATEGORIAS, TODOS_LOS_LUGARES)
   );
   const [objetoSeleccionado, setObjetoSeleccionado] = useState(null);
 
-  const mostrarResultados = (texto, categoria) => {
-    setResultado(presenterBusqueda.buscar(texto, categoria));
+  const mostrarResultados = (texto, categoria, lugar) => {
+    setResultado(presenterBusqueda.buscar(texto, categoria, lugar));
   };
 
   const buscar = (evento) => {
     evento.preventDefault();
-    mostrarResultados(textoBuscado, categoriaSeleccionada);
+    mostrarResultados(textoBuscado, categoriaSeleccionada, lugarSeleccionado);
   };
 
   const cambiarCategoria = (evento) => {
     const nuevaCategoria = evento.target.value;
     setCategoriaSeleccionada(nuevaCategoria);
-    mostrarResultados(textoBuscado, nuevaCategoria);
+    mostrarResultados(textoBuscado, nuevaCategoria, lugarSeleccionado);
+  };
+
+  const cambiarLugar = (nuevoLugar) => {
+    setLugarSeleccionado(nuevoLugar);
+    mostrarResultados(textoBuscado, categoriaSeleccionada, nuevoLugar);
   };
 
   if (objetoSeleccionado) {
@@ -53,7 +59,7 @@ export default function VistaBusquedaObjetos({
       <h1 className="tarjeta__titulo">Objetos encontrados</h1>
 
       <p className="tarjeta__subtitulo">
-        Busca por nombre, descripción o categoría. Presiona un objeto para ver sus datos.
+        Busca por nombre, descripción, categoría o lugar. Presiona un objeto para ver sus datos.
       </p>
 
       <form id="form-busqueda" className="buscador" onSubmit={buscar}>
@@ -70,20 +76,33 @@ export default function VistaBusquedaObjetos({
         </button>
       </form>
 
-      <div className="filtro-categoria">
-        <label htmlFor="filtro-categoria">Filtrar por categoría</label>
+      <div className="filtros">
+        <div className="filtro-categoria">
+          <label htmlFor="filtro-categoria">Filtrar por categoría</label>
+          <select id="filtro-categoria" value={categoriaSeleccionada} onChange={cambiarCategoria}>
+            {categorias.map((categoria) => (
+              <option key={categoria} value={categoria}>
+                {categoria}
+              </option>
+            ))}
+          </select>
+        </div>
 
-        <select
-          id="filtro-categoria"
-          value={categoriaSeleccionada}
-          onChange={cambiarCategoria}
-        >
-          {categorias.map((categoria) => (
-            <option key={categoria} value={categoria}>
-              {categoria}
-            </option>
-          ))}
-        </select>
+        <div className="filtro-categoria">
+          <label htmlFor="filtro-lugar">Filtrar por lugar</label>
+          <select id="filtro-lugar" value={lugarSeleccionado} onChange={(evento) => cambiarLugar(evento.target.value)}>
+            {lugares.map((lugar) => (
+              <option key={lugar} value={lugar}>
+                {lugar}
+              </option>
+            ))}
+          </select>
+          {lugarSeleccionado !== TODOS_LOS_LUGARES && (
+            <button id="quitar-filtro-lugar-button" type="button" className="filtros__quitar" onClick={() => cambiarLugar(TODOS_LOS_LUGARES)}>
+              Quitar filtro de lugar
+            </button>
+          )}
+        </div>
       </div>
 
       {sinResultados ? (

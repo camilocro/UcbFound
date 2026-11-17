@@ -1,17 +1,5 @@
 [
   {
-    "commitId": "219631cacea5af8f93e0ed4eb97d19e69657467b",
-    "commitName": "chore: agregar proyecto base de UCBFound",
-    "commitTimestamp": 1791900476947,
-    "testId": 0
-  },
-  {
-    "commitId": "e6b89008680efa6714e5bfde194db93be2600347",
-    "commitName": "chore: configurar React para la interfaz",
-    "commitTimestamp": 1791901032559,
-    "testId": 1
-  },
-  {
     "numPassedTests": 0,
     "failedTests": 0,
     "numTotalTests": 0,
@@ -44,12 +32,6 @@
     "testId": 2
   },
   {
-    "commitId": "a4fe23b5c04ed4e5712f1941a633f20a66fcda06",
-    "commitName": "feat: crear cuenta con nombre, correo UCB y contrase├▒a v├ílidos",
-    "commitTimestamp": 1791901484837,
-    "testId": 2
-  },
-  {
     "numPassedTests": 1,
     "failedTests": 0,
     "numTotalTests": 1,
@@ -74,12 +56,6 @@
     "testId": 3
   },
   {
-    "commitId": "a149b32795c143a5221f29927919216e67fecda9",
-    "commitName": "feat: validar que el nombre no est├® vac├¡o",
-    "commitTimestamp": 1791984266167,
-    "testId": 3
-  },
-  {
     "numPassedTests": 2,
     "failedTests": 1,
     "numTotalTests": 3,
@@ -93,12 +69,6 @@
     "numTotalTests": 3,
     "timestamp": 1791984349678,
     "success": true,
-    "testId": 4
-  },
-  {
-    "commitId": "c008a643bfd644489877fba4e111e140fff5e2d2",
-    "commitName": "feat: validar que el correo no est├® vac├¡o",
-    "commitTimestamp": 1791984364469,
     "testId": 4
   },
   {
@@ -118,12 +88,6 @@
     "testId": 5
   },
   {
-    "commitId": "2bb1bd0b010260c7d3bc450bde34646fe39aa251",
-    "commitName": "feat: validar que la contrase├▒a no est├® vac├¡a",
-    "commitTimestamp": 1791984538093,
-    "testId": 5
-  },
-  {
     "numPassedTests": 4,
     "failedTests": 1,
     "numTotalTests": 5,
@@ -137,12 +101,6 @@
     "numTotalTests": 5,
     "timestamp": 1791984706058,
     "success": true,
-    "testId": 6
-  },
-  {
-    "commitId": "435cb3a3cac3dfc9f1e57b874b902bd292067307",
-    "commitName": "feat: tratar como vac├¡os los campos que solo tienen espacios",
-    "commitTimestamp": 1791984731004,
     "testId": 6
   },
   {
@@ -162,12 +120,6 @@
     "testId": 7
   },
   {
-    "commitId": "2871dd364d2646c29a99743ffc0ada0f388af76f",
-    "commitName": "feat: rechazar correos que no terminen en @ucb.edu.bo",
-    "commitTimestamp": 1791984815368,
-    "testId": 7
-  },
-  {
     "numPassedTests": 6,
     "failedTests": 1,
     "numTotalTests": 7,
@@ -181,12 +133,6 @@
     "numTotalTests": 7,
     "timestamp": 1791984867735,
     "success": true,
-    "testId": 8
-  },
-  {
-    "commitId": "70625108fd1bd37235bedcb8a06094e4c38fe26a",
-    "commitName": "feat: rechazar correos sin nombre de usuario antes de @ucb.edu.bo",
-    "commitTimestamp": 1791984884002,
     "testId": 8
   },
   {
@@ -206,12 +152,6 @@
     "testId": 9
   },
   {
-    "commitId": "f59b17857b0edfeb916b395f7d633948a6dd1125",
-    "commitName": "feat: exigir contrase├▒a de m├¡nimo 8 caracteres",
-    "commitTimestamp": 1791985604836,
-    "testId": 9
-  },
-  {
     "numPassedTests": 8,
     "failedTests": 1,
     "numTotalTests": 9,
@@ -225,12 +165,6 @@
     "numTotalTests": 9,
     "timestamp": 1791985692465,
     "success": true,
-    "testId": 10
-  },
-  {
-    "commitId": "8c5e3a7a90326c6688eebfdea4a53c8b5ba4dba6",
-    "commitName": "feat: avisar cuando el correo ya est├í registrado",
-    "commitTimestamp": 1791985723280,
     "testId": 10
   },
   {
@@ -250,12 +184,6 @@
     "testId": 11
   },
   {
-    "commitId": "bdc4623b6123af15ad9c8c5d7dca5e9f1a02bc4b",
-    "commitName": "feat: crear repositorio de usuarios",
-    "commitTimestamp": 1791985824635,
-    "testId": 11
-  },
-  {
     "numPassedTests": 10,
     "failedTests": 1,
     "numTotalTests": 11,
@@ -269,12 +197,6 @@
     "numTotalTests": 11,
     "timestamp": 1791985915798,
     "success": true,
-    "testId": 12
-  },
-  {
-    "commitId": "4ceb8dc5778aaf1e0c317ee450e1ada5573955ec",
-    "commitName": "feat: guardar los usuarios registrados en el navegador",
-    "commitTimestamp": 1791985941059,
     "testId": 12
   },
   {
@@ -294,12 +216,6 @@
     "testId": 13
   },
   {
-    "commitId": "557cd3e7bfdec356241249a644941e73289ee03f",
-    "commitName": "feat: detectar correo repetido sin importar may├║sculas ni espacios",
-    "commitTimestamp": 1791986028304,
-    "testId": 13
-  },
-  {
     "numPassedTests": 12,
     "failedTests": 1,
     "numTotalTests": 13,
@@ -316,12 +232,6 @@
     "testId": 14
   },
   {
-    "commitId": "62cf2b3d258382f4448945c5de35132396ad0444",
-    "commitName": "feat: guardar el usuario con el correo en min├║sculas",
-    "commitTimestamp": 1791986304095,
-    "testId": 14
-  },
-  {
     "numPassedTests": 13,
     "failedTests": 0,
     "numTotalTests": 13,
@@ -330,23 +240,11 @@
     "testId": 15
   },
   {
-    "commitId": "ede0d10760afedb171d93f491cc4e0b1a444b1fb",
-    "commitName": "refactor: organizar el c├│digo en carpetas model, presenter y view",
-    "commitTimestamp": 1791986472893,
-    "testId": 15
-  },
-  {
     "numPassedTests": 13,
     "failedTests": 0,
     "numTotalTests": 13,
     "timestamp": 1792071890794,
     "success": true,
-    "testId": 16
-  },
-  {
-    "commitId": "600fa2dd3058224d287809b54eca9da3ddd7a6a8",
-    "commitName": "refactor: crear clase Usuario y usar clases en el registro y el presenter",
-    "commitTimestamp": 1792072194451,
     "testId": 16
   },
   {
@@ -374,12 +272,6 @@
     "testId": 17
   },
   {
-    "commitId": "8bbf7747470e9068b5ec176782f7dd7d2231ff66",
-    "commitName": "feat: pedir correo y contrase├▒a cuando el correo est├í vac├¡o",
-    "commitTimestamp": 1792072829001,
-    "testId": 17
-  },
-  {
     "numPassedTests": 14,
     "failedTests": 1,
     "numTotalTests": 15,
@@ -393,12 +285,6 @@
     "numTotalTests": 15,
     "timestamp": 1792072956283,
     "success": true,
-    "testId": 18
-  },
-  {
-    "commitId": "6a8e23a4c93f02ade964ec721df080288bfba0a5",
-    "commitName": "feat: pedir correo y contrase├▒a cuando la contrase├▒a est├í vac├¡a",
-    "commitTimestamp": 1792072980424,
     "testId": 18
   },
   {
@@ -418,12 +304,6 @@
     "testId": 19
   },
   {
-    "commitId": "3011eb4d3a478fc1155bc6b5087e12374c407ea1",
-    "commitName": "feat: avisar cuando el correo o la contrase├▒a son incorrectos",
-    "commitTimestamp": 1792073114537,
-    "testId": 19
-  },
-  {
     "numPassedTests": 16,
     "failedTests": 1,
     "numTotalTests": 17,
@@ -437,12 +317,6 @@
     "numTotalTests": 17,
     "timestamp": 1792073193016,
     "success": true,
-    "testId": 20
-  },
-  {
-    "commitId": "93e430e6ff3d2baa1d3b466bc96cf966430815eb",
-    "commitName": "feat: iniciar sesi├│n cuando el correo y la contrase├▒a son correctos",
-    "commitTimestamp": 1792073203468,
     "testId": 20
   },
   {
@@ -462,12 +336,6 @@
     "testId": 21
   },
   {
-    "commitId": "6dc379e8c3a121f4f98b33d0ba5b9a2ee6f4dbff",
-    "commitName": "feat: ignorar may├║sculas y espacios en el correo al iniciar sesi├│n",
-    "commitTimestamp": 1792073296614,
-    "testId": 21
-  },
-  {
     "numPassedTests": 18,
     "failedTests": 0,
     "numTotalTests": 18,
@@ -484,12 +352,6 @@
     "testId": 22
   },
   {
-    "commitId": "d3fa01734de1a2ae56d6a36b9c3952dc9ffe2296",
-    "commitName": "feat: crear presenter de inicio de sesi├│n",
-    "commitTimestamp": 1792073384548,
-    "testId": 22
-  },
-  {
     "numPassedTests": 19,
     "failedTests": 0,
     "numTotalTests": 19,
@@ -498,23 +360,11 @@
     "testId": 23
   },
   {
-    "commitId": "6edaacfddcbcec9fff63cc54ec38d06117aef2a1",
-    "commitName": "feat: crear formulario de inicio de sesi├│n en la vista",
-    "commitTimestamp": 1792073437984,
-    "testId": 23
-  },
-  {
     "numPassedTests": 19,
     "failedTests": 0,
     "numTotalTests": 19,
     "timestamp": 1792073483166,
     "success": true,
-    "testId": 24
-  },
-  {
-    "commitId": "3e1ec5d356f8ebcee2475e8dbf4b06ce8d9be358",
-    "commitName": "feat: conectar el inicio de sesi├│n en la pantalla principal",
-    "commitTimestamp": 1792073813217,
     "testId": 24
   },
   {
@@ -542,12 +392,6 @@
     "testId": 25
   },
   {
-    "commitId": "f8b214d931be566129caa18de043a0652c820177",
-    "commitName": "feat: crear la sesi├│n del usuario sin sesi├│n iniciada",
-    "commitTimestamp": 1792265356171,
-    "testId": 25
-  },
-  {
     "numPassedTests": 20,
     "failedTests": 1,
     "numTotalTests": 21,
@@ -561,12 +405,6 @@
     "numTotalTests": 21,
     "timestamp": 1792265392730,
     "success": true,
-    "testId": 26
-  },
-  {
-    "commitId": "523f6ff4a0dcfc2ec4ce961c77f40ef6295e3162",
-    "commitName": "feat: iniciar la sesi├│n del usuario",
-    "commitTimestamp": 1792265405468,
     "testId": 26
   },
   {
@@ -586,12 +424,6 @@
     "testId": 27
   },
   {
-    "commitId": "4f7b65ee4dd7e0b69a5f3c6a971f0a9c8223df77",
-    "commitName": "feat: obtener el usuario de la sesi├│n iniciada",
-    "commitTimestamp": 1792265643692,
-    "testId": 27
-  },
-  {
     "numPassedTests": 22,
     "failedTests": 1,
     "numTotalTests": 23,
@@ -605,12 +437,6 @@
     "numTotalTests": 23,
     "timestamp": 1792265690373,
     "success": true,
-    "testId": 28
-  },
-  {
-    "commitId": "9be9100e2a123bd387e51634e360ba30e3713374",
-    "commitName": "feat: cerrar la sesi├│n del usuario",
-    "commitTimestamp": 1792265715414,
     "testId": 28
   },
   {
@@ -638,12 +464,6 @@
     "testId": 29
   },
   {
-    "commitId": "3d5100f46917164f92383824d044b0ce808cdf29",
-    "commitName": "feat: pedir iniciar sesi├│n en p├íginas que requieren cuenta",
-    "commitTimestamp": 1792265926914,
-    "testId": 29
-  },
-  {
     "numPassedTests": 24,
     "failedTests": 1,
     "numTotalTests": 25,
@@ -657,12 +477,6 @@
     "numTotalTests": 25,
     "timestamp": 1792266011803,
     "success": true,
-    "testId": 30
-  },
-  {
-    "commitId": "2abe647820a2d4fa8c3799efa164a76a93454c85",
-    "commitName": "feat: mostrar p├íginas que requieren cuenta cuando hay sesi├│n",
-    "commitTimestamp": 1792266028605,
     "testId": 30
   },
   {
@@ -682,12 +496,6 @@
     "testId": 31
   },
   {
-    "commitId": "7fdca39a871b3a8e63962d0540984996bfbb90ad",
-    "commitName": "feat: permitir p├íginas p├║blicas sin sesi├│n",
-    "commitTimestamp": 1792266081299,
-    "testId": 31
-  },
-  {
     "numPassedTests": 26,
     "failedTests": 0,
     "numTotalTests": 26,
@@ -701,12 +509,6 @@
     "numTotalTests": 27,
     "timestamp": 1792266191754,
     "success": true,
-    "testId": 32
-  },
-  {
-    "commitId": "4757e4de76167015bf63698d03707734f4c85e41",
-    "commitName": "feat: crear presenter para cerrar sesi├│n",
-    "commitTimestamp": 1792266203836,
     "testId": 32
   },
   {
@@ -726,12 +528,6 @@
     "testId": 33
   },
   {
-    "commitId": "aa4d50d6906c6a343b5697fb52cb4a513aa385bf",
-    "commitName": "feat: iniciar sesi├│n desde el presenter de sesi├│n",
-    "commitTimestamp": 1792266255316,
-    "testId": 33
-  },
-  {
     "numPassedTests": 28,
     "failedTests": 1,
     "numTotalTests": 29,
@@ -745,12 +541,6 @@
     "numTotalTests": 29,
     "timestamp": 1792266305776,
     "success": true,
-    "testId": 34
-  },
-  {
-    "commitId": "174215c3bbab8bdddfa2a4cbe34884625bb955fd",
-    "commitName": "feat: proteger p├íginas y agregar el bot├│n de cerrar sesi├│n",
-    "commitTimestamp": 1792266328971,
     "testId": 34
   },
   {
@@ -794,12 +584,6 @@
     "testId": 35
   },
   {
-    "commitId": "f2140c07c9403a01f03f47f731dfa61c74dc66c5",
-    "commitName": "feat: crear reporte de objeto perdido con datos v├ílidos",
-    "commitTimestamp": 1792266666002,
-    "testId": 35
-  },
-  {
     "numPassedTests": 30,
     "failedTests": 1,
     "numTotalTests": 31,
@@ -813,12 +597,6 @@
     "numTotalTests": 31,
     "timestamp": 1792266756377,
     "success": true,
-    "testId": 36
-  },
-  {
-    "commitId": "7494cfa71ccdde76e8eb43fbeec93f7475ce4a5a",
-    "commitName": "feat: crear el reporte a nombre del usuario",
-    "commitTimestamp": 1792266768406,
     "testId": 36
   },
   {
@@ -838,12 +616,6 @@
     "testId": 37
   },
   {
-    "commitId": "709b714548c3a008cd73d5eb3ab9753b8a62b799",
-    "commitName": "feat: pedir nombre y fecha cuando el nombre est├í vac├¡o",
-    "commitTimestamp": 1792266845357,
-    "testId": 37
-  },
-  {
     "numPassedTests": 32,
     "failedTests": 1,
     "numTotalTests": 33,
@@ -857,12 +629,6 @@
     "numTotalTests": 33,
     "timestamp": 1792266895378,
     "success": true,
-    "testId": 38
-  },
-  {
-    "commitId": "1610cfacdcc22f3d96a58c8f41046afeb951fd0c",
-    "commitName": "feat: pedir nombre y fecha cuando la fecha est├í vac├¡a",
-    "commitTimestamp": 1792266905746,
     "testId": 38
   },
   {
@@ -882,12 +648,6 @@
     "testId": 39
   },
   {
-    "commitId": "3dd034a4e5953729db0de4b3a0f25fee5fdf1016",
-    "commitName": "feat: tratar como vac├¡o el nombre con solo espacios en el reporte",
-    "commitTimestamp": 1792266956761,
-    "testId": 39
-  },
-  {
     "numPassedTests": 34,
     "failedTests": 1,
     "numTotalTests": 35,
@@ -901,12 +661,6 @@
     "numTotalTests": 35,
     "timestamp": 1792267010237,
     "success": true,
-    "testId": 40
-  },
-  {
-    "commitId": "1d33a526c410427244f0ea0dd4f76901888af030",
-    "commitName": "feat: rechazar fechas de p├®rdida futuras",
-    "commitTimestamp": 1792267019290,
     "testId": 40
   },
   {
@@ -926,12 +680,6 @@
     "testId": 41
   },
   {
-    "commitId": "dcc92d34131cf8e3d05e364a03bf87f04fcbf1df",
-    "commitName": "feat: crear repositorio de objetos perdidos",
-    "commitTimestamp": 1792267090059,
-    "testId": 41
-  },
-  {
     "numPassedTests": 36,
     "failedTests": 1,
     "numTotalTests": 37,
@@ -945,12 +693,6 @@
     "numTotalTests": 37,
     "timestamp": 1792267142236,
     "success": true,
-    "testId": 42
-  },
-  {
-    "commitId": "45cd914c447f3d05aef1ff98399527f6cba7a2cd",
-    "commitName": "feat: guardar y listar los reportes de cada usuario",
-    "commitTimestamp": 1792267156183,
     "testId": 42
   },
   {
@@ -970,12 +712,6 @@
     "testId": 43
   },
   {
-    "commitId": "d8634c833f6ee67666cc47dffafcf140dc4fe9f4",
-    "commitName": "feat: convertir fechas al formato AAAA-MM-DD",
-    "commitTimestamp": 1792267237385,
-    "testId": 43
-  },
-  {
     "numPassedTests": 38,
     "failedTests": 0,
     "numTotalTests": 38,
@@ -989,12 +725,6 @@
     "numTotalTests": 39,
     "timestamp": 1792267296914,
     "success": true,
-    "testId": 44
-  },
-  {
-    "commitId": "b5b41ad0f52194c0a8926a2fd2d98f418cc12be1",
-    "commitName": "feat: agregar el formulario para reportar objetos perdidos",
-    "commitTimestamp": 1792267333477,
     "testId": 44
   },
   {
@@ -1022,12 +752,6 @@
     "testId": 45
   },
   {
-    "commitId": "5315a86682c1dc0ed1321a0e6d2df57405b06cf7",
-    "commitName": "feat: buscar objetos encontrados por nombre",
-    "commitTimestamp": 1792279030567,
-    "testId": 45
-  },
-  {
     "numPassedTests": 40,
     "failedTests": 1,
     "numTotalTests": 41,
@@ -1052,12 +776,6 @@
     "testId": 46
   },
   {
-    "commitId": "6925efbd56bd6e26953613bc485bf806c7ce7db9",
-    "commitName": "feat: buscar objetos encontrados por descripci├│n",
-    "commitTimestamp": 1792279220633,
-    "testId": 46
-  },
-  {
     "numPassedTests": 41,
     "failedTests": 1,
     "numTotalTests": 42,
@@ -1074,12 +792,6 @@
     "testId": 47
   },
   {
-    "commitId": "70a7a8b438c21cfcfc1df98e61675db8324927df",
-    "commitName": "feat: buscar sin importar may├║sculas y min├║sculas",
-    "commitTimestamp": 1792280094974,
-    "testId": 47
-  },
-  {
     "numPassedTests": 42,
     "failedTests": 0,
     "numTotalTests": 42,
@@ -1093,12 +805,6 @@
     "numTotalTests": 43,
     "timestamp": 1792280402628,
     "success": true,
-    "testId": 48
-  },
-  {
-    "commitId": "2ebed19220f48612b0b7e37e2d96f1dfcc3819ce",
-    "commitName": "feat: mostrar los objetos que coinciden con la b├║squeda",
-    "commitTimestamp": 1792280428283,
     "testId": 48
   },
   {
@@ -1134,12 +840,6 @@
     "testId": 49
   },
   {
-    "commitId": "d7fcb9c98678682397ed7d98d195f590a43a49b4",
-    "commitName": "feat: avisar cuando no hay objetos que coincidan",
-    "commitTimestamp": 1792280604222,
-    "testId": 49
-  },
-  {
     "numPassedTests": 44,
     "failedTests": 1,
     "numTotalTests": 45,
@@ -1153,12 +853,6 @@
     "numTotalTests": 45,
     "timestamp": 1792280731713,
     "success": true,
-    "testId": 50
-  },
-  {
-    "commitId": "bff6616c054db670e3aba3d209f1b187b8823763",
-    "commitName": "feat: mostrar todos los objetos del m├ís reciente al m├ís antiguo",
-    "commitTimestamp": 1792280751298,
     "testId": 50
   },
   {
@@ -1178,12 +872,6 @@
     "testId": 51
   },
   {
-    "commitId": "0a4499ca444b0e761d5d1aa525c2be556229bbb8",
-    "commitName": "feat: crear repositorio de objetos encontrados",
-    "commitTimestamp": 1792280899542,
-    "testId": 51
-  },
-  {
     "numPassedTests": 46,
     "failedTests": 1,
     "numTotalTests": 47,
@@ -1197,12 +885,6 @@
     "numTotalTests": 47,
     "timestamp": 1792280966376,
     "success": true,
-    "testId": 52
-  },
-  {
-    "commitId": "cf27223d3c2cc2a5d1c47c84eb01f7c85152dae2",
-    "commitName": "feat: guardar objetos encontrados en el navegador",
-    "commitTimestamp": 1792280989853,
     "testId": 52
   },
   {
@@ -1222,12 +904,6 @@
     "testId": 53
   },
   {
-    "commitId": "02d5d4086f651ae4bf560c0a443e67be92689524",
-    "commitName": "feat: agregar la pantalla para buscar objetos encontrados",
-    "commitTimestamp": 1792281334600,
-    "testId": 53
-  },
-  {
     "numPassedTests": 48,
     "failedTests": 0,
     "numTotalTests": 48,
@@ -1241,12 +917,6 @@
     "numTotalTests": 49,
     "timestamp": 1792283119730,
     "success": true,
-    "testId": 54
-  },
-  {
-    "commitId": "93b2336b36cd412af37331be16a418eeeed90be8",
-    "commitName": "feat: cargar objetos encontrados de ejemplo",
-    "commitTimestamp": 1792283150453,
     "testId": 54
   },
   {
@@ -1266,12 +936,6 @@
     "testId": 55
   },
   {
-    "commitId": "ed87c29857dd712ce9082c7a7ebf7e0142514774",
-    "commitName": "feat: no duplicar los objetos de ejemplo al recargar",
-    "commitTimestamp": 1792283351767,
-    "testId": 55
-  },
-  {
     "numPassedTests": 50,
     "failedTests": 1,
     "numTotalTests": 51,
@@ -1285,12 +949,6 @@
     "numTotalTests": 51,
     "timestamp": 1792284180754,
     "success": true,
-    "testId": 56
-  },
-  {
-    "commitId": "2f6a2846890ec2f7f51010c7073e92254302c989",
-    "commitName": "feat: mostrar la vista b├ísica de un objeto encontrado",
-    "commitTimestamp": 1792284208169,
     "testId": 56
   },
   {
@@ -1310,12 +968,6 @@
     "testId": 57
   },
   {
-    "commitId": "0c3bfca30ab35831e1ca3e056bae0bc83e988210",
-    "commitName": "feat: ocultar los datos de quien encontr├│ el objeto",
-    "commitTimestamp": 1792284350462,
-    "testId": 57
-  },
-  {
     "numPassedTests": 52,
     "failedTests": 1,
     "numTotalTests": 53,
@@ -1329,12 +981,6 @@
     "numTotalTests": 53,
     "timestamp": 1792284412320,
     "success": true,
-    "testId": 58
-  },
-  {
-    "commitId": "2a86c3c83f1fcecd248108eb64c115a659dc3ef4",
-    "commitName": "feat: buscar un objeto encontrado por su id",
-    "commitTimestamp": 1792284437248,
     "testId": 58
   },
   {
@@ -1362,12 +1008,6 @@
     "testId": 59
   },
   {
-    "commitId": "df87ce056435943874eee66daedb8e9be80e1405",
-    "commitName": "feat: ver los datos de un objeto al presionarlo en la lista",
-    "commitTimestamp": 1792284967518,
-    "testId": 59
-  },
-  {
     "numPassedTests": 54,
     "failedTests": 1,
     "numTotalTests": 55,
@@ -1384,23 +1024,11 @@
     "testId": 60
   },
   {
-    "commitId": "31ce16d3bdcf190e37c0399a92d27b48ebffad93",
-    "commitName": "feat: no enviar a la lista los datos de quien encontr├│ el objeto",
-    "commitTimestamp": 1792285099645,
-    "testId": 60
-  },
-  {
     "numPassedTests": 55,
     "failedTests": 0,
     "numTotalTests": 55,
     "timestamp": 1792285400652,
     "success": true,
-    "testId": 61
-  },
-  {
-    "commitId": "c304f429b529f1dbf4b258e11ade51fb5695425c",
-    "commitName": "docs: agregar las pruebas manuales del sprint 1",
-    "commitTimestamp": 1792285702672,
     "testId": 61
   },
   {
@@ -1428,23 +1056,11 @@
     "testId": 62
   },
   {
-    "commitId": "37281414ddf8e34df7b6e04902510f8b30900221",
-    "commitName": "chore: ejecutar las pruebas autom├íticamente en cada push y en cada pull request",
-    "commitTimestamp": 1792290200271,
-    "testId": 62
-  },
-  {
     "numPassedTests": 55,
     "failedTests": 0,
     "numTotalTests": 55,
     "timestamp": 1792290237845,
     "success": true,
-    "testId": 63
-  },
-  {
-    "commitId": "5d2fb29e3429c689c4f30ed5cc176dc7ab85fc10",
-    "commitName": "chore: correr las pruebas antes de cada commit",
-    "commitTimestamp": 1792290259618,
     "testId": 63
   },
   {
@@ -1472,12 +1088,6 @@
     "testId": 64
   },
   {
-    "commitId": "b2763425c37636f3cdf45e04a59aa954629c1e8f",
-    "commitName": "feat: registrar objeto encontrado con foto y descripci├│n",
-    "commitTimestamp": 1792366406648,
-    "testId": 64
-  },
-  {
     "numPassedTests": 56,
     "failedTests": 1,
     "numTotalTests": 57,
@@ -1491,12 +1101,6 @@
     "numTotalTests": 57,
     "timestamp": 1792366518804,
     "success": true,
-    "testId": 65
-  },
-  {
-    "commitId": "7ea73248a55c79ac09e5adbbd8ae561414dd8b5c",
-    "commitName": "feat: crear el objeto encontrado con la fecha de hoy y el correo de quien lo encontr├│",
-    "commitTimestamp": 1792366540229,
     "testId": 65
   },
   {
@@ -1516,12 +1120,6 @@
     "testId": 66
   },
   {
-    "commitId": "69b61a9fae434136bf5f29db38a18cc9a6e7cd95",
-    "commitName": "feat: pedir foto y descripci├│n cuando falta la foto",
-    "commitTimestamp": 1792366710640,
-    "testId": 66
-  },
-  {
     "numPassedTests": 58,
     "failedTests": 1,
     "numTotalTests": 59,
@@ -1538,12 +1136,6 @@
     "testId": 67
   },
   {
-    "commitId": "897d610a4b7f8d73a353e4c08934cad40ffcb3db",
-    "commitName": "feat: pedir foto y descripci├│n cuando falta la descripci├│n",
-    "commitTimestamp": 1792366867301,
-    "testId": 67
-  },
-  {
     "numPassedTests": 59,
     "failedTests": 1,
     "numTotalTests": 60,
@@ -1557,12 +1149,6 @@
     "numTotalTests": 60,
     "timestamp": 1792366987209,
     "success": true,
-    "testId": 68
-  },
-  {
-    "commitId": "83c5d0ce46dfcad1bf748212283c1332e474c079",
-    "commitName": "feat: tratar como vac├¡a la descripci├│n con solo espacios",
-    "commitTimestamp": 1792367014303,
     "testId": 68
   },
   {
@@ -1590,12 +1176,6 @@
     "testId": 69
   },
   {
-    "commitId": "4ab7b387972b7371fa4e40cf11d11d0ebb69c958",
-    "commitName": "feat: usar un nombre por defecto cuando no se escribe el nombre del objeto",
-    "commitTimestamp": 1792367160192,
-    "testId": 69
-  },
-  {
     "numPassedTests": 61,
     "failedTests": 1,
     "numTotalTests": 62,
@@ -1609,12 +1189,6 @@
     "numTotalTests": 62,
     "timestamp": 1792367238305,
     "success": true,
-    "testId": 70
-  },
-  {
-    "commitId": "f216ee26e7458d24954d0affc3f8df2a62fc4cdc",
-    "commitName": "feat: aceptar solo im├ígenes como foto del objeto",
-    "commitTimestamp": 1792367248530,
     "testId": 70
   },
   {
@@ -1634,12 +1208,6 @@
     "testId": 71
   },
   {
-    "commitId": "0717bf1f281052e036947fff8ad112aa29ce797c",
-    "commitName": "feat: guardar el objeto registrado para que aparezca en la lista",
-    "commitTimestamp": 1792367474288,
-    "testId": 71
-  },
-  {
     "numPassedTests": 63,
     "failedTests": 1,
     "numTotalTests": 64,
@@ -1653,12 +1221,6 @@
     "numTotalTests": 64,
     "timestamp": 1792367525139,
     "success": true,
-    "testId": 72
-  },
-  {
-    "commitId": "40587cc66890f098767bff9b7582dafc3b0dbe01",
-    "commitName": "feat: no guardar el objeto cuando faltan la foto o la descripci├│n",
-    "commitTimestamp": 1792367536056,
     "testId": 72
   },
   {
@@ -1678,12 +1240,6 @@
     "testId": 73
   },
   {
-    "commitId": "1c02fea757085900de4eee6383992fa79df45611",
-    "commitName": "feat: avisar cuando la foto es muy pesada para guardarla",
-    "commitTimestamp": 1792367609396,
-    "testId": 73
-  },
-  {
     "numPassedTests": 65,
     "failedTests": 1,
     "numTotalTests": 66,
@@ -1698,24 +1254,6 @@
     "timestamp": 1792367687165,
     "success": true,
     "testId": 74
-  },
-  {
-    "commitId": "b0e9b04ea530f2b38478b0f79b01d473a808e2b7",
-    "commitName": "feat: pedir iniciar sesi├│n para registrar un objeto encontrado",
-    "commitTimestamp": 1792367696947,
-    "testId": 74
-  },
-  {
-    "commitId": "5a7b03391da7097758a875f3da09172fca38b10c",
-    "commitName": "feat: agregar la pantalla para registrar objetos encontrados",
-    "commitTimestamp": 1792368481330,
-    "testId": 75
-  },
-  {
-    "commitId": "4719652fcf8c8c86c4609d6c0d8c3162aa9205ba",
-    "commitName": "chore: unir main en la rama de la HU-11",
-    "commitTimestamp": 1792370657699,
-    "testId": 76
   },
   {
     "numPassedTests": 66,
@@ -1742,12 +1280,6 @@
     "testId": 77
   },
   {
-    "commitId": "d05c28b50d272191408bd560799b3fa2ddedeada",
-    "commitName": "refactor: crear los presenters de registro e inicio de sesi├│n en main.jsx",
-    "commitTimestamp": 1792503750368,
-    "testId": 77
-  },
-  {
     "numPassedTests": 66,
     "failedTests": 1,
     "numTotalTests": 67,
@@ -1761,12 +1293,6 @@
     "numTotalTests": 67,
     "timestamp": 1792504037167,
     "success": true,
-    "testId": 78
-  },
-  {
-    "commitId": "b3502a60f599ba5387a3b0a81f7d29787e133536",
-    "commitName": "fix: pedir sesi├│n para buscar objetos encontrados",
-    "commitTimestamp": 1792504060472,
     "testId": 78
   },
   {
@@ -1786,12 +1312,6 @@
     "testId": 79
   },
   {
-    "commitId": "610c6e569db64d5605b129463acf76a75a9ccdbc",
-    "commitName": "fix: buscar sin importar las tildes",
-    "commitTimestamp": 1792504154404,
-    "testId": 79
-  },
-  {
     "numPassedTests": 68,
     "failedTests": 1,
     "numTotalTests": 69,
@@ -1806,24 +1326,6 @@
     "timestamp": 1792504215159,
     "success": true,
     "testId": 80
-  },
-  {
-    "commitId": "ee03452daab51102371664064ddb917ba9aa1bdc",
-    "commitName": "fix: mostrar primero el ├║ltimo objeto registrado cuando tienen la misma fecha",
-    "commitTimestamp": 1792504237526,
-    "testId": 80
-  },
-  {
-    "commitId": "ed008d06df1cd0fe714ba6514f1fea762e6e5951",
-    "commitName": "docs: agregar la HU-11 y las correcciones a las pruebas manuales",
-    "commitTimestamp": 1792504518350,
-    "testId": 81
-  },
-  {
-    "commitId": "7d36b164b793e70b5537bf2e095a04b085a9a1d6",
-    "commitName": "docs: marcar los resultados de las pruebas manuales del sprint 1",
-    "commitTimestamp": 1792504672633,
-    "testId": 82
   },
   {
     "numPassedTests": 69,
@@ -1842,24 +1344,6 @@
     "testId": 83
   },
   {
-    "commitId": "e518842f35389b7b101fbac804fd323b4c500072",
-    "commitName": "feat: agregar actualizar al repositorio de objetos encontrados",
-    "commitTimestamp": 1792526686121,
-    "testId": 83
-  },
-  {
-    "commitId": "03018029050384472f84ec04a18d0aef1c5eb6ad",
-    "commitName": "refactor: reemplazar los emojis de los objetos de ejemplo por fotos reales",
-    "commitTimestamp": 1792526714638,
-    "testId": 84
-  },
-  {
-    "commitId": "bce695d316180d3d61978632c4a48b09d3e7687e",
-    "commitName": "Merge remote-tracking branch 'origin/main' into test/integracion-registro-login\n\n# Conflicts:\n#\tscript/commit-history.json\n#\tscript/tdd_log.json",
-    "commitTimestamp": 1792595233094,
-    "testId": 85
-  },
-  {
     "numPassedTests": 70,
     "failedTests": 0,
     "numTotalTests": 70,
@@ -1876,23 +1360,11 @@
     "testId": 86
   },
   {
-    "commitId": "99f8386cd6d9eae93a60589fc06f4e744903541f",
-    "commitName": "refactor: nombrar como predicados los m├®todos de ObjetoPerdido",
-    "commitTimestamp": 1794319266644,
-    "testId": 86
-  },
-  {
     "numPassedTests": 70,
     "failedTests": 0,
     "numTotalTests": 70,
     "timestamp": 1794319318456,
     "success": true,
-    "testId": 87
-  },
-  {
-    "commitId": "b4f36971b31166f5f102495c30a7af24ba0db03a",
-    "commitName": "refactor: agrupar las pruebas repetidas del registro de usuario",
-    "commitTimestamp": 1794319327511,
     "testId": 87
   },
   {
@@ -1904,30 +1376,12 @@
     "testId": 88
   },
   {
-    "commitId": "e088eaaeec1ee1a9f9b059abc0237aa1d90642f7",
-    "commitName": "chore: unir main en la rama refactor/majo-objeto-perdido",
-    "commitTimestamp": 1794320546802,
-    "testId": 88
-  },
-  {
     "numPassedTests": 70,
     "failedTests": 0,
     "numTotalTests": 70,
     "timestamp": 1794320758386,
     "success": true,
     "testId": 89
-  },
-  {
-    "commitId": "1ce7f3465590f5ae47698dfedcb5e35336909e8f",
-    "commitName": "chore: unir main en la rama refactor/majo-objeto-perdido",
-    "commitTimestamp": 1794320767826,
-    "testId": 89
-  },
-  {
-    "commitId": "b54554a5113c49aa437a8d8ad7bf81480462cbcb",
-    "commitName": "chore: resolver conflictos de los logs con main",
-    "commitTimestamp": 1794321683632,
-    "testId": 90
   },
   {
     "numPassedTests": 70,
@@ -1938,29 +1392,11 @@
     "testId": 91
   },
   {
-    "commitId": "3bddcefe2e2216ec4d782aaad4b2e83b632263a2",
-    "commitName": "test: registrar ejecucion de pruebas",
-    "commitTimestamp": 1794321854027,
-    "testId": 91
-  },
-  {
-    "commitId": "d676277bdaf96b0dfafbd0c36cdffdca53899579",
-    "commitName": "chore: resolver conflictos de los logs con main",
-    "commitTimestamp": 1794485969579,
-    "testId": 92
-  },
-  {
     "numPassedTests": 70,
     "failedTests": 0,
     "numTotalTests": 70,
     "timestamp": 1794486233496,
     "success": true,
-    "testId": 93
-  },
-  {
-    "commitId": "0df59a64bc52423ce8b59902bac829bfbc27dec6",
-    "commitName": "refactor: renombrar mostrarPagina a resolverPagina en SesionPresenter",
-    "commitTimestamp": 1794486244109,
     "testId": 93
   },
   {
@@ -1972,23 +1408,11 @@
     "testId": 94
   },
   {
-    "commitId": "d404ffdf8ece3230707dbc9db47402e23ed36b9a",
-    "commitName": "refactor: renombrar pidioIniciarSesion a fueRedirigidoAlLogin en main",
-    "commitTimestamp": 1794486325675,
-    "testId": 94
-  },
-  {
     "numPassedTests": 70,
     "failedTests": 0,
     "numTotalTests": 70,
     "timestamp": 1794486442753,
     "success": true,
-    "testId": 95
-  },
-  {
-    "commitId": "091103eb2222ce03b7f478079ae9a09351d27118",
-    "commitName": "refactor: renombrar vistaBasica a obtenerVistaBasica en ObjetoEncontrado",
-    "commitTimestamp": 1794486453900,
     "testId": 95
   },
   {
@@ -2000,23 +1424,11 @@
     "testId": 96
   },
   {
-    "commitId": "0ba2720453257fb7c8523a0fa8e6fe5e72131254",
-    "commitName": "refactor: renombrar obtenerUsuarios a obtenerTodos en RepositorioUsuarios",
-    "commitTimestamp": 1794486557456,
-    "testId": 96
-  },
-  {
     "numPassedTests": 70,
     "failedTests": 0,
     "numTotalTests": 70,
     "timestamp": 1794486697487,
     "success": true,
-    "testId": 97
-  },
-  {
-    "commitId": "87f97ae3310cb9de60d9943295fe0802898ff15f",
-    "commitName": "refactor: renombrar obtenerReportes a obtenerTodos en RepositorioReportes",
-    "commitTimestamp": 1794486709936,
     "testId": 97
   },
   {
@@ -2044,23 +1456,11 @@
     "testId": 98
   },
   {
-    "commitId": "e5e78307d12405eea135f45727bd1eb8d54fa949",
-    "commitName": "refactor: renombrar sinTildes a quitarTildes en ObjetoEncontrado",
-    "commitTimestamp": 1794487047895,
-    "testId": 98
-  },
-  {
     "numPassedTests": 70,
     "failedTests": 0,
     "numTotalTests": 70,
     "timestamp": 1794487133168,
     "success": true,
-    "testId": 99
-  },
-  {
-    "commitId": "8537c7d5ccdfdce872cc92d6538f7b9203ed75b1",
-    "commitName": "refactor: renombrar fechaComoTexto a convertirFechaATexto",
-    "commitTimestamp": 1794487144062,
     "testId": 99
   },
   {
@@ -2072,23 +1472,11 @@
     "testId": 100
   },
   {
-    "commitId": "b8ae9b2343c725d6bee1e1f5a0d3bea13325e017",
-    "commitName": "refactor: renombrar correoYaRegistrado a estaRegistrado en RegistroUsuario",
-    "commitTimestamp": 1794487228276,
-    "testId": 100
-  },
-  {
     "numPassedTests": 70,
     "failedTests": 0,
     "numTotalTests": 70,
     "timestamp": 1794487417195,
     "success": true,
-    "testId": 101
-  },
-  {
-    "commitId": "d619d5526be4ec2b55d10229c623c9d252ce309e",
-    "commitName": "refactor: renombrar el archivo registro.js a registroUsuario.js",
-    "commitTimestamp": 1794487428424,
     "testId": 101
   },
   {
@@ -2108,23 +1496,11 @@
     "testId": 102
   },
   {
-    "commitId": "6ace7a5e8d1930ecf39a990ac9dfe59589643e02",
-    "commitName": "refactor: usar la funci├│n crearError compartida en RegistroUsuario",
-    "commitTimestamp": 1794487707079,
-    "testId": 102
-  },
-  {
     "numPassedTests": 70,
     "failedTests": 0,
     "numTotalTests": 70,
     "timestamp": 1794487796544,
     "success": true,
-    "testId": 103
-  },
-  {
-    "commitId": "58872da3dc8bebeb077f5c4b286b6e441cb44fbf",
-    "commitName": "refactor: usar la funci├│n crearError compartida en RegistroObjetoEncontrado",
-    "commitTimestamp": 1794487807208,
     "testId": 103
   },
   {
@@ -2134,18 +1510,6 @@
     "timestamp": 1794487854300,
     "success": true,
     "testId": 104
-  },
-  {
-    "commitId": "58f455cab94c3dcd47fa090239d508cb2975928f",
-    "commitName": "refactor: usar la funci├│n crearError compartida en ReporteObjetoPerdido",
-    "commitTimestamp": 1794487865340,
-    "testId": 104
-  },
-  {
-    "commitId": "c7830ba84fb72b61d3b15379269f54b5f326b3a8",
-    "commitName": "chore: resolver conflictos de los logs con main",
-    "commitTimestamp": 1794490834863,
-    "testId": 105
   },
   {
     "numPassedTests": 70,
@@ -2180,35 +1544,11 @@
     "testId": 106
   },
   {
-    "commitId": "c7830ba84fb72b61d3b15379269f54b5f326b3a8",
-    "commitName": "refactor: renombrar cargandoFoto a estaCargandoFoto",
-    "commitTimestamp": 1794491238974,
-    "testId": 106
-  },
-  {
-    "commitId": "ac78620ab7012710d592042d2698d2fb86909bb2",
-    "commitName": "refactor: usar faltanFotoODescripcion en registrar",
-    "commitTimestamp": 1794491326377,
-    "testId": 107
-  },
-  {
-    "commitId": "3d6ce3ed241f649790ccc65bee2a562e5b15b9b7",
-    "commitName": "refactor: renombrar cargandoFoto a estaCargandoFoto",
-    "commitTimestamp": 1794491359856,
-    "testId": 108
-  },
-  {
     "numPassedTests": 70,
     "failedTests": 0,
     "numTotalTests": 70,
     "timestamp": 1794492743931,
     "success": true,
-    "testId": 109
-  },
-  {
-    "commitId": "980e05c5f5e15aab2be7beb1310b98af99a9deb6",
-    "commitName": "refactor: ajusta el dise├▒o del registro de objeto encontrado al prototipo",
-    "commitTimestamp": 1794492827477,
     "testId": 109
   },
   {
@@ -2228,12 +1568,6 @@
     "testId": 110
   },
   {
-    "commitId": "3de9fe9c738a5b3a0a7a431e71e986dcff5eb49d",
-    "commitName": "feat: guardar la categor├¡a del objeto encontrado (HU-13)",
-    "commitTimestamp": 1794496724183,
-    "testId": 110
-  },
-  {
     "numPassedTests": 71,
     "failedTests": 1,
     "numTotalTests": 72,
@@ -2247,12 +1581,6 @@
     "numTotalTests": 72,
     "timestamp": 1794497091884,
     "success": true,
-    "testId": 111
-  },
-  {
-    "commitId": "afceabeb20f253f91b2fb499e3981b603c86bf41",
-    "commitName": "feat: pedir la categor├¡a al registrar un objeto encontrado (HU-13)",
-    "commitTimestamp": 1794497257356,
     "testId": 111
   },
   {
@@ -2272,12 +1600,6 @@
     "testId": 112
   },
   {
-    "commitId": "35bc008ef397321a57785b091593319ec06419b7",
-    "commitName": "feat: aceptar solo categor├¡as de la lista oficial (HU-13)",
-    "commitTimestamp": 1794497446227,
-    "testId": 112
-  },
-  {
     "numPassedTests": 73,
     "failedTests": 1,
     "numTotalTests": 74,
@@ -2291,12 +1613,6 @@
     "numTotalTests": 74,
     "timestamp": 1794497553558,
     "success": true,
-    "testId": 113
-  },
-  {
-    "commitId": "5e3a62518d035007b871b6d3f9823b23470f857d",
-    "commitName": "feat: mostrar la categor├¡a en el detalle del objeto (HU-13)",
-    "commitTimestamp": 1794497575882,
     "testId": 113
   },
   {
@@ -2316,12 +1632,6 @@
     "testId": 114
   },
   {
-    "commitId": "5cc1ba309f91ec949f865d1235d962cb340eae3c",
-    "commitName": "feat: mostrar Sin categor├¡a en objetos anteriores (HU-13)",
-    "commitTimestamp": 1794497733635,
-    "testId": 114
-  },
-  {
     "numPassedTests": 75,
     "failedTests": 1,
     "numTotalTests": 76,
@@ -2335,12 +1645,6 @@
     "numTotalTests": 76,
     "timestamp": 1794497911464,
     "success": true,
-    "testId": 115
-  },
-  {
-    "commitId": "d9db9260885aed1bc116e0d803cdf3abe4734f3a",
-    "commitName": "feat: ofrecer la lista de categor├¡as al formulario (HU-13)",
-    "commitTimestamp": 1794497944742,
     "testId": 115
   },
   {
@@ -2360,23 +1664,11 @@
     "testId": 116
   },
   {
-    "commitId": "e9a88d839c67f500fd140e935d7b9f661ee3a9b4",
-    "commitName": "feat: elegir la categor├¡a en el formulario y verla en el detalle (HU-13)",
-    "commitTimestamp": 1794498394886,
-    "testId": 116
-  },
-  {
     "numPassedTests": 78,
     "failedTests": 0,
     "numTotalTests": 78,
     "timestamp": 1794507444760,
     "success": true,
-    "testId": 117
-  },
-  {
-    "commitId": "4c40e5f5aab0d5fa1d6baca34a7917955aa75ae1",
-    "commitName": "chore: resolver conflictos con main (HU-13)",
-    "commitTimestamp": 1794507483832,
     "testId": 117
   },
   {
@@ -2393,12 +1685,6 @@
     "numTotalTests": 80,
     "timestamp": 1794508219603,
     "success": true,
-    "testId": 118
-  },
-  {
-    "commitId": "c0562f43c390d0e0b7cd06fdc3cd19d454af0ebc",
-    "commitName": "feat: agregar la lista compartida de bloques de los dos campus",
-    "commitTimestamp": 1794508253920,
     "testId": 118
   },
   {
@@ -2426,12 +1712,6 @@
     "testId": 119
   },
   {
-    "commitId": "c27ec8388c22f32c011b41be5a2bce936503c18f",
-    "commitName": "feat: guardar el bloque y el aula del objeto encontrado (HU-12)",
-    "commitTimestamp": 1794509630716,
-    "testId": 119
-  },
-  {
     "numPassedTests": 81,
     "failedTests": 1,
     "numTotalTests": 82,
@@ -2448,12 +1728,6 @@
     "testId": 120
   },
   {
-    "commitId": "49f3921b5de887f1c1b8230e36e37ecafab9a097",
-    "commitName": "feat: pedir el bloque cuando no se elige uno (HU-12)",
-    "commitTimestamp": 1794509859936,
-    "testId": 120
-  },
-  {
     "numPassedTests": 82,
     "failedTests": 2,
     "numTotalTests": 84,
@@ -2467,12 +1741,6 @@
     "numTotalTests": 84,
     "timestamp": 1794510013345,
     "success": true,
-    "testId": 121
-  },
-  {
-    "commitId": "9352a7fee95b3eb66d37f4879fcb27452a554c0f",
-    "commitName": "feat: el aula es opcional y se guarda sin espacios sobrantes (HU-12)",
-    "commitTimestamp": 1794510021710,
     "testId": 121
   },
   {
@@ -2500,12 +1768,6 @@
     "testId": 122
   },
   {
-    "commitId": "eeb31b2631a8fc7790359b21466279bba3878b24",
-    "commitName": "feat: mostrar bloque y aula en el detalle del objeto (HU-12)",
-    "commitTimestamp": 1794510439984,
-    "testId": 122
-  },
-  {
     "numPassedTests": 85,
     "failedTests": 1,
     "numTotalTests": 86,
@@ -2519,12 +1781,6 @@
     "numTotalTests": 86,
     "timestamp": 1794510620837,
     "success": true,
-    "testId": 123
-  },
-  {
-    "commitId": "840f3b428ac110ab15d296841d966addb2a9654f",
-    "commitName": "feat: mostrar solo el bloque en el detalle cuando no hay aula (HU-12)",
-    "commitTimestamp": 1794510629612,
     "testId": 123
   },
   {
@@ -2544,12 +1800,6 @@
     "testId": 124
   },
   {
-    "commitId": "f28dccb9090c921eaf3c8e08fd15408966eec124",
-    "commitName": "feat: mostrar Lugar no indicado en objetos anteriores sin lugar (HU-12)",
-    "commitTimestamp": 1794510824505,
-    "testId": 124
-  },
-  {
     "numPassedTests": 86,
     "failedTests": 1,
     "numTotalTests": 87,
@@ -2566,12 +1816,6 @@
     "testId": 125
   },
   {
-    "commitId": "cdc43db328c261551f37ada9f92011195525adc8",
-    "commitName": "feat: ofrecer la lista de bloques al formulario de registro (HU-12)",
-    "commitTimestamp": 1794510992934,
-    "testId": 125
-  },
-  {
     "numPassedTests": 87,
     "failedTests": 0,
     "numTotalTests": 87,
@@ -2580,29 +1824,11 @@
     "testId": 126
   },
   {
-    "commitId": "1c964c276f30e28cb7e894b6d06b8733fd22a445",
-    "commitName": "feat: mostrar el lugar donde se encontr├│ en el detalle del objeto (HU-12)",
-    "commitTimestamp": 1794511146713,
-    "testId": 126
-  },
-  {
-    "commitId": "8f36acffbd54ad33031609e260aeb0ac97c93ae1",
-    "commitName": "feat: saber si un objeto es de una categor├¡a",
-    "commitTimestamp": 1794511518018,
-    "testId": 119
-  },
-  {
     "numPassedTests": 87,
     "failedTests": 0,
     "numTotalTests": 87,
     "timestamp": 1794511975569,
     "success": true,
-    "testId": 127
-  },
-  {
-    "commitId": "04143c4da0391887d018e5b7b339787526680542",
-    "commitName": "feat: agregar los campos de bloque y aula al formulario de objeto encontrado (HU-12)",
-    "commitTimestamp": 1794511984563,
     "testId": 127
   },
   {
@@ -2622,23 +1848,11 @@
     "testId": 128
   },
   {
-    "commitId": "2e778b520e4809d4dda7ece77ed360fefa38971e",
-    "commitName": "feat: agregar esImagen para reconocer si una foto es una imagen",
-    "commitTimestamp": 1794513815516,
-    "testId": 128
-  },
-  {
     "numPassedTests": 88,
     "failedTests": 0,
     "numTotalTests": 88,
     "timestamp": 1794513940737,
     "success": true,
-    "testId": 129
-  },
-  {
-    "commitId": "7069052dbc606a512b60d1dff0b72422fa697b3b",
-    "commitName": "refactor: usar esImagen para validar la foto al registrar un objeto",
-    "commitTimestamp": 1794513951727,
     "testId": 129
   },
   {
@@ -2658,12 +1872,6 @@
     "testId": 130
   },
   {
-    "commitId": "5a8c5a565bf9c3ce7e98b940a07bc3a93de11ad9",
-    "commitName": "refactor: usar esImagen para mostrar la vista previa de la foto",
-    "commitTimestamp": 1794514075541,
-    "testId": 130
-  },
-  {
     "numPassedTests": 88,
     "failedTests": 1,
     "numTotalTests": 89,
@@ -2680,12 +1888,6 @@
     "testId": 131
   },
   {
-    "commitId": "67e9f21273eb0d7093bfcb7dbe2bb87fe93190bc",
-    "commitName": "feat: calcular el tama├▒o reducido de una foto grande",
-    "commitTimestamp": 1794514782589,
-    "testId": 131
-  },
-  {
     "numPassedTests": 89,
     "failedTests": 1,
     "numTotalTests": 90,
@@ -2694,23 +1896,11 @@
     "testId": 132
   },
   {
-    "commitId": "fd6a2394436c54eeb253687988dd63c59c7f3a02",
-    "commitName": "feat: aceptar todas las categor├¡as y objetos sin categor├¡a con Todas",
-    "commitTimestamp": 1794514820370,
-    "testId": 120
-  },
-  {
     "numPassedTests": 90,
     "failedTests": 0,
     "numTotalTests": 90,
     "timestamp": 1794514842423,
     "success": true,
-    "testId": 132
-  },
-  {
-    "commitId": "e46b0a9139124cfc1ca77f37fa797ecde86573ea",
-    "commitName": "feat: no agrandar las fotos que ya son peque├▒as",
-    "commitTimestamp": 1794514880586,
     "testId": 132
   },
   {
@@ -2722,12 +1912,6 @@
     "testId": 133
   },
   {
-    "commitId": "60972f0b96481282eceb2b14004897b25de0cc5f",
-    "commitName": "refactor: crear lectorDeFoto con la lectura y el achicado de la foto",
-    "commitTimestamp": 1794514938971,
-    "testId": 133
-  },
-  {
     "numPassedTests": 90,
     "failedTests": 0,
     "numTotalTests": 90,
@@ -2736,29 +1920,11 @@
     "testId": 134
   },
   {
-    "commitId": "5e616f99f73e25eff72f24e88c1a6c55aae08c40",
-    "commitName": "refactor: usar lectorDeFoto en el formulario y quitar la l├│gica de achicar de la vista",
-    "commitTimestamp": 1794515091244,
-    "testId": 134
-  },
-  {
-    "commitId": "0581bd5b5eea40c52c9fff0e9e6450899a26ac31",
-    "commitName": "feat: filtrar objetos encontrados por categor├¡a",
-    "commitTimestamp": 1794515731264,
-    "testId": 121
-  },
-  {
     "numPassedTests": 90,
     "failedTests": 0,
     "numTotalTests": 90,
     "timestamp": 1794516740276,
     "success": true,
-    "testId": 135
-  },
-  {
-    "commitId": "c872d2be88024d258d515f00e04f0e8ec7ae22bd",
-    "commitName": "test: simular el error real de almacenamiento lleno del navegador",
-    "commitTimestamp": 1794516751295,
     "testId": 135
   },
   {
@@ -2778,12 +1944,6 @@
     "testId": 136
   },
   {
-    "commitId": "da1598cc73d095d22784d2a433b1789e882eee10",
-    "commitName": "feat: distinguir el error de espacio lleno de otros fallos al guardar el objeto",
-    "commitTimestamp": 1794516886181,
-    "testId": 136
-  },
-  {
     "numPassedTests": 91,
     "failedTests": 0,
     "numTotalTests": 91,
@@ -2792,23 +1952,11 @@
     "testId": 137
   },
   {
-    "commitId": "38cc1b555d03a6cf11ff3e1d4e8fd770420b90e4",
-    "commitName": "feat: mostrar un error y quitar Cargando foto cuando falla la lectura de la foto",
-    "commitTimestamp": 1794517168386,
-    "testId": 137
-  },
-  {
     "numPassedTests": 86,
     "failedTests": 0,
     "numTotalTests": 86,
     "timestamp": 1794517616422,
     "success": true,
-    "testId": 122
-  },
-  {
-    "commitId": "52ecab68dc73b307a3836e8c7aece4390036ced0",
-    "commitName": "feat: avisar cuando ning├║n objeto coincide con nombre, descripci├│n o categor├¡a",
-    "commitTimestamp": 1794517690834,
     "testId": 122
   },
   {
@@ -2844,12 +1992,6 @@
     "testId": 138
   },
   {
-    "commitId": "8d11df7910e9957f1de92fe7d1f853ebdc14fde1",
-    "commitName": "chore: resolver conflictos de los logs con main",
-    "commitTimestamp": 1794521754378,
-    "testId": 138
-  },
-  {
     "numPassedTests": 88,
     "failedTests": 0,
     "numTotalTests": 88,
@@ -2866,24 +2008,6 @@
     "testId": 139
   },
   {
-    "commitId": "6fb8a50867ac1ef647bb3ab22be150df9948fa57",
-    "commitName": "chore: resolver conflictos con main (apariencia del inicio de sesi├│n)",
-    "commitTimestamp": 1794522436392,
-    "testId": 139
-  },
-  {
-    "commitId": "01e0b9eb0dfb89bc908d10da846b1f8dedfccc3f",
-    "commitName": "feat: agregar el filtro por categor├¡a a la pantalla de b├║squeda",
-    "commitTimestamp": 1794522808480,
-    "testId": 123
-  },
-  {
-    "commitId": "c8064ef9ce196cc506f28187f7c043ed343bc03c",
-    "commitName": "feat: agregar el filtro por categor├¡a a la pantalla de b├║squeda",
-    "commitTimestamp": 1794522808480,
-    "testId": 123
-  },
-  {
     "numPassedTests": 88,
     "failedTests": 0,
     "numTotalTests": 88,
@@ -2892,23 +2016,11 @@
     "testId": 124
   },
   {
-    "commitId": "c8064ef9ce196cc506f28187f7c043ed343bc03c",
-    "commitName": "style: mejorar estado sin resultados en b├║squeda",
-    "commitTimestamp": 1794533030826,
-    "testId": 124
-  },
-  {
     "numPassedTests": 103,
     "failedTests": 0,
     "numTotalTests": 103,
     "timestamp": 1794534347637,
     "success": true,
-    "testId": 125
-  },
-  {
-    "commitId": "777f83728a960fbf402a0169b6862c5d5c5c81d3",
-    "commitName": "Merge remote-tracking branch 'origin/main' into feature/hu-08-buscar-por-categoria\n\n:wq#:wq",
-    "commitTimestamp": 1794534681112,
     "testId": 125
   },
   {
@@ -2936,12 +2048,6 @@
     "testId": 126
   },
   {
-    "commitId": "062545f255d5ceac20d284b01e09381c24590ed9",
-    "commitName": "feat: enviar la solicitud de reclamo como pendiente a nombre de quien reclama",
-    "commitTimestamp": 1794547752486,
-    "testId": 126
-  },
-  {
     "numPassedTests": 104,
     "failedTests": 1,
     "numTotalTests": 105,
@@ -2955,12 +2061,6 @@
     "numTotalTests": 105,
     "timestamp": 1794547977119,
     "success": true,
-    "testId": 127
-  },
-  {
-    "commitId": "14f2c4cca11936545a32cfc5f6083ad90bb42056",
-    "commitName": "feat: pedir la explicación cuando está vacía en la solicitud de reclamo",
-    "commitTimestamp": 1794548023878,
     "testId": 127
   },
   {
@@ -2980,12 +2080,6 @@
     "testId": 128
   },
   {
-    "commitId": "d7fac8aa07aa75faf68d07f0ca6315462aca9936",
-    "commitName": "feat: tratar como vacía la explicación con solo espacios",
-    "commitTimestamp": 1794548402174,
-    "testId": 128
-  },
-  {
     "numPassedTests": 106,
     "failedTests": 1,
     "numTotalTests": 107,
@@ -2999,12 +2093,6 @@
     "numTotalTests": 107,
     "timestamp": 1794548462806,
     "success": true,
-    "testId": 129
-  },
-  {
-    "commitId": "acd8d5ff24a4ef17b059671a68a06e22899aa35a",
-    "commitName": "feat: no dejar reclamar un objeto que registró la misma persona",
-    "commitTimestamp": 1794548692850,
     "testId": 129
   },
   {
@@ -3032,12 +2120,6 @@
     "testId": 130
   },
   {
-    "commitId": "d043b8243d81a930342ee9ae921b9d61032cc7d6",
-    "commitName": "feat: no dejar enviar otra solicitud de reclamo sobre el mismo objeto",
-    "commitTimestamp": 1794551417138,
-    "testId": 130
-  },
-  {
     "numPassedTests": 108,
     "failedTests": 0,
     "numTotalTests": 108,
@@ -3062,12 +2144,6 @@
     "testId": 131
   },
   {
-    "commitId": "f324bfd6888af53b755f1da0fa42ae55070adddf",
-    "commitName": "feat: guardar y recuperar las solicitudes de reclamo en el navegador",
-    "commitTimestamp": 1794552364616,
-    "testId": 131
-  },
-  {
     "numPassedTests": 109,
     "failedTests": 0,
     "numTotalTests": 109,
@@ -3089,12 +2165,6 @@
     "numTotalTests": 110,
     "timestamp": 1794588943513,
     "success": true,
-    "testId": 132
-  },
-  {
-    "commitId": "d2552ce90220bfd32011a26636050d84cc7eff57",
-    "commitName": "feat: guardar la solicitud de reclamo a nombre de quien inició sesión",
-    "commitTimestamp": 1794588964316,
     "testId": 132
   },
   {
@@ -3130,23 +2200,11 @@
     "testId": 133
   },
   {
-    "commitId": "41cb5fd22a0bd89ccd1b5933895ac1676d90d347",
-    "commitName": "feat: revisar las solicitudes guardadas antes de enviar otro reclamo",
-    "commitTimestamp": 1794589203570,
-    "testId": 133
-  },
-  {
     "numPassedTests": 113,
     "failedTests": 0,
     "numTotalTests": 113,
     "timestamp": 1794589327902,
     "success": true,
-    "testId": 134
-  },
-  {
-    "commitId": "807755ef1c795f6fb36dc61763696a6f763c026f",
-    "commitName": "chore: unir main en la rama de la HU-10",
-    "commitTimestamp": 1794589339359,
     "testId": 134
   },
   {
@@ -3166,23 +2224,11 @@
     "testId": 135
   },
   {
-    "commitId": "f4f6c60f2baa650a1e38bc302b17568536fcbeb7",
-    "commitName": "feat: ocultar el formulario de reclamo después de enviar la solicitud",
-    "commitTimestamp": 1794590139100,
-    "testId": 135
-  },
-  {
     "numPassedTests": 113,
     "failedTests": 0,
     "numTotalTests": 113,
     "timestamp": 1794590731282,
     "success": true,
-    "testId": 136
-  },
-  {
-    "commitId": "b936cfa2351fcb5c75a9be5a9f6badfa71ff75e0",
-    "commitName": "fix: corregir el nombre del archivo de pruebas del repositorio de reclamos",
-    "commitTimestamp": 1794591020273,
     "testId": 136
   },
   {
@@ -3199,12 +2245,6 @@
     "numTotalTests": 113,
     "timestamp": 1794593047043,
     "success": true,
-    "testId": 137
-  },
-  {
-    "commitId": "075bfe6bd251b496ec967c292beeee87407f6006",
-    "commitName": "refactor: recibir los datos de ObjetoPerdido en un objeto",
-    "commitTimestamp": 1794593089499,
     "testId": 137
   },
   {
@@ -3248,23 +2288,11 @@
     "testId": 138
   },
   {
-    "commitId": "a3099ebd12c2ac26550ba3445b5f681756e456b8",
-    "commitName": "feat: guardar el bloque y el aula donde se perdió el objeto",
-    "commitTimestamp": 1794593824788,
-    "testId": 138
-  },
-  {
     "numPassedTests": 114,
     "failedTests": 0,
     "numTotalTests": 114,
     "timestamp": 1794593902970,
     "success": true,
-    "testId": 139
-  },
-  {
-    "commitId": "200495357bc418f1be52a77e6d55c890eb1cbcfe",
-    "commitName": "test: completar con bloque y aula los datos de las pruebas de reporte",
-    "commitTimestamp": 1794593932029,
     "testId": 139
   },
   {
@@ -3300,12 +2328,6 @@
     "testId": 140
   },
   {
-    "commitId": "bec23b4dda76cb87cae3af9f3220a4bba0b9f35a",
-    "commitName": "feat: pedir el bloque donde se perdió el objeto",
-    "commitTimestamp": 1794594217449,
-    "testId": 140
-  },
-  {
     "numPassedTests": 115,
     "failedTests": 1,
     "numTotalTests": 116,
@@ -3319,12 +2341,6 @@
     "numTotalTests": 116,
     "timestamp": 1794594350587,
     "success": true,
-    "testId": 141
-  },
-  {
-    "commitId": "cf681392873ffec72ebbe16b0f04e660c73f2628",
-    "commitName": "feat: crear el reporte solo con el bloque cuando el aula está vacía",
-    "commitTimestamp": 1794594394480,
     "testId": 141
   },
   {
@@ -3344,23 +2360,11 @@
     "testId": 142
   },
   {
-    "commitId": "972ebaa19b96b6b10498a1375d1dd2a6ce0df9af",
-    "commitName": "feat: ofrecer la lista de bloques al formulario de reporte",
-    "commitTimestamp": 1794594514786,
-    "testId": 142
-  },
-  {
     "numPassedTests": 117,
     "failedTests": 0,
     "numTotalTests": 117,
     "timestamp": 1794594695615,
     "success": true,
-    "testId": 143
-  },
-  {
-    "commitId": "cda6120cca9e68ea5087e42113b7d6e7300e4fec",
-    "commitName": "feat: agregar los campos de bloque y aula al formulario de reporte",
-    "commitTimestamp": 1794594714957,
     "testId": 143
   },
   {
@@ -3380,12 +2384,6 @@
     "testId": 144
   },
   {
-    "commitId": "ab2691aea081a9dfa7d9c784a7c1eb0ba2eb01ef",
-    "commitName": "feat: aceptar un celular de 8 dígitos que empieza con 7",
-    "commitTimestamp": 1794637932181,
-    "testId": 144
-  },
-  {
     "numPassedTests": 118,
     "failedTests": 1,
     "numTotalTests": 119,
@@ -3402,12 +2400,6 @@
     "testId": 145
   },
   {
-    "commitId": "50d048d01921b48b338e5d250d5b2f6b2c6c3c3f",
-    "commitName": "feat: rechazar un celular de menos de 8 dígitos",
-    "commitTimestamp": 1794638021951,
-    "testId": 145
-  },
-  {
     "numPassedTests": 119,
     "failedTests": 1,
     "numTotalTests": 120,
@@ -3421,12 +2413,6 @@
     "numTotalTests": 120,
     "timestamp": 1794638086642,
     "success": true,
-    "testId": 146
-  },
-  {
-    "commitId": "82b554b37f0e7ff7b9e1cd2d19e220997b7e8ba2",
-    "commitName": "feat: rechazar un celular que no empieza con 6 o 7",
-    "commitTimestamp": 1794638118706,
     "testId": 146
   },
   {
@@ -3454,12 +2440,6 @@
     "testId": 147
   },
   {
-    "commitId": "c196fbc688aa178817d4070c16248f281a3ded4d",
-    "commitName": "feat: guardar el celular de contacto en el reporte",
-    "commitTimestamp": 1794638312070,
-    "testId": 147
-  },
-  {
     "numPassedTests": 120,
     "failedTests": 1,
     "numTotalTests": 121,
@@ -3473,12 +2453,6 @@
     "numTotalTests": 121,
     "timestamp": 1794638374870,
     "success": true,
-    "testId": 148
-  },
-  {
-    "commitId": "4c11fac8fa2251ceb9dda24f926de6a9d0998abf",
-    "commitName": "feat: rechazar el reporte con un celular inválido",
-    "commitTimestamp": 1794638407697,
     "testId": 148
   },
   {
@@ -3498,18 +2472,6 @@
     "testId": 149
   },
   {
-    "commitId": "875327522274588a3e9b4d7fa3e55d8845403989",
-    "commitName": "feat: permitir crear el reporte sin celular de contacto",
-    "commitTimestamp": 1794638495312,
-    "testId": 149
-  },
-  {
-    "commitId": "78db02f4aedd5c427835a9ed6b97126ab8d43120",
-    "commitName": "feat: agregar el campo de celular de contacto al formulario de reporte",
-    "commitTimestamp": 1794638797631,
-    "testId": 150
-  },
-  {
     "numPassedTests": 122,
     "failedTests": 1,
     "numTotalTests": 123,
@@ -3523,12 +2485,6 @@
     "numTotalTests": 123,
     "timestamp": 1794639204810,
     "success": true,
-    "testId": 151
-  },
-  {
-    "commitId": "f56b57d1b5657783620b547ca301c5afeb4afc4b",
-    "commitName": "fix: rechazar un celular que tiene letras",
-    "commitTimestamp": 1794639234759,
     "testId": 151
   },
   {
@@ -3548,12 +2504,6 @@
     "testId": 152
   },
   {
-    "commitId": "4e7af140b286d369b186bfcdd008b273b24f789e",
-    "commitName": "feat: guardar el celular de contacto en el objeto encontrado",
-    "commitTimestamp": 1794639470138,
-    "testId": 152
-  },
-  {
     "numPassedTests": 123,
     "failedTests": 1,
     "numTotalTests": 124,
@@ -3567,12 +2517,6 @@
     "numTotalTests": 124,
     "timestamp": 1794639526257,
     "success": true,
-    "testId": 153
-  },
-  {
-    "commitId": "de704e2622465f9967b624517fa039f3e5dbc514",
-    "commitName": "feat: rechazar el registro con un celular inválido",
-    "commitTimestamp": 1794639561812,
     "testId": 153
   },
   {
@@ -3592,18 +2536,6 @@
     "testId": 154
   },
   {
-    "commitId": "4e5c8b6f7db160510eefccf8b388d036297520d3",
-    "commitName": "feat: permitir registrar el objeto sin celular de contacto",
-    "commitTimestamp": 1794639648242,
-    "testId": 154
-  },
-  {
-    "commitId": "e4f05a09b6d88f328edf9bbfbee9bb895219108d",
-    "commitName": "feat: agregar el campo de celular de contacto al formulario de objeto encontrado",
-    "commitTimestamp": 1794639924520,
-    "testId": 155
-  },
-  {
     "numPassedTests": 125,
     "failedTests": 1,
     "numTotalTests": 126,
@@ -3620,12 +2552,6 @@
     "testId": 156
   },
   {
-    "commitId": "a826242546a33553a93f38606aaf6ba7b0fc504f",
-    "commitName": "refactor: agregar esCelularOpcionalValido para el celular de contacto",
-    "commitTimestamp": 1794640219055,
-    "testId": 156
-  },
-  {
     "numPassedTests": 126,
     "failedTests": 0,
     "numTotalTests": 126,
@@ -3634,23 +2560,11 @@
     "testId": 157
   },
   {
-    "commitId": "562125cac9460677e8409b1c1dad6553b3e17b6c",
-    "commitName": "refactor: usar esCelularOpcionalValido en el reporte de objeto perdido",
-    "commitTimestamp": 1794640291719,
-    "testId": 157
-  },
-  {
     "numPassedTests": 126,
     "failedTests": 0,
     "numTotalTests": 126,
     "timestamp": 1794640317266,
     "success": true,
-    "testId": 158
-  },
-  {
-    "commitId": "44face0f45c7949e813ac79ca4120e8ab2dcb66f",
-    "commitName": "refactor: usar esCelularOpcionalValido en el registro de objeto encontrado",
-    "commitTimestamp": 1794640345353,
     "testId": 158
   },
   {
@@ -3678,12 +2592,6 @@
     "testId": 159
   },
   {
-    "commitId": "06fb3e67a51801f097cbcae9e09888c4a8f71bf1",
-    "commitName": "feat: reconocer al encargado de objetos por su correo",
-    "commitTimestamp": 1794705857556,
-    "testId": 159
-  },
-  {
     "numPassedTests": 127,
     "failedTests": 1,
     "numTotalTests": 128,
@@ -3697,12 +2605,6 @@
     "numTotalTests": 128,
     "timestamp": 1794705995725,
     "success": true,
-    "testId": 160
-  },
-  {
-    "commitId": "cf37c6c76b2c18106529db355e27af1e7e952fab",
-    "commitName": "feat: saber si la sesión es del encargado",
-    "commitTimestamp": 1794706011578,
     "testId": 160
   },
   {
@@ -3722,12 +2624,6 @@
     "testId": 161
   },
   {
-    "commitId": "79c3022aac31ca208061d8183c176dd908150a87",
-    "commitName": "feat: no tratar como encargado a quien no tiene el rol",
-    "commitTimestamp": 1794706213528,
-    "testId": 161
-  },
-  {
     "numPassedTests": 129,
     "failedTests": 1,
     "numTotalTests": 130,
@@ -3741,12 +2637,6 @@
     "numTotalTests": 130,
     "timestamp": 1794706419824,
     "success": true,
-    "testId": 162
-  },
-  {
-    "commitId": "58daacfa99d18ca9b27c44a69fdba1b563d534d5",
-    "commitName": "feat: mostrar la página de objetos guardados solo al encargado",
-    "commitTimestamp": 1794706455015,
     "testId": 162
   },
   {
@@ -3766,12 +2656,6 @@
     "testId": 163
   },
   {
-    "commitId": "cbed26953a75c43e2af333954176ec2bf582f6d2",
-    "commitName": "feat: pedir iniciar sesión para ver los objetos guardados",
-    "commitTimestamp": 1794706593133,
-    "testId": 163
-  },
-  {
     "numPassedTests": 131,
     "failedTests": 1,
     "numTotalTests": 132,
@@ -3785,12 +2669,6 @@
     "numTotalTests": 132,
     "timestamp": 1794706745245,
     "success": true,
-    "testId": 164
-  },
-  {
-    "commitId": "df387c4befa1e93597831ee985986bf450cbd0ff",
-    "commitName": "feat: mostrar al encargado el lugar y quién encontró el objeto",
-    "commitTimestamp": 1794706757375,
     "testId": 164
   },
   {
@@ -3810,12 +2688,6 @@
     "testId": 165
   },
   {
-    "commitId": "c4b5843a40d90c417cbe9868593e9ab87e448a0b",
-    "commitName": "feat: listar los objetos guardados del más reciente al más antiguo",
-    "commitTimestamp": 1794706857853,
-    "testId": 165
-  },
-  {
     "numPassedTests": 133,
     "failedTests": 1,
     "numTotalTests": 134,
@@ -3832,12 +2704,6 @@
     "testId": 166
   },
   {
-    "commitId": "626c524ffca3397f966ba122fd5027bf7f7a9ac8",
-    "commitName": "feat: avisar cuando no hay objetos guardados",
-    "commitTimestamp": 1794707170283,
-    "testId": 166
-  },
-  {
     "numPassedTests": 134,
     "failedTests": 1,
     "numTotalTests": 135,
@@ -3851,12 +2717,6 @@
     "numTotalTests": 135,
     "timestamp": 1794707250342,
     "success": true,
-    "testId": 167
-  },
-  {
-    "commitId": "f55aa50a4a37960715d60856424a451af107fb14",
-    "commitName": "feat: avisar a la vista si la sesión es del encargado",
-    "commitTimestamp": 1794707277628,
     "testId": 167
   },
   {
@@ -3881,12 +2741,6 @@
     "numTotalTests": 136,
     "timestamp": 1794707631675,
     "success": true,
-    "testId": 168
-  },
-  {
-    "commitId": "e10a902d2397f49368b11dcc2f7373ef5c4d4ad7",
-    "commitName": "feat: agregar la pantalla de objetos guardados para el encargado",
-    "commitTimestamp": 1794707847377,
     "testId": 168
   },
   {
@@ -3922,12 +2776,6 @@
     "testId": 169
   },
   {
-    "commitId": "4eeb9c2b34f2845b47510ea2ad3a83ecddab07c3",
-    "commitName": "feat: saber si un objeto encontrado ya fue recogido",
-    "commitTimestamp": 1794709348808,
-    "testId": 169
-  },
-  {
     "numPassedTests": 137,
     "failedTests": 0,
     "numTotalTests": 137,
@@ -3941,12 +2789,6 @@
     "numTotalTests": 138,
     "timestamp": 1794709470695,
     "success": true,
-    "testId": 170
-  },
-  {
-    "commitId": "92c5e62a9d039d2087f81e5d20677977f7c4c0c7",
-    "commitName": "feat: registrar quién recogió el objeto",
-    "commitTimestamp": 1794709499338,
     "testId": 170
   },
   {
@@ -3966,12 +2808,6 @@
     "testId": 171
   },
   {
-    "commitId": "6f5da0a793c5b8b83a07ebcf4c3ab66c5ac06e51",
-    "commitName": "feat: pedir el nombre y el carnet de quien recoge el objeto",
-    "commitTimestamp": 1794709602981,
-    "testId": 171
-  },
-  {
     "numPassedTests": 139,
     "failedTests": 1,
     "numTotalTests": 140,
@@ -3985,12 +2821,6 @@
     "numTotalTests": 140,
     "timestamp": 1794712588978,
     "success": true,
-    "testId": 172
-  },
-  {
-    "commitId": "9059cfb57ecc3bd0f5fce94d92126443bd40c749",
-    "commitName": "feat: no registrar dos veces la entrega de un objeto",
-    "commitTimestamp": 1794712624104,
     "testId": 172
   },
   {
@@ -4010,12 +2840,6 @@
     "testId": 173
   },
   {
-    "commitId": "19fce10dc40c9735f8497fb3335078974960a556",
-    "commitName": "feat: quitar de la lista los objetos que ya fueron recogidos",
-    "commitTimestamp": 1794712723188,
-    "testId": 173
-  },
-  {
     "numPassedTests": 141,
     "failedTests": 1,
     "numTotalTests": 142,
@@ -4029,12 +2853,6 @@
     "numTotalTests": 142,
     "timestamp": 1794712916911,
     "success": true,
-    "testId": 174
-  },
-  {
-    "commitId": "5ead147b55a5bb51fa336d59a1dfe26a50f7b228",
-    "commitName": "feat: agregar el formulario para registrar quién recogió el objeto",
-    "commitTimestamp": 1794713054087,
     "testId": 174
   },
   {
@@ -4062,12 +2880,6 @@
     "testId": 175
   },
   {
-    "commitId": "eed028067b5e1d4f04ce4edaf69f71c59f5a0ec2",
-    "commitName": "feat: mostrar mis reportes del más reciente al más antiguo",
-    "commitTimestamp": 1794713677461,
-    "testId": 175
-  },
-  {
     "numPassedTests": 143,
     "failedTests": 1,
     "numTotalTests": 144,
@@ -4081,12 +2893,6 @@
     "numTotalTests": 144,
     "timestamp": 1794713839331,
     "success": true,
-    "testId": 176
-  },
-  {
-    "commitId": "4954267919e2b83d403653a63b9c984f2fd6bfe6",
-    "commitName": "feat: avisar cuando el usuario no tiene reportes",
-    "commitTimestamp": 1794713883367,
     "testId": 176
   },
   {
@@ -4114,12 +2920,6 @@
     "testId": 177
   },
   {
-    "commitId": "9894971f0a8448f87aa7cc3234bdd863ad7e51e9",
-    "commitName": "feat: mostrar el lugar de cada uno de mis reportes",
-    "commitTimestamp": 1794746850248,
-    "testId": 177
-  },
-  {
     "numPassedTests": 145,
     "failedTests": 1,
     "numTotalTests": 146,
@@ -4136,23 +2936,11 @@
     "testId": 178
   },
   {
-    "commitId": "24a73b6deea0399ae9405d747174551c67c165c0",
-    "commitName": "feat: mostrar el estado de cada uno de mis reportes",
-    "commitTimestamp": 1794746997672,
-    "testId": 178
-  },
-  {
     "numPassedTests": 146,
     "failedTests": 0,
     "numTotalTests": 146,
     "timestamp": 1794747097828,
     "success": true,
-    "testId": 179
-  },
-  {
-    "commitId": "723b9d9e58be48d83ecb6ac10beebdbcbad1dc1b",
-    "commitName": "feat: mostrar mis reportes con su detalle en la pantalla principal",
-    "commitTimestamp": 1794747124859,
     "testId": 179
   },
   {
@@ -4188,12 +2976,6 @@
     "testId": 180
   },
   {
-    "commitId": "597a17fa3d65893a512d5e3ce0ee6084dab319df",
-    "commitName": "feat: avisar cuando no registré ningún objeto encontrado (HU-21)",
-    "commitTimestamp": 1794747500956,
-    "testId": 180
-  },
-  {
     "numPassedTests": 147,
     "failedTests": 1,
     "numTotalTests": 148,
@@ -4215,12 +2997,6 @@
     "numTotalTests": 148,
     "timestamp": 1794747628392,
     "success": true,
-    "testId": 181
-  },
-  {
-    "commitId": "d319bab6369a9864ef2a34e886998c3a0102644d",
-    "commitName": "feat: mostrar solo los objetos que registré (HU-21)",
-    "commitTimestamp": 1794747649408,
     "testId": 181
   },
   {
@@ -4248,12 +3024,6 @@
     "testId": 182
   },
   {
-    "commitId": "ad7d36cee0029ba0fe70335d68761f47404fb37c",
-    "commitName": "feat: mostrar el estado Por recibir de mis objetos encontrados (HU-21)",
-    "commitTimestamp": 1794747760830,
-    "testId": 182
-  },
-  {
     "numPassedTests": 149,
     "failedTests": 1,
     "numTotalTests": 150,
@@ -4267,12 +3037,6 @@
     "numTotalTests": 150,
     "timestamp": 1794747825826,
     "success": true,
-    "testId": 183
-  },
-  {
-    "commitId": "49869ad87ebf768c51e4adaf20e3cd038d138605",
-    "commitName": "feat: mostrar el estado Entregado de mis objetos ya recogidos (HU-21)",
-    "commitTimestamp": 1794747847693,
     "testId": 183
   },
   {
@@ -4297,12 +3061,6 @@
     "numTotalTests": 151,
     "timestamp": 1794748030374,
     "success": true,
-    "testId": 184
-  },
-  {
-    "commitId": "5b99050794f074c138e039bf0be7d9d9484b2c06",
-    "commitName": "fix: ocultar en la búsqueda los objetos que ya fueron entregados",
-    "commitTimestamp": 1794748063111,
     "testId": 184
   },
   {
@@ -4338,12 +3096,6 @@
     "testId": 185
   },
   {
-    "commitId": "efd63eb5ffac17b53c024a62e31c51d61bd610b3",
-    "commitName": "refactor: crear una sola función para ordenar del más reciente al más antiguo",
-    "commitTimestamp": 1794803271603,
-    "testId": 185
-  },
-  {
     "numPassedTests": 152,
     "failedTests": 0,
     "numTotalTests": 152,
@@ -4360,23 +3112,11 @@
     "testId": 186
   },
   {
-    "commitId": "4e68c68ed5d626f82ea7bef5ddb894f82175938c",
-    "commitName": "refactor: usar la función de orden en la búsqueda de objetos",
-    "commitTimestamp": 1794803418890,
-    "testId": 186
-  },
-  {
     "numPassedTests": 152,
     "failedTests": 0,
     "numTotalTests": 152,
     "timestamp": 1794803616137,
     "success": true,
-    "testId": 187
-  },
-  {
-    "commitId": "5eae96c009251a6689eb0a7c3f4b7915c45dce28",
-    "commitName": "refactor: usar la función de orden en objetos guardados y mis reportes",
-    "commitTimestamp": 1794803679050,
     "testId": 187
   },
   {
@@ -4388,23 +3128,11 @@
     "testId": 188
   },
   {
-    "commitId": "30378254461bcf196a74478b083997c884a1f826",
-    "commitName": "refactor: sacar el aviso sin resultados a su propio componente",
-    "commitTimestamp": 1794827162088,
-    "testId": 188
-  },
-  {
     "numPassedTests": 152,
     "failedTests": 0,
     "numTotalTests": 152,
     "timestamp": 1794827226811,
     "success": true,
-    "testId": 189
-  },
-  {
-    "commitId": "b9e84535d320c5104c4142b3f987ffd3277b4436",
-    "commitName": "refactor: usar una sola función para mostrar los resultados de la búsqueda",
-    "commitTimestamp": 1794827304400,
     "testId": 189
   },
   {
@@ -4421,12 +3149,6 @@
     "numTotalTests": 152,
     "timestamp": 1794827511363,
     "success": true,
-    "testId": 190
-  },
-  {
-    "commitId": "f8b53fdc9449c813bb8aa0e4f39980221ba9fde2",
-    "commitName": "refactor: usar las variables de color en el aviso sin resultados",
-    "commitTimestamp": 1794827562731,
     "testId": 190
   },
   {
@@ -4454,12 +3176,6 @@
     "testId": 191
   },
   {
-    "commitId": "97a3bc6fbc37280526638b839782c3ef8e98a24e",
-    "commitName": "style: usar las variables de color en el aviso sin resultados",
-    "commitTimestamp": 1794828292643,
-    "testId": 191
-  },
-  {
     "numPassedTests": 152,
     "failedTests": 1,
     "numTotalTests": 153,
@@ -4476,12 +3192,6 @@
     "testId": 192
   },
   {
-    "commitId": "b1290397e6a294aaf7eab2dc85c8d8ca8d6fa817",
-    "commitName": "feat: describir cuántos objetos se encontraron",
-    "commitTimestamp": 1794828416081,
-    "testId": 192
-  },
-  {
     "numPassedTests": 153,
     "failedTests": 0,
     "numTotalTests": 153,
@@ -4490,23 +3200,11 @@
     "testId": 193
   },
   {
-    "commitId": "121c6ec0056ccfff6ce34703348d249b2b557412",
-    "commitName": "style: mostrar la cantidad, la descripción y una flecha en la lista de resultados",
-    "commitTimestamp": 1794828728193,
-    "testId": 193
-  },
-  {
     "numPassedTests": 153,
     "failedTests": 0,
     "numTotalTests": 153,
     "timestamp": 1794828809883,
     "success": true,
-    "testId": 194
-  },
-  {
-    "commitId": "d3fc8537ea92f0ca09d4262b5eb6c14539d2b70e",
-    "commitName": "style: ordenar los datos del detalle del objeto",
-    "commitTimestamp": 1794828887344,
     "testId": 194
   },
   {
@@ -4526,23 +3224,11 @@
     "testId": 195
   },
   {
-    "commitId": "93b7d60d2270bf60087a36668f6a3186a3e22bbe",
-    "commitName": "style: acomodar la búsqueda y el detalle en pantallas chicas",
-    "commitTimestamp": 1794829065460,
-    "testId": 195
-  },
-  {
     "numPassedTests": 153,
     "failedTests": 0,
     "numTotalTests": 153,
     "timestamp": 1794829433125,
     "success": true,
-    "testId": 196
-  },
-  {
-    "commitId": "539096b0e67d0bd3627602693246658b300a8b5d",
-    "commitName": "docs: agregar las pruebas manuales del sprint 2",
-    "commitTimestamp": 1794829512791,
     "testId": 196
   },
   {
@@ -4570,12 +3256,6 @@
     "testId": 197
   },
   {
-    "commitId": "b542af60f7003889211cd30a06fead0a87121082",
-    "commitName": "fix: pedir solo el nombre de quien recoge el objeto, como dice el criterio",
-    "commitTimestamp": 1794879592642,
-    "testId": 197
-  },
-  {
     "numPassedTests": 153,
     "failedTests": 1,
     "numTotalTests": 154,
@@ -4589,12 +3269,6 @@
     "numTotalTests": 154,
     "timestamp": 1794879660384,
     "success": true,
-    "testId": 198
-  },
-  {
-    "commitId": "69da1280734d55e6f7c5b94099be7145521ffe2f",
-    "commitName": "feat: convertir la fecha y la hora a texto",
-    "commitTimestamp": 1794879688766,
     "testId": 198
   },
   {
@@ -4614,12 +3288,6 @@
     "testId": 199
   },
   {
-    "commitId": "e1c9ce8fcb528d0a80d1aafd0425c6f8140f72a9",
-    "commitName": "fix: guardar la fecha y la hora en que se entregó el objeto",
-    "commitTimestamp": 1794879823361,
-    "testId": 199
-  },
-  {
     "numPassedTests": 154,
     "failedTests": 1,
     "numTotalTests": 155,
@@ -4633,12 +3301,6 @@
     "numTotalTests": 155,
     "timestamp": 1794879964586,
     "success": true,
-    "testId": 200
-  },
-  {
-    "commitId": "9fc557eb06a0aab50946d89403ec3c586896dd82",
-    "commitName": "fix: dejar registrar la entrega solo al encargado",
-    "commitTimestamp": 1794880013705,
     "testId": 200
   },
   {
@@ -4658,12 +3320,6 @@
     "testId": 201
   },
   {
-    "commitId": "41d88f6eb0d320ba62977b916c2345c52a9f25ca",
-    "commitName": "fix: usar el mensaje del criterio cuando no hay objetos guardados",
-    "commitTimestamp": 1794880116286,
-    "testId": 201
-  },
-  {
     "numPassedTests": 153,
     "failedTests": 2,
     "numTotalTests": 155,
@@ -4680,12 +3336,6 @@
     "testId": 202
   },
   {
-    "commitId": "1d64e0813902e58ffd033f5c861b53dc752223d8",
-    "commitName": "fix: mostrar al encargado la categoría y el estado de cada objeto",
-    "commitTimestamp": 1794880410647,
-    "testId": 202
-  },
-  {
     "numPassedTests": 153,
     "failedTests": 2,
     "numTotalTests": 155,
@@ -4699,12 +3349,6 @@
     "numTotalTests": 155,
     "timestamp": 1794880548184,
     "success": true,
-    "testId": 203
-  },
-  {
-    "commitId": "914f477ba7a2cf291a136fdf62cd6230bf003028",
-    "commitName": "fix: mostrar los objetos entregados en la lista con su estado",
-    "commitTimestamp": 1794880574273,
     "testId": 203
   },
   {
@@ -4732,30 +3376,12 @@
     "testId": 204
   },
   {
-    "commitId": "aad367454eac48b1633d0b50908ba4f6f9700cfd",
-    "commitName": "feat: mostrar al encargado las solicitudes de reclamo de cada objeto",
-    "commitTimestamp": 1794880905795,
-    "testId": 204
-  },
-  {
     "numPassedTests": 156,
     "failedTests": 0,
     "numTotalTests": 156,
     "timestamp": 1794881206136,
     "success": true,
     "testId": 205
-  },
-  {
-    "commitId": "c40a87045df2951afd9837566d2c11063690c314",
-    "commitName": "docs: agregar las pruebas manuales del sprint 2",
-    "commitTimestamp": 1794881605957,
-    "testId": 205
-  },
-  {
-    "commitId": "7af83a512261ced1a64e54e24bbadc587d804126",
-    "commitName": "docs: marcar los resultados de las pruebas manuales del sprint 2",
-    "commitTimestamp": 1794883098978,
-    "testId": 206
   },
   {
     "numPassedTests": 156,
@@ -4782,23 +3408,11 @@
     "testId": 207
   },
   {
-    "commitId": "565fc7e333918fdff886938b0d9ea6c2471bf889",
-    "commitName": "feat: guardar la categoría junto con el reporte del objeto perdido",
-    "commitTimestamp": 1794901636403,
-    "testId": 207
-  },
-  {
     "numPassedTests": 157,
     "failedTests": 0,
     "numTotalTests": 157,
     "timestamp": 1794901813244,
     "success": true,
-    "testId": 208
-  },
-  {
-    "commitId": "9e24b29e5faf2f5abff8013f438fc5c3e49a17bb",
-    "commitName": "test: completar con la categoría los datos de las pruebas de reporte",
-    "commitTimestamp": 1794901832824,
     "testId": 208
   },
   {
@@ -4818,12 +3432,6 @@
     "testId": 209
   },
   {
-    "commitId": "8626ffaf185644ee44754e63fc281f4640a6d089",
-    "commitName": "feat: pedir la categoría del objeto perdido",
-    "commitTimestamp": 1794901970347,
-    "testId": 209
-  },
-  {
     "numPassedTests": 158,
     "failedTests": 1,
     "numTotalTests": 159,
@@ -4837,12 +3445,6 @@
     "numTotalTests": 159,
     "timestamp": 1794902029413,
     "success": true,
-    "testId": 210
-  },
-  {
-    "commitId": "cabc8c3409cbfa40532ca79b6726b1c839e4139c",
-    "commitName": "feat: rechazar una categoría que no está en la lista",
-    "commitTimestamp": 1794902051353,
     "testId": 210
   },
   {
@@ -4862,23 +3464,11 @@
     "testId": 211
   },
   {
-    "commitId": "98d98efa6875f9b4e6436719671dd9a7ced4dca6",
-    "commitName": "feat: ofrecer la lista de categorías al formulario de reporte",
-    "commitTimestamp": 1794902134371,
-    "testId": 211
-  },
-  {
     "numPassedTests": 160,
     "failedTests": 0,
     "numTotalTests": 160,
     "timestamp": 1794902185818,
     "success": true,
-    "testId": 212
-  },
-  {
-    "commitId": "0b415220fd3e3159a8f942c4b631c53c9facff9f",
-    "commitName": "feat: agregar el campo de categoría al formulario de reporte",
-    "commitTimestamp": 1794902210535,
     "testId": 212
   },
   {
@@ -4888,18 +3478,6 @@
     "timestamp": 1794902834351,
     "success": true,
     "testId": 213
-  },
-  {
-    "commitId": "3c50721204466cfe1678abf35b056dc4bbb706d5",
-    "commitName": "feat: mostrar el botón para buscar objetos encontrados en una portada arriba del inicio",
-    "commitTimestamp": 1794903523005,
-    "testId": 213
-  },
-  {
-    "commitId": "a1a162c586b82ef2c9a53bb5d5cf46d9da11f1a5",
-    "commitName": "style: dar al botón de búsqueda fondo blanco, borde amarillo y una lupa",
-    "commitTimestamp": 1794903610316,
-    "testId": 214
   },
   {
     "numPassedTests": 160,
@@ -4915,12 +3493,6 @@
     "numTotalTests": 160,
     "timestamp": 1794903888896,
     "success": true,
-    "testId": 215
-  },
-  {
-    "commitId": "588c152da8a9964dc11b7c8d818b1f41f9d37378",
-    "commitName": "refactor: llamar tieneBloqueInvalido a la revisión del bloque del reporte",
-    "commitTimestamp": 1794903903563,
     "testId": 215
   },
   {
@@ -4940,23 +3512,11 @@
     "testId": 216
   },
   {
-    "commitId": "1ca2e155eb38bade51639f45e058d28210844828",
-    "commitName": "feat: rechazar un bloque que no está en la lista",
-    "commitTimestamp": 1794904151620,
-    "testId": 216
-  },
-  {
     "numPassedTests": 161,
     "failedTests": 0,
     "numTotalTests": 161,
     "timestamp": 1794904314140,
     "success": true,
-    "testId": 217
-  },
-  {
-    "commitId": "af915a2d665659b23a9855869591d5c3677f8709",
-    "commitName": "style: quitar la clase boton--destacado que ya no se usa",
-    "commitTimestamp": 1794904329895,
     "testId": 217
   },
   {
@@ -4976,6 +3536,1558 @@
     "testId": 218
   },
   {
+    "numPassedTests": 161,
+    "failedTests": 0,
+    "numTotalTests": 161,
+    "timestamp": 1794922861370,
+    "success": true,
+    "testId": 220
+  },
+  {
+    "numPassedTests": 161,
+    "failedTests": 0,
+    "numTotalTests": 161,
+    "timestamp": 1794921631944,
+    "success": true,
+    "testId": 218
+  },
+  {
+    "numPassedTests": 161,
+    "failedTests": 1,
+    "numTotalTests": 162,
+    "timestamp": 1794921739086,
+    "success": false,
+    "testId": 218
+  },
+  {
+    "numPassedTests": 162,
+    "failedTests": 0,
+    "numTotalTests": 162,
+    "timestamp": 1794921822639,
+    "success": true,
+    "testId": 218
+  },
+  {
+    "numPassedTests": 162,
+    "failedTests": 1,
+    "numTotalTests": 163,
+    "timestamp": 1794921879946,
+    "success": false,
+    "testId": 219
+  },
+  {
+    "numPassedTests": 163,
+    "failedTests": 0,
+    "numTotalTests": 163,
+    "timestamp": 1794921945708,
+    "success": true,
+    "testId": 219
+  },
+  {
+    "numPassedTests": 163,
+    "failedTests": 1,
+    "numTotalTests": 164,
+    "timestamp": 1794922010305,
+    "success": false,
+    "testId": 220
+  },
+  {
+    "numPassedTests": 164,
+    "failedTests": 0,
+    "numTotalTests": 164,
+    "timestamp": 1794922057857,
+    "success": true,
+    "testId": 220
+  },
+  {
+    "numPassedTests": 164,
+    "failedTests": 1,
+    "numTotalTests": 165,
+    "timestamp": 1794922126036,
+    "success": false,
+    "testId": 221
+  },
+  {
+    "numPassedTests": 165,
+    "failedTests": 0,
+    "numTotalTests": 165,
+    "timestamp": 1794922200771,
+    "success": true,
+    "testId": 221
+  },
+  {
+    "numPassedTests": 165,
+    "failedTests": 0,
+    "numTotalTests": 165,
+    "timestamp": 1794922243252,
+    "success": true,
+    "testId": 221
+  },
+  {
+    "commitId": "219631cacea5af8f93e0ed4eb97d19e69657467b",
+    "commitName": "chore: agregar proyecto base de UCBFound",
+    "commitTimestamp": 1791900476947,
+    "testId": 0
+  },
+  {
+    "commitId": "e6b89008680efa6714e5bfde194db93be2600347",
+    "commitName": "chore: configurar React para la interfaz",
+    "commitTimestamp": 1791901032559,
+    "testId": 1
+  },
+  {
+    "commitId": "a4fe23b5c04ed4e5712f1941a633f20a66fcda06",
+    "commitName": "feat: crear cuenta con nombre, correo UCB y contrase├▒a v├ílidos",
+    "commitTimestamp": 1791901484837,
+    "testId": 2
+  },
+  {
+    "commitId": "a149b32795c143a5221f29927919216e67fecda9",
+    "commitName": "feat: validar que el nombre no est├® vac├¡o",
+    "commitTimestamp": 1791984266167,
+    "testId": 3
+  },
+  {
+    "commitId": "c008a643bfd644489877fba4e111e140fff5e2d2",
+    "commitName": "feat: validar que el correo no est├® vac├¡o",
+    "commitTimestamp": 1791984364469,
+    "testId": 4
+  },
+  {
+    "commitId": "2bb1bd0b010260c7d3bc450bde34646fe39aa251",
+    "commitName": "feat: validar que la contrase├▒a no est├® vac├¡a",
+    "commitTimestamp": 1791984538093,
+    "testId": 5
+  },
+  {
+    "commitId": "435cb3a3cac3dfc9f1e57b874b902bd292067307",
+    "commitName": "feat: tratar como vac├¡os los campos que solo tienen espacios",
+    "commitTimestamp": 1791984731004,
+    "testId": 6
+  },
+  {
+    "commitId": "2871dd364d2646c29a99743ffc0ada0f388af76f",
+    "commitName": "feat: rechazar correos que no terminen en @ucb.edu.bo",
+    "commitTimestamp": 1791984815368,
+    "testId": 7
+  },
+  {
+    "commitId": "70625108fd1bd37235bedcb8a06094e4c38fe26a",
+    "commitName": "feat: rechazar correos sin nombre de usuario antes de @ucb.edu.bo",
+    "commitTimestamp": 1791984884002,
+    "testId": 8
+  },
+  {
+    "commitId": "f59b17857b0edfeb916b395f7d633948a6dd1125",
+    "commitName": "feat: exigir contrase├▒a de m├¡nimo 8 caracteres",
+    "commitTimestamp": 1791985604836,
+    "testId": 9
+  },
+  {
+    "commitId": "8c5e3a7a90326c6688eebfdea4a53c8b5ba4dba6",
+    "commitName": "feat: avisar cuando el correo ya est├í registrado",
+    "commitTimestamp": 1791985723280,
+    "testId": 10
+  },
+  {
+    "commitId": "bdc4623b6123af15ad9c8c5d7dca5e9f1a02bc4b",
+    "commitName": "feat: crear repositorio de usuarios",
+    "commitTimestamp": 1791985824635,
+    "testId": 11
+  },
+  {
+    "commitId": "4ceb8dc5778aaf1e0c317ee450e1ada5573955ec",
+    "commitName": "feat: guardar los usuarios registrados en el navegador",
+    "commitTimestamp": 1791985941059,
+    "testId": 12
+  },
+  {
+    "commitId": "557cd3e7bfdec356241249a644941e73289ee03f",
+    "commitName": "feat: detectar correo repetido sin importar may├║sculas ni espacios",
+    "commitTimestamp": 1791986028304,
+    "testId": 13
+  },
+  {
+    "commitId": "62cf2b3d258382f4448945c5de35132396ad0444",
+    "commitName": "feat: guardar el usuario con el correo en min├║sculas",
+    "commitTimestamp": 1791986304095,
+    "testId": 14
+  },
+  {
+    "commitId": "ede0d10760afedb171d93f491cc4e0b1a444b1fb",
+    "commitName": "refactor: organizar el c├│digo en carpetas model, presenter y view",
+    "commitTimestamp": 1791986472893,
+    "testId": 15
+  },
+  {
+    "commitId": "600fa2dd3058224d287809b54eca9da3ddd7a6a8",
+    "commitName": "refactor: crear clase Usuario y usar clases en el registro y el presenter",
+    "commitTimestamp": 1792072194451,
+    "testId": 16
+  },
+  {
+    "commitId": "8bbf7747470e9068b5ec176782f7dd7d2231ff66",
+    "commitName": "feat: pedir correo y contrase├▒a cuando el correo est├í vac├¡o",
+    "commitTimestamp": 1792072829001,
+    "testId": 17
+  },
+  {
+    "commitId": "6a8e23a4c93f02ade964ec721df080288bfba0a5",
+    "commitName": "feat: pedir correo y contrase├▒a cuando la contrase├▒a est├í vac├¡a",
+    "commitTimestamp": 1792072980424,
+    "testId": 18
+  },
+  {
+    "commitId": "3011eb4d3a478fc1155bc6b5087e12374c407ea1",
+    "commitName": "feat: avisar cuando el correo o la contrase├▒a son incorrectos",
+    "commitTimestamp": 1792073114537,
+    "testId": 19
+  },
+  {
+    "commitId": "93e430e6ff3d2baa1d3b466bc96cf966430815eb",
+    "commitName": "feat: iniciar sesi├│n cuando el correo y la contrase├▒a son correctos",
+    "commitTimestamp": 1792073203468,
+    "testId": 20
+  },
+  {
+    "commitId": "6dc379e8c3a121f4f98b33d0ba5b9a2ee6f4dbff",
+    "commitName": "feat: ignorar may├║sculas y espacios en el correo al iniciar sesi├│n",
+    "commitTimestamp": 1792073296614,
+    "testId": 21
+  },
+  {
+    "commitId": "d3fa01734de1a2ae56d6a36b9c3952dc9ffe2296",
+    "commitName": "feat: crear presenter de inicio de sesi├│n",
+    "commitTimestamp": 1792073384548,
+    "testId": 22
+  },
+  {
+    "commitId": "6edaacfddcbcec9fff63cc54ec38d06117aef2a1",
+    "commitName": "feat: crear formulario de inicio de sesi├│n en la vista",
+    "commitTimestamp": 1792073437984,
+    "testId": 23
+  },
+  {
+    "commitId": "3e1ec5d356f8ebcee2475e8dbf4b06ce8d9be358",
+    "commitName": "feat: conectar el inicio de sesi├│n en la pantalla principal",
+    "commitTimestamp": 1792073813217,
+    "testId": 24
+  },
+  {
+    "commitId": "f8b214d931be566129caa18de043a0652c820177",
+    "commitName": "feat: crear la sesi├│n del usuario sin sesi├│n iniciada",
+    "commitTimestamp": 1792265356171,
+    "testId": 25
+  },
+  {
+    "commitId": "523f6ff4a0dcfc2ec4ce961c77f40ef6295e3162",
+    "commitName": "feat: iniciar la sesi├│n del usuario",
+    "commitTimestamp": 1792265405468,
+    "testId": 26
+  },
+  {
+    "commitId": "4f7b65ee4dd7e0b69a5f3c6a971f0a9c8223df77",
+    "commitName": "feat: obtener el usuario de la sesi├│n iniciada",
+    "commitTimestamp": 1792265643692,
+    "testId": 27
+  },
+  {
+    "commitId": "9be9100e2a123bd387e51634e360ba30e3713374",
+    "commitName": "feat: cerrar la sesi├│n del usuario",
+    "commitTimestamp": 1792265715414,
+    "testId": 28
+  },
+  {
+    "commitId": "3d5100f46917164f92383824d044b0ce808cdf29",
+    "commitName": "feat: pedir iniciar sesi├│n en p├íginas que requieren cuenta",
+    "commitTimestamp": 1792265926914,
+    "testId": 29
+  },
+  {
+    "commitId": "2abe647820a2d4fa8c3799efa164a76a93454c85",
+    "commitName": "feat: mostrar p├íginas que requieren cuenta cuando hay sesi├│n",
+    "commitTimestamp": 1792266028605,
+    "testId": 30
+  },
+  {
+    "commitId": "7fdca39a871b3a8e63962d0540984996bfbb90ad",
+    "commitName": "feat: permitir p├íginas p├║blicas sin sesi├│n",
+    "commitTimestamp": 1792266081299,
+    "testId": 31
+  },
+  {
+    "commitId": "4757e4de76167015bf63698d03707734f4c85e41",
+    "commitName": "feat: crear presenter para cerrar sesi├│n",
+    "commitTimestamp": 1792266203836,
+    "testId": 32
+  },
+  {
+    "commitId": "aa4d50d6906c6a343b5697fb52cb4a513aa385bf",
+    "commitName": "feat: iniciar sesi├│n desde el presenter de sesi├│n",
+    "commitTimestamp": 1792266255316,
+    "testId": 33
+  },
+  {
+    "commitId": "174215c3bbab8bdddfa2a4cbe34884625bb955fd",
+    "commitName": "feat: proteger p├íginas y agregar el bot├│n de cerrar sesi├│n",
+    "commitTimestamp": 1792266328971,
+    "testId": 34
+  },
+  {
+    "commitId": "f2140c07c9403a01f03f47f731dfa61c74dc66c5",
+    "commitName": "feat: crear reporte de objeto perdido con datos v├ílidos",
+    "commitTimestamp": 1792266666002,
+    "testId": 35
+  },
+  {
+    "commitId": "7494cfa71ccdde76e8eb43fbeec93f7475ce4a5a",
+    "commitName": "feat: crear el reporte a nombre del usuario",
+    "commitTimestamp": 1792266768406,
+    "testId": 36
+  },
+  {
+    "commitId": "709b714548c3a008cd73d5eb3ab9753b8a62b799",
+    "commitName": "feat: pedir nombre y fecha cuando el nombre est├í vac├¡o",
+    "commitTimestamp": 1792266845357,
+    "testId": 37
+  },
+  {
+    "commitId": "1610cfacdcc22f3d96a58c8f41046afeb951fd0c",
+    "commitName": "feat: pedir nombre y fecha cuando la fecha est├í vac├¡a",
+    "commitTimestamp": 1792266905746,
+    "testId": 38
+  },
+  {
+    "commitId": "3dd034a4e5953729db0de4b3a0f25fee5fdf1016",
+    "commitName": "feat: tratar como vac├¡o el nombre con solo espacios en el reporte",
+    "commitTimestamp": 1792266956761,
+    "testId": 39
+  },
+  {
+    "commitId": "1d33a526c410427244f0ea0dd4f76901888af030",
+    "commitName": "feat: rechazar fechas de p├®rdida futuras",
+    "commitTimestamp": 1792267019290,
+    "testId": 40
+  },
+  {
+    "commitId": "dcc92d34131cf8e3d05e364a03bf87f04fcbf1df",
+    "commitName": "feat: crear repositorio de objetos perdidos",
+    "commitTimestamp": 1792267090059,
+    "testId": 41
+  },
+  {
+    "commitId": "45cd914c447f3d05aef1ff98399527f6cba7a2cd",
+    "commitName": "feat: guardar y listar los reportes de cada usuario",
+    "commitTimestamp": 1792267156183,
+    "testId": 42
+  },
+  {
+    "commitId": "d8634c833f6ee67666cc47dffafcf140dc4fe9f4",
+    "commitName": "feat: convertir fechas al formato AAAA-MM-DD",
+    "commitTimestamp": 1792267237385,
+    "testId": 43
+  },
+  {
+    "commitId": "b5b41ad0f52194c0a8926a2fd2d98f418cc12be1",
+    "commitName": "feat: agregar el formulario para reportar objetos perdidos",
+    "commitTimestamp": 1792267333477,
+    "testId": 44
+  },
+  {
+    "commitId": "5315a86682c1dc0ed1321a0e6d2df57405b06cf7",
+    "commitName": "feat: buscar objetos encontrados por nombre",
+    "commitTimestamp": 1792279030567,
+    "testId": 45
+  },
+  {
+    "commitId": "6925efbd56bd6e26953613bc485bf806c7ce7db9",
+    "commitName": "feat: buscar objetos encontrados por descripci├│n",
+    "commitTimestamp": 1792279220633,
+    "testId": 46
+  },
+  {
+    "commitId": "70a7a8b438c21cfcfc1df98e61675db8324927df",
+    "commitName": "feat: buscar sin importar may├║sculas y min├║sculas",
+    "commitTimestamp": 1792280094974,
+    "testId": 47
+  },
+  {
+    "commitId": "2ebed19220f48612b0b7e37e2d96f1dfcc3819ce",
+    "commitName": "feat: mostrar los objetos que coinciden con la b├║squeda",
+    "commitTimestamp": 1792280428283,
+    "testId": 48
+  },
+  {
+    "commitId": "d7fcb9c98678682397ed7d98d195f590a43a49b4",
+    "commitName": "feat: avisar cuando no hay objetos que coincidan",
+    "commitTimestamp": 1792280604222,
+    "testId": 49
+  },
+  {
+    "commitId": "bff6616c054db670e3aba3d209f1b187b8823763",
+    "commitName": "feat: mostrar todos los objetos del m├ís reciente al m├ís antiguo",
+    "commitTimestamp": 1792280751298,
+    "testId": 50
+  },
+  {
+    "commitId": "0a4499ca444b0e761d5d1aa525c2be556229bbb8",
+    "commitName": "feat: crear repositorio de objetos encontrados",
+    "commitTimestamp": 1792280899542,
+    "testId": 51
+  },
+  {
+    "commitId": "cf27223d3c2cc2a5d1c47c84eb01f7c85152dae2",
+    "commitName": "feat: guardar objetos encontrados en el navegador",
+    "commitTimestamp": 1792280989853,
+    "testId": 52
+  },
+  {
+    "commitId": "02d5d4086f651ae4bf560c0a443e67be92689524",
+    "commitName": "feat: agregar la pantalla para buscar objetos encontrados",
+    "commitTimestamp": 1792281334600,
+    "testId": 53
+  },
+  {
+    "commitId": "93b2336b36cd412af37331be16a418eeeed90be8",
+    "commitName": "feat: cargar objetos encontrados de ejemplo",
+    "commitTimestamp": 1792283150453,
+    "testId": 54
+  },
+  {
+    "commitId": "ed87c29857dd712ce9082c7a7ebf7e0142514774",
+    "commitName": "feat: no duplicar los objetos de ejemplo al recargar",
+    "commitTimestamp": 1792283351767,
+    "testId": 55
+  },
+  {
+    "commitId": "2f6a2846890ec2f7f51010c7073e92254302c989",
+    "commitName": "feat: mostrar la vista b├ísica de un objeto encontrado",
+    "commitTimestamp": 1792284208169,
+    "testId": 56
+  },
+  {
+    "commitId": "0c3bfca30ab35831e1ca3e056bae0bc83e988210",
+    "commitName": "feat: ocultar los datos de quien encontr├│ el objeto",
+    "commitTimestamp": 1792284350462,
+    "testId": 57
+  },
+  {
+    "commitId": "2a86c3c83f1fcecd248108eb64c115a659dc3ef4",
+    "commitName": "feat: buscar un objeto encontrado por su id",
+    "commitTimestamp": 1792284437248,
+    "testId": 58
+  },
+  {
+    "commitId": "df87ce056435943874eee66daedb8e9be80e1405",
+    "commitName": "feat: ver los datos de un objeto al presionarlo en la lista",
+    "commitTimestamp": 1792284967518,
+    "testId": 59
+  },
+  {
+    "commitId": "31ce16d3bdcf190e37c0399a92d27b48ebffad93",
+    "commitName": "feat: no enviar a la lista los datos de quien encontr├│ el objeto",
+    "commitTimestamp": 1792285099645,
+    "testId": 60
+  },
+  {
+    "commitId": "c304f429b529f1dbf4b258e11ade51fb5695425c",
+    "commitName": "docs: agregar las pruebas manuales del sprint 1",
+    "commitTimestamp": 1792285702672,
+    "testId": 61
+  },
+  {
+    "commitId": "37281414ddf8e34df7b6e04902510f8b30900221",
+    "commitName": "chore: ejecutar las pruebas autom├íticamente en cada push y en cada pull request",
+    "commitTimestamp": 1792290200271,
+    "testId": 62
+  },
+  {
+    "commitId": "5d2fb29e3429c689c4f30ed5cc176dc7ab85fc10",
+    "commitName": "chore: correr las pruebas antes de cada commit",
+    "commitTimestamp": 1792290259618,
+    "testId": 63
+  },
+  {
+    "commitId": "b2763425c37636f3cdf45e04a59aa954629c1e8f",
+    "commitName": "feat: registrar objeto encontrado con foto y descripci├│n",
+    "commitTimestamp": 1792366406648,
+    "testId": 64
+  },
+  {
+    "commitId": "7ea73248a55c79ac09e5adbbd8ae561414dd8b5c",
+    "commitName": "feat: crear el objeto encontrado con la fecha de hoy y el correo de quien lo encontr├│",
+    "commitTimestamp": 1792366540229,
+    "testId": 65
+  },
+  {
+    "commitId": "69b61a9fae434136bf5f29db38a18cc9a6e7cd95",
+    "commitName": "feat: pedir foto y descripci├│n cuando falta la foto",
+    "commitTimestamp": 1792366710640,
+    "testId": 66
+  },
+  {
+    "commitId": "897d610a4b7f8d73a353e4c08934cad40ffcb3db",
+    "commitName": "feat: pedir foto y descripci├│n cuando falta la descripci├│n",
+    "commitTimestamp": 1792366867301,
+    "testId": 67
+  },
+  {
+    "commitId": "83c5d0ce46dfcad1bf748212283c1332e474c079",
+    "commitName": "feat: tratar como vac├¡a la descripci├│n con solo espacios",
+    "commitTimestamp": 1792367014303,
+    "testId": 68
+  },
+  {
+    "commitId": "4ab7b387972b7371fa4e40cf11d11d0ebb69c958",
+    "commitName": "feat: usar un nombre por defecto cuando no se escribe el nombre del objeto",
+    "commitTimestamp": 1792367160192,
+    "testId": 69
+  },
+  {
+    "commitId": "f216ee26e7458d24954d0affc3f8df2a62fc4cdc",
+    "commitName": "feat: aceptar solo im├ígenes como foto del objeto",
+    "commitTimestamp": 1792367248530,
+    "testId": 70
+  },
+  {
+    "commitId": "0717bf1f281052e036947fff8ad112aa29ce797c",
+    "commitName": "feat: guardar el objeto registrado para que aparezca en la lista",
+    "commitTimestamp": 1792367474288,
+    "testId": 71
+  },
+  {
+    "commitId": "40587cc66890f098767bff9b7582dafc3b0dbe01",
+    "commitName": "feat: no guardar el objeto cuando faltan la foto o la descripci├│n",
+    "commitTimestamp": 1792367536056,
+    "testId": 72
+  },
+  {
+    "commitId": "1c02fea757085900de4eee6383992fa79df45611",
+    "commitName": "feat: avisar cuando la foto es muy pesada para guardarla",
+    "commitTimestamp": 1792367609396,
+    "testId": 73
+  },
+  {
+    "commitId": "b0e9b04ea530f2b38478b0f79b01d473a808e2b7",
+    "commitName": "feat: pedir iniciar sesi├│n para registrar un objeto encontrado",
+    "commitTimestamp": 1792367696947,
+    "testId": 74
+  },
+  {
+    "commitId": "5a7b03391da7097758a875f3da09172fca38b10c",
+    "commitName": "feat: agregar la pantalla para registrar objetos encontrados",
+    "commitTimestamp": 1792368481330,
+    "testId": 75
+  },
+  {
+    "commitId": "4719652fcf8c8c86c4609d6c0d8c3162aa9205ba",
+    "commitName": "chore: unir main en la rama de la HU-11",
+    "commitTimestamp": 1792370657699,
+    "testId": 76
+  },
+  {
+    "commitId": "d05c28b50d272191408bd560799b3fa2ddedeada",
+    "commitName": "refactor: crear los presenters de registro e inicio de sesi├│n en main.jsx",
+    "commitTimestamp": 1792503750368,
+    "testId": 77
+  },
+  {
+    "commitId": "b3502a60f599ba5387a3b0a81f7d29787e133536",
+    "commitName": "fix: pedir sesi├│n para buscar objetos encontrados",
+    "commitTimestamp": 1792504060472,
+    "testId": 78
+  },
+  {
+    "commitId": "610c6e569db64d5605b129463acf76a75a9ccdbc",
+    "commitName": "fix: buscar sin importar las tildes",
+    "commitTimestamp": 1792504154404,
+    "testId": 79
+  },
+  {
+    "commitId": "ee03452daab51102371664064ddb917ba9aa1bdc",
+    "commitName": "fix: mostrar primero el ├║ltimo objeto registrado cuando tienen la misma fecha",
+    "commitTimestamp": 1792504237526,
+    "testId": 80
+  },
+  {
+    "commitId": "ed008d06df1cd0fe714ba6514f1fea762e6e5951",
+    "commitName": "docs: agregar la HU-11 y las correcciones a las pruebas manuales",
+    "commitTimestamp": 1792504518350,
+    "testId": 81
+  },
+  {
+    "commitId": "7d36b164b793e70b5537bf2e095a04b085a9a1d6",
+    "commitName": "docs: marcar los resultados de las pruebas manuales del sprint 1",
+    "commitTimestamp": 1792504672633,
+    "testId": 82
+  },
+  {
+    "commitId": "e518842f35389b7b101fbac804fd323b4c500072",
+    "commitName": "feat: agregar actualizar al repositorio de objetos encontrados",
+    "commitTimestamp": 1792526686121,
+    "testId": 83
+  },
+  {
+    "commitId": "03018029050384472f84ec04a18d0aef1c5eb6ad",
+    "commitName": "refactor: reemplazar los emojis de los objetos de ejemplo por fotos reales",
+    "commitTimestamp": 1792526714638,
+    "testId": 84
+  },
+  {
+    "commitId": "bce695d316180d3d61978632c4a48b09d3e7687e",
+    "commitName": "Merge remote-tracking branch 'origin/main' into test/integracion-registro-login\n\n# Conflicts:\n#\tscript/commit-history.json\n#\tscript/tdd_log.json",
+    "commitTimestamp": 1792595233094,
+    "testId": 85
+  },
+  {
+    "commitId": "99f8386cd6d9eae93a60589fc06f4e744903541f",
+    "commitName": "refactor: nombrar como predicados los m├®todos de ObjetoPerdido",
+    "commitTimestamp": 1794319266644,
+    "testId": 86
+  },
+  {
+    "commitId": "b4f36971b31166f5f102495c30a7af24ba0db03a",
+    "commitName": "refactor: agrupar las pruebas repetidas del registro de usuario",
+    "commitTimestamp": 1794319327511,
+    "testId": 87
+  },
+  {
+    "commitId": "e088eaaeec1ee1a9f9b059abc0237aa1d90642f7",
+    "commitName": "chore: unir main en la rama refactor/majo-objeto-perdido",
+    "commitTimestamp": 1794320546802,
+    "testId": 88
+  },
+  {
+    "commitId": "1ce7f3465590f5ae47698dfedcb5e35336909e8f",
+    "commitName": "chore: unir main en la rama refactor/majo-objeto-perdido",
+    "commitTimestamp": 1794320767826,
+    "testId": 89
+  },
+  {
+    "commitId": "b54554a5113c49aa437a8d8ad7bf81480462cbcb",
+    "commitName": "chore: resolver conflictos de los logs con main",
+    "commitTimestamp": 1794321683632,
+    "testId": 90
+  },
+  {
+    "commitId": "3bddcefe2e2216ec4d782aaad4b2e83b632263a2",
+    "commitName": "test: registrar ejecucion de pruebas",
+    "commitTimestamp": 1794321854027,
+    "testId": 91
+  },
+  {
+    "commitId": "d676277bdaf96b0dfafbd0c36cdffdca53899579",
+    "commitName": "chore: resolver conflictos de los logs con main",
+    "commitTimestamp": 1794485969579,
+    "testId": 92
+  },
+  {
+    "commitId": "0df59a64bc52423ce8b59902bac829bfbc27dec6",
+    "commitName": "refactor: renombrar mostrarPagina a resolverPagina en SesionPresenter",
+    "commitTimestamp": 1794486244109,
+    "testId": 93
+  },
+  {
+    "commitId": "d404ffdf8ece3230707dbc9db47402e23ed36b9a",
+    "commitName": "refactor: renombrar pidioIniciarSesion a fueRedirigidoAlLogin en main",
+    "commitTimestamp": 1794486325675,
+    "testId": 94
+  },
+  {
+    "commitId": "091103eb2222ce03b7f478079ae9a09351d27118",
+    "commitName": "refactor: renombrar vistaBasica a obtenerVistaBasica en ObjetoEncontrado",
+    "commitTimestamp": 1794486453900,
+    "testId": 95
+  },
+  {
+    "commitId": "0ba2720453257fb7c8523a0fa8e6fe5e72131254",
+    "commitName": "refactor: renombrar obtenerUsuarios a obtenerTodos en RepositorioUsuarios",
+    "commitTimestamp": 1794486557456,
+    "testId": 96
+  },
+  {
+    "commitId": "87f97ae3310cb9de60d9943295fe0802898ff15f",
+    "commitName": "refactor: renombrar obtenerReportes a obtenerTodos en RepositorioReportes",
+    "commitTimestamp": 1794486709936,
+    "testId": 97
+  },
+  {
+    "commitId": "e5e78307d12405eea135f45727bd1eb8d54fa949",
+    "commitName": "refactor: renombrar sinTildes a quitarTildes en ObjetoEncontrado",
+    "commitTimestamp": 1794487047895,
+    "testId": 98
+  },
+  {
+    "commitId": "8537c7d5ccdfdce872cc92d6538f7b9203ed75b1",
+    "commitName": "refactor: renombrar fechaComoTexto a convertirFechaATexto",
+    "commitTimestamp": 1794487144062,
+    "testId": 99
+  },
+  {
+    "commitId": "b8ae9b2343c725d6bee1e1f5a0d3bea13325e017",
+    "commitName": "refactor: renombrar correoYaRegistrado a estaRegistrado en RegistroUsuario",
+    "commitTimestamp": 1794487228276,
+    "testId": 100
+  },
+  {
+    "commitId": "d619d5526be4ec2b55d10229c623c9d252ce309e",
+    "commitName": "refactor: renombrar el archivo registro.js a registroUsuario.js",
+    "commitTimestamp": 1794487428424,
+    "testId": 101
+  },
+  {
+    "commitId": "6ace7a5e8d1930ecf39a990ac9dfe59589643e02",
+    "commitName": "refactor: usar la funci├│n crearError compartida en RegistroUsuario",
+    "commitTimestamp": 1794487707079,
+    "testId": 102
+  },
+  {
+    "commitId": "58872da3dc8bebeb077f5c4b286b6e441cb44fbf",
+    "commitName": "refactor: usar la funci├│n crearError compartida en RegistroObjetoEncontrado",
+    "commitTimestamp": 1794487807208,
+    "testId": 103
+  },
+  {
+    "commitId": "58f455cab94c3dcd47fa090239d508cb2975928f",
+    "commitName": "refactor: usar la funci├│n crearError compartida en ReporteObjetoPerdido",
+    "commitTimestamp": 1794487865340,
+    "testId": 104
+  },
+  {
+    "commitId": "c7830ba84fb72b61d3b15379269f54b5f326b3a8",
+    "commitName": "chore: resolver conflictos de los logs con main",
+    "commitTimestamp": 1794490834863,
+    "testId": 105
+  },
+  {
+    "commitId": "c7830ba84fb72b61d3b15379269f54b5f326b3a8",
+    "commitName": "refactor: renombrar cargandoFoto a estaCargandoFoto",
+    "commitTimestamp": 1794491238974,
+    "testId": 106
+  },
+  {
+    "commitId": "ac78620ab7012710d592042d2698d2fb86909bb2",
+    "commitName": "refactor: usar faltanFotoODescripcion en registrar",
+    "commitTimestamp": 1794491326377,
+    "testId": 107
+  },
+  {
+    "commitId": "3d6ce3ed241f649790ccc65bee2a562e5b15b9b7",
+    "commitName": "refactor: renombrar cargandoFoto a estaCargandoFoto",
+    "commitTimestamp": 1794491359856,
+    "testId": 108
+  },
+  {
+    "commitId": "980e05c5f5e15aab2be7beb1310b98af99a9deb6",
+    "commitName": "refactor: ajusta el dise├▒o del registro de objeto encontrado al prototipo",
+    "commitTimestamp": 1794492827477,
+    "testId": 109
+  },
+  {
+    "commitId": "3de9fe9c738a5b3a0a7a431e71e986dcff5eb49d",
+    "commitName": "feat: guardar la categor├¡a del objeto encontrado (HU-13)",
+    "commitTimestamp": 1794496724183,
+    "testId": 110
+  },
+  {
+    "commitId": "afceabeb20f253f91b2fb499e3981b603c86bf41",
+    "commitName": "feat: pedir la categor├¡a al registrar un objeto encontrado (HU-13)",
+    "commitTimestamp": 1794497257356,
+    "testId": 111
+  },
+  {
+    "commitId": "35bc008ef397321a57785b091593319ec06419b7",
+    "commitName": "feat: aceptar solo categor├¡as de la lista oficial (HU-13)",
+    "commitTimestamp": 1794497446227,
+    "testId": 112
+  },
+  {
+    "commitId": "5e3a62518d035007b871b6d3f9823b23470f857d",
+    "commitName": "feat: mostrar la categor├¡a en el detalle del objeto (HU-13)",
+    "commitTimestamp": 1794497575882,
+    "testId": 113
+  },
+  {
+    "commitId": "5cc1ba309f91ec949f865d1235d962cb340eae3c",
+    "commitName": "feat: mostrar Sin categor├¡a en objetos anteriores (HU-13)",
+    "commitTimestamp": 1794497733635,
+    "testId": 114
+  },
+  {
+    "commitId": "d9db9260885aed1bc116e0d803cdf3abe4734f3a",
+    "commitName": "feat: ofrecer la lista de categor├¡as al formulario (HU-13)",
+    "commitTimestamp": 1794497944742,
+    "testId": 115
+  },
+  {
+    "commitId": "e9a88d839c67f500fd140e935d7b9f661ee3a9b4",
+    "commitName": "feat: elegir la categor├¡a en el formulario y verla en el detalle (HU-13)",
+    "commitTimestamp": 1794498394886,
+    "testId": 116
+  },
+  {
+    "commitId": "4c40e5f5aab0d5fa1d6baca34a7917955aa75ae1",
+    "commitName": "chore: resolver conflictos con main (HU-13)",
+    "commitTimestamp": 1794507483832,
+    "testId": 117
+  },
+  {
+    "commitId": "c0562f43c390d0e0b7cd06fdc3cd19d454af0ebc",
+    "commitName": "feat: agregar la lista compartida de bloques de los dos campus",
+    "commitTimestamp": 1794508253920,
+    "testId": 118
+  },
+  {
+    "commitId": "c27ec8388c22f32c011b41be5a2bce936503c18f",
+    "commitName": "feat: guardar el bloque y el aula del objeto encontrado (HU-12)",
+    "commitTimestamp": 1794509630716,
+    "testId": 119
+  },
+  {
+    "commitId": "49f3921b5de887f1c1b8230e36e37ecafab9a097",
+    "commitName": "feat: pedir el bloque cuando no se elige uno (HU-12)",
+    "commitTimestamp": 1794509859936,
+    "testId": 120
+  },
+  {
+    "commitId": "9352a7fee95b3eb66d37f4879fcb27452a554c0f",
+    "commitName": "feat: el aula es opcional y se guarda sin espacios sobrantes (HU-12)",
+    "commitTimestamp": 1794510021710,
+    "testId": 121
+  },
+  {
+    "commitId": "eeb31b2631a8fc7790359b21466279bba3878b24",
+    "commitName": "feat: mostrar bloque y aula en el detalle del objeto (HU-12)",
+    "commitTimestamp": 1794510439984,
+    "testId": 122
+  },
+  {
+    "commitId": "840f3b428ac110ab15d296841d966addb2a9654f",
+    "commitName": "feat: mostrar solo el bloque en el detalle cuando no hay aula (HU-12)",
+    "commitTimestamp": 1794510629612,
+    "testId": 123
+  },
+  {
+    "commitId": "f28dccb9090c921eaf3c8e08fd15408966eec124",
+    "commitName": "feat: mostrar Lugar no indicado en objetos anteriores sin lugar (HU-12)",
+    "commitTimestamp": 1794510824505,
+    "testId": 124
+  },
+  {
+    "commitId": "cdc43db328c261551f37ada9f92011195525adc8",
+    "commitName": "feat: ofrecer la lista de bloques al formulario de registro (HU-12)",
+    "commitTimestamp": 1794510992934,
+    "testId": 125
+  },
+  {
+    "commitId": "1c964c276f30e28cb7e894b6d06b8733fd22a445",
+    "commitName": "feat: mostrar el lugar donde se encontr├│ en el detalle del objeto (HU-12)",
+    "commitTimestamp": 1794511146713,
+    "testId": 126
+  },
+  {
+    "commitId": "8f36acffbd54ad33031609e260aeb0ac97c93ae1",
+    "commitName": "feat: saber si un objeto es de una categor├¡a",
+    "commitTimestamp": 1794511518018,
+    "testId": 119
+  },
+  {
+    "commitId": "04143c4da0391887d018e5b7b339787526680542",
+    "commitName": "feat: agregar los campos de bloque y aula al formulario de objeto encontrado (HU-12)",
+    "commitTimestamp": 1794511984563,
+    "testId": 127
+  },
+  {
+    "commitId": "2e778b520e4809d4dda7ece77ed360fefa38971e",
+    "commitName": "feat: agregar esImagen para reconocer si una foto es una imagen",
+    "commitTimestamp": 1794513815516,
+    "testId": 128
+  },
+  {
+    "commitId": "7069052dbc606a512b60d1dff0b72422fa697b3b",
+    "commitName": "refactor: usar esImagen para validar la foto al registrar un objeto",
+    "commitTimestamp": 1794513951727,
+    "testId": 129
+  },
+  {
+    "commitId": "5a8c5a565bf9c3ce7e98b940a07bc3a93de11ad9",
+    "commitName": "refactor: usar esImagen para mostrar la vista previa de la foto",
+    "commitTimestamp": 1794514075541,
+    "testId": 130
+  },
+  {
+    "commitId": "67e9f21273eb0d7093bfcb7dbe2bb87fe93190bc",
+    "commitName": "feat: calcular el tama├▒o reducido de una foto grande",
+    "commitTimestamp": 1794514782589,
+    "testId": 131
+  },
+  {
+    "commitId": "fd6a2394436c54eeb253687988dd63c59c7f3a02",
+    "commitName": "feat: aceptar todas las categor├¡as y objetos sin categor├¡a con Todas",
+    "commitTimestamp": 1794514820370,
+    "testId": 120
+  },
+  {
+    "commitId": "e46b0a9139124cfc1ca77f37fa797ecde86573ea",
+    "commitName": "feat: no agrandar las fotos que ya son peque├▒as",
+    "commitTimestamp": 1794514880586,
+    "testId": 132
+  },
+  {
+    "commitId": "60972f0b96481282eceb2b14004897b25de0cc5f",
+    "commitName": "refactor: crear lectorDeFoto con la lectura y el achicado de la foto",
+    "commitTimestamp": 1794514938971,
+    "testId": 133
+  },
+  {
+    "commitId": "5e616f99f73e25eff72f24e88c1a6c55aae08c40",
+    "commitName": "refactor: usar lectorDeFoto en el formulario y quitar la l├│gica de achicar de la vista",
+    "commitTimestamp": 1794515091244,
+    "testId": 134
+  },
+  {
+    "commitId": "0581bd5b5eea40c52c9fff0e9e6450899a26ac31",
+    "commitName": "feat: filtrar objetos encontrados por categor├¡a",
+    "commitTimestamp": 1794515731264,
+    "testId": 121
+  },
+  {
+    "commitId": "c872d2be88024d258d515f00e04f0e8ec7ae22bd",
+    "commitName": "test: simular el error real de almacenamiento lleno del navegador",
+    "commitTimestamp": 1794516751295,
+    "testId": 135
+  },
+  {
+    "commitId": "da1598cc73d095d22784d2a433b1789e882eee10",
+    "commitName": "feat: distinguir el error de espacio lleno de otros fallos al guardar el objeto",
+    "commitTimestamp": 1794516886181,
+    "testId": 136
+  },
+  {
+    "commitId": "38cc1b555d03a6cf11ff3e1d4e8fd770420b90e4",
+    "commitName": "feat: mostrar un error y quitar Cargando foto cuando falla la lectura de la foto",
+    "commitTimestamp": 1794517168386,
+    "testId": 137
+  },
+  {
+    "commitId": "52ecab68dc73b307a3836e8c7aece4390036ced0",
+    "commitName": "feat: avisar cuando ning├║n objeto coincide con nombre, descripci├│n o categor├¡a",
+    "commitTimestamp": 1794517690834,
+    "testId": 122
+  },
+  {
+    "commitId": "8d11df7910e9957f1de92fe7d1f853ebdc14fde1",
+    "commitName": "chore: resolver conflictos de los logs con main",
+    "commitTimestamp": 1794521754378,
+    "testId": 138
+  },
+  {
+    "commitId": "6fb8a50867ac1ef647bb3ab22be150df9948fa57",
+    "commitName": "chore: resolver conflictos con main (apariencia del inicio de sesi├│n)",
+    "commitTimestamp": 1794522436392,
+    "testId": 139
+  },
+  {
+    "commitId": "01e0b9eb0dfb89bc908d10da846b1f8dedfccc3f",
+    "commitName": "feat: agregar el filtro por categor├¡a a la pantalla de b├║squeda",
+    "commitTimestamp": 1794522808480,
+    "testId": 123
+  },
+  {
+    "commitId": "c8064ef9ce196cc506f28187f7c043ed343bc03c",
+    "commitName": "feat: agregar el filtro por categor├¡a a la pantalla de b├║squeda",
+    "commitTimestamp": 1794522808480,
+    "testId": 123
+  },
+  {
+    "commitId": "c8064ef9ce196cc506f28187f7c043ed343bc03c",
+    "commitName": "style: mejorar estado sin resultados en b├║squeda",
+    "commitTimestamp": 1794533030826,
+    "testId": 124
+  },
+  {
+    "commitId": "777f83728a960fbf402a0169b6862c5d5c5c81d3",
+    "commitName": "Merge remote-tracking branch 'origin/main' into feature/hu-08-buscar-por-categoria\n\n:wq#:wq",
+    "commitTimestamp": 1794534681112,
+    "testId": 125
+  },
+  {
+    "commitId": "062545f255d5ceac20d284b01e09381c24590ed9",
+    "commitName": "feat: enviar la solicitud de reclamo como pendiente a nombre de quien reclama",
+    "commitTimestamp": 1794547752486,
+    "testId": 126
+  },
+  {
+    "commitId": "14f2c4cca11936545a32cfc5f6083ad90bb42056",
+    "commitName": "feat: pedir la explicación cuando está vacía en la solicitud de reclamo",
+    "commitTimestamp": 1794548023878,
+    "testId": 127
+  },
+  {
+    "commitId": "d7fac8aa07aa75faf68d07f0ca6315462aca9936",
+    "commitName": "feat: tratar como vacía la explicación con solo espacios",
+    "commitTimestamp": 1794548402174,
+    "testId": 128
+  },
+  {
+    "commitId": "acd8d5ff24a4ef17b059671a68a06e22899aa35a",
+    "commitName": "feat: no dejar reclamar un objeto que registró la misma persona",
+    "commitTimestamp": 1794548692850,
+    "testId": 129
+  },
+  {
+    "commitId": "d043b8243d81a930342ee9ae921b9d61032cc7d6",
+    "commitName": "feat: no dejar enviar otra solicitud de reclamo sobre el mismo objeto",
+    "commitTimestamp": 1794551417138,
+    "testId": 130
+  },
+  {
+    "commitId": "f324bfd6888af53b755f1da0fa42ae55070adddf",
+    "commitName": "feat: guardar y recuperar las solicitudes de reclamo en el navegador",
+    "commitTimestamp": 1794552364616,
+    "testId": 131
+  },
+  {
+    "commitId": "d2552ce90220bfd32011a26636050d84cc7eff57",
+    "commitName": "feat: guardar la solicitud de reclamo a nombre de quien inició sesión",
+    "commitTimestamp": 1794588964316,
+    "testId": 132
+  },
+  {
+    "commitId": "41cb5fd22a0bd89ccd1b5933895ac1676d90d347",
+    "commitName": "feat: revisar las solicitudes guardadas antes de enviar otro reclamo",
+    "commitTimestamp": 1794589203570,
+    "testId": 133
+  },
+  {
+    "commitId": "807755ef1c795f6fb36dc61763696a6f763c026f",
+    "commitName": "chore: unir main en la rama de la HU-10",
+    "commitTimestamp": 1794589339359,
+    "testId": 134
+  },
+  {
+    "commitId": "f4f6c60f2baa650a1e38bc302b17568536fcbeb7",
+    "commitName": "feat: ocultar el formulario de reclamo después de enviar la solicitud",
+    "commitTimestamp": 1794590139100,
+    "testId": 135
+  },
+  {
+    "commitId": "b936cfa2351fcb5c75a9be5a9f6badfa71ff75e0",
+    "commitName": "fix: corregir el nombre del archivo de pruebas del repositorio de reclamos",
+    "commitTimestamp": 1794591020273,
+    "testId": 136
+  },
+  {
+    "commitId": "075bfe6bd251b496ec967c292beeee87407f6006",
+    "commitName": "refactor: recibir los datos de ObjetoPerdido en un objeto",
+    "commitTimestamp": 1794593089499,
+    "testId": 137
+  },
+  {
+    "commitId": "a3099ebd12c2ac26550ba3445b5f681756e456b8",
+    "commitName": "feat: guardar el bloque y el aula donde se perdió el objeto",
+    "commitTimestamp": 1794593824788,
+    "testId": 138
+  },
+  {
+    "commitId": "200495357bc418f1be52a77e6d55c890eb1cbcfe",
+    "commitName": "test: completar con bloque y aula los datos de las pruebas de reporte",
+    "commitTimestamp": 1794593932029,
+    "testId": 139
+  },
+  {
+    "commitId": "bec23b4dda76cb87cae3af9f3220a4bba0b9f35a",
+    "commitName": "feat: pedir el bloque donde se perdió el objeto",
+    "commitTimestamp": 1794594217449,
+    "testId": 140
+  },
+  {
+    "commitId": "cf681392873ffec72ebbe16b0f04e660c73f2628",
+    "commitName": "feat: crear el reporte solo con el bloque cuando el aula está vacía",
+    "commitTimestamp": 1794594394480,
+    "testId": 141
+  },
+  {
+    "commitId": "972ebaa19b96b6b10498a1375d1dd2a6ce0df9af",
+    "commitName": "feat: ofrecer la lista de bloques al formulario de reporte",
+    "commitTimestamp": 1794594514786,
+    "testId": 142
+  },
+  {
+    "commitId": "cda6120cca9e68ea5087e42113b7d6e7300e4fec",
+    "commitName": "feat: agregar los campos de bloque y aula al formulario de reporte",
+    "commitTimestamp": 1794594714957,
+    "testId": 143
+  },
+  {
+    "commitId": "ab2691aea081a9dfa7d9c784a7c1eb0ba2eb01ef",
+    "commitName": "feat: aceptar un celular de 8 dígitos que empieza con 7",
+    "commitTimestamp": 1794637932181,
+    "testId": 144
+  },
+  {
+    "commitId": "50d048d01921b48b338e5d250d5b2f6b2c6c3c3f",
+    "commitName": "feat: rechazar un celular de menos de 8 dígitos",
+    "commitTimestamp": 1794638021951,
+    "testId": 145
+  },
+  {
+    "commitId": "82b554b37f0e7ff7b9e1cd2d19e220997b7e8ba2",
+    "commitName": "feat: rechazar un celular que no empieza con 6 o 7",
+    "commitTimestamp": 1794638118706,
+    "testId": 146
+  },
+  {
+    "commitId": "c196fbc688aa178817d4070c16248f281a3ded4d",
+    "commitName": "feat: guardar el celular de contacto en el reporte",
+    "commitTimestamp": 1794638312070,
+    "testId": 147
+  },
+  {
+    "commitId": "4c11fac8fa2251ceb9dda24f926de6a9d0998abf",
+    "commitName": "feat: rechazar el reporte con un celular inválido",
+    "commitTimestamp": 1794638407697,
+    "testId": 148
+  },
+  {
+    "commitId": "875327522274588a3e9b4d7fa3e55d8845403989",
+    "commitName": "feat: permitir crear el reporte sin celular de contacto",
+    "commitTimestamp": 1794638495312,
+    "testId": 149
+  },
+  {
+    "commitId": "78db02f4aedd5c427835a9ed6b97126ab8d43120",
+    "commitName": "feat: agregar el campo de celular de contacto al formulario de reporte",
+    "commitTimestamp": 1794638797631,
+    "testId": 150
+  },
+  {
+    "commitId": "f56b57d1b5657783620b547ca301c5afeb4afc4b",
+    "commitName": "fix: rechazar un celular que tiene letras",
+    "commitTimestamp": 1794639234759,
+    "testId": 151
+  },
+  {
+    "commitId": "4e7af140b286d369b186bfcdd008b273b24f789e",
+    "commitName": "feat: guardar el celular de contacto en el objeto encontrado",
+    "commitTimestamp": 1794639470138,
+    "testId": 152
+  },
+  {
+    "commitId": "de704e2622465f9967b624517fa039f3e5dbc514",
+    "commitName": "feat: rechazar el registro con un celular inválido",
+    "commitTimestamp": 1794639561812,
+    "testId": 153
+  },
+  {
+    "commitId": "4e5c8b6f7db160510eefccf8b388d036297520d3",
+    "commitName": "feat: permitir registrar el objeto sin celular de contacto",
+    "commitTimestamp": 1794639648242,
+    "testId": 154
+  },
+  {
+    "commitId": "e4f05a09b6d88f328edf9bbfbee9bb895219108d",
+    "commitName": "feat: agregar el campo de celular de contacto al formulario de objeto encontrado",
+    "commitTimestamp": 1794639924520,
+    "testId": 155
+  },
+  {
+    "commitId": "a826242546a33553a93f38606aaf6ba7b0fc504f",
+    "commitName": "refactor: agregar esCelularOpcionalValido para el celular de contacto",
+    "commitTimestamp": 1794640219055,
+    "testId": 156
+  },
+  {
+    "commitId": "562125cac9460677e8409b1c1dad6553b3e17b6c",
+    "commitName": "refactor: usar esCelularOpcionalValido en el reporte de objeto perdido",
+    "commitTimestamp": 1794640291719,
+    "testId": 157
+  },
+  {
+    "commitId": "44face0f45c7949e813ac79ca4120e8ab2dcb66f",
+    "commitName": "refactor: usar esCelularOpcionalValido en el registro de objeto encontrado",
+    "commitTimestamp": 1794640345353,
+    "testId": 158
+  },
+  {
+    "commitId": "06fb3e67a51801f097cbcae9e09888c4a8f71bf1",
+    "commitName": "feat: reconocer al encargado de objetos por su correo",
+    "commitTimestamp": 1794705857556,
+    "testId": 159
+  },
+  {
+    "commitId": "cf37c6c76b2c18106529db355e27af1e7e952fab",
+    "commitName": "feat: saber si la sesión es del encargado",
+    "commitTimestamp": 1794706011578,
+    "testId": 160
+  },
+  {
+    "commitId": "79c3022aac31ca208061d8183c176dd908150a87",
+    "commitName": "feat: no tratar como encargado a quien no tiene el rol",
+    "commitTimestamp": 1794706213528,
+    "testId": 161
+  },
+  {
+    "commitId": "58daacfa99d18ca9b27c44a69fdba1b563d534d5",
+    "commitName": "feat: mostrar la página de objetos guardados solo al encargado",
+    "commitTimestamp": 1794706455015,
+    "testId": 162
+  },
+  {
+    "commitId": "cbed26953a75c43e2af333954176ec2bf582f6d2",
+    "commitName": "feat: pedir iniciar sesión para ver los objetos guardados",
+    "commitTimestamp": 1794706593133,
+    "testId": 163
+  },
+  {
+    "commitId": "df387c4befa1e93597831ee985986bf450cbd0ff",
+    "commitName": "feat: mostrar al encargado el lugar y quién encontró el objeto",
+    "commitTimestamp": 1794706757375,
+    "testId": 164
+  },
+  {
+    "commitId": "c4b5843a40d90c417cbe9868593e9ab87e448a0b",
+    "commitName": "feat: listar los objetos guardados del más reciente al más antiguo",
+    "commitTimestamp": 1794706857853,
+    "testId": 165
+  },
+  {
+    "commitId": "626c524ffca3397f966ba122fd5027bf7f7a9ac8",
+    "commitName": "feat: avisar cuando no hay objetos guardados",
+    "commitTimestamp": 1794707170283,
+    "testId": 166
+  },
+  {
+    "commitId": "f55aa50a4a37960715d60856424a451af107fb14",
+    "commitName": "feat: avisar a la vista si la sesión es del encargado",
+    "commitTimestamp": 1794707277628,
+    "testId": 167
+  },
+  {
+    "commitId": "e10a902d2397f49368b11dcc2f7373ef5c4d4ad7",
+    "commitName": "feat: agregar la pantalla de objetos guardados para el encargado",
+    "commitTimestamp": 1794707847377,
+    "testId": 168
+  },
+  {
+    "commitId": "4eeb9c2b34f2845b47510ea2ad3a83ecddab07c3",
+    "commitName": "feat: saber si un objeto encontrado ya fue recogido",
+    "commitTimestamp": 1794709348808,
+    "testId": 169
+  },
+  {
+    "commitId": "92c5e62a9d039d2087f81e5d20677977f7c4c0c7",
+    "commitName": "feat: registrar quién recogió el objeto",
+    "commitTimestamp": 1794709499338,
+    "testId": 170
+  },
+  {
+    "commitId": "6f5da0a793c5b8b83a07ebcf4c3ab66c5ac06e51",
+    "commitName": "feat: pedir el nombre y el carnet de quien recoge el objeto",
+    "commitTimestamp": 1794709602981,
+    "testId": 171
+  },
+  {
+    "commitId": "9059cfb57ecc3bd0f5fce94d92126443bd40c749",
+    "commitName": "feat: no registrar dos veces la entrega de un objeto",
+    "commitTimestamp": 1794712624104,
+    "testId": 172
+  },
+  {
+    "commitId": "19fce10dc40c9735f8497fb3335078974960a556",
+    "commitName": "feat: quitar de la lista los objetos que ya fueron recogidos",
+    "commitTimestamp": 1794712723188,
+    "testId": 173
+  },
+  {
+    "commitId": "5ead147b55a5bb51fa336d59a1dfe26a50f7b228",
+    "commitName": "feat: agregar el formulario para registrar quién recogió el objeto",
+    "commitTimestamp": 1794713054087,
+    "testId": 174
+  },
+  {
+    "commitId": "eed028067b5e1d4f04ce4edaf69f71c59f5a0ec2",
+    "commitName": "feat: mostrar mis reportes del más reciente al más antiguo",
+    "commitTimestamp": 1794713677461,
+    "testId": 175
+  },
+  {
+    "commitId": "4954267919e2b83d403653a63b9c984f2fd6bfe6",
+    "commitName": "feat: avisar cuando el usuario no tiene reportes",
+    "commitTimestamp": 1794713883367,
+    "testId": 176
+  },
+  {
+    "commitId": "9894971f0a8448f87aa7cc3234bdd863ad7e51e9",
+    "commitName": "feat: mostrar el lugar de cada uno de mis reportes",
+    "commitTimestamp": 1794746850248,
+    "testId": 177
+  },
+  {
+    "commitId": "24a73b6deea0399ae9405d747174551c67c165c0",
+    "commitName": "feat: mostrar el estado de cada uno de mis reportes",
+    "commitTimestamp": 1794746997672,
+    "testId": 178
+  },
+  {
+    "commitId": "723b9d9e58be48d83ecb6ac10beebdbcbad1dc1b",
+    "commitName": "feat: mostrar mis reportes con su detalle en la pantalla principal",
+    "commitTimestamp": 1794747124859,
+    "testId": 179
+  },
+  {
+    "commitId": "597a17fa3d65893a512d5e3ce0ee6084dab319df",
+    "commitName": "feat: avisar cuando no registré ningún objeto encontrado (HU-21)",
+    "commitTimestamp": 1794747500956,
+    "testId": 180
+  },
+  {
+    "commitId": "d319bab6369a9864ef2a34e886998c3a0102644d",
+    "commitName": "feat: mostrar solo los objetos que registré (HU-21)",
+    "commitTimestamp": 1794747649408,
+    "testId": 181
+  },
+  {
+    "commitId": "ad7d36cee0029ba0fe70335d68761f47404fb37c",
+    "commitName": "feat: mostrar el estado Por recibir de mis objetos encontrados (HU-21)",
+    "commitTimestamp": 1794747760830,
+    "testId": 182
+  },
+  {
+    "commitId": "49869ad87ebf768c51e4adaf20e3cd038d138605",
+    "commitName": "feat: mostrar el estado Entregado de mis objetos ya recogidos (HU-21)",
+    "commitTimestamp": 1794747847693,
+    "testId": 183
+  },
+  {
+    "commitId": "5b99050794f074c138e039bf0be7d9d9484b2c06",
+    "commitName": "fix: ocultar en la búsqueda los objetos que ya fueron entregados",
+    "commitTimestamp": 1794748063111,
+    "testId": 184
+  },
+  {
+    "commitId": "efd63eb5ffac17b53c024a62e31c51d61bd610b3",
+    "commitName": "refactor: crear una sola función para ordenar del más reciente al más antiguo",
+    "commitTimestamp": 1794803271603,
+    "testId": 185
+  },
+  {
+    "commitId": "4e68c68ed5d626f82ea7bef5ddb894f82175938c",
+    "commitName": "refactor: usar la función de orden en la búsqueda de objetos",
+    "commitTimestamp": 1794803418890,
+    "testId": 186
+  },
+  {
+    "commitId": "5eae96c009251a6689eb0a7c3f4b7915c45dce28",
+    "commitName": "refactor: usar la función de orden en objetos guardados y mis reportes",
+    "commitTimestamp": 1794803679050,
+    "testId": 187
+  },
+  {
+    "commitId": "30378254461bcf196a74478b083997c884a1f826",
+    "commitName": "refactor: sacar el aviso sin resultados a su propio componente",
+    "commitTimestamp": 1794827162088,
+    "testId": 188
+  },
+  {
+    "commitId": "b9e84535d320c5104c4142b3f987ffd3277b4436",
+    "commitName": "refactor: usar una sola función para mostrar los resultados de la búsqueda",
+    "commitTimestamp": 1794827304400,
+    "testId": 189
+  },
+  {
+    "commitId": "f8b53fdc9449c813bb8aa0e4f39980221ba9fde2",
+    "commitName": "refactor: usar las variables de color en el aviso sin resultados",
+    "commitTimestamp": 1794827562731,
+    "testId": 190
+  },
+  {
+    "commitId": "97a3bc6fbc37280526638b839782c3ef8e98a24e",
+    "commitName": "style: usar las variables de color en el aviso sin resultados",
+    "commitTimestamp": 1794828292643,
+    "testId": 191
+  },
+  {
+    "commitId": "b1290397e6a294aaf7eab2dc85c8d8ca8d6fa817",
+    "commitName": "feat: describir cuántos objetos se encontraron",
+    "commitTimestamp": 1794828416081,
+    "testId": 192
+  },
+  {
+    "commitId": "121c6ec0056ccfff6ce34703348d249b2b557412",
+    "commitName": "style: mostrar la cantidad, la descripción y una flecha en la lista de resultados",
+    "commitTimestamp": 1794828728193,
+    "testId": 193
+  },
+  {
+    "commitId": "d3fc8537ea92f0ca09d4262b5eb6c14539d2b70e",
+    "commitName": "style: ordenar los datos del detalle del objeto",
+    "commitTimestamp": 1794828887344,
+    "testId": 194
+  },
+  {
+    "commitId": "93b7d60d2270bf60087a36668f6a3186a3e22bbe",
+    "commitName": "style: acomodar la búsqueda y el detalle en pantallas chicas",
+    "commitTimestamp": 1794829065460,
+    "testId": 195
+  },
+  {
+    "commitId": "539096b0e67d0bd3627602693246658b300a8b5d",
+    "commitName": "docs: agregar las pruebas manuales del sprint 2",
+    "commitTimestamp": 1794829512791,
+    "testId": 196
+  },
+  {
+    "commitId": "b542af60f7003889211cd30a06fead0a87121082",
+    "commitName": "fix: pedir solo el nombre de quien recoge el objeto, como dice el criterio",
+    "commitTimestamp": 1794879592642,
+    "testId": 197
+  },
+  {
+    "commitId": "69da1280734d55e6f7c5b94099be7145521ffe2f",
+    "commitName": "feat: convertir la fecha y la hora a texto",
+    "commitTimestamp": 1794879688766,
+    "testId": 198
+  },
+  {
+    "commitId": "e1c9ce8fcb528d0a80d1aafd0425c6f8140f72a9",
+    "commitName": "fix: guardar la fecha y la hora en que se entregó el objeto",
+    "commitTimestamp": 1794879823361,
+    "testId": 199
+  },
+  {
+    "commitId": "9fc557eb06a0aab50946d89403ec3c586896dd82",
+    "commitName": "fix: dejar registrar la entrega solo al encargado",
+    "commitTimestamp": 1794880013705,
+    "testId": 200
+  },
+  {
+    "commitId": "41d88f6eb0d320ba62977b916c2345c52a9f25ca",
+    "commitName": "fix: usar el mensaje del criterio cuando no hay objetos guardados",
+    "commitTimestamp": 1794880116286,
+    "testId": 201
+  },
+  {
+    "commitId": "1d64e0813902e58ffd033f5c861b53dc752223d8",
+    "commitName": "fix: mostrar al encargado la categoría y el estado de cada objeto",
+    "commitTimestamp": 1794880410647,
+    "testId": 202
+  },
+  {
+    "commitId": "914f477ba7a2cf291a136fdf62cd6230bf003028",
+    "commitName": "fix: mostrar los objetos entregados en la lista con su estado",
+    "commitTimestamp": 1794880574273,
+    "testId": 203
+  },
+  {
+    "commitId": "aad367454eac48b1633d0b50908ba4f6f9700cfd",
+    "commitName": "feat: mostrar al encargado las solicitudes de reclamo de cada objeto",
+    "commitTimestamp": 1794880905795,
+    "testId": 204
+  },
+  {
+    "commitId": "c40a87045df2951afd9837566d2c11063690c314",
+    "commitName": "docs: agregar las pruebas manuales del sprint 2",
+    "commitTimestamp": 1794881605957,
+    "testId": 205
+  },
+  {
+    "commitId": "7af83a512261ced1a64e54e24bbadc587d804126",
+    "commitName": "docs: marcar los resultados de las pruebas manuales del sprint 2",
+    "commitTimestamp": 1794883098978,
+    "testId": 206
+  },
+  {
+    "commitId": "565fc7e333918fdff886938b0d9ea6c2471bf889",
+    "commitName": "feat: guardar la categoría junto con el reporte del objeto perdido",
+    "commitTimestamp": 1794901636403,
+    "testId": 207
+  },
+  {
+    "commitId": "9e24b29e5faf2f5abff8013f438fc5c3e49a17bb",
+    "commitName": "test: completar con la categoría los datos de las pruebas de reporte",
+    "commitTimestamp": 1794901832824,
+    "testId": 208
+  },
+  {
+    "commitId": "8626ffaf185644ee44754e63fc281f4640a6d089",
+    "commitName": "feat: pedir la categoría del objeto perdido",
+    "commitTimestamp": 1794901970347,
+    "testId": 209
+  },
+  {
+    "commitId": "cabc8c3409cbfa40532ca79b6726b1c839e4139c",
+    "commitName": "feat: rechazar una categoría que no está en la lista",
+    "commitTimestamp": 1794902051353,
+    "testId": 210
+  },
+  {
+    "commitId": "98d98efa6875f9b4e6436719671dd9a7ced4dca6",
+    "commitName": "feat: ofrecer la lista de categorías al formulario de reporte",
+    "commitTimestamp": 1794902134371,
+    "testId": 211
+  },
+  {
+    "commitId": "0b415220fd3e3159a8f942c4b631c53c9facff9f",
+    "commitName": "feat: agregar el campo de categoría al formulario de reporte",
+    "commitTimestamp": 1794902210535,
+    "testId": 212
+  },
+  {
+    "commitId": "3c50721204466cfe1678abf35b056dc4bbb706d5",
+    "commitName": "feat: mostrar el botón para buscar objetos encontrados en una portada arriba del inicio",
+    "commitTimestamp": 1794903523005,
+    "testId": 213
+  },
+  {
+    "commitId": "a1a162c586b82ef2c9a53bb5d5cf46d9da11f1a5",
+    "commitName": "style: dar al botón de búsqueda fondo blanco, borde amarillo y una lupa",
+    "commitTimestamp": 1794903610316,
+    "testId": 214
+  },
+  {
+    "commitId": "588c152da8a9964dc11b7c8d818b1f41f9d37378",
+    "commitName": "refactor: llamar tieneBloqueInvalido a la revisión del bloque del reporte",
+    "commitTimestamp": 1794903903563,
+    "testId": 215
+  },
+  {
+    "commitId": "1ca2e155eb38bade51639f45e058d28210844828",
+    "commitName": "feat: rechazar un bloque que no está en la lista",
+    "commitTimestamp": 1794904151620,
+    "testId": 216
+  },
+  {
+    "commitId": "af915a2d665659b23a9855869591d5c3677f8709",
+    "commitName": "style: quitar la clase boton--destacado que ya no se usa",
+    "commitTimestamp": 1794904329895,
+    "testId": 217
+  },
+  {
+    "commitId": "cf5f2c96e725de52badce326b138589897e0b856",
+    "commitName": "feat: ofrecer la lista de lugares para buscar (HU-19)",
+    "commitTimestamp": 1794921850722,
+    "testId": 218
+  },
+  {
+    "commitId": "aad6ac9fc0fce98a367cafd0249b006caf33b52c",
+    "commitName": "feat: buscar objetos por lugar, junto con la categoría (HU-19)",
+    "commitTimestamp": 1794921985868,
+    "testId": 219
+  },
+  {
+    "commitId": "3c51069f52808f367fa556d72653aaf7f3a75b61",
+    "commitName": "feat: avisar cuando no hay objetos encontrados en ese lugar (HU-19)",
+    "commitTimestamp": 1794922087233,
+    "testId": 220
+  },
+  {
+    "commitId": "83be0d0573637e1cdaa4e8ce51ebfc1f21adaec4",
+    "commitName": "feat: filtrar por lugar en la búsqueda y quitar el filtro (HU-19)",
+    "commitTimestamp": 1794922368651,
+    "testId": 221
+  },
+  {
     "commitId": "d6d9dba3fe3a6f0c33a859a1f27b23f9e2710e9a",
     "commitName": "style: aplicar el diseño del prototipo a la pantalla de crear cuenta",
     "commitTimestamp": 1794922567156,
@@ -4988,37 +5100,35 @@
     "testId": 219
   },
   {
-    "numPassedTests": 161,
-    "failedTests": 0,
-    "numTotalTests": 161,
-    "timestamp": 1794922861370,
-    "success": true,
-    "testId": 220
-  },
-  {
     "commitId": "8f463cd0fb6d9a6292ad2e17b6d80691f15c3b58",
     "commitName": "style: aplicar el diseño del prototipo a la pantalla de reportar objeto perdido",
     "commitTimestamp": 1794922915830,
     "testId": 220
   },
   {
-    "commitId": "e8b810731a9227f8b84bfc288e4589744301176e",
+    "commitId": "65ba6e8429cf0b7641113fd8969ecda877b554a8",
     "commitName": "style: dar ancho al contenedor del formulario de reportar objeto perdido",
     "commitTimestamp": 1794923083996,
     "testId": 221
   },
   {
-    "numPassedTests": 161,
+    "numPassedTests": 165,
     "failedTests": 0,
-    "numTotalTests": 161,
-    "timestamp": 1794923683995,
+    "numTotalTests": 165,
+    "timestamp": 1794923357817,
     "success": true,
     "testId": 222
   },
   {
     "commitId": "HEAD",
-    "commitName": "style: igualar textos de registrar objeto encontrado al prototipo",
-    "commitTimestamp": 1794923707444,
+    "commitName": "chore: resolver conflictos con main",
+    "commitTimestamp": 1794923548504,
     "testId": 222
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Merge remote-tracking branch 'origin/main' into style/registrar-objeto-encontrado\n\n# Conflicts:\n#\tscript/commit-history.json\n#\tscript/tdd_log.json",
+    "commitTimestamp": 1794923874850,
+    "testId": 223
   }
 ]
