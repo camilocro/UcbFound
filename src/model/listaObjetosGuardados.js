@@ -10,9 +10,7 @@ export class ListaObjetosGuardados {
   }
 
   obtener() {
-    const objetosGuardados = ordenarDelMasRecienteAlMasAntiguo(
-      this.objetos.filter((objeto) => !objeto.fueRecogido())
-    );
+        const objetosGuardados = ordenarDelMasRecienteAlMasAntiguo(this.objetos);
     if (objetosGuardados.length === 0) {
       return { objetos: [], mensaje: MENSAJES_OBJETOS_GUARDADOS.SIN_OBJETOS };
     }

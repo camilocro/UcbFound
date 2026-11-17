@@ -4680,9 +4680,31 @@
     "testId": 202
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1d64e0813902e58ffd033f5c861b53dc752223d8",
     "commitName": "fix: mostrar al encargado la categoría y el estado de cada objeto",
     "commitTimestamp": 1794880410647,
     "testId": 202
+  },
+  {
+    "numPassedTests": 153,
+    "failedTests": 2,
+    "numTotalTests": 155,
+    "timestamp": 1794880512804,
+    "success": false,
+    "testId": 203
+  },
+  {
+    "numPassedTests": 155,
+    "failedTests": 0,
+    "numTotalTests": 155,
+    "timestamp": 1794880548184,
+    "success": true,
+    "testId": 203
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: mostrar los objetos entregados en la lista con su estado",
+    "commitTimestamp": 1794880574273,
+    "testId": 203
   }
 ]

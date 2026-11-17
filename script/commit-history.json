@@ -4218,17 +4218,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1d64e0813902e58ffd033f5c861b53dc752223d8",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-17T01:53:13.000Z",
       "message": "fix: mostrar al encargado la categoría y el estado de cada objeto",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/1d64e0813902e58ffd033f5c861b53dc752223d8"
     },
     "stats": {
       "total": 15,
       "additions": 10,
       "deletions": 5,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.6,
+    "test_count": 155,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-17T01:55:56.000Z",
+      "message": "fix: mostrar los objetos entregados en la lista con su estado",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 6,
+      "deletions": 8,
       "date": "2026-11-17"
     },
     "coverage": 98.6,
