@@ -1,5 +1,6 @@
 import { ObjetosGuardadosPresenter } from './objetosGuardadosPresenter.js';
 import { RepositorioObjetosEncontrados } from '../model/repositorioObjetosEncontrados.js';
+import { RepositorioReclamos } from '../model/repositorioReclamos.js';
 
 function crearAlmacenamientoFalso() {
   const datos = {};
@@ -30,6 +31,7 @@ describe('HU-14 Presenter: ver los objetos guardados', () => {
         lugar: 'Tupuraya 1 - Biblioteca',
         estado: 'Por recibir',
         correoDeQuienEncontro: 'ana.lopez@ucb.edu.bo',
+        solicitudes: [],
       }],
       mensaje: '',
     });
@@ -48,5 +50,23 @@ describe('HU-15 Presenter: registrar quién recogió el objeto', () => {
     expect(resultado.mensaje).toEqual('Entrega registrada correctamente');
     expect(repositorio.buscarPorId('obj-1').recogida).toEqual({ nombre: 'Juan Pérez', carnet: '1234567', fecha: '2026-10-20 14:30', correoDelEncargado: 'encargado.objetos@ucb.edu.bo' });
         expect(presenter.obtenerObjetosGuardados().objetos.map((objeto) => objeto.estado)).toEqual(['Entregado']);
+  });
+});
+
+describe('HU-14 Criterio 5: solicitudes de reclamo', () => {
+  it('debería mostrar en cada objeto las solicitudes de reclamo que tiene', () => {
+    const repositorio = new RepositorioObjetosEncontrados(crearAlmacenamientoFalso());
+    repositorio.guardar({ id: 'obj-1', nombre: 'Mochila negra', descripcion: 'Tiene un llavero de la UCB', fecha: '2026-10-15', foto: 'foto.png', correoDeQuienEncontro: 'ana.lopez@ucb.edu.bo' });
+    repositorio.guardar({ id: 'obj-2', nombre: 'Llaves', descripcion: 'Llavero con tres llaves', fecha: '2026-10-13', foto: 'foto.png', correoDeQuienEncontro: 'ana.lopez@ucb.edu.bo' });
+    const repositorioReclamos = new RepositorioReclamos(crearAlmacenamientoFalso());
+    repositorioReclamos.guardar({ id: 'rec-1', idObjeto: 'obj-1', correoDelReclamante: 'juan.perez@ucb.edu.bo', explicacion: 'Tiene mi carnet adentro', fecha: '2026-10-18' });
+    const presenter = new ObjetosGuardadosPresenter(repositorio, null, () => new Date(), repositorioReclamos);
+
+    const [mochila, llaves] = presenter.obtenerObjetosGuardados().objetos;
+
+    expect(mochila.solicitudes).toEqual([
+      { correoDelReclamante: 'juan.perez@ucb.edu.bo', explicacion: 'Tiene mi carnet adentro', fecha: '2026-10-18', estado: 'pendiente' },
+    ]);
+    expect(llaves.solicitudes).toEqual([]);
   });
 });

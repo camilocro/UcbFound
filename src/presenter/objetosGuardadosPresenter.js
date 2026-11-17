@@ -2,18 +2,27 @@ import { ListaObjetosGuardados } from '../model/listaObjetosGuardados.js';
 import { EntregaObjeto } from '../model/entregaObjeto.js';
 import { convertirFechaYHoraATexto } from '../model/fecha.js';
 
+const SIN_RECLAMOS = { obtenerTodos: () => [] };
+
 export class ObjetosGuardadosPresenter {
-  constructor(repositorio, sesion, obtenerFechaActual = () => new Date()) {
+  constructor(repositorio, sesion, obtenerFechaActual = () => new Date(), repositorioReclamos = SIN_RECLAMOS) {
     this.repositorio = repositorio;
     this.sesion = sesion;
     this.obtenerFechaActual = obtenerFechaActual;
+    this.repositorioReclamos = repositorioReclamos;
   }
 
   obtenerObjetosGuardados() {
     const resultado = new ListaObjetosGuardados(this.repositorio.obtenerTodos()).obtener();
+    const reclamos = this.repositorioReclamos.obtenerTodos();
     return {
       ...resultado,
-      objetos: resultado.objetos.map((objeto) => objeto.obtenerVistaEncargado()),
+      objetos: resultado.objetos.map((objeto) => ({
+        ...objeto.obtenerVistaEncargado(),
+        solicitudes: reclamos
+          .filter((reclamo) => reclamo.esSobreElObjeto(objeto.id))
+          .map((reclamo) => reclamo.obtenerVistaEncargado()),
+      })),
     };
   }
 

@@ -4702,9 +4702,39 @@
     "testId": 203
   },
   {
-    "commitId": "HEAD",
+    "commitId": "914f477ba7a2cf291a136fdf62cd6230bf003028",
     "commitName": "fix: mostrar los objetos entregados en la lista con su estado",
     "commitTimestamp": 1794880574273,
     "testId": 203
+  },
+  {
+    "numPassedTests": 154,
+    "failedTests": 2,
+    "numTotalTests": 156,
+    "timestamp": 1794880643885,
+    "success": false,
+    "testId": 204
+  },
+  {
+    "numPassedTests": 156,
+    "failedTests": 0,
+    "numTotalTests": 156,
+    "timestamp": 1794880693118,
+    "success": true,
+    "testId": 204
+  },
+  {
+    "numPassedTests": 156,
+    "failedTests": 0,
+    "numTotalTests": 156,
+    "timestamp": 1794880784031,
+    "success": true,
+    "testId": 204
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar al encargado las solicitudes de reclamo de cada objeto",
+    "commitTimestamp": 1794880905795,
+    "testId": 204
   }
 ]

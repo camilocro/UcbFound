@@ -40,12 +40,13 @@ cargarDatosDeEjemplo(repositorioObjetosEncontrados);
 const busquedaPresenter = new BusquedaPresenter(repositorioObjetosEncontrados);
 const detalleObjetoPresenter = new DetalleObjetoPresenter(repositorioObjetosEncontrados);
 const registroObjetoPresenter = new RegistroObjetoPresenter(repositorioObjetosEncontrados, sesion);
+const repositorioReclamos = new RepositorioReclamos(window.localStorage);
 const reclamoPresenter = new ReclamoPresenter(
-  new RepositorioReclamos(window.localStorage),
+  repositorioReclamos,
   repositorioObjetosEncontrados,
   sesion,
 );
-const objetosGuardadosPresenter = new ObjetosGuardadosPresenter(repositorioObjetosEncontrados, sesion);
+const objetosGuardadosPresenter = new ObjetosGuardadosPresenter(repositorioObjetosEncontrados, sesion, () => new Date(), repositorioReclamos);
 const misObjetosEncontradosPresenter = new MisObjetosEncontradosPresenter(repositorioObjetosEncontrados, sesion);
 const PAGINAS = ['principal', 'inicio-sesion', 'registro', 'reportar-objeto', 'buscar-objetos', 'registrar-objeto', 'objetos-guardados'];
 function leerVista() {

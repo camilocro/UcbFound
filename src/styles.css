@@ -659,3 +659,54 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* Objetos guardados: categoría, estado y solicitudes (HU-14) */
+.objeto--guardado {
+  align-items: flex-start;
+}
+
+.objeto__etiquetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 6px 0;
+}
+
+.etiqueta--estado {
+  color: var(--verde);
+  background: var(--verde-fondo);
+}
+
+.solicitudes {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 12px;
+  background: var(--fondo);
+  border-radius: 10px;
+}
+
+.solicitudes__titulo {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--azul);
+}
+
+.solicitudes__lista {
+  display: grid;
+  gap: 8px;
+  list-style: none;
+}
+
+.solicitud__quien {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.solicitud__explicacion {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--texto);
+}
