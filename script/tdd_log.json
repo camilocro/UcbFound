@@ -4732,9 +4732,23 @@
     "testId": 204
   },
   {
-    "commitId": "HEAD",
+    "commitId": "aad367454eac48b1633d0b50908ba4f6f9700cfd",
     "commitName": "feat: mostrar al encargado las solicitudes de reclamo de cada objeto",
     "commitTimestamp": 1794880905795,
     "testId": 204
+  },
+  {
+    "numPassedTests": 156,
+    "failedTests": 0,
+    "numTotalTests": 156,
+    "timestamp": 1794881206136,
+    "success": true,
+    "testId": 205
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "docs: agregar las pruebas manuales del sprint 2",
+    "commitTimestamp": 1794881605957,
+    "testId": 205
   }
 ]
