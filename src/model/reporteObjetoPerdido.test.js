@@ -88,6 +88,19 @@ describe('HU-05 Criterio 4: sin bloque', () => {
   });
 });
 
+describe('HU-05 Bloque fuera de la lista', () => {
+  it('debería pedir el bloque cuando no está en la lista de bloques', () => {
+    const resultado = new ReporteObjetoPerdido(HOY).reportar(
+      { ...datosValidos, bloque: 'Bloque Z' },
+      CORREO,
+    );
+    expect(resultado).toEqual({
+      exito: false,
+      mensaje: 'Es necesario indicar el bloque donde lo perdiste',
+    });
+  });
+});
+
 describe('HU-05 Criterio 5: aula opcional', () => {
   it('debería crear el reporte solo con el bloque cuando el aula está vacía', () => {
     const resultado = new ReporteObjetoPerdido(HOY).reportar(

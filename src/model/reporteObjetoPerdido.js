@@ -38,7 +38,7 @@ export class ReporteObjetoPerdido {
     if (objeto.tieneCategoriaInvalida()) {
       return crearError(MENSAJES_REPORTE.FALTA_CATEGORIA);
     }
-    if (objeto.tieneBloqueVacio()) {
+    if (objeto.tieneBloqueInvalido()) {
       return crearError(MENSAJES_REPORTE.FALTA_BLOQUE);
     }
     if (objeto.tieneCelularInvalido()) {

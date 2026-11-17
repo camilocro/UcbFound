@@ -4446,12 +4446,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a1a162c586b82ef2c9a53bb5d5cf46d9da11f1a5",
     "author": "majo",
     "commit": {
       "date": "2026-11-17T08:20:00.000Z",
       "message": "style: dar al botón de búsqueda fondo blanco, borde amarillo y una lupa",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/a1a162c586b82ef2c9a53bb5d5cf46d9da11f1a5"
     },
     "stats": {
       "total": 46,
@@ -4461,6 +4461,63 @@
     },
     "coverage": 98.64,
     "test_count": 160,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "588c152da8a9964dc11b7c8d818b1f41f9d37378",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-17T08:24:53.000Z",
+      "message": "refactor: llamar tieneBloqueInvalido a la revisión del bloque del reporte",
+      "url": "https://github.com/camilocro/UcbFound/commit/588c152da8a9964dc11b7c8d818b1f41f9d37378"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.64,
+    "test_count": 160,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "1ca2e155eb38bade51639f45e058d28210844828",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-17T08:28:58.000Z",
+      "message": "feat: rechazar un bloque que no está en la lista",
+      "url": "https://github.com/camilocro/UcbFound/commit/1ca2e155eb38bade51639f45e058d28210844828"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 15,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.64,
+    "test_count": 161,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-17T08:31:59.000Z",
+      "message": "style: quitar la clase boton--destacado que ya no se usa",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 1,
+      "deletions": 5,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.64,
+    "test_count": 161,
     "failed_tests": 0,
     "conclusion": "success"
   }

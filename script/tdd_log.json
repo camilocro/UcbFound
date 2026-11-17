@@ -4896,9 +4896,67 @@
     "testId": 213
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a1a162c586b82ef2c9a53bb5d5cf46d9da11f1a5",
     "commitName": "style: dar al botón de búsqueda fondo blanco, borde amarillo y una lupa",
     "commitTimestamp": 1794903610316,
     "testId": 214
+  },
+  {
+    "numPassedTests": 160,
+    "failedTests": 0,
+    "numTotalTests": 160,
+    "timestamp": 1794903810715,
+    "success": true,
+    "testId": 215
+  },
+  {
+    "numPassedTests": 160,
+    "failedTests": 0,
+    "numTotalTests": 160,
+    "timestamp": 1794903888896,
+    "success": true,
+    "testId": 215
+  },
+  {
+    "commitId": "588c152da8a9964dc11b7c8d818b1f41f9d37378",
+    "commitName": "refactor: llamar tieneBloqueInvalido a la revisión del bloque del reporte",
+    "commitTimestamp": 1794903903563,
+    "testId": 215
+  },
+  {
+    "numPassedTests": 160,
+    "failedTests": 1,
+    "numTotalTests": 161,
+    "timestamp": 1794904015894,
+    "success": false,
+    "testId": 216
+  },
+  {
+    "numPassedTests": 161,
+    "failedTests": 0,
+    "numTotalTests": 161,
+    "timestamp": 1794904113249,
+    "success": true,
+    "testId": 216
+  },
+  {
+    "commitId": "1ca2e155eb38bade51639f45e058d28210844828",
+    "commitName": "feat: rechazar un bloque que no está en la lista",
+    "commitTimestamp": 1794904151620,
+    "testId": 216
+  },
+  {
+    "numPassedTests": 161,
+    "failedTests": 0,
+    "numTotalTests": 161,
+    "timestamp": 1794904314140,
+    "success": true,
+    "testId": 217
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style: quitar la clase boton--destacado que ya no se usa",
+    "commitTimestamp": 1794904329895,
+    "testId": 217
   }
 ]
