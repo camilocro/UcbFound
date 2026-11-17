@@ -4864,12 +4864,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7c8729c2065409d2e7f8fb6a3b1269d1cd6b7eb4",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-17T15:19:08.000Z",
       "message": "feat: no mostrar opciones de navegación sin sesión",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/7c8729c2065409d2e7f8fb6a3b1269d1cd6b7eb4"
     },
     "stats": {
       "total": 18,
@@ -4894,6 +4894,25 @@
       "total": 162,
       "additions": 160,
       "deletions": 2,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.69,
+    "test_count": 173,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-17T15:38:44.000Z",
+      "message": "style: mejorar la apariencia de la barra de navegación",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 0,
+      "additions": 0,
+      "deletions": 0,
       "date": "2026-11-17"
     },
     "coverage": 98.69,
