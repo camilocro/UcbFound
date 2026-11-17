@@ -4614,9 +4614,31 @@
     "testId": 199
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e1c9ce8fcb528d0a80d1aafd0425c6f8140f72a9",
     "commitName": "fix: guardar la fecha y la hora en que se entregó el objeto",
     "commitTimestamp": 1794879823361,
     "testId": 199
+  },
+  {
+    "numPassedTests": 154,
+    "failedTests": 1,
+    "numTotalTests": 155,
+    "timestamp": 1794879885772,
+    "success": false,
+    "testId": 200
+  },
+  {
+    "numPassedTests": 155,
+    "failedTests": 0,
+    "numTotalTests": 155,
+    "timestamp": 1794879964586,
+    "success": true,
+    "testId": 200
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: dejar registrar la entrega solo al encargado",
+    "commitTimestamp": 1794880013705,
+    "testId": 200
   }
 ]

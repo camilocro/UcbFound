@@ -35,3 +35,10 @@ describe('HU-15 Criterio 3: objeto ya entregado', () => {
     expect(segundaEntrega).toEqual({ exito: false, mensaje: 'Este objeto ya fue entregado' });
   });
 });
+
+describe('HU-15 Criterio 5: solo el encargado', () => {
+  it('no debería dejar registrar la entrega a alguien que no es el encargado', () => {
+    const resultado = new EntregaObjeto('2026-10-20 14:30').registrar(crearMochila(), { nombre: 'Juan Pérez' }, 'juan.perez@ucb.edu.bo');
+    expect(resultado).toEqual({ exito: false, mensaje: 'Solo el encargado puede registrar la entrega' });
+  });
+});
