@@ -19,3 +19,4 @@ export const BLOQUES = [
   'Tupuraya 2 - Parqueo',
   'Tupuraya 2 - Tienda y cafetería',
 ];
+export const TODOS_LOS_LUGARES = 'Todos los lugares';

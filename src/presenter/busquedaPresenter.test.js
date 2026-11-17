@@ -2,6 +2,7 @@
 import { BusquedaPresenter } from './busquedaPresenter.js';
 import { RepositorioObjetosEncontrados } from '../model/repositorioObjetosEncontrados.js';
 import { CATEGORIAS, TODAS_LAS_CATEGORIAS } from '../model/categorias.js';
+import { BLOQUES, TODOS_LOS_LUGARES } from '../model/bloques.js';
 
 function crearAlmacenamientoFalso() {
   const datos = {};
@@ -104,5 +105,13 @@ describe('HU-08 Criterio 1: Presenter con categorías', () => {
     expect(resultado.objetos.map((objeto) => objeto.nombre)).toEqual([
       'Botella azul',
     ]);
+  });
+});
+
+describe('HU-19 Criterio 1: lista de lugares', () => {
+  it('debería ofrecer "Todos los lugares" y la misma lista de bloques que se usa al reportar', () => {
+    const presenter = new BusquedaPresenter(crearRepositorioConObjetos());
+    expect(presenter.obtenerLugares()).toEqual([TODOS_LOS_LUGARES, ...BLOQUES]);
+    expect(TODOS_LOS_LUGARES).toEqual('Todos los lugares');
   });
 });
