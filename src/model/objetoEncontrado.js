@@ -48,15 +48,15 @@ export class ObjetoEncontrado {
     }
     return SIN_LUGAR;
   }
-   obtenerVistaEncargado() {
+     obtenerVistaEncargado() {
     return {
-      ...this.obtenerVistaBasica(),
-      lugar: this.obtenerLugar(),
+      ...this.obtenerDetalle(),
+      estado: this.obtenerEstado(),
       correoDeQuienEncontro: this.correoDeQuienEncontro,
     };
   }
 
-    fueRecogido() {
+  fueRecogido() {
     return Boolean(this.recogida);
   }
   

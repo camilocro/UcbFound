@@ -4199,17 +4199,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "41d88f6eb0d320ba62977b916c2345c52a9f25ca",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-17T01:48:22.000Z",
       "message": "fix: usar el mensaje del criterio cuando no hay objetos guardados",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/41d88f6eb0d320ba62977b916c2345c52a9f25ca"
     },
     "stats": {
       "total": 4,
       "additions": 2,
       "deletions": 2,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.6,
+    "test_count": 155,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-17T01:53:13.000Z",
+      "message": "fix: mostrar al encargado la categoría y el estado de cada objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 10,
+      "deletions": 5,
       "date": "2026-11-17"
     },
     "coverage": 98.6,
