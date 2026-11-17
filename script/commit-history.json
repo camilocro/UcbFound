@@ -4275,17 +4275,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c40a87045df2951afd9837566d2c11063690c314",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-17T02:13:08.000Z",
       "message": "docs: agregar las pruebas manuales del sprint 2",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/c40a87045df2951afd9837566d2c11063690c314"
     },
     "stats": {
       "total": 0,
       "additions": 0,
       "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.63,
+    "test_count": 156,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-17T02:38:02.000Z",
+      "message": "docs: marcar los resultados de las pruebas manuales del sprint 2",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 90,
+      "additions": 47,
+      "deletions": 43,
       "date": "2026-11-17"
     },
     "coverage": 98.63,
