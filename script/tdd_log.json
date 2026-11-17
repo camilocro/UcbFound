@@ -5006,9 +5006,31 @@
     "testId": 219
   },
   {
-    "commitId": "HEAD",
+    "commitId": "aad6ac9fc0fce98a367cafd0249b006caf33b52c",
     "commitName": "feat: buscar objetos por lugar, junto con la categoría (HU-19)",
     "commitTimestamp": 1794921985868,
     "testId": 219
+  },
+  {
+    "numPassedTests": 163,
+    "failedTests": 1,
+    "numTotalTests": 164,
+    "timestamp": 1794922010305,
+    "success": false,
+    "testId": 220
+  },
+  {
+    "numPassedTests": 164,
+    "failedTests": 0,
+    "numTotalTests": 164,
+    "timestamp": 1794922057857,
+    "success": true,
+    "testId": 220
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: avisar cuando no hay objetos encontrados en ese lugar (HU-19)",
+    "commitTimestamp": 1794922087233,
+    "testId": 220
   }
 ]

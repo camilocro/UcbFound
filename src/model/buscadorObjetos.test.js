@@ -141,3 +141,10 @@ describe('HU-19 Criterios 1 y 2: buscar por lugar', () => {
     expect(nombres(buscador.buscar('', 'Electrónica', 'Tupuraya 1 - Biblioteca'))).toEqual(['Audífonos']);
   });
 });
+
+describe('HU-19 Criterio 3: lugar sin objetos', () => {
+  it('debería avisar que no hay objetos encontrados en ese lugar', () => {
+    const resultado = new BuscadorObjetos(objetosConLugar).buscar('', 'Todas', 'Tupuraya 2 - Canchas');
+    expect(resultado).toEqual({ objetos: [], mensaje: 'No hay objetos encontrados en este lugar' });
+  });
+});

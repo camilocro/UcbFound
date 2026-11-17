@@ -4541,12 +4541,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "aad6ac9fc0fce98a367cafd0249b006caf33b52c",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-17T13:26:08.000Z",
       "message": "feat: buscar objetos por lugar, junto con la categoría (HU-19)",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/aad6ac9fc0fce98a367cafd0249b006caf33b52c"
     },
     "stats": {
       "total": 35,
@@ -4556,6 +4556,25 @@
     },
     "coverage": 98.66,
     "test_count": 163,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-17T13:27:49.000Z",
+      "message": "feat: avisar cuando no hay objetos encontrados en ese lugar (HU-19)",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 12,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.66,
+    "test_count": 164,
     "failed_tests": 0,
     "conclusion": "success"
   }

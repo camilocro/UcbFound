@@ -3,7 +3,8 @@ import { TODOS_LOS_LUGARES } from './bloques.js';
 import { ordenarDelMasRecienteAlMasAntiguo } from './orden.js';
 
 export const MENSAJES_BUSQUEDA = {
-  SIN_RESULTADOS: 'No se encontraron objetos con ese nombre, descripción o categoría',
+    SIN_RESULTADOS: 'No se encontraron objetos con ese nombre, descripción o categoría',
+  SIN_OBJETOS_EN_LUGAR: 'No hay objetos encontrados en este lugar',
 };
 
 export class BuscadorObjetos {
@@ -23,6 +24,9 @@ export class BuscadorObjetos {
       )
     );
 
+        if (objetosEncontrados.length === 0 && lugar !== TODOS_LOS_LUGARES) {
+      return { objetos: [], mensaje: MENSAJES_BUSQUEDA.SIN_OBJETOS_EN_LUGAR };
+    }
     if (objetosEncontrados.length === 0) {
       return { objetos: [], mensaje: MENSAJES_BUSQUEDA.SIN_RESULTADOS };
     }
