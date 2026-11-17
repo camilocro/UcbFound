@@ -4655,12 +4655,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "65ba6e8429cf0b7641113fd8969ecda877b554a8",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-17T13:44:36.000Z",
       "message": "style: dar ancho al contenedor del formulario de reportar objeto perdido",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/65ba6e8429cf0b7641113fd8969ecda877b554a8"
     },
     "stats": {
       "total": 2,
@@ -4685,6 +4685,25 @@
       "total": 45,
       "additions": 25,
       "deletions": 20,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.66,
+    "test_count": 165,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-17T13:57:46.000Z",
+      "message": "Merge remote-tracking branch 'origin/main' into style/registrar-objeto-encontrado\n\n# Conflicts:\n#\tscript/commit-history.json\n#\tscript/tdd_log.json",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 172,
+      "additions": 140,
+      "deletions": 32,
       "date": "2026-11-17"
     },
     "coverage": 98.66,

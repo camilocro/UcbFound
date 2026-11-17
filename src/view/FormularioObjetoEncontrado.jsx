@@ -61,7 +61,7 @@ export default function FormularioObjetoEncontrado({ presenter, alVerLista }) {
 
   return (
     <section className="tarjeta">
-      <h1 className="tarjeta__titulo">Reportar objeto encontrado</h1>
+      <h1 className="tarjeta__titulo">Registrar objeto encontrado</h1>
       <p className="tarjeta__subtitulo">
         Sube una foto y describe el objeto para que su dueño pueda reconocerlo.
       </p>
@@ -120,7 +120,7 @@ export default function FormularioObjetoEncontrado({ presenter, alVerLista }) {
         </div>
 
         <div className="campo">
-          <label htmlFor="bloque-encontrado">Bloque donde lo encontraste *</label>
+          <label htmlFor="bloque-encontrado">Dónde lo encontraste *</label>
           <select id="bloque-encontrado" name="bloque" value={datos.bloque} onChange={cambiarCampo}>
             <option value="">Elige un bloque</option>
             {bloques.map((bloque) => (
@@ -175,7 +175,7 @@ export default function FormularioObjetoEncontrado({ presenter, alVerLista }) {
         )}
 
         <button id="registrar-objeto-button" type="submit" className="boton boton--primario" disabled={estaCargandoFoto}>
-          {estaCargandoFoto ? 'Cargando foto...' : 'Enviar reporte'}
+          {estaCargandoFoto ? 'Cargando foto...' : 'Registrar objeto'}
         </button>
 
         {resultado && resultado.exito && (
