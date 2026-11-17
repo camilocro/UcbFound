@@ -4579,17 +4579,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e8b810731a9227f8b84bfc288e4589744301176e",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-17T13:44:36.000Z",
       "message": "style: dar ancho al contenedor del formulario de reportar objeto perdido",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/e8b810731a9227f8b84bfc288e4589744301176e"
     },
     "stats": {
       "total": 2,
       "additions": 1,
       "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.64,
+    "test_count": 161,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-17T13:54:59.000Z",
+      "message": "style: igualar textos de registrar objeto encontrado al prototipo",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 3,
+      "deletions": 3,
       "date": "2026-11-17"
     },
     "coverage": 98.64,

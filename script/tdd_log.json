@@ -5002,9 +5002,23 @@
     "testId": 220
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e8b810731a9227f8b84bfc288e4589744301176e",
     "commitName": "style: dar ancho al contenedor del formulario de reportar objeto perdido",
     "commitTimestamp": 1794923083996,
     "testId": 221
+  },
+  {
+    "numPassedTests": 161,
+    "failedTests": 0,
+    "numTotalTests": 161,
+    "timestamp": 1794923683995,
+    "success": true,
+    "testId": 222
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style: igualar textos de registrar objeto encontrado al prototipo",
+    "commitTimestamp": 1794923707444,
+    "testId": 222
   }
 ]
