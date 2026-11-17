@@ -4674,12 +4674,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d980075438de27b62209296650849859704933e6",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-17T13:52:14.000Z",
       "message": "chore: resolver conflictos con main",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/d980075438de27b62209296650849859704933e6"
     },
     "stats": {
       "total": 45,
@@ -4693,12 +4693,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "449400f506ae51a8c8fed335daebae2a7ad09125",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-17T13:57:46.000Z",
       "message": "Merge remote-tracking branch 'origin/main' into style/registrar-objeto-encontrado\n\n# Conflicts:\n#\tscript/commit-history.json\n#\tscript/tdd_log.json",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/449400f506ae51a8c8fed335daebae2a7ad09125"
     },
     "stats": {
       "total": 172,
@@ -4708,6 +4708,63 @@
     },
     "coverage": 98.66,
     "test_count": 165,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "65dc66fbe3e9b2d81e95de289d59590af8e0153e",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-17T14:04:19.000Z",
+      "message": "feat: mostrar el celular de quien encontró el objeto al encargado",
+      "url": "https://github.com/camilocro/UcbFound/commit/65dc66fbe3e9b2d81e95de289d59590af8e0153e"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 16,
+      "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.66,
+    "test_count": 166,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-17T14:04:48.000Z",
+      "message": "test: confirmar que el detalle público no muestra el celular",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 15,
+      "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.66,
+    "test_count": 167,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-17T14:18:45.000Z",
+      "message": "feat: mostrar el celular de contacto en la lista de objetos guardados",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 3,
+      "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.66,
+    "test_count": 167,
     "failed_tests": 0,
     "conclusion": "success"
   }

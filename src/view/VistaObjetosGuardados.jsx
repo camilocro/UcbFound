@@ -64,6 +64,9 @@ export default function VistaObjetosGuardados({ presenter }) {
                 <span className="objeto__fecha">Encontrado el {objeto.fecha}</span>
                 <span className="objeto__fecha">Lugar: {objeto.lugar}</span>
                 <span className="objeto__fecha">Lo encontró: {objeto.correoDeQuienEncontro}</span>
+                {objeto.celular && (
+                  <span className="objeto__fecha">Celular de contacto: {objeto.celular}</span>
+                )}
                 <SolicitudesDeReclamo solicitudes={objeto.solicitudes} />
                 {objeto.estado === ESTADOS_OBJETO.POR_RECIBIR &&
                   (idObjetoAEntregar === objeto.id ? (

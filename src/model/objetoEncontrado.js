@@ -58,6 +58,7 @@ export class ObjetoEncontrado {
       ...this.obtenerDetalle(),
       estado: this.obtenerEstado(),
       correoDeQuienEncontro: this.correoDeQuienEncontro,
+      celular: this.celular,
     };
   }
 

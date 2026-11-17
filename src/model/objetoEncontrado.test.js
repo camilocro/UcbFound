@@ -118,3 +118,33 @@ describe('HU-15 Objeto encontrado: recogido', () => {
     expect(mochila.fueRecogido()).toBe(false);
   });
 });
+describe('HU-20 Criterio 3: celular visible para el encargado', () => {
+  it('debería mostrar al encargado el celular de quien encontró el objeto', () => {
+    const billetera = new ObjetoEncontrado({
+      id: 'obj-6',
+      nombre: 'Billetera café',
+      descripcion: 'Con tarjetas adentro',
+      fecha: '2026-10-16',
+      foto: 'foto.png',
+      correoDeQuienEncontro: 'luis.rojas@ucb.edu.bo',
+      celular: '71234567',
+    });
+
+    expect(billetera.obtenerVistaEncargado().celular).toEqual('71234567');
+  });
+});
+describe('HU-20 Criterio 3: celular no visible al público', () => {
+  it('no debería mostrar el celular en el detalle público del objeto', () => {
+    const billetera = new ObjetoEncontrado({
+      id: 'obj-6',
+      nombre: 'Billetera café',
+      descripcion: 'Con tarjetas adentro',
+      fecha: '2026-10-16',
+      foto: 'foto.png',
+      correoDeQuienEncontro: 'luis.rojas@ucb.edu.bo',
+      celular: '71234567',
+    });
+
+    expect(billetera.obtenerDetalle()).not.toHaveProperty('celular');
+  });
+});

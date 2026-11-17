@@ -5120,15 +5120,65 @@
     "testId": 222
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d980075438de27b62209296650849859704933e6",
     "commitName": "chore: resolver conflictos con main",
     "commitTimestamp": 1794923548504,
     "testId": 222
   },
   {
-    "commitId": "HEAD",
+    "commitId": "449400f506ae51a8c8fed335daebae2a7ad09125",
     "commitName": "Merge remote-tracking branch 'origin/main' into style/registrar-objeto-encontrado\n\n# Conflicts:\n#\tscript/commit-history.json\n#\tscript/tdd_log.json",
     "commitTimestamp": 1794923874850,
     "testId": 223
+  },
+  {
+    "numPassedTests": 165,
+    "failedTests": 1,
+    "numTotalTests": 166,
+    "timestamp": 1794924208962,
+    "success": false,
+    "testId": 224
+  },
+  {
+    "numPassedTests": 166,
+    "failedTests": 0,
+    "numTotalTests": 166,
+    "timestamp": 1794924234663,
+    "success": true,
+    "testId": 224
+  },
+  {
+    "commitId": "65dc66fbe3e9b2d81e95de289d59590af8e0153e",
+    "commitName": "feat: mostrar el celular de quien encontró el objeto al encargado",
+    "commitTimestamp": 1794924267390,
+    "testId": 224
+  },
+  {
+    "numPassedTests": 167,
+    "failedTests": 0,
+    "numTotalTests": 167,
+    "timestamp": 1794924280858,
+    "success": true,
+    "testId": 225
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: confirmar que el detalle público no muestra el celular",
+    "commitTimestamp": 1794924295963,
+    "testId": 225
+  },
+  {
+    "numPassedTests": 167,
+    "failedTests": 0,
+    "numTotalTests": 167,
+    "timestamp": 1794924356897,
+    "success": true,
+    "testId": 226
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar el celular de contacto en la lista de objetos guardados",
+    "commitTimestamp": 1794925133063,
+    "testId": 226
   }
 ]
