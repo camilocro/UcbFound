@@ -27,6 +27,7 @@ describe('HU-04 Presenter Criterio 1: reporte guardado a mi nombre', () => {
       nombre: 'Mochila negra',
       descripcion: 'Con llavero de la UCB',
       fecha: '2026-10-15',
+      categoria: 'Mochilas y bolsos',
       bloque: 'Tupuraya 2 - Bloque A',
       aula: 'A-204',
     });
@@ -36,6 +37,7 @@ describe('HU-04 Presenter Criterio 1: reporte guardado a mi nombre', () => {
         descripcion: 'Con llavero de la UCB',
         fecha: '2026-10-15',
         correoDelDueno: 'juan.perez@ucb.edu.bo',
+        categoria: 'Mochilas y bolsos',
         bloque: 'Tupuraya 2 - Bloque A',
         aula: 'A-204',
       },

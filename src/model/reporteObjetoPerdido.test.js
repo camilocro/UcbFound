@@ -6,6 +6,7 @@ const datosValidos = {
   nombre: 'Mochila negra',
   descripcion: 'Mochila con un llavero de la UCB',
   fecha: '2026-10-15',
+  categoria: 'Mochilas y bolsos',
   bloque: 'Tupuraya 2 - Bloque A',
   aula: 'A-204',
   celular: '71234567',
@@ -27,6 +28,7 @@ describe('HU-04 Criterio 1: reporte guardado a mi nombre', () => {
       descripcion: 'Mochila con un llavero de la UCB',
       fecha: '2026-10-15',
       correoDelDueno: 'juan.perez@ucb.edu.bo',
+      categoria: 'Mochilas y bolsos',
       bloque: 'Tupuraya 2 - Bloque A',
       aula: 'A-204',
       celular: '71234567',
@@ -121,10 +123,7 @@ describe('HU-16 Criterio 3: celular opcional', () => {
 });
 describe('HU-06 Criterio 3: categoría guardada', () => {
   it('debería guardar la categoría junto con el reporte', () => {
-    const resultado = new ReporteObjetoPerdido(HOY).reportar(
-      { ...datosValidos, categoria: 'Mochilas y bolsos' },
-      CORREO,
-    );
+    const resultado = new ReporteObjetoPerdido(HOY).reportar(datosValidos, CORREO);
     expect(resultado.mensaje).toEqual('Reporte creado correctamente');
     expect(resultado.objeto.categoria).toEqual('Mochilas y bolsos');
   });

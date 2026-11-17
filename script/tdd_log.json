@@ -4782,9 +4782,23 @@
     "testId": 207
   },
   {
-    "commitId": "HEAD",
+    "commitId": "565fc7e333918fdff886938b0d9ea6c2471bf889",
     "commitName": "feat: guardar la categoría junto con el reporte del objeto perdido",
     "commitTimestamp": 1794901636403,
     "testId": 207
+  },
+  {
+    "numPassedTests": 157,
+    "failedTests": 0,
+    "numTotalTests": 157,
+    "timestamp": 1794901813244,
+    "success": true,
+    "testId": 208
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: completar con la categoría los datos de las pruebas de reporte",
+    "commitTimestamp": 1794901832824,
+    "testId": 208
   }
 ]
