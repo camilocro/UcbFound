@@ -4996,9 +4996,15 @@
     "testId": 220
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8f463cd0fb6d9a6292ad2e17b6d80691f15c3b58",
     "commitName": "style: aplicar el diseño del prototipo a la pantalla de reportar objeto perdido",
     "commitTimestamp": 1794922915830,
     "testId": 220
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style: dar ancho al contenedor del formulario de reportar objeto perdido",
+    "commitTimestamp": 1794923083996,
+    "testId": 221
   }
 ]

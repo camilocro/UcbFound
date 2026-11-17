@@ -4560,17 +4560,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8f463cd0fb6d9a6292ad2e17b6d80691f15c3b58",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-17T13:41:48.000Z",
       "message": "style: aplicar el diseño del prototipo a la pantalla de reportar objeto perdido",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/8f463cd0fb6d9a6292ad2e17b6d80691f15c3b58"
     },
     "stats": {
       "total": 15,
       "additions": 7,
       "deletions": 8,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.64,
+    "test_count": 161,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-17T13:44:36.000Z",
+      "message": "style: dar ancho al contenedor del formulario de reportar objeto perdido",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2026-11-17"
     },
     "coverage": 98.64,
