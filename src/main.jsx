@@ -109,7 +109,7 @@ function App() {
         {vista.pagina === 'principal' && <VistaMisReportes presenter={misReportesPresenter} />}
         {vista.pagina === 'principal' && <VistaObjetosQueEncontre presenter={misObjetosEncontradosPresenter} />}
         {vista.pagina === 'reportar-objeto' && (
-          <div>
+          <div className="pagina-formulario">
             <FormularioReporteObjetoPerdido presenter={reportePresenter} fechaMaxima={convertirFechaATexto(new Date())} />
             <button type="button" className="enlace" onClick={() => irA('principal')}>
               Volver al inicio
@@ -146,7 +146,7 @@ function App() {
           </div>
         )}
         {vista.pagina === 'registro' && (
-          <div>
+          <div className="pagina-formulario">
             <FormularioRegistro presenter={registroPresenter} />
             <button type="button" className="enlace" onClick={() => irA('inicio-sesion')}>
               ¿Ya tienes cuenta? Inicia sesión

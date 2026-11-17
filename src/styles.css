@@ -779,3 +779,7 @@ body {
     font-size: 1.1rem;
   }
 }
+.pagina-formulario {
+  width: 100%;
+  max-width: 440px;
+}

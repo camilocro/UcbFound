@@ -29,19 +29,19 @@ export default function FormularioRegistro({ presenter }) {
 
   return (
     <section className="tarjeta">
-      <h1 className="tarjeta__titulo">Crear cuenta</h1>
-      <p className="tarjeta__subtitulo">
-        Regístrate con tu correo institucional para reportar y buscar objetos en el campus.
-      </p>
+      <h1 className="tarjeta__titulo">Crea tu cuenta</h1>
+      <p className="tarjeta__subtitulo">Usa tu correo de la UCB.</p>
 
       <form id="form-registro" className="formulario" onSubmit={enviar} noValidate>
         <div className="campo">
-          <label htmlFor="nombre">Nombre completo</label>
+          <label htmlFor="nombre">Nombre</label>
           <input
             id="nombre"
             name="nombre"
+            autoComplete="name"
+            autoFocus
             type="text"
-            placeholder="Ej. Juan Pérez"
+            placeholder="Tu nombre"
             value={camposDelFormulario.nombre}
             onChange={cambiarCampo}
           />
@@ -52,8 +52,9 @@ export default function FormularioRegistro({ presenter }) {
           <input
             id="correo"
             name="correo"
+            autoComplete="email"
             type="email"
-            placeholder="tunombre@ucb.edu.bo"
+            placeholder="nombre@ucb.edu.bo"
             value={camposDelFormulario.correo}
             onChange={cambiarCampo}
           />
@@ -64,12 +65,12 @@ export default function FormularioRegistro({ presenter }) {
           <input
             id="contrasena"
             name="contrasena"
+            autoComplete="new-password"
             type="password"
             placeholder="Mínimo 8 caracteres"
             value={camposDelFormulario.contrasena}
             onChange={cambiarCampo}
           />
-          <small className="campo__ayuda">Debe tener al menos 8 caracteres.</small>
         </div>
 
         {resultado && (
@@ -78,7 +79,7 @@ export default function FormularioRegistro({ presenter }) {
           </p>
         )}
 
-        <button id="crear-cuenta-button" type="submit" className="boton">
+        <button id="crear-cuenta-button" type="submit" className="boton boton--primario">
           Crear cuenta
         </button>
       </form>

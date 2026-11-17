@@ -4954,9 +4954,57 @@
     "testId": 217
   },
   {
-    "commitId": "HEAD",
+    "commitId": "af915a2d665659b23a9855869591d5c3677f8709",
     "commitName": "style: quitar la clase boton--destacado que ya no se usa",
     "commitTimestamp": 1794904329895,
     "testId": 217
+  },
+  {
+    "numPassedTests": 161,
+    "failedTests": 0,
+    "numTotalTests": 161,
+    "timestamp": 1794922182257,
+    "success": true,
+    "testId": 218
+  },
+  {
+    "numPassedTests": 161,
+    "failedTests": 0,
+    "numTotalTests": 161,
+    "timestamp": 1794922522584,
+    "success": true,
+    "testId": 218
+  },
+  {
+    "commitId": "d6d9dba3fe3a6f0c33a859a1f27b23f9e2710e9a",
+    "commitName": "style: aplicar el diseño del prototipo a la pantalla de crear cuenta",
+    "commitTimestamp": 1794922567156,
+    "testId": 218
+  },
+  {
+    "commitId": "2acc35351de42fc1f911b09aff67995ec0ef0499",
+    "commitName": "style: dar ancho al contenedor del formulario de crear cuenta",
+    "commitTimestamp": 1794922587563,
+    "testId": 219
+  },
+  {
+    "numPassedTests": 161,
+    "failedTests": 0,
+    "numTotalTests": 161,
+    "timestamp": 1794922861370,
+    "success": true,
+    "testId": 220
+  },
+  {
+    "commitId": "8f463cd0fb6d9a6292ad2e17b6d80691f15c3b58",
+    "commitName": "style: aplicar el diseño del prototipo a la pantalla de reportar objeto perdido",
+    "commitTimestamp": 1794922915830,
+    "testId": 220
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style: dar ancho al contenedor del formulario de reportar objeto perdido",
+    "commitTimestamp": 1794923083996,
+    "testId": 221
   }
 ]
