@@ -25,3 +25,8 @@ describe('HU-16 y HU-20 Celular de contacto: opcional', () => {
     expect(esCelularOpcionalValido('')).toBe(true);
   });
 });
+describe('HU-16 y HU-20 Criterio 2: espacios alrededor del celular', () => {
+  it('debería aceptar un celular válido con espacios al principio o al final', () => {
+    expect(esCelularValido(' 71234567 ')).toBe(true);
+  });
+});
