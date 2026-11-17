@@ -4579,17 +4579,112 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "83be0d0573637e1cdaa4e8ce51ebfc1f21adaec4",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-17T13:32:34.000Z",
       "message": "feat: filtrar por lugar en la búsqueda y quitar el filtro (HU-19)",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/83be0d0573637e1cdaa4e8ce51ebfc1f21adaec4"
     },
     "stats": {
       "total": 106,
       "additions": 82,
       "deletions": 24,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.66,
+    "test_count": 165,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "d6d9dba3fe3a6f0c33a859a1f27b23f9e2710e9a",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-17T13:35:54.000Z",
+      "message": "style: aplicar el diseño del prototipo a la pantalla de crear cuenta",
+      "url": "https://github.com/camilocro/UcbFound/commit/d6d9dba3fe3a6f0c33a859a1f27b23f9e2710e9a"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 11,
+      "deletions": 10,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.64,
+    "test_count": 161,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "2acc35351de42fc1f911b09aff67995ec0ef0499",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-17T13:36:20.000Z",
+      "message": "style: dar ancho al contenedor del formulario de crear cuenta",
+      "url": "https://github.com/camilocro/UcbFound/commit/2acc35351de42fc1f911b09aff67995ec0ef0499"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.64,
+    "test_count": 161,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "8f463cd0fb6d9a6292ad2e17b6d80691f15c3b58",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-17T13:41:48.000Z",
+      "message": "style: aplicar el diseño del prototipo a la pantalla de reportar objeto perdido",
+      "url": "https://github.com/camilocro/UcbFound/commit/8f463cd0fb6d9a6292ad2e17b6d80691f15c3b58"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 7,
+      "deletions": 8,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.64,
+    "test_count": 161,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-17T13:44:36.000Z",
+      "message": "style: dar ancho al contenedor del formulario de reportar objeto perdido",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.64,
+    "test_count": 161,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-17T13:52:14.000Z",
+      "message": "chore: resolver conflictos con main",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 45,
+      "additions": 25,
+      "deletions": 20,
       "date": "2026-11-17"
     },
     "coverage": 98.66,

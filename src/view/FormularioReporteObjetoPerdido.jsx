@@ -40,16 +40,15 @@ export default function FormularioReporteObjetoPerdido({ presenter, fechaMaxima 
   return (
     <section className="tarjeta">
       <h1 className="tarjeta__titulo">Reportar objeto perdido</h1>
-      <p className="tarjeta__subtitulo">
-        Cuéntanos qué perdiste y cuándo, para que quede registrado a tu nombre.
-      </p>
+      <p className="tarjeta__subtitulo">Cuéntanos qué perdiste y cuándo.</p>
 
       <form id="form-reporte" className="formulario" onSubmit={enviar} noValidate>
         <div className="campo">
-          <label htmlFor="nombre-objeto">Nombre del objeto</label>
+          <label htmlFor="nombre-objeto">Nombre del objeto *</label>
           <input
             id="nombre-objeto"
             name="nombre"
+            autoFocus
             type="text"
             placeholder="Ej. Mochila negra"
             value={camposDelFormulario.nombre}
@@ -70,7 +69,7 @@ export default function FormularioReporteObjetoPerdido({ presenter, fechaMaxima 
         </div>
 
         <div className="campo">
-          <label htmlFor="fecha-perdida">Fecha en que lo perdiste</label>
+          <label htmlFor="fecha-perdida">Fecha *</label>
           <input
             id="fecha-perdida"
             name="fecha"
@@ -99,7 +98,7 @@ export default function FormularioReporteObjetoPerdido({ presenter, fechaMaxima 
         </div>
 
         <div className="campo">
-          <label htmlFor="bloque-perdido">Bloque donde lo perdiste *</label>
+          <label htmlFor="bloque-perdido">Dónde lo perdiste *</label>
           <select
             id="bloque-perdido"
             name="bloque"
@@ -146,8 +145,8 @@ export default function FormularioReporteObjetoPerdido({ presenter, fechaMaxima 
           </p>
         )}
 
-        <button id="reportar-button" type="submit" className="boton">
-          Reportar
+        <button id="reportar-button" type="submit" className="boton boton--primario">
+          Enviar reporte
         </button>
       </form>
     </section>

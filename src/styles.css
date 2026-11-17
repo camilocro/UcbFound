@@ -805,3 +805,8 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+.pagina-formulario {
+  width: 100%;
+  max-width: 440px;
+}
