@@ -4427,17 +4427,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3c50721204466cfe1678abf35b056dc4bbb706d5",
     "author": "majo",
     "commit": {
       "date": "2026-11-17T08:18:34.000Z",
       "message": "feat: mostrar el botón para buscar objetos encontrados en una portada arriba del inicio",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/3c50721204466cfe1678abf35b056dc4bbb706d5"
     },
     "stats": {
       "total": 62,
       "additions": 59,
       "deletions": 3,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.64,
+    "test_count": 160,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-17T08:20:00.000Z",
+      "message": "style: dar al botón de búsqueda fondo blanco, borde amarillo y una lupa",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 46,
+      "additions": 46,
+      "deletions": 0,
       "date": "2026-11-17"
     },
     "coverage": 98.64,

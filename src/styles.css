@@ -737,3 +737,49 @@ body {
   color: #dbe4f0;
   margin-bottom: 24px;
 }
+.boton-buscar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  max-width: 560px;
+  min-height: 76px;
+  padding: 18px 24px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--azul);
+  background: #ffffff;
+  border: 4px solid var(--amarillo);
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.boton-buscar:hover {
+  border-color: #ffd54a;
+}
+
+.boton-buscar__icono {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  fill: none;
+  stroke: var(--azul);
+  stroke-width: 2.4;
+  stroke-linecap: round;
+}
+
+@media (max-width: 480px) {
+  .portada {
+    padding: 28px 16px;
+  }
+
+  .portada__titulo {
+    font-size: 1.4rem;
+  }
+
+  .boton-buscar {
+    font-size: 1.1rem;
+  }
+}
