@@ -4693,12 +4693,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "449400f506ae51a8c8fed335daebae2a7ad09125",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-17T13:57:46.000Z",
       "message": "Merge remote-tracking branch 'origin/main' into style/registrar-objeto-encontrado\n\n# Conflicts:\n#\tscript/commit-history.json\n#\tscript/tdd_log.json",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/449400f506ae51a8c8fed335daebae2a7ad09125"
     },
     "stats": {
       "total": 172,
@@ -4727,6 +4727,25 @@
     },
     "coverage": 98.66,
     "test_count": 166,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-17T14:04:48.000Z",
+      "message": "test: confirmar que el detalle público no muestra el celular",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 15,
+      "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.66,
+    "test_count": 167,
     "failed_tests": 0,
     "conclusion": "success"
   }
