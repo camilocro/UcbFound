@@ -4389,16 +4389,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "98d98efa6875f9b4e6436719671dd9a7ced4dca6",
     "author": "majo",
     "commit": {
       "date": "2026-11-17T07:55:24.000Z",
       "message": "feat: ofrecer la lista de categorías al formulario de reporte",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/98d98efa6875f9b4e6436719671dd9a7ced4dca6"
     },
     "stats": {
       "total": 15,
       "additions": 15,
+      "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.64,
+    "test_count": 160,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-17T07:56:41.000Z",
+      "message": "feat: agregar el campo de categoría al formulario de reporte",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 19,
       "deletions": 0,
       "date": "2026-11-17"
     },

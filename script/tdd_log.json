@@ -4862,9 +4862,23 @@
     "testId": 211
   },
   {
-    "commitId": "HEAD",
+    "commitId": "98d98efa6875f9b4e6436719671dd9a7ced4dca6",
     "commitName": "feat: ofrecer la lista de categorías al formulario de reporte",
     "commitTimestamp": 1794902134371,
     "testId": 211
+  },
+  {
+    "numPassedTests": 160,
+    "failedTests": 0,
+    "numTotalTests": 160,
+    "timestamp": 1794902185818,
+    "success": true,
+    "testId": 212
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar el campo de categoría al formulario de reporte",
+    "commitTimestamp": 1794902210535,
+    "testId": 212
   }
 ]
