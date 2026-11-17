@@ -5,6 +5,7 @@ const CAMPOS_INICIALES = {
   nombre: '',
   descripcion: '',
   fecha: '',
+  categoria: '',
   bloque: '',
   aula: '',
   celular: '',
@@ -14,6 +15,7 @@ export default function FormularioReporteObjetoPerdido({ presenter, fechaMaxima 
   const [camposDelFormulario, setCamposDelFormulario] =
     useState(CAMPOS_INICIALES);
   const [resultado, setResultado] = useState(null);
+  const categorias = presenter.obtenerCategorias();
   const bloques = presenter.obtenerBloques();
 
   const cambiarCampo = (evento) => {
@@ -77,6 +79,23 @@ export default function FormularioReporteObjetoPerdido({ presenter, fechaMaxima 
             value={camposDelFormulario.fecha}
             onChange={cambiarCampo}
           />
+        </div>
+
+        <div className="campo">
+          <label htmlFor="categoria-perdido">Categoría *</label>
+          <select
+            id="categoria-perdido"
+            name="categoria"
+            value={camposDelFormulario.categoria}
+            onChange={cambiarCampo}
+          >
+            <option value="">Elige una categoría</option>
+            {categorias.map((categoria) => (
+              <option key={categoria} value={categoria}>
+                {categoria}
+              </option>
+            ))}
+          </select>
         </div>
 
         <div className="campo">

@@ -6,6 +6,7 @@ const datosValidos = {
   nombre: 'Mochila negra',
   descripcion: 'Mochila con un llavero de la UCB',
   fecha: '2026-10-15',
+  categoria: 'Mochilas y bolsos',
   bloque: 'Tupuraya 2 - Bloque A',
   aula: 'A-204',
   celular: '71234567',
@@ -27,6 +28,7 @@ describe('HU-04 Criterio 1: reporte guardado a mi nombre', () => {
       descripcion: 'Mochila con un llavero de la UCB',
       fecha: '2026-10-15',
       correoDelDueno: 'juan.perez@ucb.edu.bo',
+      categoria: 'Mochilas y bolsos',
       bloque: 'Tupuraya 2 - Bloque A',
       aula: 'A-204',
       celular: '71234567',
@@ -117,5 +119,38 @@ describe('HU-16 Criterio 3: celular opcional', () => {
       CORREO,
     );
     expect(resultado.mensaje).toEqual('Reporte creado correctamente');
+  });
+});
+describe('HU-06 Criterio 3: categoría guardada', () => {
+  it('debería guardar la categoría junto con el reporte', () => {
+    const resultado = new ReporteObjetoPerdido(HOY).reportar(datosValidos, CORREO);
+    expect(resultado.mensaje).toEqual('Reporte creado correctamente');
+    expect(resultado.objeto.categoria).toEqual('Mochilas y bolsos');
+  });
+});
+
+describe('HU-06 Criterio 4: sin categoría', () => {
+  it('debería pedir la categoría cuando no se elige una', () => {
+    const resultado = new ReporteObjetoPerdido(HOY).reportar(
+      { ...datosValidos, categoria: '' },
+      CORREO,
+    );
+    expect(resultado).toEqual({
+      exito: false,
+      mensaje: 'Es necesario elegir una categoría',
+    });
+  });
+});
+
+describe('HU-06 Categoría fuera de la lista', () => {
+  it('debería pedir la categoría cuando no está en la lista de categorías', () => {
+    const resultado = new ReporteObjetoPerdido(HOY).reportar(
+      { ...datosValidos, categoria: 'Mascotas' },
+      CORREO,
+    );
+    expect(resultado).toEqual({
+      exito: false,
+      mensaje: 'Es necesario elegir una categoría',
+    });
   });
 });

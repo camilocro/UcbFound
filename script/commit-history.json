@@ -4294,12 +4294,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7af83a512261ced1a64e54e24bbadc587d804126",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-17T02:38:02.000Z",
       "message": "docs: marcar los resultados de las pruebas manuales del sprint 2",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/7af83a512261ced1a64e54e24bbadc587d804126"
     },
     "stats": {
       "total": 90,
@@ -4309,6 +4309,120 @@
     },
     "coverage": 98.63,
     "test_count": 156,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "565fc7e333918fdff886938b0d9ea6c2471bf889",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-17T07:47:07.000Z",
+      "message": "feat: guardar la categoría junto con el reporte del objeto perdido",
+      "url": "https://github.com/camilocro/UcbFound/commit/565fc7e333918fdff886938b0d9ea6c2471bf889"
+    },
+    "stats": {
+      "total": 28,
+      "additions": 26,
+      "deletions": 2,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.63,
+    "test_count": 157,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "9e24b29e5faf2f5abff8013f438fc5c3e49a17bb",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-17T07:50:24.000Z",
+      "message": "test: completar con la categoría los datos de las pruebas de reporte",
+      "url": "https://github.com/camilocro/UcbFound/commit/9e24b29e5faf2f5abff8013f438fc5c3e49a17bb"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 5,
+      "deletions": 4,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.63,
+    "test_count": 157,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "8626ffaf185644ee44754e63fc281f4640a6d089",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-17T07:52:42.000Z",
+      "message": "feat: pedir la categoría del objeto perdido",
+      "url": "https://github.com/camilocro/UcbFound/commit/8626ffaf185644ee44754e63fc281f4640a6d089"
+    },
+    "stats": {
+      "total": 23,
+      "additions": 22,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.64,
+    "test_count": 158,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "cabc8c3409cbfa40532ca79b6726b1c839e4139c",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-17T07:54:02.000Z",
+      "message": "feat: rechazar una categoría que no está en la lista",
+      "url": "https://github.com/camilocro/UcbFound/commit/cabc8c3409cbfa40532ca79b6726b1c839e4139c"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 15,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.64,
+    "test_count": 159,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "98d98efa6875f9b4e6436719671dd9a7ced4dca6",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-17T07:55:24.000Z",
+      "message": "feat: ofrecer la lista de categorías al formulario de reporte",
+      "url": "https://github.com/camilocro/UcbFound/commit/98d98efa6875f9b4e6436719671dd9a7ced4dca6"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 15,
+      "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.64,
+    "test_count": 160,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-17T07:56:41.000Z",
+      "message": "feat: agregar el campo de categoría al formulario de reporte",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 19,
+      "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.64,
+    "test_count": 160,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -4752,9 +4752,133 @@
     "testId": 205
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7af83a512261ced1a64e54e24bbadc587d804126",
     "commitName": "docs: marcar los resultados de las pruebas manuales del sprint 2",
     "commitTimestamp": 1794883098978,
     "testId": 206
+  },
+  {
+    "numPassedTests": 156,
+    "failedTests": 0,
+    "numTotalTests": 156,
+    "timestamp": 1794901454390,
+    "success": true,
+    "testId": 207
+  },
+  {
+    "numPassedTests": 156,
+    "failedTests": 1,
+    "numTotalTests": 157,
+    "timestamp": 1794901517757,
+    "success": false,
+    "testId": 207
+  },
+  {
+    "numPassedTests": 157,
+    "failedTests": 0,
+    "numTotalTests": 157,
+    "timestamp": 1794901585717,
+    "success": true,
+    "testId": 207
+  },
+  {
+    "commitId": "565fc7e333918fdff886938b0d9ea6c2471bf889",
+    "commitName": "feat: guardar la categoría junto con el reporte del objeto perdido",
+    "commitTimestamp": 1794901636403,
+    "testId": 207
+  },
+  {
+    "numPassedTests": 157,
+    "failedTests": 0,
+    "numTotalTests": 157,
+    "timestamp": 1794901813244,
+    "success": true,
+    "testId": 208
+  },
+  {
+    "commitId": "9e24b29e5faf2f5abff8013f438fc5c3e49a17bb",
+    "commitName": "test: completar con la categoría los datos de las pruebas de reporte",
+    "commitTimestamp": 1794901832824,
+    "testId": 208
+  },
+  {
+    "numPassedTests": 157,
+    "failedTests": 1,
+    "numTotalTests": 158,
+    "timestamp": 1794901903610,
+    "success": false,
+    "testId": 209
+  },
+  {
+    "numPassedTests": 158,
+    "failedTests": 0,
+    "numTotalTests": 158,
+    "timestamp": 1794901951637,
+    "success": true,
+    "testId": 209
+  },
+  {
+    "commitId": "8626ffaf185644ee44754e63fc281f4640a6d089",
+    "commitName": "feat: pedir la categoría del objeto perdido",
+    "commitTimestamp": 1794901970347,
+    "testId": 209
+  },
+  {
+    "numPassedTests": 158,
+    "failedTests": 1,
+    "numTotalTests": 159,
+    "timestamp": 1794902004255,
+    "success": false,
+    "testId": 210
+  },
+  {
+    "numPassedTests": 159,
+    "failedTests": 0,
+    "numTotalTests": 159,
+    "timestamp": 1794902029413,
+    "success": true,
+    "testId": 210
+  },
+  {
+    "commitId": "cabc8c3409cbfa40532ca79b6726b1c839e4139c",
+    "commitName": "feat: rechazar una categoría que no está en la lista",
+    "commitTimestamp": 1794902051353,
+    "testId": 210
+  },
+  {
+    "numPassedTests": 159,
+    "failedTests": 1,
+    "numTotalTests": 160,
+    "timestamp": 1794902092910,
+    "success": false,
+    "testId": 211
+  },
+  {
+    "numPassedTests": 160,
+    "failedTests": 0,
+    "numTotalTests": 160,
+    "timestamp": 1794902113717,
+    "success": true,
+    "testId": 211
+  },
+  {
+    "commitId": "98d98efa6875f9b4e6436719671dd9a7ced4dca6",
+    "commitName": "feat: ofrecer la lista de categorías al formulario de reporte",
+    "commitTimestamp": 1794902134371,
+    "testId": 211
+  },
+  {
+    "numPassedTests": 160,
+    "failedTests": 0,
+    "numTotalTests": 160,
+    "timestamp": 1794902185818,
+    "success": true,
+    "testId": 212
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar el campo de categoría al formulario de reporte",
+    "commitTimestamp": 1794902210535,
+    "testId": 212
   }
 ]

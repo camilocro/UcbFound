@@ -2,6 +2,7 @@ import { ReportePresenter } from './reportePresenter.js';
 import { RepositorioReportes } from '../model/repositorioReportes.js';
 import { Sesion } from '../model/sesion.js';
 import { BLOQUES } from '../model/bloques.js';
+import { CATEGORIAS } from '../model/categorias.js';
 
 // Almacenamiento falso que funciona igual que localStorage y sessionStorage
 function crearAlmacenamientoFalso() {
@@ -27,6 +28,7 @@ describe('HU-04 Presenter Criterio 1: reporte guardado a mi nombre', () => {
       nombre: 'Mochila negra',
       descripcion: 'Con llavero de la UCB',
       fecha: '2026-10-15',
+      categoria: 'Mochilas y bolsos',
       bloque: 'Tupuraya 2 - Bloque A',
       aula: 'A-204',
     });
@@ -36,6 +38,7 @@ describe('HU-04 Presenter Criterio 1: reporte guardado a mi nombre', () => {
         descripcion: 'Con llavero de la UCB',
         fecha: '2026-10-15',
         correoDelDueno: 'juan.perez@ucb.edu.bo',
+        categoria: 'Mochilas y bolsos',
         bloque: 'Tupuraya 2 - Bloque A',
         aula: 'A-204',
       },
@@ -49,5 +52,14 @@ describe('HU-05 Presenter Criterio 1: lista de bloques', () => {
     const sesion = new Sesion(crearAlmacenamientoFalso());
     const presenter = new ReportePresenter(repositorio, sesion);
     expect(presenter.obtenerBloques()).toEqual(BLOQUES);
+  });
+});
+
+describe('HU-06 Presenter Criterio 1: lista de categorías', () => {
+  it('debería ofrecer al formulario la lista oficial de categorías', () => {
+    const repositorio = new RepositorioReportes(crearAlmacenamientoFalso());
+    const sesion = new Sesion(crearAlmacenamientoFalso());
+    const presenter = new ReportePresenter(repositorio, sesion);
+    expect(presenter.obtenerCategorias()).toEqual(CATEGORIAS);
   });
 });
