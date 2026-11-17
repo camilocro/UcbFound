@@ -21,7 +21,16 @@ export class Reclamo {
     return this.idObjeto === idObjeto;
   }
 
-  fueEnviadoPor(correo) {
+    fueEnviadoPor(correo) {
     return this.correoDelReclamante === correo;
+  }
+
+  obtenerVistaEncargado() {
+    return {
+      correoDelReclamante: this.correoDelReclamante,
+      explicacion: this.explicacion,
+      fecha: this.fecha,
+      estado: this.estado,
+    };
   }
 }

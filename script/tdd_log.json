@@ -4526,9 +4526,215 @@
     "testId": 195
   },
   {
-    "commitId": "HEAD",
+    "commitId": "93b7d60d2270bf60087a36668f6a3186a3e22bbe",
     "commitName": "style: acomodar la búsqueda y el detalle en pantallas chicas",
     "commitTimestamp": 1794829065460,
     "testId": 195
+  },
+  {
+    "numPassedTests": 153,
+    "failedTests": 0,
+    "numTotalTests": 153,
+    "timestamp": 1794829433125,
+    "success": true,
+    "testId": 196
+  },
+  {
+    "commitId": "539096b0e67d0bd3627602693246658b300a8b5d",
+    "commitName": "docs: agregar las pruebas manuales del sprint 2",
+    "commitTimestamp": 1794829512791,
+    "testId": 196
+  },
+  {
+    "numPassedTests": 153,
+    "failedTests": 0,
+    "numTotalTests": 153,
+    "timestamp": 1794879400415,
+    "success": true,
+    "testId": 197
+  },
+  {
+    "numPassedTests": 152,
+    "failedTests": 1,
+    "numTotalTests": 153,
+    "timestamp": 1794879482795,
+    "success": false,
+    "testId": 197
+  },
+  {
+    "numPassedTests": 153,
+    "failedTests": 0,
+    "numTotalTests": 153,
+    "timestamp": 1794879503049,
+    "success": true,
+    "testId": 197
+  },
+  {
+    "commitId": "b542af60f7003889211cd30a06fead0a87121082",
+    "commitName": "fix: pedir solo el nombre de quien recoge el objeto, como dice el criterio",
+    "commitTimestamp": 1794879592642,
+    "testId": 197
+  },
+  {
+    "numPassedTests": 153,
+    "failedTests": 1,
+    "numTotalTests": 154,
+    "timestamp": 1794879633918,
+    "success": false,
+    "testId": 198
+  },
+  {
+    "numPassedTests": 154,
+    "failedTests": 0,
+    "numTotalTests": 154,
+    "timestamp": 1794879660384,
+    "success": true,
+    "testId": 198
+  },
+  {
+    "commitId": "69da1280734d55e6f7c5b94099be7145521ffe2f",
+    "commitName": "feat: convertir la fecha y la hora a texto",
+    "commitTimestamp": 1794879688766,
+    "testId": 198
+  },
+  {
+    "numPassedTests": 153,
+    "failedTests": 1,
+    "numTotalTests": 154,
+    "timestamp": 1794879744017,
+    "success": false,
+    "testId": 199
+  },
+  {
+    "numPassedTests": 154,
+    "failedTests": 0,
+    "numTotalTests": 154,
+    "timestamp": 1794879797612,
+    "success": true,
+    "testId": 199
+  },
+  {
+    "commitId": "e1c9ce8fcb528d0a80d1aafd0425c6f8140f72a9",
+    "commitName": "fix: guardar la fecha y la hora en que se entregó el objeto",
+    "commitTimestamp": 1794879823361,
+    "testId": 199
+  },
+  {
+    "numPassedTests": 154,
+    "failedTests": 1,
+    "numTotalTests": 155,
+    "timestamp": 1794879885772,
+    "success": false,
+    "testId": 200
+  },
+  {
+    "numPassedTests": 155,
+    "failedTests": 0,
+    "numTotalTests": 155,
+    "timestamp": 1794879964586,
+    "success": true,
+    "testId": 200
+  },
+  {
+    "commitId": "9fc557eb06a0aab50946d89403ec3c586896dd82",
+    "commitName": "fix: dejar registrar la entrega solo al encargado",
+    "commitTimestamp": 1794880013705,
+    "testId": 200
+  },
+  {
+    "numPassedTests": 154,
+    "failedTests": 1,
+    "numTotalTests": 155,
+    "timestamp": 1794880056770,
+    "success": false,
+    "testId": 201
+  },
+  {
+    "numPassedTests": 155,
+    "failedTests": 0,
+    "numTotalTests": 155,
+    "timestamp": 1794880093427,
+    "success": true,
+    "testId": 201
+  },
+  {
+    "commitId": "41d88f6eb0d320ba62977b916c2345c52a9f25ca",
+    "commitName": "fix: usar el mensaje del criterio cuando no hay objetos guardados",
+    "commitTimestamp": 1794880116286,
+    "testId": 201
+  },
+  {
+    "numPassedTests": 153,
+    "failedTests": 2,
+    "numTotalTests": 155,
+    "timestamp": 1794880301546,
+    "success": false,
+    "testId": 202
+  },
+  {
+    "numPassedTests": 155,
+    "failedTests": 0,
+    "numTotalTests": 155,
+    "timestamp": 1794880370298,
+    "success": true,
+    "testId": 202
+  },
+  {
+    "commitId": "1d64e0813902e58ffd033f5c861b53dc752223d8",
+    "commitName": "fix: mostrar al encargado la categoría y el estado de cada objeto",
+    "commitTimestamp": 1794880410647,
+    "testId": 202
+  },
+  {
+    "numPassedTests": 153,
+    "failedTests": 2,
+    "numTotalTests": 155,
+    "timestamp": 1794880512804,
+    "success": false,
+    "testId": 203
+  },
+  {
+    "numPassedTests": 155,
+    "failedTests": 0,
+    "numTotalTests": 155,
+    "timestamp": 1794880548184,
+    "success": true,
+    "testId": 203
+  },
+  {
+    "commitId": "914f477ba7a2cf291a136fdf62cd6230bf003028",
+    "commitName": "fix: mostrar los objetos entregados en la lista con su estado",
+    "commitTimestamp": 1794880574273,
+    "testId": 203
+  },
+  {
+    "numPassedTests": 154,
+    "failedTests": 2,
+    "numTotalTests": 156,
+    "timestamp": 1794880643885,
+    "success": false,
+    "testId": 204
+  },
+  {
+    "numPassedTests": 156,
+    "failedTests": 0,
+    "numTotalTests": 156,
+    "timestamp": 1794880693118,
+    "success": true,
+    "testId": 204
+  },
+  {
+    "numPassedTests": 156,
+    "failedTests": 0,
+    "numTotalTests": 156,
+    "timestamp": 1794880784031,
+    "success": true,
+    "testId": 204
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar al encargado las solicitudes de reclamo de cada objeto",
+    "commitTimestamp": 1794880905795,
+    "testId": 204
   }
 ]

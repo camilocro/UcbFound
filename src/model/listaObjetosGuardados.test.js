@@ -17,14 +17,14 @@ describe('HU-14 Lista de objetos guardados', () => {
 describe('HU-14 Lista de objetos guardados vacía', () => {
   it('debería avisar cuando no hay objetos guardados', () => {
     const resultado = new ListaObjetosGuardados([]).obtener();
-    expect(resultado).toEqual({ objetos: [], mensaje: 'No hay objetos guardados por ahora' });
+        expect(resultado).toEqual({ objetos: [], mensaje: 'No hay objetos guardados' });
   });
 });
 
-describe('HU-15 Criterio 4: objetos ya entregados', () => {
-  it('no debería mostrar en la lista los objetos que ya fueron recogidos', () => {
+describe('HU-14 Objetos ya entregados', () => {
+  it('debería seguir mostrando en la lista los objetos que ya fueron recogidos', () => {
     const llavesRecogidas = new ObjetoEncontrado({ id: 'obj-5', nombre: 'Llaves', descripcion: 'Llavero con tres llaves', fecha: '2026-10-13', foto: '', correoDeQuienEncontro: 'luis.rojas@ucb.edu.bo', recogida: { nombre: 'Juan Pérez', carnet: '1234567', fecha: '2026-10-20', correoDelEncargado: 'encargado.objetos@ucb.edu.bo' } });
     const resultado = new ListaObjetosGuardados([mochila, llavesRecogidas]).obtener();
-    expect(nombres(resultado)).toEqual(['Mochila negra']);
+        expect(nombres(resultado)).toEqual(['Llaves', 'Mochila negra']);
   });
 });

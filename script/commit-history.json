@@ -4085,12 +4085,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "93b7d60d2270bf60087a36668f6a3186a3e22bbe",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-16T11:37:29.000Z",
       "message": "style: acomodar la búsqueda y el detalle en pantallas chicas",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/93b7d60d2270bf60087a36668f6a3186a3e22bbe"
     },
     "stats": {
       "total": 16,
@@ -4100,6 +4100,177 @@
     },
     "coverage": 98.58,
     "test_count": 153,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "539096b0e67d0bd3627602693246658b300a8b5d",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-16T11:44:57.000Z",
+      "message": "docs: agregar las pruebas manuales del sprint 2",
+      "url": "https://github.com/camilocro/UcbFound/commit/539096b0e67d0bd3627602693246658b300a8b5d"
+    },
+    "stats": {
+      "total": 62,
+      "additions": 62,
+      "deletions": 0,
+      "date": "2026-11-16"
+    },
+    "coverage": 98.58,
+    "test_count": 153,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "b542af60f7003889211cd30a06fead0a87121082",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-17T01:39:33.000Z",
+      "message": "fix: pedir solo el nombre de quien recoge el objeto, como dice el criterio",
+      "url": "https://github.com/camilocro/UcbFound/commit/b542af60f7003889211cd30a06fead0a87121082"
+    },
+    "stats": {
+      "total": 32,
+      "additions": 17,
+      "deletions": 15,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.58,
+    "test_count": 153,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "69da1280734d55e6f7c5b94099be7145521ffe2f",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-17T01:41:10.000Z",
+      "message": "feat: convertir la fecha y la hora a texto",
+      "url": "https://github.com/camilocro/UcbFound/commit/69da1280734d55e6f7c5b94099be7145521ffe2f"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.6,
+    "test_count": 154,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "e1c9ce8fcb528d0a80d1aafd0425c6f8140f72a9",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-17T01:43:30.000Z",
+      "message": "fix: guardar la fecha y la hora en que se entregó el objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/e1c9ce8fcb528d0a80d1aafd0425c6f8140f72a9"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 4,
+      "deletions": 4,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.6,
+    "test_count": 154,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "9fc557eb06a0aab50946d89403ec3c586896dd82",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-17T01:46:36.000Z",
+      "message": "fix: dejar registrar la entrega solo al encargado",
+      "url": "https://github.com/camilocro/UcbFound/commit/9fc557eb06a0aab50946d89403ec3c586896dd82"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.6,
+    "test_count": 155,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "41d88f6eb0d320ba62977b916c2345c52a9f25ca",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-17T01:48:22.000Z",
+      "message": "fix: usar el mensaje del criterio cuando no hay objetos guardados",
+      "url": "https://github.com/camilocro/UcbFound/commit/41d88f6eb0d320ba62977b916c2345c52a9f25ca"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.6,
+    "test_count": 155,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "1d64e0813902e58ffd033f5c861b53dc752223d8",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-17T01:53:13.000Z",
+      "message": "fix: mostrar al encargado la categoría y el estado de cada objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/1d64e0813902e58ffd033f5c861b53dc752223d8"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 10,
+      "deletions": 5,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.6,
+    "test_count": 155,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "914f477ba7a2cf291a136fdf62cd6230bf003028",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-17T01:55:56.000Z",
+      "message": "fix: mostrar los objetos entregados en la lista con su estado",
+      "url": "https://github.com/camilocro/UcbFound/commit/914f477ba7a2cf291a136fdf62cd6230bf003028"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 6,
+      "deletions": 8,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.6,
+    "test_count": 155,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-17T02:01:29.000Z",
+      "message": "feat: mostrar al encargado las solicitudes de reclamo de cada objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 147,
+      "additions": 133,
+      "deletions": 14,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.63,
+    "test_count": 156,
     "failed_tests": 0,
     "conclusion": "success"
   }

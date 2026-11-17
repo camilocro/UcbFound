@@ -77,7 +77,7 @@ describe('HU-08 Objeto encontrado: objetos anteriores sin categoría', () => {
 });
 
 describe('HU-14 Objeto encontrado: datos para el encargado', () => {
-  it('debería mostrar al encargado el lugar y el correo de quien lo encontró', () => {
+    it('debería mostrar al encargado la categoría, el lugar, el estado y el correo de quien lo encontró', () => {
     const cargador = new ObjetoEncontrado({
       id: 'obj-2',
       nombre: 'Cargador de laptop',
@@ -85,6 +85,7 @@ describe('HU-14 Objeto encontrado: datos para el encargado', () => {
       fecha: '2026-10-14',
       foto: 'foto.png',
       correoDeQuienEncontro: 'luis.rojas@ucb.edu.bo',
+            categoria: 'Electrónica',
       bloque: 'Tupuraya 2 - Bloque A',
       aula: 'A-204',
     });
@@ -94,7 +95,9 @@ describe('HU-14 Objeto encontrado: datos para el encargado', () => {
       nombre: 'Cargador de laptop',
       descripcion: 'Marca HP, cable negro',
       fecha: '2026-10-14',
+      categoria: 'Electrónica',
       lugar: 'Tupuraya 2 - Bloque A, A-204',
+      estado: 'Por recibir',
       correoDeQuienEncontro: 'luis.rojas@ucb.edu.bo',
     });
   });

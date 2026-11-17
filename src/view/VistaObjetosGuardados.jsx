@@ -1,5 +1,28 @@
 import { useState } from 'react';
 import FormularioEntrega from './FormularioEntrega.jsx';
+import { ESTADOS_OBJETO } from '../model/objetoEncontrado.js';
+
+function SolicitudesDeReclamo({ solicitudes }) {
+  return (
+    <div className="solicitudes">
+      <span className="solicitudes__titulo">Solicitudes de reclamo ({solicitudes.length})</span>
+      {solicitudes.length === 0 ? (
+        <span className="objeto__fecha">Todavía no hay solicitudes</span>
+      ) : (
+        <ul className="solicitudes__lista">
+          {solicitudes.map((solicitud, posicion) => (
+            <li key={`${solicitud.correoDelReclamante}-${posicion}`} className="solicitud">
+              <span className="solicitud__quien">
+                {solicitud.correoDelReclamante} · {solicitud.fecha}
+              </span>
+              <span className="solicitud__explicacion">{solicitud.explicacion}</span>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+}
 
 export default function VistaObjetosGuardados({ presenter }) {
   const [resultado, setResultado] = useState(() => presenter.obtenerObjetosGuardados());
@@ -30,20 +53,26 @@ export default function VistaObjetosGuardados({ presenter }) {
       ) : (
         <ul id="lista-objetos-guardados" className="lista-objetos">
           {resultado.objetos.map((objeto) => (
-            <li key={objeto.id} className="objeto">
+            <li key={objeto.id} className="objeto objeto--guardado">
               <img className="objeto__foto" src={objeto.foto} alt={objeto.nombre} />
-              <span>
+              <span className="objeto__info">
                 <span className="objeto__nombre">{objeto.nombre}</span>
+                <span className="objeto__etiquetas">
+                  <span className="etiqueta">{objeto.categoria}</span>
+                  <span className="etiqueta etiqueta--estado">{objeto.estado}</span>
+                </span>
                 <span className="objeto__fecha">Encontrado el {objeto.fecha}</span>
                 <span className="objeto__fecha">Lugar: {objeto.lugar}</span>
                 <span className="objeto__fecha">Lo encontró: {objeto.correoDeQuienEncontro}</span>
-                {idObjetoAEntregar === objeto.id ? (
-                  <FormularioEntrega presenter={presenter} idObjeto={objeto.id} alEntregar={alEntregar} />
-                ) : (
-                  <button type="button" className="enlace" onClick={() => setIdObjetoAEntregar(objeto.id)}>
-                    Registrar quién lo recogió
-                  </button>
-                )}
+                <SolicitudesDeReclamo solicitudes={objeto.solicitudes} />
+                {objeto.estado === ESTADOS_OBJETO.POR_RECIBIR &&
+                  (idObjetoAEntregar === objeto.id ? (
+                    <FormularioEntrega presenter={presenter} idObjeto={objeto.id} alEntregar={alEntregar} />
+                  ) : (
+                    <button type="button" className="enlace" onClick={() => setIdObjetoAEntregar(objeto.id)}>
+                      Registrar quién lo recogió
+                    </button>
+                  ))}
               </span>
             </li>
           ))}
