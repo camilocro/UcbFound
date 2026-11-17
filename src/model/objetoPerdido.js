@@ -3,11 +3,21 @@ import { esCelularOpcionalValido } from './celular.js';
 export const ESTADO_INICIAL_REPORTE = 'Buscando';
 
 export class ObjetoPerdido {
-  constructor({ nombre, descripcion, fecha, correoDelDueno, bloque = '', aula = '', celular }) {
+  constructor({
+    nombre,
+    descripcion,
+    fecha,
+    correoDelDueno,
+    categoria,
+    bloque = '',
+    aula = '',
+    celular,
+  }) {
     this.nombre = nombre.trim();
     this.descripcion = descripcion.trim();
     this.fecha = fecha.trim();
     this.correoDelDueno = correoDelDueno;
+    this.categoria = categoria;
     this.bloque = bloque;
     this.aula = aula.trim();
     this.celular = celular;

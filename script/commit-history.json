@@ -4294,12 +4294,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7af83a512261ced1a64e54e24bbadc587d804126",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-17T02:38:02.000Z",
       "message": "docs: marcar los resultados de las pruebas manuales del sprint 2",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/7af83a512261ced1a64e54e24bbadc587d804126"
     },
     "stats": {
       "total": 90,
@@ -4309,6 +4309,25 @@
     },
     "coverage": 98.63,
     "test_count": 156,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-17T07:47:07.000Z",
+      "message": "feat: guardar la categoría junto con el reporte del objeto perdido",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 28,
+      "additions": 26,
+      "deletions": 2,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.63,
+    "test_count": 157,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -4752,9 +4752,39 @@
     "testId": 205
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7af83a512261ced1a64e54e24bbadc587d804126",
     "commitName": "docs: marcar los resultados de las pruebas manuales del sprint 2",
     "commitTimestamp": 1794883098978,
     "testId": 206
+  },
+  {
+    "numPassedTests": 156,
+    "failedTests": 0,
+    "numTotalTests": 156,
+    "timestamp": 1794901454390,
+    "success": true,
+    "testId": 207
+  },
+  {
+    "numPassedTests": 156,
+    "failedTests": 1,
+    "numTotalTests": 157,
+    "timestamp": 1794901517757,
+    "success": false,
+    "testId": 207
+  },
+  {
+    "numPassedTests": 157,
+    "failedTests": 0,
+    "numTotalTests": 157,
+    "timestamp": 1794901585717,
+    "success": true,
+    "testId": 207
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: guardar la categoría junto con el reporte del objeto perdido",
+    "commitTimestamp": 1794901636403,
+    "testId": 207
   }
 ]

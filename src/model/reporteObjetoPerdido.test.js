@@ -119,3 +119,13 @@ describe('HU-16 Criterio 3: celular opcional', () => {
     expect(resultado.mensaje).toEqual('Reporte creado correctamente');
   });
 });
+describe('HU-06 Criterio 3: categoría guardada', () => {
+  it('debería guardar la categoría junto con el reporte', () => {
+    const resultado = new ReporteObjetoPerdido(HOY).reportar(
+      { ...datosValidos, categoria: 'Mochilas y bolsos' },
+      CORREO,
+    );
+    expect(resultado.mensaje).toEqual('Reporte creado correctamente');
+    expect(resultado.objeto.categoria).toEqual('Mochilas y bolsos');
+  });
+});

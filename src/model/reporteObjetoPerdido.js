@@ -14,12 +14,16 @@ export class ReporteObjetoPerdido {
     this.fechaDeHoy = fechaDeHoy;
   }
 
-  reportar({ nombre, descripcion, fecha, bloque, aula, celular }, correoDelDueno) {
+  reportar(
+    { nombre, descripcion, fecha, categoria, bloque, aula, celular },
+    correoDelDueno,
+  ) {
     const objeto = new ObjetoPerdido({
       nombre,
       descripcion,
       fecha,
       correoDelDueno,
+      categoria,
       bloque,
       aula,
       celular,
