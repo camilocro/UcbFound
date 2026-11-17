@@ -4123,12 +4123,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b542af60f7003889211cd30a06fead0a87121082",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-17T01:39:33.000Z",
       "message": "fix: pedir solo el nombre de quien recoge el objeto, como dice el criterio",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/b542af60f7003889211cd30a06fead0a87121082"
     },
     "stats": {
       "total": 32,
@@ -4138,6 +4138,25 @@
     },
     "coverage": 98.58,
     "test_count": 153,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-17T01:41:10.000Z",
+      "message": "feat: convertir la fecha y la hora a texto",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.6,
+    "test_count": 154,
     "failed_tests": 0,
     "conclusion": "success"
   }

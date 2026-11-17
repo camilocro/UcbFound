@@ -4570,9 +4570,31 @@
     "testId": 197
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b542af60f7003889211cd30a06fead0a87121082",
     "commitName": "fix: pedir solo el nombre de quien recoge el objeto, como dice el criterio",
     "commitTimestamp": 1794879592642,
     "testId": 197
+  },
+  {
+    "numPassedTests": 153,
+    "failedTests": 1,
+    "numTotalTests": 154,
+    "timestamp": 1794879633918,
+    "success": false,
+    "testId": 198
+  },
+  {
+    "numPassedTests": 154,
+    "failedTests": 0,
+    "numTotalTests": 154,
+    "timestamp": 1794879660384,
+    "success": true,
+    "testId": 198
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: convertir la fecha y la hora a texto",
+    "commitTimestamp": 1794879688766,
+    "testId": 198
   }
 ]
