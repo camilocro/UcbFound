@@ -4807,12 +4807,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d0d8dc5a3cf2812a709147b4386db4e91a6b8104",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-17T14:39:03.000Z",
       "message": "feat: aceptar un celular con espacios al principio o al final",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/d0d8dc5a3cf2812a709147b4386db4e91a6b8104"
     },
     "stats": {
       "total": 7,
@@ -4841,6 +4841,25 @@
     },
     "coverage": 98.66,
     "test_count": 170,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-17T14:43:45.000Z",
+      "message": "feat: guardar el celular del objeto encontrado sin espacios al principio ni al final",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.66,
+    "test_count": 171,
     "failed_tests": 0,
     "conclusion": "success"
   }

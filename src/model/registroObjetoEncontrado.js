@@ -57,7 +57,7 @@ export class RegistroObjetoEncontrado {
       categoria,
       bloque,
       aula: (aula || '').trim(),
-      celular,
+      celular: celular?.trim(),
     });
     return { exito: true, mensaje: MENSAJES_REGISTRO_OBJETO.OBJETO_REGISTRADO, objeto };
   }
