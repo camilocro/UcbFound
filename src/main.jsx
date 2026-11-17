@@ -146,7 +146,7 @@ function App() {
           </div>
         )}
         {vista.pagina === 'registro' && (
-          <div>
+          <div className="pagina-formulario">
             <FormularioRegistro presenter={registroPresenter} />
             <button type="button" className="enlace" onClick={() => irA('inicio-sesion')}>
               ¿Ya tienes cuenta? Inicia sesión

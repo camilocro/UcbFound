@@ -4522,17 +4522,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d6d9dba3fe3a6f0c33a859a1f27b23f9e2710e9a",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-17T13:35:54.000Z",
       "message": "style: aplicar el diseño del prototipo a la pantalla de crear cuenta",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/d6d9dba3fe3a6f0c33a859a1f27b23f9e2710e9a"
     },
     "stats": {
       "total": 21,
       "additions": 11,
       "deletions": 10,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.64,
+    "test_count": 161,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-17T13:36:20.000Z",
+      "message": "style: dar ancho al contenedor del formulario de crear cuenta",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
       "date": "2026-11-17"
     },
     "coverage": 98.64,
