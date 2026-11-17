@@ -4256,17 +4256,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "aad367454eac48b1633d0b50908ba4f6f9700cfd",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-17T02:01:29.000Z",
       "message": "feat: mostrar al encargado las solicitudes de reclamo de cada objeto",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/aad367454eac48b1633d0b50908ba4f6f9700cfd"
     },
     "stats": {
       "total": 147,
       "additions": 133,
       "deletions": 14,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.63,
+    "test_count": 156,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-17T02:13:08.000Z",
+      "message": "docs: agregar las pruebas manuales del sprint 2",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 0,
+      "additions": 0,
+      "deletions": 0,
       "date": "2026-11-17"
     },
     "coverage": 98.63,
