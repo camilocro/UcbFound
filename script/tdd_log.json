@@ -4818,9 +4818,31 @@
     "testId": 209
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8626ffaf185644ee44754e63fc281f4640a6d089",
     "commitName": "feat: pedir la categoría del objeto perdido",
     "commitTimestamp": 1794901970347,
     "testId": 209
+  },
+  {
+    "numPassedTests": 158,
+    "failedTests": 1,
+    "numTotalTests": 159,
+    "timestamp": 1794902004255,
+    "success": false,
+    "testId": 210
+  },
+  {
+    "numPassedTests": 159,
+    "failedTests": 0,
+    "numTotalTests": 159,
+    "timestamp": 1794902029413,
+    "success": true,
+    "testId": 210
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: rechazar una categoría que no está en la lista",
+    "commitTimestamp": 1794902051353,
+    "testId": 210
   }
 ]

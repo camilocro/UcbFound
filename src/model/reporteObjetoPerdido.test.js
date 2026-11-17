@@ -141,3 +141,16 @@ describe('HU-06 Criterio 4: sin categoría', () => {
     });
   });
 });
+
+describe('HU-06 Categoría fuera de la lista', () => {
+  it('debería pedir la categoría cuando no está en la lista de categorías', () => {
+    const resultado = new ReporteObjetoPerdido(HOY).reportar(
+      { ...datosValidos, categoria: 'Mascotas' },
+      CORREO,
+    );
+    expect(resultado).toEqual({
+      exito: false,
+      mensaje: 'Es necesario elegir una categoría',
+    });
+  });
+});

@@ -1,4 +1,5 @@
 import { esCelularOpcionalValido } from './celular.js';
+import { CATEGORIAS } from './categorias.js';
 
 export const ESTADO_INICIAL_REPORTE = 'Buscando';
 
@@ -32,7 +33,7 @@ export class ObjetoPerdido {
   }
 
   tieneCategoriaInvalida() {
-    return this.categoria === '';
+    return !CATEGORIAS.includes(this.categoria);
   }
 
   tieneBloqueVacio() {

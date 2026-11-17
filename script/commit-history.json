@@ -4351,12 +4351,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8626ffaf185644ee44754e63fc281f4640a6d089",
     "author": "majo",
     "commit": {
       "date": "2026-11-17T07:52:42.000Z",
       "message": "feat: pedir la categoría del objeto perdido",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/8626ffaf185644ee44754e63fc281f4640a6d089"
     },
     "stats": {
       "total": 23,
@@ -4366,6 +4366,25 @@
     },
     "coverage": 98.64,
     "test_count": 158,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-17T07:54:02.000Z",
+      "message": "feat: rechazar una categoría que no está en la lista",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 15,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.64,
+    "test_count": 159,
     "failed_tests": 0,
     "conclusion": "success"
   }
