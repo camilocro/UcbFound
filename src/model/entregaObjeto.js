@@ -3,27 +3,27 @@ import { crearError } from './resultado.js';
 
 export const MENSAJES_ENTREGA = {
   ENTREGA_REGISTRADA: 'Entrega registrada correctamente',
-    FALTAN_DATOS: 'Es necesario ingresar el nombre y el carnet de quien recoge',
+  FALTA_NOMBRE: 'Es necesario ingresar el nombre de quien recoge el objeto',
   YA_ENTREGADO: 'Este objeto ya fue entregado',
 };
 
 // Aplica las reglas de la HU-15 para entregar un objeto guardado
 export class EntregaObjeto {
-  constructor(fechaDeHoy) {
-    this.fechaDeHoy = fechaDeHoy;
+  constructor(fechaYHora) {
+    this.fechaYHora = fechaYHora;
   }
 
-  registrar(objeto, { nombre, carnet }, correoDelEncargado) {
-        if (objeto.fueRecogido()) {
+  registrar(objeto, { nombre, carnet = '' }, correoDelEncargado) {
+    if (objeto.fueRecogido()) {
       return crearError(MENSAJES_ENTREGA.YA_ENTREGADO);
     }
-    if (nombre.trim() === '' || carnet.trim() === '') {
-      return crearError(MENSAJES_ENTREGA.FALTAN_DATOS);
+    if (nombre.trim() === '') {
+      return crearError(MENSAJES_ENTREGA.FALTA_NOMBRE);
     }
     const recogida = {
       nombre: nombre.trim(),
       carnet: carnet.trim(),
-      fecha: this.fechaDeHoy,
+      fecha: this.fechaYHora,
       correoDelEncargado,
     };
     return {

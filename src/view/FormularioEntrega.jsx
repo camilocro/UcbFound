@@ -22,7 +22,7 @@ export default function FormularioEntrega({ presenter, idObjeto, alEntregar }) {
         <input id={`nombre-recoge-${idObjeto}`} type="text" value={nombre} onChange={(evento) => setNombre(evento.target.value)} />
       </div>
       <div className="campo">
-        <label htmlFor={`carnet-recoge-${idObjeto}`}>Carnet de identidad</label>
+        <label htmlFor={`carnet-recoge-${idObjeto}`}>Carnet de identidad (opcional)</label>
         <input id={`carnet-recoge-${idObjeto}`} type="text" value={carnet} onChange={(evento) => setCarnet(evento.target.value)} />
       </div>
       {mensajeDeError && (

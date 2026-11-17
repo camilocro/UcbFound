@@ -4104,18 +4104,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "539096b0e67d0bd3627602693246658b300a8b5d",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-16T11:44:57.000Z",
       "message": "docs: agregar las pruebas manuales del sprint 2",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/539096b0e67d0bd3627602693246658b300a8b5d"
     },
     "stats": {
       "total": 62,
       "additions": 62,
       "deletions": 0,
       "date": "2026-11-16"
+    },
+    "coverage": 98.58,
+    "test_count": 153,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-17T01:39:33.000Z",
+      "message": "fix: pedir solo el nombre de quien recoge el objeto, como dice el criterio",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 32,
+      "additions": 17,
+      "deletions": 15,
+      "date": "2026-11-17"
     },
     "coverage": 98.58,
     "test_count": 153,

@@ -4540,9 +4540,39 @@
     "testId": 196
   },
   {
-    "commitId": "HEAD",
+    "commitId": "539096b0e67d0bd3627602693246658b300a8b5d",
     "commitName": "docs: agregar las pruebas manuales del sprint 2",
     "commitTimestamp": 1794829512791,
     "testId": 196
+  },
+  {
+    "numPassedTests": 153,
+    "failedTests": 0,
+    "numTotalTests": 153,
+    "timestamp": 1794879400415,
+    "success": true,
+    "testId": 197
+  },
+  {
+    "numPassedTests": 152,
+    "failedTests": 1,
+    "numTotalTests": 153,
+    "timestamp": 1794879482795,
+    "success": false,
+    "testId": 197
+  },
+  {
+    "numPassedTests": 153,
+    "failedTests": 0,
+    "numTotalTests": 153,
+    "timestamp": 1794879503049,
+    "success": true,
+    "testId": 197
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: pedir solo el nombre de quien recoge el objeto, como dice el criterio",
+    "commitTimestamp": 1794879592642,
+    "testId": 197
   }
 ]
