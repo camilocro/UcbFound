@@ -5242,7 +5242,7 @@
     "testId": 229
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8ddf58c41e27e2c1e5982e27ace5a4bd16455631",
     "commitName": "feat: definir las opciones de la barra de navegación",
     "commitTimestamp": 1794928296105,
     "testId": 229
@@ -5276,5 +5276,27 @@
     "commitName": "feat: mostrar Objetos guardados en la barra solo al encargado",
     "commitTimestamp": 1794928457364,
     "testId": 230
+  },
+  {
+    "numPassedTests": 170,
+    "failedTests": 1,
+    "numTotalTests": 171,
+    "timestamp": 1794928478393,
+    "success": false,
+    "testId": 231
+  },
+  {
+    "numPassedTests": 171,
+    "failedTests": 0,
+    "numTotalTests": 171,
+    "timestamp": 1794928497161,
+    "success": true,
+    "testId": 231
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: marcar en la barra la página actual",
+    "commitTimestamp": 1794928509998,
+    "testId": 231
   }
 ]

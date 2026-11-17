@@ -29,3 +29,12 @@ describe('Barra de navegación Criterio 3: opción del encargado', () => {
     expect(delEstudiante.map((opcion) => opcion.pagina)).not.toContain('objetos-guardados');
   });
 });
+
+describe('Barra de navegación Criterio 4: página actual', () => {
+  it('debería marcar como activa solo la opción de la página en la que estoy', () => {
+    const opciones = obtenerOpcionesDeNavegacion(false, 'buscar-objetos');
+    const activas = opciones.filter((opcion) => opcion.activa);
+    expect(activas).toHaveLength(1);
+    expect(activas[0].pagina).toEqual('buscar-objetos');
+  });
+});

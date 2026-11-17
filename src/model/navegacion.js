@@ -7,9 +7,13 @@ const OPCIONES_DE_NAVEGACION = [
 
 const OPCION_DEL_ENCARGADO = { pagina: 'objetos-guardados', texto: 'Objetos guardados' };
 
-export function obtenerOpcionesDeNavegacion(esEncargado) {
-  if (esEncargado) {
-    return [...OPCIONES_DE_NAVEGACION, OPCION_DEL_ENCARGADO];
-  }
-  return OPCIONES_DE_NAVEGACION;
+export function obtenerOpcionesDeNavegacion(esEncargado, paginaActual) {
+  const opciones = esEncargado
+    ? [...OPCIONES_DE_NAVEGACION, OPCION_DEL_ENCARGADO]
+    : OPCIONES_DE_NAVEGACION;
+
+  return opciones.map((opcion) => ({
+    ...opcion,
+    activa: opcion.pagina === paginaActual,
+  }));
 }
