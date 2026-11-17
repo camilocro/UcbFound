@@ -5162,7 +5162,7 @@
     "testId": 225
   },
   {
-    "commitId": "HEAD",
+    "commitId": "831d741147f69601a41439498c03bf1443a13e58",
     "commitName": "test: confirmar que el detalle público no muestra el celular",
     "commitTimestamp": 1794924295963,
     "testId": 225
@@ -5180,5 +5180,27 @@
     "commitName": "feat: mostrar el celular de contacto en la lista de objetos guardados",
     "commitTimestamp": 1794925133063,
     "testId": 226
+  },
+  {
+    "numPassedTests": 167,
+    "failedTests": 1,
+    "numTotalTests": 168,
+    "timestamp": 1794925730385,
+    "success": false,
+    "testId": 227
+  },
+  {
+    "numPassedTests": 168,
+    "failedTests": 0,
+    "numTotalTests": 168,
+    "timestamp": 1794925768938,
+    "success": true,
+    "testId": 227
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: rechazar un bloque que no está en la lista al registrar un objeto",
+    "commitTimestamp": 1794925831717,
+    "testId": 227
   }
 ]

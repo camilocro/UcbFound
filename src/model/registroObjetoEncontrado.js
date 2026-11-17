@@ -3,6 +3,7 @@ import { crearError } from './resultado.js';
 import { CATEGORIAS } from './categorias.js';
 import { esImagen } from './foto.js';
 import { esCelularOpcionalValido } from './celular.js';
+import { BLOQUES } from './bloques.js';
 
 export const MENSAJES_REGISTRO_OBJETO = {
   OBJETO_REGISTRADO: 'Objeto registrado correctamente',
@@ -37,7 +38,7 @@ export class RegistroObjetoEncontrado {
     if (!CATEGORIAS.includes(categoria)) {
       return crearError(MENSAJES_REGISTRO_OBJETO.FALTA_CATEGORIA);
     }
-    if (!bloque) {
+    if (!BLOQUES.includes(bloque)) {
       return crearError(MENSAJES_REGISTRO_OBJETO.FALTA_BLOQUE);
     }
     if (!esCelularOpcionalValido(celular)) {

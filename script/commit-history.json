@@ -4731,12 +4731,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "831d741147f69601a41439498c03bf1443a13e58",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-17T14:04:48.000Z",
       "message": "test: confirmar que el detalle público no muestra el celular",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/831d741147f69601a41439498c03bf1443a13e58"
     },
     "stats": {
       "total": 15,
@@ -4765,6 +4765,25 @@
     },
     "coverage": 98.66,
     "test_count": 167,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-17T14:30:23.000Z",
+      "message": "feat: rechazar un bloque que no está en la lista al registrar un objeto",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.66,
+    "test_count": 168,
     "failed_tests": 0,
     "conclusion": "success"
   }

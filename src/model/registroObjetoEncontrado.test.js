@@ -133,3 +133,9 @@ describe('HU-20 Criterio 3: celular opcional', () => {
     expect(resultado.mensaje).toEqual('Objeto registrado correctamente');
   });
 });
+describe('HU-12 Bloque fuera de la lista', () => {
+  it('debería pedir el bloque cuando no está en la lista de bloques', () => {
+    const resultado = registro.registrar({ ...datosValidos, bloque: 'Bloque inexistente' }, CORREO);
+    expect(resultado).toEqual({ exito: false, mensaje: 'Es necesario indicar el bloque donde lo encontraste' });
+  });
+});
