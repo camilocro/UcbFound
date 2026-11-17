@@ -5278,7 +5278,7 @@
     "testId": 231
   },
   {
-    "commitId": "HEAD",
+    "commitId": "63a3d29573a70886aa8b24f8ae57fd23b8c38359",
     "commitName": "feat: guardar el celular del objeto encontrado sin espacios al principio ni al final",
     "commitTimestamp": 1794926633348,
     "testId": 231
@@ -5296,5 +5296,19 @@
     "commitName": "refactor: ordenar los nombres de las pruebas de celular por criterio",
     "commitTimestamp": 1794926701558,
     "testId": 232
+  },
+  {
+    "numPassedTests": 172,
+    "failedTests": 0,
+    "numTotalTests": 172,
+    "timestamp": 1794926728379,
+    "success": true,
+    "testId": 233
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: aceptar un celular que empieza con 6",
+    "commitTimestamp": 1794926796031,
+    "testId": 233
   }
 ]

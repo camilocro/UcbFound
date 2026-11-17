@@ -4845,12 +4845,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "63a3d29573a70886aa8b24f8ae57fd23b8c38359",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-17T14:43:45.000Z",
       "message": "feat: guardar el celular del objeto encontrado sin espacios al principio ni al final",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/63a3d29573a70886aa8b24f8ae57fd23b8c38359"
     },
     "stats": {
       "total": 8,
@@ -4879,6 +4879,25 @@
     },
     "coverage": 98.66,
     "test_count": 171,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-17T14:46:28.000Z",
+      "message": "test: aceptar un celular que empieza con 6",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.66,
+    "test_count": 172,
     "failed_tests": 0,
     "conclusion": "success"
   }
