@@ -56,3 +56,14 @@ describe('Barra de navegación Criterio 5: sin sesión no hay opciones', () => {
     expect(presenter.obtenerOpcionesDeNavegacion('inicio-sesion')).toEqual([]);
   });
 });
+
+describe('Barra de navegación Criterio 3: opciones del encargado desde la sesión', () => {
+  it('debería agregar Objetos guardados cuando el que inició sesión es el encargado', () => {
+    const sesion = new Sesion(crearAlmacenamientoFalso());
+    sesion.iniciar({ nombre: 'Encargado', correo: 'encargado.objetos@ucb.edu.bo' });
+    const presenter = new SesionPresenter(sesion);
+    const opciones = presenter.obtenerOpcionesDeNavegacion('principal');
+    expect(opciones).toHaveLength(5);
+    expect(opciones[4].texto).toEqual('Objetos guardados');
+  });
+});

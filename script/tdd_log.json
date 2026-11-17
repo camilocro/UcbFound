@@ -5294,7 +5294,7 @@
     "testId": 231
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b9a3907ecacc600e25a743e28908d32abba9e610",
     "commitName": "feat: marcar en la barra la página actual",
     "commitTimestamp": 1794928509998,
     "testId": 231
@@ -5320,5 +5320,35 @@
     "commitName": "feat: no mostrar opciones de navegación sin sesión",
     "commitTimestamp": 1794928754291,
     "testId": 232
+  },
+  {
+    "numPassedTests": 172,
+    "failedTests": 1,
+    "numTotalTests": 173,
+    "timestamp": 1794928778019,
+    "success": false,
+    "testId": 233
+  },
+  {
+    "numPassedTests": 173,
+    "failedTests": 0,
+    "numTotalTests": 173,
+    "timestamp": 1794928821225,
+    "success": true,
+    "testId": 233
+  },
+  {
+    "numPassedTests": 173,
+    "failedTests": 0,
+    "numTotalTests": 173,
+    "timestamp": 1794929585050,
+    "success": true,
+    "testId": 233
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style: mejorar la apariencia de la barra de navegación",
+    "commitTimestamp": 1794929864501,
+    "testId": 233
   }
 ]

@@ -30,6 +30,6 @@ export class SesionPresenter {
     if (!this.sesion.estaIniciada()) {
       return [];
     }
-    return obtenerOpcionesDeNavegacion(false, paginaActual);
+     return obtenerOpcionesDeNavegacion(this.sesion.esEncargado(), paginaActual);
   }
 }

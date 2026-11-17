@@ -4845,12 +4845,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b9a3907ecacc600e25a743e28908d32abba9e610",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-17T15:15:03.000Z",
       "message": "feat: marcar en la barra la página actual",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/b9a3907ecacc600e25a743e28908d32abba9e610"
     },
     "stats": {
       "total": 23,
@@ -4879,6 +4879,25 @@
     },
     "coverage": 98.43,
     "test_count": 172,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-17T15:37:29.000Z",
+      "message": "style: mejorar la apariencia de la barra de navegación",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 162,
+      "additions": 160,
+      "deletions": 2,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.69,
+    "test_count": 173,
     "failed_tests": 0,
     "conclusion": "success"
   }
