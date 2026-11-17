@@ -4826,12 +4826,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8822e49523b153620ed224a7adf10e2f41a1a4ae",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-17T14:41:52.000Z",
       "message": "feat: guardar el celular del reporte sin espacios al principio ni al final",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/8822e49523b153620ed224a7adf10e2f41a1a4ae"
     },
     "stats": {
       "total": 11,
@@ -4856,6 +4856,25 @@
       "total": 8,
       "additions": 7,
       "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.66,
+    "test_count": 171,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-17T14:44:52.000Z",
+      "message": "refactor: ordenar los nombres de las pruebas de celular por criterio",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 3,
+      "deletions": 3,
       "date": "2026-11-17"
     },
     "coverage": 98.66,

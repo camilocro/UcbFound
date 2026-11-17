@@ -5256,7 +5256,7 @@
     "testId": 230
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8822e49523b153620ed224a7adf10e2f41a1a4ae",
     "commitName": "feat: guardar el celular del reporte sin espacios al principio ni al final",
     "commitTimestamp": 1794926521042,
     "testId": 230
@@ -5282,5 +5282,19 @@
     "commitName": "feat: guardar el celular del objeto encontrado sin espacios al principio ni al final",
     "commitTimestamp": 1794926633348,
     "testId": 231
+  },
+  {
+    "numPassedTests": 171,
+    "failedTests": 0,
+    "numTotalTests": 171,
+    "timestamp": 1794926669538,
+    "success": true,
+    "testId": 232
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: ordenar los nombres de las pruebas de celular por criterio",
+    "commitTimestamp": 1794926701558,
+    "testId": 232
   }
 ]
