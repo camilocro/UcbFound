@@ -36,7 +36,7 @@ export class ObjetoPerdido {
     return !CATEGORIAS.includes(this.categoria);
   }
 
-  tieneBloqueVacio() {
+  tieneBloqueInvalido() {
     return this.bloque === '';
   }
 

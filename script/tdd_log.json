@@ -4896,9 +4896,31 @@
     "testId": 213
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a1a162c586b82ef2c9a53bb5d5cf46d9da11f1a5",
     "commitName": "style: dar al botón de búsqueda fondo blanco, borde amarillo y una lupa",
     "commitTimestamp": 1794903610316,
     "testId": 214
+  },
+  {
+    "numPassedTests": 160,
+    "failedTests": 0,
+    "numTotalTests": 160,
+    "timestamp": 1794903810715,
+    "success": true,
+    "testId": 215
+  },
+  {
+    "numPassedTests": 160,
+    "failedTests": 0,
+    "numTotalTests": 160,
+    "timestamp": 1794903888896,
+    "success": true,
+    "testId": 215
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: llamar tieneBloqueInvalido a la revisión del bloque del reporte",
+    "commitTimestamp": 1794903903563,
+    "testId": 215
   }
 ]

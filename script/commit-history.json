@@ -4446,17 +4446,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a1a162c586b82ef2c9a53bb5d5cf46d9da11f1a5",
     "author": "majo",
     "commit": {
       "date": "2026-11-17T08:20:00.000Z",
       "message": "style: dar al botón de búsqueda fondo blanco, borde amarillo y una lupa",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/a1a162c586b82ef2c9a53bb5d5cf46d9da11f1a5"
     },
     "stats": {
       "total": 46,
       "additions": 46,
       "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.64,
+    "test_count": 160,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-17T08:24:53.000Z",
+      "message": "refactor: llamar tieneBloqueInvalido a la revisión del bloque del reporte",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
       "date": "2026-11-17"
     },
     "coverage": 98.64,
