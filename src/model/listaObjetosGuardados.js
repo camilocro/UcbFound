@@ -1,7 +1,7 @@
 import { ordenarDelMasRecienteAlMasAntiguo } from './orden.js';
 
 export const MENSAJES_OBJETOS_GUARDADOS = {
-  SIN_OBJETOS: 'No hay objetos guardados por ahora',
+    SIN_OBJETOS: 'No hay objetos guardados',
 };
 
 export class ListaObjetosGuardados {

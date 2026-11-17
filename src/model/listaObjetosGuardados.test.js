@@ -17,7 +17,7 @@ describe('HU-14 Lista de objetos guardados', () => {
 describe('HU-14 Lista de objetos guardados vacía', () => {
   it('debería avisar cuando no hay objetos guardados', () => {
     const resultado = new ListaObjetosGuardados([]).obtener();
-    expect(resultado).toEqual({ objetos: [], mensaje: 'No hay objetos guardados por ahora' });
+        expect(resultado).toEqual({ objetos: [], mensaje: 'No hay objetos guardados' });
   });
 });
 

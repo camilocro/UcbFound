@@ -4180,17 +4180,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9fc557eb06a0aab50946d89403ec3c586896dd82",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-17T01:46:36.000Z",
       "message": "fix: dejar registrar la entrega solo al encargado",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/9fc557eb06a0aab50946d89403ec3c586896dd82"
     },
     "stats": {
       "total": 14,
       "additions": 13,
       "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.6,
+    "test_count": 155,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-17T01:48:22.000Z",
+      "message": "fix: usar el mensaje del criterio cuando no hay objetos guardados",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2,
       "date": "2026-11-17"
     },
     "coverage": 98.6,

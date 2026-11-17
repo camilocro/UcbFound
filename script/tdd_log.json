@@ -4636,9 +4636,31 @@
     "testId": 200
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9fc557eb06a0aab50946d89403ec3c586896dd82",
     "commitName": "fix: dejar registrar la entrega solo al encargado",
     "commitTimestamp": 1794880013705,
     "testId": 200
+  },
+  {
+    "numPassedTests": 154,
+    "failedTests": 1,
+    "numTotalTests": 155,
+    "timestamp": 1794880056770,
+    "success": false,
+    "testId": 201
+  },
+  {
+    "numPassedTests": 155,
+    "failedTests": 0,
+    "numTotalTests": 155,
+    "timestamp": 1794880093427,
+    "success": true,
+    "testId": 201
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: usar el mensaje del criterio cuando no hay objetos guardados",
+    "commitTimestamp": 1794880116286,
+    "testId": 201
   }
 ]
