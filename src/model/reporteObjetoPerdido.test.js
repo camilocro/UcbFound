@@ -128,3 +128,16 @@ describe('HU-06 Criterio 3: categoría guardada', () => {
     expect(resultado.objeto.categoria).toEqual('Mochilas y bolsos');
   });
 });
+
+describe('HU-06 Criterio 4: sin categoría', () => {
+  it('debería pedir la categoría cuando no se elige una', () => {
+    const resultado = new ReporteObjetoPerdido(HOY).reportar(
+      { ...datosValidos, categoria: '' },
+      CORREO,
+    );
+    expect(resultado).toEqual({
+      exito: false,
+      mensaje: 'Es necesario elegir una categoría',
+    });
+  });
+});

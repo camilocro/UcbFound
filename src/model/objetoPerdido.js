@@ -8,7 +8,7 @@ export class ObjetoPerdido {
     descripcion,
     fecha,
     correoDelDueno,
-    categoria,
+    categoria = '',
     bloque = '',
     aula = '',
     celular,
@@ -29,6 +29,10 @@ export class ObjetoPerdido {
 
   tieneFechaFutura(fechaDeHoy) {
     return this.fecha > fechaDeHoy;
+  }
+
+  tieneCategoriaInvalida() {
+    return this.categoria === '';
   }
 
   tieneBloqueVacio() {

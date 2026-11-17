@@ -4796,9 +4796,31 @@
     "testId": 208
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9e24b29e5faf2f5abff8013f438fc5c3e49a17bb",
     "commitName": "test: completar con la categoría los datos de las pruebas de reporte",
     "commitTimestamp": 1794901832824,
     "testId": 208
+  },
+  {
+    "numPassedTests": 157,
+    "failedTests": 1,
+    "numTotalTests": 158,
+    "timestamp": 1794901903610,
+    "success": false,
+    "testId": 209
+  },
+  {
+    "numPassedTests": 158,
+    "failedTests": 0,
+    "numTotalTests": 158,
+    "timestamp": 1794901951637,
+    "success": true,
+    "testId": 209
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: pedir la categoría del objeto perdido",
+    "commitTimestamp": 1794901970347,
+    "testId": 209
   }
 ]

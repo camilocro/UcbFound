@@ -4332,12 +4332,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9e24b29e5faf2f5abff8013f438fc5c3e49a17bb",
     "author": "majo",
     "commit": {
       "date": "2026-11-17T07:50:24.000Z",
       "message": "test: completar con la categoría los datos de las pruebas de reporte",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/9e24b29e5faf2f5abff8013f438fc5c3e49a17bb"
     },
     "stats": {
       "total": 9,
@@ -4347,6 +4347,25 @@
     },
     "coverage": 98.63,
     "test_count": 157,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-17T07:52:42.000Z",
+      "message": "feat: pedir la categoría del objeto perdido",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 23,
+      "additions": 22,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.64,
+    "test_count": 158,
     "failed_tests": 0,
     "conclusion": "success"
   }
