@@ -4840,9 +4840,31 @@
     "testId": 210
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cabc8c3409cbfa40532ca79b6726b1c839e4139c",
     "commitName": "feat: rechazar una categoría que no está en la lista",
     "commitTimestamp": 1794902051353,
     "testId": 210
+  },
+  {
+    "numPassedTests": 159,
+    "failedTests": 1,
+    "numTotalTests": 160,
+    "timestamp": 1794902092910,
+    "success": false,
+    "testId": 211
+  },
+  {
+    "numPassedTests": 160,
+    "failedTests": 0,
+    "numTotalTests": 160,
+    "timestamp": 1794902113717,
+    "success": true,
+    "testId": 211
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: ofrecer la lista de categorías al formulario de reporte",
+    "commitTimestamp": 1794902134371,
+    "testId": 211
   }
 ]

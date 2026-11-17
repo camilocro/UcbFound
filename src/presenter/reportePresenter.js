@@ -1,12 +1,17 @@
 import { ReporteObjetoPerdido } from '../model/reporteObjetoPerdido.js';
 import { convertirFechaATexto } from '../model/fecha.js';
 import { BLOQUES } from '../model/bloques.js';
+import { CATEGORIAS } from '../model/categorias.js';
 
 export class ReportePresenter {
   constructor(repositorio, sesion, obtenerFechaActual = () => new Date()) {
     this.repositorio = repositorio;
     this.sesion = sesion;
     this.obtenerFechaActual = obtenerFechaActual;
+  }
+
+  obtenerCategorias() {
+    return CATEGORIAS;
   }
 
   obtenerBloques() {

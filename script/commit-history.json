@@ -4370,12 +4370,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cabc8c3409cbfa40532ca79b6726b1c839e4139c",
     "author": "majo",
     "commit": {
       "date": "2026-11-17T07:54:02.000Z",
       "message": "feat: rechazar una categoría que no está en la lista",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/cabc8c3409cbfa40532ca79b6726b1c839e4139c"
     },
     "stats": {
       "total": 16,
@@ -4385,6 +4385,25 @@
     },
     "coverage": 98.64,
     "test_count": 159,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-17T07:55:24.000Z",
+      "message": "feat: ofrecer la lista de categorías al formulario de reporte",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 15,
+      "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.64,
+    "test_count": 160,
     "failed_tests": 0,
     "conclusion": "success"
   }
