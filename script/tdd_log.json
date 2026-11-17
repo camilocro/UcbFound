@@ -5028,9 +5028,39 @@
     "testId": 220
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3c51069f52808f367fa556d72653aaf7f3a75b61",
     "commitName": "feat: avisar cuando no hay objetos encontrados en ese lugar (HU-19)",
     "commitTimestamp": 1794922087233,
     "testId": 220
+  },
+  {
+    "numPassedTests": 164,
+    "failedTests": 1,
+    "numTotalTests": 165,
+    "timestamp": 1794922126036,
+    "success": false,
+    "testId": 221
+  },
+  {
+    "numPassedTests": 165,
+    "failedTests": 0,
+    "numTotalTests": 165,
+    "timestamp": 1794922200771,
+    "success": true,
+    "testId": 221
+  },
+  {
+    "numPassedTests": 165,
+    "failedTests": 0,
+    "numTotalTests": 165,
+    "timestamp": 1794922243252,
+    "success": true,
+    "testId": 221
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: filtrar por lugar en la búsqueda y quitar el filtro (HU-19)",
+    "commitTimestamp": 1794922368651,
+    "testId": 221
   }
 ]

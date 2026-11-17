@@ -4560,12 +4560,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3c51069f52808f367fa556d72653aaf7f3a75b61",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-17T13:27:49.000Z",
       "message": "feat: avisar cuando no hay objetos encontrados en ese lugar (HU-19)",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/3c51069f52808f367fa556d72653aaf7f3a75b61"
     },
     "stats": {
       "total": 13,
@@ -4575,6 +4575,25 @@
     },
     "coverage": 98.66,
     "test_count": 164,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-17T13:32:34.000Z",
+      "message": "feat: filtrar por lugar en la búsqueda y quitar el filtro (HU-19)",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 106,
+      "additions": 82,
+      "deletions": 24,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.66,
+    "test_count": 165,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -779,3 +779,29 @@ body {
     font-size: 1.1rem;
   }
 }
+
+/* Búsqueda: filtros de categoría y lugar (HU-19) */
+.filtros {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.filtros__quitar {
+  align-self: flex-start;
+  padding: 4px 0;
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--azul);
+  background: none;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .filtros {
+    grid-template-columns: 1fr;
+  }
+}

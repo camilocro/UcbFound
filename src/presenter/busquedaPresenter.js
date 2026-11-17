@@ -16,9 +16,9 @@ export class BusquedaPresenter {
     return [TODOS_LOS_LUGARES, ...BLOQUES];
   }
 
-  buscar(texto, categoria = TODAS_LAS_CATEGORIAS) {
+   buscar(texto, categoria = TODAS_LAS_CATEGORIAS, lugar = TODOS_LOS_LUGARES) {
     const buscador = new BuscadorObjetos(this.repositorio.obtenerTodos());
-    const resultado = buscador.buscar(texto, categoria);
+       const resultado = buscador.buscar(texto, categoria, lugar);
 
     return {
       ...resultado,
