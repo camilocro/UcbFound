@@ -4769,12 +4769,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e7d0adc1d1cefcd5d10c429747e8ce0b993d9b51",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-17T14:30:23.000Z",
       "message": "feat: rechazar un bloque que no está en la lista al registrar un objeto",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/e7d0adc1d1cefcd5d10c429747e8ce0b993d9b51"
     },
     "stats": {
       "total": 9,
@@ -4803,6 +4803,25 @@
     },
     "coverage": 98.66,
     "test_count": 168,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-17T15:11:24.000Z",
+      "message": "feat: definir las opciones de la barra de navegación",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 29,
+      "additions": 29,
+      "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.67,
+    "test_count": 169,
     "failed_tests": 0,
     "conclusion": "success"
   }
