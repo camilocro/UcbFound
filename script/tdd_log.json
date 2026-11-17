@@ -4984,9 +4984,31 @@
     "testId": 218
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cf5f2c96e725de52badce326b138589897e0b856",
     "commitName": "feat: ofrecer la lista de lugares para buscar (HU-19)",
     "commitTimestamp": 1794921850722,
     "testId": 218
+  },
+  {
+    "numPassedTests": 162,
+    "failedTests": 1,
+    "numTotalTests": 163,
+    "timestamp": 1794921879946,
+    "success": false,
+    "testId": 219
+  },
+  {
+    "numPassedTests": 163,
+    "failedTests": 0,
+    "numTotalTests": 163,
+    "timestamp": 1794921945708,
+    "success": true,
+    "testId": 219
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: buscar objetos por lugar, junto con la categoría (HU-19)",
+    "commitTimestamp": 1794921985868,
+    "testId": 219
   }
 ]
