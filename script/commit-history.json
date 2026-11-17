@@ -4674,12 +4674,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d980075438de27b62209296650849859704933e6",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-17T13:52:14.000Z",
       "message": "chore: resolver conflictos con main",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/d980075438de27b62209296650849859704933e6"
     },
     "stats": {
       "total": 45,
@@ -4708,6 +4708,25 @@
     },
     "coverage": 98.66,
     "test_count": 165,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-17T14:04:19.000Z",
+      "message": "feat: mostrar el celular de quien encontró el objeto al encargado",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 16,
+      "deletions": 0,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.66,
+    "test_count": 166,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -5120,7 +5120,7 @@
     "testId": 222
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d980075438de27b62209296650849859704933e6",
     "commitName": "chore: resolver conflictos con main",
     "commitTimestamp": 1794923548504,
     "testId": 222
@@ -5130,5 +5130,27 @@
     "commitName": "Merge remote-tracking branch 'origin/main' into style/registrar-objeto-encontrado\n\n# Conflicts:\n#\tscript/commit-history.json\n#\tscript/tdd_log.json",
     "commitTimestamp": 1794923874850,
     "testId": 223
+  },
+  {
+    "numPassedTests": 165,
+    "failedTests": 1,
+    "numTotalTests": 166,
+    "timestamp": 1794924208962,
+    "success": false,
+    "testId": 224
+  },
+  {
+    "numPassedTests": 166,
+    "failedTests": 0,
+    "numTotalTests": 166,
+    "timestamp": 1794924234663,
+    "success": true,
+    "testId": 224
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar el celular de quien encontró el objeto al encargado",
+    "commitTimestamp": 1794924267390,
+    "testId": 224
   }
 ]
