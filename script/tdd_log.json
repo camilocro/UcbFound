@@ -4982,9 +4982,23 @@
     "testId": 218
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2acc35351de42fc1f911b09aff67995ec0ef0499",
     "commitName": "style: dar ancho al contenedor del formulario de crear cuenta",
     "commitTimestamp": 1794922587563,
     "testId": 219
+  },
+  {
+    "numPassedTests": 161,
+    "failedTests": 0,
+    "numTotalTests": 161,
+    "timestamp": 1794922861370,
+    "success": true,
+    "testId": 220
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style: aplicar el diseño del prototipo a la pantalla de reportar objeto perdido",
+    "commitTimestamp": 1794922915830,
+    "testId": 220
   }
 ]

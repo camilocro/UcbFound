@@ -4541,17 +4541,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2acc35351de42fc1f911b09aff67995ec0ef0499",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-17T13:36:20.000Z",
       "message": "style: dar ancho al contenedor del formulario de crear cuenta",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/2acc35351de42fc1f911b09aff67995ec0ef0499"
     },
     "stats": {
       "total": 6,
       "additions": 5,
       "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.64,
+    "test_count": 161,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-17T13:41:48.000Z",
+      "message": "style: aplicar el diseño del prototipo a la pantalla de reportar objeto perdido",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 7,
+      "deletions": 8,
       "date": "2026-11-17"
     },
     "coverage": 98.64,
