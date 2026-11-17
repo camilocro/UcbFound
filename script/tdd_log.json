@@ -4746,9 +4746,15 @@
     "testId": 205
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c40a87045df2951afd9837566d2c11063690c314",
     "commitName": "docs: agregar las pruebas manuales del sprint 2",
     "commitTimestamp": 1794881605957,
     "testId": 205
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "docs: marcar los resultados de las pruebas manuales del sprint 2",
+    "commitTimestamp": 1794883098978,
+    "testId": 206
   }
 ]
