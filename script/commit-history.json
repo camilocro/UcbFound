@@ -4788,12 +4788,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "561e29f1b4ef9fc7997071d575907b8ab642fd8d",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-17T14:31:32.000Z",
       "message": "refactor: partir la firma de registrar en varias líneas",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/561e29f1b4ef9fc7997071d575907b8ab642fd8d"
     },
     "stats": {
       "total": 5,
@@ -4822,6 +4822,25 @@
     },
     "coverage": 98.66,
     "test_count": 169,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-17T14:41:52.000Z",
+      "message": "feat: guardar el celular del reporte sin espacios al principio ni al final",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.66,
+    "test_count": 170,
     "failed_tests": 0,
     "conclusion": "success"
   }

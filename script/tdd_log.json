@@ -5212,7 +5212,7 @@
     "testId": 228
   },
   {
-    "commitId": "HEAD",
+    "commitId": "561e29f1b4ef9fc7997071d575907b8ab642fd8d",
     "commitName": "refactor: partir la firma de registrar en varias líneas",
     "commitTimestamp": 1794925901517,
     "testId": 228
@@ -5238,5 +5238,27 @@
     "commitName": "feat: aceptar un celular con espacios al principio o al final",
     "commitTimestamp": 1794926404139,
     "testId": 229
+  },
+  {
+    "numPassedTests": 169,
+    "failedTests": 1,
+    "numTotalTests": 170,
+    "timestamp": 1794926444791,
+    "success": false,
+    "testId": 230
+  },
+  {
+    "numPassedTests": 170,
+    "failedTests": 0,
+    "numTotalTests": 170,
+    "timestamp": 1794926486982,
+    "success": true,
+    "testId": 230
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: guardar el celular del reporte sin espacios al principio ni al final",
+    "commitTimestamp": 1794926521042,
+    "testId": 230
   }
 ]

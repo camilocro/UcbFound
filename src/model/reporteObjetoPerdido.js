@@ -27,7 +27,7 @@ export class ReporteObjetoPerdido {
       categoria,
       bloque,
       aula,
-      celular,
+      celular: celular?.trim(),
     });
     if (objeto.tieneNombreOFechaVacios()) {
       return crearError(MENSAJES_REPORTE.NOMBRE_O_FECHA_VACIOS);
