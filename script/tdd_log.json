@@ -4876,9 +4876,29 @@
     "testId": 212
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0b415220fd3e3159a8f942c4b631c53c9facff9f",
     "commitName": "feat: agregar el campo de categoría al formulario de reporte",
     "commitTimestamp": 1794902210535,
     "testId": 212
+  },
+  {
+    "numPassedTests": 160,
+    "failedTests": 0,
+    "numTotalTests": 160,
+    "timestamp": 1794902834351,
+    "success": true,
+    "testId": 213
+  },
+  {
+    "commitId": "3c50721204466cfe1678abf35b056dc4bbb706d5",
+    "commitName": "feat: mostrar el botón para buscar objetos encontrados en una portada arriba del inicio",
+    "commitTimestamp": 1794903523005,
+    "testId": 213
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style: dar al botón de búsqueda fondo blanco, borde amarillo y una lupa",
+    "commitTimestamp": 1794903610316,
+    "testId": 214
   }
 ]
