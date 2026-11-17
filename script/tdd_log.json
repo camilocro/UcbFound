@@ -4940,9 +4940,23 @@
     "testId": 216
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1ca2e155eb38bade51639f45e058d28210844828",
     "commitName": "feat: rechazar un bloque que no está en la lista",
     "commitTimestamp": 1794904151620,
     "testId": 216
+  },
+  {
+    "numPassedTests": 161,
+    "failedTests": 0,
+    "numTotalTests": 161,
+    "timestamp": 1794904314140,
+    "success": true,
+    "testId": 217
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style: quitar la clase boton--destacado que ya no se usa",
+    "commitTimestamp": 1794904329895,
+    "testId": 217
   }
 ]

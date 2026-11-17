@@ -4484,17 +4484,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1ca2e155eb38bade51639f45e058d28210844828",
     "author": "majo",
     "commit": {
       "date": "2026-11-17T08:28:58.000Z",
       "message": "feat: rechazar un bloque que no está en la lista",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/1ca2e155eb38bade51639f45e058d28210844828"
     },
     "stats": {
       "total": 16,
       "additions": 15,
       "deletions": 1,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.64,
+    "test_count": 161,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "majo",
+    "commit": {
+      "date": "2026-11-17T08:31:59.000Z",
+      "message": "style: quitar la clase boton--destacado que ya no se usa",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 1,
+      "deletions": 5,
       "date": "2026-11-17"
     },
     "coverage": 98.64,

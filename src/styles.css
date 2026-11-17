@@ -710,11 +710,7 @@ body {
   font-size: 0.9rem;
   color: var(--texto);
 }
-.boton--destacado {
-  padding: 20px;
-  font-size: 1.25rem;
-  box-shadow: 0 4px 12px rgba(11, 42, 91, 0.2);
-}
+
 .contenido:has(.portada) {
   align-content: flex-start;
 }
