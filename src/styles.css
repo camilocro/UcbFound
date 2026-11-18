@@ -935,3 +935,6 @@ body {
     margin-left: auto;
   }
 }
+.lista-objetos > li {
+  min-width: 0;
+}

@@ -5346,7 +5346,7 @@
     "testId": 233
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4ad01c53a49971761e30f75d5aedf99bbcaa2f75",
     "commitName": "style: mejorar la apariencia de la barra de navegación",
     "commitTimestamp": 1794929864501,
     "testId": 233
@@ -5364,5 +5364,19 @@
     "commitName": "style: mejorar la apariencia de la barra de navegación",
     "commitTimestamp": 1794929930890,
     "testId": 234
+  },
+  {
+    "numPassedTests": 173,
+    "failedTests": 0,
+    "numTotalTests": 173,
+    "timestamp": 1795032348492,
+    "success": true,
+    "testId": 235
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style: evitar que la lista de resultados se salga de la pantalla en el celular",
+    "commitTimestamp": 1795032471976,
+    "testId": 235
   }
 ]

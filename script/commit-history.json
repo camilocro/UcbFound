@@ -4883,12 +4883,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4ad01c53a49971761e30f75d5aedf99bbcaa2f75",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-17T15:37:29.000Z",
       "message": "style: mejorar la apariencia de la barra de navegación",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/4ad01c53a49971761e30f75d5aedf99bbcaa2f75"
     },
     "stats": {
       "total": 162,
@@ -4914,6 +4914,25 @@
       "additions": 0,
       "deletions": 0,
       "date": "2026-11-17"
+    },
+    "coverage": 98.69,
+    "test_count": 173,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-18T20:07:30.000Z",
+      "message": "style: evitar que la lista de resultados se salga de la pantalla en el celular",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 4,
+      "deletions": 1,
+      "date": "2026-11-18"
     },
     "coverage": 98.69,
     "test_count": 173,
