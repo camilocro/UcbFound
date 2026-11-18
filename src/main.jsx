@@ -22,6 +22,7 @@ import { ReclamoPresenter } from './presenter/reclamoPresenter.js';
 import { Sesion } from './model/sesion.js';
 import { SesionPresenter } from './presenter/sesionPresenter.js';
 import VistaObjetosGuardados from './view/VistaObjetosGuardados.jsx';
+import BarraNavegacion from './view/BarraNavegacion.jsx';
 import { ObjetosGuardadosPresenter } from './presenter/objetosGuardadosPresenter.js';
 import VistaMisReportes from './view/VistaMisReportes.jsx';
 import { MisReportesPresenter } from './presenter/misReportesPresenter.js';
@@ -77,7 +78,11 @@ function App() {
       <header className="encabezado">
         <span className="logo"><span>UCB</span>Found</span>
         <div className="encabezado__acciones">
-          <span className="encabezado__texto">Objetos perdidos y encontrados</span>
+          {usuario ? (
+            <BarraNavegacion opciones={sesionPresenter.obtenerOpcionesDeNavegacion(vista.pagina)} />
+          ) : (
+            <span className="encabezado__texto">Objetos perdidos y encontrados</span>
+          )}
           {usuario && (
             <button id="cerrar-sesion-button" type="button" className="boton-salir" onClick={() => irA(sesionPresenter.cerrarSesion())}>
               Cerrar sesión

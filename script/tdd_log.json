@@ -5212,16 +5212,24 @@
     "testId": 228
   },
   {
-    "commitId": "561e29f1b4ef9fc7997071d575907b8ab642fd8d",
+    "commitId": "a99d52bad14a5f7890331d5edfb5416f32ac040b",
     "commitName": "refactor: partir la firma de registrar en varias líneas",
     "commitTimestamp": 1794925901517,
     "testId": 228
   },
   {
     "numPassedTests": 168,
-    "failedTests": 1,
-    "numTotalTests": 169,
-    "timestamp": 1794926168742,
+    "failedTests": 0,
+    "numTotalTests": 168,
+    "timestamp": 1794928183594,
+    "success": true,
+    "testId": 229
+  },
+  {
+    "numPassedTests": 168,
+    "failedTests": 0,
+    "numTotalTests": 168,
+    "timestamp": 1794928244816,
     "success": false,
     "testId": 229
   },
@@ -5229,21 +5237,21 @@
     "numPassedTests": 169,
     "failedTests": 0,
     "numTotalTests": 169,
-    "timestamp": 1794926261805,
+    "timestamp": 1794928277606,
     "success": true,
     "testId": 229
   },
   {
-    "commitId": "d0d8dc5a3cf2812a709147b4386db4e91a6b8104",
-    "commitName": "feat: aceptar un celular con espacios al principio o al final",
-    "commitTimestamp": 1794926404139,
+    "commitId": "8ddf58c41e27e2c1e5982e27ace5a4bd16455631",
+    "commitName": "feat: definir las opciones de la barra de navegación",
+    "commitTimestamp": 1794928296105,
     "testId": 229
   },
   {
     "numPassedTests": 169,
     "failedTests": 1,
     "numTotalTests": 170,
-    "timestamp": 1794926444791,
+    "timestamp": 1794928342116,
     "success": false,
     "testId": 230
   },
@@ -5251,21 +5259,29 @@
     "numPassedTests": 170,
     "failedTests": 0,
     "numTotalTests": 170,
-    "timestamp": 1794926486982,
+    "timestamp": 1794928363321,
     "success": true,
     "testId": 230
   },
   {
-    "commitId": "8822e49523b153620ed224a7adf10e2f41a1a4ae",
-    "commitName": "feat: guardar el celular del reporte sin espacios al principio ni al final",
-    "commitTimestamp": 1794926521042,
+    "numPassedTests": 170,
+    "failedTests": 0,
+    "numTotalTests": 170,
+    "timestamp": 1794928440744,
+    "success": true,
+    "testId": 230
+  },
+  {
+    "commitId": "600222b2559bfaf410365893c080c058274bb4d1",
+    "commitName": "feat: mostrar Objetos guardados en la barra solo al encargado",
+    "commitTimestamp": 1794928457364,
     "testId": 230
   },
   {
     "numPassedTests": 170,
     "failedTests": 1,
     "numTotalTests": 171,
-    "timestamp": 1794926557260,
+    "timestamp": 1794928478393,
     "success": false,
     "testId": 231
   },
@@ -5273,56 +5289,86 @@
     "numPassedTests": 171,
     "failedTests": 0,
     "numTotalTests": 171,
-    "timestamp": 1794926590817,
+    "timestamp": 1794928497161,
     "success": true,
     "testId": 231
   },
   {
-    "commitId": "63a3d29573a70886aa8b24f8ae57fd23b8c38359",
-    "commitName": "feat: guardar el celular del objeto encontrado sin espacios al principio ni al final",
-    "commitTimestamp": 1794926633348,
+    "commitId": "b9a3907ecacc600e25a743e28908d32abba9e610",
+    "commitName": "feat: marcar en la barra la página actual",
+    "commitTimestamp": 1794928509998,
     "testId": 231
   },
   {
     "numPassedTests": 171,
-    "failedTests": 0,
-    "numTotalTests": 171,
-    "timestamp": 1794926669538,
-    "success": true,
-    "testId": 232
-  },
-  {
-    "commitId": "65de768233467d0c088c20525f60100c41c8cc06",
-    "commitName": "refactor: ordenar los nombres de las pruebas de celular por criterio",
-    "commitTimestamp": 1794926701558,
+    "failedTests": 1,
+    "numTotalTests": 172,
+    "timestamp": 1794928534522,
+    "success": false,
     "testId": 232
   },
   {
     "numPassedTests": 172,
     "failedTests": 0,
     "numTotalTests": 172,
-    "timestamp": 1794926728379,
+    "timestamp": 1794928719254,
     "success": true,
-    "testId": 233
+    "testId": 232
   },
   {
-    "commitId": "HEAD",
-    "commitName": "test: aceptar un celular que empieza con 6",
-    "commitTimestamp": 1794926796031,
+    "commitId": "7c8729c2065409d2e7f8fb6a3b1269d1cd6b7eb4",
+    "commitName": "feat: no mostrar opciones de navegación sin sesión",
+    "commitTimestamp": 1794928754291,
+    "testId": 232
+  },
+  {
+    "numPassedTests": 172,
+    "failedTests": 1,
+    "numTotalTests": 173,
+    "timestamp": 1794928778019,
+    "success": false,
     "testId": 233
   },
   {
     "numPassedTests": 173,
     "failedTests": 0,
     "numTotalTests": 173,
-    "timestamp": 1794926833260,
+    "timestamp": 1794928821225,
+    "success": true,
+    "testId": 233
+  },
+  {
+    "numPassedTests": 173,
+    "failedTests": 0,
+    "numTotalTests": 173,
+    "timestamp": 1794929585050,
+    "success": true,
+    "testId": 233
+  },
+  {
+    "commitId": "ec32c6cd2e07ad1aad73a0d156d0df8a2bfa3db9",
+    "commitName": "style: mejorar la apariencia de la barra de navegación",
+    "commitTimestamp": 1794929864501,
+    "testId": 233
+  },
+  {
+    "numPassedTests": 173,
+    "failedTests": 0,
+    "numTotalTests": 173,
+    "timestamp": 1794929921752,
     "success": true,
     "testId": 234
   },
   {
     "commitId": "HEAD",
-    "commitName": "test: rechazar un celular de más de 8 dígitos",
-    "commitTimestamp": 1794926854122,
+    "commitName": "style: mejorar la apariencia de la barra de navegación",
+    "commitTimestamp": 1794929930890,
     "testId": 234
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Merge remote-tracking branch 'origin/main' into fix/celular-con-espacios\n\n# Conflicts:\n#\tscript/commit-history.json\n#\tscript/tdd_log.json",
+    "commitTimestamp": 1795032393556,
+    "testId": 235
   }
 ]

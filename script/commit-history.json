@@ -4788,12 +4788,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "561e29f1b4ef9fc7997071d575907b8ab642fd8d",
+    "sha": "a99d52bad14a5f7890331d5edfb5416f32ac040b",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-11-17T14:31:32.000Z",
       "message": "refactor: partir la firma de registrar en varias líneas",
-      "url": "https://github.com/camilocro/UcbFound/commit/561e29f1b4ef9fc7997071d575907b8ab642fd8d"
+      "url": "https://github.com/camilocro/UcbFound/commit/a99d52bad14a5f7890331d5edfb5416f32ac040b"
     },
     "stats": {
       "total": 5,
@@ -4807,116 +4807,135 @@
     "conclusion": "success"
   },
   {
-    "sha": "d0d8dc5a3cf2812a709147b4386db4e91a6b8104",
-    "author": "nazaclaure",
+    "sha": "8ddf58c41e27e2c1e5982e27ace5a4bd16455631",
+    "author": "Celeste Limeira",
     "commit": {
-      "date": "2026-11-17T14:39:03.000Z",
-      "message": "feat: aceptar un celular con espacios al principio o al final",
-      "url": "https://github.com/camilocro/UcbFound/commit/d0d8dc5a3cf2812a709147b4386db4e91a6b8104"
+      "date": "2026-11-17T15:11:24.000Z",
+      "message": "feat: definir las opciones de la barra de navegación",
+      "url": "https://github.com/camilocro/UcbFound/commit/8ddf58c41e27e2c1e5982e27ace5a4bd16455631"
     },
     "stats": {
-      "total": 7,
-      "additions": 6,
-      "deletions": 1,
+      "total": 29,
+      "additions": 29,
+      "deletions": 0,
       "date": "2026-11-17"
     },
-    "coverage": 98.66,
+    "coverage": 98.67,
     "test_count": 169,
     "failed_tests": 0,
     "conclusion": "success"
   },
   {
-    "sha": "8822e49523b153620ed224a7adf10e2f41a1a4ae",
-    "author": "nazaclaure",
+    "sha": "600222b2559bfaf410365893c080c058274bb4d1",
+    "author": "Celeste Limeira",
     "commit": {
-      "date": "2026-11-17T14:41:52.000Z",
-      "message": "feat: guardar el celular del reporte sin espacios al principio ni al final",
-      "url": "https://github.com/camilocro/UcbFound/commit/8822e49523b153620ed224a7adf10e2f41a1a4ae"
+      "date": "2026-11-17T15:14:11.000Z",
+      "message": "feat: mostrar Objetos guardados en la barra solo al encargado",
+      "url": "https://github.com/camilocro/UcbFound/commit/600222b2559bfaf410365893c080c058274bb4d1"
     },
     "stats": {
-      "total": 11,
-      "additions": 10,
+      "total": 19,
+      "additions": 18,
       "deletions": 1,
       "date": "2026-11-17"
     },
-    "coverage": 98.66,
+    "coverage": 98.68,
     "test_count": 170,
     "failed_tests": 0,
     "conclusion": "success"
   },
   {
-    "sha": "63a3d29573a70886aa8b24f8ae57fd23b8c38359",
-    "author": "nazaclaure",
+    "sha": "b9a3907ecacc600e25a743e28908d32abba9e610",
+    "author": "Celeste Limeira",
     "commit": {
-      "date": "2026-11-17T14:43:45.000Z",
-      "message": "feat: guardar el celular del objeto encontrado sin espacios al principio ni al final",
-      "url": "https://github.com/camilocro/UcbFound/commit/63a3d29573a70886aa8b24f8ae57fd23b8c38359"
+      "date": "2026-11-17T15:15:03.000Z",
+      "message": "feat: marcar en la barra la página actual",
+      "url": "https://github.com/camilocro/UcbFound/commit/b9a3907ecacc600e25a743e28908d32abba9e610"
     },
     "stats": {
-      "total": 8,
-      "additions": 7,
-      "deletions": 1,
+      "total": 23,
+      "additions": 18,
+      "deletions": 5,
       "date": "2026-11-17"
     },
-    "coverage": 98.66,
+    "coverage": 98.68,
     "test_count": 171,
     "failed_tests": 0,
     "conclusion": "success"
   },
   {
-    "sha": "65de768233467d0c088c20525f60100c41c8cc06",
-    "author": "nazaclaure",
+    "sha": "7c8729c2065409d2e7f8fb6a3b1269d1cd6b7eb4",
+    "author": "Celeste Limeira",
     "commit": {
-      "date": "2026-11-17T14:44:52.000Z",
-      "message": "refactor: ordenar los nombres de las pruebas de celular por criterio",
-      "url": "https://github.com/camilocro/UcbFound/commit/65de768233467d0c088c20525f60100c41c8cc06"
+      "date": "2026-11-17T15:19:08.000Z",
+      "message": "feat: no mostrar opciones de navegación sin sesión",
+      "url": "https://github.com/camilocro/UcbFound/commit/7c8729c2065409d2e7f8fb6a3b1269d1cd6b7eb4"
     },
     "stats": {
-      "total": 6,
-      "additions": 3,
-      "deletions": 3,
+      "total": 18,
+      "additions": 16,
+      "deletions": 2,
       "date": "2026-11-17"
     },
-    "coverage": 98.66,
-    "test_count": 171,
-    "failed_tests": 0,
-    "conclusion": "success"
-  },
-  {
-    "sha": "HEAD",
-    "author": "nazaclaure",
-    "commit": {
-      "date": "2026-11-17T14:46:28.000Z",
-      "message": "test: aceptar un celular que empieza con 6",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
-    },
-    "stats": {
-      "total": 4,
-      "additions": 4,
-      "deletions": 0,
-      "date": "2026-11-17"
-    },
-    "coverage": 98.66,
+    "coverage": 98.43,
     "test_count": 172,
     "failed_tests": 0,
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
-    "author": "nazaclaure",
+    "sha": "ec32c6cd2e07ad1aad73a0d156d0df8a2bfa3db9",
+    "author": "Celeste Limeira",
     "commit": {
-      "date": "2026-11-17T14:47:26.000Z",
-      "message": "test: rechazar un celular de más de 8 dígitos",
+      "date": "2026-11-17T15:37:29.000Z",
+      "message": "style: mejorar la apariencia de la barra de navegación",
+      "url": "https://github.com/camilocro/UcbFound/commit/ec32c6cd2e07ad1aad73a0d156d0df8a2bfa3db9"
+    },
+    "stats": {
+      "total": 162,
+      "additions": 160,
+      "deletions": 2,
+      "date": "2026-11-17"
+    },
+    "coverage": 98.69,
+    "test_count": 173,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-11-17T15:38:44.000Z",
+      "message": "style: mejorar la apariencia de la barra de navegación",
       "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
     },
     "stats": {
-      "total": 4,
-      "additions": 4,
+      "total": 0,
+      "additions": 0,
       "deletions": 0,
       "date": "2026-11-17"
     },
-    "coverage": 98.66,
+    "coverage": 98.69,
     "test_count": 173,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-18T20:05:47.000Z",
+      "message": "Merge remote-tracking branch 'origin/main' into fix/celular-con-espacios\n\n# Conflicts:\n#\tscript/commit-history.json\n#\tscript/tdd_log.json",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 237,
+      "additions": 234,
+      "deletions": 3,
+      "date": "2026-11-18"
+    },
+    "coverage": 98.69,
+    "test_count": 178,
     "failed_tests": 0,
     "conclusion": "success"
   }
