@@ -4883,12 +4883,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ec32c6cd2e07ad1aad73a0d156d0df8a2bfa3db9",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-17T15:37:29.000Z",
       "message": "style: mejorar la apariencia de la barra de navegación",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/ec32c6cd2e07ad1aad73a0d156d0df8a2bfa3db9"
     },
     "stats": {
       "total": 162,
@@ -4917,6 +4917,25 @@
     },
     "coverage": 98.69,
     "test_count": 173,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-11-18T20:05:47.000Z",
+      "message": "Merge remote-tracking branch 'origin/main' into fix/celular-con-espacios\n\n# Conflicts:\n#\tscript/commit-history.json\n#\tscript/tdd_log.json",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 237,
+      "additions": 234,
+      "deletions": 3,
+      "date": "2026-11-18"
+    },
+    "coverage": 98.69,
+    "test_count": 178,
     "failed_tests": 0,
     "conclusion": "success"
   }

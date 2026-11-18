@@ -139,3 +139,9 @@ describe('HU-12 Bloque fuera de la lista', () => {
     expect(resultado).toEqual({ exito: false, mensaje: 'Es necesario indicar el bloque donde lo encontraste' });
   });
 });
+describe('HU-20 Criterio 2: celular con espacios', () => {
+  it('debería guardar el celular sin los espacios al principio o al final', () => {
+    const resultado = registro.registrar({ ...datosValidos, celular: ' 71234567 ' }, CORREO);
+    expect(resultado.objeto.celular).toBe('71234567');
+  });
+});
