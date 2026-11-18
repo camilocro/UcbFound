@@ -4883,12 +4883,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "4ad01c53a49971761e30f75d5aedf99bbcaa2f75",
+    "sha": "ec32c6cd2e07ad1aad73a0d156d0df8a2bfa3db9",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-17T15:37:29.000Z",
       "message": "style: mejorar la apariencia de la barra de navegación",
-      "url": "https://github.com/camilocro/UcbFound/commit/4ad01c53a49971761e30f75d5aedf99bbcaa2f75"
+      "url": "https://github.com/camilocro/UcbFound/commit/ec32c6cd2e07ad1aad73a0d156d0df8a2bfa3db9"
     },
     "stats": {
       "total": 162,
@@ -4902,12 +4902,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b7d433be9750f2348e10f7267688332f8a792bc4",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-11-17T15:38:44.000Z",
       "message": "style: mejorar la apariencia de la barra de navegación",
-      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+      "url": "https://github.com/camilocro/UcbFound/commit/b7d433be9750f2348e10f7267688332f8a792bc4"
     },
     "stats": {
       "total": 0,
@@ -4922,20 +4922,39 @@
   },
   {
     "sha": "HEAD",
-    "author": "camilocro",
+    "author": "nazaclaure",
     "commit": {
-      "date": "2026-11-18T20:07:30.000Z",
-      "message": "style: evitar que la lista de resultados se salga de la pantalla en el celular",
+      "date": "2026-11-18T20:05:47.000Z",
+      "message": "Merge remote-tracking branch 'origin/main' into fix/celular-con-espacios\n\n# Conflicts:\n#\tscript/commit-history.json\n#\tscript/tdd_log.json",
       "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
     },
     "stats": {
-      "total": 5,
-      "additions": 4,
-      "deletions": 1,
+      "total": 237,
+      "additions": 234,
+      "deletions": 3,
       "date": "2026-11-18"
     },
     "coverage": 98.69,
-    "test_count": 173,
+    "test_count": 178,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "camilocro",
+    "commit": {
+      "date": "2026-11-18T20:14:48.000Z",
+      "message": "Merge branch 'main' of https://github.com/camilocro/UcbFound\n\n# Conflicts:\n#\tscript/commit-history.json\n#\tscript/tdd_log.json",
+      "url": "https://github.com/camilocro/UcbFound/commit/HEAD"
+    },
+    "stats": {
+      "total": 40,
+      "additions": 34,
+      "deletions": 6,
+      "date": "2026-11-18"
+    },
+    "coverage": 98.69,
+    "test_count": 178,
     "failed_tests": 0,
     "conclusion": "success"
   }

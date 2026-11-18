@@ -167,3 +167,12 @@ describe('HU-06 Categoría fuera de la lista', () => {
     });
   });
 });
+describe('HU-16 Criterio 2: celular con espacios', () => {
+  it('debería guardar el celular sin los espacios al principio o al final', () => {
+    const resultado = new ReporteObjetoPerdido(HOY).reportar(
+      { ...datosValidos, celular: ' 71234567 ' },
+      CORREO,
+    );
+    expect(resultado.objeto.celular).toBe('71234567');
+  });
+});

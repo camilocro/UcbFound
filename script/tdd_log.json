@@ -5346,7 +5346,7 @@
     "testId": 233
   },
   {
-    "commitId": "4ad01c53a49971761e30f75d5aedf99bbcaa2f75",
+    "commitId": "ec32c6cd2e07ad1aad73a0d156d0df8a2bfa3db9",
     "commitName": "style: mejorar la apariencia de la barra de navegación",
     "commitTimestamp": 1794929864501,
     "testId": 233
@@ -5360,23 +5360,21 @@
     "testId": 234
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b7d433be9750f2348e10f7267688332f8a792bc4",
     "commitName": "style: mejorar la apariencia de la barra de navegación",
     "commitTimestamp": 1794929930890,
     "testId": 234
   },
   {
-    "numPassedTests": 173,
-    "failedTests": 0,
-    "numTotalTests": 173,
-    "timestamp": 1795032348492,
-    "success": true,
+    "commitId": "HEAD",
+    "commitName": "Merge remote-tracking branch 'origin/main' into fix/celular-con-espacios\n\n# Conflicts:\n#\tscript/commit-history.json\n#\tscript/tdd_log.json",
+    "commitTimestamp": 1795032393556,
     "testId": 235
   },
   {
     "commitId": "HEAD",
-    "commitName": "style: evitar que la lista de resultados se salga de la pantalla en el celular",
-    "commitTimestamp": 1795032471976,
-    "testId": 235
+    "commitName": "Merge branch 'main' of https://github.com/camilocro/UcbFound\n\n# Conflicts:\n#\tscript/commit-history.json\n#\tscript/tdd_log.json",
+    "commitTimestamp": 1795032916123,
+    "testId": 236
   }
 ]
